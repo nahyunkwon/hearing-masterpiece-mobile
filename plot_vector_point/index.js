@@ -1,8 +1,8 @@
 var el = d3.select('.js-map'),
       // 150 DPI image
-      width = 1743 / 2,
+      width = 1000,
       // 150 DPI image
-      height = 1421 / 2,
+      height = 1000,
       // Exported bounds of raster image
       rasterBounds = [[-122.7895, 45.4394], [-122.5015, 45.6039]]
 
