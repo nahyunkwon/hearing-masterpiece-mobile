@@ -1,69 +1,47 @@
-var n = 40,
-    random = d3.random.normal(0, .2),
-    data = d3.range(n).map(random);
+var margin = {top: 20, right: 20, bottom: 30, left: 50},
+    width = 586 - margin.left - margin.right,
+    height = 640 - margin.top - margin.bottom;
 
-var margin = {top: 20, right: 20, bottom: 20, left: 40},
-    width = 960 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
-
-var x = d3.scale.linear()
-    .domain([0, n - 1])
-    .range([0, width]);
-
-var y = d3.scale.linear()
-    .domain([-1, 1])
-    .range([height, 0]);
-
-var line = d3.svg.line()
-    .x(function(d, i) { return x(i); })
-    .y(function(d, i) { return y(d); });
-
-var svg = d3.select("body").append("svg")
+	var svg = d3.select("body").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    .attr("transform",
+          "translate(" + margin.left + "," + margin.top + ")");
 
-svg.append("defs").append("clipPath")
-    .attr("id", "clip")
-  .append("rect")
-    .attr("width", width)
-    .attr("height", height);
 
-svg.append("g")
-    .attr("class", "x axis")
-    .attr("transform", "translate(0," + y(0) + ")")
-    .call(d3.svg.axis().scale(x).orient("bottom"));
+  var x = d3.scaleLinear().range([0, 500]);
+    var y = d3.scaleLinear().range([500, 0]);
 
-svg.append("g")
-    .attr("class", "y axis")
-    .call(d3.svg.axis().scale(y).orient("left"));
+  x.domain([0, 50]);
+  y.domain([0, 50]);
 
-var path = svg.append("g")
-    .attr("clip-path", "url(#clip)")
-  .append("path")
-    .datum(data)
-    .attr("class", "line")
-    .attr("d", line);
+  var point = {"x": 24, "y": 31}
 
-tick();
+  var poly = [{"x":216.7, "y": 211.89},
+        {"x":216.16,"y":217.81},
+        {"x":215.89,"y":220.77},
+        {"x":215.89,"y":223.73}];
 
-function tick() {
 
-  // push a new data point onto the back
-  data.push(random());
+  svg.selectAll("polygon")
+    .data([poly])
+  .enter().append("polygon")
+    .attr("points",function(d) {
+        return d.map(function(d) {
+            return [x(d.x),y(d.y)].join(",");
+        }).join(" ");
+    });
 
-  // redraw the line, and slide it to the left
-  path
-      .attr("d", line)
-      .attr("transform", null)
-    .transition()
-      .duration(500)
-      .ease("linear")
-      .attr("transform", "translate(" + x(-1) + ",0)")
-      .each("end", tick);
+  svg.append("circle")
+    .attr("r", 4)
+    .attr("cx", x(point.x))
+    .attr("cy", y(point.y))
+    .style("opacity", ".9")
 
-  // pop the old data point off the front
-  data.shift();
-
-}
+svg.append("svg:image")
+    .attr('x', -9)
+    .attr('y', -12)
+    .attr('width', 20)
+    .attr('height', 24)
+    .attr("xlink:href", "/Users/kwon/PycharmProjects/image_segmentation/000000000285.png")
