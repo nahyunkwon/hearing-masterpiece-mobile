@@ -60,18 +60,18 @@ var margin = {top: 20, right: 20, bottom: 30, left: 50},
     .attr('height', this.naturalHeight)
 
   var x = d3.scaleLinear().range([0, list_poly.width]);
-    var y = d3.scaleLinear().range([list_poly.height, 0]);
+  var y = d3.scaleLinear().range([0, list_poly.height]);
 
   x.domain([0, list_poly.width]);
   y.domain([0, list_poly.height]);
 
 
   svg.selectAll("polygon")
-    .data(list_poly)
+    .data([list_poly.points])
   .enter().append("polygon")
     .attr("points",function(d) {
         return d.map(function(d) {
-            return [x(d.points[0][0]),y(d.points[0][1])].join(",");
+            return [x(d[0]),y(d[1])].join(",");
         }).join(" ");
     });
 
