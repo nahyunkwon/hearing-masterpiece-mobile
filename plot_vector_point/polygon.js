@@ -19,7 +19,7 @@ var margin = {top: 20, right: 20, bottom: 30, left: 50},
         {"x":500,"y":500},
         {"x":10,"y":500}];
 
-  var list_poly = {"points":[[37.31, 373.02],
+  var list_poly = {"points": [[37.31, 373.02],
   [57.4, 216.61],
  [67.44, 159.21],
  [77.49, 113.29],
@@ -32,7 +32,7 @@ var margin = {top: 20, right: 20, bottom: 30, left: 50},
  [337.22, 68.81],
  [411.84, 93.2 ],
  [454.89, 107.55],
- [496.5 , 255.35],
+ [496.5, 255.35],
  [513.72, 262.53],
  [552.47, 292.66],
  [586., 324.23],
@@ -49,7 +49,7 @@ var margin = {top: 20, right: 20, bottom: 30, left: 50},
  [5.74, 414.64]],
  "object": "bear",
  "width": 586,
- "height":640}
+ "height": 640}
 
   var img_file = '000000000285.jpg';
 
@@ -67,13 +67,12 @@ var margin = {top: 20, right: 20, bottom: 30, left: 50},
 
 
   svg.selectAll("polygon")
-    .data([poly])
+    .data(list_poly)
   .enter().append("polygon")
     .attr("points",function(d) {
         return d.map(function(d) {
-            return [x(d.x),y(d.y)].join(",");
+            return [x(d.points[0][0]),y(d.points[0][1])].join(",");
         }).join(" ");
-
     });
 
   svg.selectAll("polygon")
