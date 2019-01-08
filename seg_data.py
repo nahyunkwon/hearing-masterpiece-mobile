@@ -29,7 +29,7 @@ print(polygons)
 '''
 
 
-dataset = json.load(open("./plot_vector_point/instances_val2017.json", 'r'))
+dataset = json.load(open("./plot_image_segmentation_web/instances_val2017.json", 'r'))
 
 pprint(dataset['categories']) #data는 json 전체를 dictionary 형태로 저장하고 있음
 
