@@ -28,8 +28,32 @@ print(polygons)
 
 '''
 
-with open('/Users/kwon/PycharmProjects/image_segmentation/plot_vector_point/instances_val2017.json') as data_file:
-    data = json.load(data_file)
 
-pprint(data) #data는 json 전체를 dictionary 형태로 저장하고 있음
+dataset = json.load(open("./plot_vector_point/instances_val2017.json", 'r'))
+
+pprint(dataset['categories']) #data는 json 전체를 dictionary 형태로 저장하고 있음
+
+
+
+anns, cats, imgs = {}, {}, {}
+imgToAnns,catToImgs = defaultdict(list),defaultdict(list)
+
+if 'annotations' in dataset:
+    for ann in dataset['annotations']:
+        imgToAnns[ann['image_id']].append(ann)
+        anns[ann['id']] = ann
+
+if 'images' in dataset:
+    for img in dataset['images']:
+        imgs[img['id']] = img
+
+if 'categories' in dataset:
+    for cat in dataset['categories']:
+        cats[cat['id']] = cat
+
+if 'annotations' in dataset and 'categories' in dataset:
+    for ann in dataset['annotations']:
+        catToImgs[ann['category_id']].append(ann['image_id'])
+
+#pprint(dataset['images'])
 
