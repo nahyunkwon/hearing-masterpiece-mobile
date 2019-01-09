@@ -29,14 +29,17 @@ var svg = d3.select("body").append("svg")
   function find_by_file_id(image_data, img_id){
     for(var i=0;i<image_data.images.length;i++){
         if(image_data.images[i].id == img_id){
+            console.log(i);
             return image_data.images[i];
         }
-        return -1;
+
     }
+    return -1;
   }
 
   var img_file = find_by_file_id(image_data, img_id);
   var img_file_name = img_file.file_name;
+  console.log(img_file_name);
 
   var image = svg.append('image')
     .attr('xlink:href', "./sample_image/"+img_file_name)
