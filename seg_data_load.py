@@ -85,4 +85,4 @@ for ann in anns:
             break
 
 print(anns)
-print(polygons[0])
+print(polygons)
