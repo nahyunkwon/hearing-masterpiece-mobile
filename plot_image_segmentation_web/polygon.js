@@ -7,7 +7,7 @@ var svg = d3.select("body").append("svg")
   .attr("height", height)
   .append("g");
 
- var img_id = 285;
+ var img_id = 139;
 
   //var anns_file = JSON.parse("./instances_val2017.json");
   //var json = require('./json_sample.json'); //(with path)
@@ -29,7 +29,7 @@ var svg = d3.select("body").append("svg")
   function find_by_file_id(image_data, img_id){
     for(var i=0;i<image_data.images.length;i++){
         if(image_data.images[i].id == img_id){
-            console.log(i);
+            //console.log(i);
             return image_data.images[i];
         }
 
@@ -39,7 +39,7 @@ var svg = d3.select("body").append("svg")
 
   var img_file = find_by_file_id(image_data, img_id);
   var img_file_name = img_file.file_name;
-  console.log(img_file_name);
+  //console.log(img_file_name);
 
   var image = svg.append('image')
     .attr('xlink:href', "./sample_image/"+img_file_name)
@@ -51,14 +51,12 @@ var svg = d3.select("body").append("svg")
 
   x.domain([0, img_file.width]);
   y.domain([0, img_file.height]);
-/*
+
   var tooltip = d3.select("body")
 	.append("div")
 	.style("position", "absolute")
 	.style("z-index", "10")
-	.style("visibility", "hidden")
-	.text(list_poly.object);
-*/
+	.style("visibility", "hidden");
 
   svg.selectAll("polygon")
     .data(img_file.annotations)
@@ -74,5 +72,12 @@ var svg = d3.select("body").append("svg")
   //.style("stroke-width", 5)
   .style("fill",function() {
     return "hsl(" + Math.random() * 360 + ",100%,50%)";
-  });
-
+  })
+  .attr("category", function(d){
+    console.log(d.category);
+    return d.category;})
+  .on("mouseover", function(d){
+            tooltip.text(d.category);
+            return tooltip.style("visibility", "visible");})
+	.on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
+	.on("mouseout", function(){return tooltip.style("visibility", "hidden");});
