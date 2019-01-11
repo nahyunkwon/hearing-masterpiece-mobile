@@ -29,34 +29,37 @@ var svg = d3.select("body").append("svg")
   function find_by_file_id(image_data, img_id){
     for(var i=0;i<image_data.images.length;i++){
         if(image_data.images[i].id == img_id){
-            //console.log(i);
             return image_data.images[i];
         }
-
     }
     return -1;
   }
 
   var img_file = find_by_file_id(image_data, img_id);
   var img_file_name = img_file.file_name;
-  //console.log(img_file_name);
+
+  var tooltip = d3.select("body")
+	.append("div")
+	.style("position", "absolute")
+	.style("z-index", "10")
+	.style("visibility", "hidden")
+	.style("background", "white");
 
   var image = svg.append('image')
     .attr('xlink:href', "./sample_image/"+img_file_name)
     .attr('width', this.naturalWidth)
     .attr('height', this.naturalHeight)
+    .on("mouseover", function(d){
+            tooltip.text("none");
+            return tooltip.style("visibility", "visible");})
+	.on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
+	.on("mouseout", function(){return tooltip.style("visibility", "hidden");});
 
   var x = d3.scaleLinear().range([0, img_file.width]);
   var y = d3.scaleLinear().range([0, img_file.height]);
 
   x.domain([0, img_file.width]);
   y.domain([0, img_file.height]);
-
-  var tooltip = d3.select("body")
-	.append("div")
-	.style("position", "absolute")
-	.style("z-index", "10")
-	.style("visibility", "hidden");
 
   svg.selectAll("polygon")
     .data(img_file.annotations)
@@ -74,7 +77,6 @@ var svg = d3.select("body").append("svg")
     return "hsl(" + Math.random() * 360 + ",100%,50%)";
   })
   .attr("category", function(d){
-    console.log(d.category);
     return d.category;})
   .on("mouseover", function(d){
             tooltip.text(d.category);
