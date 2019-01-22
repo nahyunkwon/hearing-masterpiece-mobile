@@ -53,13 +53,13 @@ print('COCO categories: \n{}\n'.format(' '.join(nms)))
 nms = set([cat['supercategory'] for cat in cats])
 print('COCO supercategories: \n{}'.format(' '.join(nms)))
 
-catIds = coco.getCatIds(catNms=[]);
-imgIds = coco.getImgIds(catIds=catIds );
-imgIds = coco.getImgIds(imgIds = [img_id])
-img = coco.loadImgs(imgIds[np.random.randint(0,len(imgIds))])[0]
+catIds = coco.getCatIds(catNms=[])
+imgIds = coco.getImgIds(catIds=catIds)
+imgIds = coco.getImgIds(imgIds=img_id)
+img = coco.loadImgs(imgIds[np.random.randint(0, len(imgIds))])[0]
 
 # load and display image
-# I = io.imread('%s/images/%s/%s'%(dataDir,dataType,img['file_name']))
+I = io.imread('%s/images/%s/%s'%(dataDir,dataType,img['file_name']))
 # use url to load image
 I = io.imread(img['coco_url'])
 plt.axis('off')
@@ -74,15 +74,26 @@ polygons = []
 
 dataset = json.load(open("./plot_image_segmentation_web/instances_val2017.json", 'r'))
 
+print(anns)
+
+'''
 for ann in anns:
-    for seg in ann['segmentation']:
+    [bbox_x, bbox_y, bbox_w, bbox_h] = ann['bbox']
+    poly = [[bbox_x, bbox_y], [bbox_x, bbox_y + bbox_h], [bbox_x + bbox_w, bbox_y + bbox_h],
+            [bbox_x + bbox_w, bbox_y]]
+    bbox_poly = np.array(poly).reshape((4, 2))
+    
+    for seg in ann['bbox']:
+        print(ann['bbox'])
         poly = np.array(seg).reshape((int(len(seg) / 2), 2))
+
         polygons.append(poly)
 
-    for i in range(0,len(dataset['categories'])):
+    for i in range(0, len(dataset['categories'])):
         if ann['category_id'] == dataset['categories'][i]['id']:
             polygons.append(dataset['categories'][i]['name'])
             break
 
-print(anns)
+#print(anns)
 print(polygons)
+'''

@@ -9,6 +9,8 @@ var svg = d3.select("body").append("svg")
 
  var img_id = 139;
 
+ var seg_mode = "fine";
+
   //var anns_file = JSON.parse("./instances_val2017.json");
   //var json = require('./json_sample.json'); //(with path)
 
@@ -51,7 +53,8 @@ var svg = d3.select("body").append("svg")
     .attr('height', this.naturalHeight)
     .on("mouseover", function(d){
             tooltip.text("none");
-            return tooltip.style("visibility", "visible");})
+            return tooltip
+           .style("visibility", "visible");})
 	.on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
 	.on("mouseout", function(){return tooltip.style("visibility", "hidden");});
 
@@ -61,12 +64,27 @@ var svg = d3.select("body").append("svg")
   x.domain([0, img_file.width]);
   y.domain([0, img_file.height]);
 
-  svg.selectAll("polygon")
-    .data(img_file.annotations)
-    .enter().append("polygon")
-    .attr("points",function(d) {
-        return d.points.map(function(d) {
-                return [x(d[0]),y(d[1])].join(","); }).join(" "); });
+  function draw_polygon(seg_mode){
+    if(seg_mode == "fine"){
+        svg.selectAll("polygon")
+        .data(img_file.annotations)
+        .enter().append("polygon")
+        .attr("points",function(d) {
+            return d.points.map(function(d) {
+                    return [x(d[0]),y(d[1])].join(","); }).join(" "); });
+    }
+
+    else{
+        svg.selectAll("polygon")
+        .data(img_file.annotations)
+        .enter().append("polygon")
+        .attr("bbox",function(d) {
+            return d.bbox.map(function(d) {
+                    return [x(d[0]),y(d[1])].join(","); }).join(" "); });
+    }
+  }
+
+  draw_polygon(seg_mode);
 
   //polygon opacity, fill color(random)
   svg.selectAll("polygon")
