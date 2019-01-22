@@ -7,26 +7,9 @@ var svg = d3.select("body").append("svg")
   .attr("height", height)
   .append("g");
 
- var img_id = 139;
+ var img_id = 36844;
 
- var seg_mode = "fine";
-
-  //var anns_file = JSON.parse("./instances_val2017.json");
-  //var json = require('./json_sample.json'); //(with path)
-
-/*
-  function list_reshape(list, elementsPerSubArray) {
-    var matrix = [], i, k;
-    for (i = 0, k = -1; i < list.length; i++) {
-        if (i % elementsPerSubArray === 0) {
-            k++;
-            matrix[k] = [];
-        }
-        matrix[k].push(list[i]);
-    }
-    return matrix;
-  }
-*/
+ var seg_mode = "fin";
 
   function find_by_file_id(image_data, img_id){
     for(var i=0;i<image_data.images.length;i++){
@@ -65,20 +48,20 @@ var svg = d3.select("body").append("svg")
   y.domain([0, img_file.height]);
 
   function draw_polygon(seg_mode){
-    if(seg_mode == "fine"){
+    if(seg_mode == "fine"){ //fine(polygon mode)
         svg.selectAll("polygon")
         .data(img_file.annotations)
         .enter().append("polygon")
         .attr("points",function(d) {
-            return d.points.map(function(d) {
+            return d.segmentation.map(function(d) {
                     return [x(d[0]),y(d[1])].join(","); }).join(" "); });
     }
 
-    else{
+    else{ //rough(bbox mode)
         svg.selectAll("polygon")
         .data(img_file.annotations)
         .enter().append("polygon")
-        .attr("bbox",function(d) {
+        .attr("points",function(d) {
             return d.bbox.map(function(d) {
                     return [x(d[0]),y(d[1])].join(","); }).join(" "); });
     }
