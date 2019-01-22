@@ -11,23 +11,6 @@ var svg = d3.select("body").append("svg")
 
  var seg_mode = "fine";
 
-  //var anns_file = JSON.parse("./instances_val2017.json");
-  //var json = require('./json_sample.json'); //(with path)
-
-/*
-  function list_reshape(list, elementsPerSubArray) {
-    var matrix = [], i, k;
-    for (i = 0, k = -1; i < list.length; i++) {
-        if (i % elementsPerSubArray === 0) {
-            k++;
-            matrix[k] = [];
-        }
-        matrix[k].push(list[i]);
-    }
-    return matrix;
-  }
-*/
-
   function find_by_file_id(image_data, img_id){
     for(var i=0;i<image_data.images.length;i++){
         if(image_data.images[i].id == img_id){

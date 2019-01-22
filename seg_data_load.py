@@ -76,7 +76,7 @@ dataset = json.load(open("./plot_image_segmentation_web/instances_val2017.json",
 
 print(anns)
 
-'''
+
 for ann in anns:
     [bbox_x, bbox_y, bbox_w, bbox_h] = ann['bbox']
     poly = [[bbox_x, bbox_y], [bbox_x, bbox_y + bbox_h], [bbox_x + bbox_w, bbox_y + bbox_h],
@@ -96,4 +96,3 @@ for ann in anns:
 
 #print(anns)
 print(polygons)
-'''
