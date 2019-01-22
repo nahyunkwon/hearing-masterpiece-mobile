@@ -33,12 +33,22 @@ def get_metadata(dataset, image_ids):
 
                 ann_copy['bbox'] = bbox
 
-                objects = []
+                #objects = []
 
                 for cat in categories:
                     if ann_copy['category_id'] == cat['id']:
-                        ann_copy['category'] = cat['name']
-                        objects.append(ann_copy['category'])
+                        category = cat['name']
+                        ann_copy['category'] = category
+                        '''
+                        cat_count = 1
+
+                        for i in range(0, len(objects)):
+                            if object[i] == category:
+                                cat_count = cat_count+1
+
+                        if cat_count > 1:
+                            ann_copy['category'] = category+str(cat_count)
+                        '''
 
                 for key in ['iscrowd', 'id']:
                     del ann_copy[key]
@@ -47,11 +57,29 @@ def get_metadata(dataset, image_ids):
 
         sorted_ann = sorted(annotations, key=lambda k: k['area'], reverse=True)
 
+        objects = []
+
+        object_counted = []
+
+        for i in annotations:
+            objects.append(i['category'])
+            object_count = objects.count(i['category'])
+
+            if object_count == 1:
+                object_counted.append(i['category'])
+            else:
+                object_counted.append(i['category'] + str(object_count))
+
+        count = 0
+
+        for i in annotations:
+            i['category'] = object_counted[count]
+            count = count + 1
+
         image_copy = image
 
         for key in ['license', 'date_captured', 'flickr_url', 'coco_url']:
             del image_copy[key]
-
 
         image_copy['annotations'] = sorted_ann
 

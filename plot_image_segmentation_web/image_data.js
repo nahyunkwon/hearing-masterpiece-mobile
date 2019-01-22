@@ -93,7 +93,7 @@ var image_data =
       ]
      ],
      "category_id": 72,
-     "category": "tv"
+     "category": "tv2"
     },
     {
      "segmentation": [
@@ -793,7 +793,7 @@ var image_data =
       ]
      ],
      "category_id": 62,
-     "category": "chair"
+     "category": "chair2"
     },
     {
      "segmentation": [
@@ -871,7 +871,7 @@ var image_data =
       ]
      ],
      "category_id": 62,
-     "category": "chair"
+     "category": "chair3"
     },
     {
      "segmentation": [
@@ -1071,7 +1071,7 @@ var image_data =
       ]
      ],
      "category_id": 1,
-     "category": "person"
+     "category": "person2"
     },
     {
      "segmentation": [
@@ -1155,7 +1155,7 @@ var image_data =
       ]
      ],
      "category_id": 84,
-     "category": "book"
+     "category": "book2"
     },
     {
      "segmentation": [
@@ -1317,7 +1317,7 @@ var image_data =
       ]
      ],
      "category_id": 62,
-     "category": "chair"
+     "category": "chair4"
     },
     {
      "segmentation": [
@@ -1363,7 +1363,7 @@ var image_data =
       ]
      ],
      "category_id": 86,
-     "category": "vase"
+     "category": "vase3"
     },
     {
      "segmentation": [
@@ -1441,7 +1441,7 @@ var image_data =
       ]
      ],
      "category_id": 86,
-     "category": "vase"
+     "category": "vase2"
     },
     {
      "segmentation": [
@@ -1483,7 +1483,7 @@ var image_data =
       ]
      ],
      "category_id": 86,
-     "category": "vase"
+     "category": "vase4"
     },
     {
      "segmentation": [
@@ -1525,7 +1525,7 @@ var image_data =
       ]
      ],
      "category_id": 62,
-     "category": "chair"
+     "category": "chair5"
     }
    ]
   },
@@ -2035,7 +2035,7 @@ var image_data =
       ]
      ],
      "category_id": 63,
-     "category": "couch"
+     "category": "couch2"
     },
     {
      "segmentation": [
@@ -2093,7 +2093,7 @@ var image_data =
       ]
      ],
      "category_id": 72,
-     "category": "tv"
+     "category": "tv2"
     },
     {
      "segmentation": [
@@ -2749,7 +2749,7 @@ var image_data =
       ]
      ],
      "category_id": 64,
-     "category": "potted plant"
+     "category": "potted plant5"
     },
     {
      "segmentation": [
@@ -2887,7 +2887,7 @@ var image_data =
       ]
      ],
      "category_id": 64,
-     "category": "potted plant"
+     "category": "potted plant2"
     },
     {
      "segmentation": [
@@ -2989,7 +2989,7 @@ var image_data =
       ]
      ],
      "category_id": 64,
-     "category": "potted plant"
+     "category": "potted plant4"
     },
     {
      "segmentation": [
@@ -3059,7 +3059,7 @@ var image_data =
       ]
      ],
      "category_id": 64,
-     "category": "potted plant"
+     "category": "potted plant3"
     },
     {
      "segmentation": [
