@@ -1,15 +1,15 @@
 var margin = {top: 20, right: 20, bottom: 30, left: 50},
     width = 1000,
-    height = 1000;
+    height = 700;
 
 var svg = d3.select("body").append("svg")
   .attr("width", width)
   .attr("height", height)
   .append("g");
 
- var img_id = 36844;
+ var img_id = 139;
 
- var seg_mode = "fin";
+ var seg_mode = "fine";
 
   function find_by_file_id(image_data, img_id){
     for(var i=0;i<image_data.images.length;i++){
@@ -36,6 +36,8 @@ var svg = d3.select("body").append("svg")
     .attr('height', this.naturalHeight)
     .on("mouseover", function(d){
             tooltip.text("none");
+            responsiveVoice.speak("none", "US English Male");
+            //speechSynthesis.speak(new SpeechSynthesisUtterance('none'));
             return tooltip
            .style("visibility", "visible");})
 	.on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
@@ -81,6 +83,14 @@ var svg = d3.select("body").append("svg")
     return d.category;})
   .on("mouseover", function(d){
             tooltip.text(d.category);
+            //responsiveVoice.speak(d.category, "US English Male");
+            speechSynthesis.speak(new SpeechSynthesisUtterance(d.category));
             return tooltip.style("visibility", "visible");})
 	.on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
 	.on("mouseout", function(){return tooltip.style("visibility", "hidden");});
+
+
+function voice() {
+	const ut = new SpeechSynthesisUtterance('Voice Enabled');
+    speechSynthesis.speak(ut);
+}
