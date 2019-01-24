@@ -15,13 +15,12 @@
 
 <body>
 
-<button id="button1" onclick="button1_click();">Voice</button>
-<script>
-function button1_click() {
-	const ut = new SpeechSynthesisUtterance('Voice Enabled');
-    speechSynthesis.speak(ut);
-}
-</script>
+<div id="option">
+    <input name="VoiceButton"
+           type="button"
+           value="Voice"
+           onclick="voice()" />
+</div>
 
 <script src="image_data.js" ></script>
 <script src="polygon.js"></script>
