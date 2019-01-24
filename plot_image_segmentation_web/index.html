@@ -3,6 +3,7 @@
   <meta charset="utf-8">
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+  <script src="http://code.responsivevoice.org/responsivevoice.js"></script>
     <style>
     body { margin:0;position:fixed;top:0;right:0;bottom:0;left:0; }
 
@@ -13,6 +14,14 @@
 </head>
 
 <body>
+
+<button id="button1" onclick="button1_click();">Voice</button>
+<script>
+function button1_click() {
+	const ut = new SpeechSynthesisUtterance('Voice Enabled');
+    speechSynthesis.speak(ut);
+}
+</script>
 
 <script src="image_data.js" ></script>
 <script src="polygon.js"></script>
