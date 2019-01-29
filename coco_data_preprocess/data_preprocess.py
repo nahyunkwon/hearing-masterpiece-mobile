@@ -1,7 +1,7 @@
 import json
 import numpy as np
 
-dataset = json.load(open("./plot_image_segmentation_web/instances_val2017.json", 'r'))
+dataset = json.load(open("./instances_val2017.json", 'r'))
 
 image_ids = [139, 285, 36844]
 
