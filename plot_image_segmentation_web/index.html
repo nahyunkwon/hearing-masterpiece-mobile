@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <head>
+  <title>Image Segmentation Viewer Interface</title>
   <meta charset="utf-8">
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
@@ -14,15 +15,21 @@
 </head>
 
 <body>
+<div id="main-container">
+  <script src="image_data.js" ></script>
+  <script src="polygon.js"></script>
 
-<div id="option">
+  <div id="wrap">
     <input name="VoiceButton"
            type="button"
            value="Voice"
            onclick="voice()" />
 </div>
 
-<script src="image_data.js" ></script>
-<script src="polygon.js"></script>
+
+</div>
+
+
+
 
 </body>
