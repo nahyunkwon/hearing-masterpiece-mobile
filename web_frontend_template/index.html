@@ -8,6 +8,9 @@
 <!--[if IE 7]><link href="css/ie7-only.css" rel="stylesheet" type="text/css" media=screen><![endif]-->
 <!--[if lt IE 7]><link href="css/ie6-only.css" rel="stylesheet" type="text/css" media=screen><![endif]-->
 <script type="text/javascript" src="js/yetii-min.js"></script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+  <script src="http://code.responsivevoice.org/responsivevoice.js"></script>
 </head>
 <body>
 <div class="container header">
@@ -17,14 +20,11 @@
 <div class="container content">
   <div id="tab-container-1">
     <div class="span-13">
-      <div class="tab" id="tab1"> <a href="javascript:tabber1.next()" title="Click to view next image"><img src="images/fullsize/Agave.jpg" alt="" /></a>
-        <p class="info"> <strong>Starry Night</strong> Photograph description and stuff goes right here. </p>
+      <div class="tab" id="tab1">
+        <a href="javascript:tabber1.next()" title="Click to view next image">
 
-        <div class="span-5 last">
-      <h2>miniGallery</h2>
-      <p>miniGallery is a simple gallery template for anyone out there wishing to use an image gallery which is non-reliant on javascript libraries and extremely light-weight.</p>
-      <p>The javascript used in miniGallery is the awesome Yetii script. Although Yetii is primarily a tab script, it's so flexible that is is easily customised to meet almost any requirements.</p>
-    </div>
+      </a>
+        <p class="info"> <strong>Starry Night</strong> Photograph description and stuff goes right here. </p>
       </div>
       <div class="tab" id="tab2"> <a href="javascript:tabber1.next()" title="Click to view next image"><img src="images/fullsize/Clown Fish.jpg" alt="" /></a>
         <p class="info"> <strong>Photograph title here</strong> Photograph description and stuff goes right here. </p>
@@ -56,8 +56,8 @@
     </div>
     <div class="span-5">
       <ul id="tab-container-1-nav">
-        <li><a href="#tab1"><img src="images/thumbs/Agave.jpg" alt="" /></a></li>
-        <li><a href="#tab2"><img src="images/thumbs/Clown Fish.jpg" alt="" /></a></li>
+        <li><a href="#tab1"><button class="btn success">#starry night</button></a></li>
+        <li><a href="#tab2"><button class="btn success">#test</button></a></li>
         <li><a href="#tab3"><img src="images/thumbs/Daisies.jpg" alt="" /></a></li>
         <li><a href="#tab4"><img src="images/thumbs/Dandelion Seeds.jpg" alt="" /></a></li>
         <li><a href="#tab5"><img src="images/thumbs/Dew Drop.jpg" alt="" /></a></li>
@@ -68,7 +68,11 @@
         <li><a href="#tab10"><img src="images/thumbs/Petals.jpg" alt="" /></a></li>
       </ul>
     </div>
-
+    <div class="span-5 last">
+      <h2>miniGallery</h2>
+      <p>miniGallery is a simple gallery template for anyone out there wishing to use an image gallery which is non-reliant on javascript libraries and extremely light-weight.</p>
+      <p>The javascript used in miniGallery is the awesome Yetii script. Although Yetii is primarily a tab script, it's so flexible that is is easily customised to meet almost any requirements.</p>
+    </div>
   </div>
 </div>
 <div class="container footer">
