@@ -79,12 +79,13 @@ function change_voice_option(voice_flag){
         return "on";
 }
 
-function voice() {
+function voice(voice_flag) {
 	voice_flag = change_voice_option(voice_flag);
 	if(voice_flag == "on")
-	    responsiveVoice.speak("voice enabled");
+	    responsiveVoice.speak("voice enabled", "US English Male");
 	else
-	    responsiveVoice.speak("voice disabled");
+	    responsiveVoice.speak("voice disabled", "US English Male");
+	return voice_flag;
 }
 
 function change_seg_mode(seg_mode){
@@ -152,7 +153,7 @@ var data = [{label: "Voice", x: img_file.width/20, y: img_file.height+50 },
 var button = d3.button()
     .on('press', function(d, i) {
         if(d.label == "Voice"){
-            voice_flag = change_voice_option(voice_flag);
+            voice_flag = voice(voice_flag);
         }
         else if(d.label == "Segmentation Mode"){
             seg_mode = change_seg_mode(seg_mode);
@@ -161,7 +162,7 @@ var button = d3.button()
     })
     .on('release', function(d, i) {
         if(d.label == "Voice"){
-            voice_flag = change_voice_option(voice_flag);
+            voice_flag = voice(voice_flag);
         }
         else if(d.label == "Segmentation Mode"){
             seg_mode = change_seg_mode(seg_mode);
