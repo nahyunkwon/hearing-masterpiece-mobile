@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html>
 <head>
   <title>Image Segmentation Viewer Interface</title>
   <meta charset="utf-8">
@@ -9,19 +8,26 @@
     <style>
     body { margin:0;position:fixed;top:0;right:0;bottom:0;left:0; }
 
-    polygon {
-      fill: CadetBlue
-    }
   </style>
-
-  <link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
 
 <body>
+<center>
 
+<h1>Image Segmentation</h1>
+
+<div id="image">
   <script src="js/image_data.js" ></script>
   <script src="js/polygon.js"></script>
+</div>
 
+<div class="wrap">
+  <input name="VoiceButton"
+         type="button"
+         value="Voice"
+         onclick="voice()" />
+</div>
+<button type="button">Click Me!</button>
+
+</center>
 </body>
-
-</html>

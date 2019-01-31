@@ -1,10 +1,12 @@
 var margin = {top: 20, right: 20, bottom: 30, left: 50},
     width = 1000,
-    height = 700;
+    height = 1000;
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select("#image").append("svg")
   .attr("width", width)
   .attr("height", height)
+  .attr("viewBox", "0 0 1000 1000")
+  .attr("preserveAspectRatio", "xMinYMin meet")
   .append("g");
 
  var img_id = 139;
@@ -23,7 +25,16 @@ var svg = d3.select("body").append("svg")
   var img_file = find_by_file_id(image_data, img_id);
   var img_file_name = img_file.file_name;
 
-  var tooltip = d3.select("body")
+/*
+  function get_objects_list(annotations, img_id){
+    objects_list = []
+    for(var i=0;i<annotations.length;i++){
+
+    }
+  }
+*/
+
+  var tooltip = d3.select("#image")
 	.append("div")
 	.style("position", "absolute")
 	.style("z-index", "10")
@@ -95,5 +106,5 @@ var svg = d3.select("body").append("svg")
 
 function voice() {
 	const ut = new SpeechSynthesisUtterance('Voice Enabled');
-    speechSynthesis.speak(ut);
+    reponsiveVoice.speak(ut);
 }

@@ -22,7 +22,34 @@
     <div class="span-13">
       <div class="tab" id="tab1">
         <a href="javascript:tabber1.next()" title="Click to view next image">
+          <!DOCTYPE html>
+            <head>
+              <title>Image Segmentation Viewer Interface</title>
+              <meta charset="utf-8">
+              <script src="https://d3js.org/d3.v4.min.js"></script>
+              <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+              <script src="http://code.responsivevoice.org/responsivevoice.js"></script>
+            </head>
 
+            <body>
+            <script>
+              var img_id = 139;
+            </script>
+            <center>
+            <div id="image">
+              <script src="js/image_data.js" ></script>
+              <script src="js/polygon.js"></script>
+            </div>
+
+            <div id="wrap">
+              <input name="VoiceButton"
+                     type="button"
+                     value="Voice"
+                     onclick="voice()" />
+            </div>
+
+            </center>
+            </body>
       </a>
         <p class="info"> <strong>Starry Night</strong> Photograph description and stuff goes right here. </p>
       </div>
