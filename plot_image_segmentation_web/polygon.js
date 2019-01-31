@@ -2,15 +2,14 @@ var margin = {top: 20, right: 20, bottom: 30, left: 50},
     width = 1000,
     height = 700;
 
-var svg = d3.select("body").append("svg_image")
+var svg = d3.select("body").append("svg")
   .attr("width", width)
   .attr("height", height)
-  .attr("viewBox", "100 100 1000 700")
   .append("g");
 
  var img_id = 139;
 
- var seg_mode = "fine";
+ var seg_mode = "rough";
 
   function find_by_file_id(image_data, img_id){
     for(var i=0;i<image_data.images.length;i++){
@@ -23,17 +22,6 @@ var svg = d3.select("body").append("svg_image")
 
   var img_file = find_by_file_id(image_data, img_id);
   var img_file_name = img_file.file_name;
-
-  console.log(img_file)
-
-/*
-  function get_objects_list(annotations, img_id){
-    objects_list = []
-    for(var i=0;i<annotations.length;i++){
-
-    }
-  }
-*/
 
   var tooltip = d3.select("body")
 	.append("div")
@@ -48,7 +36,6 @@ var svg = d3.select("body").append("svg_image")
     .attr('height', this.naturalHeight)
     .on("mouseover", function(d){
             tooltip.text("none");
-            responsiveVoice.cancel();
             responsiveVoice.speak("none", "US English Male");
             //speechSynthesis.speak(new SpeechSynthesisUtterance('none'));
             return tooltip
@@ -96,10 +83,8 @@ var svg = d3.select("body").append("svg_image")
     return d.category;})
   .on("mouseover", function(d){
             tooltip.text(d.category);
-            responsiveVoice.cancel();
-            responsiveVoice.speak(d.category, "US English Male");
-            //speachSynthesis.stop();
-            //speechSynthesis.speak(new SpeechSynthesisUtterance(d.category));
+            //responsiveVoice.speak(d.category, "US English Male");
+            speechSynthesis.speak(new SpeechSynthesisUtterance(d.category));
             return tooltip.style("visibility", "visible");})
 	.on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
 	.on("mouseout", function(){return tooltip.style("visibility", "hidden");});
@@ -107,5 +92,5 @@ var svg = d3.select("body").append("svg_image")
 
 function voice() {
 	const ut = new SpeechSynthesisUtterance('Voice Enabled');
-    reponsiveVoice.speak(ut);
+    speechSynthesis.speak(ut);
 }
