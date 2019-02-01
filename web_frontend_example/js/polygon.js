@@ -99,12 +99,19 @@ var voice_flag = "off";
 
 var margin = {top: 20, right: 20, bottom: 30, left: 50},
     width = 1000,
-    height = 1000;
+    height = 500;
 
-var svg = d3.select("#image").append("svg")
+var svg2 = d3.select(".image").append("svg")
+  .attr("width", 1000)
+  .attr("height", 100)
+  .attr("viewBox", "0 0 100 100")
+  .attr("preserveAspectRatio", "xMinYMin meet")
+  .append("g");
+
+var svg = d3.select(".image").append("svg")
   .attr("width", width)
   .attr("height", height)
-  .attr("viewBox", "0 0 1000 1000")
+  .attr("viewBox", "0 0 800 500")
   .attr("preserveAspectRatio", "xMinYMin meet")
   .append("g");
 
@@ -117,7 +124,7 @@ var svg = d3.select("#image").append("svg")
 
   var objects_list = get_objects_list(img_file.annotations);
 
-  var tooltip = d3.select("#image")
+  var tooltip = d3.select(".image")
 	.append("div")
 	.style("position", "absolute")
 	.style("z-index", "10")
@@ -128,6 +135,8 @@ var svg = d3.select("#image").append("svg")
     .attr('xlink:href', "./sample_image/"+img_file_name)
     .attr('width', this.naturalWidth)
     .attr('height', this.naturalHeight)
+	.call(d3.zoom().on("zoom", function () {
+    svg.attr("transform", d3.event.transform);}))
     .on("mouseover", function(d){
             tooltip.text("none");
             if(voice_flag == "on"){
@@ -141,14 +150,14 @@ var svg = d3.select("#image").append("svg")
 
   draw_polygon(seg_mode);
 
-var objects =  svg.append("text")
-   .attr("y", img_file.height+15)//magic number here
-   .attr("x", 0)
+var objects =  svg2.append("text")
+   .attr("y", 93)//magic number here
+   .attr("x", 5)
    .attr("class", "myLabel")//easy to style with CSS
    .text(objects_list.join(", "));
 
-var data = [{label: "Voice", x: img_file.width/20, y: img_file.height+50 },
-            {label: "Segmentation Mode", x: img_file.width/20+100, y: img_file.height+50 }];
+var data = [{label: "Voice", x: 30, y: 60 },
+            {label: "Segmentation Mode", x: 130, y: 60 }];
 
 var button = d3.button()
     .on('press', function(d, i) {
@@ -170,10 +179,9 @@ var button = d3.button()
         }
     });
 
-var buttons = svg.selectAll('.button')
+var buttons = svg2.selectAll('.button')
     .data(data)
   .enter()
     .append('g')
     .attr('class', 'button')
     .call(button);
-

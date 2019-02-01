@@ -21,35 +21,28 @@
   <div id="tab-container-1">
     <div class="span-13">
       <div class="tab" id="tab1">
-        <a href="javascript:tabber1.next()" title="Click to view next image">
           <!DOCTYPE html>
-            <head>
-              <title>Image Segmentation Viewer Interface</title>
-              <meta charset="utf-8">
-              <script src="https://d3js.org/d3.v4.min.js"></script>
-              <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
-              <script src="http://code.responsivevoice.org/responsivevoice.js"></script>
-            </head>
+          <head>
+            <title>Image Segmentation Viewer Interface</title>
+            <meta charset="utf-8">
+            <script src="https://d3js.org/d3.v4.min.js"></script>
+            <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+            <script src="http://code.responsivevoice.org/responsivevoice.js"></script>
+              <script src="js/d3.button.js"></script>
 
-            <body>
-            <script>
-              var img_id = 139;
-            </script>
-            <center>
-            <div id="image">
-              <script src="js/image_data.js" ></script>
-              <script src="js/polygon.js"></script>
-            </div>
+              <link rel="stylesheet" href="css/button.css">
+          </head>
 
-            <div id="wrap">
-              <input name="VoiceButton"
-                     type="button"
-                     value="Voice"
-                     onclick="voice()" />
-            </div>
+          <body>
+          <center>
 
-            </center>
-            </body>
+          <div id="image">
+            <script src="js/image_data.js" ></script>
+            <script src="js/polygon.js"></script>
+          </div>
+
+          </center>
+          </body>
       </a>
         <p class="info"> <strong>Starry Night</strong> Photograph description and stuff goes right here. </p>
       </div>
@@ -83,7 +76,7 @@
     </div>
     <div class="span-5">
       <ul id="tab-container-1-nav">
-        <li><a href="#tab1"><button class="btn success">#starry night</button></a></li>
+        <li><a href="#tab1"><div id="text">A Starry Night</div></a></li>
         <li><a href="#tab2"><button class="btn success">#test</button></a></li>
         <li><a href="#tab3"><img src="images/thumbs/Daisies.jpg" alt="" /></a></li>
         <li><a href="#tab4"><img src="images/thumbs/Dandelion Seeds.jpg" alt="" /></a></li>

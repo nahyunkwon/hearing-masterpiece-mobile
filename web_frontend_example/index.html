@@ -6,18 +6,50 @@
   <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
   <script src="http://code.responsivevoice.org/responsivevoice.js"></script>
     <script src="js/d3.button.js"></script>
+  <style>
+    body{
+      padding: 10px;
+      overflow: hidden
+    }
+    svg{
+      width: 80%;
+      float: left;
+      margin-left: 10px;
+      margin-right: auto
+    }
+    svg2{
+      width: 80%;
+      float: left;
+      margin-left: 10px;
+      margin-right: auto
+    }
+    metadata{
 
+    }
+  </style>
     <link rel="stylesheet" href="css/button.css">
 </head>
 
 <body>
 <center>
 
-<h1>Image Segmentation</h1>
+<h1>Image Segmentation Viewer</h1>
 
-<div id="image">
+<div class="image">
   <script src="js/image_data.js" ></script>
   <script src="js/polygon.js"></script>
+</div>
+
+<div class="metadata">
+  <h3>
+    image1
+  </h3>
+  <h3>
+    image2
+  </h3>
+  <h3>
+    image3
+  </h3>
 </div>
 
 </center>
