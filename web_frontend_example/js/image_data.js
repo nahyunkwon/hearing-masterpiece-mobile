@@ -9,9 +9,9 @@ var image_data =
    "artist": "Vincent van Gogh",
    "year": 1889,
    "medium": "Oil on canvas",
-   "dimensions": "73.7 cm \u00d7 92.1 cm (29 in \u00d7 \u200b36 1\u20444 in)",
+   "dimensions": "73.7 cm × 92.1 cm (29 in × ​36 1⁄4 in)",
    "location": "Museum of Modern Art, New York City",
-   "description": "The Starry Night\u00a0is an oil on canvas by the Dutch\u00a0post-impressionist\u00a0painter\u00a0Vincent van Gogh. Painted in June 1889, it depicts the view from the east-facing window of his asylum room at\u00a0Saint-R\u00e9my-de-Provence, just before sunrise, with the addition of an idealized village. It has been in the permanent collection of the\u00a0Museum of Modern Art\u00a0in New York City since 1941, acquired through the\u00a0Lillie P. Bliss Bequest. Regarded as among Van Gogh's finest works, The Starry Night\u00a0is one of the most recognized paintings in the history of Western culture.",
+   "description": "The Starry Night is an oil on canvas by the Dutch post-impressionist painter Vincent van Gogh. Painted in June 1889, it depicts the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence, just before sunrise, with the addition of an idealized village. It has been in the permanent collection of the Museum of Modern Art in New York City since 1941, acquired through the Lillie P. Bliss Bequest. Regarded as among Van Gogh's finest works, The Starry Night is one of the most recognized paintings in the history of Western culture.",
    "annotations": [
     {
      "segmentation": [
@@ -129,20 +129,20 @@ var image_data =
      "area": 14239.5,
      "bbox": [
       [
-       175.5939259304342,
-       10.94994065914002
+       56.0,
+       6.0
       ],
       [
-       70.68762362679163,
-       5.154012355071372
+       162.0,
+       6.0
       ],
       [
-       54.9717294056785,
-       289.61169775721976
+       162.0,
+       294.0
       ],
       [
-       159.87803170932108,
-       295.40762606128845
+       56.0,
+       294.0
       ]
      ]
     },
@@ -194,20 +194,20 @@ var image_data =
      "area": 1142.5,
      "bbox": [
       [
-       439.109709962169,
-       53.25472887767967
+       384.0,
+       7.0
       ],
       [
-       412.79003783102144,
-       4.771122320302652
+       433.0,
+       7.0
       ],
       [
-       379.5775535939471,
-       22.800756620428757
+       433.0,
+       62.0
       ],
       [
-       405.8972257250946,
-       71.28436317780577
+       384.0,
+       62.0
       ]
      ]
     },
@@ -247,20 +247,20 @@ var image_data =
      "area": 1799.5,
      "bbox": [
       [
-       192.62921348314606,
-       171.60674157303373
+       133.0,
+       129.0
       ],
       [
-       161.8988764044944,
-       122.43820224719103
+       185.0,
+       129.0
       ],
       [
-       126.93258426966293,
-       144.2921348314607
+       185.0,
+       182.0
       ],
       [
-       157.6629213483146,
-       193.4606741573034
+       133.0,
+       182.0
       ]
      ]
     },
@@ -364,20 +364,20 @@ var image_data =
      "area": 7135.0,
      "bbox": [
       [
-       350.97690622014943,
-       107.52879698825646
+       174.0,
+       68.0
       ],
       [
-       182.9007136034163,
-       63.22964544586168
+       344.0,
+       68.0
       ],
       [
-       162.4609765690847,
-       140.7804124290611
+       344.0,
+       163.0
       ],
       [
-       330.5371691858178,
-       185.07956397145585
+       174.0,
+       163.0
       ]
      ]
     },
@@ -501,20 +501,20 @@ var image_data =
      "area": 8442.0,
      "bbox": [
       [
-       457.2594594594595,
-       261.15675675675675
+       179.0,
+       198.0
       ],
       [
-       205.83243243243243,
-       183.79459459459463
+       449.0,
+       198.0
       ],
       [
-       176.51351351351352,
-       279.0810810810811
+       449.0,
+       296.0
       ],
       [
-       427.9405405405406,
-       356.4432432432433
+       179.0,
+       296.0
       ]
      ]
     }
