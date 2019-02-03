@@ -115,7 +115,7 @@ var svg = d3.select(".image").append("svg")
   .attr("preserveAspectRatio", "xMinYMin meet")
   .append("g");
 
- var img_id = 139;
+ var img_id = 1;
 
  var seg_mode = "fine";
 
