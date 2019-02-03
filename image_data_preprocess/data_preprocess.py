@@ -38,6 +38,10 @@ def main():
 
             obj['bbox'] = bbox
 
+        sorted_ann = sorted(ann, key=lambda k: k['area'], reverse=True)
+
+        img['annotations'] = sorted_ann
+
     with open('result.json', 'w') as fp:
         json.dump(image_data, fp, sort_keys=False, indent=1, separators=(',', ': '), ensure_ascii=False)
 
