@@ -90,6 +90,8 @@ function change_seg_mode(seg_mode){
         return "fine";
 }
 
+var img_id=1;
+
 var voice_flag = "off";
 
 var margin = {top: 20, right: 20, bottom: 30, left: 50},
@@ -115,7 +117,6 @@ svg.append("rect")
     .attr("height", "100%")
     .attr("fill", "lightgray");
 
- var img_id = 1;
 
  var seg_mode = "fine";
 
@@ -142,10 +143,6 @@ function zoomed() {
     x.call(d3.event.transform.rescaleX(x));
     y.call(d3.event.transform.rescaleY(y));
 }
-
-var bbox = svg.node().getBBox();
-
-console.log(bbox);
 
 var rect = d3.select('body').append("rect")
     .attr("x", 0)
