@@ -93,11 +93,11 @@ function change_seg_mode(seg_mode){
 var voice_flag = "off";
 
 var margin = {top: 20, right: 20, bottom: 30, left: 50},
-    width = 1000,
-    height = 500;
+    width = 800,
+    height = 600;
 
 var svg2 = d3.select(".image").append("svg")
-  .attr("width", 1000)
+  .attr("width", 800)
   .attr("height", 100)
   .attr("viewBox", "0 0 100 100")
   .attr("preserveAspectRatio", "xMinYMin meet")
@@ -109,6 +109,11 @@ var svg = d3.select(".image").append("svg")
   .attr("viewBox", "0 0 800 500")
   .attr("preserveAspectRatio", "xMinYMin meet")
   .append("g");
+
+svg.append("rect")
+    .attr("width", "100%")
+    .attr("height", "100%")
+    .attr("fill", "lightgray");
 
  var img_id = 1;
 
@@ -137,6 +142,20 @@ function zoomed() {
     x.call(d3.event.transform.rescaleX(x));
     y.call(d3.event.transform.rescaleY(y));
 }
+
+var bbox = svg.node().getBBox();
+
+console.log(bbox);
+
+var rect = d3.select('body').append("rect")
+    .attr("x", 0)
+    .attr("y", 0)
+    .attr("width", 500)
+    .attr("height", 500)
+    .style("fill", "#ccc")
+    .style("fill-opacity", ".3")
+    .style("stroke", "#666")
+    .style("stroke-width", "1.5px");
 
   var image = svg.append('image')
     .attr('xlink:href', "./sample_image/"+img_file_name)
@@ -184,7 +203,7 @@ var button = d3.button()
         }
         else if(d.label == "Reset"){
             reset();
-            release(this);
+            this.release();
         }
     })
     .on('release', function(d, i) {
