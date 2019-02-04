@@ -90,7 +90,7 @@ function change_seg_mode(seg_mode){
         return "fine";
 }
 
-var img_id=1;
+//var img_id = 1;
 
 var voice_flag = "off";
 
