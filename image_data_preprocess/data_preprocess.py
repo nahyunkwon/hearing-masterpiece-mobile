@@ -19,6 +19,7 @@ def main():
             x_points = []
             y_points = []
 
+            # calculate area
             for i in obj_list:
                 i[0] = float(i[0])
                 i[1] = float(i[1])
@@ -32,6 +33,7 @@ def main():
 
             obj['area'] = polygon.area
 
+            # calculate bbox
             bbox_point = [[min(x_points), min(y_points)], [max(x_points), min(y_points)], [max(x_points), max(y_points)]
                           , [min(x_points), max(y_points)]]
             bbox = np.array(bbox_point).reshape((4, 2)).tolist()
