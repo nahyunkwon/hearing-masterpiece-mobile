@@ -1,12 +1,12 @@
 {
   "images": [
     {
-      "file_name": "A_starry_night.jpg",
-      "title": "A Starry Night",
-      "id":1,
+      "file_name": "A_starry_night.jpg", // 확장자까지 파일명을 정확히 적어줘야 함. 이걸로 파일을 불러오기 때문에 필수!
+      "title": "A Starry Night", // 정확한 작품 제목은 따로 title이라는 key로 빼줬음. 작품 정보 표시하기 위해서
+      "id":1, // id 임의추가
       "height": "300",
       "width": "454",
-      "artist": "Vincent van Gogh",
+      "artist": "Vincent van Gogh", // 메타데이터는 위키피디아 참조함(상의해서 어디서 갖고올지 변동가능하지만 아래 정보는 필수로 있어야 할 것 같음)
       "year": 1889,
       "medium": "Oil on canvas",
       "dimensions": "73.7 cm × 92.1 cm (29 in × ​36 1⁄4 in)",
@@ -125,7 +125,7 @@
             ]
           ],
           "category": "tree",
-          "object_description": "tree description"
+          "object_description": "tree description" // 오브젝트에 대한 설명, 작품 설명과는 구분하기 위해 object를 붙여줬음
         },
         {
           "segmentation": [
