@@ -15,8 +15,19 @@ var artist = img_file.artist;
 
 var year = img_file.year;
 
+var medium = img_file.medium;
+
+var dimensions = img_file.dimensions;
+
+var loc = img_file.location;
+
+var desc = img_file.description;
+
 window.onload = function() {
-    document.getElementById('metadata').innerHTML = "<h3>"+title+"</h3>"+
-                        artist+", "+year+"</br>"
+    document.getElementById('metadata').innerHTML = "<h2>"+title+"</h2>"
+                        +"<h4>"+medium+", "+dimensions+", "+year+"</br>"
+                        +artist+"</br>"
+                        +loc+"</h4>"
+                        +desc
                         ;
 }

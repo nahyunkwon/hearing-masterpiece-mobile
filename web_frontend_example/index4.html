@@ -22,20 +22,20 @@
       height:1000px;
       overflow: scroll
     }
-.metadata{
+#metadata{
       padding: 10px;
       padding-left: 22%;
       width:40%;
       float:left;
-      height:100px;
+      height:150px;
       overflow: scroll
     }
 .buttons{
       padding: 10px;
       padding-left: 5%;
-      width:10%;
+      width:20%;
       float:left;
-      height:100px;
+      height:150px;
       overflow: scroll
     }
   </style>
@@ -46,21 +46,36 @@
 <body>
 
 <div class="main">
+    <script>
+      var img_id = 36844;
+  </script>
     <center>
 <h1>Image Segmentation Viewer</h1>
 </center>
-<div class="metadata">
-
-친구의 이야기를 다 들었을 때 나에게는, 친구의 의도와 상관 없이, 거대한 암흑의 이미지가 떠올라 있었다.<br />
-<br />
-다른 친구들은 그 친구의 이야기를 거의 듣지 않은 듯싶었다. 왜냐하면 토요일 오후였기 때문이다. 그러나 나에게는 친구의 이야기가 화창한 토요일 오후와 대비되어 더욱 강렬하게 다가왔었다. 무엇보다도 친구의 들뜨고 밝은 표정이 깊은 인상을 남겼다.<br />
-<br />
-친구에게 그 이야기를 재차 확인하고 싶었지만 어쩐지 입이 떨어지지 않았다. 자동차로 한두 시간 거리에 그토록 어둠에 찬 곳이 있다는 사실이 우선 믿기지 않았다. 그리고 그런 곳에 사는 것이 왜 그리 즐겁고 들뜬 일인지 짐작할 수조차 없었다.<br />
-<br />
+<div id="metadata">
+<script src="js/image_data.js" ></script>
+<script src="js/load_metadata.js" ></script>
 </div>
 
 
   <div class="buttons">
+      <textarea id="text_area_3"></textarea>
+      <script>
+          function StringSearch() {
+              var SearchTerm = document.getElementById("text_box_1").value;
+              var TextSearch = document.getElementById("text_area_3").value;
+
+              if (SearchTerm.length > 0 && TextSearch.indexOf(SearchTerm) > -1) {
+                alert("String Found. Search Complete");
+              } else {
+                alert("No Data found in Text Area");
+              }
+            }
+
+      </script>
+        <button type="button" id="button2" onclick="StringSearch()">Search</button>
+
+      </br>
     <a href="index.html">
       A Starry Night
     </a>
@@ -74,7 +89,7 @@
     </a>
       </br>
     <a href="index4.html">
-      coco_38644
+      coco_36844
     </a>
 
 </div>
@@ -82,9 +97,7 @@
 
 <center>
 <div class="image">
-  <script>
-      var img_id = 36844;
-  </script>
+
   <script src="js/image_data_coco.js" ></script>
   <script src="js/polygon.js"></script>
 </div>
