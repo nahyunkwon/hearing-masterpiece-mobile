@@ -40,6 +40,24 @@ def main():
 
             obj['bbox'] = bbox
 
+
+        #calculate duplicates
+        objects = []
+
+        object_counted = []
+
+        for i in ann:
+            objects.append(i['category'])
+            object_count = objects.count(i['category'])
+
+            object_counted.append(object_count)
+
+        count = 0
+
+        for i in ann:
+            i['duplicates_num'] = object_counted[count]
+            count = count + 1
+
         sorted_ann = sorted(ann, key=lambda k: k['area'], reverse=True)
 
         img['annotations'] = sorted_ann
