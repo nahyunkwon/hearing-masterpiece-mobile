@@ -12,11 +12,16 @@ function hasNumber(myString) {
 }
 
 function get_objects_list(annotations){
+    objects_num = [];
     objects_list = []
-    for(var i=0;i<annotations.length;i++){
-        if(hasNumber(annotations[i].category) == false){
+    for(var i=annotations.length-1;i>=0;i--){
+        if(objects_list.includes(annotations[i].category) == false){
             objects_list.push(annotations[i].category);
-            }
+            objects_num.push("("+String(annotations[i].duplicates_num)+")");
+        }
+    }
+    for(var i=0;i<objects_list.length;i++){
+        objects_list[i] = objects_list[i]+objects_num[i];
     }
     return objects_list;
   }
@@ -52,15 +57,21 @@ function draw_polygon(seg_mode){
     return "hsl(" + Math.random() * 360 + ",100%,50%)";
   })
   .attr("category", function(d){
-    return d.category;})
+    return d.category+String(d.duplicates_num);})
   .on("mouseover", function(d){
-            tooltip.text(d.category);
+            if(d.duplicates_num == 1){
+                var cat = d.category;
+            }
+            else{
+                var cat = d.category+String(d.duplicates_num);
+            }
+
+            tooltip.text(cat);
             if(voice_flag == "on"){
                 responsiveVoice.cancel();
-                responsiveVoice.speak(d.category, "US English Male");
+                responsiveVoice.speak(cat, "US English Male");
             }
-            //speachSynthesis.stop();
-            //speechSynthesis.speak(new SpeechSynthesisUtterance(d.category));
+
             return tooltip.style("visibility", "visible");})
     .on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
     .on("mouseout", function(){return tooltip.style("visibility", "hidden");})

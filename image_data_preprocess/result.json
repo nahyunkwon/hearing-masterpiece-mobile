@@ -1,11 +1,11 @@
 {
  "images": [
   {
-   "file_name": "A_starry_night.jpg",//확장자까지 파일명을 정확히 적어줘야 함!!
-   "id": 1,//id 임의추가
+   "file_name": "A_starry_night.jpg",
+   "id": 1,
    "height": "300",
    "width": "454",
-   "artist": "Vincent van Gogh",//메타데이터는 위키피디아 참조함(조사해서 변동가능)
+   "artist": "Vincent van Gogh",
    "year": 1889,
    "medium": "Oil on canvas",
    "dimensions": "73.7 cm × 92.1 cm (29 in × ​36 1⁄4 in)",
@@ -124,7 +124,7 @@
       ]
      ],
      "category": "tree",
-     "object_description": "tree description",//오브젝트 설명
+     "object_description": "tree description",
      "area": 14239.5,
      "bbox": [
       [
@@ -143,7 +143,8 @@
        56.0,
        294.0
       ]
-     ]
+     ],
+     "duplicates_num": 1
     },
     {
      "segmentation": [
@@ -280,7 +281,8 @@
        179.0,
        296.0
       ]
-     ]
+     ],
+     "duplicates_num": 1
     },
     {
      "segmentation": [
@@ -397,7 +399,8 @@
        174.0,
        163.0
       ]
-     ]
+     ],
+     "duplicates_num": 1
     },
     {
      "segmentation": [
@@ -450,7 +453,8 @@
        133.0,
        182.0
       ]
-     ]
+     ],
+     "duplicates_num": 1
     },
     {
      "segmentation": [
@@ -515,7 +519,8 @@
        384.0,
        62.0
       ]
-     ]
+     ],
+     "duplicates_num": 1
     }
    ]
   }

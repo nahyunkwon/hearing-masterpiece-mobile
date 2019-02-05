@@ -2,6 +2,7 @@
   "images": [
     {
       "file_name": "A_starry_night.jpg",
+      "title": "A Starry Night",
       "id":1,
       "height": "300",
       "width": "454",
