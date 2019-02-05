@@ -63,7 +63,12 @@ function draw_polygon(seg_mode){
             //speechSynthesis.speak(new SpeechSynthesisUtterance(d.category));
             return tooltip.style("visibility", "visible");})
     .on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
-    .on("mouseout", function(){return tooltip.style("visibility", "hidden");});
+    .on("mouseout", function(){return tooltip.style("visibility", "hidden");})
+    .on("click", function(d) {
+            if(voice_flag == "on"){
+                responsiveVoice.cancel();
+                responsiveVoice.speak(d.object_description, "US English Male");
+            } });
 
 }
 
