@@ -75,12 +75,11 @@ function draw_polygon(seg_mode){
             return tooltip.style("visibility", "visible");})
     .on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
     .on("mouseout", function(){return tooltip.style("visibility", "hidden");})
-    .on("click", function(d) {
+    .on("dblclick", function(d) {
             if(voice_flag == "on"){
                 responsiveVoice.cancel();
                 responsiveVoice.speak(d.object_description, "US English Male");
             } });
-
 }
 
 function change_voice_option(voice_flag){
@@ -131,7 +130,7 @@ var svg = d3.select(".image").append("svg")
 svg.append("rect")
     .attr("width", "100%")
     .attr("height", "100%")
-    .attr("fill", "lightgray");
+    .attr("fill", "white");
 
 
  var seg_mode = "fine";
@@ -193,7 +192,7 @@ var rect = d3.select('body').append("rect")
 
   draw_polygon(seg_mode);
 
-  svg.call(zoomListener);
+  //svg.call(zoomListener);
 
 var objects =  svg2.append("text")
    .attr("y", 93)//magic number here
@@ -202,8 +201,8 @@ var objects =  svg2.append("text")
    .text(objects_list.join(", "));
 
 var data = [{label: "Voice", x: 30, y: 60 },
-            {label: "Segmentation Mode", x: 130, y: 60 },
-            {label: "Reset", x: 230, y: 60  }];
+            {label: "Segmentation Mode", x: 130, y: 60 }];
+            //{label: "Reset", x: 230, y: 60  }];
 
 var button = d3.button()
     .on('press', function(d, i) {

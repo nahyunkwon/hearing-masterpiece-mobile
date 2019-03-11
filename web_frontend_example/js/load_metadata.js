@@ -23,14 +23,18 @@ var loc = img_file.location;
 
 var desc = img_file.description;
 
+
 window.onload = function() {
     document.getElementById('metadata').innerHTML = "<h2>"+title+"</h2>"
+                        /*
                         +"<h4>"+medium+", "+dimensions+", "+year+"</br>"
                         +artist+"</h4>"
                         +loc+"</br>"+"</br>"
                         +desc
+                        */
                         ;
 }
+
 
 //var full_desc = title +"\n"+ artist +"\n"+ year +"\n"+ medium +"\n"+ dimensions +"\n"+ loc +"\n"+ desc;
 
