@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+  <title>Image Segmentation Viewer Interface</title>
+  <meta charset="utf-8">
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+  <script src="http://code.responsivevoice.org/responsivevoice.js"></script>
+    <script src="js/d3.button.js"></script>
+  <style>
+  html, body {
+    height: 100%;
+    padding-bottom:150px;
+  }
+.main{
+      padding: 10px;
+      height: 1000px;
+      overflow: scroll
+  }
+.image{
+      padding: 10px;
+      width:100%;
+      height:1000px;
+      overflow: scroll
+    }
+#metadata{
+      padding: 10px;
+      padding-left: 22%;
+      width:40%;
+      float:left;
+      height:150px;
+      overflow: scroll
+    }
+.buttons{
+      padding: 10px;
+      padding-left: 5%;
+      width:20%;
+      float:left;
+      height:150px;
+      overflow: scroll
+    }
+  </style>
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<center>
+    <script src="js/image_data.js" ></script>
+    <script src="js/load_metadata.js" ></script>
+    <div class="tab" id="image_2">
+        <button type="button" id="button" onclick="voice()">Voice</button>
+
+        <a href="image_1.html"><img src="./sample_image/A_starry_night.jpg" onmouseover="read_full_desc();" onmouseout="voice_cancel();" onclick="voice_cancel()"/></a>
+        <a href="image_2.html"><img src="./sample_image/A_Sunday_on_La_Grande_Jatte(2).jpg"/></a>
+
+    </div>
+    <div class="tab" id="image_1">
+
+        <a href="index.html"><img src="./sample_image/Girl_with_a_Pearl_Earring(thumbnail).jpg"/></a>
+        <a href="index.html"><img src="./sample_image/The_Young_Ladies_of_Avignon(thumbnail).jpg"/></a>
+
+    </div>
+
+
+</center>
+</body>
+</html>
