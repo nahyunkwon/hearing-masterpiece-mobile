@@ -17,17 +17,17 @@
       overflow: scroll
   }
 .image{
-      padding: 10px;
+      padding: 1px;
       width:100%;
       height:1000px;
       overflow: scroll
     }
 #metadata{
-      padding: 10px;
+      padding: 0px;
       padding-left: 22%;
       width:40%;
+      height:5%;
       float:left;
-      height:150px;
       overflow: scroll
     }
 .buttons{
@@ -47,58 +47,19 @@
 
 <div class="main">
     <script>
-      var img_id = 139;
+      var img_id = 2;
   </script>
     <center>
-<h1>Image Segmentation Viewer</h1>
 </center>
 <div id="metadata">
 <script src="js/image_data.js" ></script>
 <script src="js/load_metadata.js" ></script>
 </div>
 
-
-  <div class="buttons">
-      <textarea id="text_area_3"></textarea>
-      <script>
-          function StringSearch() {
-              var SearchTerm = document.getElementById("text_box_1").value;
-              var TextSearch = document.getElementById("text_area_3").value;
-
-              if (SearchTerm.length > 0 && TextSearch.indexOf(SearchTerm) > -1) {
-                alert("String Found. Search Complete");
-              } else {
-                alert("No Data found in Text Area");
-              }
-            }
-
-      </script>
-        <button type="button" id="button2" onclick="StringSearch()">Search</button>
-
-      </br>
-    <a href="index.html">
-      A Starry Night
-    </a>
-      </br>
-    <a href="index2.html">
-      coco_139
-    </a>
-      </br>
-    <a href="index3.html">
-      coco_285
-    </a>
-      </br>
-    <a href="index4.html">
-      coco_38644
-    </a>
-
-</div>
-
-
 <center>
 <div class="image">
 
-  <script src="js/image_data_coco.js" ></script>
+  <script src="js/image_data.js" ></script>
   <script src="js/polygon.js"></script>
 </div>
 </center>

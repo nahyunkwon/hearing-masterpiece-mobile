@@ -7,7 +7,7 @@ from numpy import *
 
 
 def main():
-    image_data = json.load(open("./image_data.json", 'r'))
+    image_data = json.load(open("./image_data_add.json", 'r'))
 
     images = image_data['images']
     for img in images:
@@ -62,7 +62,7 @@ def main():
 
         img['annotations'] = sorted_ann
 
-    with open('result.json', 'w') as fp:
+    with open('result_add.json', 'w') as fp:
         json.dump(image_data, fp, sort_keys=False, indent=1, separators=(',', ': '), ensure_ascii=False)
 
 

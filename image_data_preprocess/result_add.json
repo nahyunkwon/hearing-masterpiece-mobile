@@ -1,9 +1,8 @@
-var image_data =
 {
  "images": [
   {
-   "file_name": "The_Starry_Night.jpg",
-   "title": "The Starry Night",
+   "file_name": "A_starry_night.jpg",
+   "title": "A Starry Night",
    "id": 1,
    "height": "300",
    "width": "454",
