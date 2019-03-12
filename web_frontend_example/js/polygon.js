@@ -2,13 +2,17 @@ var username = "user_1";
 
 var log_array = {};
 
-function collect_log(username, point_x, point_y){
-    current_log = [];
-    current_log.push(username);
-    current_log.push(event.pageX);
-    current_log.push(event.pageY);
+var log_count = 0;
 
-    log_array.push(current_log);
+function collect_log(username, point_x, point_y){
+    current_log = {};
+    current_log['username'] = username;
+    current_log['point_x'] = event.pageX;
+    current_log['point_y'] = event.pageY;
+
+    log_array[log_count] = current_log;
+    log_count++;
+    console.log(log_array);
 
     if(log_array.length %10 == 0 && log_array.length >= 10){
 
