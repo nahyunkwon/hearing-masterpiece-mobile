@@ -74,11 +74,18 @@ function draw_polygon(seg_mode){
 
             return tooltip.style("visibility", "visible");})
     .on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
-    .on("mouseout", function(){return tooltip.style("visibility", "hidden");})
+    .on("mouseout", function(){ responsiveVoice.cancel(); return tooltip.style("visibility", "hidden");})
     .on("dblclick", function(d) {
             if(voice_flag == "on"){
                 responsiveVoice.cancel();
-                responsiveVoice.speak(d.object_description, "US English Male");
+                if(d.object_position.includes("side")){
+                    voice_desc = "this is "+d.object_description +", color is "+ d.object_color +", and this is located on  the  "+ d.object_position +" of the picture";
+                }
+                else{
+                    voice_desc = "this is "+d.object_description +", color is "+ d.object_color +", and this is located on  the  "+ d.object_position +" side of the picture";
+                }
+                console.log(voice_desc);
+                responsiveVoice.speak(voice_desc, "US English Male");
             } });
 }
 
@@ -174,6 +181,7 @@ var rect = d3.select('body').append("rect")
     .attr('width', this.naturalWidth)
     .attr('height', this.naturalHeight)
     .on("mouseover", function(d){
+            console.log("test");
             tooltip.text("none");
             if(voice_flag == "on"){
                 responsiveVoice.cancel();
@@ -182,7 +190,7 @@ var rect = d3.select('body').append("rect")
             return tooltip
            .style("visibility", "visible");})
 	.on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
-	.on("mouseout", function(){return tooltip.style("visibility", "hidden");});
+	.on("mouseout", function(){ responsiveVoice.cancel(); return tooltip.style("visibility", "hidden");});
 
   var x = d3.scaleLinear().range([0, img_file.width]);
   var y = d3.scaleLinear().range([0, img_file.height]);
