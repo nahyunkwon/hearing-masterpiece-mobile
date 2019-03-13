@@ -1,3 +1,81 @@
+var username = "user_1";
+
+var log_array = [];
+
+var log_count = 0;
+
+function convertArrayOfObjectsToCSV(args) {
+        var result, ctr, keys, columnDelimiter, lineDelimiter, data;
+
+        data = args.data || null;
+        if (data == null || !data.length) {
+            return null;
+        }
+
+        columnDelimiter = args.columnDelimiter || ',';
+        lineDelimiter = args.lineDelimiter || '\n';
+
+        keys = Object.keys(data[0]);
+
+        result = '';
+        result += keys.join(columnDelimiter);
+        result += lineDelimiter;
+
+        data.forEach(function(item) {
+            ctr = 0;
+            keys.forEach(function(key) {
+                if (ctr > 0) result += columnDelimiter;
+
+                result += item[key];
+                ctr++;
+            });
+            result += lineDelimiter;
+        });
+
+        return result;
+    }
+
+function downloadCSV(args) {
+        var data, filename, link;
+        var csv = convertArrayOfObjectsToCSV({
+            data: log_array
+        });
+        if (csv == null) return;
+
+        filename = args || 'export.csv';
+
+        if (!csv.match(/^data:text\/csv/i)) {
+            csv = 'data:text/csv;charset=utf-8,' + csv;
+        }
+        data = encodeURI(csv);
+
+        link = document.createElement('a');
+        link.setAttribute('href', data);
+        link.setAttribute('download', filename);
+        link.click();
+    }
+
+
+function collect_log(username, point_x, point_y){
+    current_log = {};
+    current_log['username'] = username;
+    current_log['point_x'] = event.pageX;
+    current_log['point_y'] = event.pageY;
+
+    log_array.push(current_log);
+    /*
+    if(log_array.length %10 == 0 && log_array.length >= 10){
+        //var result = convertArrayOfObjectsToCSV(log_array);
+        //downloadCSV(result);
+
+        localStorage.setItem('myStorage', JSON.stringify(log_array));
+
+        JSON.parse(localStorage.getItem('myStorage'));
+
+    }
+    */
+}
+
 function find_by_file_id(image_data, img_id){
     for(var i=0;i<image_data.images.length;i++){
         if(image_data.images[i].id == img_id){
@@ -59,6 +137,10 @@ function draw_polygon(seg_mode){
   .attr("category", function(d){
     return d.category+String(d.duplicates_num);})
   .on("mouseover", function(d){
+            collect_log(username, event.pageX, event.pageY);
+
+            console.log(log_array);
+
             if(d.duplicates_num == 1){
                 var cat = d.category;
             }
@@ -84,7 +166,6 @@ function draw_polygon(seg_mode){
                 else{
                     voice_desc = "this is "+d.object_description +", color is "+ d.object_color +", and this is located on  the  "+ d.object_position +" side of the picture";
                 }
-                console.log(voice_desc);
                 responsiveVoice.speak(voice_desc, "US English Male");
             } });
 }
@@ -181,7 +262,11 @@ var rect = d3.select('body').append("rect")
     .attr('width', this.naturalWidth)
     .attr('height', this.naturalHeight)
     .on("mouseover", function(d){
-            console.log("test");
+
+            collect_log(username, event.pageX, event.pageY);
+
+            console.log(log_array);
+
             tooltip.text("none");
             if(voice_flag == "on"){
                 responsiveVoice.cancel();
