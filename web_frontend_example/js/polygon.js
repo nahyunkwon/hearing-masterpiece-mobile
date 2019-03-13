@@ -1,8 +1,60 @@
 var username = "user_1";
 
-var log_array = {};
+var log_array = [];
 
 var log_count = 0;
+
+function convertArrayOfObjectsToCSV(args) {
+        var result, ctr, keys, columnDelimiter, lineDelimiter, data;
+
+        data = args.data || null;
+        if (data == null || !data.length) {
+            return null;
+        }
+
+        columnDelimiter = args.columnDelimiter || ',';
+        lineDelimiter = args.lineDelimiter || '\n';
+
+        keys = Object.keys(data[0]);
+
+        result = '';
+        result += keys.join(columnDelimiter);
+        result += lineDelimiter;
+
+        data.forEach(function(item) {
+            ctr = 0;
+            keys.forEach(function(key) {
+                if (ctr > 0) result += columnDelimiter;
+
+                result += item[key];
+                ctr++;
+            });
+            result += lineDelimiter;
+        });
+
+        return result;
+    }
+
+function downloadCSV(args) {
+        var data, filename, link;
+        var csv = convertArrayOfObjectsToCSV({
+            data: log_array
+        });
+        if (csv == null) return;
+
+        filename = args || 'export.csv';
+
+        if (!csv.match(/^data:text\/csv/i)) {
+            csv = 'data:text/csv;charset=utf-8,' + csv;
+        }
+        data = encodeURI(csv);
+
+        link = document.createElement('a');
+        link.setAttribute('href', data);
+        link.setAttribute('download', filename);
+        link.click();
+    }
+
 
 function collect_log(username, point_x, point_y){
     current_log = {};
@@ -10,13 +62,18 @@ function collect_log(username, point_x, point_y){
     current_log['point_x'] = event.pageX;
     current_log['point_y'] = event.pageY;
 
-    log_array[log_count] = current_log;
-    log_count++;
-    console.log(log_array);
-
+    log_array.push(current_log);
+    /*
     if(log_array.length %10 == 0 && log_array.length >= 10){
+        //var result = convertArrayOfObjectsToCSV(log_array);
+        //downloadCSV(result);
+
+        localStorage.setItem('myStorage', JSON.stringify(log_array));
+
+        JSON.parse(localStorage.getItem('myStorage'));
 
     }
+    */
 }
 
 function find_by_file_id(image_data, img_id){
