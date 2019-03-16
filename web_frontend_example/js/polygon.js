@@ -160,13 +160,17 @@ function draw_polygon(seg_mode){
     .on("dblclick", function(d) {
             if(voice_flag == "on"){
                 responsiveVoice.cancel();
+                /*
                 if(d.object_position.includes("side")){
                     voice_desc = "this is "+d.object_description +", color is "+ d.object_color +", and this is located on  the  "+ d.object_position +" of the picture";
                 }
                 else{
                     voice_desc = "this is "+d.object_description +", color is "+ d.object_color +", and this is located on  the  "+ d.object_position +" side of the picture";
                 }
-                responsiveVoice.speak(voice_desc, "US English Male");
+                */
+                voice_desc = "이것은 "+d.object_description +" 입니다. 색깔은 "+ d.object_color +" 이며, 그림의  "+ d.object_position +" 에 위치해 있습니다.";
+
+                responsiveVoice.speak(voice_desc, "Korean Male");
             } });
 }
 

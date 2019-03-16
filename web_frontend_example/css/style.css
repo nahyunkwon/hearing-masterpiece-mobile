@@ -11,3 +11,14 @@ metadata{
       width:50px;
       overflow: scroll
     }
+h2 {
+    margin-top: 3px;
+    margin-bottom: 0px
+    }
+p {
+    margin-top: 0px;
+    margin-bottom: 0px
+    }
+svg{
+    margin-top: 0px;
+}

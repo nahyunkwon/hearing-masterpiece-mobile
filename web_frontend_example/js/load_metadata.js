@@ -26,6 +26,7 @@ var desc = img_file.description;
 
 window.onload = function() {
     document.getElementById('metadata').innerHTML = "<h2>"+title+"</h2>"
+                        +"<p>"+artist+", "+year+"</p>"
                         /*
                         +"<h4>"+medium+", "+dimensions+", "+year+"</br>"
                         +artist+"</h4>"
