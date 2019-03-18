@@ -1,3 +1,6 @@
+var kor = "Korean Male";
+var eng = "US English Male";
+
 var username = "user_1";
 
 var log_array = [];
@@ -168,7 +171,7 @@ function draw_polygon(seg_mode){
                     voice_desc = "this is "+d.object_description +", color is "+ d.object_color +", and this is located on  the  "+ d.object_position +" side of the picture";
                 }
                 */
-                voice_desc = "이것은 "+d.object_description +" 입니다. 색깔은 "+ d.object_color +" 이며, 그림의  "+ d.object_position +" 에 위치해 있습니다.";
+                voice_desc = d.object_description +" . 색깔은 "+ d.object_color +" 이며, 그림의  "+ d.object_position +" 에 위치해 있습니다.";
 
                 responsiveVoice.speak(voice_desc, "Korean Male");
             } });
@@ -294,8 +297,9 @@ var rect = d3.select('body').append("rect")
 var objects =  svg2.append("text")
    .attr("y", 93)//magic number here
    .attr("x", 5)
-   .attr("class", "myLabel")//easy to style with CSS
-   .text(objects_list.join(", "));
+   .attr("class", "object_list")//easy to style with CSS
+   .text(objects_list.join(", "))
+   .on("click", function(){responsiveVoice.cancel(); responsiveVoice.speak(String(objects_list), eng, {rate: 0.8});});
 
 var data = [{label: "Voice", x: 30, y: 60 },
             {label: "Segmentation Mode", x: 130, y: 60 }];
