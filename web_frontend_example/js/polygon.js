@@ -344,19 +344,15 @@ function reset() {
     svg.call(zoomListener.transform, t)
 }
 
-// define a handler
 function doc_keyUp(e) {
-
-    // this would test for whichever key is 40 and the ctrl key at the same time
-    if (e.ctrlKey && e.keyCode == 86) {
-        // call your function to do the thing
+    if (e.ctrlKey && e.keyCode == 86) { //enable voice (ctrl+v)
         voice_flag = voice(voice_flag);
     }
-    else if(e.ctrlKey && e.keyCode == 83){
+    else if(e.ctrlKey && e.keyCode == 83){ //change seg mode (ctrl+s)
         seg_mode = change_seg_mode(seg_mode);
         draw_polygon(seg_mode);
     }
-    else if(e.ctrlKey && e.keyCode == 76){
+    else if(e.ctrlKey && e.keyCode == 68){ //download log file (ctrl+d)
         get_log_file();
     }
 }

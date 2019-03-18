@@ -65,4 +65,13 @@ function read_metadata(){
     responsiveVoice.speak(meta_text, "US English Male");
 }
 
+/*
+function read_title_eng(){
+    responsiveVoice.speak("Please select artwork below.", "US English Male");
+}
+
+function read_title_kor(){
+    responsiveVoice.speak("  아래의 그림을 선택하세요.", "Korean Male");
+}
+*/
 responsiveVoice.cancel();
