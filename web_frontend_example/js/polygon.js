@@ -38,14 +38,14 @@ function convertArrayOfObjectsToCSV(args) {
         return result;
     }
 
-function downloadCSV(args) {
+function download_csv(args) {
         var data, filename, link;
         var csv = convertArrayOfObjectsToCSV({
             data: log_array
         });
         if (csv == null) return;
 
-        filename = args || 'export.csv';
+        filename = args || username+"_log.csv";
 
         if (!csv.match(/^data:text\/csv/i)) {
             csv = 'data:text/csv;charset=utf-8,' + csv;
@@ -68,8 +68,6 @@ function collect_log(username, point_x, point_y){
     log_array.push(current_log);
     /*
     if(log_array.length %10 == 0 && log_array.length >= 10){
-        //var result = convertArrayOfObjectsToCSV(log_array);
-        //downloadCSV(result);
 
         localStorage.setItem('myStorage', JSON.stringify(log_array));
 
@@ -77,6 +75,11 @@ function collect_log(username, point_x, point_y){
 
     }
     */
+}
+
+function get_log_file(){
+    var result = convertArrayOfObjectsToCSV(log_array);
+    download_csv(result);
 }
 
 function find_by_file_id(image_data, img_id){
@@ -204,14 +207,14 @@ function change_seg_mode(seg_mode){
 
 var voice_flag = "off";
 
-var margin = {top: 20, right: 20, bottom: 30, left: 50},
+var margin = {top: 0, right: 20, bottom: 0, left: 50},
     width = 800,
     height = 600;
 
 var svg2 = d3.select(".image").append("svg")
   .attr("width", 800)
-  .attr("height", 100)
-  .attr("viewBox", "0 0 100 100")
+  .attr("height", 50)
+  .attr("viewBox", "0 55 10 50")
   .attr("preserveAspectRatio", "xMinYMin meet")
   .append("g");
 
@@ -304,7 +307,7 @@ var objects =  svg2.append("text")
 var data = [{label: "Voice", x: 30, y: 60 },
             {label: "Segmentation Mode", x: 130, y: 60 }];
             //{label: "Reset", x: 230, y: 60  }];
-
+/*
 var button = d3.button()
     .on('press', function(d, i) {
         if(d.label == "Voice"){
@@ -335,8 +338,27 @@ var buttons = svg2.selectAll('.button')
     .append('g')
     .attr('class', 'button')
     .call(button);
-
+*/
 function reset() {
     var t = d3.zoomIdentity.translate(0, 0).scale(1)
     svg.call(zoomListener.transform, t)
 }
+
+// define a handler
+function doc_keyUp(e) {
+
+    // this would test for whichever key is 40 and the ctrl key at the same time
+    if (e.ctrlKey && e.keyCode == 86) {
+        // call your function to do the thing
+        voice_flag = voice(voice_flag);
+    }
+    else if(e.ctrlKey && e.keyCode == 83){
+        seg_mode = change_seg_mode(seg_mode);
+        draw_polygon(seg_mode);
+    }
+    else if(e.ctrlKey && e.keyCode == 76){
+        get_log_file();
+    }
+}
+// register the handler
+document.addEventListener('keyup', doc_keyUp, false);
