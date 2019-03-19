@@ -1254,6 +1254,23 @@ var image_data =
      ],
      "duplicates_num": 7
     }
+   ],
+   "sorted_by_point": [
+    "bottle",
+    "basket",
+    "apple",
+    "bread",
+    "plate",
+    "table",
+    "book",
+    "cloth",
+    "apple2",
+    "apple3",
+    "apple8",
+    "apple7",
+    "apple6",
+    "apple4",
+    "apple5"
    ]
   },
   {
@@ -2245,6 +2262,18 @@ var image_data =
      ],
      "duplicates_num": 1
     }
+   ],
+   "sorted_by_point": [
+    "turban",
+    "face",
+    "nose",
+    "eye",
+    "eye2",
+    "ear",
+    "mouth",
+    "earring",
+    "neck",
+    "clothes"
    ]
   },
   {
@@ -2688,6 +2717,16 @@ var image_data =
      ],
      "duplicates_num": 7
     }
+   ],
+   "sorted_by_point": [
+    "line",
+    "surface",
+    "surface5",
+    "surface2",
+    "surface6",
+    "surface3",
+    "surface4",
+    "surface7"
    ]
   },
   {
@@ -4003,6 +4042,23 @@ var image_data =
      ],
      "duplicates_num": 11
     }
+   ],
+   "sorted_by_point": [
+    "star5",
+    "star6",
+    "star7",
+    "moon",
+    "star8",
+    "star9",
+    "tree",
+    "wind",
+    "star3",
+    "star10",
+    "star2",
+    "star11",
+    "star4",
+    "star",
+    "town"
    ]
   }
  ]

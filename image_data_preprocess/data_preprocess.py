@@ -58,7 +58,19 @@ def main():
             i['duplicates_num'] = object_counted[count]
             count = count + 1
 
+        sorted_by_point = sorted(ann, key=lambda k: [k['bbox'][0][1], k['bbox'][0][0]])
+
+        cat_list = []
+
+        for i in sorted_by_point:
+            if i['duplicates_num'] != 1:
+                cat_list.append(i['category']+str(i['duplicates_num']))
+            else:
+                cat_list.append(i['category'])
+
         sorted_ann = sorted(ann, key=lambda k: k['area'], reverse=True)
+
+        img['sorted_by_point'] = cat_list
 
         img['annotations'] = sorted_ann
 

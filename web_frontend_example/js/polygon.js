@@ -155,16 +155,16 @@ function draw_polygon(seg_mode){
             }
 
             tooltip.text(cat);
-            //if(voice_flag == "on"){
+            if(voice_flag == "on"){
                 responsiveVoice.cancel();
                 responsiveVoice.speak(cat, "US English Male");
-            //}
+            }
 
             return tooltip.style("visibility", "visible");})
     .on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
     .on("mouseout", function(){ responsiveVoice.cancel(); return tooltip.style("visibility", "hidden");})
     .on("dblclick", function(d) {
-            //if(voice_flag == "on"){
+            if(voice_flag == "on"){
                 responsiveVoice.cancel();
                 /*
                 if(d.object_position.includes("side")){
@@ -177,7 +177,7 @@ function draw_polygon(seg_mode){
                 voice_desc = d.object_description +" . 색깔은 "+ d.object_color +" 이며, 그림의  "+ d.object_position +" 에 위치해 있습니다.";
 
                 responsiveVoice.speak(voice_desc, "Korean Male");
-            //}
+            }
              });
 }
 
@@ -203,8 +203,6 @@ function change_seg_mode(seg_mode){
     else if(seg_mode == "rough")
         return "fine";
 }
-
-//var img_id = 1;
 
 var voice_flag = "on";
 
@@ -238,6 +236,10 @@ svg.append("rect")
   var img_file_name = img_file.file_name;
 
   var objects_list = get_objects_list(img_file.annotations);
+
+  var sorted_by_point = img_file.sorted_by_point;
+
+  var sorted_count=0;
 
   var tooltip = d3.select(".image")
 	.append("div")
@@ -279,20 +281,20 @@ var rect = d3.select('body').append("rect")
             console.log(log_array);
 
             tooltip.text("none");
-            //if(voice_flag == "on"){
+            if(voice_flag == "on"){
                 responsiveVoice.cancel();
                 responsiveVoice.speak("none", "US English Male");
-           // }
+            }
             return tooltip
            .style("visibility", "visible");})
 	.on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
 	.on("mouseout", function(){ responsiveVoice.cancel(); return tooltip.style("visibility", "hidden");})
 	.on("dblclick", function(d) {
-            //if(voice_flag == "on"){
+            if(voice_flag == "on"){
                 responsiveVoice.cancel();
 
                 responsiveVoice.speak("배경", "Korean Male");
-            //}
+            }
              });
 
   var x = d3.scaleLinear().range([0, img_file.width]);
@@ -354,7 +356,7 @@ function reset() {
 
 function doc_keyUp(e) {
     if (e.ctrlKey && e.keyCode == 86) { //enable voice (ctrl+v)
-        //voice_flag = voice(voice_flag);
+        voice_flag = voice(voice_flag);
     }
     else if(e.ctrlKey && e.keyCode == 83){ //change seg mode (ctrl+s)
         seg_mode = change_seg_mode(seg_mode);
@@ -362,6 +364,24 @@ function doc_keyUp(e) {
     }
     else if(e.ctrlKey && e.keyCode == 68){ //download log file (ctrl+d)
         get_log_file();
+    }
+    else if(e.keyCode == 39){
+        if(sorted_count < sorted_by_point.length-1){
+            sorted_count++;
+            responsiveVoice.speak(sorted_by_point[sorted_count], eng);
+        }
+        else{
+            responsiveVoice.speak(sorted_by_point[sorted_by_point.length-1], eng);
+        }
+    }
+    else if(e.keyCode == 37){
+        if(sorted_count > 0){
+            sorted_count--;
+            responsiveVoice.speak(sorted_by_point[sorted_count], eng);
+        }
+        else{
+            responsiveVoice.speak(sorted_by_point[0], eng);
+        }
     }
 }
 // register the handler
