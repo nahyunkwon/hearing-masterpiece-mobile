@@ -25,7 +25,11 @@ var desc = img_file.description;
 
 
 window.onload = function() {
-    document.getElementById('metadata').innerHTML = "<h2>"+title+"</h2>"
+    document.getElementById('metadata').innerHTML =
+                        "<div class=\"metadata\"  onclick=\"read_metadata()\">"
+                        +"<h2>"+title+"</h2>"
+                        +"<p>"+artist+", "+year+"</p>"
+                        +"</div>"
                         /*
                         +"<h4>"+medium+", "+dimensions+", "+year+"</br>"
                         +artist+"</h4>"
@@ -47,10 +51,27 @@ function read_full_desc(img_id){
     responsiveVoice.speak(desc, "US English Male");
 }
 
-function voice() {
+function voice(){
 	responsiveVoice.speak("voice enabled", "US English Male");
+	//responsiveVoice.speak("음성 활성화", "Korean Male");
 }
 
 function voice_cancel(){
     responsiveVoice.cancel();
 }
+
+function read_metadata(){
+    var meta_text = title+",  "+artist+",  "+year;
+    responsiveVoice.speak(meta_text, "US English Male");
+}
+
+/*
+function read_title_eng(){
+    responsiveVoice.speak("Please select artwork below.", "US English Male");
+}
+
+function read_title_kor(){
+    responsiveVoice.speak("  아래의 그림을 선택하세요.", "Korean Male");
+}
+*/
+responsiveVoice.cancel();
