@@ -155,16 +155,16 @@ function draw_polygon(seg_mode){
             }
 
             tooltip.text(cat);
-            if(voice_flag == "on"){
+            //if(voice_flag == "on"){
                 responsiveVoice.cancel();
                 responsiveVoice.speak(cat, "US English Male");
-            }
+            //}
 
             return tooltip.style("visibility", "visible");})
     .on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
     .on("mouseout", function(){ responsiveVoice.cancel(); return tooltip.style("visibility", "hidden");})
     .on("dblclick", function(d) {
-            if(voice_flag == "on"){
+            //if(voice_flag == "on"){
                 responsiveVoice.cancel();
                 /*
                 if(d.object_position.includes("side")){
@@ -177,7 +177,8 @@ function draw_polygon(seg_mode){
                 voice_desc = d.object_description +" . 색깔은 "+ d.object_color +" 이며, 그림의  "+ d.object_position +" 에 위치해 있습니다.";
 
                 responsiveVoice.speak(voice_desc, "Korean Male");
-            } });
+            //}
+             });
 }
 
 function change_voice_option(voice_flag){
@@ -205,7 +206,7 @@ function change_seg_mode(seg_mode){
 
 //var img_id = 1;
 
-var voice_flag = "off";
+var voice_flag = "on";
 
 var margin = {top: 0, right: 20, bottom: 0, left: 50},
     width = 800,
@@ -278,14 +279,21 @@ var rect = d3.select('body').append("rect")
             console.log(log_array);
 
             tooltip.text("none");
-            if(voice_flag == "on"){
+            //if(voice_flag == "on"){
                 responsiveVoice.cancel();
                 responsiveVoice.speak("none", "US English Male");
-            }
+           // }
             return tooltip
            .style("visibility", "visible");})
 	.on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
-	.on("mouseout", function(){ responsiveVoice.cancel(); return tooltip.style("visibility", "hidden");});
+	.on("mouseout", function(){ responsiveVoice.cancel(); return tooltip.style("visibility", "hidden");})
+	.on("dblclick", function(d) {
+            //if(voice_flag == "on"){
+                responsiveVoice.cancel();
+
+                responsiveVoice.speak("배경", "Korean Male");
+            //}
+             });
 
   var x = d3.scaleLinear().range([0, img_file.width]);
   var y = d3.scaleLinear().range([0, img_file.height]);
@@ -346,7 +354,7 @@ function reset() {
 
 function doc_keyUp(e) {
     if (e.ctrlKey && e.keyCode == 86) { //enable voice (ctrl+v)
-        voice_flag = voice(voice_flag);
+        //voice_flag = voice(voice_flag);
     }
     else if(e.ctrlKey && e.keyCode == 83){ //change seg mode (ctrl+s)
         seg_mode = change_seg_mode(seg_mode);

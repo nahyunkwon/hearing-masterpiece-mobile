@@ -2691,7 +2691,7 @@ var image_data =
    ]
   },
   {
-   "file_name": "The_starry_night.jpg",
+   "file_name": "The_Starry_Night.jpg",
    "title": "The Starry Night",
    "id": 1,
    "height": "300",
