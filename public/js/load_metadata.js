@@ -45,6 +45,8 @@ window.onload = function() {
 //var full_desc = title +"\n"+ artist +"\n"+ year +"\n"+ medium +"\n"+ dimensions +"\n"+ loc +"\n"+ desc;
 
 function read_full_desc(img_id){
+    var language = "Korean Female";
+
     var img_file = find_by_file_id(image_data, img_id);
 
     var desc = img_file.description;
@@ -52,7 +54,6 @@ function read_full_desc(img_id){
     responsiveVoice.cancel();
     responsiveVoice.speak(desc, language);
 
-    return img_id;
 }
 
 function voice(){

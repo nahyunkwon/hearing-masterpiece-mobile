@@ -1336,7 +1336,7 @@ var image_data =
   {
    "file_name": "Mondrian.jpg",
    "title": "빨강, 파랑, 노랑의 구성",
-   "id": 2,
+   "id": 0,
    "height": "479",
    "width": "473",
    "artist": "피트 몬드리안",
@@ -1789,7 +1789,7 @@ var image_data =
   {
    "file_name": "Girl.jpg",
    "title": "진주 귀걸이를 한 소녀",
-   "id": 3,
+   "id": 2,
    "height": "527",
    "width": "450",
    "artist": "요하네스 페르메이르",
@@ -2792,7 +2792,7 @@ var image_data =
   {
    "file_name": "Apple.jpg",
    "title": "병과 사과바구니가 있는 정물",
-   "id": 4,
+   "id": 3,
    "height": "530",
    "width": "659",
    "artist": "폴 세잔",

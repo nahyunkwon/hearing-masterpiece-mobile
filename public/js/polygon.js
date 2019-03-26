@@ -178,7 +178,7 @@ function draw_polygon(seg_mode){
                     voice_desc = "this is "+d.object_description +", color is "+ d.object_color +", and this is located on  the  "+ d.object_position +" side of the picture";
                 }
                 */
-                voice_desc = d.object_description +" . 색깔은 "+ d.object_color +" 이며, 그림의  "+ d.object_position +" 에 위치해 있습니다.";
+                voice_desc = d.object_description +" . 색깔은 "+ d.object_color +"이며, 그림의  "+ d.object_position +"에 위치해 있습니다.";
 
                 responsiveVoice.speak(voice_desc, language);
             }

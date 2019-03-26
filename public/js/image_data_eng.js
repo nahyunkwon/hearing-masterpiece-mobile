@@ -4,7 +4,7 @@ var image_data =
   {
    "file_name": "Apple.jpg",
    "title": "The Basket of Apples",
-   "id": 4,
+   "id": 3,
    "height": "530",
    "width": "659",
    "artist": "Paul Cézanne",
@@ -1276,7 +1276,7 @@ var image_data =
   {
    "file_name": "Girl.jpg",
    "title": "Girl with a Pearl Earring",
-   "id": 3,
+   "id": 2,
    "height": "527",
    "width": "450",
    "artist": "Johannes Vermeer",
@@ -2279,7 +2279,7 @@ var image_data =
   {
    "file_name": "Mondrian.jpg",
    "title": "Composition with Red Blue and Yellow",
-   "id": 2,
+   "id": 0,
    "height": "479",
    "width": "473",
    "artist": "Piet Mondrian",
