@@ -1,4 +1,4 @@
-var kor = "Korean Male";
+var kor = "Korean Female";
 var eng = "US English Male";
 
 var language = kor;
@@ -282,10 +282,18 @@ var rect = d3.select('body').append("rect")
 
             collect_log(username, event.pageX, event.pageY);
 
-            tooltip.text("none");
+            if(language == kor){
+                var background = "배경";
+            }
+            else if(language == eng){
+                var background = "background";
+            }
+
+            tooltip.text(background);
+
             if(voice_flag == "on"){
                 responsiveVoice.cancel();
-                responsiveVoice.speak("none", language);
+                responsiveVoice.speak(background, language);
             }
             return tooltip
            .style("visibility", "visible");})

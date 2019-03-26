@@ -23,7 +23,7 @@ var loc = img_file.location;
 
 var desc = img_file.description;
 
-var language = "Korean Male";
+var language = "Korean Female";
 
 
 window.onload = function() {
@@ -51,6 +51,8 @@ function read_full_desc(img_id){
 
     responsiveVoice.cancel();
     responsiveVoice.speak(desc, language);
+
+    return img_id;
 }
 
 function voice(){
