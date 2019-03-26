@@ -979,7 +979,7 @@
        366.0
       ]
      ],
-     "duplicates_num": 4
+     "duplicates_num": 7
     },
     {
      "segmentation": [
@@ -1035,7 +1035,7 @@
        327.0
       ]
      ],
-     "duplicates_num": 8
+     "duplicates_num": 4
     },
     {
      "segmentation": [
@@ -1091,7 +1091,7 @@
        377.0
       ]
      ],
-     "duplicates_num": 5
+     "duplicates_num": 8
     },
     {
      "segmentation": [
@@ -1251,7 +1251,7 @@
        297.0
       ]
      ],
-     "duplicates_num": 7
+     "duplicates_num": 5
     }
    ],
    "sorted_by_point": [
@@ -1265,11 +1265,11 @@
     "cloth",
     "apple2",
     "apple3",
-    "apple8",
-    "apple7",
-    "apple6",
     "apple4",
-    "apple5"
+    "apple5",
+    "apple6",
+    "apple7",
+    "apple8"
    ]
   },
   {
@@ -2330,7 +2330,7 @@
        346.0
       ]
      ],
-     "duplicates_num": 5
+     "duplicates_num": 2
     },
     {
      "segmentation": [
@@ -2374,7 +2374,7 @@
        478.0
       ]
      ],
-     "duplicates_num": 3
+     "duplicates_num": 5
     },
     {
      "segmentation": [
@@ -2542,7 +2542,7 @@
        345.0
       ]
      ],
-     "duplicates_num": 2
+     "duplicates_num": 3
     },
     {
      "segmentation": [
@@ -2626,7 +2626,7 @@
        475.0
       ]
      ],
-     "duplicates_num": 6
+     "duplicates_num": 4
     },
     {
      "segmentation": [
@@ -2670,7 +2670,7 @@
        408.0
       ]
      ],
-     "duplicates_num": 4
+     "duplicates_num": 6
     },
     {
      "segmentation": [
@@ -2720,11 +2720,11 @@
    "sorted_by_point": [
     "line",
     "surface",
-    "surface5",
     "surface2",
-    "surface6",
     "surface3",
     "surface4",
+    "surface5",
+    "surface6",
     "surface7"
    ]
   },
@@ -3475,7 +3475,7 @@
        282.0
       ]
      ],
-     "duplicates_num": 1
+     "duplicates_num": 11
     },
     {
      "segmentation": [
@@ -3543,7 +3543,7 @@
        48.0
       ]
      ],
-     "duplicates_num": 5
+     "duplicates_num": 1
     },
     {
      "segmentation": [
@@ -3599,7 +3599,7 @@
        135.0
       ]
      ],
-     "duplicates_num": 10
+     "duplicates_num": 7
     },
     {
      "segmentation": [
@@ -3655,7 +3655,7 @@
        61.0
       ]
      ],
-     "duplicates_num": 9
+     "duplicates_num": 5
     },
     {
      "segmentation": [
@@ -3715,7 +3715,7 @@
        101.0
       ]
      ],
-     "duplicates_num": 3
+     "duplicates_num": 6
     },
     {
      "segmentation": [
@@ -3767,7 +3767,7 @@
        35.0
       ]
      ],
-     "duplicates_num": 7
+     "duplicates_num": 3
     },
     {
      "segmentation": [
@@ -3823,7 +3823,7 @@
        245.0
       ]
      ],
-     "duplicates_num": 4
+     "duplicates_num": 10
     },
     {
      "segmentation": [
@@ -3883,7 +3883,7 @@
        28.0
       ]
      ],
-     "duplicates_num": 6
+     "duplicates_num": 2
     },
     {
      "segmentation": [
@@ -3935,7 +3935,7 @@
        43.0
       ]
      ],
-     "duplicates_num": 8
+     "duplicates_num": 4
     },
     {
      "segmentation": [
@@ -3987,7 +3987,7 @@
        166.0
       ]
      ],
-     "duplicates_num": 2
+     "duplicates_num": 8
     },
     {
      "segmentation": [
@@ -4039,24 +4039,24 @@
        226.0
       ]
      ],
-     "duplicates_num": 11
+     "duplicates_num": 9
     }
    ],
    "sorted_by_point": [
-    "star5",
-    "star6",
-    "star7",
+    "star",
+    "star2",
+    "star3",
     "moon",
-    "star8",
-    "star9",
+    "star4",
+    "star5",
     "tree",
     "wind",
-    "star3",
+    "star6",
+    "star7",
+    "star8",
+    "star9",
     "star10",
-    "star2",
     "star11",
-    "star4",
-    "star",
     "town"
    ]
   }

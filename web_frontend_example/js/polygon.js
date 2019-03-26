@@ -1,6 +1,8 @@
 var kor = "Korean Male";
 var eng = "US English Male";
 
+var language = kor;
+
 var username = "user_1";
 
 var log_array = [];
@@ -96,18 +98,22 @@ function hasNumber(myString) {
 }
 
 function get_objects_list(annotations){
-    objects_num = [];
-    objects_list = []
+    result_list = []
+    objects_list = [];
+
+    var counts = {};
+
     for(var i=annotations.length-1;i>=0;i--){
-        if(objects_list.includes(annotations[i].category) == false){
-            objects_list.push(annotations[i].category);
-            objects_num.push("("+String(annotations[i].duplicates_num)+")");
-        }
+        objects_list.push(annotations[i].category);
     }
-    for(var i=0;i<objects_list.length;i++){
-        objects_list[i] = objects_list[i]+objects_num[i];
+    objects_list = Array.from(objects_list);
+    objects_list.forEach(function(x) { counts[x] = (counts[x] || 0)+1; });
+
+    for(var key in counts){
+        result_list.push(key+"("+String(counts[key])+")");
     }
-    return objects_list;
+
+    return result_list;
   }
 
 function draw_polygon(seg_mode){
@@ -145,8 +151,6 @@ function draw_polygon(seg_mode){
   .on("mouseover", function(d){
             collect_log(username, event.pageX, event.pageY);
 
-            console.log(log_array);
-
             if(d.duplicates_num == 1){
                 var cat = d.category;
             }
@@ -157,7 +161,7 @@ function draw_polygon(seg_mode){
             tooltip.text(cat);
             if(voice_flag == "on"){
                 responsiveVoice.cancel();
-                responsiveVoice.speak(cat, "US English Male");
+                responsiveVoice.speak(cat, language);
             }
 
             return tooltip.style("visibility", "visible");})
@@ -176,7 +180,7 @@ function draw_polygon(seg_mode){
                 */
                 voice_desc = d.object_description +" . 색깔은 "+ d.object_color +" 이며, 그림의  "+ d.object_position +" 에 위치해 있습니다.";
 
-                responsiveVoice.speak(voice_desc, "Korean Male");
+                responsiveVoice.speak(voice_desc, language);
             }
              });
 }
@@ -191,9 +195,9 @@ function change_voice_option(voice_flag){
 function voice(voice_flag) {
 	voice_flag = change_voice_option(voice_flag);
 	if(voice_flag == "on")
-	    responsiveVoice.speak("voice enabled", "US English Male");
+	    responsiveVoice.speak("voice enabled", language);
 	else
-	    responsiveVoice.speak("voice disabled", "US English Male");
+	    responsiveVoice.speak("voice disabled", language);
 	return voice_flag;
 }
 
@@ -278,12 +282,10 @@ var rect = d3.select('body').append("rect")
 
             collect_log(username, event.pageX, event.pageY);
 
-            console.log(log_array);
-
             tooltip.text("none");
             if(voice_flag == "on"){
                 responsiveVoice.cancel();
-                responsiveVoice.speak("none", "US English Male");
+                responsiveVoice.speak("none", language);
             }
             return tooltip
            .style("visibility", "visible");})
@@ -293,7 +295,7 @@ var rect = d3.select('body').append("rect")
             if(voice_flag == "on"){
                 responsiveVoice.cancel();
 
-                responsiveVoice.speak("배경", "Korean Male");
+                responsiveVoice.speak("배경", language);
             }
              });
 
@@ -312,7 +314,7 @@ var objects =  svg2.append("text")
    .attr("x", 5)
    .attr("class", "object_list")//easy to style with CSS
    .text(objects_list.join(", "))
-   .on("click", function(){responsiveVoice.cancel(); responsiveVoice.speak(String(objects_list), eng, {rate: 0.8});});
+   .on("click", function(){responsiveVoice.cancel(); responsiveVoice.speak(String(objects_list), language, {rate: 0.8});});
 
 var data = [{label: "Voice", x: 30, y: 60 },
             {label: "Segmentation Mode", x: 130, y: 60 }];
@@ -368,19 +370,19 @@ function doc_keyUp(e) {
     else if(e.keyCode == 39){
         if(sorted_count < sorted_by_point.length-1){
             sorted_count++;
-            responsiveVoice.speak(sorted_by_point[sorted_count], eng);
+            responsiveVoice.speak(sorted_by_point[sorted_count], language);
         }
         else{
-            responsiveVoice.speak(sorted_by_point[sorted_by_point.length-1], eng);
+            responsiveVoice.speak(sorted_by_point[sorted_by_point.length-1], language);
         }
     }
     else if(e.keyCode == 37){
         if(sorted_count > 0){
             sorted_count--;
-            responsiveVoice.speak(sorted_by_point[sorted_count], eng);
+            responsiveVoice.speak(sorted_by_point[sorted_count], language);
         }
         else{
-            responsiveVoice.speak(sorted_by_point[0], eng);
+            responsiveVoice.speak(sorted_by_point[0], language);
         }
     }
 }

@@ -23,6 +23,8 @@ var loc = img_file.location;
 
 var desc = img_file.description;
 
+var language = "Korean Male";
+
 
 window.onload = function() {
     document.getElementById('metadata').innerHTML =
@@ -48,11 +50,11 @@ function read_full_desc(img_id){
     var desc = img_file.description;
 
     responsiveVoice.cancel();
-    responsiveVoice.speak(desc, "US English Male");
+    responsiveVoice.speak(desc, language);
 }
 
 function voice(){
-	responsiveVoice.speak("voice enabled", "US English Male");
+	responsiveVoice.speak("voice enabled", language);
 	//responsiveVoice.speak("음성 활성화", "Korean Male");
 }
 
@@ -62,7 +64,7 @@ function voice_cancel(){
 
 function read_metadata(){
     var meta_text = title+",  "+artist+",  "+year;
-    responsiveVoice.speak(meta_text, "US English Male");
+    responsiveVoice.speak(meta_text, language);
 }
 
 /*
