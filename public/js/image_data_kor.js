@@ -2,7 +2,7 @@ var image_data =
 {
  "images": [
   {
-   "file_name": "The_starry_night.jpg",
+   "file_name": "Starry.jpg",
    "title": "별이 빛나는 밤",
    "id": 1,
    "height": "300",
