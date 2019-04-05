@@ -28,7 +28,7 @@ var language = "Korean Female";
 
 window.onload = function() {
     document.getElementById('metadata').innerHTML =
-                        "<div class=\"metadata\"  onclick=\"read_metadata()\">"
+                        "<div class=\"metadata\">"
                         +"<h2>"+title+"</h2>"
                         +"<p>"+artist+", "+year+"</p>"
                         +"</div>"

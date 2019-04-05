@@ -161,47 +161,6 @@ function draw_polygon(seg_mode){
   })
   .attr("category", function(d){
     return d.category+String(d.duplicates_num);})
-  .on("mouseover", function(d){
-            collect_log(username, event.pageX, event.pageY);
-
-            if(d.duplicates_num == 1){
-                var cat = d.category;
-            }
-            else{
-                var cat = d.category+String(d.duplicates_num);
-            }
-
-            //tooltip.text(cat);
-            if(voice_flag == "on"){
-                responsiveVoice.cancel();
-                responsiveVoice.speak(cat, language);
-            }
-
-            return tooltip.style("visibility", "visible");})
-    .on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
-    .on("mouseout", function(){ responsiveVoice.cancel(); return tooltip.style("visibility", "hidden");})
-    .on("click", function(d) {
-            if(voice_flag == "on"){
-
-                responsiveVoice.cancel();
-                /*
-                if(d.object_position.includes("side")){
-                    voice_desc = "this is "+d.object_description +", color is "+ d.object_color +", and this is located on  the  "+ d.object_position +" of the picture";
-                }
-                else{
-                    voice_desc = "this is "+d.object_description +", color is "+ d.object_color +", and this is located on  the  "+ d.object_position +" side of the picture";
-                }
-                */
-                if(d.category == "배경"){
-                    voice_desc = "그림의 배경입니다";
-                }
-                else{
-                    voice_desc = d.object_description +" . 색깔은 "+ d.object_color +"이며, 그림의  "+ d.object_position +"에 위치해 있습니다.";
-                }
-
-                responsiveVoice.speak(voice_desc, language);
-            }
-             })
     .append("svg:title")
     .text(function(d) {
 
@@ -268,7 +227,7 @@ var margin = {top: 0, right: 20, bottom: 0, left: 50},
 
 var svg2 = d3.select(".image").append("svg")
   .attr("width", 800)
-  .attr("height", 50)
+  .attr("height", 10)
   .attr("viewBox", "0 55 10 50")
   .attr("preserveAspectRatio", "xMinYMin meet")
   .append("g");
@@ -329,35 +288,7 @@ var rect = d3.select('body').append("rect")
   var image = svg.append('image')
     .attr('xlink:href', "./sample_image/"+img_file_name)
     .attr('width', this.naturalWidth)
-    .attr('height', this.naturalHeight)
-    .on("mouseover", function(d){
-
-            collect_log(username, event.pageX, event.pageY);
-
-            if(language == kor){
-                var background = "배경";
-            }
-            else if(language == eng){
-                var background = "background";
-            }
-
-            //tooltip.text(background);
-
-            if(voice_flag == "on"){
-                responsiveVoice.cancel();
-                responsiveVoice.speak(background, language);
-            }
-            return tooltip
-           .style("visibility", "visible");})
-	.on("mousemove", function(){return tooltip.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px");})
-	.on("mouseout", function(){ responsiveVoice.cancel(); return tooltip.style("visibility", "hidden");})
-	.on("dblclick", function(d) {
-            if(voice_flag == "on"){
-                responsiveVoice.cancel();
-
-                responsiveVoice.speak("배경", language);
-            }
-             });
+    .attr('height', this.naturalHeight);
 
   var x = d3.scaleLinear().range([0, img_file.width]);
   var y = d3.scaleLinear().range([0, img_file.height]);
@@ -369,13 +300,17 @@ var rect = d3.select('body').append("rect")
 
   //svg.call(zoomListener);
 
+/*
 var objects =  svg2.append("text")
    .attr("y", 93)//magic number here
    .attr("x", 5)
    .attr("class", "object_list")//easy to style with CSS
-   .text(objects_list.join(", "))
-   .on("click", function(){responsiveVoice.cancel(); responsiveVoice.speak(String(objects_list), language, {rate: 0.8});});
-
+   .data([objects_list])
+   .text(function(d){
+    return(d);
+   })
+   .on("click", function(d){console.log(d);});
+*/
 var data = //[{label: "상세설명모드", x: parseInt(img_file.width)+70, y: 30 },
             [{label: "Segmentation Mode", x: 70, y:  parseInt(img_file.height)+70}];
             //{label: "Reset", x: 230, y: 60  }];
@@ -470,3 +405,22 @@ function seg_mode_button(seg_mode){
 
      return seg_mode;
 }
+
+
+var arrayToModify = [];
+    window.onload = function () {
+    var i, buttonsToCreate, buttonContainer, newButton;
+    buttonsToCreate = objects_list;
+    buttonContainer = document.getElementById('buttons2');
+    for (i = 0; i < buttonsToCreate.length; i++) {
+      newButton = document.createElement('input');
+      newButton.type = 'button';
+      newButton.value = buttonsToCreate[i];
+      newButton.id = buttonsToCreate[i];
+      newButton.onclick = function () {
+        alert('You pressed '+this.id);
+        arrayToModify[arrayToModify.length] = this.id;
+      };
+      buttonContainer.appendChild(newButton);
+    }
+    };
