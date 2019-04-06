@@ -423,4 +423,17 @@ var arrayToModify = [];
       };
       buttonContainer.appendChild(newButton);
     }
+
+    document.getElementById('metadata').innerHTML =
+                        "<div class=\"metadata\">"
+                        +"<h2>"+title+"</h2>"
+                        +"<p>"+artist+", "+year+"</p>"
+                        +"</div>"
+                        /*
+                        +"<h4>"+medium+", "+dimensions+", "+year+"</br>"
+                        +artist+"</h4>"
+                        +loc+"</br>"+"</br>"
+                        +desc
+                        */
+                        ;
     };

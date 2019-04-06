@@ -20,7 +20,7 @@
       padding: 1px;
       width:100%;
       height:1000px;
-      overflow: scroll
+      overflow: scroll;
     }
 #metadata{
       padding: 0px;
@@ -30,7 +30,7 @@
       float:left;
       overflow: scroll
     }
-.buttons{
+.button{
       padding: 10px;
       padding-left: 5%;
       width:20%;
@@ -38,6 +38,13 @@
       height:5%;
       overflow: scroll
     }
+.list{
+  float:left
+}
+#buttons2{
+  float: left;
+  padding-left: 22%
+}
   </style>
     <link rel="stylesheet" href="css/button.css">
     <link rel="stylesheet" href="css/style.css">
@@ -51,16 +58,27 @@
   </script>
 
 <div id="metadata">
-<script src="js/image_data_kor.js" ></script>
-<script src="js/load_metadata.js" ></script>
+
+  <script src="js/image_data_kor.js" ></script>
+  <script src="js/load_metadata.js" ></script>
+
 </div>
-  <div class="buttons">
+
+  <div class="button">
     <button onclick="seg_mode = seg_mode_button(seg_mode);">Segmentation Mode</button>
   </div>
+<br>
+
 
 <center>
 <div class="image">
+  <div id="buttons2">
+    <button onclick="">전체</button>
+  </div>
+  <br>
   <script src="js/polygon.js"></script>
+
+
 </div>
 </center>
 
