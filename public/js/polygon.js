@@ -153,12 +153,10 @@ function draw_polygon(seg_mode){
 
     //polygon opacity, fill color(random)
   svg.selectAll("polygon")
-  .style("fill-opacity", .5)
+  .style("fill-opacity", .000001)
   //.style("stroke", "black")
   //.style("stroke-width", 5)
-  .style("fill",function() {
-    return "hsl(" + Math.random() * 360 + ",100%,50%)";
-  })
+
   .attr("category", function(d){
     return d.category+String(d.duplicates_num);})
     .append("svg:title")
@@ -172,27 +170,58 @@ function draw_polygon(seg_mode){
             else
                 return d.category + ".." + d.object_description +" . 색깔은 "+ d.object_color +"이며, 그림의  "+ d.object_position +"에 위치해 있습니다.";
             }
-        /*
-        if(desc_mode == 0){
-            if(d.category == "배경")
-            return d.category;
+     });
+}
+
+function draw_polygon_by_button(seg_mode, cat){
+
+    var selected_list = [];
+
+    for(var i=0;i<img_file.annotations.length;i++){
+        if(img_file.annotations[i].category == cat){
+            selected_list.push(img_file.annotations[i]);
+        }
+    }
+
+
+    if(seg_mode == "fine"){ //fine(polygon mode)
+        d3.selectAll("polygon").remove();
+        svg.selectAll("polygon")
+        .data(selected_list)
+        .enter().append("polygon")
+        .attr("points", function(d) {
+            return d.segmentation.map(function(d) {
+                    return [x(d[0]),y(d[1])].join(","); }).join(" "); })
+        ;
+    }
+
+    else if(seg_mode == "rough"){ //rough(bbox mode)
+        d3.selectAll("polygon").remove();
+        svg.selectAll("polygon")
+        .data(selected_list)
+        .enter().append("polygon")
+        .attr("points",function(d) {
+            return d.bbox.map(function(d) {
+                    return [x(d[0]),y(d[1])].join(","); }).join(" "); });
+    }
+
+    //polygon opacity, fill color(random)
+  svg.selectAll("polygon")
+  .style("fill-opacity", .000001)
+  .attr("category", function(d){
+    return d.category+String(d.duplicates_num);})
+    .append("svg:title")
+    .text(function(d) {
+
+        if(d.category == "배경")
+            return d.category + ".." + "그림의 배경입니다";
         else{
             if(d.duplicates_num != 1)
-                return d.category + String(d.duplicates_num);
+                return d.category + String(d.duplicates_num) + ".." + d.object_description +" . 색깔은 "+ d.object_color +"이며, 그림의  "+ d.object_position +"에 위치해 있습니다.";
             else
-                return d.category;
+                return d.category + ".." + d.object_description +" . 색깔은 "+ d.object_color +"이며, 그림의  "+ d.object_position +"에 위치해 있습니다.";
             }
-        }
-        else if(desc_mode == 1){
-            if(d.category == "배경"){
-                    voice_desc = "그림의 배경입니다";
-            }
-            else{
-                voice_desc = d.object_description +" . 색깔은 "+ d.object_color +"이며, 그림의  "+ d.object_position +"에 위치해 있습니다.";
-            }
-            return voice_desc;
-        }
-        */
+
             });
 }
 
@@ -286,9 +315,11 @@ var rect = d3.select('body').append("rect")
     .style("stroke-width", "1.5px");
 
   var image = svg.append('image')
-    .attr('xlink:href', "./sample_image/"+img_file_name)
-    .attr('width', this.naturalWidth)
-    .attr('height', this.naturalHeight);
+    .attr('xlink:href', "https://raw.githubusercontent.com/KwonNH/hearing-masterpiece-mobile/mobile_opt/public/sample_image/"+img_file_name)
+    .attr("x", 1)
+    .attr("y", 1)
+    .attr('width', img_file.width)
+    .attr('height', img_file.height);
 
   var x = d3.scaleLinear().range([0, img_file.width]);
   var y = d3.scaleLinear().range([0, img_file.height]);
@@ -408,18 +439,22 @@ function seg_mode_button(seg_mode){
 
 
 var arrayToModify = [];
-    window.onload = function () {
+window.onload = function () {
     var i, buttonsToCreate, buttonContainer, newButton;
+
     buttonsToCreate = objects_list;
     buttonContainer = document.getElementById('buttons2');
+
     for (i = 0; i < buttonsToCreate.length; i++) {
+
       newButton = document.createElement('input');
       newButton.type = 'button';
       newButton.value = buttonsToCreate[i];
       newButton.id = buttonsToCreate[i];
+
       newButton.onclick = function () {
-        alert('You pressed '+this.id);
-        arrayToModify[arrayToModify.length] = this.id;
+        var cat = String(this.id).split("(")[0];
+        draw_polygon_by_button(seg_mode, cat);
       };
       buttonContainer.appendChild(newButton);
     }
@@ -436,4 +471,4 @@ var arrayToModify = [];
                         +desc
                         */
                         ;
-    };
+};

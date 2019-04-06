@@ -65,9 +65,15 @@ function full_desc(img_id){
 
     var year = img_file.year;
 
+    var medium = img_file.medium;
+
+    var dimensions = img_file.dimensions;
+
+    var loc = img_file.locations;
+
     var desc = img_file.description;
 
-    return title + ", " + artist + ", " + year + "년 작, " + desc;
+    return title + ", " + artist + ", " + year + " 년 작품, " + medium + ", " + dimensions + ", " + loc + " 소장, " +  desc;
 }
 
 function voice(){

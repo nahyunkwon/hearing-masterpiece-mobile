@@ -30,7 +30,7 @@
       float:left;
       overflow: scroll
     }
-.button{
+#buttons{
       padding: 10px;
       padding-left: 5%;
       width:20%;
@@ -54,7 +54,7 @@
 
 <div class="main">
     <script>
-      var img_id = 3;
+      var img_id = 4;
   </script>
 
 <div id="metadata">
@@ -64,8 +64,15 @@
 
 </div>
 
-  <div class="button">
+  <div id="buttons">
     <button onclick="seg_mode = seg_mode_button(seg_mode);">Segmentation Mode</button>
+    <br>
+      <button id="desc">그림 설명</button>
+
+      <script>
+        document.getElementById('desc').setAttribute('title', full_desc(1));
+      </script>
+
   </div>
 <br>
 
@@ -73,7 +80,7 @@
 <center>
 <div class="image">
   <div id="buttons2">
-    <button onclick="">전체</button>
+    <button onclick="draw_polygon(seg_mode);">전체</button>
   </div>
   <br>
   <script src="js/polygon.js"></script>
