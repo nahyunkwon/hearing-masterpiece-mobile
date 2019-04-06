@@ -38,9 +38,6 @@
       height:5%;
       overflow: scroll
     }
-.list{
-  float:left
-}
 #buttons2{
   float: left;
   padding-left: 22%
@@ -67,10 +64,9 @@
   <div id="buttons">
     <button onclick="seg_mode = seg_mode_button(seg_mode);">Segmentation Mode</button>
     <br>
-      <button id="desc">그림 설명</button>
-
+    <img src="./description.jpg" id="desc">
       <script>
-        document.getElementById('desc').setAttribute('title', full_desc(1));
+        document.getElementById('desc').setAttribute('title', "그림 설명 .. "+full_desc(1));
       </script>
 
   </div>
@@ -80,11 +76,15 @@
 <center>
 <div class="image">
   <div id="buttons2">
-    <button onclick="draw_polygon(seg_mode);">전체</button>
+    <button id="list" onclick="draw_polygon(seg_mode);">전체</button>
   </div>
   <br>
+
   <script src="js/polygon.js"></script>
 
+  <script>
+        document.getElementById('list').setAttribute('title', objects_list_to_string(objects_list));
+  </script>
 
 </div>
 </center>

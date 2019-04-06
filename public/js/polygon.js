@@ -178,11 +178,10 @@ function draw_polygon_by_button(seg_mode, cat){
     var selected_list = [];
 
     for(var i=0;i<img_file.annotations.length;i++){
-        if(img_file.annotations[i].category == cat){
+        if(img_file.annotations[i].category == cat || img_file.annotations[i].category == "배경"){
             selected_list.push(img_file.annotations[i]);
         }
     }
-
 
     if(seg_mode == "fine"){ //fine(polygon mode)
         d3.selectAll("polygon").remove();
@@ -472,3 +471,16 @@ window.onload = function () {
                         */
                         ;
 };
+
+var lastTouchEnd = 0;
+document.documentElement.addEventListener('touchend', function (event) {
+    var now = (new Date()).getTime();
+    if (now - lastTouchEnd <= 300) {
+      event.preventDefault();
+    }
+    lastTouchEnd = now;
+}, false);
+
+function objects_list_to_string(objects_list){
+    return String(objects_list);
+}
