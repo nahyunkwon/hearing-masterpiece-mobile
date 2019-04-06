@@ -314,7 +314,7 @@ var rect = d3.select('body').append("rect")
     .style("stroke-width", "1.5px");
 
   var image = svg.append('image')
-    .attr('xlink:href', "https://raw.githubusercontent.com/KwonNH/hearing-masterpiece-mobile/mobile_opt/public/sample_image/"+img_file_name)
+    .attr('xlink:href', "https://raw.githubusercontent.com/KwonNH/hearing-masterpiece-mobile/master/public/sample_image/"+img_file_name)
     .attr("x", 1)
     .attr("y", 1)
     .attr('width', img_file.width)
