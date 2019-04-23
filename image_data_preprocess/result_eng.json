@@ -1,4 +1,3 @@
-var image_data =
 {
  "images": [
   {
@@ -542,8 +541,8 @@ var image_data =
    "file_name": "Starry.jpg",
    "title": "A Starry Night",
    "id": 1,
-   "height": "475",
-   "width": "600",
+   "height": "300",
+   "width": "454",
    "artist": "Vincent van Gogh",
    "year": 1889,
    "medium": "Oil on canvas",

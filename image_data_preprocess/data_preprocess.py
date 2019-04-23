@@ -7,7 +7,7 @@ from numpy import *
 
 
 def main():
-    image_data = json.load(open("./image_data/image_data_kor.json", 'r', encoding='utf-16'))
+    image_data = json.load(open("./image_data/image_data_eng.json", 'r', encoding='utf-8'))
 
     images = image_data['images']
     for img in images:
@@ -15,7 +15,8 @@ def main():
 
         background = \
             {"segmentation": [[0, 0], [img['width'], 0], [img['width'], img['height']], [0, img['height']]],
-             "category": "배경"
+             # "category": "배경"
+             "category": "background"
              }
 
         ann.append(background)
@@ -81,7 +82,7 @@ def main():
 
         img['annotations'] = sorted_ann
 
-    with open('result_kor.json', 'w') as fp:
+    with open('result_eng.json', 'w') as fp:
         json.dump(image_data, fp, sort_keys=False, indent=1, separators=(',', ': '), ensure_ascii=False)
 
 

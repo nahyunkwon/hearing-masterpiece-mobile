@@ -115,7 +115,7 @@ function get_objects_list(annotations){
     var counts = {};
 
     for(var i=annotations.length-1;i>=0;i--){
-        if(annotations[i].category != "배경")
+        if(annotations[i].category != "배경" && annotations[i].category != "background")
             objects_list.push(annotations[i].category);
     }
     objects_list = Array.from(objects_list);
