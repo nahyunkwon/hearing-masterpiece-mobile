@@ -4,10 +4,33 @@ from matplotlib.patches import Polygon
 from shapely.geometry import Polygon
 
 from numpy import *
+import xmltodict
+import pprint
+import json
+
+
+def xml_to_json(img_id):
+    with open("./image_data/"+str(img_id)+".xml", 'r', encoding='utf-8') as f:
+        xmlString = f.read()
+
+    print("xml input (xml_to_json.xml):")
+    print(xmlString)
+
+    jsonString = json.dumps(xmltodict.parse(xmlString), indent=4, ensure_ascii=False)
+
+    print("\nJSON output(output.json):")
+    print(jsonString)
+
+    with open("./image_data/"+str(img_id)+".json", 'w', encoding='utf-8') as f:
+        f.write(jsonString)
 
 
 def main():
-    image_data = json.load(open("./image_data/image_data_eng.json", 'r', encoding='utf-8'))
+
+    img_id = 1
+    xml_to_json(img_id)
+
+    image_data = json.load(open("./image_data/"+str(img_id)+".json", 'r', encoding='utf-8'))
 
     images = image_data['images']
     for img in images:

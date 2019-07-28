@@ -307,10 +307,10 @@
         },
         {
             "file_name": "Starry.jpg",
-            "title": "A Starry Night",
+            "title": "The Starry Night",
             "id": 1,
-            "height": "300",
-            "width": "454",
+            "height": "475",
+            "width": "600",
             "artist": "Vincent van Gogh",
             "year": 1889,
             "medium": "Oil on canvas",

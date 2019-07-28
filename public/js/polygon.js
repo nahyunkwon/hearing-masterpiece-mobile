@@ -153,9 +153,11 @@ function draw_polygon(seg_mode){
 
     //polygon opacity, fill color(random)
   svg.selectAll("polygon")
-  .style("fill-opacity", .000001)
-  //.style("stroke", "black")
-  //.style("stroke-width", 5)
+  //.style("fill-opacity", .000001)
+  .style("fill-opacity", .5)
+  .style("fill",function() {
+    return "hsl(" + Math.random() * 360 + ",100%,50%)";
+  })
 
   .attr("category", function(d){
     return d.category+String(d.duplicates_num);})
@@ -183,7 +185,7 @@ function draw_polygon_by_button(seg_mode, cat){
     var selected_list = [];
 
     for(var i=0;i<img_file.annotations.length;i++){
-        if(img_file.annotations[i].category == cat || img_file.annotations[i].category == "배경"){
+        if(img_file.annotations[i].category == cat && img_file.annotations[i].category != "background"){
             selected_list.push(img_file.annotations[i]);
         }
     }
@@ -211,7 +213,13 @@ function draw_polygon_by_button(seg_mode, cat){
 
     //polygon opacity, fill color(random)
   svg.selectAll("polygon")
-  .style("fill-opacity", .000001)
+  //.style("fill-opacity", .000001)
+  .style("fill-opacity", .5)
+  //.style("stroke", "black")
+  //.style("stroke-width", 5)
+  .style("fill",function() {
+    return "hsl(" + Math.random() * 360 + ",100%,50%)";
+  })
   .attr("category", function(d){
     return d.category+String(d.duplicates_num);})
     .append("svg:title")

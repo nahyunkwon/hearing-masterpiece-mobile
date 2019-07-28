@@ -540,7 +540,7 @@ var image_data =
   },
   {
    "file_name": "Starry.jpg",
-   "title": "A Starry Night",
+   "title": "The Starry Night",
    "id": 1,
    "height": "475",
    "width": "600",
@@ -551,6 +551,47 @@ var image_data =
    "locations": "Museum of Modern Art, New York City",
    "description": "The Starry Night is an oil on canvas by the Dutch post-impressionist painter Vincent van Gogh. Painted in June 1889, it depicts the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence, just before sunrise, with the addition of an idealized village. It has been in the permanent collection of the Museum of Modern Art in New York City since 1941, acquired through the Lillie P. Bliss Bequest. Regarded as among Van Gogh's finest works, The Starry Night is one of the most recognized paintings in the history of Western culture.",
    "annotations": [
+    {
+     "segmentation": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       600.0,
+       0.0
+      ],
+      [
+       600.0,
+       475.0
+      ],
+      [
+       0.0,
+       475.0
+      ]
+     ],
+     "category": "background",
+     "area": 285000.0,
+     "bbox": [
+      [
+       0.0,
+       0.0
+      ],
+      [
+       600.0,
+       0.0
+      ],
+      [
+       600.0,
+       475.0
+      ],
+      [
+       0.0,
+       475.0
+      ]
+     ],
+     "duplicates_num": 1
+    },
     {
      "segmentation": [
       [
@@ -711,47 +752,6 @@ var image_data =
       [
        4.0,
        296.0
-      ]
-     ],
-     "duplicates_num": 1
-    },
-    {
-     "segmentation": [
-      [
-       0.0,
-       0.0
-      ],
-      [
-       454.0,
-       0.0
-      ],
-      [
-       454.0,
-       300.0
-      ],
-      [
-       0.0,
-       300.0
-      ]
-     ],
-     "category": "background",
-     "area": 136200.0,
-     "bbox": [
-      [
-       0.0,
-       0.0
-      ],
-      [
-       454.0,
-       0.0
-      ],
-      [
-       454.0,
-       300.0
-      ],
-      [
-       0.0,
-       300.0
       ]
      ],
      "duplicates_num": 1
