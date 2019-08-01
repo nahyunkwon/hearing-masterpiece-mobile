@@ -11,18 +11,18 @@ import json
 
 def xml_to_json(img_id):
     with open("./image_data/"+str(img_id)+".xml", 'r', encoding='utf-8') as f:
-        xmlString = f.read()
+        xml_string = f.read()
 
     print("xml input (xml_to_json.xml):")
-    print(xmlString)
+    print(xml_string)
 
-    jsonString = json.dumps(xmltodict.parse(xmlString), indent=4, ensure_ascii=False)
+    json_string = json.dumps(xmltodict.parse(xml_string), indent=4, ensure_ascii=False)
 
     print("\nJSON output(output.json):")
-    print(jsonString)
+    print(json_string)
 
     with open("./image_data/"+str(img_id)+".json", 'w', encoding='utf-8') as f:
-        f.write(jsonString)
+        f.write(json_string)
 
 
 def main():
@@ -32,15 +32,16 @@ def main():
 
     image_data = json.load(open("./image_data/"+str(img_id)+".json", 'r', encoding='utf-8'))
 
-    images = image_data['images']
+    images = image_data['annotation']
     for img in images:
-        ann = img['annotations']
+        ann = img['object']
 
         background = \
-            {"segmentation": [[0, 0], [img['width'], 0], [img['width'], img['height']], [0, img['height']]],
+            {"name": "배경", "polygon": {{"pt": [{"x": 0, "y": 0}, {"x": img['width'], "y": 0},
+                              {"x": img['width'], "y": img['height']}, {"x": 0, "y": img['height']}],
              # "category": "배경"
              "category": "background"
-             }
+             }}}
 
         ann.append(background)
 
