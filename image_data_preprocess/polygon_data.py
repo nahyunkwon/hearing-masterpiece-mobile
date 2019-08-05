@@ -2,6 +2,7 @@ import csv
 from urllib import parse
 import operator
 import pandas as pd
+import numpy as np
 
 
 def txt_to_csv():
@@ -76,11 +77,49 @@ def obj_list_to_csv():
         writer.writerows(obj_lists)
 
 
+def get_stat_data(img_id):
+
+    img_df = pd.read_csv("./art/" + img_id + "csv.csv")
+
+    new_df = pd.DataFrame.from_dict(img_df)
+
+    new_df = new_df[['name', 'polygon/username']]
+
+    new_df = new_df.sort_values(by=['polygon/username'])
+
+    dups_user = new_df.pivot_table(index=['polygon/username'], aggfunc='size')
+
+    count_list = []
+
+    for i in range(len(dups_user)):
+        count_list.append(dups_user.iloc[i])
+
+    count_arr = np.array(count_list)
+
+    result_list = []
+
+    result_list.append(np.mean(count_arr))
+    result_list.append(np.std(count_arr))
+
+    return result_list
+
+def stat_data_to_csv():
+
+    img_id = ["1", "2", "4", "5", "9", "11", "17", "18"]
+
+    stat_list = []
+
+    for i in img_id:
+        stat_list.append(get_stat_data(i))
+
+    print(stat_list)
+
+    with open("./art/user_stat.csv", "w", newline="") as f:  # open("output.csv","wb") for Python 2
+        writer = csv.writer(f)
+        writer.writerows(stat_list)
+    
+
 def main():
-
-
-
-
 
 
 
