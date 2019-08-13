@@ -3,6 +3,7 @@ from urllib import parse
 import operator
 import pandas as pd
 import numpy as np
+import re
 
 
 def txt_to_csv():
@@ -166,9 +167,56 @@ def join_object_data_desc():
     join_df.to_csv("../art_desc_decode/object_info.csv", mode='w')
 
 
+def desc_to_word_list(img_name):
+
+    desc_df = pd.read_csv("../art_desc_decode/art_desc_2.csv")
+
+    img_desc = desc_df.loc[desc_df['img_name'] == img_name]
+
+    desc_list = []
+
+    for i in range(len(img_desc)):
+        desc_split = re.split(', |,| ; |; |;|\r|\n|and |but |with |\.', str(img_desc.iloc[i]['img_desc']))
+        desc_list = desc_list + desc_split
+
+    desc_list = list(dict.fromkeys(desc_list))
+
+    try:
+        desc_list.remove('')
+    except ValueError:
+        pass
+    try:
+        desc_list.remove('nan')
+    except ValueError:
+        pass
+    try:
+        desc_list.remove('ZCgDVLkp6')
+    except ValueError:
+        pass
+
+    result_list = []
+    result_list.append(img_name)
+    result_list.append(desc_list)
+
+    return result_list
+
+
 def main():
 
+    img_id = ["1", "2", "4", "5", "9", "11", "17", "18"]
 
+    columns = ['img_id', 'art_desc']
+
+    result = []
+
+    for i in img_id:
+        result.append(desc_to_word_list(i + ".jpg"))
+
+    desc_df = pd.DataFrame(result, columns=columns)
+
+    print(desc_df)
+
+    desc_df.to_csv("./art/result_desc.csv")
 
 
 
