@@ -36,6 +36,7 @@ def sort_by_worker_id():
         writer.writerow(('img_name', 'worker_id', 'desc'))
         writer.writerows(sortedlist)
 
+
 def get_obj_list(img_id):
 
     img_df = pd.read_csv("./art/" + img_id + "csv.csv")
@@ -103,6 +104,7 @@ def get_stat_data(img_id):
 
     return result_list
 
+
 def stat_data_to_csv():
 
     img_id = ["1", "2", "4", "5", "9", "11", "17", "18"]
@@ -117,10 +119,54 @@ def stat_data_to_csv():
     with open("./art/user_stat.csv", "w", newline="") as f:  # open("output.csv","wb") for Python 2
         writer = csv.writer(f)
         writer.writerows(stat_list)
-    
+
+
+def list_to_csv(list, dest):
+    with open(dest, "w", newline="") as f:  # open("output.csv","wb") for Python 2
+        writer = csv.writer(f)
+        writer.writerows(list)
+
+
+def join_object_data_desc():
+    obj_df = pd.read_csv("../art_desc_decode/objects.csv")
+    desc_df = pd.read_csv("../art_desc_decode/art_desc_2.csv")
+
+    obj_df = obj_df.rename(columns={"workerID": "worker_id"})
+
+    obj_df = obj_df.drop(columns=['Unnamed: 5', 'Unnamed: 6'])
+
+    # obj_df = obj_df[['worker_id']]
+    # print(obj_df)
+
+    # desc_df = desc_df[['worker_id', 'img_desc']]
+
+    # desc_df = desc_df.drop_duplicates(keep='last')
+
+    # desc_df.to_csv("./art_desc_no_dup.csv", mode='w')
+
+    # desc_df.to_csv("art_desc_no_dup.csv", mode='w')
+
+    # obj_df = obj_df.astype(str)
+    # desc_df = desc_df.astype(str)
+
+    obj_df = obj_df.applymap(str)
+
+    for i in range(len(obj_df)):
+        obj_df.iloc[i][0] = str(obj_df.iloc[i][0]) + ".jpg"
+        print(type(obj_df.iloc[i][0]))
+
+    print(desc_df)
+    # obj_df.to_csv("art_desc_no_dup.csv", mode='w')
+
+    # join_df = obj_df.join(desc_df, lsuffix='_left', rsuffix='_right', on=['worker_id, img_name'])
+
+    join_df = pd.merge(obj_df, desc_df, how='left', left_on=['img_name', 'worker_id'],
+                       right_on=['img_name', 'worker_id'])
+
+    join_df.to_csv("../art_desc_decode/object_info.csv", mode='w')
+
 
 def main():
-
 
 
 

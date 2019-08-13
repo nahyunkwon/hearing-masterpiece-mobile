@@ -5,13 +5,6 @@ img_name,worker_id,img_desc
 1.jpg,A2E9KS4RK6T8CW,"interesting, beautiful, lovely, awesome, great"
 1.jpg,A2HC04434S9TP0,"painting, famous, forest, lake, dark, woman"
 1.jpg,A2M3QMJC99DERS,"woman, smile, long hair, brown, calm"
-1.jpg,A2M3QMJC99DERS,"woman, smile, long hair, brown, calm"
-1.jpg,A2M3QMJC99DERS,"woman, smile, long hair, brown, calm"
-1.jpg,A2M3QMJC99DERS,"woman, smile, long hair, brown, calm"
-1.jpg,A2M3QMJC99DERS,"woman, smile, long hair, brown, calm"
-1.jpg,A2M3QMJC99DERS,"woman, smile, long hair, brown, calm"
-1.jpg,A2M3QMJC99DERS,"woman, smile, long hair, brown, calm"
-1.jpg,A2M3QMJC99DERS,"woman, smile, long hair, brown, calm"
 1.jpg,A2NV315LQL2QZ7,"gray,classic, art, trees,woman"
 1.jpg,A2NVNFIOKLEEGY,"hand
 nose
@@ -24,14 +17,9 @@ mountain
 1.jpg,AIN29LNXRARXY,"portrait, lady, landscape background, enigmatic expression, Gioconda, Leonardo Da Vinci, sixteenth century, natural light"
 1.jpg,AOV97Z3YMKLAQ,"Mona Lisa, Leonardo da Vinci, Art, Painting, Famous"
 1.jpg,WorkerID,"Expression,Brightness,shape,structure,amazing"
-1.jpg,WorkerID,"Expression,Brightness,shape,structure,amazing"
-1.jpg,WorkerID,"Expression,Brightness,shape,structure,amazing"
-1.jpg,ZCgDVlkp5,
 1.jpg,ZCgDVlkp5,"Mona Lisa, "
 11.jpg,A13JDB1LY9ZTQY,"romantic, soft, nighttime, outdoor, urban"
 11.jpg,A1CJ8CLM7987EQ,"night, restaurant, eating, warm"
-11.jpg,A1Q995BGGPBDMB,"night time, cafe, romantic
-"
 11.jpg,A1Q995BGGPBDMB,"night time, cafe, romantic
 "
 11.jpg,A267H808C339ZQ,WALL WINDOWS CHAIR DESK AND TREE
@@ -46,39 +34,19 @@ window
 
 
 "
-11.jpg,A2NVNFIOKLEEGY,"house
-tree
-street
-door
-window
-
-
-"
 11.jpg,A2OMYDY8G8PNJE,"night, street, outside, patio, shop"
 11.jpg,A35Q0ZG3C7ZFP,"table,chair,restaurant,old man,lady,tree,house,"
 11.jpg,A3EQKTEL74N09A,"Night, town, restaurant, patio, stars, cobblestone, cafe, gathering, tree"
 11.jpg,A3O9QZA6B3CY7U,road and four peoples
-11.jpg,A3O9QZA6B3CY7U,road and four peoples
-11.jpg,A3O9QZA6B3CY7U,A3O9QZA6B3CY7U
-11.jpg,A3O9QZA6B3CY7U,http://ec2-18-217-59-91.us-east-2.compute.amazonaws.com//LabelMeAnnotationTool/tool.html?collection=art&mode=mt&folder=art&image=11.jpg&N=5&viewobj=e&username=A3O9QZA6B3CY7U
-11.jpg,A3O9QZA6B3CY7U,http://ec2-18-217-59-91.us-east-2.compute.amazonaws.com//LabelMeAnnotationTool/tool.html?collection=art&mode=mt&folder=art&image=11.jpg&N=5&viewobj=e&username=A3O9QZA6B3CY7U
-11.jpg,A3O9QZA6B3CY7U,ec2-18-217-59-91
-11.jpg,A3O9QZA6B3CY7U,zcdgvlkpd
-11.jpg,A3O9QZA6B3CY7U,ZCCGDVLKPV5
-11.jpg,A3O9QZA6B3CY7U,ZCgDVLKPV5
-11.jpg,A3O9QZA6B3CY7U,ZCgDVLKP5
-11.jpg,A3O9QZA6B3CY7U,ZCgDVlKP5
-11.jpg,A3O9QZA6B3CY7U,ZCgDVlKp5
-11.jpg,A3O9QZA6B3CY7U,road and peolpe
 11.jpg,A3TAM79PCXOLXI,"Vague, dining area with tables and chairs, starry night, trees and shops"
-11.jpg,AIN29LNXRARXY,"night, nightlife, outdoor, cafè, stars, street"
-11.jpg,WorkerIDAXPUKBI6UNZY,A ONE MAN WAS AT WORKING IN DINING HALL 
-11.jpg,WorkerIDAXPUKBI6UNZY,A ONE MAN WAS AT WORKING IN DINING HALL 
-11.jpg,WorkerIDAXPUKBI6UNZY,A ONE MAN WAS AT WORKING IN DINING HALL 
-11.jpg,WorkerIDAXPUKBI6UNZY,A ONE MAN WAS AT WORKING IN DINING HALL 
-11.jpg,WorkerIDAXPUKBI6UNZY,A ONE MAN WAS AT WORKING IN DINING HALL 
 11.jpg,adam.kerr27@yahoo.com,"Van Gogh, vibrant color, french, restaurant/bar, dining"
+11.jpg,AIN29LNXRARXY,"night, nightlife, outdoor, cafè, stars, street"
 11.jpg,lpriyamvada@gmail.com,
+11.jpg,WorkerIDAXPUKBI6UNZY,A ONE MAN WAS AT WORKING IN DINING HALL 
+11.jpg,WorkerIDAXPUKBI6UNZY,A ONE MAN WAS AT WORKING IN DINING HALL 
+11.jpg,WorkerIDAXPUKBI6UNZY,A ONE MAN WAS AT WORKING IN DINING HALL 
+11.jpg,WorkerIDAXPUKBI6UNZY,A ONE MAN WAS AT WORKING IN DINING HALL 
+11.jpg,WorkerIDAXPUKBI6UNZY,A ONE MAN WAS AT WORKING IN DINING HALL 
 17.jpg,A115BHSWY8R1KU,"sweet, couple, family, victorian, romantic"
 17.jpg,A16HYGH5YO5EAF,"pregnant women, dog, ,man, handshake, room, mirror, shoes, window, open window, door, green dress, black dress, wall hanging, hat"
 17.jpg,A16HYGH5YO5EAF,"pregnant women, dog, ,man, handshake, room, mirror, shoes, window, open window, door, green dress, black dress, wall hanging, hat, ZCgDVLkp6"
