@@ -342,14 +342,14 @@ var rect = d3.select('body').append("rect")
     .attr('xlink:href', "https://raw.githubusercontent.com/KwonNH/hearing-masterpiece-mobile/master/public/sample_image/"+img_file_name)
     .attr("x", 1)
     .attr("y", 1)
-    .attr('width', width)
-    .attr('height', height);
+    .attr('width', img_width)
+    .attr('height', img_height);
 
-  var x = d3.scaleLinear().range([0, naturalWidth]);
-  var y = d3.scaleLinear().range([0, naturalHeight]);
+  var x = d3.scaleLinear().range([0, img_width]);
+  var y = d3.scaleLinear().range([0, img_height]);
 
-  x.domain([0, width]);
-  y.domain([0, height]);
+  x.domain([0, img_width]);
+  y.domain([0, img_height]);
 
   draw_polygon(seg_mode);
 

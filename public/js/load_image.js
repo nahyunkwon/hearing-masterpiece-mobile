@@ -11,16 +11,7 @@ $.ajax({
     }
 });
 
-var width;
-var height;
-
-function getMeta(url){
-    var img = new Image();
-    img.addEventListener("load", function(){
-        width = this.naturalWidth;
-        height = this.naturalHeight;
-    });
-    img.src = url;
-}
+var img_width=800;
+var img_height=1192;
 
 console.log(image_data);
