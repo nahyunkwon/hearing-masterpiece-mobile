@@ -411,7 +411,7 @@
             },
             {
                 "name": "sun",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "sky, orange, yellow, medium, circle, no texture",
@@ -865,7 +865,7 @@
             },
             {
                 "name": "star",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "light, heat, sun, space, night",
@@ -2313,7 +2313,7 @@
             },
             {
                 "name": "moon",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "yellow",
@@ -2333,7 +2333,7 @@
             },
             {
                 "name": "house",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "brown",
@@ -2353,7 +2353,7 @@
             },
             {
                 "name": "sky",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "blue",
@@ -2373,7 +2373,7 @@
             },
             {
                 "name": "wind",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "blue",
@@ -2393,7 +2393,7 @@
             },
             {
                 "name": "mountain",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "blue",
@@ -2939,7 +2939,7 @@
             },
             {
                 "name": "moon",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "rough, round, big",
@@ -3320,7 +3320,7 @@
                 }
             },
             {
-                "name": "circle",
+                "name": "star",
                 "deleted": "0",
                 "verified": "0",
                 "occluded": null,
@@ -3394,7 +3394,7 @@
                 }
             },
             {
-                "name": "ball",
+                "name": "star",
                 "deleted": "0",
                 "verified": "0",
                 "occluded": null,
@@ -3456,7 +3456,7 @@
                 }
             },
             {
-                "name": "moon",
+                "name": "star",
                 "deleted": "0",
                 "verified": "0",
                 "occluded": null,
@@ -3515,7 +3515,7 @@
             },
             {
                 "name": "nightfall",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "big, bright, star",
@@ -3596,11 +3596,11 @@
                 }
             },
             {
-                "name": "landscape",
+                "name": "star",
                 "deleted": "0",
                 "verified": "0",
                 "occluded": null,
-                "attributes": "green, oil paint, art",
+                "attributes": "light, heat, sun, space, nightgreen, oil paint, art, grey blue, yellow center,",
                 "parts": {
                     "hasparts": null,
                     "ispartof": null
@@ -3785,7 +3785,7 @@
             },
             {
                 "name": "center of the light",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "the core a star",
@@ -4671,7 +4671,7 @@
             },
             {
                 "name": "star",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "top, right, yellow, corner, circle",
@@ -4861,7 +4861,7 @@
             },
             {
                 "name": "star",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "right, grey blue, yellow center,",

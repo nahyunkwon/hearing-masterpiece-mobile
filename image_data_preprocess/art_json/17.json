@@ -9,7 +9,7 @@
         "object": [
             {
                 "name": "human",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "male, blessing, happy",
@@ -794,8 +794,8 @@
                 }
             },
             {
-                "name": "cat",
-                "deleted": "0",
+                "name": "dog",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "room, brown, small, smooth",
@@ -1401,7 +1401,7 @@
             },
             {
                 "name": "chandelier",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "ornate, lighting, gold",
@@ -1475,7 +1475,7 @@
             },
             {
                 "name": "mirror",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "ornate, relfecting, gold",
@@ -1533,7 +1533,7 @@
             },
             {
                 "name": "shoes",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "wooden, clogs, sandles",
@@ -1865,7 +1865,7 @@
             },
             {
                 "name": "slippers",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "they are on the left bottom ,white in colour,normal sized",
@@ -1914,7 +1914,7 @@
                 "deleted": "0",
                 "verified": "0",
                 "occluded": null,
-                "attributes": "on the middle center,brown in color,circle in shape",
+                "attributes": "on the middle center,brown in color,circle in shape, ornate, relfecting, gold",
                 "parts": {
                     "hasparts": null,
                     "ispartof": null
@@ -2087,7 +2087,7 @@
             },
             {
                 "name": "wall hanging",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "golden in color,at the top center,big in size",
@@ -2402,7 +2402,7 @@
                 "deleted": "0",
                 "verified": "0",
                 "occluded": null,
-                "attributes": "small, brown, dog, young, long-haired",
+                "attributes": "small, brown, dog, young, long-haired, long hair, terrier-like, in-between the couple, smooth",
                 "parts": {
                     "hasparts": null,
                     "ispartof": null
@@ -2539,7 +2539,7 @@
             },
             {
                 "name": "chandeliar",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "fancy, light, expensive, hanging, bright",
@@ -2696,7 +2696,7 @@
                 "deleted": "0",
                 "verified": "0",
                 "occluded": null,
-                "attributes": "2 shoes, feminine, sandals",
+                "attributes": "2 shoes, feminine, sandals,wooden, clogs, sandles",
                 "parts": {
                     "hasparts": null,
                     "ispartof": null
@@ -2789,7 +2789,7 @@
             },
             {
                 "name": "dog",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "small, long hair, terrier-like, in-between the couple",
@@ -3611,7 +3611,7 @@
             },
             {
                 "name": "dress",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "black",
@@ -3631,7 +3631,7 @@
             },
             {
                 "name": "room",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "brown",
@@ -3651,7 +3651,7 @@
             },
             {
                 "name": "cap",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "black",
@@ -3671,7 +3671,7 @@
             },
             {
                 "name": "window",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "white",
@@ -3691,7 +3691,7 @@
             },
             {
                 "name": "dog",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "black",
@@ -3813,7 +3813,7 @@
             },
             {
                 "name": "dress",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "green dress, velvet, women,",
@@ -3885,7 +3885,7 @@
             },
             {
                 "name": "scarf",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "white scarf, women, head",
@@ -4706,7 +4706,7 @@
                 "deleted": "0",
                 "verified": "0",
                 "occluded": null,
-                "attributes": "brass, gold, gothic, hanging, heavy, shiny",
+                "attributes": "ornate, lighting, gold, brass, gold, gothic, hanging, heavy, shiny, golden in color,at the top center,big in size",
                 "parts": {
                     "hasparts": null,
                     "ispartof": null

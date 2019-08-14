@@ -8,251 +8,8 @@
   },
   "object": [
    {
-    "name": "background",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "dark brown, complementary colors, shadows",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 16:12:49",
-    "id": "47",
-    "polygon": {
-     "username": "A1NZ4C0GO5HS87",
-     "pt": [
-      {
-       "x": "17",
-       "y": "11333"
-      },
-      {
-       "x": "2091",
-       "y": "11350"
-      },
-      {
-       "x": "2665",
-       "y": "11333"
-      },
-      {
-       "x": "3069",
-       "y": "10659"
-      },
-      {
-       "x": "3255",
-       "y": "10035"
-      },
-      {
-       "x": "3677",
-       "y": "9394"
-      },
-      {
-       "x": "4064",
-       "y": "8449"
-      },
-      {
-       "x": "4031",
-       "y": "8045"
-      },
-      {
-       "x": "4216",
-       "y": "7589"
-      },
-      {
-       "x": "4250",
-       "y": "7184"
-      },
-      {
-       "x": "4216",
-       "y": "7033"
-      },
-      {
-       "x": "3677",
-       "y": "6915"
-      },
-      {
-       "x": "3306",
-       "y": "6544"
-      },
-      {
-       "x": "3171",
-       "y": "6139"
-      },
-      {
-       "x": "3069",
-       "y": "5751"
-      },
-      {
-       "x": "2968",
-       "y": "5110"
-      },
-      {
-       "x": "2968",
-       "y": "4621"
-      },
-      {
-       "x": "2935",
-       "y": "3896"
-      },
-      {
-       "x": "2935",
-       "y": "2951"
-      },
-      {
-       "x": "3154",
-       "y": "2698"
-      },
-      {
-       "x": "3575",
-       "y": "2192"
-      },
-      {
-       "x": "3896",
-       "y": "2159"
-      },
-      {
-       "x": "5178",
-       "y": "1703"
-      },
-      {
-       "x": "5684",
-       "y": "1366"
-      },
-      {
-       "x": "6442",
-       "y": "1434"
-      },
-      {
-       "x": "7066",
-       "y": "1568"
-      },
-      {
-       "x": "7370",
-       "y": "1771"
-      },
-      {
-       "x": "7690",
-       "y": "2361"
-      },
-      {
-       "x": "8095",
-       "y": "3154"
-      },
-      {
-       "x": "8449",
-       "y": "4250"
-      },
-      {
-       "x": "8770",
-       "y": "5245"
-      },
-      {
-       "x": "8871",
-       "y": "6274"
-      },
-      {
-       "x": "9107",
-       "y": "7370"
-      },
-      {
-       "x": "9242",
-       "y": "8163"
-      },
-      {
-       "x": "9191",
-       "y": "8753"
-      },
-      {
-       "x": "8669",
-       "y": "8972"
-      },
-      {
-       "x": "8146",
-       "y": "9293"
-      },
-      {
-       "x": "7808",
-       "y": "9394"
-      },
-      {
-       "x": "8264",
-       "y": "10203"
-      },
-      {
-       "x": "8348",
-       "y": "10794"
-      },
-      {
-       "x": "8382",
-       "y": "11063"
-      },
-      {
-       "x": "8618",
-       "y": "11215"
-      },
-      {
-       "x": "9208",
-       "y": "11350"
-      },
-      {
-       "x": "9478",
-       "y": "11350"
-      },
-      {
-       "x": "9613",
-       "y": "11215"
-      },
-      {
-       "x": "9613",
-       "y": "10524"
-      },
-      {
-       "x": "9596",
-       "y": "8180"
-      },
-      {
-       "x": "9647",
-       "y": "5144"
-      },
-      {
-       "x": "9562",
-       "y": "860"
-      },
-      {
-       "x": "9613",
-       "y": "67"
-      },
-      {
-       "x": "4823",
-       "y": "84"
-      },
-      {
-       "x": "1332",
-       "y": "34"
-      },
-      {
-       "x": "101",
-       "y": "51"
-      },
-      {
-       "x": "0",
-       "y": "1467"
-      },
-      {
-       "x": "17",
-       "y": "5329"
-      },
-      {
-       "x": "34",
-       "y": "8854"
-      }
-     ]
-    },
-    "area": 58545888.5
-   },
-   {
     "name": "person",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "person",
@@ -1245,11 +1002,11 @@
     "area": 11869035.0
    },
    {
-    "name": "hair",
+    "name": "hairscarf",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "hair, blonde, yellow",
+    "attributes": "hairscarf",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -1345,7 +1102,7 @@
    },
    {
     "name": "girl_s face",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "famous person, light pink skin, portrait, focus of the painting, relaxed",
@@ -1523,7 +1280,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "smile,left side,pointed nose",
+    "attributes": "smile,left side,pointed nose, famous person, light pink skin, portrait, focus of the painting, relaxed",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -1737,73 +1494,6 @@
     "area": 7367368.5
    },
    {
-    "name": "shoulder",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "body part, girl, left",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 18:28:33",
-    "id": "55",
-    "polygon": {
-     "username": "AOV97Z3YMKLAQ",
-     "pt": [
-      {
-       "x": "6241",
-       "y": "9257"
-      },
-      {
-       "x": "6259",
-       "y": "10094"
-      },
-      {
-       "x": "5962",
-       "y": "10600"
-      },
-      {
-       "x": "5317",
-       "y": "10844"
-      },
-      {
-       "x": "4759",
-       "y": "10739"
-      },
-      {
-       "x": "4167",
-       "y": "10147"
-      },
-      {
-       "x": "3958",
-       "y": "9449"
-      },
-      {
-       "x": "4236",
-       "y": "8647"
-      },
-      {
-       "x": "4672",
-       "y": "8333"
-      },
-      {
-       "x": "5230",
-       "y": "8211"
-      },
-      {
-       "x": "5858",
-       "y": "8438"
-      },
-      {
-       "x": "6189",
-       "y": "8804"
-      }
-     ]
-    },
-    "area": 4682602.0
-   },
-   {
     "name": "headscarf",
     "deleted": "0",
     "verified": "0",
@@ -1952,7 +1642,7 @@
    },
    {
     "name": "background",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "black, dark, behind",
@@ -2132,153 +1822,6 @@
     "area": 1116078.5
    },
    {
-    "name": "collar",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "white, collar, bright, soft, cloth",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 15:47:43",
-    "id": "41",
-    "polygon": {
-     "username": "A2MDR0R3KTYTGV",
-     "pt": [
-      {
-       "x": "4363",
-       "y": "7954"
-      },
-      {
-       "x": "4542",
-       "y": "7852"
-      },
-      {
-       "x": "4730",
-       "y": "7619"
-      },
-      {
-       "x": "4944",
-       "y": "7468"
-      },
-      {
-       "x": "5078",
-       "y": "7387"
-      },
-      {
-       "x": "5275",
-       "y": "7284"
-      },
-      {
-       "x": "5623",
-       "y": "7110"
-      },
-      {
-       "x": "5976",
-       "y": "6976"
-      },
-      {
-       "x": "6226",
-       "y": "6896"
-      },
-      {
-       "x": "6637",
-       "y": "6766"
-      },
-      {
-       "x": "6909",
-       "y": "6713"
-      },
-      {
-       "x": "7293",
-       "y": "6713"
-      },
-      {
-       "x": "7342",
-       "y": "6686"
-      },
-      {
-       "x": "7284",
-       "y": "6489"
-      },
-      {
-       "x": "7235",
-       "y": "6422"
-      },
-      {
-       "x": "7106",
-       "y": "6400"
-      },
-      {
-       "x": "6838",
-       "y": "6409"
-      },
-      {
-       "x": "6637",
-       "y": "6422"
-      },
-      {
-       "x": "6458",
-       "y": "6454"
-      },
-      {
-       "x": "6195",
-       "y": "6539"
-      },
-      {
-       "x": "5980",
-       "y": "6606"
-      },
-      {
-       "x": "5708",
-       "y": "6704"
-      },
-      {
-       "x": "5444",
-       "y": "6784"
-      },
-      {
-       "x": "5310",
-       "y": "6820"
-      },
-      {
-       "x": "5096",
-       "y": "6923"
-      },
-      {
-       "x": "4935",
-       "y": "7030"
-      },
-      {
-       "x": "4792",
-       "y": "7124"
-      },
-      {
-       "x": "4712",
-       "y": "7213"
-      },
-      {
-       "x": "4600",
-       "y": "7351"
-      },
-      {
-       "x": "4484",
-       "y": "7494"
-      },
-      {
-       "x": "4417",
-       "y": "7637"
-      },
-      {
-       "x": "4372",
-       "y": "7767"
-      }
-     ]
-    },
-    "area": 1107612.5
-   },
-   {
     "name": "forehead",
     "deleted": "0",
     "verified": "0",
@@ -2363,176 +1906,6 @@
      ]
     },
     "area": 718678.5
-   },
-   {
-    "name": "chin",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "chin, jaw, below mouth",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 15:49:43",
-    "id": "43",
-    "polygon": {
-     "username": "A2MDR0R3KTYTGV",
-     "pt": [
-      {
-       "x": "3368",
-       "y": "6275"
-      },
-      {
-       "x": "3452",
-       "y": "6489"
-      },
-      {
-       "x": "3524",
-       "y": "6664"
-      },
-      {
-       "x": "3662",
-       "y": "6731"
-      },
-      {
-       "x": "3783",
-       "y": "6793"
-      },
-      {
-       "x": "4002",
-       "y": "6838"
-      },
-      {
-       "x": "4207",
-       "y": "6815"
-      },
-      {
-       "x": "4395",
-       "y": "6771"
-      },
-      {
-       "x": "4636",
-       "y": "6735"
-      },
-      {
-       "x": "4770",
-       "y": "6699"
-      },
-      {
-       "x": "4850",
-       "y": "6489"
-      },
-      {
-       "x": "4841",
-       "y": "6271"
-      },
-      {
-       "x": "4703",
-       "y": "6235"
-      },
-      {
-       "x": "4265",
-       "y": "6280"
-      },
-      {
-       "x": "3957",
-       "y": "6302"
-      },
-      {
-       "x": "3560",
-       "y": "6293"
-      }
-     ]
-    },
-    "area": 670852.5
-   },
-   {
-    "name": "nose",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "female, white",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 09:32:52",
-    "id": "5",
-    "polygon": {
-     "username": "A1QC6WNXRWWPCC",
-     "pt": [
-      {
-       "x": "3486",
-       "y": "4684"
-      },
-      {
-       "x": "3330",
-       "y": "5284"
-      },
-      {
-       "x": "3530",
-       "y": "5617"
-      },
-      {
-       "x": "3774",
-       "y": "5484"
-      },
-      {
-       "x": "3952",
-       "y": "5528"
-      },
-      {
-       "x": "4174",
-       "y": "5439"
-      },
-      {
-       "x": "3952",
-       "y": "5173"
-      },
-      {
-       "x": "3863",
-       "y": "4795"
-      },
-      {
-       "x": "3819",
-       "y": "4507"
-      },
-      {
-       "x": "3952",
-       "y": "4396"
-      },
-      {
-       "x": "3907",
-       "y": "4129"
-      },
-      {
-       "x": "3974",
-       "y": "4107"
-      },
-      {
-       "x": "3930",
-       "y": "4107"
-      },
-      {
-       "x": "3752",
-       "y": "4174"
-      },
-      {
-       "x": "3641",
-       "y": "4174"
-      },
-      {
-       "x": "3552",
-       "y": "4174"
-      },
-      {
-       "x": "3597",
-       "y": "4485"
-      }
-     ]
-    },
-    "area": 647745.0
    },
    {
     "name": "neck",
@@ -2701,47 +2074,8 @@
     "area": 616766.5
    },
    {
-    "name": "hear",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "blond, girl, head",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 18:30:22",
-    "id": "57",
-    "polygon": {
-     "username": "AOV97Z3YMKLAQ",
-     "pt": [
-      {
-       "x": "6677",
-       "y": "1674"
-      },
-      {
-       "x": "6485",
-       "y": "2022"
-      },
-      {
-       "x": "5195",
-       "y": "1883"
-      },
-      {
-       "x": "5387",
-       "y": "1517"
-      },
-      {
-       "x": "5806",
-       "y": "1464"
-      }
-     ]
-    },
-    "area": 556022.5
-   },
-   {
     "name": "lips",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "red, open, talking",
@@ -2777,6 +2111,69 @@
      ]
     },
     "area": 457119.5
+   },
+   {
+    "name": "ear",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "female, white",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 09:31:03",
+    "id": "4",
+    "polygon": {
+     "username": "A1QC6WNXRWWPCC",
+     "pt": [
+      {
+       "x": "5684",
+       "y": "5928"
+      },
+      {
+       "x": "6039",
+       "y": "5750"
+      },
+      {
+       "x": "5706",
+       "y": "5528"
+      },
+      {
+       "x": "5772",
+       "y": "5195"
+      },
+      {
+       "x": "5883",
+       "y": "5128"
+      },
+      {
+       "x": "5928",
+       "y": "4906"
+      },
+      {
+       "x": "6327",
+       "y": "5284"
+      },
+      {
+       "x": "6461",
+       "y": "5595"
+      },
+      {
+       "x": "6327",
+       "y": "5750"
+      },
+      {
+       "x": "6128",
+       "y": "5795"
+      },
+      {
+       "x": "5972",
+       "y": "5839"
+      }
+     ]
+    },
+    "area": 401336.0
    },
    {
     "name": "eye",
@@ -2834,57 +2231,6 @@
     "area": 386815.0
    },
    {
-    "name": "lips",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "female, red, smile",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 09:30:02",
-    "id": "3",
-    "polygon": {
-     "username": "A1QC6WNXRWWPCC",
-     "pt": [
-      {
-       "x": "3352",
-       "y": "5706"
-      },
-      {
-       "x": "3641",
-       "y": "5684"
-      },
-      {
-       "x": "4107",
-       "y": "5928"
-      },
-      {
-       "x": "4240",
-       "y": "5972"
-      },
-      {
-       "x": "4063",
-       "y": "6216"
-      },
-      {
-       "x": "3730",
-       "y": "6261"
-      },
-      {
-       "x": "3508",
-       "y": "6261"
-      },
-      {
-       "x": "3375",
-       "y": "6083"
-      }
-     ]
-    },
-    "area": 359649.0
-   },
-   {
     "name": "ear",
     "deleted": "0",
     "verified": "0",
@@ -2938,163 +2284,6 @@
      ]
     },
     "area": 301363.0
-   },
-   {
-    "name": "mouth",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "lips, semi opened, smile",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 12:17:47",
-    "id": "20",
-    "polygon": {
-     "username": "AIN29LNXRARXY",
-     "pt": [
-      {
-       "x": "3327",
-       "y": "5782"
-      },
-      {
-       "x": "3597",
-       "y": "5766"
-      },
-      {
-       "x": "4243",
-       "y": "5989"
-      },
-      {
-       "x": "4093",
-       "y": "6170"
-      },
-      {
-       "x": "3812",
-       "y": "6235"
-      },
-      {
-       "x": "3497",
-       "y": "6209"
-      },
-      {
-       "x": "3347",
-       "y": "6082"
-      },
-      {
-       "x": "3343",
-       "y": "5862"
-      }
-     ]
-    },
-    "area": 297777.5
-   },
-   {
-    "name": "earring",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "white pearl earring, jewel, in the middle of the painting",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 16:06:51",
-    "id": "45",
-    "polygon": {
-     "username": "A1NZ4C0GO5HS87",
-     "pt": [
-      {
-       "x": "6139",
-       "y": "5869"
-      },
-      {
-       "x": "6308",
-       "y": "5970"
-      },
-      {
-       "x": "6341",
-       "y": "6173"
-      },
-      {
-       "x": "6308",
-       "y": "6375"
-      },
-      {
-       "x": "6038",
-       "y": "6442"
-      },
-      {
-       "x": "5920",
-       "y": "6426"
-      },
-      {
-       "x": "5802",
-       "y": "6358"
-      },
-      {
-       "x": "5785",
-       "y": "6139"
-      },
-      {
-       "x": "5903",
-       "y": "5936"
-      }
-     ]
-    },
-    "area": 250859.5
-   },
-   {
-    "name": "earring",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "left ear, silver, round, shines",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 11:28:44",
-    "id": "18",
-    "polygon": {
-     "username": "A25OQ8GWGF6S1G",
-     "pt": [
-      {
-       "x": "6092",
-       "y": "5907"
-      },
-      {
-       "x": "6296",
-       "y": "6122"
-      },
-      {
-       "x": "6317",
-       "y": "6348"
-      },
-      {
-       "x": "6225",
-       "y": "6460"
-      },
-      {
-       "x": "6010",
-       "y": "6501"
-      },
-      {
-       "x": "5897",
-       "y": "6419"
-      },
-      {
-       "x": "5907",
-       "y": "6153"
-      },
-      {
-       "x": "5938",
-       "y": "5948"
-      }
-     ]
-    },
-    "area": 191302.0
    },
    {
     "name": "right eye",
@@ -3187,112 +2376,6 @@
     "area": 98929.0
    },
    {
-    "name": "lip",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "upper lip, pink, soft",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 18:33:33",
-    "id": "59",
-    "polygon": {
-     "username": "A2M3QMJC99DERS",
-     "pt": [
-      {
-       "x": "3415",
-       "y": "5853"
-      },
-      {
-       "x": "3609",
-       "y": "5911"
-      },
-      {
-       "x": "3906",
-       "y": "5995"
-      },
-      {
-       "x": "4133",
-       "y": "6040"
-      },
-      {
-       "x": "4016",
-       "y": "5885"
-      },
-      {
-       "x": "3628",
-       "y": "5775"
-      }
-     ]
-    },
-    "area": 77087.0
-   },
-   {
-    "name": "pupil and iris",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "pupil, iris, eye color, dark, staring",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 15:46:17",
-    "id": "39",
-    "polygon": {
-     "username": "A2MDR0R3KTYTGV",
-     "pt": [
-      {
-       "x": "4386",
-       "y": "4404"
-      },
-      {
-       "x": "4372",
-       "y": "4502"
-      },
-      {
-       "x": "4395",
-       "y": "4587"
-      },
-      {
-       "x": "4439",
-       "y": "4649"
-      },
-      {
-       "x": "4493",
-       "y": "4654"
-      },
-      {
-       "x": "4569",
-       "y": "4645"
-      },
-      {
-       "x": "4658",
-       "y": "4591"
-      },
-      {
-       "x": "4685",
-       "y": "4520"
-      },
-      {
-       "x": "4569",
-       "y": "4422"
-      },
-      {
-       "x": "4520",
-       "y": "4399"
-      },
-      {
-       "x": "4413",
-       "y": "4377"
-      }
-     ]
-    },
-    "area": 61107.0
-   },
-   {
     "name": "pupil and iris",
     "deleted": "0",
     "verified": "0",
@@ -3360,7 +2443,7 @@
     "area": 44828.0
    },
    {
-    "name": "eye brow",
+    "name": "right eye brow",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -3399,41 +2482,6 @@
     "area": 33923.5
    },
    {
-    "name": "left eye brow",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "light color, thin, over left eye",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 12:24:17",
-    "id": "22",
-    "polygon": {
-     "username": "A3RQVHWHESFK4D",
-     "pt": [
-      {
-       "x": "4101",
-       "y": "4050"
-      },
-      {
-       "x": "4355",
-       "y": "3999"
-      },
-      {
-       "x": "4594",
-       "y": "4130"
-      },
-      {
-       "x": "4340",
-       "y": "4108"
-      }
-     ]
-    },
-    "area": 27468.5
-   },
-   {
     "name": "nostril",
     "deleted": "0",
     "verified": "0",
@@ -3469,60 +2517,8 @@
     "area": 18304.0
    },
    {
-    "name": "teeth",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "teeth, white, smile",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 12:29:25",
-    "id": "24",
-    "polygon": {
-     "username": "A3RQVHWHESFK4D",
-     "pt": [
-      {
-       "x": "3551",
-       "y": "5903"
-      },
-      {
-       "x": "3772",
-       "y": "6028"
-      },
-      {
-       "x": "4031",
-       "y": "6037"
-      }
-     ]
-    },
-    "area": 15193.0
-   },
-   {
-    "name": "face",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "womem,face,looking",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 10:53:18",
-    "id": "13",
-    "polygon": {
-     "username": "A1FC701BZE1HZM",
-     "pt": {
-      "x": "3694",
-      "y": "4618"
-     }
-    },
-    "area": 0
-   },
-   {
     "name": "hair",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "long,hair,silver color",
@@ -3543,7 +2539,7 @@
    },
    {
     "name": "dress",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "black,dress,with white border",
@@ -3563,29 +2559,8 @@
     "area": 0
    },
    {
-    "name": "cloth",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "cloth,covers,black color",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 10:55:57",
-    "id": "16",
-    "polygon": {
-     "username": "A1FC701BZE1HZM",
-     "pt": {
-      "x": "5257",
-      "y": "2818"
-     }
-    },
-    "area": 0
-   },
-   {
     "name": "ear",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "ear,right side,",
@@ -3606,7 +2581,7 @@
    },
    {
     "name": "girl",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "white colour chubby cheek, straight hair, bonetail the hair, polite",
@@ -3626,29 +2601,8 @@
     "area": 0
    },
    {
-    "name": "dress",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "black",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 13:05:30",
-    "id": "27",
-    "polygon": {
-     "username": "A2NVNFIOKLEEGY",
-     "pt": {
-      "x": "6444",
-      "y": "7697"
-     }
-    },
-    "area": 0
-   },
-   {
     "name": "face",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "brown",
@@ -3669,7 +2623,7 @@
    },
    {
     "name": "mouth",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "red",
@@ -3690,7 +2644,7 @@
    },
    {
     "name": "head",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "balck",
@@ -3711,7 +2665,7 @@
    },
    {
     "name": "cheeks",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "brown",
@@ -3732,7 +2686,7 @@
    },
    {
     "name": "forehead",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "forehead",
@@ -3753,7 +2707,7 @@
    },
    {
     "name": "hair cloth",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "hair cloth",
@@ -3774,7 +2728,7 @@
    },
    {
     "name": "eyes",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "eyes",
@@ -3794,29 +2748,8 @@
     "area": 0
    },
    {
-    "name": "neck",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "neck",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 13:16:40",
-    "id": "35",
-    "polygon": {
-     "username": "lpriyamvada@gmail.com",
-     "pt": {
-      "x": "3865",
-      "y": "7246"
-     }
-    },
-    "area": 0
-   },
-   {
     "name": "collar",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "collar",
@@ -3836,29 +2769,8 @@
     "area": 0
    },
    {
-    "name": "coat",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "coat",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 13:17:22",
-    "id": "37",
-    "polygon": {
-     "username": "lpriyamvada@gmail.com",
-     "pt": {
-      "x": "2532",
-      "y": "10370"
-     }
-    },
-    "area": 0
-   },
-   {
     "name": "scarf",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "soft, blue, light",
@@ -3884,29 +2796,8 @@
     "area": 0
    },
    {
-    "name": "cloth",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "sad,no reaction on her face",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 17:23:08",
-    "id": "49",
-    "polygon": {
-     "username": "AVDWQ1G129G4D",
-     "pt": {
-      "x": "7604",
-      "y": "8150"
-     }
-    },
-    "area": 0
-   },
-   {
     "name": "blue",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "the color is blue in her hair",
@@ -3926,29 +2817,8 @@
     "area": 0
    },
    {
-    "name": "dress",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "color is brown.covering her shoulder",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 17:24:08",
-    "id": "51",
-    "polygon": {
-     "username": "AVDWQ1G129G4D",
-     "pt": {
-      "x": "5089",
-      "y": "9846"
-     }
-    },
-    "area": 0
-   },
-   {
     "name": "skin",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "skin is natural",
@@ -3963,27 +2833,6 @@
      "pt": {
       "x": "5128",
       "y": "6005"
-     }
-    },
-    "area": 0
-   },
-   {
-    "name": "eyes",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "eyes are clear",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 17:24:52",
-    "id": "53",
-    "polygon": {
-     "username": "AVDWQ1G129G4D",
-     "pt": {
-      "x": "4270",
-      "y": "4484"
      }
     },
     "area": 0

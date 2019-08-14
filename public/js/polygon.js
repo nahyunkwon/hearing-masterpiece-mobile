@@ -133,11 +133,12 @@ function draw_polygon(seg_mode){
     if(seg_mode == "fine"){ //fine(polygon mode)
         d3.selectAll("polygon").remove();
         svg.selectAll("polygon")
-        .data(img_file.annotations)
+        .data(img_file.annotation.object)
         .enter().append("polygon")
         .attr("points", function(d) {
-            return d.segmentation.map(function(d) {
-                    return [x(d[0]),y(d[1])].join(","); }).join(" "); })
+            return d.polygon.pt.map(function(d) {
+                    //console.log(d);
+                    return [x(d['x']),y(d['y'])].join(","); }).join(" "); })
         ;
     }
 
@@ -154,15 +155,19 @@ function draw_polygon(seg_mode){
     //polygon opacity, fill color(random)
   svg.selectAll("polygon")
   //.style("fill-opacity", .000001)
-  .style("fill-opacity", .5)
+  .style("fill-opacity", .000001)
   .style("fill",function() {
     return "hsl(" + Math.random() * 360 + ",100%,50%)";
   })
 
   .attr("category", function(d){
-    return d.category+String(d.duplicates_num);})
+    console.log(d);
+    return d.name;})
     .append("svg:title")
     .text(function(d) {
+        console.log(d);
+
+        return d.name;
 
         if(d.category == "배경"){
             if(d.objects_color == undefined && d.object_position == undefined)
@@ -292,12 +297,13 @@ svg.append("rect")
 
  var seg_mode = "fine";
 
-  var img_file = find_by_file_id(image_data, img_id);
-  var img_file_name = img_file.file_name;
+  var img_file = image_data;
 
-  var objects_list = get_objects_list(img_file.annotations);
+  var img_file_name = img_file['annotation']['filename'];
 
-  var sorted_by_point = img_file.sorted_by_point;
+  //var objects_list = get_objects_list(img_file.annotations);
+
+  //var sorted_by_point = img_file.sorted_by_point;
 
   var sorted_count=0;
 
@@ -334,14 +340,14 @@ var rect = d3.select('body').append("rect")
     .attr('xlink:href', "https://raw.githubusercontent.com/KwonNH/hearing-masterpiece-mobile/master/public/sample_image/"+img_file_name)
     .attr("x", 1)
     .attr("y", 1)
-    .attr('width', img_file.width)
-    .attr('height', img_file.height);
+    .attr('width', width)
+    .attr('height', height);
 
-  var x = d3.scaleLinear().range([0, img_file.width]);
-  var y = d3.scaleLinear().range([0, img_file.height]);
+  var x = d3.scaleLinear().range([0, width]);
+  var y = d3.scaleLinear().range([0, height]);
 
-  x.domain([0, img_file.width]);
-  y.domain([0, img_file.height]);
+  x.domain([0, width]);
+  y.domain([0, height]);
 
   draw_polygon(seg_mode);
 
@@ -455,39 +461,6 @@ function seg_mode_button(seg_mode){
 
 
 var arrayToModify = [];
-window.onload = function () {
-    var i, buttonsToCreate, buttonContainer, newButton;
-
-    buttonsToCreate = objects_list;
-    buttonContainer = document.getElementById('buttons2');
-
-    for (i = 0; i < buttonsToCreate.length; i++) {
-
-      newButton = document.createElement('input');
-      newButton.type = 'button';
-      newButton.value = buttonsToCreate[i];
-      newButton.id = buttonsToCreate[i];
-
-      newButton.onclick = function () {
-        var cat = String(this.id).split("(")[0];
-        draw_polygon_by_button(seg_mode, cat);
-      };
-      buttonContainer.appendChild(newButton);
-    }
-
-    document.getElementById('metadata').innerHTML =
-                        "<div class=\"metadata\">"
-                        +"<h2>"+title+"</h2>"
-                        +"<p>"+artist+", "+year+"</p>"
-                        +"</div>"
-                        /*
-                        +"<h4>"+medium+", "+dimensions+", "+year+"</br>"
-                        +artist+"</h4>"
-                        +loc+"</br>"+"</br>"
-                        +desc
-                        */
-                        ;
-};
 
 var lastTouchEnd = 0;
 document.documentElement.addEventListener('touchend', function (event) {

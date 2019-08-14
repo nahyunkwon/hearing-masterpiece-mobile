@@ -8,125 +8,6 @@
   },
   "object": [
    {
-    "name": "tree",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "polygon",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 13:10:04",
-    "id": "54",
-    "polygon": {
-     "username": "lpriyamvada@gmail.com",
-     "pt": [
-      {
-       "x": "420",
-       "y": "496"
-      },
-      {
-       "x": "2638",
-       "y": "1183"
-      },
-      {
-       "x": "1013",
-       "y": "1849"
-      },
-      {
-       "x": "636",
-       "y": "1548"
-      },
-      {
-       "x": "683",
-       "y": "594"
-      },
-      {
-       "x": "123",
-       "y": "2231"
-      },
-      {
-       "x": "1009",
-       "y": "1857"
-      },
-      {
-       "x": "2184",
-       "y": "2765"
-      },
-      {
-       "x": "178",
-       "y": "2264"
-      },
-      {
-       "x": "305",
-       "y": "3214"
-      },
-      {
-       "x": "161",
-       "y": "3130"
-      },
-      {
-       "x": "449",
-       "y": "3070"
-      },
-      {
-       "x": "437",
-       "y": "2158"
-      },
-      {
-       "x": "110",
-       "y": "2239"
-      },
-      {
-       "x": "161",
-       "y": "3113"
-      },
-      {
-       "x": "653",
-       "y": "1565"
-      },
-      {
-       "x": "2192",
-       "y": "2811"
-      },
-      {
-       "x": "331",
-       "y": "3214"
-      },
-      {
-       "x": "2650",
-       "y": "1204"
-      },
-      {
-       "x": "2218",
-       "y": "2744"
-      },
-      {
-       "x": "1022",
-       "y": "903"
-      },
-      {
-       "x": "683",
-       "y": "1009"
-      },
-      {
-       "x": "670",
-       "y": "1569"
-      },
-      {
-       "x": "1505",
-       "y": "1628"
-      },
-      {
-       "x": "2074",
-       "y": "1001"
-      }
-     ]
-    },
-    "area": 825388.5
-   },
-   {
     "name": "street",
     "deleted": "0",
     "verified": "0",
@@ -238,7 +119,7 @@
    },
    {
     "name": "window",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "yellow",
@@ -277,7 +158,7 @@
    },
    {
     "name": "road",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "walk way in between two buildings and have the people",
@@ -704,43 +585,8 @@
     "area": 490331.5
    },
    {
-    "name": "street",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "cobblestone, round, grey, bumpy, old",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 14:52:27",
-    "id": "72",
-    "polygon": {
-     "username": "A3EQKTEL74N09A",
-     "pt": [
-      {
-       "x": "1316",
-       "y": "3568"
-      },
-      {
-       "x": "622",
-       "y": "3564"
-      },
-      {
-       "x": "948",
-       "y": "2889"
-      },
-      {
-       "x": "1316",
-       "y": "2889"
-      }
-     ]
-    },
-    "area": 359813.0
-   },
-   {
     "name": "window",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "2windows",
@@ -1464,59 +1310,8 @@
     "area": 52553.5
    },
    {
-    "name": "character",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "man walk for the left side",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 14:08:55",
-    "id": "66",
-    "polygon": {
-     "username": "A3O9QZA6B3CY7U",
-     "pt": [
-      {
-       "x": "2210",
-       "y": "2350"
-      },
-      {
-       "x": "2119",
-       "y": "2174"
-      },
-      {
-       "x": "2110",
-       "y": "2002"
-      },
-      {
-       "x": "2092",
-       "y": "1921"
-      },
-      {
-       "x": "2119",
-       "y": "1921"
-      },
-      {
-       "x": "2192",
-       "y": "1948"
-      },
-      {
-       "x": "2282",
-       "y": "2065"
-      },
-      {
-       "x": "2296",
-       "y": "2205"
-      }
-     ]
-    },
-    "area": 52245.5
-   },
-   {
     "name": "door wood",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "door wood of restaurant its very hard and black color",
@@ -1688,57 +1483,6 @@
     "area": 50835.0
    },
    {
-    "name": "people",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "man walk to the right side",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 14:09:59",
-    "id": "68",
-    "polygon": {
-     "username": "A3O9QZA6B3CY7U",
-     "pt": [
-      {
-       "x": "1744",
-       "y": "2137"
-      },
-      {
-       "x": "1744",
-       "y": "2259"
-      },
-      {
-       "x": "1762",
-       "y": "2318"
-      },
-      {
-       "x": "1826",
-       "y": "2381"
-      },
-      {
-       "x": "1966",
-       "y": "2318"
-      },
-      {
-       "x": "1921",
-       "y": "2174"
-      },
-      {
-       "x": "1853",
-       "y": "2024"
-      },
-      {
-       "x": "1758",
-       "y": "2106"
-      }
-     ]
-    },
-    "area": 50813.0
-   },
-   {
     "name": "table",
     "deleted": "0",
     "verified": "0",
@@ -1843,7 +1587,7 @@
    },
    {
     "name": "lady",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "follow to the man",
@@ -1922,113 +1666,6 @@
      ]
     },
     "area": 39204.0
-   },
-   {
-    "name": "man",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "male,30,whiteshirt,at work",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 10:07:24",
-    "id": "16",
-    "polygon": {
-     "username": "WorkerIDAXPUKBI6UNZY",
-     "pt": [
-      {
-       "x": "1226",
-       "y": "2132"
-      },
-      {
-       "x": "1141",
-       "y": "2067"
-      },
-      {
-       "x": "1173",
-       "y": "2021"
-      },
-      {
-       "x": "1200",
-       "y": "1969"
-      },
-      {
-       "x": "1252",
-       "y": "1975"
-      },
-      {
-       "x": "1271",
-       "y": "2027"
-      },
-      {
-       "x": "1278",
-       "y": "2067"
-      },
-      {
-       "x": "1304",
-       "y": "2099"
-      },
-      {
-       "x": "1291",
-       "y": "2197"
-      },
-      {
-       "x": "1245",
-       "y": "2217"
-      },
-      {
-       "x": "1245",
-       "y": "2269"
-      },
-      {
-       "x": "1258",
-       "y": "2301"
-      },
-      {
-       "x": "1239",
-       "y": "2366"
-      },
-      {
-       "x": "1200",
-       "y": "2360"
-      },
-      {
-       "x": "1180",
-       "y": "2314"
-      },
-      {
-       "x": "1180",
-       "y": "2236"
-      },
-      {
-       "x": "1180",
-       "y": "2171"
-      },
-      {
-       "x": "1128",
-       "y": "2164"
-      },
-      {
-       "x": "1134",
-       "y": "2125"
-      },
-      {
-       "x": "1154",
-       "y": "2119"
-      },
-      {
-       "x": "1160",
-       "y": "2106"
-      },
-      {
-       "x": "1154",
-       "y": "2099"
-      }
-     ]
-    },
-    "area": 38136.0
    },
    {
     "name": "window",
@@ -2216,41 +1853,6 @@
     "area": 33093.5
    },
    {
-    "name": "window pane",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "yellow, shaded, glass",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 14:48:47",
-    "id": "70",
-    "polygon": {
-     "username": "A13JDB1LY9ZTQY",
-     "pt": [
-      {
-       "x": "26",
-       "y": "1750"
-      },
-      {
-       "x": "104",
-       "y": "1783"
-      },
-      {
-       "x": "111",
-       "y": "2193"
-      },
-      {
-       "x": "33",
-       "y": "2180"
-      }
-     ]
-    },
-    "area": 32599.0
-   },
-   {
     "name": "blind",
     "deleted": "0",
     "verified": "0",
@@ -2359,97 +1961,6 @@
      ]
     },
     "area": 27967.0
-   },
-   {
-    "name": "women",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "female,40,saree,",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 10:18:46",
-    "id": "20",
-    "polygon": {
-     "username": "WorkerIDAXPUKBI6UNZY",
-     "pt": [
-      {
-       "x": "1864",
-       "y": "1864"
-      },
-      {
-       "x": "1864",
-       "y": "1975"
-      },
-      {
-       "x": "1864",
-       "y": "1975"
-      },
-      {
-       "x": "1871",
-       "y": "2060"
-      },
-      {
-       "x": "1878",
-       "y": "2119"
-      },
-      {
-       "x": "1904",
-       "y": "2132"
-      },
-      {
-       "x": "1943",
-       "y": "2151"
-      },
-      {
-       "x": "1988",
-       "y": "2158"
-      },
-      {
-       "x": "1988",
-       "y": "2158"
-      },
-      {
-       "x": "1995",
-       "y": "2119"
-      },
-      {
-       "x": "1995",
-       "y": "2054"
-      },
-      {
-       "x": "1995",
-       "y": "2001"
-      },
-      {
-       "x": "1969",
-       "y": "1956"
-      },
-      {
-       "x": "1962",
-       "y": "1930"
-      },
-      {
-       "x": "1936",
-       "y": "1884"
-      },
-      {
-       "x": "1917",
-       "y": "1858"
-      },
-      {
-       "x": "1904",
-       "y": "1904"
-      },
-      {
-       "x": "1917",
-       "y": "1995"
-      }
-     ]
-    },
-    "area": 27906.5
    },
    {
     "name": "blind",
@@ -2910,92 +2421,6 @@
      ]
     },
     "area": 19880.5
-   },
-   {
-    "name": "man",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "man standing in the restaurant little tall",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 15:33:09",
-    "id": "76",
-    "polygon": {
-     "username": "A2LD0G04R6MNX7",
-     "pt": [
-      {
-       "x": "1090",
-       "y": "2174"
-      },
-      {
-       "x": "986",
-       "y": "2104"
-      },
-      {
-       "x": "1076",
-       "y": "2013"
-      },
-      {
-       "x": "1188",
-       "y": "2055"
-      }
-     ]
-    },
-    "area": 16604.0
-   },
-   {
-    "name": "building",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "building, dark, looming, shadow, high above",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 13:28:50",
-    "id": "62",
-    "polygon": {
-     "username": "A2OMYDY8G8PNJE",
-     "pt": [
-      {
-       "x": "1853",
-       "y": "1170"
-      },
-      {
-       "x": "1830",
-       "y": "1048"
-      },
-      {
-       "x": "1812",
-       "y": "1035"
-      },
-      {
-       "x": "1799",
-       "y": "999"
-      },
-      {
-       "x": "1790",
-       "y": "990"
-      },
-      {
-       "x": "1776",
-       "y": "1044"
-      },
-      {
-       "x": "1758",
-       "y": "1089"
-      },
-      {
-       "x": "1767",
-       "y": "1288"
-      }
-     ]
-    },
-    "area": 16530.0
    },
    {
     "name": "people",
@@ -3799,41 +3224,6 @@
     "area": 5855.0
    },
    {
-    "name": "star",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "stars, bright, night sky, shining, high above",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 13:26:39",
-    "id": "60",
-    "polygon": {
-     "username": "A2OMYDY8G8PNJE",
-     "pt": [
-      {
-       "x": "1062",
-       "y": "95"
-      },
-      {
-       "x": "1139",
-       "y": "36"
-      },
-      {
-       "x": "1076",
-       "y": "5"
-      },
-      {
-       "x": "1008",
-       "y": "45"
-      }
-     ]
-    },
-    "area": 5832.0
-   },
-   {
     "name": "window",
     "deleted": "0",
     "verified": "0",
@@ -3869,43 +3259,8 @@
     "area": 3589.0
    },
    {
-    "name": "star",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "yellow, distant, faint, night",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 14:54:04",
-    "id": "74",
-    "polygon": {
-     "username": "A3EQKTEL74N09A",
-     "pt": [
-      {
-       "x": "1945",
-       "y": "440"
-      },
-      {
-       "x": "1983",
-       "y": "409"
-      },
-      {
-       "x": "2017",
-       "y": "455"
-      },
-      {
-       "x": "1968",
-       "y": "481"
-      }
-     ]
-    },
-    "area": 2704.5
-   },
-   {
     "name": "point",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "house,blue,rectangle,door",
@@ -3926,7 +3281,7 @@
    },
    {
     "name": "window",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "house,squre,yellow",
@@ -3947,7 +3302,7 @@
    },
    {
     "name": "point",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "street",
@@ -3968,7 +3323,7 @@
    },
    {
     "name": "tree",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "green",
@@ -3988,29 +3343,8 @@
     "area": 0
    },
    {
-    "name": "door",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "brown",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 12:33:14",
-    "id": "46",
-    "polygon": {
-     "username": "A2NVNFIOKLEEGY",
-     "pt": {
-      "x": "2677",
-      "y": "1959"
-     }
-    },
-    "area": 0
-   },
-   {
     "name": "road",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "black",
@@ -4030,29 +3364,8 @@
     "area": 0
    },
    {
-    "name": "tabel",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "yellow",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 12:33:57",
-    "id": "48",
-    "polygon": {
-     "username": "A2NVNFIOKLEEGY",
-     "pt": {
-      "x": "1310",
-      "y": "2635"
-     }
-    },
-    "area": 0
-   },
-   {
     "name": "tree",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "long and green",
@@ -4072,29 +3385,8 @@
     "area": 0
    },
    {
-    "name": "table",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "rectangle",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 12:54:31",
-    "id": "50",
-    "polygon": {
-     "username": "A267H808C339ZQ",
-     "pt": {
-      "x": "1051",
-      "y": "2520"
-     }
-    },
-    "area": 0
-   },
-   {
     "name": "wall",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "located in house",
@@ -4114,29 +3406,8 @@
     "area": 0
    },
    {
-    "name": "window",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "placed in wall",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 12:55:20",
-    "id": "52",
-    "polygon": {
-     "username": "A267H808C339ZQ",
-     "pt": {
-      "x": "2373",
-      "y": "1577"
-     }
-    },
-    "area": 0
-   },
-   {
     "name": "door",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "entrance in house",
@@ -4156,29 +3427,8 @@
     "area": 0
    },
    {
-    "name": "door",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "closeddoor",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 13:11:19",
-    "id": "56",
-    "polygon": {
-     "username": "lpriyamvada@gmail.com",
-     "pt": {
-      "x": "153",
-      "y": "1293"
-     }
-    },
-    "area": 0
-   },
-   {
     "name": "ground",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "ground",
@@ -4193,48 +3443,6 @@
      "pt": {
       "x": "1896",
       "y": "3185"
-     }
-    },
-    "area": 0
-   },
-   {
-    "name": "desk",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "chest",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 13:12:18",
-    "id": "58",
-    "polygon": {
-     "username": "lpriyamvada@gmail.com",
-     "pt": {
-      "x": "2493",
-      "y": "2031"
-     }
-    },
-    "area": 0
-   },
-   {
-    "name": "tree",
-    "deleted": "0",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "sr right side mid tree has green colur leaves and brown stream",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 14:04:39",
-    "id": "64",
-    "polygon": {
-     "username": "A3O9QZA6B3CY7U",
-     "pt": {
-      "x": "2639",
-      "y": "1170"
      }
     },
     "area": 0

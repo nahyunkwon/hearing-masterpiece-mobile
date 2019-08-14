@@ -12,7 +12,7 @@
                 "deleted": "0",
                 "verified": "0",
                 "occluded": null,
-                "attributes": "smile,left side,pointed nose",
+                "attributes": "smile,left side,pointed nose, famous person, light pink skin, portrait, focus of the painting, relaxed",
                 "parts": {
                     "hasparts": null,
                     "ispartof": null
@@ -235,7 +235,7 @@
             },
             {
                 "name": "lips",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "female, red, smile",
@@ -774,11 +774,11 @@
                 }
             },
             {
-                "name": "hair",
+                "name": "hairscarf",
                 "deleted": "0",
                 "verified": "0",
                 "occluded": null,
-                "attributes": "hair, blonde, yellow",
+                "attributes": "hairscarf",
                 "parts": {
                     "hasparts": null,
                     "ispartof": null
@@ -907,7 +907,7 @@
             },
             {
                 "name": "lips",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "red, open, talking",
@@ -991,7 +991,7 @@
             },
             {
                 "name": "face",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "womem,face,looking",
@@ -1011,7 +1011,7 @@
             },
             {
                 "name": "hair",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "long,hair,silver color",
@@ -1031,7 +1031,7 @@
             },
             {
                 "name": "dress",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "black,dress,with white border",
@@ -1051,7 +1051,7 @@
             },
             {
                 "name": "cloth",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "cloth,covers,black color",
@@ -1071,7 +1071,7 @@
             },
             {
                 "name": "ear",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "ear,right side,",
@@ -1141,7 +1141,7 @@
             },
             {
                 "name": "girl",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "white colour chubby cheek, straight hair, bonetail the hair, polite",
@@ -1164,7 +1164,7 @@
                 "deleted": "0",
                 "verified": "0",
                 "occluded": null,
-                "attributes": "lips, semi opened, smile",
+                "attributes": "lips, semi opened, smile, red, open",
                 "parts": {
                     "hasparts": null,
                     "ispartof": null
@@ -1210,7 +1210,7 @@
                 }
             },
             {
-                "name": "eye brow",
+                "name": "right eye brow",
                 "deleted": "0",
                 "verified": "0",
                 "occluded": null,
@@ -1461,7 +1461,7 @@
             },
             {
                 "name": "person",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "person",
@@ -1679,7 +1679,7 @@
             },
             {
                 "name": "dress",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "black",
@@ -1699,7 +1699,7 @@
             },
             {
                 "name": "face",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "brown",
@@ -1719,7 +1719,7 @@
             },
             {
                 "name": "mouth",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "red",
@@ -1739,7 +1739,7 @@
             },
             {
                 "name": "head",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "balck",
@@ -1759,7 +1759,7 @@
             },
             {
                 "name": "cheeks",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "brown",
@@ -1779,7 +1779,7 @@
             },
             {
                 "name": "forehead",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "forehead",
@@ -1799,7 +1799,7 @@
             },
             {
                 "name": "hair cloth",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "hair cloth",
@@ -1819,7 +1819,7 @@
             },
             {
                 "name": "eyes",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "eyes",
@@ -1839,7 +1839,7 @@
             },
             {
                 "name": "neck",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "neck",
@@ -1859,7 +1859,7 @@
             },
             {
                 "name": "collar",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "collar",
@@ -1879,7 +1879,7 @@
             },
             {
                 "name": "coat",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "coat",
@@ -1899,7 +1899,7 @@
             },
             {
                 "name": "scarf",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "soft, blue, light",
@@ -2727,7 +2727,7 @@
             },
             {
                 "name": "girl_s face",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "famous person, light pink skin, portrait, focus of the painting, relaxed",
@@ -3301,7 +3301,7 @@
             },
             {
                 "name": "cloth",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "sad,no reaction on her face",
@@ -3321,7 +3321,7 @@
             },
             {
                 "name": "blue",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "the color is blue in her hair",
@@ -3341,7 +3341,7 @@
             },
             {
                 "name": "dress",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "color is brown.covering her shoulder",
@@ -3361,7 +3361,7 @@
             },
             {
                 "name": "skin",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "skin is natural",
@@ -3381,7 +3381,7 @@
             },
             {
                 "name": "eyes",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "eyes are clear",
@@ -3551,7 +3551,7 @@
             },
             {
                 "name": "hear",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "blond, girl, head",
@@ -3589,7 +3589,7 @@
             },
             {
                 "name": "background",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "black, dark, behind",

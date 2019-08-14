@@ -204,7 +204,7 @@ def desc_to_word_list(img_name):
 def main():
 
     img_id = ["1", "2", "4", "5", "9", "11", "17", "18"]
-
+    '''
     columns = ['img_id', 'art_desc']
 
     result = []
@@ -217,6 +217,8 @@ def main():
     print(desc_df)
 
     desc_df.to_csv("./art/result_desc.csv")
+    '''
+
 
 
 

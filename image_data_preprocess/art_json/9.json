@@ -608,7 +608,7 @@
                 "deleted": "0",
                 "verified": "0",
                 "occluded": null,
-                "attributes": "dungarees, overalls, denim",
+                "attributes": "dungarees, overalls, denim, overalls, old, worn, blue, dingy, work outfit, farmer clothes",
                 "parts": {
                     "hasparts": null,
                     "ispartof": null
@@ -1787,7 +1787,7 @@
             },
             {
                 "name": "fork",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "brown,big,long,",
@@ -1813,7 +1813,7 @@
             },
             {
                 "name": "house roof",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "brown,big,strong.",
@@ -2027,7 +2027,7 @@
             },
             {
                 "name": "jacket",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "black,cloth,pocket,man",
@@ -2085,7 +2085,7 @@
             },
             {
                 "name": "lips",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "women ,lips,smiley,cute",
@@ -2366,7 +2366,7 @@
                 }
             },
             {
-                "name": "eyes",
+                "name": "eye",
                 "deleted": "0",
                 "verified": "0",
                 "occluded": null,
@@ -2799,7 +2799,7 @@
             },
             {
                 "name": "window",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "brown",
@@ -2819,7 +2819,7 @@
             },
             {
                 "name": "eyes",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "white",
@@ -2839,7 +2839,7 @@
             },
             {
                 "name": "nose",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "brown",
@@ -2859,7 +2859,7 @@
             },
             {
                 "name": "window",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "black",
@@ -2879,7 +2879,7 @@
             },
             {
                 "name": "hand",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "brown",
@@ -2899,7 +2899,7 @@
             },
             {
                 "name": "house",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "brown",
@@ -3161,7 +3161,7 @@
             },
             {
                 "name": "overalls",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "overalls, old, worn, blue, dingy, work outfit, farmer clothes",
@@ -3459,7 +3459,7 @@
             },
             {
                 "name": "overalls",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "hem, overalls, blue",
@@ -3907,7 +3907,7 @@
             },
             {
                 "name": "sky",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "blue, background, clean",
@@ -4057,7 +4057,7 @@
             },
             {
                 "name": "overalls",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "jeans, clothing, man",
