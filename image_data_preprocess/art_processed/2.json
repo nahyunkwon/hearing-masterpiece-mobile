@@ -955,6 +955,57 @@
     "area": 3716551.5
    },
    {
+    "name": "light",
+    "deleted": "0",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "glow, moon glow, shining, pale, yellow, glow of the moon, brush strokes",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 13:51:44",
+    "id": "32",
+    "polygon": {
+     "username": "A2OMYDY8G8PNJE",
+     "pt": [
+      {
+       "x": "10092",
+       "y": "267"
+      },
+      {
+       "x": "9011",
+       "y": "1058"
+      },
+      {
+       "x": "9000",
+       "y": "2005"
+      },
+      {
+       "x": "9635",
+       "y": "2451"
+      },
+      {
+       "x": "10192",
+       "y": "2584"
+      },
+      {
+       "x": "10794",
+       "y": "2384"
+      },
+      {
+       "x": "11061",
+       "y": "1849"
+      },
+      {
+       "x": "10994",
+       "y": "746"
+      }
+     ]
+    },
+    "area": 3600696.5
+   },
+   {
     "name": "star",
     "deleted": "1",
     "verified": "0",
@@ -1661,6 +1712,65 @@
     "area": 1205955.0
    },
    {
+    "name": "star",
+    "deleted": "0",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "light, sun, star, heat, night",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 09:56:34",
+    "id": "7",
+    "polygon": {
+     "username": "A1CJ8CLM7987EQ",
+     "pt": [
+      {
+       "x": "4156",
+       "y": "4120"
+      },
+      {
+       "x": "4417",
+       "y": "4441"
+      },
+      {
+       "x": "4595",
+       "y": "4880"
+      },
+      {
+       "x": "4346",
+       "y": "5189"
+      },
+      {
+       "x": "3906",
+       "y": "5296"
+      },
+      {
+       "x": "3526",
+       "y": "5236"
+      },
+      {
+       "x": "3313",
+       "y": "4702"
+      },
+      {
+       "x": "3431",
+       "y": "4405"
+      },
+      {
+       "x": "3574",
+       "y": "4179"
+      },
+      {
+       "x": "3823",
+       "y": "4073"
+      }
+     ]
+    },
+    "area": 1130410.5
+   },
+   {
     "name": "church",
     "deleted": "0",
     "verified": "0",
@@ -1786,6 +1896,140 @@
      ]
     },
     "area": 971794.5
+   },
+   {
+    "name": "sun",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "sky, orange, yellow, medium, circle, no texture",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 09:10:11",
+    "id": "1",
+    "polygon": {
+     "username": "A2HC04434S9TP0",
+     "pt": [
+      {
+       "x": "10151",
+       "y": "986"
+      },
+      {
+       "x": "9740",
+       "y": "1082"
+      },
+      {
+       "x": "9548",
+       "y": "1356"
+      },
+      {
+       "x": "9548",
+       "y": "1644"
+      },
+      {
+       "x": "9603",
+       "y": "1712"
+      },
+      {
+       "x": "9685",
+       "y": "2082"
+      },
+      {
+       "x": "9945",
+       "y": "2082"
+      },
+      {
+       "x": "10343",
+       "y": "2082"
+      },
+      {
+       "x": "10507",
+       "y": "2000"
+      },
+      {
+       "x": "10534",
+       "y": "1753"
+      },
+      {
+       "x": "10589",
+       "y": "1425"
+      },
+      {
+       "x": "10575",
+       "y": "1288"
+      },
+      {
+       "x": "10397",
+       "y": "1096"
+      }
+     ]
+    },
+    "area": 944309.5
+   },
+   {
+    "name": "tree",
+    "deleted": "0",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "small tree, dark, bottom right, brush strokes, simple",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 13:56:08",
+    "id": "36",
+    "polygon": {
+     "username": "A2OMYDY8G8PNJE",
+     "pt": [
+      {
+       "x": "11083",
+       "y": "8087"
+      },
+      {
+       "x": "10816",
+       "y": "7942"
+      },
+      {
+       "x": "10604",
+       "y": "7987"
+      },
+      {
+       "x": "10426",
+       "y": "7831"
+      },
+      {
+       "x": "9947",
+       "y": "8053"
+      },
+      {
+       "x": "10103",
+       "y": "8354"
+      },
+      {
+       "x": "9992",
+       "y": "8555"
+      },
+      {
+       "x": "10081",
+       "y": "8789"
+      },
+      {
+       "x": "10459",
+       "y": "8789"
+      },
+      {
+       "x": "10883",
+       "y": "8777"
+      },
+      {
+       "x": "11105",
+       "y": "8789"
+      }
+     ]
+    },
+    "area": 883163.0
    },
    {
     "name": "nightfall",
@@ -2273,6 +2517,49 @@
     "area": 550787.5
    },
    {
+    "name": "house",
+    "deleted": "0",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "white, bottom, right, windows, pointed roof",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "26-Jul-2019 00:23:53",
+    "id": "72",
+    "polygon": {
+     "username": "A2RMR0ZSQ575XZ",
+     "pt": [
+      {
+       "x": "7594",
+       "y": "8794"
+      },
+      {
+       "x": "8959",
+       "y": "8794"
+      },
+      {
+       "x": "8579",
+       "y": "8345"
+      },
+      {
+       "x": "7780",
+       "y": "8345"
+      },
+      {
+       "x": "7477",
+       "y": "8725"
+      },
+      {
+       "x": "7429",
+       "y": "8794"
+      }
+     ]
+    },
+    "area": 524194.0
+   },
+   {
     "name": "star",
     "deleted": "1",
     "verified": "0",
@@ -2575,6 +2862,81 @@
      ]
     },
     "area": 486811.0
+   },
+   {
+    "name": "star",
+    "deleted": "0",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "star,painting,green",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 17:41:00",
+    "id": "47",
+    "polygon": {
+     "username": "AOV97Z3YMKLAQ",
+     "pt": [
+      {
+       "x": "2463",
+       "y": "1150"
+      },
+      {
+       "x": "2666",
+       "y": "1123"
+      },
+      {
+       "x": "2869",
+       "y": "1191"
+      },
+      {
+       "x": "3031",
+       "y": "1394"
+      },
+      {
+       "x": "3044",
+       "y": "1529"
+      },
+      {
+       "x": "3031",
+       "y": "1664"
+      },
+      {
+       "x": "3004",
+       "y": "1786"
+      },
+      {
+       "x": "2869",
+       "y": "1867"
+      },
+      {
+       "x": "2666",
+       "y": "1881"
+      },
+      {
+       "x": "2436",
+       "y": "1827"
+      },
+      {
+       "x": "2327",
+       "y": "1718"
+      },
+      {
+       "x": "2260",
+       "y": "1556"
+      },
+      {
+       "x": "2260",
+       "y": "1367"
+      },
+      {
+       "x": "2354",
+       "y": "1231"
+      }
+     ]
+    },
+    "area": 477795.0
    },
    {
     "name": "house",
@@ -3309,6 +3671,61 @@
      ]
     },
     "area": 365320.0
+   },
+   {
+    "name": "star",
+    "deleted": "0",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "glowing, shining, star, yellow, pale, magical",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 13:53:34",
+    "id": "34",
+    "polygon": {
+     "username": "A2OMYDY8G8PNJE",
+     "pt": [
+      {
+       "x": "1526",
+       "y": "3887"
+      },
+      {
+       "x": "1292",
+       "y": "3965"
+      },
+      {
+       "x": "1214",
+       "y": "4133"
+      },
+      {
+       "x": "1214",
+       "y": "4366"
+      },
+      {
+       "x": "1292",
+       "y": "4534"
+      },
+      {
+       "x": "1426",
+       "y": "4623"
+      },
+      {
+       "x": "1682",
+       "y": "4522"
+      },
+      {
+       "x": "1760",
+       "y": "4366"
+      },
+      {
+       "x": "1760",
+       "y": "4121"
+      }
+     ]
+    },
+    "area": 306369.0
    },
    {
     "name": "star",
@@ -4106,6 +4523,41 @@
     "area": 170168.0
    },
    {
+    "name": "roof",
+    "deleted": "0",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "small house, triangular, bottom right side of painting",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 18:28:18",
+    "id": "59",
+    "polygon": {
+     "username": "A2M3QMJC99DERS",
+     "pt": [
+      {
+       "x": "6294",
+       "y": "8034"
+      },
+      {
+       "x": "6853",
+       "y": "8016"
+      },
+      {
+       "x": "7053",
+       "y": "7780"
+      },
+      {
+       "x": "6435",
+       "y": "7798"
+      }
+     ]
+    },
+    "area": 135817.0
+   },
+   {
     "name": "house",
     "deleted": "0",
     "verified": "0",
@@ -4246,6 +4698,41 @@
      ]
     },
     "area": 119218.0
+   },
+   {
+    "name": "house",
+    "deleted": "0",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "confort, home, sweet",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 18:48:54",
+    "id": "65",
+    "polygon": {
+     "username": "A1X9BD3KDIA2QB",
+     "pt": [
+      {
+       "x": "4538",
+       "y": "7271"
+      },
+      {
+       "x": "4897",
+       "y": "7259"
+      },
+      {
+       "x": "4886",
+       "y": "7560"
+      },
+      {
+       "x": "4585",
+       "y": "7560"
+      }
+     ]
+    },
+    "area": 97458.0
    },
    {
     "name": "house",
@@ -4601,6 +5088,41 @@
     "area": 34807.5
    },
    {
+    "name": "window",
+    "deleted": "0",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "small, lit, down side, distant, wooden like",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 16:53:57",
+    "id": "45",
+    "polygon": {
+     "username": "A396GA8SHS2L41",
+     "pt": [
+      {
+       "x": "7755",
+       "y": "7503"
+      },
+      {
+       "x": "7755",
+       "y": "7692"
+      },
+      {
+       "x": "7577",
+       "y": "7692"
+      },
+      {
+       "x": "7577",
+       "y": "7524"
+      }
+     ]
+    },
+    "area": 31773.0
+   },
+   {
     "name": "center of a star",
     "deleted": "0",
     "verified": "0",
@@ -4891,6 +5413,27 @@
     "area": 0
    },
    {
+    "name": "sky",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "blue",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 13:02:19",
+    "id": "28",
+    "polygon": {
+     "username": "A2NVNFIOKLEEGY",
+     "pt": {
+      "x": "5835",
+      "y": "868"
+     }
+    },
+    "area": 0
+   },
+   {
     "name": "wind",
     "deleted": "1",
     "verified": "0",
@@ -4907,6 +5450,27 @@
      "pt": {
       "x": "5957",
       "y": "3821"
+     }
+    },
+    "area": 0
+   },
+   {
+    "name": "mountain",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "blue",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 13:02:54",
+    "id": "30",
+    "polygon": {
+     "username": "A2NVNFIOKLEEGY",
+     "pt": {
+      "x": "9986",
+      "y": "6043"
      }
     },
     "area": 0

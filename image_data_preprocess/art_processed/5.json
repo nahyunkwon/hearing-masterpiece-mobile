@@ -8,6 +8,49 @@
   },
   "object": [
    {
+    "name": "bull",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "horns, mad, angry",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 09:35:23",
+    "id": "9",
+    "polygon": {
+     "username": "A3F69R5AE77SOL",
+     "pt": [
+      {
+       "x": "208",
+       "y": "139"
+      },
+      {
+       "x": "643",
+       "y": "519"
+      },
+      {
+       "x": "844",
+       "y": "195"
+      },
+      {
+       "x": "1061",
+       "y": "453"
+      },
+      {
+       "x": "1116",
+       "y": "186"
+      },
+      {
+       "x": "847",
+       "y": "189"
+      }
+     ]
+    },
+    "area": 147519.0
+   },
+   {
     "name": "horse",
     "deleted": "0",
     "verified": "0",
@@ -3083,6 +3126,45 @@
     "area": 13838.5
    },
    {
+    "name": "door",
+    "deleted": "0",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "right, medium size, rectangular",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 15:43:11",
+    "id": "57",
+    "polygon": {
+     "username": "A1GUNTMI2Y61IW",
+     "pt": [
+      {
+       "x": "1246",
+       "y": "148"
+      },
+      {
+       "x": "1205",
+       "y": "155"
+      },
+      {
+       "x": "1206",
+       "y": "275"
+      },
+      {
+       "x": "1208",
+       "y": "437"
+      },
+      {
+       "x": "1248",
+       "y": "554"
+      }
+     ]
+    },
+    "area": 13833.5
+   },
+   {
     "name": "part of a ruined building",
     "deleted": "0",
     "verified": "0",
@@ -4602,6 +4684,41 @@
     "area": 5234.0
    },
    {
+    "name": "arm",
+    "deleted": "0",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "full of lines, strange shape, white and gray, extended in the floor, down.",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 12:11:34",
+    "id": "36",
+    "polygon": {
+     "username": "A396GA8SHS2L41",
+     "pt": [
+      {
+       "x": "112",
+       "y": "489"
+      },
+      {
+       "x": "192",
+       "y": "476"
+      },
+      {
+       "x": "204",
+       "y": "532"
+      },
+      {
+       "x": "109",
+       "y": "519"
+      }
+     ]
+    },
+    "area": 3762.5
+   },
+   {
     "name": "smoke",
     "deleted": "0",
     "verified": "0",
@@ -5160,6 +5277,41 @@
     "area": 2036.0
    },
    {
+    "name": "doorway",
+    "deleted": "0",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "white, small, rectangular, bright",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 19:44:40",
+    "id": "64",
+    "polygon": {
+     "username": "ARZ9KWKL0P8ND",
+     "pt": [
+      {
+       "x": "977",
+       "y": "326"
+      },
+      {
+       "x": "978",
+       "y": "244"
+      },
+      {
+       "x": "953",
+       "y": "240"
+      },
+      {
+       "x": "953",
+       "y": "314"
+      }
+     ]
+    },
+    "area": 1915.0
+   },
+   {
     "name": "tongue",
     "deleted": "0",
     "verified": "0",
@@ -5324,6 +5476,145 @@
      ]
     },
     "area": 1527.0
+   },
+   {
+    "name": "hoof",
+    "deleted": "0",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "horse, foot, metal, bottom left",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 12:47:27",
+    "id": "38",
+    "polygon": {
+     "username": "AIN29LNXRARXY",
+     "pt": [
+      {
+       "x": "285",
+       "y": "520"
+      },
+      {
+       "x": "287",
+       "y": "530"
+      },
+      {
+       "x": "305",
+       "y": "527"
+      },
+      {
+       "x": "316",
+       "y": "527"
+      },
+      {
+       "x": "320",
+       "y": "530"
+      },
+      {
+       "x": "321",
+       "y": "534"
+      },
+      {
+       "x": "318",
+       "y": "534"
+      },
+      {
+       "x": "314",
+       "y": "535"
+      },
+      {
+       "x": "306",
+       "y": "532"
+      },
+      {
+       "x": "298",
+       "y": "531"
+      },
+      {
+       "x": "292",
+       "y": "531"
+      },
+      {
+       "x": "286",
+       "y": "531"
+      },
+      {
+       "x": "273",
+       "y": "529"
+      },
+      {
+       "x": "282",
+       "y": "538"
+      },
+      {
+       "x": "288",
+       "y": "540"
+      },
+      {
+       "x": "296",
+       "y": "542"
+      },
+      {
+       "x": "305",
+       "y": "543"
+      },
+      {
+       "x": "318",
+       "y": "547"
+      },
+      {
+       "x": "328",
+       "y": "548"
+      },
+      {
+       "x": "330",
+       "y": "549"
+      },
+      {
+       "x": "336",
+       "y": "542"
+      },
+      {
+       "x": "339",
+       "y": "531"
+      },
+      {
+       "x": "337",
+       "y": "524"
+      },
+      {
+       "x": "333",
+       "y": "522"
+      },
+      {
+       "x": "328",
+       "y": "520"
+      },
+      {
+       "x": "322",
+       "y": "520"
+      },
+      {
+       "x": "316",
+       "y": "517"
+      },
+      {
+       "x": "306",
+       "y": "516"
+      },
+      {
+       "x": "300",
+       "y": "518"
+      },
+      {
+       "x": "296",
+       "y": "519"
+      }
+     ]
+    },
+    "area": 1231.0
    },
    {
     "name": "a horse_s hoof",
@@ -5666,6 +5957,61 @@
      ]
     },
     "area": 828.0
+   },
+   {
+    "name": "flame",
+    "deleted": "0",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "black and white, small, teardrop shaped",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 19:40:04",
+    "id": "61",
+    "polygon": {
+     "username": "ARZ9KWKL0P8ND",
+     "pt": [
+      {
+       "x": "577",
+       "y": "51"
+      },
+      {
+       "x": "567",
+       "y": "54"
+      },
+      {
+       "x": "568",
+       "y": "73"
+      },
+      {
+       "x": "564",
+       "y": "84"
+      },
+      {
+       "x": "577",
+       "y": "99"
+      },
+      {
+       "x": "591",
+       "y": "89"
+      },
+      {
+       "x": "590",
+       "y": "78"
+      },
+      {
+       "x": "585",
+       "y": "69"
+      },
+      {
+       "x": "582",
+       "y": "60"
+      }
+     ]
+    },
+    "area": 808.0
    },
    {
     "name": "flower",
@@ -6126,6 +6472,45 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
+    "attributes": "goggle, looking helpless, looking upward, white, small",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 12:08:33",
+    "id": "34",
+    "polygon": {
+     "username": "A396GA8SHS2L41",
+     "pt": [
+      {
+       "x": "1118",
+       "y": "174"
+      },
+      {
+       "x": "1129",
+       "y": "191"
+      },
+      {
+       "x": "1140",
+       "y": "182"
+      },
+      {
+       "x": "1134",
+       "y": "177"
+      },
+      {
+       "x": "1129",
+       "y": "175"
+      }
+     ]
+    },
+    "area": 182.5
+   },
+   {
+    "name": "eye",
+    "deleted": "0",
+    "verified": "0",
+    "occluded": null,
     "attributes": "eyeball, basic, 2d, figure, misplaced",
     "parts": {
      "hasparts": null,
@@ -6314,6 +6699,27 @@
     "area": 0
    },
    {
+    "name": "light",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "the shape is like octopus,like a eye, bulb",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 11:47:45",
+    "id": "28",
+    "polygon": {
+     "username": ":%20COPIEDA3UMDMF589FDPZ",
+     "pt": {
+      "x": "474",
+      "y": "53"
+     }
+    },
+    "area": 0
+   },
+   {
     "name": "hand with candle",
     "deleted": "1",
     "verified": "0",
@@ -6335,6 +6741,27 @@
     "area": 0
    },
    {
+    "name": "face",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "eyes,ears,mouth,nose",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 11:50:49",
+    "id": "30",
+    "polygon": {
+     "username": ":%20COPIEDA3UMDMF589FDPZ",
+     "pt": {
+      "x": "923",
+      "y": "133"
+     }
+    },
+    "area": 0
+   },
+   {
     "name": "horse face",
     "deleted": "1",
     "verified": "0",
@@ -6351,6 +6778,27 @@
      "pt": {
       "x": "461",
       "y": "145"
+     }
+    },
+    "area": 0
+   },
+   {
+    "name": "human face",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "clear, horrified expression, right-side, looking forward, bald, curious",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 12:03:45",
+    "id": "32",
+    "polygon": {
+     "username": "A396GA8SHS2L41",
+     "pt": {
+      "x": "849",
+      "y": "164"
      }
     },
     "area": 0

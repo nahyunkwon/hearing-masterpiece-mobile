@@ -34,7 +34,7 @@ def art_data_preprocess(img_id):
 
     i = 0
     deleted = []
-
+    '''
     for obj in ann:
         # print(ann[i]['deleted']=="1")
         if ann[i]['deleted'] == '1':
@@ -49,7 +49,7 @@ def art_data_preprocess(img_id):
             print(obj, 'indexerror')
 
     # print(ann)
-
+'''
     for obj in ann:
         # print(obj['polygon']['pt'])
         points = obj['polygon']['pt']

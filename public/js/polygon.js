@@ -136,9 +136,11 @@ function draw_polygon(seg_mode){
         .data(img_file.annotation.object)
         .enter().append("polygon")
         .attr("points", function(d) {
-            return d.polygon.pt.map(function(d) {
-                    //console.log(d);
-                    return [x(d['x']),y(d['y'])].join(","); }).join(" "); })
+            if(d['deleted'] != "1"){
+
+                return d.polygon.pt.map(function(d) {
+                        //console.log(d);
+                        return [x(d['x']),y(d['y'])].join(","); }).join(" "); }})
         ;
     }
 
@@ -155,7 +157,7 @@ function draw_polygon(seg_mode){
     //polygon opacity, fill color(random)
   svg.selectAll("polygon")
   //.style("fill-opacity", .000001)
-  .style("fill-opacity", .000001)
+  .style("fill-opacity", .5)
   .style("fill",function() {
     return "hsl(" + Math.random() * 360 + ",100%,50%)";
   })
@@ -343,8 +345,8 @@ var rect = d3.select('body').append("rect")
     .attr('width', width)
     .attr('height', height);
 
-  var x = d3.scaleLinear().range([0, width]);
-  var y = d3.scaleLinear().range([0, height]);
+  var x = d3.scaleLinear().range([0, naturalWidth]);
+  var y = d3.scaleLinear().range([0, naturalHeight]);
 
   x.domain([0, width]);
   y.domain([0, height]);
