@@ -1,0 +1,497 @@
+,img_name,Title,worker_id,name,desc,img_desc
+0,1.jpg,Mona Lisa,WorkerID,point,nose,"Expression,Brightness,shape,structure,amazing"
+1,1.jpg,Mona Lisa,WorkerID,point,right eyes,"Expression,Brightness,shape,structure,amazing"
+2,1.jpg,Mona Lisa,WorkerID,point,left eyes,"Expression,Brightness,shape,structure,amazing"
+3,1.jpg,Mona Lisa,WorkerID,point,face,"Expression,Brightness,shape,structure,amazing"
+4,1.jpg,Mona Lisa,WorkerID,point,neck,"Expression,Brightness,shape,structure,amazing"
+5,1.jpg,Mona Lisa,WorkerID,point,human,"Expression,Brightness,shape,structure,amazing"
+6,1.jpg,Mona Lisa,AIN29LNXRARXY,mouth,"smile, enigmatic, lips, close","portrait, lady, landscape background, enigmatic expression, Gioconda, Leonardo Da Vinci, sixteenth century, natural light"
+7,1.jpg,Mona Lisa,AIN29LNXRARXY,bridge,"right side, background, arches","portrait, lady, landscape background, enigmatic expression, Gioconda, Leonardo Da Vinci, sixteenth century, natural light"
+8,1.jpg,Mona Lisa,AIN29LNXRARXY,armrest,"wood, brown, bottom center","portrait, lady, landscape background, enigmatic expression, Gioconda, Leonardo Da Vinci, sixteenth century, natural light"
+9,1.jpg,Mona Lisa,AIN29LNXRARXY,road,"left side, background, dirt","portrait, lady, landscape background, enigmatic expression, Gioconda, Leonardo Da Vinci, sixteenth century, natural light"
+10,1.jpg,Mona Lisa,AIN29LNXRARXY,dress,"brown, embroidered, fabric","portrait, lady, landscape background, enigmatic expression, Gioconda, Leonardo Da Vinci, sixteenth century, natural light"
+11,1.jpg,Mona Lisa,AIN29LNXRARXY,right hand,"bottom front, resting, white, clean","portrait, lady, landscape background, enigmatic expression, Gioconda, Leonardo Da Vinci, sixteenth century, natural light"
+12,1.jpg,Mona Lisa,A1CJ8CLM7987EQ,sleeve,"sleeve, arm, clothing",
+13,1.jpg,Mona Lisa,A1CJ8CLM7987EQ,sleeve,"sleeve, arm, clothing",
+14,1.jpg,Mona Lisa,A1CJ8CLM7987EQ,sky,"sky, up, sun, blue",
+15,1.jpg,Mona Lisa,A1CJ8CLM7987EQ,forehead,"front, face, wrinkles",
+16,1.jpg,Mona Lisa,A1CJ8CLM7987EQ,tree,"leaves, branch, roots",
+17,1.jpg,Mona Lisa,A2HC04434S9TP0,hand,"fingers, arm, body, anatomy","painting, famous, forest, lake, dark, woman"
+18,1.jpg,Mona Lisa,A2HC04434S9TP0,forest,"green, trees, background","painting, famous, forest, lake, dark, woman"
+19,1.jpg,Mona Lisa,A2HC04434S9TP0,lake,"water, fresh, tasty, background","painting, famous, forest, lake, dark, woman"
+20,1.jpg,Mona Lisa,A2HC04434S9TP0,vegetation,"dark brown, background, bushes","painting, famous, forest, lake, dark, woman"
+21,1.jpg,Mona Lisa,A2HC04434S9TP0,forest,"green, trees, animals, branches","painting, famous, forest, lake, dark, woman"
+22,1.jpg,Mona Lisa,A2HC04434S9TP0,forest,"green, trees, animals, branches","painting, famous, forest, lake, dark, woman"
+23,1.jpg,Mona Lisa,ZCgDVlkp5,mona lisa,"female, outline, clear, realistic, dark","Mona Lisa, "
+24,1.jpg,Mona Lisa,ZCgDVlkp5,eye,"female, eye, brown, clear, realistic","Mona Lisa, "
+25,1.jpg,Mona Lisa,ZCgDVlkp5,hair,"dark, hair, female, long, straight","Mona Lisa, "
+26,1.jpg,Mona Lisa,ZCgDVlkp5,hand,"hand, female, outline, soft, clean","Mona Lisa, "
+27,1.jpg,Mona Lisa,ZCgDVlkp5,background,"green, background, blurred, dark, grassy","Mona Lisa, "
+28,1.jpg,Mona Lisa,A3RERXGQS1129K,land mass,"dark brown mass of land, left, bottom corner","smiling woman, forerest, mountain scenory, dark backgorund,and sophistocated pose. "
+29,1.jpg,Mona Lisa,A3RERXGQS1129K,trees,"a colletive of background scenory of trees or a forest, dark green","smiling woman, forerest, mountain scenory, dark backgorund,and sophistocated pose. "
+30,1.jpg,Mona Lisa,A3RERXGQS1129K,river,"murky, mud colored, bodied of water between land mass","smiling woman, forerest, mountain scenory, dark backgorund,and sophistocated pose. "
+31,1.jpg,Mona Lisa,A3RERXGQS1129K,hill,"dark brown land mass, right side, resembles a hill or mountain","smiling woman, forerest, mountain scenory, dark backgorund,and sophistocated pose. "
+32,1.jpg,Mona Lisa,A3RERXGQS1129K,ground,"dark brown, left bottom corner","smiling woman, forerest, mountain scenory, dark backgorund,and sophistocated pose. "
+33,1.jpg,Mona Lisa,AOV97Z3YMKLAQ,shoulder,"body part, woman, feminine","Mona Lisa, Leonardo da Vinci, Art, Painting, Famous"
+34,1.jpg,Mona Lisa,AOV97Z3YMKLAQ,breast,"woman, body part, maternal","Mona Lisa, Leonardo da Vinci, Art, Painting, Famous"
+35,1.jpg,Mona Lisa,AOV97Z3YMKLAQ,elbow,"body part, woman, mona lisa","Mona Lisa, Leonardo da Vinci, Art, Painting, Famous"
+36,1.jpg,Mona Lisa,A2M3QMJC99DERS,iris,"left eye, brown, round","woman, smile, long hair, brown, calm"
+37,1.jpg,Mona Lisa,A2M3QMJC99DERS,right iris,"right eye, round, brown","woman, smile, long hair, brown, calm"
+38,1.jpg,Mona Lisa,A2M3QMJC99DERS,decoration,"lace, clothes decoration, light brown, neckline","woman, smile, long hair, brown, calm"
+39,1.jpg,Mona Lisa,A2M3QMJC99DERS,thumb,"right hand, finger","woman, smile, long hair, brown, calm"
+40,1.jpg,Mona Lisa,A2M3QMJC99DERS,pinky,"smallest finger, right hand","woman, smile, long hair, brown, calm"
+41,1.jpg,Mona Lisa,A2M3QMJC99DERS,ring finger,"right hand, fourth finger","woman, smile, long hair, brown, calm"
+42,1.jpg,Mona Lisa,A2M3QMJC99DERS,middler finger,"right hand, third finger","woman, smile, long hair, brown, calm"
+43,1.jpg,Mona Lisa,A2M3QMJC99DERS,index,"right hand, second finger","woman, smile, long hair, brown, calm"
+44,1.jpg,Mona Lisa,A2M3QMJC99DERS,pinky,"left hand, smallest finger","woman, smile, long hair, brown, calm"
+45,1.jpg,Mona Lisa,A2M3QMJC99DERS,index,"left hand, second finger","woman, smile, long hair, brown, calm"
+46,1.jpg,Mona Lisa,A2M3QMJC99DERS,middle finger,"left hand, third finger","woman, smile, long hair, brown, calm"
+47,1.jpg,Mona Lisa,A2M3QMJC99DERS,ring finger,"left hand, fourth finger","woman, smile, long hair, brown, calm"
+48,1.jpg,Mona Lisa,A2M3QMJC99DERS,eyelid,"right side, moon shaped","woman, smile, long hair, brown, calm"
+49,1.jpg,Mona Lisa,A2M3QMJC99DERS,iris,"right eye, brown, round","woman, smile, long hair, brown, calm"
+50,1.jpg,Mona Lisa,A2M3QMJC99DERS,iris,"left eye, round, brown","woman, smile, long hair, brown, calm"
+51,1.jpg,Mona Lisa,A2M3QMJC99DERS,eyelid,"left eye, moon shaped","woman, smile, long hair, brown, calm"
+52,1.jpg,Mona Lisa,A1SCA9REYZD5W2,human face,"monolissa,black, beauty",Mona Lisa Painting ; Leonardo da Vinci ; Mona Lisa's Smile ; Black Beauty ; Human Optical Illusion ; Famous Painting
+53,1.jpg,Mona Lisa,A1SCA9REYZD5W2,sleeve,hand _ black _ clothing,Mona Lisa Painting ; Leonardo da Vinci ; Mona Lisa's Smile ; Black Beauty ; Human Optical Illusion ; Famous Painting
+54,1.jpg,Mona Lisa,A1SCA9REYZD5W2,neck,"empty, clean, no jewels",Mona Lisa Painting ; Leonardo da Vinci ; Mona Lisa's Smile ; Black Beauty ; Human Optical Illusion ; Famous Painting
+55,1.jpg,Mona Lisa,A2NV315LQL2QZ7,clothes,"dark,silk,classic","gray,classic, art, trees,woman"
+56,2.jpg,The Starry Night,A2HC04434S9TP0,tree,"city, dark, large, triangular, smooth","Sun, Church, City, Dark, Night, trees"
+57,2.jpg,The Starry Night,A2HC04434S9TP0,sun,"sky, orange, yellow, medium, circle, no texture","Sun, Church, City, Dark, Night, trees"
+58,2.jpg,The Starry Night,A2HC04434S9TP0,church,"city, grey, small, triangle, smooth","Sun, Church, City, Dark, Night, trees"
+59,2.jpg,The Starry Night,A2HC04434S9TP0,house,"city, grey, small, triangles, two visible windows, smooth","Sun, Church, City, Dark, Night, trees"
+60,2.jpg,The Starry Night,A2HC04434S9TP0,mountain,"city, dark green, small, round shape","Sun, Church, City, Dark, Night, trees"
+61,2.jpg,The Starry Night,A2HC04434S9TP0,trees,"city, green, medium-large, circular shape, smooth","Sun, Church, City, Dark, Night, trees"
+62,2.jpg,The Starry Night,A1CJ8CLM7987EQ,star,"light, heat, sun, space, night","night, breeze, oil, colourful, bold"
+63,2.jpg,The Starry Night,A1CJ8CLM7987EQ,star,"light, sun, star, heat, night","night, breeze, oil, colourful, bold"
+64,2.jpg,The Starry Night,A1CJ8CLM7987EQ,wind,"breeze, wind, gust","night, breeze, oil, colourful, bold"
+65,2.jpg,The Starry Night,A1CJ8CLM7987EQ,house,"dwelling, home, house, sleep","night, breeze, oil, colourful, bold"
+66,2.jpg,The Starry Night,A1CJ8CLM7987EQ,mountain,"hill, mountain, mound","night, breeze, oil, colourful, bold"
+67,2.jpg,The Starry Night,AIN29LNXRARXY,star,"sky, top, center, background, round",
+68,2.jpg,The Starry Night,AIN29LNXRARXY,star,"sky, top, left, background, round",
+69,2.jpg,The Starry Night,AIN29LNXRARXY,star,"sky, top, left, background, round",
+70,2.jpg,The Starry Night,AIN29LNXRARXY,house,"bottom, center, dark, rural, village",
+71,2.jpg,The Starry Night,AIN29LNXRARXY,house,"background, bottom, center, dark, rural, village",
+72,2.jpg,The Starry Night,A2MOY7J4GG5CW8,star,"yellow, left, round","turbulent, night, thick brush strokes, fluid, rural, "
+73,2.jpg,The Starry Night,A2MOY7J4GG5CW8,star,"round, left, white, yellow","turbulent, night, thick brush strokes, fluid, rural, "
+74,2.jpg,The Starry Night,A2MOY7J4GG5CW8,house,"bottom, dark, small","turbulent, night, thick brush strokes, fluid, rural, "
+75,2.jpg,The Starry Night,A2MOY7J4GG5CW8,house,"red, bottom, left","turbulent, night, thick brush strokes, fluid, rural, "
+76,2.jpg,The Starry Night,A2MOY7J4GG5CW8,star,"round, top, yellow, blue","turbulent, night, thick brush strokes, fluid, rural, "
+77,2.jpg,The Starry Night,AC9P9SHL0IXBL,cloud,"swirly, dashed, blue",Nighttime landscape with illuminated village
+78,2.jpg,The Starry Night,AC9P9SHL0IXBL,house,"small, lit, unclear",Nighttime landscape with illuminated village
+79,2.jpg,The Starry Night,AC9P9SHL0IXBL,bush,"greenish, curly, small",Nighttime landscape with illuminated village
+80,2.jpg,The Starry Night,AC9P9SHL0IXBL,horizon,"obstructed, dark, uneven",Nighttime landscape with illuminated village
+81,2.jpg,The Starry Night,AC9P9SHL0IXBL,cloud layer,"white, horizontal, striped",Nighttime landscape with illuminated village
+82,2.jpg,The Starry Night,A2OMYDY8G8PNJE,moon,"moon, night sky, yellow, high above, shining, bright",
+83,2.jpg,The Starry Night,A2OMYDY8G8PNJE,light,"glow, moon glow, shining, pale, yellow, glow of the moon, brush strokes",
+84,2.jpg,The Starry Night,A2OMYDY8G8PNJE,sky,"night sky, blue, top, high up, shades of blue, nighttime, moody",
+85,2.jpg,The Starry Night,A2OMYDY8G8PNJE,star,"glowing, shining, star, yellow, pale, magical",
+86,2.jpg,The Starry Night,A2OMYDY8G8PNJE,house,"house, blue roof, small, bottom, to the left of a tree, simple",
+87,2.jpg,The Starry Night,A2OMYDY8G8PNJE,tree,"small tree, dark, bottom right, brush strokes, simple",
+88,2.jpg,The Starry Night,A2OMYDY8G8PNJE,church,"church, white, steeple, bright, middle, tall",
+89,2.jpg,The Starry Night,AZE7YSINS9UNZ,star,star,
+90,2.jpg,The Starry Night,A396GA8SHS2L41,wind,"blue, dark, bright, discontinuous, water like, center side","astounding, strange, fluidic, beautiful, dream, night"
+91,2.jpg,The Starry Night,A396GA8SHS2L41,door,"dark, small, wooden made, black, rectangular","astounding, strange, fluidic, beautiful, dream, night"
+92,2.jpg,The Starry Night,A396GA8SHS2L41,window,"dark, small, distant, wooden like, down side","astounding, strange, fluidic, beautiful, dream, night"
+93,2.jpg,The Starry Night,A396GA8SHS2L41,window,"small, wooden made, glass, dark, brownish","astounding, strange, fluidic, beautiful, dream, night"
+94,2.jpg,The Starry Night,A396GA8SHS2L41,window,"small, lit, down side, distant, wooden like","astounding, strange, fluidic, beautiful, dream, night"
+95,2.jpg,The Starry Night,A396GA8SHS2L41,trees,"distant, bright, white, bluish, center positioned","astounding, strange, fluidic, beautiful, dream, night"
+96,2.jpg,The Starry Night,AOV97Z3YMKLAQ,circle,"star,painting,green","sky, moonlight, sphere, greenish, abstract"
+97,2.jpg,The Starry Night,AOV97Z3YMKLAQ,ball,"little, sky, star","sky, moonlight, sphere, greenish, abstract"
+98,2.jpg,The Starry Night,AOV97Z3YMKLAQ,moon,"round, green, small","sky, moonlight, sphere, greenish, abstract"
+99,2.jpg,The Starry Night,AOV97Z3YMKLAQ,nightfall,"big, bright, star","sky, moonlight, sphere, greenish, abstract"
+100,2.jpg,The Starry Night,AOV97Z3YMKLAQ,landscape,"green, oil paint, art","sky, moonlight, sphere, greenish, abstract"
+101,2.jpg,The Starry Night,A2CO8IM74HLYTL,light,"middle bottom of the image, a light outside an house","A big tree on the left side with houses, stars and the mmon"
+102,2.jpg,The Starry Night,A2CO8IM74HLYTL,center light of a star,"the center of a star, more bright than the aura","A big tree on the left side with houses, stars and the mmon"
+103,2.jpg,The Starry Night,A2CO8IM74HLYTL,center of a star,"the center of a star, more bright than the aura","A big tree on the left side with houses, stars and the mmon"
+104,2.jpg,The Starry Night,A2CO8IM74HLYTL,the core of a star,"a brighter part of a star, his core, middle up on the left position","A big tree on the left side with houses, stars and the mmon"
+105,2.jpg,The Starry Night,A2M3QMJC99DERS,trees,"bottom right, round, bushy, blue, green","night, swirls, starry, van gogh, blue, moon"
+106,2.jpg,The Starry Night,A2M3QMJC99DERS,roof,"middle house, red, rooftop, triangular","night, swirls, starry, van gogh, blue, moon"
+107,2.jpg,The Starry Night,A2M3QMJC99DERS,roof,"small house, triangular, bottom right side of painting","night, swirls, starry, van gogh, blue, moon"
+108,2.jpg,The Starry Night,A2M3QMJC99DERS,trees,"round, group, green, dark","night, swirls, starry, van gogh, blue, moon"
+109,2.jpg,The Starry Night,A1JPFK0JQLTJTC,star nucleus,"left of tree, left, gold, inside white, small, star center, center of star, small, iris, sun, by tree, left of tree, medium-sized, deep gold",
+110,2.jpg,The Starry Night,A1X9BD3KDIA2QB,house,"home, confort, blue, gray",
+111,2.jpg,The Starry Night,A1X9BD3KDIA2QB,house,"home, gray,confort",
+112,2.jpg,The Starry Night,A1X9BD3KDIA2QB,house,"confort, home, sweet",
+113,2.jpg,The Starry Night,A1X9BD3KDIA2QB,house,"home, confort",
+114,2.jpg,The Starry Night,A1X9BD3KDIA2QB,grass,"green, blue, black, leaf",
+115,2.jpg,The Starry Night,A1Z1L9F827UMHR,blue part,i am not sure but looks good,
+116,2.jpg,The Starry Night,A2RMR0ZSQ575XZ,building,"right, bottom, corner, behinfirst object in right bottom corner, white",
+117,2.jpg,The Starry Night,A2RMR0ZSQ575XZ,star,"top, right, yellow, corner, circle",
+118,2.jpg,The Starry Night,A2RMR0ZSQ575XZ,star,"right, grey blue, yellow center,",
+119,2.jpg,The Starry Night,A2RMR0ZSQ575XZ,house,"white, bottom, right, windows, pointed roof",
+120,2.jpg,The Starry Night,A2RMR0ZSQ575XZ,tree,"middle-right, next to church, black, green",
+121,2.jpg,The Starry Night,A2RMR0ZSQ575XZ,house,"partial, center, near tree, red striped roof",
+122,2.jpg,The Starry Night,A2RMR0ZSQ575XZ,star,"top, left, light blue, orange center",
+123,2.jpg,The Starry Night,A2RMR0ZSQ575XZ,house,"right, partial, obscure, right of church and partially exposed",
+124,2.jpg,The Starry Night,A2RMR0ZSQ575XZ,house,"small, right, obscured partially",
+125,4.jpg,Girl with a Pearl Earring,A2F9FURICZCOY3,face,"smile,left side,pointed nose",Cute Girl
+126,4.jpg,Girl with a Pearl Earring,A2F9FURICZCOY3,right eye,"attractive, see left, black pupil",Cute Girl
+127,4.jpg,Girl with a Pearl Earring,A1QC6WNXRWWPCC,eye,"female, white, smile, cotten","ear, right eye, nose, dress"
+128,4.jpg,Girl with a Pearl Earring,A1QC6WNXRWWPCC,lips,"female, red, smile","ear, right eye, nose, dress"
+129,4.jpg,Girl with a Pearl Earring,A1QC6WNXRWWPCC,ear,"female, white","ear, right eye, nose, dress"
+130,4.jpg,Girl with a Pearl Earring,A1QC6WNXRWWPCC,nose,"female, white","ear, right eye, nose, dress"
+131,4.jpg,Girl with a Pearl Earring,A1QC6WNXRWWPCC,ear,"female, white","ear, right eye, nose, dress"
+132,4.jpg,Girl with a Pearl Earring,A1QC6WNXRWWPCC,dress,"brown,female dress","ear, right eye, nose, dress"
+133,4.jpg,Girl with a Pearl Earring,A1CJ8CLM7987EQ,hairband,"blue, hairband, hat",
+134,4.jpg,Girl with a Pearl Earring,A1CJ8CLM7987EQ,hair,"hair, blonde, yellow",
+135,4.jpg,Girl with a Pearl Earring,A1CJ8CLM7987EQ,neck,"neck, slim, turned",
+136,4.jpg,Girl with a Pearl Earring,A1CJ8CLM7987EQ,lips,"red, open, talking",
+137,4.jpg,Girl with a Pearl Earring,A1CJ8CLM7987EQ,nose,"small, turned, nose",
+138,4.jpg,Girl with a Pearl Earring,A25OQ8GWGF6S1G,earring,"left ear, silver, round, shines",
+139,4.jpg,Girl with a Pearl Earring,AIN29LNXRARXY,mouth,"lips, semi opened, smile","earring, portrait, pearl, seventeenth century, Vermeer"
+140,4.jpg,Girl with a Pearl Earring,A3RQVHWHESFK4D,eye brow,"above eye, light color, thin","girl, looking over shoulder, smiling, young, head scarf"
+141,4.jpg,Girl with a Pearl Earring,A3RQVHWHESFK4D,left eye brow,"light color, thin, over left eye","girl, looking over shoulder, smiling, young, head scarf"
+142,4.jpg,Girl with a Pearl Earring,A3RQVHWHESFK4D,head scarf,"cloth, blue, yellow, head wrap","girl, looking over shoulder, smiling, young, head scarf"
+143,4.jpg,Girl with a Pearl Earring,A3RQVHWHESFK4D,teeth,"teeth, white, smile","girl, looking over shoulder, smiling, young, head scarf"
+144,4.jpg,Girl with a Pearl Earring,A3RQVHWHESFK4D,shoulder,"side of upper arm, facing viewer, covered by dress","girl, looking over shoulder, smiling, young, head scarf"
+145,4.jpg,Girl with a Pearl Earring,A2MDR0R3KTYTGV,pupil and iris,"pupil, iris, eye color, dark, staring","beautiful, dark, somber, interesting, poignant, searching"
+146,4.jpg,Girl with a Pearl Earring,A2MDR0R3KTYTGV,pupil and iris,"pupil, iris, eye color, dark, staring","beautiful, dark, somber, interesting, poignant, searching"
+147,4.jpg,Girl with a Pearl Earring,A2MDR0R3KTYTGV,collar,"white, collar, bright, soft, cloth","beautiful, dark, somber, interesting, poignant, searching"
+148,4.jpg,Girl with a Pearl Earring,A2MDR0R3KTYTGV,cheek,"cheek, cheekbone, side of face, smooth, flesh colored","beautiful, dark, somber, interesting, poignant, searching"
+149,4.jpg,Girl with a Pearl Earring,A2MDR0R3KTYTGV,chin,"chin, jaw, below mouth","beautiful, dark, somber, interesting, poignant, searching"
+150,4.jpg,Girl with a Pearl Earring,A1NZ4C0GO5HS87,turban,"headwear, blue and beige, keeps hair in place",the high end equivalent of today's professional portrait
+151,4.jpg,Girl with a Pearl Earring,A1NZ4C0GO5HS87,earring,"white pearl earring, jewel, in the middle of the painting",the high end equivalent of today's professional portrait
+152,4.jpg,Girl with a Pearl Earring,A1NZ4C0GO5HS87,girl_s face,"famous person, light pink skin, portrait, focus of the painting, relaxed",the high end equivalent of today's professional portrait
+153,4.jpg,Girl with a Pearl Earring,A1NZ4C0GO5HS87,background,"dark brown, complementary colors, shadows",the high end equivalent of today's professional portrait
+154,4.jpg,Girl with a Pearl Earring,A1NZ4C0GO5HS87,dress,"green and yellow tint, white collar, silk dress or gown",the high end equivalent of today's professional portrait
+155,4.jpg,Girl with a Pearl Earring,AOV97Z3YMKLAQ,forehead,"face, girl, head","face, girl, painting, photo, blond"
+156,4.jpg,Girl with a Pearl Earring,AOV97Z3YMKLAQ,shoulder,"body part, girl, left","face, girl, painting, photo, blond"
+157,4.jpg,Girl with a Pearl Earring,AOV97Z3YMKLAQ,neck,"skin, girl, body part","face, girl, painting, photo, blond"
+158,4.jpg,Girl with a Pearl Earring,A2M3QMJC99DERS,lip,"upper lip, pink, soft","young woman, portrait, scarf, pearl earring, headscarf"
+159,4.jpg,Girl with a Pearl Earring,A2M3QMJC99DERS,lip,"bottom, pink, full, smooth, soft","young woman, portrait, scarf, pearl earring, headscarf"
+160,4.jpg,Girl with a Pearl Earring,A2M3QMJC99DERS,headscarf,"binding, white, cloth","young woman, portrait, scarf, pearl earring, headscarf"
+161,4.jpg,Girl with a Pearl Earring,A2M3QMJC99DERS,nostril,"round, black, left","young woman, portrait, scarf, pearl earring, headscarf"
+162,4.jpg,Girl with a Pearl Earring,A2M3QMJC99DERS,headscarf,"blue, shaded side, darker","young woman, portrait, scarf, pearl earring, headscarf"
+163,5.jpg,Guernica,A3ISOGMY4IZJQ8,bull,"angry, mean, strong , scared","chaotic, abstract, suffering, worried, agony"
+164,5.jpg,Guernica,A3ISOGMY4IZJQ8,face,"worried, scared, tear drop shaped","chaotic, abstract, suffering, worried, agony"
+165,5.jpg,Guernica,A3ISOGMY4IZJQ8,light,"eye shaped, spiky edges","chaotic, abstract, suffering, worried, agony"
+166,5.jpg,Guernica,A3ISOGMY4IZJQ8,horse face,"mouth open, scared,","chaotic, abstract, suffering, worried, agony"
+167,5.jpg,Guernica,A3ISOGMY4IZJQ8,hand holding candle,flame is burning. holding out in front of arm,"chaotic, abstract, suffering, worried, agony"
+168,5.jpg,Guernica,A1STWPAYOSCOSH,arm with broken dagger,"broken, damaged, shattered, broken dagger, gray, pale,","ominous, dark, foreboding, chaotic, mysterious, sadness, pain, torture, "
+169,5.jpg,Guernica,A1STWPAYOSCOSH,tail,"wiry, tail, horse tail,","ominous, dark, foreboding, chaotic, mysterious, sadness, pain, torture, "
+170,5.jpg,Guernica,A1STWPAYOSCOSH,severed head,"anguish, death, darkness, disturbing, beheaded, severed","ominous, dark, foreboding, chaotic, mysterious, sadness, pain, torture, "
+171,5.jpg,Guernica,A1STWPAYOSCOSH,mother holding her deceased child,"anguish, sadness, despair, death, heart break, turmoil,","ominous, dark, foreboding, chaotic, mysterious, sadness, pain, torture, "
+172,5.jpg,Guernica,A2HC04434S9TP0,hand,"arm, body, anatomy","ghosts, hands, legs, harms war, fight, dark, surprise, suffering, sword, room"
+173,5.jpg,Guernica,A2HC04434S9TP0,leg,"foot, grey, toes","ghosts, hands, legs, harms war, fight, dark, surprise, suffering, sword, room"
+174,5.jpg,Guernica,A2HC04434S9TP0,window,"brown, rectangle, small","ghosts, hands, legs, harms war, fight, dark, surprise, suffering, sword, room"
+175,5.jpg,Guernica,A2HC04434S9TP0,triangle,"geometry, math, dark grey","ghosts, hands, legs, harms war, fight, dark, surprise, suffering, sword, room"
+176,5.jpg,Guernica,A2HC04434S9TP0,toe,"grey, foot, leg, round","ghosts, hands, legs, harms war, fight, dark, surprise, suffering, sword, room"
+177,5.jpg,Guernica,A1X9BD3KDIA2QB,man,"grey,small,surprise,big eye","abstract, confuse, expression,caos,life"
+178,5.jpg,Guernica,A1X9BD3KDIA2QB,women,"looking, adult, curious, big, confuse, grey","abstract, confuse, expression,caos,life"
+179,5.jpg,Guernica,A1X9BD3KDIA2QB,horse,"confuse,looking,surprise, walking","abstract, confuse, expression,caos,life"
+180,5.jpg,Guernica,A1X9BD3KDIA2QB,smoke,"grey,corner, abstract","abstract, confuse, expression,caos,life"
+181,5.jpg,Guernica,A1X9BD3KDIA2QB,flower,"floor,small,beauty","abstract, confuse, expression,caos,life"
+182,5.jpg,Guernica,AZ6XLXCXOT8BN,triangles,"teeth, top right, white, grey, pointy, spike",
+183,5.jpg,Guernica,AZ6XLXCXOT8BN,triangle tooth,"gray, spike, point, middle right",
+184,5.jpg,Guernica,ZCgDVlkp5,triangle,"small, triangle, abstract, vague, unclear","Abstract, mis-matched, jumbled, messy, random"
+185,5.jpg,Guernica,ZCgDVlkp5,bulb,"lightbulb, 2d, vague, basic, simple.","Abstract, mis-matched, jumbled, messy, random"
+186,5.jpg,Guernica,ZCgDVlkp5,eye,"eyeball, basic, 2d, figure, misplaced","Abstract, mis-matched, jumbled, messy, random"
+187,5.jpg,Guernica,ZCgDVlkp5,snout,"nose, snout, bull, 2d, nostrils","Abstract, mis-matched, jumbled, messy, random"
+188,5.jpg,Guernica,ZCgDVlkp5,tail,"tail, hair, flowing, thick, bushy","Abstract, mis-matched, jumbled, messy, random"
+189,5.jpg,Guernica,A396GA8SHS2L41,mouth,"white, scream, up side, small, strange","Bold, impressive, dramatic, chaotic, terrific, scandalous, astounding, provocative"
+190,5.jpg,Guernica,A396GA8SHS2L41,eye,"goggle, looking helpless, looking upward, white, small","Bold, impressive, dramatic, chaotic, terrific, scandalous, astounding, provocative"
+191,5.jpg,Guernica,A396GA8SHS2L41,another eye,"looking upward, scared, bulging, white, dark pupil","Bold, impressive, dramatic, chaotic, terrific, scandalous, astounding, provocative"
+192,5.jpg,Guernica,A396GA8SHS2L41,arm,"full of lines, strange shape, white and gray, extended in the floor, down.","Bold, impressive, dramatic, chaotic, terrific, scandalous, astounding, provocative"
+193,5.jpg,Guernica,A396GA8SHS2L41,eye,"vitreous, deadly look, down side, white iris, vertical position","Bold, impressive, dramatic, chaotic, terrific, scandalous, astounding, provocative"
+194,5.jpg,Guernica,AIN29LNXRARXY,hoof,"horse, foot, metal, bottom left",
+195,5.jpg,Guernica,AIN29LNXRARXY,horn,"top left, pointed, bone",
+196,5.jpg,Guernica,AIN29LNXRARXY,right eye,"open, stylized, top left",
+197,5.jpg,Guernica,AIN29LNXRARXY,left eye,"open, stylized, gaze",
+198,5.jpg,Guernica,AIN29LNXRARXY,head,"dead, overturned, children",
+199,5.jpg,Guernica,WorkerIDA13JDB1LY9ZTQY,the top of a building,"gray, angular, monochrome","chaotic, violent, grayscale, distorted, strange"
+200,5.jpg,Guernica,WorkerIDA13JDB1LY9ZTQY,part of a ruined building,"gray, monochrome, tilted","chaotic, violent, grayscale, distorted, strange"
+201,5.jpg,Guernica,WorkerIDA13JDB1LY9ZTQY,a horse_s hoof,"gray, tilted, bottom of image","chaotic, violent, grayscale, distorted, strange"
+202,5.jpg,Guernica,WorkerIDA13JDB1LY9ZTQY,a horse_s leg,"gray, shaded, extended","chaotic, violent, grayscale, distorted, strange"
+203,5.jpg,Guernica,WorkerIDA13JDB1LY9ZTQY,a horse_s mouth,"open, toothy, screaming","chaotic, violent, grayscale, distorted, strange"
+204,5.jpg,Guernica,WorkerIDA13JDB1LY9ZTQY,the lips of a person,"closed, small, thin","chaotic, violent, grayscale, distorted, strange"
+205,5.jpg,Guernica,A25OEEJDN7EGJE,testicles,left_ brown_ big,painful; sad; multiform; evocative; upsetting
+206,5.jpg,Guernica,A25OEEJDN7EGJE,tongue,"painful, twisted, gray",painful; sad; multiform; evocative; upsetting
+207,5.jpg,Guernica,A25OEEJDN7EGJE,hand,"left_ broken, big",painful; sad; multiform; evocative; upsetting
+208,5.jpg,Guernica,A1GUNTMI2Y61IW,brick wall,"centrally positioned, medium size, bricks","Animals suffering, people screaming, Fire, horror, dead and mutilated people, suffering, agony "
+209,5.jpg,Guernica,A1GUNTMI2Y61IW,door,"left, medium size, rectangular","Animals suffering, people screaming, Fire, horror, dead and mutilated people, suffering, agony "
+210,5.jpg,Guernica,A1GUNTMI2Y61IW,body of a bull,"left, dark grey, medium size","Animals suffering, people screaming, Fire, horror, dead and mutilated people, suffering, agony "
+211,5.jpg,Guernica,A1GUNTMI2Y61IW,door,"right, medium size, rectangular","Animals suffering, people screaming, Fire, horror, dead and mutilated people, suffering, agony "
+212,5.jpg,Guernica,A1GUNTMI2Y61IW,window,"square, left, small","Animals suffering, people screaming, Fire, horror, dead and mutilated people, suffering, agony "
+213,5.jpg,Guernica,A1GUNTMI2Y61IW,arrow pointing left,"arrow, left, very small","Animals suffering, people screaming, Fire, horror, dead and mutilated people, suffering, agony "
+214,5.jpg,Guernica,ARZ9KWKL0P8ND,flame,"black and white, small, teardrop shaped","Surreal, mixed media, collage, black & white, chaotic"
+215,5.jpg,Guernica,ARZ9KWKL0P8ND,horses eye,"black and white, very small, circular","Surreal, mixed media, collage, black & white, chaotic"
+216,5.jpg,Guernica,ARZ9KWKL0P8ND,hand of a person,"left side of canvas, gray, small, half-star shaped.","Surreal, mixed media, collage, black & white, chaotic"
+217,5.jpg,Guernica,ARZ9KWKL0P8ND,doorway,"white, small, rectangular, bright","Surreal, mixed media, collage, black & white, chaotic"
+218,5.jpg,Guernica,ARZ9KWKL0P8ND,ear,"light grey, very small, roughly oval","Surreal, mixed media, collage, black & white, chaotic"
+219,5.jpg,Guernica,ARZ9KWKL0P8ND,arm,"white, small, quadrilateral","Surreal, mixed media, collage, black & white, chaotic"
+220,9.jpg,American Gothic,AIN29LNXRARXY,cameo,"necklace, brown/white, little, oval","farm house, wife, husband, rural life, gothic, twentieth century"
+221,9.jpg,American Gothic,AIN29LNXRARXY,glasses,"face, gray, normal size, round, metal/glass","farm house, wife, husband, rural life, gothic, twentieth century"
+222,9.jpg,American Gothic,AIN29LNXRARXY,woman,"left side, middle age, white, farmer, severe, stand up","farm house, wife, husband, rural life, gothic, twentieth century"
+223,9.jpg,American Gothic,AIN29LNXRARXY,man,"right side, white, middle age, male, rural clothes, severe, stand up","farm house, wife, husband, rural life, gothic, twentieth century"
+224,9.jpg,American Gothic,AIN29LNXRARXY,window,"top center, glass/wood, narrow/tall size, front of the house, attic, ogive","farm house, wife, husband, rural life, gothic, twentieth century"
+225,9.jpg,American Gothic,AIN29LNXRARXY,woman,"left side, portrait, female, white, severe, rural clothes, stand up","farm house, wife, husband, rural life, gothic, twentieth century"
+226,9.jpg,American Gothic,A1CJ8CLM7987EQ,overalls,"dungarees, overalls, denim","people, stoic, house, wooden, pitchfork"
+227,9.jpg,American Gothic,A1CJ8CLM7987EQ,shirt,"white, blue, buttons","people, stoic, house, wooden, pitchfork"
+228,9.jpg,American Gothic,A1CJ8CLM7987EQ,jacket,"black, long sleeves, thick","people, stoic, house, wooden, pitchfork"
+229,9.jpg,American Gothic,A1CJ8CLM7987EQ,collar,"white, shirt, stiff","people, stoic, house, wooden, pitchfork"
+230,9.jpg,American Gothic,A1CJ8CLM7987EQ,window,"glass, panes, light","people, stoic, house, wooden, pitchfork"
+231,9.jpg,American Gothic,A2HC04434S9TP0,window,"rectangle, white, house","couple, land, workers, house, serious"
+232,9.jpg,American Gothic,A2HC04434S9TP0,tree,"green, branches, background, circular","couple, land, workers, house, serious"
+233,9.jpg,American Gothic,A2HC04434S9TP0,fork,"tool, steel, trident, medium size","couple, land, workers, house, serious"
+234,9.jpg,American Gothic,A2HC04434S9TP0,roof,"light brown, square, triangle, land,","couple, land, workers, house, serious"
+235,9.jpg,American Gothic,A2HC04434S9TP0,sky,"blue, foggy, clouds, air","couple, land, workers, house, serious"
+236,9.jpg,American Gothic,ZCgDVlkp5,male,"elderly man, stern, bald, angry, glasses, religious","stern couple, pitchfork, outside their home, strict, male and female."
+237,9.jpg,American Gothic,ZCgDVlkp5,lips,"male lips, stern, straight, closed, elderly","stern couple, pitchfork, outside their home, strict, male and female."
+238,9.jpg,American Gothic,ZCgDVlkp5,pinafore,"patterned, brown, smart, conservative, clean.","stern couple, pitchfork, outside their home, strict, male and female."
+239,9.jpg,American Gothic,ZCgDVlkp5,eye,"female, eyeball, blue, distant, sad.","stern couple, pitchfork, outside their home, strict, male and female."
+240,9.jpg,American Gothic,ZCgDVlkp5,collar,"white, clean, smart, outfit, collar","stern couple, pitchfork, outside their home, strict, male and female."
+241,9.jpg,American Gothic,A1X9BD3KDIA2QB,plant,"organic, vase, decoration","couple, famr, marriage"
+242,9.jpg,American Gothic,A1X9BD3KDIA2QB,trees,"green, organic, good","couple, famr, marriage"
+243,9.jpg,American Gothic,A1X9BD3KDIA2QB,button,"decoration, usefull, essencial","couple, famr, marriage"
+244,9.jpg,American Gothic,A1X9BD3KDIA2QB,roof,"house, protection","couple, famr, marriage"
+245,9.jpg,American Gothic,A1X9BD3KDIA2QB,window,"glass, decoration","couple, famr, marriage"
+246,9.jpg,American Gothic,%20COPIEDA3UMDMF589FDPZ,window,"window,closed window,mud colour","jacket,window,sky,fork,pinafore"
+247,9.jpg,American Gothic,%20COPIEDA3UMDMF589FDPZ,lips,"women ,lips,smiley,cute","jacket,window,sky,fork,pinafore"
+248,9.jpg,American Gothic,%20COPIEDA3UMDMF589FDPZ,roof,"roof,brown,lines,","jacket,window,sky,fork,pinafore"
+249,9.jpg,American Gothic,%20COPIEDA3UMDMF589FDPZ,hand,"righthand,four fingers,light brown,toe","jacket,window,sky,fork,pinafore"
+250,9.jpg,American Gothic,%20COPIEDA3UMDMF589FDPZ,roof,"roof,brown,vertical lines","jacket,window,sky,fork,pinafore"
+251,9.jpg,American Gothic,A2C8QIT0DJRCHN,woman,"woman, many work done on homes",Many experience to drawing this 
+252,9.jpg,American Gothic,A2C8QIT0DJRCHN,eyes,eyes are see all things to and help more,Many experience to drawing this 
+253,9.jpg,American Gothic,A2C8QIT0DJRCHN,nose,nose is a very important for life,Many experience to drawing this 
+254,9.jpg,American Gothic,A2C8QIT0DJRCHN,face,face is a important to human life,Many experience to drawing this 
+255,9.jpg,American Gothic,A2C8QIT0DJRCHN,forehead,"forehead the forehead is an area of the head bounded by three features, two of the skull and one of the scalp. the top of the forehead is marked by the hairline, the edge of the area where hair on the scalp grows.",Many experience to drawing this 
+256,9.jpg,American Gothic,A2OMYDY8G8PNJE,roof,"roof, tin roof, brown, left side, panels",
+257,9.jpg,American Gothic,A2OMYDY8G8PNJE,wallpaper,"wallpaper, inside, room, pattern, dark",
+258,9.jpg,American Gothic,A2OMYDY8G8PNJE,nose,"woman_s nose, face, shape, middle of face, average",
+259,9.jpg,American Gothic,A2OMYDY8G8PNJE,chin,"chin, man_s chin, old skin, wrinkled, bottom of face",
+260,9.jpg,American Gothic,A2OMYDY8G8PNJE,pillar,"pillar, post, column, white, porch post, vertical",
+261,9.jpg,American Gothic,A2OMYDY8G8PNJE,overalls,"overalls, old, worn, blue, dingy, work outfit, farmer clothes",
+262,9.jpg,American Gothic,A3168WVUAPEYY,border,"decorative, border, roof, eave","american gothic, couple, farmers, pitchfork, overalls, dress"
+263,9.jpg,American Gothic,A3168WVUAPEYY,roof,"shingles, roof, dark, wood","american gothic, couple, farmers, pitchfork, overalls, dress"
+264,9.jpg,American Gothic,A3168WVUAPEYY,barn,"red, barn, wood, behind","american gothic, couple, farmers, pitchfork, overalls, dress"
+265,9.jpg,American Gothic,A3168WVUAPEYY,side of barn,"red, side, barn","american gothic, couple, farmers, pitchfork, overalls, dress"
+266,9.jpg,American Gothic,A3168WVUAPEYY,overalls,"hem, overalls, blue","american gothic, couple, farmers, pitchfork, overalls, dress"
+267,9.jpg,American Gothic,A2M3QMJC99DERS,pot,"left side, brown, plant pot","couple, farmer, pitchfork, house, old"
+268,9.jpg,American Gothic,A2M3QMJC99DERS,plant,"left side, pointy, green, three stems","couple, farmer, pitchfork, house, old"
+269,9.jpg,American Gothic,A2M3QMJC99DERS,iris,"left iris, grey, round","couple, farmer, pitchfork, house, old"
+270,9.jpg,American Gothic,A2M3QMJC99DERS,iris,"right iris, grey, round","couple, farmer, pitchfork, house, old"
+271,9.jpg,American Gothic,A2M3QMJC99DERS,lip,"upper lip, natural color","couple, farmer, pitchfork, house, old"
+272,9.jpg,American Gothic,A2M3QMJC99DERS,lip,"bottom lip, natural color","couple, farmer, pitchfork, house, old"
+273,9.jpg,American Gothic,A2M3QMJC99DERS,hair,"strand, loose, blond, soft","couple, farmer, pitchfork, house, old"
+274,9.jpg,American Gothic,AOV97Z3YMKLAQ,sky,"blue, background, clean","farm, barn, couple, painting, famous"
+275,9.jpg,American Gothic,AOV97Z3YMKLAQ,ear,"left, face, man","farm, barn, couple, painting, famous"
+276,9.jpg,American Gothic,AOV97Z3YMKLAQ,arm,"left, upper limb, body part","farm, barn, couple, painting, famous"
+277,9.jpg,American Gothic,AOV97Z3YMKLAQ,overalls,"jeans, clothing, man","farm, barn, couple, painting, famous"
+278,9.jpg,American Gothic,AOV97Z3YMKLAQ,ear,"right, face, head","farm, barn, couple, painting, famous"
+279,11.jpg,Cafe Terrace at Night,A1Q995BGGPBDMB,chair,"middle, chair, beige","night time, cafe, romantic
+"
+280,11.jpg,Cafe Terrace at Night,A1Q995BGGPBDMB,tree,"right side, large, green","night time, cafe, romantic
+"
+281,11.jpg,Cafe Terrace at Night,A1Q995BGGPBDMB,star,"small, top right corner, yellow, white","night time, cafe, romantic
+"
+282,11.jpg,Cafe Terrace at Night,A1Q995BGGPBDMB,table,"round, middle, white","night time, cafe, romantic
+"
+283,11.jpg,Cafe Terrace at Night,A1Q995BGGPBDMB,table,"round, middle, white","night time, cafe, romantic
+"
+284,11.jpg,Cafe Terrace at Night,A1Q995BGGPBDMB,arch,"left, large, silver, arch","night time, cafe, romantic
+"
+285,11.jpg,Cafe Terrace at Night,A35Q0ZG3C7ZFP,table,"left side,small, white","table,chair,restaurant,old man,lady,tree,house,"
+286,11.jpg,Cafe Terrace at Night,A35Q0ZG3C7ZFP,chair,"dining chair,brown,near table","table,chair,restaurant,old man,lady,tree,house,"
+287,11.jpg,Cafe Terrace at Night,A35Q0ZG3C7ZFP,man,"center,yellow,near table","table,chair,restaurant,old man,lady,tree,house,"
+288,11.jpg,Cafe Terrace at Night,A35Q0ZG3C7ZFP,chair,"right,brown,near table","table,chair,restaurant,old man,lady,tree,house,"
+289,11.jpg,Cafe Terrace at Night,A35Q0ZG3C7ZFP,man,"walking,cross,right side","table,chair,restaurant,old man,lady,tree,house,"
+290,11.jpg,Cafe Terrace at Night,A35Q0ZG3C7ZFP,lady,"walk,yellow,right side","table,chair,restaurant,old man,lady,tree,house,"
+291,11.jpg,Cafe Terrace at Night,A35Q0ZG3C7ZFP,men,"standing,left side,near door","table,chair,restaurant,old man,lady,tree,house,"
+292,11.jpg,Cafe Terrace at Night,A35Q0ZG3C7ZFP,table,"white,restaurant,dining table","table,chair,restaurant,old man,lady,tree,house,"
+293,11.jpg,Cafe Terrace at Night,A35Q0ZG3C7ZFP,chair,"left sife,brown,table chair","table,chair,restaurant,old man,lady,tree,house,"
+294,11.jpg,Cafe Terrace at Night,WorkerIDAXPUKBI6UNZY,man,"male,30,whiteshirt,at work",A ONE MAN WAS AT WORKING IN DINING HALL 
+295,11.jpg,Cafe Terrace at Night,WorkerIDAXPUKBI6UNZY,door,"house,yellow,rectangle,",A ONE MAN WAS AT WORKING IN DINING HALL 
+296,11.jpg,Cafe Terrace at Night,WorkerIDAXPUKBI6UNZY,window,"door,green,rectangle,",A ONE MAN WAS AT WORKING IN DINING HALL 
+297,11.jpg,Cafe Terrace at Night,WorkerIDAXPUKBI6UNZY,women,"female,40,saree,",A ONE MAN WAS AT WORKING IN DINING HALL 
+298,11.jpg,Cafe Terrace at Night,WorkerIDAXPUKBI6UNZY,window,"black,4x4,door",A ONE MAN WAS AT WORKING IN DINING HALL 
+299,11.jpg,Cafe Terrace at Night,A3TAM79PCXOLXI,star,"sky, yellow, bright, high","Vague, dining area with tables and chairs, starry night, trees and shops"
+300,11.jpg,Cafe Terrace at Night,A3TAM79PCXOLXI,tree,"tall, right hand side, green, large","Vague, dining area with tables and chairs, starry night, trees and shops"
+301,11.jpg,Cafe Terrace at Night,A3TAM79PCXOLXI,building,"background, dark, far away, distant","Vague, dining area with tables and chairs, starry night, trees and shops"
+302,11.jpg,Cafe Terrace at Night,A3TAM79PCXOLXI,window,"distant, yellow, panes, small","Vague, dining area with tables and chairs, starry night, trees and shops"
+303,11.jpg,Cafe Terrace at Night,A3TAM79PCXOLXI,store front,"shop window, distant, dark","Vague, dining area with tables and chairs, starry night, trees and shops"
+304,11.jpg,Cafe Terrace at Night,adam.kerr27@yahoo.com,door,"right side, black bottom, yellow window, rectangle","Van Gogh, vibrant color, french, restaurant/bar, dining"
+305,11.jpg,Cafe Terrace at Night,adam.kerr27@yahoo.com,awning,"above patio seating, yellow, left side middle","Van Gogh, vibrant color, french, restaurant/bar, dining"
+306,11.jpg,Cafe Terrace at Night,adam.kerr27@yahoo.com,small building,"left side, small building in comparison, mainly green sides with darker bottom","Van Gogh, vibrant color, french, restaurant/bar, dining"
+307,11.jpg,Cafe Terrace at Night,adam.kerr27@yahoo.com,table,"left patio, white top, round in shape","Van Gogh, vibrant color, french, restaurant/bar, dining"
+308,11.jpg,Cafe Terrace at Night,adam.kerr27@yahoo.com,table,"left patio, white top, round","Van Gogh, vibrant color, french, restaurant/bar, dining"
+309,11.jpg,Cafe Terrace at Night,adam.kerr27@yahoo.com,table,"right patio, round top, white top, black legs","Van Gogh, vibrant color, french, restaurant/bar, dining"
+310,11.jpg,Cafe Terrace at Night,A2MOY7J4GG5CW8,chair,"orange, middle, normal-sized","night, old, grainy, vertical, urban, 2-d"
+311,11.jpg,Cafe Terrace at Night,A2MOY7J4GG5CW8,chair,"green, normal-size, four-legs","night, old, grainy, vertical, urban, 2-d"
+312,11.jpg,Cafe Terrace at Night,A2MOY7J4GG5CW8,chair,"green, left, four-legs","night, old, grainy, vertical, urban, 2-d"
+313,11.jpg,Cafe Terrace at Night,A2MOY7J4GG5CW8,chair,"green, dark, four-legs, center","night, old, grainy, vertical, urban, 2-d"
+314,11.jpg,Cafe Terrace at Night,A2MOY7J4GG5CW8,person,"sitting, red clothes, green clothes, hat","night, old, grainy, vertical, urban, 2-d"
+315,11.jpg,Cafe Terrace at Night,AIN29LNXRARXY,blind,"wood, open, window","night, nightlife, outdoor, cafè, stars, street"
+316,11.jpg,Cafe Terrace at Night,AIN29LNXRARXY,blind,"wood, open, window","night, nightlife, outdoor, cafè, stars, street"
+317,11.jpg,Cafe Terrace at Night,AIN29LNXRARXY,blind,"wood, open, window","night, nightlife, outdoor, cafè, stars, street"
+318,11.jpg,Cafe Terrace at Night,AIN29LNXRARXY,blind,"wood, open, window","night, nightlife, outdoor, cafè, stars, street"
+319,11.jpg,Cafe Terrace at Night,AIN29LNXRARXY,table,"outdoor, wood, cafè","night, nightlife, outdoor, cafè, stars, street"
+320,11.jpg,Cafe Terrace at Night,A2NVNFIOKLEEGY,window,yellow,"house
+tree
+street
+door
+window
+
+
+"
+321,11.jpg,Cafe Terrace at Night,A2OMYDY8G8PNJE,street,"cobblestone street, bumpy, not smooth, rough walk, ground","night, street, outside, patio, shop"
+322,11.jpg,Cafe Terrace at Night,A2OMYDY8G8PNJE,star,"stars, bright, night sky, shining, high above","night, street, outside, patio, shop"
+323,11.jpg,Cafe Terrace at Night,A2OMYDY8G8PNJE,window,"window, light, over the city, light on","night, street, outside, patio, shop"
+324,11.jpg,Cafe Terrace at Night,A2OMYDY8G8PNJE,building,"building, dark, looming, shadow, high above","night, street, outside, patio, shop"
+325,11.jpg,Cafe Terrace at Night,A2OMYDY8G8PNJE,people,"group of people, person, seated, not detailed, abstract","night, street, outside, patio, shop"
+326,11.jpg,Cafe Terrace at Night,A3O9QZA6B3CY7U,road,walk way in between two buildings and have the people,road and four peoples
+327,11.jpg,Cafe Terrace at Night,A3O9QZA6B3CY7U,character,man walk for the left side,road and four peoples
+328,11.jpg,Cafe Terrace at Night,A3O9QZA6B3CY7U,lady,follow to the man,road and four peoples
+329,11.jpg,Cafe Terrace at Night,A3O9QZA6B3CY7U,people,man walk to the right side,road and four peoples
+330,11.jpg,Cafe Terrace at Night,A13JDB1LY9ZTQY,star,"round, yellow, blue-ringed","romantic, soft, nighttime, outdoor, urban"
+331,11.jpg,Cafe Terrace at Night,A13JDB1LY9ZTQY,window pane,"yellow, shaded, glass","romantic, soft, nighttime, outdoor, urban"
+332,11.jpg,Cafe Terrace at Night,A3EQKTEL74N09A,building,"distant, building, dark, blue, home","Night, town, restaurant, patio, stars, cobblestone, cafe, gathering, tree"
+333,11.jpg,Cafe Terrace at Night,A3EQKTEL74N09A,street,"cobblestone, round, grey, bumpy, old","Night, town, restaurant, patio, stars, cobblestone, cafe, gathering, tree"
+334,11.jpg,Cafe Terrace at Night,A3EQKTEL74N09A,chair,"tan, old, off","Night, town, restaurant, patio, stars, cobblestone, cafe, gathering, tree"
+335,11.jpg,Cafe Terrace at Night,A3EQKTEL74N09A,star,"yellow, distant, faint, night","Night, town, restaurant, patio, stars, cobblestone, cafe, gathering, tree"
+336,11.jpg,Cafe Terrace at Night,A3EQKTEL74N09A,window,"yellow, lit, night","Night, town, restaurant, patio, stars, cobblestone, cafe, gathering, tree"
+337,11.jpg,Cafe Terrace at Night,A2LD0G04R6MNX7,man,man standing in the restaurant little tall,peoples eating dinner in the restaurant
+338,11.jpg,Cafe Terrace at Night,A2LD0G04R6MNX7,star,star in the top it is very nice twinking in night,peoples eating dinner in the restaurant
+339,11.jpg,Cafe Terrace at Night,A2LD0G04R6MNX7,snow blow,snow is blowing in the winter season very cold,peoples eating dinner in the restaurant
+340,17.jpg,Arnolfini Wedding,A3KB2DY7SADI3Z,human,"male, blessing, happy",man with pregnant lady with their pet dog 
+341,17.jpg,Arnolfini Wedding,A3KB2DY7SADI3Z,eye,right eye,man with pregnant lady with their pet dog 
+342,17.jpg,Arnolfini Wedding,A3KB2DY7SADI3Z,eye,left eye,man with pregnant lady with their pet dog 
+343,17.jpg,Arnolfini Wedding,A3KB2DY7SADI3Z,nose,nose of man,man with pregnant lady with their pet dog 
+344,17.jpg,Arnolfini Wedding,A3KB2DY7SADI3Z,mouth,lips,man with pregnant lady with their pet dog 
+345,17.jpg,Arnolfini Wedding,A2HC04434S9TP0,cat,"room, brown, small, smooth",
+346,17.jpg,Arnolfini Wedding,A2HC04434S9TP0,eye,"black, see, round",
+347,17.jpg,Arnolfini Wedding,A2HC04434S9TP0,right eye,"smooth, black, circle",
+348,17.jpg,Arnolfini Wedding,A2HC04434S9TP0,left eye,"vision, black, circular",
+349,17.jpg,Arnolfini Wedding,A2HC04434S9TP0,nose,"olfactory, circle, standing",
+350,17.jpg,Arnolfini Wedding,A2HC04434S9TP0,mouth,"taste, eat, tongue",
+351,17.jpg,Arnolfini Wedding,A2HD2B3HSNIQ0F,woman,woman man dog,
+352,17.jpg,Arnolfini Wedding,A1CJ8CLM7987EQ,chandelier,"ornate, lighting, gold","greeting, religious, dog, dark and light"
+353,17.jpg,Arnolfini Wedding,A1CJ8CLM7987EQ,mirror,"ornate, relfecting, gold","greeting, religious, dog, dark and light"
+354,17.jpg,Arnolfini Wedding,A1CJ8CLM7987EQ,shoes,"wooden, clogs, sandles","greeting, religious, dog, dark and light"
+355,17.jpg,Arnolfini Wedding,A1CJ8CLM7987EQ,window,"open, window, light, clear","greeting, religious, dog, dark and light"
+356,17.jpg,Arnolfini Wedding,A1CJ8CLM7987EQ,thermometer,"heat, measurement, temperature","greeting, religious, dog, dark and light"
+357,17.jpg,Arnolfini Wedding,AIN29LNXRARXY,right eye,"brown, low look, semi closed",
+358,17.jpg,Arnolfini Wedding,AIN29LNXRARXY,left eye,"brown, low look, semi closed",
+359,17.jpg,Arnolfini Wedding,AIN29LNXRARXY,clogs,"on the floor, background, wood",
+360,17.jpg,Arnolfini Wedding,parulsharmab91@gmail.com,slippers,"they are on the left bottom ,white in colour,normal sized",bedroom scene
+361,17.jpg,Arnolfini Wedding,parulsharmab91@gmail.com,wall mirror,"on the middle center,brown in color,circle in shape",bedroom scene
+362,17.jpg,Arnolfini Wedding,parulsharmab91@gmail.com,window,at top most left corner,bedroom scene
+363,17.jpg,Arnolfini Wedding,parulsharmab91@gmail.com,wall hanging,"golden in color,at the top center,big in size",bedroom scene
+364,17.jpg,Arnolfini Wedding,parulsharmab91@gmail.com,hat,"black color ,on the man_s head,normal sized",bedroom scene
+365,17.jpg,Arnolfini Wedding,A3TAM79PCXOLXI,dog,"small, brown, dog, young, long-haired","couple in bedroom with dog. Expensive room, chandelier, mirror."
+366,17.jpg,Arnolfini Wedding,A3TAM79PCXOLXI,rug,"far-right, rug, patterned, corner, hidden","couple in bedroom with dog. Expensive room, chandelier, mirror."
+367,17.jpg,Arnolfini Wedding,A3TAM79PCXOLXI,head board,"head board, bed post, brown, wooden, tall.","couple in bedroom with dog. Expensive room, chandelier, mirror."
+368,17.jpg,Arnolfini Wedding,A3TAM79PCXOLXI,pillow,"pillow, red, satin, plumped, comfort","couple in bedroom with dog. Expensive room, chandelier, mirror."
+369,17.jpg,Arnolfini Wedding,A115BHSWY8R1KU,shoes,"2 shoes, feminine, sandals","sweet, couple, family, victorian, romantic"
+370,17.jpg,Arnolfini Wedding,A115BHSWY8R1KU,table,"brown, wooden appearance, under window in bedroom","sweet, couple, family, victorian, romantic"
+371,17.jpg,Arnolfini Wedding,A115BHSWY8R1KU,dog,"small, long hair, terrier-like, in-between the couple","sweet, couple, family, victorian, romantic"
+372,17.jpg,Arnolfini Wedding,A115BHSWY8R1KU,woman,"green dress, brown hair, white head wear, appears pregnant, holding stomach","sweet, couple, family, victorian, romantic"
+373,17.jpg,Arnolfini Wedding,A115BHSWY8R1KU,man,"large black hat, black cape-like coat, holding the woman_s hand, standing closest to the window","sweet, couple, family, victorian, romantic"
+374,17.jpg,Arnolfini Wedding,A396GA8SHS2L41,hand,"upward, beige skin, back with light, shadowed front, left side","fanciful, capricious, medieval, gorgeous, realistic"
+375,17.jpg,Arnolfini Wedding,A396GA8SHS2L41,hand,"left side, female hand, beige, flexed, resting","fanciful, capricious, medieval, gorgeous, realistic"
+376,17.jpg,Arnolfini Wedding,A396GA8SHS2L41,arm,"blue, right side, extended, female arm, wrinkled texture","fanciful, capricious, medieval, gorgeous, realistic"
+377,17.jpg,Arnolfini Wedding,A396GA8SHS2L41,mouth,"pressed lips, white, small, right side, female lips","fanciful, capricious, medieval, gorgeous, realistic"
+378,17.jpg,Arnolfini Wedding,A2J2LFWPZV9ICB,hand,"pale, long, hand",
+379,17.jpg,Arnolfini Wedding,A2J2LFWPZV9ICB,mouth,"small, meek, red",
+380,17.jpg,Arnolfini Wedding,A2J2LFWPZV9ICB,writing,"graffiti, writing, script",
+381,17.jpg,Arnolfini Wedding,A2J2LFWPZV9ICB,drape,"red, heavy, sturdy",
+382,17.jpg,Arnolfini Wedding,A16HYGH5YO5EAF,hand shake,"room, black, green, handshake, man, women","pregnant women, dog, ,man, handshake, room, mirror, shoes, window, open window, door, green dress, black dress, wall hanging, hat, ZCgDVLkp6"
+383,17.jpg,Arnolfini Wedding,A16HYGH5YO5EAF,jewellery,"woman, jewelry, neck, gold","pregnant women, dog, ,man, handshake, room, mirror, shoes, window, open window, door, green dress, black dress, wall hanging, hat, ZCgDVLkp6"
+384,17.jpg,Arnolfini Wedding,A16HYGH5YO5EAF,mirror,"wall mirror, shadow,man, women, back side","pregnant women, dog, ,man, handshake, room, mirror, shoes, window, open window, door, green dress, black dress, wall hanging, hat, ZCgDVLkp6"
+385,17.jpg,Arnolfini Wedding,A16HYGH5YO5EAF,shoes,"black shoes, shoes, man","pregnant women, dog, ,man, handshake, room, mirror, shoes, window, open window, door, green dress, black dress, wall hanging, hat, ZCgDVLkp6"
+386,17.jpg,Arnolfini Wedding,A16HYGH5YO5EAF,scarf,"white scarf, women, head","pregnant women, dog, ,man, handshake, room, mirror, shoes, window, open window, door, green dress, black dress, wall hanging, hat, ZCgDVLkp6"
+387,17.jpg,Arnolfini Wedding,A2OMYDY8G8PNJE,ruffles,"ruffles, green, dress, bunched fabric, detailed, vivid","people, intimate, bedroom, detailed, realistic"
+388,17.jpg,Arnolfini Wedding,A2OMYDY8G8PNJE,canopy,"canopy, bed canopy, fabric, red, dark, gathered, top right","people, intimate, bedroom, detailed, realistic"
+389,17.jpg,Arnolfini Wedding,A2OMYDY8G8PNJE,veil,"veil, white, lacy, detailed, woman_s head wear","people, intimate, bedroom, detailed, realistic"
+390,17.jpg,Arnolfini Wedding,A2OMYDY8G8PNJE,belly,"woman_s belly, pregnant, baby bump, intimate, hand rests upon it, with child","people, intimate, bedroom, detailed, realistic"
+391,17.jpg,Arnolfini Wedding,A2OMYDY8G8PNJE,pillow,"pillow, cushion, red, dark, comfort, seated","people, intimate, bedroom, detailed, realistic"
+392,17.jpg,Arnolfini Wedding,A2OMYDY8G8PNJE,belt,"belt, gathered, holding dress, brown, support, tight","people, intimate, bedroom, detailed, realistic"
+393,17.jpg,Arnolfini Wedding,A1NZ4C0GO5HS87,canopy,"red velvet, right background, old fashioned",
+394,17.jpg,Arnolfini Wedding,A3NTSR7Z32TDOE,veil,"on top of head, white, elegant, expensive","peaceful, creepy, old, dark, gloomy"
+395,17.jpg,Arnolfini Wedding,A3NTSR7Z32TDOE,hand,"man_s hand, right hand, white, graceful, up","peaceful, creepy, old, dark, gloomy"
+396,17.jpg,Arnolfini Wedding,A3NTSR7Z32TDOE,hat,"black, on man_s head, floppy, heavy, dark","peaceful, creepy, old, dark, gloomy"
+397,17.jpg,Arnolfini Wedding,A3NTSR7Z32TDOE,sleeve,"women_s sleeve, fur, white, long, hanging, dirty","peaceful, creepy, old, dark, gloomy"
+398,17.jpg,Arnolfini Wedding,A3NTSR7Z32TDOE,shutter,"open, folded, wood, dark","peaceful, creepy, old, dark, gloomy"
+399,17.jpg,Arnolfini Wedding,A3NTSR7Z32TDOE,chandeiler,"brass, gold, gothic, hanging, heavy, shiny","peaceful, creepy, old, dark, gloomy"
+400,17.jpg,Arnolfini Wedding,A3NTSR7Z32TDOE,ceiling,"above, wood, patterned, dark","peaceful, creepy, old, dark, gloomy"
+401,17.jpg,Arnolfini Wedding,A3NTSR7Z32TDOE,window,"high, stained glass window, circular pattern, colorful","peaceful, creepy, old, dark, gloomy"
+402,17.jpg,Arnolfini Wedding,A1ZV750GWIA00,wall,"dark, grainy, matte","saturated, old, fashion, dog, bedroom"
+403,17.jpg,Arnolfini Wedding,A1GUNTMI2Y61IW,object to clean,"brown, small, center of the screen","pregnant woman, bedroom, tranquility, peace, blessing"
+404,17.jpg,Arnolfini Wedding,A1GUNTMI2Y61IW,fruit,"red, very small, sphere","pregnant woman, bedroom, tranquility, peace, blessing"
+405,17.jpg,Arnolfini Wedding,A1GUNTMI2Y61IW,window protection bar,"brown, small, left","pregnant woman, bedroom, tranquility, peace, blessing"
+406,17.jpg,Arnolfini Wedding,A1GUNTMI2Y61IW,fabric,"fabric, burgundy, straight","pregnant woman, bedroom, tranquility, peace, blessing"
+407,17.jpg,Arnolfini Wedding,AOV97Z3YMKLAQ,arm,"body part, left, woman","pregnante, women, couple, painting, art, middle ages, classic, oil paint"
+408,17.jpg,Arnolfini Wedding,AOV97Z3YMKLAQ,floor,"wood, brown, middle ages","pregnante, women, couple, painting, art, middle ages, classic, oil paint"
+409,17.jpg,Arnolfini Wedding,AOV97Z3YMKLAQ,curtain,"fabric, red, left","pregnante, women, couple, painting, art, middle ages, classic, oil paint"
+410,17.jpg,Arnolfini Wedding,AOV97Z3YMKLAQ,nose,"face, body part, woman","pregnante, women, couple, painting, art, middle ages, classic, oil paint"
+411,17.jpg,Arnolfini Wedding,AOV97Z3YMKLAQ,forehead,"head, face, woman","pregnante, women, couple, painting, art, middle ages, classic, oil paint"
+412,17.jpg,Arnolfini Wedding,AOV97Z3YMKLAQ,clothing,"fabric, blue, dress","pregnante, women, couple, painting, art, middle ages, classic, oil paint"
+413,17.jpg,Arnolfini Wedding,AOV97Z3YMKLAQ,cover,"clothing, brown, fabric","pregnante, women, couple, painting, art, middle ages, classic, oil paint"
+414,17.jpg,Arnolfini Wedding,AOV97Z3YMKLAQ,breast,"mother, breastfeeding, pregnant","pregnante, women, couple, painting, art, middle ages, classic, oil paint"
+415,17.jpg,Arnolfini Wedding,AOV97Z3YMKLAQ,neck,"man, body part, skin","pregnante, women, couple, painting, art, middle ages, classic, oil paint"
+416,18.jpg,Les Demoiselles d'Avignon,AFRSASN33QBC3,pic,texture,"actual, simulated, abstract, and invented texture."
+417,18.jpg,Les Demoiselles d'Avignon,AFRSASN33QBC3,1,facial,"actual, simulated, abstract, and invented texture."
+418,18.jpg,Les Demoiselles d'Avignon,AFRSASN33QBC3,2,age,"actual, simulated, abstract, and invented texture."
+419,18.jpg,Les Demoiselles d'Avignon,AFRSASN33QBC3,4,shape,"actual, simulated, abstract, and invented texture."
+420,18.jpg,Les Demoiselles d'Avignon,AFRSASN33QBC3,5,color,"actual, simulated, abstract, and invented texture."
+421,18.jpg,Les Demoiselles d'Avignon,A685WMI1QRZHE,person,eye,"ROCK
+"
+422,18.jpg,Les Demoiselles d'Avignon,A685WMI1QRZHE,person,nose,"ROCK
+"
+423,18.jpg,Les Demoiselles d'Avignon,A685WMI1QRZHE,person,eye,"ROCK
+"
+424,18.jpg,Les Demoiselles d'Avignon,A685WMI1QRZHE,person,eye,"ROCK
+"
+425,18.jpg,Les Demoiselles d'Avignon,A685WMI1QRZHE,person,body,"ROCK
+"
+426,18.jpg,Les Demoiselles d'Avignon,A685WMI1QRZHE,person,body,"ROCK
+"
+427,18.jpg,Les Demoiselles d'Avignon,A685WMI1QRZHE,person,body,"ROCK
+"
+428,18.jpg,Les Demoiselles d'Avignon,A685WMI1QRZHE,person,face(nose),"ROCK
+"
+429,18.jpg,Les Demoiselles d'Avignon,A685WMI1QRZHE,person,finger,"ROCK
+"
+430,18.jpg,Les Demoiselles d'Avignon,A2HC04434S9TP0,grapes,"grey, fruit, circles","Women, surprise, dancing, posing , unhappy"
+431,18.jpg,Les Demoiselles d'Avignon,A2HC04434S9TP0,hair,"dark, black, smooth","Women, surprise, dancing, posing , unhappy"
+432,18.jpg,Les Demoiselles d'Avignon,A2HC04434S9TP0,left eye,"see, vision, circular, round","Women, surprise, dancing, posing , unhappy"
+433,18.jpg,Les Demoiselles d'Avignon,AD4JF27PRR61,human,"female,naked,pale, long hair, brunnette","cavemen, naked, humans, posing, drawing"
+434,18.jpg,Les Demoiselles d'Avignon,AD4JF27PRR61,arm,"arm, long, straight, strong fingers, hand","cavemen, naked, humans, posing, drawing"
+435,18.jpg,Les Demoiselles d'Avignon,AD4JF27PRR61,eye,"right eye, dark,","cavemen, naked, humans, posing, drawing"
+436,18.jpg,Les Demoiselles d'Avignon,AD4JF27PRR61,nose,"long, sharp, pointy, human, nose , skin","cavemen, naked, humans, posing, drawing"
+437,18.jpg,Les Demoiselles d'Avignon,AD4JF27PRR61,ear,"human ear, skin, large, pale pink","cavemen, naked, humans, posing, drawing"
+438,18.jpg,Les Demoiselles d'Avignon,A3TAM79PCXOLXI,woman,"woman with dark hair, naked, dark-haired","abstract, females, naked, body distortion, weird, mash-up"
+439,18.jpg,Les Demoiselles d'Avignon,A3TAM79PCXOLXI,eye,"large, clear, side-view, dark","abstract, females, naked, body distortion, weird, mash-up"
+440,18.jpg,Les Demoiselles d'Avignon,A3TAM79PCXOLXI,leg,"pink, bent, large","abstract, females, naked, body distortion, weird, mash-up"
+441,18.jpg,Les Demoiselles d'Avignon,A3TAM79PCXOLXI,eye,"clear, visible, distorted, enlarged","abstract, females, naked, body distortion, weird, mash-up"
+442,18.jpg,Les Demoiselles d'Avignon,A3TAM79PCXOLXI,female,"female figure, dark, pink, distorted","abstract, females, naked, body distortion, weird, mash-up"
+443,18.jpg,Les Demoiselles d'Avignon,A2MOY7J4GG5CW8,eye,"big, black,","light colors, sharp edges, figures, modern, vertical"
+444,18.jpg,Les Demoiselles d'Avignon,A2MOY7J4GG5CW8,eye,"big, black, right eye","light colors, sharp edges, figures, modern, vertical"
+445,18.jpg,Les Demoiselles d'Avignon,A2MOY7J4GG5CW8,mouth,"small, black, closed","light colors, sharp edges, figures, modern, vertical"
+446,18.jpg,Les Demoiselles d'Avignon,A2MOY7J4GG5CW8,mouth,"small, black, closed","light colors, sharp edges, figures, modern, vertical"
+447,18.jpg,Les Demoiselles d'Avignon,A2MOY7J4GG5CW8,mouth,"small, slightly oppened, black contour","light colors, sharp edges, figures, modern, vertical"
+448,18.jpg,Les Demoiselles d'Avignon,A2MOY7J4GG5CW8,face,"eyes wide open, oval, light pink","light colors, sharp edges, figures, modern, vertical"
+449,18.jpg,Les Demoiselles d'Avignon,AIN29LNXRARXY,nose,"left center side, stylized, long, narrow","women, naked, full-length portrait, stylized, grapes"
+450,18.jpg,Les Demoiselles d'Avignon,AIN29LNXRARXY,nose,"stylized, profile, top left side","women, naked, full-length portrait, stylized, grapes"
+451,18.jpg,Les Demoiselles d'Avignon,A3KO36PYNA5IHQ,mouth,"shook, in awe, screaming, wide-mouthed, embarrased","Weird, historic, drunk artist, weird shapes, 2d"
+452,18.jpg,Les Demoiselles d'Avignon,A3KO36PYNA5IHQ,cloth,"decency, white cloth, protection, safety, feel comfortable,","Weird, historic, drunk artist, weird shapes, 2d"
+453,18.jpg,Les Demoiselles d'Avignon,A3KO36PYNA5IHQ,nose,"flat nosed, art missed her nose, unique art, 2-d drawing","Weird, historic, drunk artist, weird shapes, 2d"
+454,18.jpg,Les Demoiselles d'Avignon,A3KO36PYNA5IHQ,chest,"muscular, fit, well-toned, active, dominant strength.","Weird, historic, drunk artist, weird shapes, 2d"
+455,18.jpg,Les Demoiselles d'Avignon,A3KO36PYNA5IHQ,hair,"brown, tame hair, beautiful, taken-care of hair, straight hair","Weird, historic, drunk artist, weird shapes, 2d"
+456,18.jpg,Les Demoiselles d'Avignon,A3KO36PYNA5IHQ,rear/back,"indecent,naked, shameless, commando, liberated.","Weird, historic, drunk artist, weird shapes, 2d"
+457,18.jpg,Les Demoiselles d'Avignon,A396GA8SHS2L41,breast,"right side, contrasted, small shadow, small lit, conspicuous, nude","scandalous, nudist, disproportional, bizarre, impressive "
+458,18.jpg,Les Demoiselles d'Avignon,A396GA8SHS2L41,arm,"beige, right side, upward elbow, clenched fist, obtuse lines, female arm","scandalous, nudist, disproportional, bizarre, impressive "
+459,18.jpg,Les Demoiselles d'Avignon,A396GA8SHS2L41,arm,"elbow upward, visible armpit, dark beige, female arm, up side, natural looking","scandalous, nudist, disproportional, bizarre, impressive "
+460,18.jpg,Les Demoiselles d'Avignon,A396GA8SHS2L41,groin,"beige, center side, naked, female, smooth texture","scandalous, nudist, disproportional, bizarre, impressive "
+461,18.jpg,Les Demoiselles d'Avignon,A396GA8SHS2L41,shoulder/arm,"beige, large, female, disproportionate, naked","scandalous, nudist, disproportional, bizarre, impressive "
+462,18.jpg,Les Demoiselles d'Avignon,A34CLFMP19G4NU,background,"flat, black, cubistic, surreal","five women, naked, pale, flat faces, masks, prostitutes"
+463,18.jpg,Les Demoiselles d'Avignon,A34CLFMP19G4NU,background,"brown, pale, creamy","five women, naked, pale, flat faces, masks, prostitutes"
+464,18.jpg,Les Demoiselles d'Avignon,A34CLFMP19G4NU,fruit,"pale, messy texture, round, small","five women, naked, pale, flat faces, masks, prostitutes"
+465,18.jpg,Les Demoiselles d'Avignon,A34CLFMP19G4NU,cloth,"pale, white, creased, soft","five women, naked, pale, flat faces, masks, prostitutes"
+466,18.jpg,Les Demoiselles d'Avignon,A34CLFMP19G4NU,mask,"dark, round, oblong, african","five women, naked, pale, flat faces, masks, prostitutes"
+467,18.jpg,Les Demoiselles d'Avignon,A1J6BOZEB8EADQ,breasts,"peach, smooth, woman","scared, confused, imaginative, creative, inspired"
+468,18.jpg,Les Demoiselles d'Avignon,A1J6BOZEB8EADQ,stomach,"peach, woman, smooth, thin","scared, confused, imaginative, creative, inspired"
+469,18.jpg,Les Demoiselles d'Avignon,A1J6BOZEB8EADQ,rock,"red, dark, shadowed, top left","scared, confused, imaginative, creative, inspired"
+470,18.jpg,Les Demoiselles d'Avignon,A1J6BOZEB8EADQ,breasts,"woman, peach, cream","scared, confused, imaginative, creative, inspired"
+471,18.jpg,Les Demoiselles d'Avignon,A1J6BOZEB8EADQ,shadow,"top right, dark, grey","scared, confused, imaginative, creative, inspired"
+472,18.jpg,Les Demoiselles d'Avignon,AZ6MBTZWPZK08,wall,grey solid wall,
+473,18.jpg,Les Demoiselles d'Avignon,AZ6MBTZWPZK08,wal,smooth grey hard,

@@ -115,7 +115,7 @@ function get_objects_list(annotations){
     var counts = {};
 
     for(var i=annotations.length-1;i>=0;i--){
-        if(annotations[i].category != "배경")
+        if(annotations[i].category != "배경" && annotations[i].category != "background")
             objects_list.push(annotations[i].category);
     }
     objects_list = Array.from(objects_list);
@@ -153,17 +153,24 @@ function draw_polygon(seg_mode){
 
     //polygon opacity, fill color(random)
   svg.selectAll("polygon")
-  .style("fill-opacity", .000001)
-  //.style("stroke", "black")
-  //.style("stroke-width", 5)
+  //.style("fill-opacity", .000001)
+  .style("fill-opacity", .5)
+  .style("fill",function() {
+    return "hsl(" + Math.random() * 360 + ",100%,50%)";
+  })
 
   .attr("category", function(d){
     return d.category+String(d.duplicates_num);})
     .append("svg:title")
     .text(function(d) {
 
-        if(d.category == "배경")
-            return d.category + ".." + "그림의 배경입니다";
+        if(d.category == "배경"){
+            if(d.objects_color == undefined && d.object_position == undefined)
+                return d.category + ".." + "그림의 배경입니다";
+            else
+                return d.category + ".." + d.object_description +" . 색깔은 "+ d.object_color +"이며, 그림의  "+ d.object_position +"에 위치해 있습니다.";
+            }
+
         else{
             if(d.duplicates_num != 1)
                 return d.category + String(d.duplicates_num) + ".." + d.object_description +" . 색깔은 "+ d.object_color +"이며, 그림의  "+ d.object_position +"에 위치해 있습니다.";
@@ -178,7 +185,7 @@ function draw_polygon_by_button(seg_mode, cat){
     var selected_list = [];
 
     for(var i=0;i<img_file.annotations.length;i++){
-        if(img_file.annotations[i].category == cat || img_file.annotations[i].category == "배경"){
+        if(img_file.annotations[i].category == cat && img_file.annotations[i].category != "background"){
             selected_list.push(img_file.annotations[i]);
         }
     }
@@ -206,21 +213,31 @@ function draw_polygon_by_button(seg_mode, cat){
 
     //polygon opacity, fill color(random)
   svg.selectAll("polygon")
-  .style("fill-opacity", .000001)
+  //.style("fill-opacity", .000001)
+  .style("fill-opacity", .5)
+  //.style("stroke", "black")
+  //.style("stroke-width", 5)
+  .style("fill",function() {
+    return "hsl(" + Math.random() * 360 + ",100%,50%)";
+  })
   .attr("category", function(d){
     return d.category+String(d.duplicates_num);})
     .append("svg:title")
     .text(function(d) {
 
-        if(d.category == "배경")
-            return d.category + ".." + "그림의 배경입니다";
+        if(d.category == "배경"){
+            if(d.objects_color == undefined && d.object_position == undefined)
+                return d.category + ".." + "그림의 배경입니다";
+            else
+                return d.category + ".." + d.object_description +" . 색깔은 "+ d.object_color +"이며, 그림의  "+ d.object_position +"에 위치해 있습니다.";
+            }
+
         else{
             if(d.duplicates_num != 1)
                 return d.category + String(d.duplicates_num) + ".." + d.object_description +" . 색깔은 "+ d.object_color +"이며, 그림의  "+ d.object_position +"에 위치해 있습니다.";
             else
                 return d.category + ".." + d.object_description +" . 색깔은 "+ d.object_color +"이며, 그림의  "+ d.object_position +"에 위치해 있습니다.";
             }
-
             });
 }
 
@@ -314,7 +331,7 @@ var rect = d3.select('body').append("rect")
     .style("stroke-width", "1.5px");
 
   var image = svg.append('image')
-    .attr('xlink:href', "https://raw.githubusercontent.com/KwonNH/hearing-masterpiece-mobile/mobile_opt/public/sample_image/"+img_file_name)
+    .attr('xlink:href', "https://raw.githubusercontent.com/KwonNH/hearing-masterpiece-mobile/master/public/sample_image/"+img_file_name)
     .attr("x", 1)
     .attr("y", 1)
     .attr('width', img_file.width)
