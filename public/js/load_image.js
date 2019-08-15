@@ -5,16 +5,17 @@ console.log(img_id);
 
 var mode = url.searchParams.get("mode");
 
-if(mode == "m")
-    var data_location = "../image_data_preprocess/art_processed/";
-else if(mode == "p")
-    var data_location = "../image_data_preprocess/art_prof_processed/";
-
+if(mode == "m"){
+    var data_location = "art_processed/";
+    }
+else if(mode == "p"){
+    var data_location = "art_prof_processed/";
+}
 var image_data = null;
 $.ajax({
     'async': false,
     'global': false,
-    'url': data_location+img_id+".json",
+    'url': "./img_data/"+data_location+String(img_id)+".json",
     'dataType': "json",
     'success': function (data) {
         image_data = data;

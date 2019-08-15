@@ -166,17 +166,18 @@ function draw_polygon(seg_mode){
     return d.name;})
     .append("svg:title")
     .text(function(d) {
-        return d.name + "..." + d.attributes;
+        return d.name + ".." + d.attributes;
      });
 }
 
 var margin = {top: 0, right: 20, bottom: 0, left: 50},
     width = 800,
-    height = 700;
+    height = 900;
 
 var svg = d3.select(".image").append("svg")
-  .attr("width", width)
-  .attr("height", height)
+  .attr("id", "svg")
+  .attr("width", img_width)
+  .attr("height", img_height)
   .attr("viewBox", "0 0 "+String(img_width)+" "+String(img_height))
   .attr("preserveAspectRatio", "xMinYMin meet")
   .append("g");
