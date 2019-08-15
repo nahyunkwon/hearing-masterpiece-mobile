@@ -26,7 +26,7 @@ def xml_to_json(img_id):
 
 
 def art_data_preprocess(img_id):
-    image_data = json.load(open("./art_json/" + str(img_id) + ".json", 'r', encoding='utf-8'))
+    image_data = json.load(open("./art_prof_json/" + str(img_id) + ".json", 'r', encoding='utf-8'))
 
     img = image_data['annotation']
 
@@ -87,11 +87,26 @@ def art_data_preprocess(img_id):
 
     img['object'] = sorted_ann
 
-    with open('./art_processed/' + str(img_id) + '.json', 'w') as fp:
+    with open('./art_prof_processed/' + str(img_id) + '.json', 'w') as fp:
         json.dump(image_data, fp, sort_keys=False, indent=1, separators=(',', ': '), ensure_ascii=False)
 
 
 def main():
+    for i in ['1','2','4','5','9','11','17','18']:
+
+        with open("./art_prof/"+i+".xml", 'r', encoding='utf8') as f:
+            xmlString = f.read()
+
+        print("xml input (xml_to_json.xml):")
+        print(xmlString)
+
+        jsonString = json.dumps(xmltodict.parse(xmlString), indent=4, ensure_ascii=False)
+
+        print("\nJSON output(output.json):")
+        print(jsonString)
+
+        with open("./art_prof_json/"+i+".json", 'w', encoding='utf8') as f:
+            f.write(jsonString)
 
     img_id = [1, 2, 4, 5, 9, 11, 17, 18]
 

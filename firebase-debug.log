@@ -1,0 +1,111 @@
+[debug] [2019-08-15T04:33:09.296Z] ----------------------------------------------------------------------
+[debug] [2019-08-15T04:33:09.298Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2019-08-15T04:33:09.298Z] CLI Version:   7.2.2
+[debug] [2019-08-15T04:33:09.298Z] Platform:      darwin
+[debug] [2019-08-15T04:33:09.298Z] Node Version:  v10.15.3
+[debug] [2019-08-15T04:33:09.298Z] Time:          Thu Aug 15 2019 13:33:09 GMT+0900 (Korean Standard Time)
+[debug] [2019-08-15T04:33:09.298Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-15T04:33:09.309Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-15T04:33:09.310Z] > authorizing via signed-in user
+[debug] [2019-08-15T04:33:09.310Z] [iam] checking project m-hearing-masterpiece for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update","firebaserules.releases.create","firebaserules.releases.update","firebaserules.rulesets.create"]
+[debug] [2019-08-15T04:33:09.312Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/m-hearing-masterpiece:testIamPermissions  
+
+[debug] [2019-08-15T04:33:10.280Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-15T04:33:10.282Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/m-hearing-masterpiece  
+ 
+[debug] [2019-08-15T04:33:11.224Z] <<< HTTP RESPONSE 200
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions.
+ Please upgrade using npm install --save firebase-functions@latest in your functions directory.
+[info] 
+[info] === Deploying to 'm-hearing-masterpiece'...
+[info] 
+[info] i  deploying database, storage, functions, hosting
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint
+[info] ✔  functions: Finished running predeploy script.
+[info] i  database: checking rules syntax...
+[debug] [2019-08-15T04:33:14.326Z] >>> HTTP REQUEST PUT https://m-hearing-masterpiece.firebaseio.com/.settings/rules.json?dryRun=true  
+ {
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+}
+[debug] [2019-08-15T04:33:15.422Z] <<< HTTP RESPONSE 200
+[info] ✔  database: rules syntax for database m-hearing-masterpiece is valid
+[debug] [2019-08-15T04:33:15.424Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/m-hearing-masterpiece  
+ 
+[debug] [2019-08-15T04:33:16.809Z] <<< HTTP RESPONSE 200
+[info] i  storage: checking storage.rules for compilation errors...
+[debug] [2019-08-15T04:33:16.817Z] >>> HTTP REQUEST POST https://firebaserules.googleapis.com/v1/projects/m-hearing-masterpiece:test  
+
+[debug] [2019-08-15T04:33:17.237Z] <<< HTTP RESPONSE 200
+[info] ✔  storage: rules file storage.rules compiled successfully
+[debug] [2019-08-15T04:33:17.239Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "firebase-admin": "~7.0.0",
+    "firebase-functions": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-plugin-promise": "^4.0.1"
+  },
+  "private": true,
+  "engines": {
+    "node": "8"
+  }
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[debug] [2019-08-15T04:33:17.240Z] >>> HTTP REQUEST GET https://serviceusage.googleapis.com/v1/projects/m-hearing-masterpiece/services/cloudfunctions.googleapis.com  
+ 
+[debug] [2019-08-15T04:33:17.240Z] >>> HTTP REQUEST GET https://serviceusage.googleapis.com/v1/projects/m-hearing-masterpiece/services/runtimeconfig.googleapis.com  
+ 
+[debug] [2019-08-15T04:33:18.808Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-15T04:33:18.859Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: all necessary APIs are enabled
+[debug] [2019-08-15T04:33:18.861Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/m-hearing-masterpiece/adminSdkConfig  
+ 
+[debug] [2019-08-15T04:33:19.721Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-15T04:33:19.722Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/m-hearing-masterpiece/versions  
+
+[debug] [2019-08-15T04:33:21.261Z] <<< HTTP RESPONSE 200
+[info] i  storage: uploading rules storage.rules...
+[debug] [2019-08-15T04:33:21.263Z] >>> HTTP REQUEST POST https://firebaserules.googleapis.com/v1/projects/m-hearing-masterpiece/rulesets  
+
+[debug] [2019-08-15T04:33:22.654Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-15T04:33:22.654Z] [rules] created ruleset projects/m-hearing-masterpiece/rulesets/c3922835-463e-40b7-874b-e6e6346aa44e
+[info] i  functions: preparing functions directory for uploading...
+[debug] [2019-08-15T04:33:22.657Z] >>> HTTP REQUEST GET https://runtimeconfig.googleapis.com/v1beta1/projects/m-hearing-masterpiece/configs  
+ 
+[debug] [2019-08-15T04:33:23.412Z] <<< HTTP RESPONSE 200
+[info] i  hosting[m-hearing-masterpiece]: beginning deploy...
+[info] i  hosting[m-hearing-masterpiece]: found 42 files in public
+[debug] [2019-08-15T04:33:23.585Z] [hosting] hash cache [cHVibGlj] load error: lines is not defined
+[debug] [2019-08-15T04:33:25.801Z] [hosting] hash cache [cHVibGlj] stored for 42 files
+[debug] [2019-08-15T04:33:25.802Z] [hosting][hash queue][FINAL]
+[debug] [2019-08-15T04:33:25.802Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/m-hearing-masterpiece/versions/376f053f8c14161b:populateFiles  
+ <request body omitted>
+[debug] [2019-08-15T04:33:29.243Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-15T04:33:29.248Z] [hosting][populate queue][FINAL]
+[debug] [2019-08-15T04:33:29.248Z] [hosting] uploads queued: 3
+[debug] [2019-08-15T04:33:33.208Z] [hosting][upload queue][FINAL]
+[info] ✔  hosting[m-hearing-masterpiece]: file upload complete
+[debug] [2019-08-15T04:33:33.208Z] [hosting] deploy completed after 9642ms
+[info] i  database: releasing rules...
+[debug] [2019-08-15T04:33:33.429Z] >>> HTTP REQUEST PUT https://m-hearing-masterpiece.firebaseio.com/.settings/rules.json  
+ {
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+}

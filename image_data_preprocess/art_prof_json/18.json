@@ -1,0 +1,156 @@
+{
+    "annotation": {
+        "filename": "18.jpg",
+        "folder": "test",
+        "source": {
+            "sourceImage": "The MIT-CSAIL database of objects and scenes",
+            "sourceAnnotation": "LabelMe Webtool"
+        },
+        "object": [
+            {
+                "name": "두 인물",
+                "deleted": "0",
+                "verified": "0",
+                "occluded": null,
+                "attributes": "이 두 인물의 형상의 단순화는 피카소가 1906년 루브르에서 열린 한 전시회에서 보았던 고대 이베리아 조각상에서 받은 영감에 기인한다. 이 여인들의 도발적인 포즈와 표정들은, 검게 질해진 눈매, 각진 코, 그리고 일자 입술, 거친 표현방식으로 한층 더 강조된다.",
+                "parts": {
+                    "hasparts": null,
+                    "ispartof": null
+                },
+                "date": "26-Jul-2019 12:11:47",
+                "id": "0",
+                "type": "bounding_box",
+                "polygon": {
+                    "username": "WorkerID",
+                    "pt": [
+                        {
+                            "x": "513",
+                            "y": "17"
+                        },
+                        {
+                            "x": "204",
+                            "y": "17"
+                        },
+                        {
+                            "x": "204",
+                            "y": "372"
+                        },
+                        {
+                            "x": "513",
+                            "y": "372"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "오른쪽 두 인물",
+                "deleted": "0",
+                "verified": "0",
+                "occluded": null,
+                "attributes": "오른쪽에 있는 두 인물은 피카소가 아프리카 미술에서 발견한 흥미를 반영한 것으로 파악된다. 이 영향은 힘찬 줄무늬의 가면같이 생긴 얼굴들에서 대부분 분명하게 드러난다. 아방가르드 작가들은 파리의 트로카데로 민속박물관에서 대중적으로 전시되었던 소수 민족들의 조각들을 수집하기 시작했다.",
+                "parts": {
+                    "hasparts": null,
+                    "ispartof": null
+                },
+                "date": "26-Jul-2019 12:14:20",
+                "id": "1",
+                "type": "bounding_box",
+                "polygon": {
+                    "username": "WorkerID",
+                    "pt": [
+                        {
+                            "x": "726",
+                            "y": "463"
+                        },
+                        {
+                            "x": "522",
+                            "y": "463"
+                        },
+                        {
+                            "x": "522",
+                            "y": "21"
+                        },
+                        {
+                            "x": "726",
+                            "y": "21"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "여인들의 형상과 배경",
+                "deleted": "0",
+                "verified": "0",
+                "occluded": null,
+                "attributes": "여인들의 형상과 배경은 날카롭고 들쭉날쭉한 모양들로 조각나 있는데, 이것은 그림에 불안정한 효과를 더해준다. 이 조직적인 분열과 형상의 해체는 이후 입체주의 스타일의 전형이 되었다.",
+                "parts": {
+                    "hasparts": null,
+                    "ispartof": null
+                },
+                "date": "26-Jul-2019 12:15:48",
+                "id": "2",
+                "type": "bounding_box",
+                "polygon": {
+                    "username": "WorkerID",
+                    "pt": [
+                        {
+                            "x": "681",
+                            "y": "248"
+                        },
+                        {
+                            "x": "380",
+                            "y": "248"
+                        },
+                        {
+                            "x": "380",
+                            "y": "101"
+                        },
+                        {
+                            "x": "681",
+                            "y": "101"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "왼쪽 여자의 손",
+                "deleted": "0",
+                "verified": "0",
+                "occluded": null,
+                "attributes": "왼쪽에 있는 여자는 붉은색 커튼을 열어젖히고, 그 오른쪽에서 서 있는 인물은 파란커튼을 부 부분으로 나누고 있다. 분열된 형상과 평면적인 공간으로 인해 이 배경은 해독하기가 어렵다.",
+                "parts": {
+                    "hasparts": null,
+                    "ispartof": null
+                },
+                "date": "26-Jul-2019 12:17:07",
+                "id": "3",
+                "type": "bounding_box",
+                "polygon": {
+                    "username": "WorkerID",
+                    "pt": [
+                        {
+                            "x": "95",
+                            "y": "17"
+                        },
+                        {
+                            "x": "198",
+                            "y": "17"
+                        },
+                        {
+                            "x": "198",
+                            "y": "125"
+                        },
+                        {
+                            "x": "95",
+                            "y": "125"
+                        }
+                    ]
+                }
+            }
+        ],
+        "imagesize": {
+            "nrows": null,
+            "ncols": null
+        }
+    }
+}
