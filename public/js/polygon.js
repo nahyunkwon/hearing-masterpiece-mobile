@@ -231,10 +231,19 @@ function zoomed() {
     y.call(d3.event.transform.rescaleY(y));
 }
 
+ if(img_id == "9"){
+    var portion = 1.163;
+    var y_start = -410;
+  }
+  else{
+    var portion = 1;
+    var y_start = 1;
+  }
+
   var image = svg.append('image')
     .attr('xlink:href', "https://raw.githubusercontent.com/KwonNH/hearing-masterpiece-mobile/master/public/sample_image/"+img_file_name)
     .attr("x", 1)
-    .attr("y", 1)
+    .attr("y", y_start)
     .attr('width', img_width)
     .attr('height', img_height)
     ;
@@ -242,8 +251,8 @@ function zoomed() {
   var x = d3.scaleLinear().range([0, img_width]);
   var y = d3.scaleLinear().range([0, img_height]);
 
-  x.domain([0, img_width]);
-  y.domain([0, img_height]);
+  x.domain([0, img_width*portion]);
+  y.domain([0, img_height*portion]);
 
   draw_polygon(mode);
 
