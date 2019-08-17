@@ -25,89 +25,124 @@ def xml_to_json(img_id):
         f.write(json_string)
 
 
-def main():
+def art_data_preprocess(img_id, src, dest):
+    image_data = json.load(open(src + str(img_id) + ".json", 'r', encoding='utf-8'))
 
-    img_id = 1
-    xml_to_json(img_id)
+    img = image_data['annotation']
 
-    image_data = json.load(open("./image_data/"+str(img_id)+".json", 'r', encoding='utf-8'))
+    ann = img['object']
 
-    images = image_data['annotation']
-    for img in images:
-        ann = img['object']
+    i = 0
+    deleted = []
+    '''
+    for obj in ann:
+        # print(ann[i]['deleted']=="1")
+        if ann[i]['deleted'] == '1':
+            deleted.append(i)
 
-        background = \
-            {"name": "배경", "polygon": {{"pt": [{"x": 0, "y": 0}, {"x": img['width'], "y": 0},
-                              {"x": img['width'], "y": img['height']}, {"x": 0, "y": img['height']}],
-             # "category": "배경"
-             "category": "background"
-             }}}
+        i = i + 1
 
-        ann.append(background)
+    for i in deleted:
+        try:
+            ann.pop(i)
+        except IndexError:
+            print(obj, 'indexerror')
 
-        for obj in ann:
-            obj_list = obj['segmentation']
+    # print(ann)
+'''
+    for obj in ann:
+        # print(obj['polygon']['pt'])
+        points = obj['polygon']['pt']
 
-            x_points = []
-            y_points = []
+        try:
+            attr_list = obj['attributes'].split(',')
 
-            # calculate area
-            for i in obj_list:
-                i[0] = float(i[0])
-                i[1] = float(i[1])
+            result_attr = ""
 
-                x_points.append(i[0])
-                y_points.append(i[1])
+            for i in range(len(attr_list)):
+                if attr_list[i] != obj['name']:
+                    if i == len(attr_list) - 1:
+                        result_attr = result_attr + attr_list[i]
+                    else:
+                        result_attr = result_attr + attr_list[i] + ","
 
-            obj_tuple = [tuple(l) for l in obj_list]
+            obj['attributes'] = result_attr
+        except AttributeError:
+            pass
 
-            polygon = Polygon(tuple(obj_tuple))
+        points_list = []
 
-            obj['area'] = polygon.area
+        # print(type(points))
 
-            # calculate bbox
-            bbox_point = [[min(x_points), min(y_points)], [max(x_points), min(y_points)], [max(x_points), max(y_points)]
-                          , [min(x_points), max(y_points)]]
-            bbox = np.array(bbox_point).reshape((4, 2)).tolist()
+        for i in range(len(points)):
+            point = []
 
-            obj['bbox'] = bbox
+            try:
+                point.append(float(points[i]['x']))
+                point.append(float(points[i]['y']))
+                points_list.append(point)
+            except KeyError:
+                # print('keyerror', obj, len(points)) #len(points)==2
+                obj['area'] = 0
+                pass
 
-        sorted_by_point = sorted(ann, key=lambda k: [k['bbox'][0][1], k['bbox'][0][0]])
+        if len(points_list) != 0:
+            pts_tuple = [tuple(l) for l in points_list]
 
-        # calculate duplicates
-        objects = []
+            try:
+                polygon = Polygon(tuple(pts_tuple))
+                obj['area'] = polygon.area
+            except ValueError:
+                obj['area'] = 0
 
-        object_counted = []
+    sorted_ann = sorted(ann, key=lambda k: k['area'], reverse=True)
 
-        for i in sorted_by_point:
-            objects.append(i['category'])
-            object_count = objects.count(i['category'])
+    img['object'] = sorted_ann
 
-            object_counted.append(object_count)
-
-        count = 0
-
-        for i in sorted_by_point:
-            i['duplicates_num'] = object_counted[count]
-            count = count + 1
-
-        # getting category list
-        cat_list = []
-
-        for i in sorted_by_point:
-            if i['duplicates_num'] != 1:
-                cat_list.append(i['category']+str(i['duplicates_num']))
-            else:
-                cat_list.append(i['category'])
-
-        sorted_ann = sorted(sorted_by_point, key=lambda k: k['area'], reverse=True)
-
-        img['sorted_by_point'] = cat_list
-
-        img['annotations'] = sorted_ann
-
-    with open('result_eng.json', 'w') as fp:
+    with open(dest + str(img_id) + '.json', 'w') as fp:
         json.dump(image_data, fp, sort_keys=False, indent=1, separators=(',', ': '), ensure_ascii=False)
+
+def whole_preprocess(src, dest):
+    for i in ['1','2','4','5','9','11','17','18']:
+
+        with open(src+i+".xml", 'r', encoding='utf8') as f:
+            xmlString = f.read()
+
+        print("xml input (xml_to_json.xml):")
+        print(xmlString)
+
+        jsonString = json.dumps(xmltodict.parse(xmlString), indent=4, ensure_ascii=False)
+
+        print("\nJSON output(output.json):")
+        print(jsonString)
+
+        with open(src+i+".json", 'w', encoding='utf8') as f:
+            f.write(jsonString)
+
+    img_id = [1, 2, 4, 5, 9, 11, 17, 18]
+
+    for i in img_id:
+        art_data_preprocess(i, src, dest)
+
+
+def main():
+    src = "./art_final/"
+    dest = "../public/img_data/art_processed/"
+
+    whole_preprocess(src, dest)
+
+
+
+    '''
+    background = \
+        {"name": "배경", "polygon": {{"pt": [{"x": 0, "y": 0}, {"x": img['width'], "y": 0},
+                          {"x": img['width'], "y": img['height']}, {"x": 0, "y": img['height']}],
+         # "category": "배경"
+         "category": "background"
+         }}}
+    
+    ann.append(background)
+    '''
 
 
 if __name__ == '__main__':

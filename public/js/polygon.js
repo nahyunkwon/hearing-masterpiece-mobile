@@ -133,11 +133,14 @@ function draw_polygon(seg_mode){
     if(seg_mode == "fine"){ //fine(polygon mode)
         d3.selectAll("polygon").remove();
         svg.selectAll("polygon")
-        .data(img_file.annotations)
+        .data(img_file.annotation.object)
         .enter().append("polygon")
         .attr("points", function(d) {
-            return d.segmentation.map(function(d) {
-                    return [x(d[0]),y(d[1])].join(","); }).join(" "); })
+            if(d['deleted'] != "1"){
+
+                return d.polygon.pt.map(function(d) {
+                        //console.log(d);
+                        return [x(d['x']),y(d['y'])].join(","); }).join(" "); }})
         ;
     }
 
@@ -160,144 +163,34 @@ function draw_polygon(seg_mode){
   })
 
   .attr("category", function(d){
-    return d.category+String(d.duplicates_num);})
+    return d.name;})
     .append("svg:title")
     .text(function(d) {
-
-        if(d.category == "배경"){
-            if(d.objects_color == undefined && d.object_position == undefined)
-                return d.category + ".." + "그림의 배경입니다";
-            else
-                return d.category + ".." + d.object_description +" . 색깔은 "+ d.object_color +"이며, 그림의  "+ d.object_position +"에 위치해 있습니다.";
-            }
-
-        else{
-            if(d.duplicates_num != 1)
-                return d.category + String(d.duplicates_num) + ".." + d.object_description +" . 색깔은 "+ d.object_color +"이며, 그림의  "+ d.object_position +"에 위치해 있습니다.";
-            else
-                return d.category + ".." + d.object_description +" . 색깔은 "+ d.object_color +"이며, 그림의  "+ d.object_position +"에 위치해 있습니다.";
-            }
+        return d.name + ".." + d.attributes;
      });
 }
-
-function draw_polygon_by_button(seg_mode, cat){
-
-    var selected_list = [];
-
-    for(var i=0;i<img_file.annotations.length;i++){
-        if(img_file.annotations[i].category == cat && img_file.annotations[i].category != "background"){
-            selected_list.push(img_file.annotations[i]);
-        }
-    }
-
-    if(seg_mode == "fine"){ //fine(polygon mode)
-        d3.selectAll("polygon").remove();
-        svg.selectAll("polygon")
-        .data(selected_list)
-        .enter().append("polygon")
-        .attr("points", function(d) {
-            return d.segmentation.map(function(d) {
-                    return [x(d[0]),y(d[1])].join(","); }).join(" "); })
-        ;
-    }
-
-    else if(seg_mode == "rough"){ //rough(bbox mode)
-        d3.selectAll("polygon").remove();
-        svg.selectAll("polygon")
-        .data(selected_list)
-        .enter().append("polygon")
-        .attr("points",function(d) {
-            return d.bbox.map(function(d) {
-                    return [x(d[0]),y(d[1])].join(","); }).join(" "); });
-    }
-
-    //polygon opacity, fill color(random)
-  svg.selectAll("polygon")
-  //.style("fill-opacity", .000001)
-  .style("fill-opacity", .5)
-  //.style("stroke", "black")
-  //.style("stroke-width", 5)
-  .style("fill",function() {
-    return "hsl(" + Math.random() * 360 + ",100%,50%)";
-  })
-  .attr("category", function(d){
-    return d.category+String(d.duplicates_num);})
-    .append("svg:title")
-    .text(function(d) {
-
-        if(d.category == "배경"){
-            if(d.objects_color == undefined && d.object_position == undefined)
-                return d.category + ".." + "그림의 배경입니다";
-            else
-                return d.category + ".." + d.object_description +" . 색깔은 "+ d.object_color +"이며, 그림의  "+ d.object_position +"에 위치해 있습니다.";
-            }
-
-        else{
-            if(d.duplicates_num != 1)
-                return d.category + String(d.duplicates_num) + ".." + d.object_description +" . 색깔은 "+ d.object_color +"이며, 그림의  "+ d.object_position +"에 위치해 있습니다.";
-            else
-                return d.category + ".." + d.object_description +" . 색깔은 "+ d.object_color +"이며, 그림의  "+ d.object_position +"에 위치해 있습니다.";
-            }
-            });
-}
-
-function change_voice_option(voice_flag){
-    if(voice_flag == "on")
-        return "off";
-    else if(voice_flag == "off")
-        return "on";
-}
-
-function voice(voice_flag) {
-	voice_flag = change_voice_option(voice_flag);
-	if(voice_flag == "on")
-	    responsiveVoice.speak("voice enabled", language);
-	else
-	    responsiveVoice.speak("voice disabled", language);
-	return voice_flag;
-}
-
-function change_seg_mode(seg_mode){
-    if(seg_mode == "fine")
-        return "rough";
-    else if(seg_mode == "rough")
-        return "fine";
-}
-
-var voice_flag = "on";
 
 var margin = {top: 0, right: 20, bottom: 0, left: 50},
     width = 800,
     height = 900;
 
-var svg2 = d3.select(".image").append("svg")
-  .attr("width", 800)
-  .attr("height", 10)
-  .attr("viewBox", "0 55 10 50")
-  .attr("preserveAspectRatio", "xMinYMin meet")
-  .append("g");
-
 var svg = d3.select(".image").append("svg")
-  .attr("width", width)
-  .attr("height", height)
-  .attr("viewBox", "0 0 800 500")
+  .attr("id", "svg")
+  .attr("width", img_width)
+  .attr("height", img_height)
+  .attr("viewBox", "0 0 "+String(img_width)+" "+String(img_height))
   .attr("preserveAspectRatio", "xMinYMin meet")
   .append("g");
-
-svg.append("rect")
-    .attr("width", "100%")
-    .attr("height", "100%")
-    .attr("fill", "white");
-
 
  var seg_mode = "fine";
 
-  var img_file = find_by_file_id(image_data, img_id);
-  var img_file_name = img_file.file_name;
+  var img_file = image_data;
 
-  var objects_list = get_objects_list(img_file.annotations);
+  var img_file_name = img_file['annotation']['filename'];
 
-  var sorted_by_point = img_file.sorted_by_point;
+  //var objects_list = get_objects_list(img_file.annotations);
+
+  //var sorted_by_point = img_file.sorted_by_point;
 
   var sorted_count=0;
 
@@ -320,28 +213,18 @@ function zoomed() {
     y.call(d3.event.transform.rescaleY(y));
 }
 
-var rect = d3.select('body').append("rect")
-    .attr("x", 0)
-    .attr("y", 0)
-    .attr("width", 500)
-    .attr("height", 500)
-    .style("fill", "#ccc")
-    .style("fill-opacity", ".3")
-    .style("stroke", "#666")
-    .style("stroke-width", "1.5px");
-
   var image = svg.append('image')
     .attr('xlink:href', "https://raw.githubusercontent.com/KwonNH/hearing-masterpiece-mobile/master/public/sample_image/"+img_file_name)
     .attr("x", 1)
     .attr("y", 1)
-    .attr('width', img_file.width)
-    .attr('height', img_file.height);
+    .attr('width', img_width)
+    .attr('height', img_height);
 
-  var x = d3.scaleLinear().range([0, img_file.width]);
-  var y = d3.scaleLinear().range([0, img_file.height]);
+  var x = d3.scaleLinear().range([0, img_width]);
+  var y = d3.scaleLinear().range([0, img_height]);
 
-  x.domain([0, img_file.width]);
-  y.domain([0, img_file.height]);
+  x.domain([0, img_width]);
+  y.domain([0, img_height]);
 
   draw_polygon(seg_mode);
 
@@ -455,39 +338,6 @@ function seg_mode_button(seg_mode){
 
 
 var arrayToModify = [];
-window.onload = function () {
-    var i, buttonsToCreate, buttonContainer, newButton;
-
-    buttonsToCreate = objects_list;
-    buttonContainer = document.getElementById('buttons2');
-
-    for (i = 0; i < buttonsToCreate.length; i++) {
-
-      newButton = document.createElement('input');
-      newButton.type = 'button';
-      newButton.value = buttonsToCreate[i];
-      newButton.id = buttonsToCreate[i];
-
-      newButton.onclick = function () {
-        var cat = String(this.id).split("(")[0];
-        draw_polygon_by_button(seg_mode, cat);
-      };
-      buttonContainer.appendChild(newButton);
-    }
-
-    document.getElementById('metadata').innerHTML =
-                        "<div class=\"metadata\">"
-                        +"<h2>"+title+"</h2>"
-                        +"<p>"+artist+", "+year+"</p>"
-                        +"</div>"
-                        /*
-                        +"<h4>"+medium+", "+dimensions+", "+year+"</br>"
-                        +artist+"</h4>"
-                        +loc+"</br>"+"</br>"
-                        +desc
-                        */
-                        ;
-};
 
 var lastTouchEnd = 0;
 document.documentElement.addEventListener('touchend', function (event) {

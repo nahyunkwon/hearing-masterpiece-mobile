@@ -28,11 +28,11 @@
                 }
             },
             {
-                "name": "pic",
-                "deleted": "0",
+                "name": "3",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
-                "attributes": "texture",
+                "attributes": "person",
                 "parts": {
                     "hasparts": null,
                     "ispartof": null
@@ -103,7 +103,7 @@
             },
             {
                 "name": "1",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "facial",
@@ -165,7 +165,7 @@
             },
             {
                 "name": "2",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "age",
@@ -243,7 +243,7 @@
             },
             {
                 "name": "4",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "shape",
@@ -321,7 +321,7 @@
             },
             {
                 "name": "5",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "color",
@@ -2907,7 +2907,7 @@
             },
             {
                 "name": "point",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "woman",
@@ -2927,7 +2927,7 @@
             },
             {
                 "name": "point",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "woman",
@@ -2947,7 +2947,7 @@
             },
             {
                 "name": "point",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "group",
@@ -3473,7 +3473,7 @@
             },
             {
                 "name": "brown wall",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "dirty, enclosed, claustrophobic, tight, gloomy, shut-in, gritty wall",
@@ -3903,7 +3903,7 @@
             },
             {
                 "name": "cave side",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "quartz, white, well-lit, bright wall",
@@ -4177,7 +4177,7 @@
             },
             {
                 "name": "breast",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "exposed, up side, beige, female breast, big",
@@ -4483,7 +4483,7 @@
             },
             {
                 "name": "leg",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "rose",
@@ -4503,7 +4503,7 @@
             },
             {
                 "name": "hand",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "rose",
@@ -4523,7 +4523,7 @@
             },
             {
                 "name": "hair",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "balck",
@@ -4543,7 +4543,7 @@
             },
             {
                 "name": "face",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "rose",
@@ -4563,7 +4563,7 @@
             },
             {
                 "name": "rock",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "grey",
@@ -4834,7 +4834,7 @@
                 }
             },
             {
-                "name": "wal",
+                "name": "wall",
                 "deleted": "0",
                 "verified": "0",
                 "occluded": null,
@@ -4909,7 +4909,7 @@
             },
             {
                 "name": "brust",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "naic",
@@ -4979,7 +4979,7 @@
             },
             {
                 "name": "sex",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "yes",
@@ -5009,7 +5009,7 @@
             },
             {
                 "name": "hare",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "no",
@@ -5043,7 +5043,7 @@
             },
             {
                 "name": "wand",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "ja",
@@ -5081,7 +5081,7 @@
             },
             {
                 "name": "wand",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "zwei",
@@ -5119,7 +5119,7 @@
             },
             {
                 "name": "wait",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "schwarz",
@@ -5157,7 +5157,7 @@
             },
             {
                 "name": "kutu",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "yle",
@@ -5177,7 +5177,7 @@
             },
             {
                 "name": "fuchu",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "muteli",
@@ -5211,7 +5211,7 @@
             },
             {
                 "name": "brust",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "khugou",

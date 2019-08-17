@@ -130,7 +130,7 @@
                 }
             },
             {
-                "name": "point",
+                "name": "nose",
                 "deleted": "0",
                 "verified": "0",
                 "occluded": null,
@@ -164,11 +164,11 @@
                 }
             },
             {
-                "name": "point",
-                "deleted": "0",
+                "name": "right eye",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
-                "attributes": "right eyes",
+                "attributes": "right eye",
                 "parts": {
                     "hasparts": null,
                     "ispartof": null
@@ -206,11 +206,11 @@
                 }
             },
             {
-                "name": "point",
+                "name": "left eye",
                 "deleted": "0",
                 "verified": "0",
                 "occluded": null,
-                "attributes": "left eyes",
+                "attributes": "left eye",
                 "parts": {
                     "hasparts": null,
                     "ispartof": null
@@ -256,8 +256,8 @@
                 }
             },
             {
-                "name": "point",
-                "deleted": "0",
+                "name": "face",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "face",
@@ -310,8 +310,8 @@
                 }
             },
             {
-                "name": "point",
-                "deleted": "0",
+                "name": "neck",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "neck",
@@ -364,8 +364,8 @@
                 }
             },
             {
-                "name": "point",
-                "deleted": "0",
+                "name": "human",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "human",
@@ -515,7 +515,7 @@
             },
             {
                 "name": "mountain",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "dark",
@@ -535,7 +535,7 @@
             },
             {
                 "name": "hand",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "pale",
@@ -565,7 +565,7 @@
             },
             {
                 "name": "hand",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "pale",
@@ -599,7 +599,7 @@
             },
             {
                 "name": "sky",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "night",
@@ -619,7 +619,7 @@
             },
             {
                 "name": "hill",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "beautiful",
@@ -639,7 +639,7 @@
             },
             {
                 "name": "river",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "great",
@@ -1811,7 +1811,7 @@
             },
             {
                 "name": "sleeve",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "sleeve, arm, clothing",
@@ -1926,7 +1926,7 @@
                 "deleted": "0",
                 "verified": "0",
                 "occluded": null,
-                "attributes": "sky, up, sun, blue",
+                "attributes": "sky, up, sun, blue, above woman, gray,cold",
                 "parts": {
                     "hasparts": null,
                     "ispartof": null
@@ -2038,7 +2038,7 @@
                 "deleted": "0",
                 "verified": "0",
                 "occluded": null,
-                "attributes": "leaves, branch, roots",
+                "attributes": "leaves, branch, roots, green, nature, scenario",
                 "parts": {
                     "hasparts": null,
                     "ispartof": null
@@ -2812,7 +2812,7 @@
                 "deleted": "0",
                 "verified": "0",
                 "occluded": null,
-                "attributes": "dark, hair, female, long, straight",
+                "attributes": "dark, hair, female, long, straight, brown, smooth, long, shiny, black, attractive",
                 "parts": {
                     "hasparts": null,
                     "ispartof": null
@@ -3075,7 +3075,7 @@
             },
             {
                 "name": "skin",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "neck",
@@ -3095,7 +3095,7 @@
             },
             {
                 "name": "hair",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "black",
@@ -3115,7 +3115,7 @@
             },
             {
                 "name": "skin",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "hand",
@@ -3135,7 +3135,7 @@
             },
             {
                 "name": "skin",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "hand",
@@ -3155,7 +3155,7 @@
             },
             {
                 "name": "cloth",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "shirt",
@@ -3175,7 +3175,7 @@
             },
             {
                 "name": "skin",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "face",
@@ -3195,7 +3195,7 @@
             },
             {
                 "name": "shoulder",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "right shoulder, kind of balckish",
@@ -3215,7 +3215,7 @@
             },
             {
                 "name": "hand",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "brown",
@@ -3235,7 +3235,7 @@
             },
             {
                 "name": "nose",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "brown",
@@ -3255,7 +3255,7 @@
             },
             {
                 "name": "dress",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "black",
@@ -3275,7 +3275,7 @@
             },
             {
                 "name": "head",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "brown",
@@ -3295,7 +3295,7 @@
             },
             {
                 "name": "mountain",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "green",
@@ -4888,7 +4888,7 @@
                 "deleted": "0",
                 "verified": "0",
                 "occluded": null,
-                "attributes": "hand _ black _ clothing",
+                "attributes": "hand, black, clothing",
                 "parts": {
                     "hasparts": null,
                     "ispartof": null
@@ -4954,7 +4954,7 @@
                 "deleted": "0",
                 "verified": "0",
                 "occluded": null,
-                "attributes": "empty, clean, no jewels",
+                "attributes": "empty, clean, no jewels, skin, beige",
                 "parts": {
                     "hasparts": null,
                     "ispartof": null
@@ -5044,7 +5044,7 @@
                 "deleted": "0",
                 "verified": "0",
                 "occluded": null,
-                "attributes": "black_ garment _ covering the body",
+                "attributes": "black,garment,covering the body, dark,silk,classic",
                 "parts": {
                     "hasparts": null,
                     "ispartof": null
@@ -5119,10 +5119,10 @@
             },
             {
                 "name": "hair",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
-                "attributes": "shiny _ black _ attractive",
+                "attributes": "shiny, black, attractive",
                 "parts": {
                     "hasparts": null,
                     "ispartof": null
@@ -5201,7 +5201,7 @@
             },
             {
                 "name": "background",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "back",
@@ -5221,7 +5221,7 @@
             },
             {
                 "name": "hehe",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "hehe",
@@ -5241,7 +5241,7 @@
             },
             {
                 "name": "hehe",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "hehee",
@@ -5261,7 +5261,7 @@
             },
             {
                 "name": "hehe",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "hehe",
@@ -5281,7 +5281,7 @@
             },
             {
                 "name": "hehe",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "hehe",
@@ -5301,7 +5301,7 @@
             },
             {
                 "name": "sky",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "above woman, gray,cold",
@@ -5339,7 +5339,7 @@
             },
             {
                 "name": "trees",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "green, nature, scenario",
@@ -5377,7 +5377,7 @@
             },
             {
                 "name": "skin",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "chest,uncovered,beige",
@@ -5415,7 +5415,7 @@
             },
             {
                 "name": "clothes",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "dark,silk,classic",
@@ -5483,7 +5483,7 @@
             },
             {
                 "name": "hair",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "brown, smooth, long",

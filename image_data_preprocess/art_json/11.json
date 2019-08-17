@@ -1091,7 +1091,7 @@
             },
             {
                 "name": "point",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "house,blue,rectangle,door",
@@ -1391,7 +1391,7 @@
             },
             {
                 "name": "window",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "house,squre,yellow",
@@ -2855,7 +2855,7 @@
             },
             {
                 "name": "window",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "yellow",
@@ -2893,7 +2893,7 @@
             },
             {
                 "name": "point",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "street",
@@ -2913,7 +2913,7 @@
             },
             {
                 "name": "tree",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "green",
@@ -2933,7 +2933,7 @@
             },
             {
                 "name": "door",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "brown",
@@ -2953,7 +2953,7 @@
             },
             {
                 "name": "road",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "black",
@@ -2973,7 +2973,7 @@
             },
             {
                 "name": "tabel",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "yellow",
@@ -2993,7 +2993,7 @@
             },
             {
                 "name": "tree",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "long and green",
@@ -3013,7 +3013,7 @@
             },
             {
                 "name": "table",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "rectangle",
@@ -3033,7 +3033,7 @@
             },
             {
                 "name": "wall",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "located in house",
@@ -3053,7 +3053,7 @@
             },
             {
                 "name": "window",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "placed in wall",
@@ -3073,7 +3073,7 @@
             },
             {
                 "name": "door",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "entrance in house",
@@ -3093,7 +3093,7 @@
             },
             {
                 "name": "tree",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "polygon",
@@ -3211,7 +3211,7 @@
             },
             {
                 "name": "window",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "2windows",
@@ -3273,7 +3273,7 @@
             },
             {
                 "name": "door",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "closeddoor",
@@ -3293,7 +3293,7 @@
             },
             {
                 "name": "ground",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "ground",
@@ -3313,7 +3313,7 @@
             },
             {
                 "name": "desk",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "chest",
@@ -3583,7 +3583,7 @@
             },
             {
                 "name": "tree",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "sr right side mid tree has green colur leaves and brown stream",
@@ -3603,7 +3603,7 @@
             },
             {
                 "name": "road",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "walk way in between two buildings and have the people",
@@ -3669,7 +3669,7 @@
             },
             {
                 "name": "character",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "man walk for the left side",
@@ -3719,7 +3719,7 @@
             },
             {
                 "name": "lady",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "follow to the man",
@@ -3761,7 +3761,7 @@
             },
             {
                 "name": "people",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "man walk to the right side",
@@ -4117,7 +4117,7 @@
             },
             {
                 "name": "door wood",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "door wood of restaurant its very hard and black color",

@@ -1,0 +1,471 @@
+{
+    "annotation": {
+        "filename": "4.jpg",
+        "folder": "test",
+        "source": {
+            "sourceImage": "The MIT-CSAIL database of objects and scenes",
+            "sourceAnnotation": "LabelMe Webtool"
+        },
+        "object": [
+            {
+                "name": "df",
+                "deleted": "1",
+                "verified": "0",
+                "occluded": null,
+                "attributes": "df",
+                "parts": {
+                    "hasparts": null,
+                    "ispartof": null
+                },
+                "date": "24-Jul-2019 14:06:11",
+                "id": "0",
+                "type": "bounding_box",
+                "polygon": {
+                    "username": "yj",
+                    "pt": [
+                        {
+                            "x": "2091",
+                            "y": "826"
+                        },
+                        {
+                            "x": "7522",
+                            "y": "826"
+                        },
+                        {
+                            "x": "7522",
+                            "y": "7572"
+                        },
+                        {
+                            "x": "2091",
+                            "y": "7572"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "시선",
+                "deleted": "1",
+                "verified": "0",
+                "occluded": null,
+                "attributes": "수수꼐끼 같은 시선",
+                "parts": {
+                    "hasparts": null,
+                    "ispartof": null
+                },
+                "date": "26-Jul-2019 16:19:30",
+                "id": "1",
+                "type": "bounding_box",
+                "polygon": {
+                    "username": "yj",
+                    "pt": [
+                        {
+                            "x": "2800",
+                            "y": "3677"
+                        },
+                        {
+                            "x": "4992",
+                            "y": "3677"
+                        },
+                        {
+                            "x": "4992",
+                            "y": "4908"
+                        },
+                        {
+                            "x": "2800",
+                            "y": "4908"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "한 소녀의 얼굴",
+                "deleted": "1",
+                "verified": "0",
+                "occluded": null,
+                "attributes": "진주 귀걸이를 한 소녀의 얼굴이다. 모델의 정체는 알려지지 않고 있다. 일부는 베르메르의 장녀 마리아라고 주장했지만 이 주장을 확인할 만한 설득력있는 증거는 없다.",
+                "parts": {
+                    "hasparts": null,
+                    "ispartof": null
+                },
+                "date": "26-Jul-2019 16:20:59",
+                "id": "2",
+                "type": "bounding_box",
+                "polygon": {
+                    "username": "yj",
+                    "pt": [
+                        {
+                            "x": "2631",
+                            "y": "3255"
+                        },
+                        {
+                            "x": "6729",
+                            "y": "3255"
+                        },
+                        {
+                            "x": "6729",
+                            "y": "6797"
+                        },
+                        {
+                            "x": "2631",
+                            "y": "6797"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "한 소녀의 얼굴",
+                "deleted": "1",
+                "verified": "0",
+                "occluded": null,
+                "attributes": "진주 귀걸이를 한 소녀, 고개를 돌리고 있다. 모델의 정체는 알려지지 않고 있다. 일부는 베르메르의 장녀 마리아라고 주장했지만 이 주장을 확인할 만한 설득력있는 증거는 없다.",
+                "parts": {
+                    "hasparts": null,
+                    "ispartof": null
+                },
+                "date": "26-Jul-2019 16:22:57",
+                "id": "3",
+                "type": "bounding_box",
+                "polygon": {
+                    "username": "yj",
+                    "pt": [
+                        {
+                            "x": "2766",
+                            "y": "3221"
+                        },
+                        {
+                            "x": "6797",
+                            "y": "3221"
+                        },
+                        {
+                            "x": "6797",
+                            "y": "6932"
+                        },
+                        {
+                            "x": "2766",
+                            "y": "6932"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "입술",
+                "deleted": "1",
+                "verified": "0",
+                "occluded": null,
+                "attributes": "소녀의 약간 열려져 있는 입술이다.",
+                "parts": {
+                    "hasparts": null,
+                    "ispartof": null
+                },
+                "date": "26-Jul-2019 16:24:21",
+                "id": "4",
+                "type": "bounding_box",
+                "polygon": {
+                    "username": "yj",
+                    "pt": [
+                        {
+                            "x": "3204",
+                            "y": "5650"
+                        },
+                        {
+                            "x": "4334",
+                            "y": "5650"
+                        },
+                        {
+                            "x": "4334",
+                            "y": "6392"
+                        },
+                        {
+                            "x": "3204",
+                            "y": "6392"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "한 소녀의 얼굴",
+                "deleted": "0",
+                "verified": "0",
+                "occluded": null,
+                "attributes": "진주 귀걸이를 한 소녀, 고개를 돌리고 감상자를 향해있다. 모델의 정체는 알려지지 않고 있다. 일부는 베르메르의 장녀 마리아라고 주장했지만 이 주장을 확인할 만한 설득력있는 증거는 없다.",
+                "parts": {
+                    "hasparts": null,
+                    "ispartof": null
+                },
+                "date": "26-Jul-2019 16:46:03",
+                "id": "5",
+                "type": "bounding_box",
+                "polygon": {
+                    "username": "yj",
+                    "pt": [
+                        {
+                            "x": "2850",
+                            "y": "3120"
+                        },
+                        {
+                            "x": "6780",
+                            "y": "3120"
+                        },
+                        {
+                            "x": "6780",
+                            "y": "6999"
+                        },
+                        {
+                            "x": "2850",
+                            "y": "6999"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "두 눈의 시선",
+                "deleted": "0",
+                "verified": "0",
+                "occluded": null,
+                "attributes": "감상자를 바라보는 수수께끼같은 시선이다.",
+                "parts": {
+                    "hasparts": null,
+                    "ispartof": null
+                },
+                "date": "26-Jul-2019 16:46:27",
+                "id": "6",
+                "type": "bounding_box",
+                "polygon": {
+                    "username": "yj",
+                    "pt": [
+                        {
+                            "x": "2968",
+                            "y": "3795"
+                        },
+                        {
+                            "x": "5093",
+                            "y": "3795"
+                        },
+                        {
+                            "x": "5093",
+                            "y": "4874"
+                        },
+                        {
+                            "x": "2968",
+                            "y": "4874"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "입술",
+                "deleted": "0",
+                "verified": "0",
+                "occluded": null,
+                "attributes": "입술이 약간 열려져 있다.",
+                "parts": {
+                    "hasparts": null,
+                    "ispartof": null
+                },
+                "date": "26-Jul-2019 16:46:43",
+                "id": "7",
+                "type": "bounding_box",
+                "polygon": {
+                    "username": "yj",
+                    "pt": [
+                        {
+                            "x": "3204",
+                            "y": "5650"
+                        },
+                        {
+                            "x": "4351",
+                            "y": "5650"
+                        },
+                        {
+                            "x": "4351",
+                            "y": "6409"
+                        },
+                        {
+                            "x": "3204",
+                            "y": "6409"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "헤드랩",
+                "deleted": "0",
+                "verified": "0",
+                "occluded": null,
+                "attributes": "머리에 터키식 터번에서 영감을 받은 동양적인 헤드랩을 쓰고 있다.",
+                "parts": {
+                    "hasparts": null,
+                    "ispartof": null
+                },
+                "date": "26-Jul-2019 16:47:32",
+                "id": "8",
+                "type": "bounding_box",
+                "polygon": {
+                    "username": "yj",
+                    "pt": [
+                        {
+                            "x": "5785",
+                            "y": "1147"
+                        },
+                        {
+                            "x": "9428",
+                            "y": "1147"
+                        },
+                        {
+                            "x": "9428",
+                            "y": "9293"
+                        },
+                        {
+                            "x": "5785",
+                            "y": "9293"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "진주 귀걸이",
+                "deleted": "0",
+                "verified": "0",
+                "occluded": null,
+                "attributes": "거대한 진주 귀걸이를 하고 있다. 이러한 이국적인 요소들은 그림의 극을 증가시키고, 예술가가 빛과 질감을 다루는 데 있어서 예술적 효과를 발휘할 기회를 준다.",
+                "parts": {
+                    "hasparts": null,
+                    "ispartof": null
+                },
+                "date": "26-Jul-2019 16:48:05",
+                "id": "9",
+                "type": "bounding_box",
+                "polygon": {
+                    "username": "yj",
+                    "pt": [
+                        {
+                            "x": "5650",
+                            "y": "5684"
+                        },
+                        {
+                            "x": "6510",
+                            "y": "5684"
+                        },
+                        {
+                            "x": "6510",
+                            "y": "6628"
+                        },
+                        {
+                            "x": "5650",
+                            "y": "6628"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "드레스",
+                "deleted": "0",
+                "verified": "0",
+                "occluded": null,
+                "attributes": "이국적인 드레스를 입고 있다.",
+                "parts": {
+                    "hasparts": null,
+                    "ispartof": null
+                },
+                "date": "26-Jul-2019 16:48:32",
+                "id": "10",
+                "type": "bounding_box",
+                "polygon": {
+                    "username": "yj",
+                    "pt": [
+                        {
+                            "x": "3407",
+                            "y": "7674"
+                        },
+                        {
+                            "x": "8399",
+                            "y": "7674"
+                        },
+                        {
+                            "x": "8399",
+                            "y": "11350"
+                        },
+                        {
+                            "x": "3407",
+                            "y": "11350"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "어두운 배경",
+                "deleted": "0",
+                "verified": "0",
+                "occluded": null,
+                "attributes": "어두운 배경 _ 이 모델은 어두운 배경을 배경으로 하고 있는데, 이는 진주 귀걸이를 한 소녀에 화려함과 드라마틱함을 지니게 한다. 이 그림은 시대를 초월한 자질을 지니고 있으며, 소녀는 상징적인 속성을 지니고 있지 않으며, 어떤 특정한 맥락에도 배치되지 않는다. 이 때문에 그녀는 대대로 관람자들의 상상력을 사로잡는다.",
+                "parts": {
+                    "hasparts": null,
+                    "ispartof": null
+                },
+                "date": "26-Jul-2019 16:49:51",
+                "id": "11",
+                "type": "bounding_box",
+                "polygon": {
+                    "username": "yj",
+                    "pt": [
+                        {
+                            "x": "169",
+                            "y": "354"
+                        },
+                        {
+                            "x": "2496",
+                            "y": "354"
+                        },
+                        {
+                            "x": "2496",
+                            "y": "10810"
+                        },
+                        {
+                            "x": "169",
+                            "y": "10810"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "피부 표현",
+                "deleted": "0",
+                "verified": "0",
+                "occluded": null,
+                "attributes": "작가 베르메르는 부드러운 피부의 관능성을 창조하는 그의 독창적인 레이어드 페인트를 사용하였다. 이것은 투명한 언더 모델 위에 얇은 살색 유약을 층화함으로써 달성되었다. 진주 귀걸이를 한 소녀에서, 이 페인트의 적용은 다른 작품들보다 더 대담하고 더 표현적이다.",
+                "parts": {
+                    "hasparts": null,
+                    "ispartof": null
+                },
+                "date": "26-Jul-2019 16:50:30",
+                "id": "12",
+                "type": "bounding_box",
+                "polygon": {
+                    "username": "yj",
+                    "pt": [
+                        {
+                            "x": "4216",
+                            "y": "5059"
+                        },
+                        {
+                            "x": "5312",
+                            "y": "5059"
+                        },
+                        {
+                            "x": "5312",
+                            "y": "6088"
+                        },
+                        {
+                            "x": "4216",
+                            "y": "6088"
+                        }
+                    ]
+                }
+            }
+        ],
+        "imagesize": {
+            "nrows": null,
+            "ncols": null
+        }
+    }
+}

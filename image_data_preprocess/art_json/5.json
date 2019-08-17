@@ -1699,7 +1699,7 @@
             },
             {
                 "name": "bull",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "horns, mad, angry",
@@ -4547,7 +4547,7 @@
             },
             {
                 "name": "hand",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "number of lines on hand,righthand,its very rough",
@@ -4567,7 +4567,7 @@
             },
             {
                 "name": "light",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "the shape is like octopus,like a eye, bulb",
@@ -4587,7 +4587,7 @@
             },
             {
                 "name": "hand with candle",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "long hand,candle,flamefingers",
@@ -4607,7 +4607,7 @@
             },
             {
                 "name": "face",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "eyes,ears,mouth,nose",
@@ -4627,7 +4627,7 @@
             },
             {
                 "name": "horse face",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "teeth,nose,opened mouth,eyes",
@@ -4647,7 +4647,7 @@
             },
             {
                 "name": "human face",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "clear, horrified expression, right-side, looking forward, bald, curious",
@@ -5625,7 +5625,7 @@
             },
             {
                 "name": "ear",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "small, left, round",
@@ -5957,7 +5957,7 @@
             },
             {
                 "name": "eye",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "closed, dying, left",
@@ -6485,7 +6485,7 @@
             },
             {
                 "name": "skull",
-                "deleted": "0",
+                "deleted": "1",
                 "verified": "0",
                 "occluded": null,
                 "attributes": "a skull is lying on the floor",
