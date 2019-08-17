@@ -1335,7 +1335,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "female figure, dark, pink, distorted",
+    "attributes": "dark, pink, distorted",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2542,7 +2542,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "arm, long, straight, strong fingers, hand",
+    "attributes": " long, straight, strong fingers, hand",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4598,7 +4598,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "right eye, dark,",
+    "attributes": "right eye, dark",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -5019,7 +5019,7 @@
     "deleted": "1",
     "verified": "0",
     "occluded": null,
-    "attributes": "test",
+    "attributes": "",
     "parts": {
      "hasparts": null,
      "ispartof": null

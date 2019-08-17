@@ -25,8 +25,8 @@ def xml_to_json(img_id):
         f.write(json_string)
 
 
-def art_data_preprocess(img_id):
-    image_data = json.load(open("./art_prof_json/" + str(img_id) + ".json", 'r', encoding='utf-8'))
+def art_data_preprocess(img_id, src, dest):
+    image_data = json.load(open(src + str(img_id) + ".json", 'r', encoding='utf-8'))
 
     img = image_data['annotation']
 
@@ -54,6 +54,22 @@ def art_data_preprocess(img_id):
         # print(obj['polygon']['pt'])
         points = obj['polygon']['pt']
 
+        try:
+            attr_list = obj['attributes'].split(',')
+
+            result_attr = ""
+
+            for i in range(len(attr_list)):
+                if attr_list[i] != obj['name']:
+                    if i == len(attr_list) - 1:
+                        result_attr = result_attr + attr_list[i]
+                    else:
+                        result_attr = result_attr + attr_list[i] + ","
+
+            obj['attributes'] = result_attr
+        except AttributeError:
+            pass
+
         points_list = []
 
         # print(type(points))
@@ -79,22 +95,17 @@ def art_data_preprocess(img_id):
             except ValueError:
                 obj['area'] = 0
 
-
-
-        # print(obj)
-
     sorted_ann = sorted(ann, key=lambda k: k['area'], reverse=True)
 
     img['object'] = sorted_ann
 
-    with open('./art_prof_processed/' + str(img_id) + '.json', 'w') as fp:
+    with open(dest + str(img_id) + '.json', 'w') as fp:
         json.dump(image_data, fp, sort_keys=False, indent=1, separators=(',', ': '), ensure_ascii=False)
 
-
-def main():
+def whole_preprocess(src, dest):
     for i in ['1','2','4','5','9','11','17','18']:
 
-        with open("./art_prof/"+i+".xml", 'r', encoding='utf8') as f:
+        with open(src+i+".xml", 'r', encoding='utf8') as f:
             xmlString = f.read()
 
         print("xml input (xml_to_json.xml):")
@@ -105,13 +116,21 @@ def main():
         print("\nJSON output(output.json):")
         print(jsonString)
 
-        with open("./art_prof_json/"+i+".json", 'w', encoding='utf8') as f:
+        with open(src+i+".json", 'w', encoding='utf8') as f:
             f.write(jsonString)
 
     img_id = [1, 2, 4, 5, 9, 11, 17, 18]
 
     for i in img_id:
-        art_data_preprocess(i)
+        art_data_preprocess(i, src, dest)
+
+
+def main():
+    src = "./art_final/"
+    dest = "../public/img_data/art_processed/"
+
+    whole_preprocess(src, dest)
+
 
 
     '''

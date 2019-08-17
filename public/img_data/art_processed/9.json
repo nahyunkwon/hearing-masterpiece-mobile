@@ -556,7 +556,7 @@
     "deleted": "1",
     "verified": "0",
     "occluded": null,
-    "attributes": "woman, many work done on homes",
+    "attributes": " many work done on homes",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -1146,7 +1146,7 @@
     "deleted": "1",
     "verified": "0",
     "occluded": null,
-    "attributes": "overalls, old, worn, blue, dingy, work outfit, farmer clothes",
+    "attributes": " old, worn, blue, dingy, work outfit, farmer clothes",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2209,7 +2209,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "window,closed window,mud colour",
+    "attributes": "closed window,mud colour",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2248,7 +2248,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "roof, tin roof, brown, left side, panels",
+    "attributes": " tin roof, brown, left side, panels",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2394,7 +2394,7 @@
     "deleted": "1",
     "verified": "0",
     "occluded": null,
-    "attributes": "roof,brown,lines,",
+    "attributes": "brown,lines,",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2496,7 +2496,7 @@
     "deleted": "1",
     "verified": "0",
     "occluded": null,
-    "attributes": "roof,brown,vertical lines",
+    "attributes": "brown,vertical lines",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2867,7 +2867,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "chin, man_s chin, old skin, wrinkled, bottom of face",
+    "attributes": " man_s chin, old skin, wrinkled, bottom of face",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3217,7 +3217,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "wallpaper, inside, room, pattern, dark",
+    "attributes": " inside, room, pattern, dark",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3370,7 +3370,7 @@
     "deleted": "1",
     "verified": "0",
     "occluded": null,
-    "attributes": "women ,lips,smiley,cute",
+    "attributes": "women ,smiley,cute",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3503,7 +3503,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "pillar, post, column, white, porch post, vertical",
+    "attributes": " post, column, white, porch post, vertical",
     "parts": {
      "hasparts": null,
      "ispartof": null

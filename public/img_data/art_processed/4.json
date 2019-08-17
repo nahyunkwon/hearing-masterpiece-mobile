@@ -255,7 +255,7 @@
     "deleted": "1",
     "verified": "0",
     "occluded": null,
-    "attributes": "person",
+    "attributes": "",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -1249,7 +1249,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "hairscarf",
+    "attributes": "",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -1654,7 +1654,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "blue, hairband, hat",
+    "attributes": "blue, hat",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2086,7 +2086,7 @@
    },
    {
     "name": "nose",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "small, turned, nose",
@@ -2136,7 +2136,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "white, collar, bright, soft, cloth",
+    "attributes": "white, bright, soft, cloth",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2369,7 +2369,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "chin, jaw, below mouth",
+    "attributes": "jaw, below mouth",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2452,7 +2452,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "female, white",
+    "attributes": "female, white, small, turned",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2539,7 +2539,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "neck, slim, turned",
+    "attributes": " slim, turned",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2574,7 +2574,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "cheek, cheekbone, side of face, smooth, flesh colored",
+    "attributes": "cheekbone, side of face, smooth, flesh colored",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3058,7 +3058,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "white pearl earring, jewel, in the middle of the painting",
+    "attributes": "white pearl earring, jewel, in the middle of the painting, left ear, silver, round, shines",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3110,7 +3110,7 @@
    },
    {
     "name": "earring",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "left ear, silver, round, shines",
@@ -3297,7 +3297,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "pupil, iris, eye color, dark, staring",
+    "attributes": "eye color, dark, staring",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3360,7 +3360,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "pupil, iris, eye color, dark, staring",
+    "attributes": "eye color, dark, staring",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3536,7 +3536,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "teeth, white, smile",
+    "attributes": "white, smile",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3567,7 +3567,7 @@
     "deleted": "1",
     "verified": "0",
     "occluded": null,
-    "attributes": "womem,face,looking",
+    "attributes": "womem,looking",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3588,7 +3588,7 @@
     "deleted": "1",
     "verified": "0",
     "occluded": null,
-    "attributes": "long,hair,silver color",
+    "attributes": "long,silver color",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3609,7 +3609,7 @@
     "deleted": "1",
     "verified": "0",
     "occluded": null,
-    "attributes": "black,dress,with white border",
+    "attributes": "black,with white border",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3630,7 +3630,7 @@
     "deleted": "1",
     "verified": "0",
     "occluded": null,
-    "attributes": "cloth,covers,black color",
+    "attributes": "covers,black color",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3651,7 +3651,7 @@
     "deleted": "1",
     "verified": "0",
     "occluded": null,
-    "attributes": "ear,right side,",
+    "attributes": "right side,",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3798,7 +3798,7 @@
     "deleted": "1",
     "verified": "0",
     "occluded": null,
-    "attributes": "forehead",
+    "attributes": "",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3819,7 +3819,7 @@
     "deleted": "1",
     "verified": "0",
     "occluded": null,
-    "attributes": "hair cloth",
+    "attributes": "",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3840,7 +3840,7 @@
     "deleted": "1",
     "verified": "0",
     "occluded": null,
-    "attributes": "eyes",
+    "attributes": "",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3861,7 +3861,7 @@
     "deleted": "1",
     "verified": "0",
     "occluded": null,
-    "attributes": "neck",
+    "attributes": "",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3882,7 +3882,7 @@
     "deleted": "1",
     "verified": "0",
     "occluded": null,
-    "attributes": "collar",
+    "attributes": "",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3903,7 +3903,7 @@
     "deleted": "1",
     "verified": "0",
     "occluded": null,
-    "attributes": "coat",
+    "attributes": "",
     "parts": {
      "hasparts": null,
      "ispartof": null

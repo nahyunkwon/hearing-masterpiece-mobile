@@ -12,7 +12,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "city, dark, large, triangular, smooth",
+    "attributes": "dark, triangular, smooth, city, large",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -415,7 +415,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "white, horizontal, striped",
+    "attributes": "horizontal, striped, white",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -669,7 +669,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "breeze, wind, gust",
+    "attributes": "breeze, gust",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -772,7 +772,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "city, green, medium-large, circular shape, smooth",
+    "attributes": "circular shape, green, smooth, city, medium-large",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -959,7 +959,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "glow, moon glow, shining, pale, yellow, glow of the moon, brush strokes",
+    "attributes": "shining, brush strokes, pale, yellow, glow of the moon",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -1201,7 +1201,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "night sky, blue, top, high up, shades of blue, nighttime, moody",
+    "attributes": "moody, blue, shades of blue, top, high up, night sky",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -1538,7 +1538,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "blue, dark, bright, discontinuous, water like, center side",
+    "attributes": "dark, bright, discontinuous, water like, blue, center side",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -1716,7 +1716,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "light, sun, star, heat, night",
+    "attributes": "light, heat, night, star",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -1775,7 +1775,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "church, white, steeple, bright, middle, tall",
+    "attributes": "steeple, bright, white, middle, tall",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -1973,7 +1973,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "small tree, dark, bottom right, brush strokes, simple",
+    "attributes": "simple, brush strokes, dark, bottom right, small",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2119,7 +2119,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "bottom right, round, bushy, blue, green",
+    "attributes": "round, bushy, blue, green, bottom right",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2214,7 +2214,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "sky, top, center, background, round",
+    "attributes": "round, top, center, background, sky",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2277,7 +2277,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "moon, night sky, yellow, high above, shining, bright",
+    "attributes": "shining, bright, yellow, high above, night sky",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2352,7 +2352,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "light, heat, sun, space, nightgreen, oil paint, art, grey blue, yellow center,",
+    "attributes": "oil paint, light, heat, space, nightgreen, grey blue, yellow, center",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2427,7 +2427,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "background, bottom, center, dark, rural, village",
+    "attributes": "dark, rural, background, bottom, center, village",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2619,7 +2619,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "bottom, center, dark, rural, village",
+    "attributes": "dark, rural, bottom, center, village",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2789,7 +2789,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "round, top, yellow, blue",
+    "attributes": "round, yellow, blue, top",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2868,7 +2868,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "star,painting,green",
+    "attributes": "painting, green",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2943,7 +2943,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "city, grey, small, triangles, two visible windows, smooth",
+    "attributes": "smooth, grey, triangles, two visible windows, city, small",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3030,7 +3030,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "sky, top, left, background, round",
+    "attributes": "round, top, left, background, sky",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3093,7 +3093,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "round, group, green, dark",
+    "attributes": "round, green, dark, group",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3279,7 +3279,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "bottom, dark, small",
+    "attributes": "dark, bottom, small",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3354,7 +3354,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "dwelling, home, house, sleep",
+    "attributes": "dwelling, sleep",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3393,7 +3393,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "city, dark green, small, round shape",
+    "attributes": "round shape, dark green, city, small",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3452,7 +3452,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "sky, top, left, background, round",
+    "attributes": "round, top, left, background, sky",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3515,7 +3515,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "right, bottom, corner, behinfirst object in right bottom corner, white",
+    "attributes": "white, right, bottom, corner, behind first object in right bottom corner",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3638,7 +3638,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "middle house, red, rooftop, triangular",
+    "attributes": "triangular, red, middle house, rooftop",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3677,7 +3677,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "glowing, shining, star, yellow, pale, magical",
+    "attributes": "glowing, shining, pale, magical, yellow",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3732,7 +3732,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "yellow, left, round",
+    "attributes": "round, yellow, left",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3791,7 +3791,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "house, blue roof, small, bottom, to the left of a tree, simple",
+    "attributes": "simple, blue roof, bottom, to the left of a tree, small",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3838,7 +3838,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "little, sky, star",
+    "attributes": "sky,little",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3901,7 +3901,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "small, lit, unclear",
+    "attributes": "lit, unclear, small",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3940,7 +3940,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "distant, bright, white, bluish, center positioned",
+    "attributes": "distant, bright, bluish, white, center positioned",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3979,7 +3979,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "middle-right, next to church, black, green",
+    "attributes": "black, green, middle-right, next to church",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4126,7 +4126,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "home, confort, blue, gray",
+    "attributes": "comfort, blue, gray, home",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4177,7 +4177,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "round, left, white, yellow",
+    "attributes": "round, white, yellow, left",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4295,7 +4295,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "home, gray,confort",
+    "attributes": "comfort, gray, home",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4330,7 +4330,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "city, grey, small, triangle, smooth",
+    "attributes": "grey, triangle, smooth, city, small",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4385,7 +4385,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "star",
+    "attributes": "",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4448,7 +4448,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "top, left, light blue, orange center",
+    "attributes": "light blue, top, left, orange colored center",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4527,7 +4527,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "small house, triangular, bottom right side of painting",
+    "attributes": "triangular, bottom right side of painting, small house",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4625,7 +4625,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "small, right, obscured partially",
+    "attributes": "obscured partially, right, small",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4704,7 +4704,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "confort, home, sweet",
+    "attributes": "comfort, sweet, home",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4818,7 +4818,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "small, wooden made, glass, dark, brownish",
+    "attributes": "dark, brownish, wooden made, glass, small",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4944,7 +4944,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "home, confort",
+    "attributes": "comfort, home",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4979,7 +4979,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "the center of a star, more bright than the aura",
+    "attributes": "more bright than the aura, the center of a star",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -5022,7 +5022,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "dark, small, wooden made, black, rectangular",
+    "attributes": "dark, wooden made, rectangular, black, small",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -5057,7 +5057,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "dark, small, distant, wooden like, down side",
+    "attributes": "dark, distant, wooden like, down side, small",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -5092,7 +5092,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "small, lit, down side, distant, wooden like",
+    "attributes": "lit, down side, distant, wooden like, small",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -5127,7 +5127,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "the center of a star, more bright than the aura",
+    "attributes": "more bright than the aura, the center of a star",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -5201,7 +5201,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "a brighter part of a star, his core, middle up on the left position",
+    "attributes": "a brighter part of a star, core, middle up on the left position",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -5240,7 +5240,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "left of tree, left, gold, inside white, small, star center, center of star, small, iris, sun, by tree, left of tree, medium-sized, deep gold",
+    "attributes": "inside white, center of star, deep gold ,left of tree, medium-sized, small",
     "parts": {
      "hasparts": null,
      "ispartof": null

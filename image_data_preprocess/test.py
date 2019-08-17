@@ -3,8 +3,7 @@ import pandas as pd
 list = []
 list.append('a')
 
-a = [{'a': 'a'}]
+b = ['s']
 
-a.pop(0)
+print(list+b)
 
-print(a)

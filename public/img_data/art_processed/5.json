@@ -4086,7 +4086,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "tail, hair, flowing, thick, bushy",
+    "attributes": "hair, flowing, thick, bushy",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4585,7 +4585,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "wiry, tail, horse tail,",
+    "attributes": "wiry, horse tail,",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -5660,7 +5660,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "nose, snout, bull, 2d, nostrils",
+    "attributes": "nose, bull, 2d, nostrils",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -6546,7 +6546,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "small, triangle, abstract, vague, unclear",
+    "attributes": "small, abstract, vague, unclear",
     "parts": {
      "hasparts": null,
      "ispartof": null

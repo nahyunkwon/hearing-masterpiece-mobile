@@ -391,7 +391,7 @@
    },
    {
     "name": "tree",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "right side, large, green",
@@ -3010,7 +3010,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "building, dark, looming, shadow, high above",
+    "attributes": " dark, looming, shadow, high above",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3515,7 +3515,7 @@
    },
    {
     "name": "star",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "sky, yellow, bright, high",
@@ -3588,7 +3588,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "small, top right corner, yellow, white",
+    "attributes": "small, top right corner, yellow, white, sky, bright, high",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3897,7 +3897,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "window, light, over the city, light on",
+    "attributes": " light, over the city, light on",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4240,7 +4240,7 @@
     "deleted": "1",
     "verified": "0",
     "occluded": null,
-    "attributes": "ground",
+    "attributes": "",
     "parts": {
      "hasparts": null,
      "ispartof": null

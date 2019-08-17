@@ -1924,7 +1924,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "fabric, burgundy, straight",
+    "attributes": " burgundy, straight",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2062,7 +2062,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "ruffles, green, dress, bunched fabric, detailed, vivid",
+    "attributes": " green, dress, bunched fabric, detailed, vivid",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2348,7 +2348,7 @@
    },
    {
     "name": "window",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "at top most left corner",
@@ -2394,7 +2394,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "small, brown, dog, young, long-haired, long hair, terrier-like, in-between the couple, smooth",
+    "attributes": "small, brown, young, long-haired, long hair, terrier-like, in-between the couple, smooth",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2497,7 +2497,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "black color ,on the man_s head,normal sized",
+    "attributes": "black color, on the man_s head, normal sized",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2736,7 +2736,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "canopy, bed canopy, fabric, red, dark, gathered, top right",
+    "attributes": " bed canopy, fabric, red, dark, gathered, top right",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3578,7 +3578,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "head board, bed post, brown, wooden, tall.",
+    "attributes": " bed post, brown, wooden, tall.",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3633,7 +3633,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "veil, white, lacy, detailed, woman_s head wear",
+    "attributes": " white, lacy, detailed, woman_s head wear",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3982,7 +3982,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "pillow, cushion, red, dark, comfort, seated",
+    "attributes": " cushion, red, dark, comfort, seated",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4033,7 +4033,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "pillow, red, satin, plumped, comfort",
+    "attributes": "red, satin, plumped, comfort",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4381,7 +4381,7 @@
    },
    {
     "name": "hand",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "man_s hand, right hand, white, graceful, up",
@@ -4546,7 +4546,7 @@
    },
    {
     "name": "hand",
-    "deleted": "0",
+    "deleted": "1",
     "verified": "0",
     "occluded": null,
     "attributes": "pale, long, hand",
@@ -4584,7 +4584,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "upward, beige skin, back with light, shadowed front, left side",
+    "attributes": "upward, beige skin, back with light, shadowed front, left side, man_s hand, right hand, white, graceful, up",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4639,7 +4639,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "left side, female hand, beige, flexed, resting",
+    "attributes": "left side, female hand, beige, flexed, resting, pale, long, hand",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4844,7 +4844,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "belt, gathered, holding dress, brown, support, tight",
+    "attributes": " gathered, holding dress, brown, support, tight",
     "parts": {
      "hasparts": null,
      "ispartof": null
