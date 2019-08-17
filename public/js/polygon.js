@@ -128,9 +128,10 @@ function get_objects_list(annotations){
     return result_list;
   }
 
-function draw_polygon(seg_mode){
+function draw_polygon(mode){
 
-    if(seg_mode == "fine"){ //fine(polygon mode)
+    if(mode == "m"){ //fine(polygon mode)
+        img_file = image_data_m;
         d3.selectAll("polygon").remove();
         svg.selectAll("polygon")
         .data(img_file.annotation.object)
@@ -144,14 +145,19 @@ function draw_polygon(seg_mode){
         ;
     }
 
-    else if(seg_mode == "rough"){ //rough(bbox mode)
+    else if(mode == "p"){ //rough(bbox mode)
+        img_file = image_data_p;
         d3.selectAll("polygon").remove();
         svg.selectAll("polygon")
-        .data(img_file.annotations)
+        .data(img_file.annotation.object)
         .enter().append("polygon")
-        .attr("points",function(d) {
-            return d.bbox.map(function(d) {
-                    return [x(d[0]),y(d[1])].join(","); }).join(" "); });
+        .attr("points", function(d) {
+            if(d['deleted'] != "1"){
+
+                return d.polygon.pt.map(function(d) {
+                        //console.log(d);
+                        return [x(d['x']),y(d['y'])].join(","); }).join(" "); }})
+        ;
     }
 
     //polygon opacity, fill color(random)
@@ -180,11 +186,23 @@ var svg = d3.select(".image").append("svg")
   .attr("height", img_height)
   .attr("viewBox", "0 0 "+String(img_width)+" "+String(img_height))
   .attr("preserveAspectRatio", "xMinYMin meet")
-  .append("g");
+  .append("g")
+  .on("click", function(){
+        if(mode == "m"){
+            mode = "p";
+            draw_polygon(mode);
+        }
+        else{
+            mode = "m";
+            draw_polygon(mode);
+        }
 
- var seg_mode = "fine";
 
-  var img_file = image_data;
+    });
+
+ var mode = "m";
+
+  var img_file = image_data_m;
 
   var img_file_name = img_file['annotation']['filename'];
 
@@ -218,7 +236,8 @@ function zoomed() {
     .attr("x", 1)
     .attr("y", 1)
     .attr('width', img_width)
-    .attr('height', img_height);
+    .attr('height', img_height)
+    ;
 
   var x = d3.scaleLinear().range([0, img_width]);
   var y = d3.scaleLinear().range([0, img_height]);
@@ -226,7 +245,7 @@ function zoomed() {
   x.domain([0, img_width]);
   y.domain([0, img_height]);
 
-  draw_polygon(seg_mode);
+  draw_polygon(mode);
 
   //svg.call(zoomListener);
 
