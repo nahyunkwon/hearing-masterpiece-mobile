@@ -7,7 +7,7 @@ from numpy import *
 import xmltodict
 import pprint
 import json
-
+import requests
 
 def xml_to_json(img_id):
     with open("./image_data/"+str(img_id)+".xml", 'r', encoding='utf-8') as f:
@@ -31,10 +31,10 @@ def art_data_preprocess(img_id, src, dest):
     img = image_data['annotation']
 
     ann = img['object']
-
+    '''
     i = 0
     deleted = []
-    '''
+    
     for obj in ann:
         # print(ann[i]['deleted']=="1")
         if ann[i]['deleted'] == '1':
@@ -94,6 +94,14 @@ def art_data_preprocess(img_id, src, dest):
                 obj['area'] = polygon.area
             except ValueError:
                 obj['area'] = 0
+        '''
+        obj['name'] = eng_to_kor(obj['name'])
+
+        try:
+            obj['attributes'] = eng_to_kor(obj['attributes'])
+        except KeyError:
+            pass
+            '''
 
     sorted_ann = sorted(ann, key=lambda k: k['area'], reverse=True)
 
@@ -102,8 +110,9 @@ def art_data_preprocess(img_id, src, dest):
     with open(dest + str(img_id) + '.json', 'w') as fp:
         json.dump(image_data, fp, sort_keys=False, indent=1, separators=(',', ': '), ensure_ascii=False)
 
-def whole_preprocess(src, dest):
-    for i in ['1','2','4','5','9','11','17','18']:
+
+def whole_preprocess(img_id_list, src, dest):
+    for i in img_id_list:
 
         with open(src+i+".xml", 'r', encoding='utf8') as f:
             xmlString = f.read()
@@ -119,30 +128,40 @@ def whole_preprocess(src, dest):
         with open(src+i+".json", 'w', encoding='utf8') as f:
             f.write(jsonString)
 
-    img_id = [1, 2, 4, 5, 9, 11, 17, 18]
-
-    for i in img_id:
+    for i in img_id_list:
         art_data_preprocess(i, src, dest)
 
 
+def eng_to_kor(text):
+    url = "https://openapi.naver.com/v1/papago/n2mt?source=en&target=ko&text="
+
+    client = "JWbwyw6JUK6PwcK1KsDx"
+    secret = "7C0tkQQbPp"
+
+    request_url = "https://openapi.naver.com/v1/papago/n2mt"
+    headers = {"X-Naver-Client-Id": client, "X-Naver-Client-Secret": secret}
+    params = {"source": "en", "target": "ko", "text": text}
+    response = requests.post(request_url, headers=headers, data=params)
+    # print(response.text)
+    result = response.json()
+
+    return result['message']['result']['translatedText']
+
+
 def main():
-    src = "./art_final/"
-    dest = "../public/img_data/art_processed/"
 
-    whole_preprocess(src, dest)
+    src = "./test/"
+    dest = "../public/img_data/art_processed_kor/"
 
+    img_id_list = ['1','2','4','5','9','11','17','18']
 
+    img_id_test = ["grande_hd", "grande_hd_p"]
 
     '''
-    background = \
-        {"name": "배경", "polygon": {{"pt": [{"x": 0, "y": 0}, {"x": img['width'], "y": 0},
-                          {"x": img['width'], "y": img['height']}, {"x": 0, "y": img['height']}],
-         # "category": "배경"
-         "category": "background"
-         }}}
-    
-    ann.append(background)
+    for i in img_id:
+        art_data_preprocess(i, src, dest)
     '''
+    whole_preprocess(img_id_test, src, dest)
 
 
 if __name__ == '__main__':

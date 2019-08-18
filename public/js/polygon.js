@@ -128,9 +128,10 @@ function get_objects_list(annotations){
     return result_list;
   }
 
-function draw_polygon(seg_mode){
+function draw_polygon(mode){
 
-    if(seg_mode == "fine"){ //fine(polygon mode)
+    if(mode == "m" && lan == "e"){ //fine(polygon mode)
+        img_file = image_data_m;
         d3.selectAll("polygon").remove();
         svg.selectAll("polygon")
         .data(img_file.annotation.object)
@@ -144,14 +145,34 @@ function draw_polygon(seg_mode){
         ;
     }
 
-    else if(seg_mode == "rough"){ //rough(bbox mode)
+    else if(mode == "m" && lan == "k"){ //fine(polygon mode)
+        img_file = image_data_k;
         d3.selectAll("polygon").remove();
         svg.selectAll("polygon")
-        .data(img_file.annotations)
+        .data(img_file.annotation.object)
         .enter().append("polygon")
-        .attr("points",function(d) {
-            return d.bbox.map(function(d) {
-                    return [x(d[0]),y(d[1])].join(","); }).join(" "); });
+        .attr("points", function(d) {
+            if(d['deleted'] != "1"){
+
+                return d.polygon.pt.map(function(d) {
+                        //console.log(d);
+                        return [x(d['x']),y(d['y'])].join(","); }).join(" "); }})
+        ;
+    }
+
+    else if(mode == "p"){ //rough(bbox mode)
+        img_file = image_data_p;
+        d3.selectAll("polygon").remove();
+        svg.selectAll("polygon")
+        .data(img_file.annotation.object)
+        .enter().append("polygon")
+        .attr("points", function(d) {
+            if(d['deleted'] != "1"){
+
+                return d.polygon.pt.map(function(d) {
+                        //console.log(d);
+                        return [x(d['x']),y(d['y'])].join(","); }).join(" "); }})
+        ;
     }
 
     //polygon opacity, fill color(random)
@@ -163,9 +184,12 @@ function draw_polygon(seg_mode){
   })
 
   .attr("category", function(d){
+    d.name = d.name.replace('.', '');
     return d.name;})
     .append("svg:title")
     .text(function(d) {
+        d.name = d.name.replace('.', '');
+        d.attributes = d.attributes.replace('.', '');
         return d.name + ".." + d.attributes;
      });
 }
@@ -180,11 +204,26 @@ var svg = d3.select(".image").append("svg")
   .attr("height", img_height)
   .attr("viewBox", "0 0 "+String(img_width)+" "+String(img_height))
   .attr("preserveAspectRatio", "xMinYMin meet")
-  .append("g");
+  .append("g")
+  .on("click", function(){
+        if(mode == "m"){
+            mode = "p";
+            draw_polygon(mode);
+        }
+        else{
+            mode = "m";
+            draw_polygon(mode);
+        }
 
- var seg_mode = "fine";
 
-  var img_file = image_data;
+    });
+
+ var mode = "m";
+
+ if(lan == "e")
+    var img_file = image_data_m;
+ else if(lan == "k")
+    var img_file = image_data_k;
 
   var img_file_name = img_file['annotation']['filename'];
 
@@ -213,20 +252,30 @@ function zoomed() {
     y.call(d3.event.transform.rescaleY(y));
 }
 
+ if(img_id == "9"){
+    var portion = 1.163;
+    var y_start = -410;
+  }
+  else{
+    var portion = 1;
+    var y_start = 1;
+  }
+
   var image = svg.append('image')
     .attr('xlink:href', "https://raw.githubusercontent.com/KwonNH/hearing-masterpiece-mobile/master/public/sample_image/"+img_file_name)
     .attr("x", 1)
-    .attr("y", 1)
+    .attr("y", y_start)
     .attr('width', img_width)
-    .attr('height', img_height);
+    .attr('height', img_height)
+    ;
 
   var x = d3.scaleLinear().range([0, img_width]);
   var y = d3.scaleLinear().range([0, img_height]);
 
-  x.domain([0, img_width]);
-  y.domain([0, img_height]);
+  x.domain([0, img_width*portion]);
+  y.domain([0, img_height*portion]);
 
-  draw_polygon(seg_mode);
+  draw_polygon(mode);
 
   //svg.call(zoomListener);
 
