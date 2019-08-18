@@ -18,6 +18,7 @@ var art_src_p = "art_prof_processed/";
 
 var image_data_m = null;
 var image_data_p = null;
+var image_data_k = null;
 
 $.ajax({
     'async': false,
