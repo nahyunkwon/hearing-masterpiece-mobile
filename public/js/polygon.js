@@ -184,9 +184,12 @@ function draw_polygon(mode){
   })
 
   .attr("category", function(d){
+    d.name = d.name.replace('.', '');
     return d.name;})
     .append("svg:title")
     .text(function(d) {
+        d.name = d.name.replace('.', '');
+        d.attributes = d.attributes.replace('.', '');
         return d.name + ".." + d.attributes;
      });
 }
@@ -219,8 +222,8 @@ var svg = d3.select(".image").append("svg")
 
  if(lan == "e")
     var img_file = image_data_m;
- else if(len == "k")
-    var img_file = image_dat_k;
+ else if(lan == "k")
+    var img_file = image_data_k;
 
   var img_file_name = img_file['annotation']['filename'];
 
