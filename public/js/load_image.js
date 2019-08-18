@@ -13,8 +13,11 @@ else if(mode == "p"){
 }
 */
 
+var lan = url.searchParams.get("lan");
+
 var art_src_m = "art_processed/";
 var art_src_p = "art_prof_processed/";
+var art_src_k = "art_processed_kor/";
 
 var image_data_m = null;
 var image_data_p = null;
@@ -37,6 +40,16 @@ $.ajax({
     'dataType': "json",
     'success': function (data) {
         image_data_p = data;
+    }
+});
+
+$.ajax({
+    'async': false,
+    'global': false,
+    'url': "./img_data/"+art_src_k+String(img_id)+".json",
+    'dataType': "json",
+    'success': function (data) {
+        image_data_k = data;
     }
 });
 

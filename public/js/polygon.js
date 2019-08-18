@@ -130,8 +130,23 @@ function get_objects_list(annotations){
 
 function draw_polygon(mode){
 
-    if(mode == "m"){ //fine(polygon mode)
+    if(mode == "m" && lan == "e"){ //fine(polygon mode)
         img_file = image_data_m;
+        d3.selectAll("polygon").remove();
+        svg.selectAll("polygon")
+        .data(img_file.annotation.object)
+        .enter().append("polygon")
+        .attr("points", function(d) {
+            if(d['deleted'] != "1"){
+
+                return d.polygon.pt.map(function(d) {
+                        //console.log(d);
+                        return [x(d['x']),y(d['y'])].join(","); }).join(" "); }})
+        ;
+    }
+
+    else if(mode == "m" && lan == "k"){ //fine(polygon mode)
+        img_file = image_data_k;
         d3.selectAll("polygon").remove();
         svg.selectAll("polygon")
         .data(img_file.annotation.object)
@@ -202,7 +217,10 @@ var svg = d3.select(".image").append("svg")
 
  var mode = "m";
 
-  var img_file = image_data_m;
+ if(lan == "e")
+    var img_file = image_data_m;
+ else if(len == "k")
+    var img_file = image_dat_k;
 
   var img_file_name = img_file['annotation']['filename'];
 
