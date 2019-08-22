@@ -52,7 +52,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "mad,horns,angry"
+    "remains": "horns, mad, angry"
    },
    {
     "name": "horse",
@@ -835,7 +835,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "walking,confuse,looking,surprise"
+    "remains": "confuse, looking, surprise, walking"
    },
    {
     "name": "women",
@@ -1534,7 +1534,7 @@
     "color": "grey",
     "location": "",
     "size": "",
-    "remains": "curious,big,confuse,looking,adult"
+    "remains": "looking, adult, curious, big, confuse"
    },
    {
     "name": "mother holding her deceased child",
@@ -1873,7 +1873,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "despair,turmoil,,anguish,sadness,death,heart break"
+    "remains": "anguish, sadness, despair, death, heart break, turmoil, "
    },
    {
     "name": "body of a bull",
@@ -2548,10 +2548,10 @@
      ]
     },
     "area": 18693.5,
-    "color": "grey,small,surprise,big eye",
+    "color": "grey",
     "location": "",
-    "size": "grey,small,surprise,big eye",
-    "remains": ""
+    "size": "small",
+    "remains": "surprise, big eye"
    },
    {
     "name": "bull",
@@ -2811,10 +2811,10 @@
      ]
     },
     "area": 16978.5,
-    "color": "scared",
+    "color": "",
     "location": "",
     "size": "",
-    "remains": "strong ,mean,angry"
+    "remains": "angry, mean, strong, scared"
    },
    {
     "name": "door",
@@ -2997,10 +2997,10 @@
      ]
     },
     "area": 14786.0,
-    "color": "scared,",
+    "color": "",
     "location": "",
     "size": "",
-    "remains": "mouth open"
+    "remains": "mouth open, scared, "
    },
    {
     "name": "hand holding candle",
@@ -3325,7 +3325,7 @@
     "color": "gray",
     "location": "",
     "size": "",
-    "remains": "tilted,monochrome"
+    "remains": "monochrome, tilted"
    },
    {
     "name": "face",
@@ -3433,10 +3433,10 @@
      ]
     },
     "area": 12271.0,
-    "color": "scared",
+    "color": "",
     "location": "",
     "size": "",
-    "remains": "tear drop shaped,worried"
+    "remains": "worried, scared, tear drop shaped"
    },
    {
     "name": "severed head",
@@ -3608,10 +3608,10 @@
      ]
     },
     "area": 10464.5,
-    "color": "severed",
+    "color": "",
     "location": "",
     "size": "",
-    "remains": "disturbing,darkness,beheaded,anguish,death"
+    "remains": "anguish, death, darkness, disturbing, beheaded, severed"
    },
    {
     "name": "light",
@@ -3758,7 +3758,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "spiky edges,eye shaped"
+    "remains": "eye shaped, spiky edges"
    },
    {
     "name": "arm with broken dagger",
@@ -4038,10 +4038,10 @@
      ]
     },
     "area": 9422.0,
-    "color": "shattered,gray",
+    "color": "gray",
     "location": "",
     "size": "",
-    "remains": "pale,,broken,damaged,broken dagger"
+    "remains": "broken, damaged, shattered, broken dagger, pale, "
    },
    {
     "name": "window",
@@ -4151,7 +4151,7 @@
     "color": "",
     "location": "",
     "size": "medium size",
-    "remains": "bricks,centrally positioned"
+    "remains": "centrally positioned, bricks"
    },
    {
     "name": "tail",
@@ -4214,7 +4214,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "thick,hair,flowing,bushy"
+    "remains": "hair, flowing, thick, bushy"
    },
    {
     "name": "the top of a building",
@@ -4265,7 +4265,7 @@
     "color": "gray",
     "location": "",
     "size": "",
-    "remains": "angular,monochrome"
+    "remains": "angular, monochrome"
    },
    {
     "name": "hand",
@@ -4428,7 +4428,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "body,anatomy,arm"
+    "remains": "arm, body, anatomy"
    },
    {
     "name": "leg",
@@ -4579,7 +4579,7 @@
     "color": "grey",
     "location": "",
     "size": "",
-    "remains": "toes,foot"
+    "remains": "foot, toes"
    },
    {
     "name": "a horse_s leg",
@@ -4670,7 +4670,7 @@
     "color": "gray",
     "location": "",
     "size": "",
-    "remains": "shaded,extended"
+    "remains": "shaded, extended"
    },
    {
     "name": "tail",
@@ -4777,7 +4777,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "wiry,horse tail,"
+    "remains": "wiry, horse tail, "
    },
    {
     "name": "arm",
@@ -4816,7 +4816,7 @@
     "color": "white and gray",
     "location": "down.",
     "size": "",
-    "remains": "full of lines,strange shape,extended in the floor"
+    "remains": "full of lines, strange shape, extended in the floor"
    },
    {
     "name": "smoke",
@@ -4956,8 +4956,8 @@
      ]
     },
     "area": 3556.5,
-    "color": "grey,corner",
-    "location": "grey,corner",
+    "color": "grey",
+    "location": "corner",
     "size": "",
     "remains": "abstract"
    },
@@ -5233,7 +5233,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "children,overturned,dead"
+    "remains": "dead, overturned, children"
    },
    {
     "name": "arm",
@@ -5398,7 +5398,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "screaming,toothy,open"
+    "remains": "open, toothy, screaming"
    },
    {
     "name": "doorway",
@@ -5544,7 +5544,7 @@
     "color": "gray",
     "location": "",
     "size": "",
-    "remains": "painful,twisted"
+    "remains": "painful, twisted"
    },
    {
     "name": "triangles",
@@ -5608,10 +5608,10 @@
      ]
     },
     "area": 1527.0,
-    "color": "white,grey",
+    "color": "white, grey",
     "location": "top right",
     "size": "",
-    "remains": "pointy,teeth,spike"
+    "remains": "teeth, pointy, spike"
    },
    {
     "name": "hoof",
@@ -5754,7 +5754,7 @@
     "color": "",
     "location": "bottom left",
     "size": "",
-    "remains": "horse,foot,metal"
+    "remains": "horse, foot, metal"
    },
    {
     "name": "a horse_s hoof",
@@ -5840,7 +5840,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "nostrils,2d,bull,nose"
+    "remains": "nose, bull, 2d, nostrils"
    },
    {
     "name": "hand of a person",
@@ -6016,7 +6016,7 @@
     },
     "area": 964.0,
     "color": "left_ brown_ big",
-    "location": "left_ brown_ big",
+    "location": "",
     "size": "",
     "remains": ""
    },
@@ -6120,7 +6120,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "basic,vague,simple.,2d,lightbulb"
+    "remains": "lightbulb, 2d, vague, basic, simple."
    },
    {
     "name": "flame",
@@ -6281,8 +6281,8 @@
     "area": 744.5,
     "color": "",
     "location": "",
-    "size": "floor,small,beauty",
-    "remains": ""
+    "size": "small",
+    "remains": "floor, beauty"
    },
    {
     "name": "horn",
@@ -6333,7 +6333,7 @@
     "color": "",
     "location": "top left",
     "size": "",
-    "remains": "pointed,bone"
+    "remains": "pointed, bone"
    },
    {
     "name": "ear",
@@ -6427,7 +6427,7 @@
     "color": "grey",
     "location": "",
     "size": "",
-    "remains": "leg,foot,round"
+    "remains": "foot, leg, round"
    },
    {
     "name": "triangle tooth",
@@ -6462,7 +6462,7 @@
     "color": "gray",
     "location": "middle right",
     "size": "",
-    "remains": "point,spike"
+    "remains": "spike, point"
    },
    {
     "name": "triangle",
@@ -6501,7 +6501,7 @@
     "color": "dark grey",
     "location": "",
     "size": "",
-    "remains": "math,geometry"
+    "remains": "geometry, math"
    },
    {
     "name": "mouth",
@@ -6552,7 +6552,7 @@
     "color": "white",
     "location": "up side",
     "size": "small",
-    "remains": "strange,scream"
+    "remains": "scream, strange"
    },
    {
     "name": "eye",
@@ -6591,7 +6591,7 @@
     "color": "white iris",
     "location": "down side",
     "size": "",
-    "remains": "vertical position,vitreous,deadly look"
+    "remains": "vitreous, deadly look, vertical position"
    },
    {
     "name": "left eye",
@@ -6634,7 +6634,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "stylized,gaze,open"
+    "remains": "open, stylized, gaze"
    },
    {
     "name": "another eye",
@@ -6670,10 +6670,10 @@
      ]
     },
     "area": 196.0,
-    "color": "scared,white",
-    "location": "looking upward,dark pupil",
+    "color": "white",
+    "location": "looking upward, dark pupil",
     "size": "",
-    "remains": "bulging"
+    "remains": "scared, bulging"
    },
    {
     "name": "eye",
@@ -6716,7 +6716,7 @@
     "color": "white",
     "location": "looking upward",
     "size": "small",
-    "remains": "goggle,looking helpless"
+    "remains": "goggle, looking helpless"
    },
    {
     "name": "eye",
@@ -6755,7 +6755,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "basic,figure,2d,eyeball,misplaced"
+    "remains": "eyeball, basic, 2d, figure, misplaced"
    },
    {
     "name": "triangle",
@@ -6790,7 +6790,7 @@
     "color": "",
     "location": "",
     "size": "small",
-    "remains": "unclear,abstract,vague"
+    "remains": "abstract, vague, unclear"
    },
    {
     "name": "right eye",
@@ -6829,7 +6829,7 @@
     "color": "",
     "location": "top left",
     "size": "",
-    "remains": "stylized,open"
+    "remains": "open, stylized"
    },
    {
     "name": "horses eye",
@@ -6907,7 +6907,7 @@
     "color": "",
     "location": "",
     "size": "small",
-    "remains": "closed,thin"
+    "remains": "closed, thin"
    },
    {
     "name": "hand",
@@ -6930,9 +6930,9 @@
     },
     "area": 0,
     "color": "",
-    "location": "number of lines on hand,righthand,its very rough",
+    "location": "righthand",
     "size": "",
-    "remains": ""
+    "remains": "number of lines on hand, its very rough"
    },
    {
     "name": "light",
@@ -6955,9 +6955,9 @@
     },
     "area": 0,
     "color": "",
-    "location": "the shape is like octopus,like a eye",
+    "location": "the shape is like octopus",
     "size": "",
-    "remains": "bulb"
+    "remains": "like a eye, bulb"
    },
    {
     "name": "hand with candle",
@@ -6982,7 +6982,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "long hand,candle,flamefingers"
+    "remains": "long hand, candle, flamefingers"
    },
    {
     "name": "face",
@@ -7007,7 +7007,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "eyes,ears,mouth,nose"
+    "remains": "eyes, ears, mouth, nose"
    },
    {
     "name": "horse face",
@@ -7032,7 +7032,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "teeth,nose,opened mouth,eyes"
+    "remains": "teeth, nose, opened mouth, eyes"
    },
    {
     "name": "human face",
@@ -7057,7 +7057,7 @@
     "color": "",
     "location": "right-side",
     "size": "",
-    "remains": "clear,bald,curious,horrified expression,looking forward"
+    "remains": "clear, horrified expression, looking forward, bald, curious"
    },
    {
     "name": "ear",
@@ -7107,7 +7107,7 @@
     "color": "",
     "location": "left",
     "size": "",
-    "remains": "closed,dying"
+    "remains": "closed, dying"
    },
    {
     "name": "skull",

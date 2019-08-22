@@ -249,7 +249,7 @@
      ]
     },
     "area": 58545888.5,
-    "color": "dark brown,complementary colors",
+    "color": "dark brown, complementary colors",
     "location": "",
     "size": "",
     "remains": "shadows"
@@ -679,10 +679,10 @@
      ]
     },
     "area": 20521759.5,
-    "color": "brown,female dress",
+    "color": "brown",
     "location": "",
     "size": "",
-    "remains": ""
+    "remains": "female dress"
    },
    {
     "name": "turban",
@@ -949,7 +949,7 @@
     "color": "blue and beige",
     "location": "",
     "size": "",
-    "remains": "headwear,keeps hair in place"
+    "remains": "headwear, keeps hair in place"
    },
    {
     "name": "head scarf",
@@ -1049,10 +1049,10 @@
      ]
     },
     "area": 18151368.5,
-    "color": "blue,yellow",
+    "color": "blue, yellow",
     "location": "",
     "size": "",
-    "remains": "cloth,head wrap"
+    "remains": "cloth, head wrap"
    },
    {
     "name": "dress",
@@ -1212,7 +1212,7 @@
      ]
     },
     "area": 17771913.0,
-    "color": "green and yellow tint,white collar",
+    "color": "green and yellow tint, white collar",
     "location": "",
     "size": "",
     "remains": "silk dress or gown"
@@ -1267,10 +1267,10 @@
      ]
     },
     "area": 11869035.0,
-    "color": "covered by dress",
+    "color": "",
     "location": "side of upper arm",
     "size": "",
-    "remains": "facing viewer"
+    "remains": "facing viewer, covered by dress"
    },
    {
     "name": "hairscarf",
@@ -1552,7 +1552,7 @@
     "color": "light pink skin",
     "location": "",
     "size": "",
-    "remains": "portrait,focus of the painting,famous person,relaxed"
+    "remains": "famous person, portrait, focus of the painting, relaxed"
    },
    {
     "name": "face",
@@ -1685,9 +1685,9 @@
     },
     "area": 8438647.0,
     "color": "light pink skin",
-    "location": "smile,left side,pointed nose",
+    "location": "left side",
     "size": "",
-    "remains": "portrait,focus of the painting,famous person,relaxed"
+    "remains": "smile, pointed nose, famous person, portrait, focus of the painting, relaxed"
    },
    {
     "name": "hairband",
@@ -1849,7 +1849,7 @@
     "color": "",
     "location": "left",
     "size": "",
-    "remains": "body part,girl"
+    "remains": "body part, girl"
    },
    {
     "name": "headscarf",
@@ -2039,7 +2039,7 @@
     "color": "black",
     "location": "",
     "size": "",
-    "remains": "behind,dark"
+    "remains": "dark, behind"
    },
    {
     "name": "headscarf",
@@ -2142,7 +2142,7 @@
     "color": "white",
     "location": "",
     "size": "",
-    "remains": "cloth,binding"
+    "remains": "binding, cloth"
    },
    {
     "name": "nose",
@@ -2193,7 +2193,7 @@
     "color": "",
     "location": "",
     "size": "small",
-    "remains": "turned,nose"
+    "remains": "turned, nose"
    },
    {
     "name": "collar",
@@ -2344,7 +2344,7 @@
     "color": "white",
     "location": "bright",
     "size": "",
-    "remains": "cloth,soft"
+    "remains": "soft, cloth"
    },
    {
     "name": "forehead",
@@ -2391,7 +2391,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "face,head,girl"
+    "remains": "face, girl, head"
    },
    {
     "name": "neck",
@@ -2438,7 +2438,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "skin,body part,girl"
+    "remains": "skin, girl, body part"
    },
    {
     "name": "chin",
@@ -2616,7 +2616,7 @@
     "color": "white",
     "location": "",
     "size": "small",
-    "remains": "turned,female"
+    "remains": "female, turned"
    },
    {
     "name": "neck",
@@ -2655,7 +2655,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": " slim,turned"
+    "remains": "slim, turned"
    },
    {
     "name": "cheek",
@@ -2790,7 +2790,7 @@
     "color": "flesh colored",
     "location": "side of face",
     "size": "",
-    "remains": "smooth,cheekbone"
+    "remains": "cheekbone, smooth"
    },
    {
     "name": "hear",
@@ -2833,7 +2833,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "blond,head,girl"
+    "remains": "blond, girl, head"
    },
    {
     "name": "lips",
@@ -2876,7 +2876,7 @@
     "color": "red",
     "location": "",
     "size": "",
-    "remains": "talking,open"
+    "remains": "open, talking"
    },
    {
     "name": "ear",
@@ -3002,7 +3002,7 @@
     "color": "white",
     "location": "",
     "size": "",
-    "remains": "smile,cotten,female"
+    "remains": "female, smile, cotten"
    },
    {
     "name": "lips",
@@ -3057,7 +3057,7 @@
     "color": "red",
     "location": "",
     "size": "",
-    "remains": "smile,female"
+    "remains": "female, smile"
    },
    {
     "name": "ear",
@@ -3171,7 +3171,7 @@
     "color": "red",
     "location": "",
     "size": "",
-    "remains": "smile,semi opened,open,lips"
+    "remains": "lips, semi opened, smile, open"
    },
    {
     "name": "earring",
@@ -3228,9 +3228,9 @@
     },
     "area": 250859.5,
     "color": "white pearl earring",
-    "location": "in the middle of the painting,left ear",
+    "location": "in the middle of the painting, left ear",
     "size": "",
-    "remains": "silver,jewel,round,shines"
+    "remains": "jewel, silver, round, shines"
    },
    {
     "name": "earring",
@@ -3285,7 +3285,7 @@
     "color": "",
     "location": "left ear",
     "size": "",
-    "remains": "silver,round,shines"
+    "remains": "silver, round, shines"
    },
    {
     "name": "right eye",
@@ -3330,7 +3330,7 @@
     },
     "area": 107600.0,
     "color": "black pupil",
-    "location": "see left,black pupil",
+    "location": "see left",
     "size": "",
     "remains": "attractive"
    },
@@ -3383,7 +3383,7 @@
     "color": "pink",
     "location": "bottom",
     "size": "",
-    "remains": "smooth,full,soft"
+    "remains": "full, smooth, soft"
    },
    {
     "name": "lip",
@@ -3497,7 +3497,7 @@
     "color": "eye color",
     "location": "",
     "size": "",
-    "remains": "staring,dark"
+    "remains": "dark, staring"
    },
    {
     "name": "pupil and iris",
@@ -3568,7 +3568,7 @@
     "color": "eye color",
     "location": "",
     "size": "",
-    "remains": "staring,dark"
+    "remains": "dark, staring"
    },
    {
     "name": "right eye brow",
@@ -3749,7 +3749,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "womem,looking"
+    "remains": "womem, looking"
    },
    {
     "name": "hair",
@@ -3771,10 +3771,10 @@
      }
     },
     "area": 0,
-    "color": "long,silver color",
+    "color": "silver color",
     "location": "",
     "size": "",
-    "remains": ""
+    "remains": "long"
    },
    {
     "name": "dress",
@@ -3796,7 +3796,7 @@
      }
     },
     "area": 0,
-    "color": "black,with white border",
+    "color": "black, with white border",
     "location": "",
     "size": "",
     "remains": ""
@@ -3821,10 +3821,10 @@
      }
     },
     "area": 0,
-    "color": "covers,black color",
+    "color": "black color",
     "location": "",
     "size": "",
-    "remains": ""
+    "remains": "covers"
    },
    {
     "name": "ear",
@@ -3847,7 +3847,7 @@
     },
     "area": 0,
     "color": "",
-    "location": "right side,",
+    "location": "right side",
     "size": "",
     "remains": ""
    },
@@ -3874,7 +3874,7 @@
     "color": "white colour chubby cheek",
     "location": "",
     "size": "",
-    "remains": "straight hair,polite,bonetail the hair"
+    "remains": "straight hair, bonetail the hair, polite"
    },
    {
     "name": "dress",
@@ -4180,7 +4180,7 @@
     "color": "blue",
     "location": "",
     "size": "",
-    "remains": "light,soft"
+    "remains": "soft, light"
    },
    {
     "name": "cloth",
@@ -4205,7 +4205,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "sad,no reaction on her face"
+    "remains": "sad, no reaction on her face"
    },
    {
     "name": "blue",

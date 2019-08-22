@@ -164,7 +164,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "dark,clear,female,realistic,outline"
+    "remains": "clear, realistic, dark, female, outline"
    },
    {
     "name": "human",
@@ -415,10 +415,10 @@
      ]
     },
     "area": 346354.0,
-    "color": "green,blurred",
+    "color": "green",
     "location": "",
     "size": "",
-    "remains": "dark,grassy background"
+    "remains": "blurred, dark, grassy background"
    },
    {
     "name": "sky",
@@ -487,7 +487,7 @@
     },
     "area": 166998.5,
     "color": "gray",
-    "location": "up,above woman",
+    "location": "up, above woman",
     "size": "",
     "remains": "cold"
    },
@@ -597,10 +597,10 @@
      ]
     },
     "area": 69102.0,
-    "color": "brown,black",
+    "color": "brown, black",
     "location": "",
     "size": "",
-    "remains": "attractive,smooth,shiny,dark,long,straight,female"
+    "remains": "dark, long, straight, smooth, shiny, attractive, female"
    },
    {
     "name": "face",
@@ -770,7 +770,7 @@
     "color": "green",
     "location": "",
     "size": "",
-    "remains": "trees,branches,animals"
+    "remains": "trees, animals, branches"
    },
    {
     "name": "forest",
@@ -877,7 +877,7 @@
     "color": "green",
     "location": "",
     "size": "",
-    "remains": "trees,branches,animals"
+    "remains": "trees, animals, branches"
    },
    {
     "name": "human face",
@@ -1069,7 +1069,7 @@
     },
     "area": 39844.5,
     "color": "dark brown mass of land",
-    "location": "left,bottom corner",
+    "location": "left, bottom corner",
     "size": "",
     "remains": ""
    },
@@ -1166,7 +1166,7 @@
     "color": "beige",
     "location": "",
     "size": "",
-    "remains": "clean,no jewels,empty,skin"
+    "remains": "empty, clean, no jewels, skin"
    },
    {
     "name": "neck",
@@ -1305,10 +1305,10 @@
      ]
     },
     "area": 34499.0,
-    "color": "black,garment,covering the body,silk",
+    "color": "black",
     "location": "",
     "size": "",
-    "remains": "dark,classic"
+    "remains": "dark, classic, garment, covering the body, silk"
    },
    {
     "name": "breast",
@@ -1403,7 +1403,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "maternal,woman,body part"
+    "remains": "maternal, woman, body part"
    },
    {
     "name": "right hand",
@@ -1802,7 +1802,7 @@
     "color": "white",
     "location": "bottom front",
     "size": "",
-    "remains": "clean,resting"
+    "remains": "resting, clean"
    },
    {
     "name": "hill",
@@ -1997,10 +1997,10 @@
      ]
     },
     "area": 25425.5,
-    "color": "embroidered,brown",
+    "color": "brown",
     "location": "",
     "size": "",
-    "remains": "fabric"
+    "remains": "embroidered, fabric"
    },
    {
     "name": "sleeve",
@@ -2059,7 +2059,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "clothing,arm"
+    "remains": "arm, clothing"
    },
    {
     "name": "armrest",

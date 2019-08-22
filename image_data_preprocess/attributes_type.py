@@ -11,6 +11,27 @@ import json
 import requests
 
 
+def attr_filter(w):
+    color_terms = ["black", "white", "green", "yellow", "blue", "brown",
+                   "orange", "pink", "purple", "gray", "beige", "color", "grey", "burgundy"]
+    location_terms = ["right", "left", "center", "up", "above", "under", "down",
+                      "corner", "bottom", "front", "rear", "side", "middle", "top", "below", "core"]
+    size_terms = ["large", "small", "medium", "size"]
+
+    if w.strip() == "red":
+        return "c"
+    for c in color_terms:
+        if c in w:
+            return "c"
+    for l in location_terms:
+        if l in w:
+            return "l"
+    for s in size_terms:
+        if s in w:
+            return "s"
+    return "r"
+
+
 def filtering(src, dest, id):
     # words = ['amazing', 'interesting', 'love', 'great', 'nice']
     '''
@@ -27,41 +48,35 @@ def filtering(src, dest, id):
 
     ann = img['object']
 
-    color_terms = ["black", "white", "red", "green", "yellow", "blue", "brown",
-                   "orange", "pink", "purple", "gray", "beige", "color", "grey"]
-    location_terms = ["right", "left", "center", "up", "above", "under", "down",
-                      "corner", "bottom", "front", "rear", "side", "middle", "top", "below", "core"]
-    size_terms = ["large", "small", "medium", "size"]
-
     for obj in ann:
         try:
-            attr_list = obj['attributes'].split(', ')
+            attr_list = obj['attributes'].split(',')
         except AttributeError:
             break
 
         color = []
         location = []
         size = []
+        remains = []
 
-        for w in attr_list:
-            for c in color_terms:
-                if c in w:
-                    color.append(w)
-                    break
-            for l in location_terms:
-                if l in w:
-                    location.append(w)
-                    break
-            for s in size_terms:
-                if s in w:
-                    size.append(w)
-                    break
+        for word in attr_list:
+            w = word.strip()
+            result = attr_filter(w)
+            if result == "c":
+                color.append(w)
+            elif result == "l":
+                location.append(w)
+            elif result == "s":
+                size.append(w)
+            else:
+                remains.append(w)
 
+        '''
         filtered = []
         filtered = filtered + color + location + size
 
         remains = list(set(attr_list)-set(filtered))
-
+        '''
         color_str = ""
         location_str = ""
         size_str = ""
@@ -71,25 +86,25 @@ def filtering(src, dest, id):
             if i == len(color) - 1:
                 color_str = color_str + color[i]
             else:
-                color_str = color_str + color[i] + ","
+                color_str = color_str + color[i] + ", "
 
         for i in range(len(location)):
             if i == len(location) - 1:
                 location_str = location_str + location[i]
             else:
-                location_str = location_str + location[i] + ","
+                location_str = location_str + location[i] + ", "
 
         for i in range(len(size)):
             if i == len(size) - 1:
                 size_str = size_str + size[i]
             else:
-                size_str = size_str + size[i] + ","
+                size_str = size_str + size[i] + ", "
 
         for i in range(len(remains)):
             if i == len(remains) - 1:
                 remains_str = remains_str + remains[i]
             else:
-                remains_str = remains_str + remains[i] + ","
+                remains_str = remains_str + remains[i] + ", "
 
         obj['color'] = color_str
         obj['location'] = location_str
@@ -130,7 +145,7 @@ def test():
     color_terms = ["black", "white", "red", "green", "yellow", "blue", "brown",
                    "orange", "pink", "purple", "gray", "beige", "color", "grey", "gold", "silver"]
     location_terms = ["right", "left", "center", "up", "above", "under", "down",
-                      "corner", "bottom", "front", "rear", "side", "middle", "top", "below", "core"]
+                      "corner", "bottom", "front", "rear", "side", "middle", "top", "below", "core", "behind"]
     size_terms = ["large", "small", "medium", "size"]
 
     obj = ann[-1]

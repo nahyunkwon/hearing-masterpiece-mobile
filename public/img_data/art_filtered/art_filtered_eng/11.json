@@ -183,7 +183,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "rough walk,not smooth,ground,cobblestone street,bumpy"
+    "remains": "cobblestone street, bumpy, not smooth, rough walk, ground"
    },
    {
     "name": "arch",
@@ -246,7 +246,7 @@
     "color": "",
     "location": "left",
     "size": "large",
-    "remains": "silver,arch"
+    "remains": "silver, arch"
    },
    {
     "name": "window",
@@ -409,7 +409,7 @@
     },
     "area": 569988.0,
     "color": "yellow",
-    "location": "above patio seating,left side middle",
+    "location": "above patio seating, left side middle",
     "size": "",
     "remains": ""
    },
@@ -772,7 +772,7 @@
     "color": "grey",
     "location": "",
     "size": "",
-    "remains": "old,bumpy,round,cobblestone"
+    "remains": "cobblestone, round, bumpy, old"
    },
    {
     "name": "window",
@@ -888,7 +888,7 @@
     },
     "area": 297481.0,
     "color": "mainly green sides with darker bottom",
-    "location": "left side,mainly green sides with darker bottom",
+    "location": "left side",
     "size": "small building in comparison",
     "remains": ""
    },
@@ -929,7 +929,7 @@
     "color": "blue",
     "location": "",
     "size": "",
-    "remains": "home,dark,distant,building"
+    "remains": "distant, building, dark, home"
    },
    {
     "name": "door",
@@ -1105,10 +1105,10 @@
      ]
     },
     "area": 237950.5,
-    "color": "house,yellow,rectangle,",
+    "color": "yellow",
     "location": "",
     "size": "",
-    "remains": ""
+    "remains": "house, rectangle, "
    },
    {
     "name": "floor",
@@ -1186,7 +1186,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "far away,dark,distant,background"
+    "remains": "background, dark, far away, distant"
    },
    {
     "name": "window",
@@ -1306,10 +1306,10 @@
      ]
     },
     "area": 81375.5,
-    "color": "door,green,rectangle,",
+    "color": "green",
     "location": "",
     "size": "",
-    "remains": ""
+    "remains": "door, rectangle, "
    },
    {
     "name": "table",
@@ -1415,7 +1415,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "shop window,dark,distant"
+    "remains": "shop window, distant, dark"
    },
    {
     "name": "table",
@@ -1601,10 +1601,10 @@
      ]
     },
     "area": 52553.5,
-    "color": "dining chair,brown,near table",
+    "color": "brown",
     "location": "",
     "size": "",
-    "remains": ""
+    "remains": "dining chair, near table"
    },
    {
     "name": "character",
@@ -1734,8 +1734,8 @@
      ]
     },
     "area": 50853.0,
-    "color": "black bottom,yellow window",
-    "location": "right side,black bottom",
+    "color": "black bottom, yellow window",
+    "location": "right side",
     "size": "",
     "remains": "rectangle"
    },
@@ -1841,10 +1841,10 @@
      ]
     },
     "area": 50835.0,
-    "color": "black,4x4,door",
+    "color": "black",
     "location": "",
     "size": "",
-    "remains": ""
+    "remains": "4x4, door"
    },
    {
     "name": "people",
@@ -2003,10 +2003,10 @@
      ]
     },
     "area": 48849.0,
-    "color": "white,restaurant,dining table",
+    "color": "white",
     "location": "",
     "size": "",
-    "remains": ""
+    "remains": "restaurant, dining table"
    },
    {
     "name": "lady",
@@ -2096,7 +2096,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "window,wood,open"
+    "remains": "wood, open, window"
    },
    {
     "name": "man",
@@ -2204,10 +2204,10 @@
      ]
     },
     "area": 38136.0,
-    "color": "male,30,whiteshirt,at work",
+    "color": "whiteshirt",
     "location": "",
     "size": "",
-    "remains": ""
+    "remains": "male, 30, at work"
    },
    {
     "name": "window",
@@ -2246,7 +2246,7 @@
     "color": "yellow",
     "location": "",
     "size": "small",
-    "remains": "panes,distant"
+    "remains": "distant, panes"
    },
    {
     "name": "table",
@@ -2339,8 +2339,8 @@
     },
     "area": 33289.0,
     "color": "white",
-    "location": "left side,small",
-    "size": "left side,small",
+    "location": "left side",
+    "size": "small",
     "remains": ""
    },
    {
@@ -2401,10 +2401,10 @@
      ]
     },
     "area": 33093.5,
-    "color": "right,brown,near table",
-    "location": "right,brown,near table",
+    "color": "brown",
+    "location": "right",
     "size": "",
-    "remains": ""
+    "remains": "near table"
    },
    {
     "name": "window pane",
@@ -2443,7 +2443,7 @@
     "color": "yellow",
     "location": "",
     "size": "",
-    "remains": "shaded,glass"
+    "remains": "shaded, glass"
    },
    {
     "name": "blind",
@@ -2482,7 +2482,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "window,wood,open"
+    "remains": "wood, open, window"
    },
    {
     "name": "lady",
@@ -2558,10 +2558,10 @@
      ]
     },
     "area": 27967.0,
-    "color": "walk,yellow,right side",
-    "location": "walk,yellow,right side",
+    "color": "yellow",
+    "location": "right side",
     "size": "",
-    "remains": ""
+    "remains": "walk"
    },
    {
     "name": "women",
@@ -2656,7 +2656,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "female,40,saree,"
+    "remains": "female, 40, saree, "
    },
    {
     "name": "blind",
@@ -2695,7 +2695,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "window,wood,open"
+    "remains": "wood, open, window"
    },
    {
     "name": "man",
@@ -2763,10 +2763,10 @@
      ]
     },
     "area": 22762.0,
-    "color": "center,yellow,near table",
-    "location": "center,yellow,near table",
+    "color": "yellow",
+    "location": "center",
     "size": "",
-    "remains": ""
+    "remains": "near table"
    },
    {
     "name": "chair",
@@ -2853,7 +2853,7 @@
     "color": "green",
     "location": "center",
     "size": "",
-    "remains": "dark,four-legs"
+    "remains": "dark, four-legs"
    },
    {
     "name": "chair",
@@ -2892,7 +2892,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "tan,old,off"
+    "remains": "tan, old, off"
    },
    {
     "name": "men",
@@ -2961,9 +2961,9 @@
     },
     "area": 21773.0,
     "color": "",
-    "location": "standing,left side,near door",
+    "location": "left side",
     "size": "",
-    "remains": ""
+    "remains": "standing, near door"
    },
    {
     "name": "chair",
@@ -3107,9 +3107,9 @@
     },
     "area": 20604.0,
     "color": "",
-    "location": "walking,cross,right side",
+    "location": "right side",
     "size": "",
-    "remains": ""
+    "remains": "walking, cross"
    },
    {
     "name": "blind",
@@ -3148,7 +3148,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "window,wood,open"
+    "remains": "wood, open, window"
    },
    {
     "name": "man",
@@ -3242,7 +3242,7 @@
     "color": "",
     "location": "high above",
     "size": "",
-    "remains": " dark,looming,shadow"
+    "remains": "dark, looming, shadow"
    },
    {
     "name": "people",
@@ -3329,7 +3329,7 @@
     "color": "",
     "location": "group of people",
     "size": "",
-    "remains": "person,not detailed,abstract,seated"
+    "remains": "person, seated, not detailed, abstract"
    },
    {
     "name": "person",
@@ -3393,10 +3393,10 @@
      ]
     },
     "area": 14617.5,
-    "color": "red clothes,green clothes",
+    "color": "green clothes",
     "location": "",
     "size": "",
-    "remains": "hat,sitting"
+    "remains": "sitting, red clothes, hat"
    },
    {
     "name": "chair",
@@ -3535,10 +3535,10 @@
      ]
     },
     "area": 14070.0,
-    "color": "left sife,brown,table chair",
-    "location": "left sife,brown,table chair",
+    "color": "brown",
+    "location": "left sife",
     "size": "",
-    "remains": ""
+    "remains": "table chair"
    },
    {
     "name": "star",
@@ -3637,8 +3637,8 @@
      ]
     },
     "area": 12075.0,
-    "color": "white top,black legs",
-    "location": "right patio,round top,white top",
+    "color": "white top, black legs",
+    "location": "right patio, round top",
     "size": "",
     "remains": ""
    },
@@ -3766,7 +3766,7 @@
     "color": "yellow",
     "location": "bright",
     "size": "",
-    "remains": "sky,high"
+    "remains": "sky, high"
    },
    {
     "name": "window",
@@ -3805,7 +3805,7 @@
     "color": "yellow",
     "location": "",
     "size": "",
-    "remains": "lit,night"
+    "remains": "lit, night"
    },
    {
     "name": "star",
@@ -3841,10 +3841,10 @@
      ]
     },
     "area": 6490.0,
-    "color": "yellow,white",
-    "location": "top right corner,bright",
+    "color": "yellow, white",
+    "location": "top right corner, bright",
     "size": "small",
-    "remains": "sky,high"
+    "remains": "sky, high"
    },
    {
     "name": "table",
@@ -3901,7 +3901,7 @@
     },
     "area": 6156.5,
     "color": "white top",
-    "location": "left patio,white top",
+    "location": "left patio",
     "size": "",
     "remains": "round"
    },
@@ -3966,7 +3966,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "outdoor,cafè,wood"
+    "remains": "outdoor, wood, cafè"
    },
    {
     "name": "snow blow",
@@ -4062,7 +4062,7 @@
     },
     "area": 5969.5,
     "color": "white top",
-    "location": "left patio,white top",
+    "location": "left patio",
     "size": "",
     "remains": "round in shape"
    },
@@ -4100,7 +4100,7 @@
      ]
     },
     "area": 5855.0,
-    "color": "yellow,blue-ringed",
+    "color": "yellow, blue-ringed",
     "location": "",
     "size": "",
     "remains": "round"
@@ -4140,9 +4140,9 @@
     },
     "area": 5832.0,
     "color": "",
-    "location": "bright,high above",
+    "location": "bright, high above",
     "size": "",
-    "remains": "stars,shining,night sky"
+    "remains": "stars, night sky, shining"
    },
    {
     "name": "window",
@@ -4181,7 +4181,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": " light,light on,over the city"
+    "remains": "light, over the city, light on"
    },
    {
     "name": "star",
@@ -4220,7 +4220,7 @@
     "color": "yellow",
     "location": "",
     "size": "",
-    "remains": "faint,night,distant"
+    "remains": "distant, faint, night"
    },
    {
     "name": "point",
@@ -4242,10 +4242,10 @@
      }
     },
     "area": 0,
-    "color": "house,blue,rectangle,door",
+    "color": "blue",
     "location": "",
     "size": "",
-    "remains": ""
+    "remains": "house, rectangle, door"
    },
    {
     "name": "window",
@@ -4267,10 +4267,10 @@
      }
     },
     "area": 0,
-    "color": "house,squre,yellow",
+    "color": "yellow",
     "location": "",
     "size": "",
-    "remains": ""
+    "remains": "house, squre"
    },
    {
     "name": "point",
@@ -4618,7 +4618,7 @@
     },
     "area": 0,
     "color": "sr right side mid tree has green colur leaves and brown stream",
-    "location": "sr right side mid tree has green colur leaves and brown stream",
+    "location": "",
     "size": "",
     "remains": ""
    }

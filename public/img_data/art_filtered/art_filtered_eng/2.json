@@ -412,7 +412,7 @@
     "color": "",
     "location": "",
     "size": "large",
-    "remains": "smooth,dark,triangular,city"
+    "remains": "dark, triangular, smooth, city"
    },
    {
     "name": "cloud layer",
@@ -555,7 +555,7 @@
     "color": "white",
     "location": "",
     "size": "",
-    "remains": "striped,horizontal"
+    "remains": "horizontal, striped"
    },
    {
     "name": "cloud",
@@ -674,7 +674,7 @@
     "color": "blue",
     "location": "",
     "size": "",
-    "remains": "dashed,swirly"
+    "remains": "swirly, dashed"
    },
    {
     "name": "wind",
@@ -781,7 +781,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "gust,breeze"
+    "remains": "breeze, gust"
    },
    {
     "name": "trees",
@@ -972,7 +972,7 @@
     "color": "green",
     "location": "",
     "size": "medium-large",
-    "remains": "smooth,circular shape,city"
+    "remains": "circular shape, smooth, city"
    },
    {
     "name": "light",
@@ -1027,7 +1027,7 @@
     "color": "yellow",
     "location": "",
     "size": "",
-    "remains": "pale,shining,glow of the moon,brush strokes"
+    "remains": "shining, brush strokes, pale, glow of the moon"
    },
    {
     "name": "star",
@@ -1220,7 +1220,7 @@
     },
     "area": 3474168.5,
     "color": "yellow",
-    "location": "top,right,corner",
+    "location": "top, right, corner",
     "size": "",
     "remains": "circle"
    },
@@ -1338,10 +1338,10 @@
      ]
     },
     "area": 3200794.0,
-    "color": "blue,shades of blue",
-    "location": "top,high up",
+    "color": "blue, shades of blue",
+    "location": "top, high up",
     "size": "",
-    "remains": "moody,night sky"
+    "remains": "moody, night sky"
    },
    {
     "name": "mountain",
@@ -1424,7 +1424,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "mound,hill,mountain"
+    "remains": "hill, mountain, mound"
    },
    {
     "name": "horizon",
@@ -1571,7 +1571,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "obstructed,dark,uneven"
+    "remains": "obstructed, dark, uneven"
    },
    {
     "name": "wind",
@@ -1680,9 +1680,9 @@
     },
     "area": 2150750.5,
     "color": "blue",
-    "location": "bright,center side",
+    "location": "bright, center side",
     "size": "",
-    "remains": "dark,discontinuous,water like"
+    "remains": "dark, discontinuous, water like"
    },
    {
     "name": "bush",
@@ -1820,7 +1820,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "light,star,heat,night"
+    "remains": "light, heat, night, star"
    },
    {
     "name": "church",
@@ -1949,9 +1949,9 @@
     },
     "area": 971794.5,
     "color": "white",
-    "location": "bright,middle",
+    "location": "bright, middle",
     "size": "",
-    "remains": "steeple,tall"
+    "remains": "steeple, tall"
    },
    {
     "name": "sun",
@@ -2023,10 +2023,10 @@
      ]
     },
     "area": 944309.5,
-    "color": "orange,yellow",
+    "color": "orange, yellow",
     "location": "",
     "size": "medium",
-    "remains": "sky,circle,no texture"
+    "remains": "sky, circle, no texture"
    },
    {
     "name": "tree",
@@ -2093,7 +2093,7 @@
     "color": "",
     "location": "bottom right",
     "size": "small",
-    "remains": "simple,dark,brush strokes"
+    "remains": "simple, brush strokes, dark"
    },
    {
     "name": "nightfall",
@@ -2180,7 +2180,7 @@
     "color": "",
     "location": "bright",
     "size": "",
-    "remains": "star,big"
+    "remains": "big, star"
    },
    {
     "name": "trees",
@@ -2276,10 +2276,10 @@
      ]
     },
     "area": 700864.0,
-    "color": "blue,green",
+    "color": "blue, green",
     "location": "bottom right",
     "size": "",
-    "remains": "bushy,round"
+    "remains": "round, bushy"
    },
    {
     "name": "star",
@@ -2344,9 +2344,9 @@
     },
     "area": 699008.5,
     "color": "",
-    "location": "top,center",
+    "location": "top, center",
     "size": "",
-    "remains": "sky,round,background"
+    "remains": "round, background, sky"
    },
    {
     "name": "moon",
@@ -2423,9 +2423,9 @@
     },
     "area": 675182.0,
     "color": "yellow",
-    "location": "bright,high above",
+    "location": "bright, high above",
     "size": "",
-    "remains": "shining,night sky"
+    "remains": "shining, night sky"
    },
    {
     "name": "star",
@@ -2501,10 +2501,10 @@
      ]
     },
     "area": 629741.5,
-    "color": "nightgreen,grey blue,yellow",
+    "color": "nightgreen, grey blue, yellow",
     "location": "center",
     "size": "",
-    "remains": "heat,light,oil paint,space"
+    "remains": "oil paint, light, heat, space"
    },
    {
     "name": "house",
@@ -2557,9 +2557,9 @@
     },
     "area": 627280.5,
     "color": "",
-    "location": "bottom,center",
+    "location": "bottom, center",
     "size": "",
-    "remains": "village,dark,rural,background"
+    "remains": "dark, rural, background, village"
    },
    {
     "name": "grass",
@@ -2603,7 +2603,7 @@
      ]
     },
     "area": 550787.5,
-    "color": "green,blue,black",
+    "color": "green, blue, black",
     "location": "",
     "size": "",
     "remains": "leaf"
@@ -2651,9 +2651,9 @@
     },
     "area": 524194.0,
     "color": "white",
-    "location": "bottom,right",
+    "location": "bottom, right",
     "size": "",
-    "remains": "pointed roof,windows"
+    "remains": "windows, pointed roof"
    },
    {
     "name": "star",
@@ -2712,7 +2712,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "light,heat,sun,night,space"
+    "remains": "light, heat, sun, space, night"
    },
    {
     "name": "house",
@@ -2765,9 +2765,9 @@
     },
     "area": 507722.0,
     "color": "",
-    "location": "bottom,center",
+    "location": "bottom, center",
     "size": "",
-    "remains": "village,dark,rural"
+    "remains": "dark, rural, village"
    },
    {
     "name": "blue part",
@@ -2970,7 +2970,7 @@
      ]
     },
     "area": 486811.0,
-    "color": "yellow,blue",
+    "color": "yellow, blue",
     "location": "top",
     "size": "",
     "remains": "round"
@@ -3143,7 +3143,7 @@
     "color": "grey",
     "location": "",
     "size": "small",
-    "remains": "two visible windows,smooth,triangles,city"
+    "remains": "smooth, triangles, two visible windows, city"
    },
    {
     "name": "star",
@@ -3208,9 +3208,9 @@
     },
     "area": 425137.0,
     "color": "",
-    "location": "top,left",
+    "location": "top, left",
     "size": "",
-    "remains": "sky,round,background"
+    "remains": "round, background, sky"
    },
    {
     "name": "trees",
@@ -3289,7 +3289,7 @@
     "color": "green",
     "location": "group",
     "size": "",
-    "remains": "dark,round"
+    "remains": "round, dark"
    },
    {
     "name": "star",
@@ -3401,8 +3401,8 @@
      ]
     },
     "area": 410483.5,
-    "color": "grey blue,yellow center,",
-    "location": "right,yellow center,",
+    "color": "grey blue, yellow center",
+    "location": "right",
     "size": "",
     "remains": ""
    },
@@ -3526,7 +3526,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "dwelling,sleep"
+    "remains": "dwelling, sleep"
    },
    {
     "name": "mountain",
@@ -3589,7 +3589,7 @@
     "color": "dark green",
     "location": "",
     "size": "small",
-    "remains": "round shape,city"
+    "remains": "round shape, city"
    },
    {
     "name": "star",
@@ -3654,9 +3654,9 @@
     },
     "area": 373094.0,
     "color": "",
-    "location": "top,left",
+    "location": "top, left",
     "size": "",
-    "remains": "sky,round,background"
+    "remains": "round, background, sky"
    },
    {
     "name": "building",
@@ -3781,7 +3781,7 @@
     },
     "area": 365956.0,
     "color": "white",
-    "location": "right,bottom,corner,behind first object in right bottom corner",
+    "location": "right, bottom, corner, behind first object in right bottom corner",
     "size": "",
     "remains": ""
    },
@@ -3824,7 +3824,7 @@
     },
     "area": 365320.0,
     "color": "red",
-    "location": "middle house,rooftop",
+    "location": "middle house, rooftop",
     "size": "",
     "remains": "triangular"
    },
@@ -3885,7 +3885,7 @@
     "color": "yellow",
     "location": "",
     "size": "",
-    "remains": "pale,glowing,magical,shining"
+    "remains": "glowing, shining, pale, magical"
    },
    {
     "name": "star",
@@ -3997,7 +3997,7 @@
     },
     "area": 250163.5,
     "color": "blue roof",
-    "location": "bottom,to the left of a tree",
+    "location": "bottom, to the left of a tree",
     "size": "small",
     "remains": "simple"
    },
@@ -4066,7 +4066,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "sky,little"
+    "remains": "sky, little"
    },
    {
     "name": "house",
@@ -4109,7 +4109,7 @@
     "color": "",
     "location": "",
     "size": "small",
-    "remains": "unclear,lit"
+    "remains": "lit, unclear"
    },
    {
     "name": "trees",
@@ -4150,9 +4150,9 @@
     },
     "area": 236363.0,
     "color": "white",
-    "location": "bright,center positioned",
+    "location": "bright, center positioned",
     "size": "",
-    "remains": "bluish,distant"
+    "remains": "distant, bluish"
    },
    {
     "name": "tree",
@@ -4300,7 +4300,7 @@
      ]
     },
     "area": 234026.5,
-    "color": "black,green",
+    "color": "black, green",
     "location": "middle-right",
     "size": "",
     "remains": "next to church"
@@ -4355,10 +4355,10 @@
      ]
     },
     "area": 200190.0,
-    "color": "blue,gray",
+    "color": "blue, gray",
     "location": "",
     "size": "",
-    "remains": "comfort,home"
+    "remains": "comfort, home"
    },
    {
     "name": "star",
@@ -4418,7 +4418,7 @@
      ]
     },
     "area": 197397.0,
-    "color": "white,yellow",
+    "color": "white, yellow",
     "location": "left",
     "size": "",
     "remains": "round"
@@ -4523,7 +4523,7 @@
     "color": "gray",
     "location": "",
     "size": "",
-    "remains": "comfort,home"
+    "remains": "comfort, home"
    },
    {
     "name": "church",
@@ -4582,7 +4582,7 @@
     "color": "grey",
     "location": "",
     "size": "small",
-    "remains": "smooth,triangle,city"
+    "remains": "triangle, smooth, city"
    },
    {
     "name": "star",
@@ -4729,8 +4729,8 @@
      ]
     },
     "area": 170168.0,
-    "color": "light blue,orange colored center",
-    "location": "top,left,orange colored center",
+    "color": "light blue, orange colored center",
+    "location": "top, left",
     "size": "",
     "remains": ""
    },
@@ -4836,7 +4836,7 @@
     },
     "area": 122869.5,
     "color": "red",
-    "location": "bottom,left",
+    "location": "bottom, left",
     "size": "",
     "remains": ""
    },
@@ -4918,10 +4918,10 @@
      ]
     },
     "area": 119218.0,
-    "color": "obscured partially",
+    "color": "",
     "location": "right",
     "size": "small",
-    "remains": ""
+    "remains": "obscured partially"
    },
    {
     "name": "house",
@@ -4960,7 +4960,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "comfort,home,sweet"
+    "remains": "comfort, sweet, home"
    },
    {
     "name": "house",
@@ -5040,10 +5040,10 @@
      ]
     },
     "area": 93557.5,
-    "color": "red striped roof",
+    "color": "",
     "location": "center",
     "size": "",
-    "remains": "partial,near tree"
+    "remains": "partial, near tree, red striped roof"
    },
    {
     "name": "window",
@@ -5082,7 +5082,7 @@
     "color": "brownish",
     "location": "",
     "size": "small",
-    "remains": "dark,wooden made,glass"
+    "remains": "dark, wooden made, glass"
    },
    {
     "name": "house",
@@ -5175,9 +5175,9 @@
     },
     "area": 50794.5,
     "color": "",
-    "location": "right,right of church and partially exposed",
+    "location": "right, right of church and partially exposed",
     "size": "",
-    "remains": "partial,obscure"
+    "remains": "partial, obscure"
    },
    {
     "name": "house",
@@ -5216,7 +5216,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "comfort,home"
+    "remains": "comfort, home"
    },
    {
     "name": "center light of a star",
@@ -5261,7 +5261,7 @@
     },
     "area": 48818.5,
     "color": "",
-    "location": "more bright than the aura,the center of a star",
+    "location": "more bright than the aura, the center of a star",
     "size": "",
     "remains": ""
    },
@@ -5302,7 +5302,7 @@
     "color": "black",
     "location": "",
     "size": "small",
-    "remains": "dark,wooden made,rectangular"
+    "remains": "dark, wooden made, rectangular"
    },
    {
     "name": "window",
@@ -5341,7 +5341,7 @@
     "color": "",
     "location": "down side",
     "size": "small",
-    "remains": "dark,wooden like,distant"
+    "remains": "dark, distant, wooden like"
    },
    {
     "name": "window",
@@ -5380,7 +5380,7 @@
     "color": "",
     "location": "down side",
     "size": "small",
-    "remains": "lit,wooden like,distant"
+    "remains": "lit, distant, wooden like"
    },
    {
     "name": "center of a star",
@@ -5421,7 +5421,7 @@
     },
     "area": 18452.5,
     "color": "",
-    "location": "more bright than the aura,the center of a star",
+    "location": "more bright than the aura, the center of a star",
     "size": "",
     "remains": ""
    },
@@ -5460,7 +5460,7 @@
     },
     "area": 15471.5,
     "color": "",
-    "location": "middle bottom of the image,a light outside an house",
+    "location": "middle bottom of the image, a light outside an house",
     "size": "",
     "remains": ""
    },
@@ -5503,7 +5503,7 @@
     },
     "area": 12281.5,
     "color": "",
-    "location": "a brighter part of a star,core,middle up on the left position",
+    "location": "a brighter part of a star, core, middle up on the left position",
     "size": "",
     "remains": ""
    },
@@ -5642,9 +5642,9 @@
     },
     "area": 3863.5,
     "color": "inside white",
-    "location": "inside white,center of star,deep gold ,left of tree",
-    "size": "medium-sized,small",
-    "remains": ""
+    "location": "center of star, left of tree",
+    "size": "medium-sized, small",
+    "remains": "deep gold"
    },
    {
     "name": "moon",
@@ -5794,7 +5794,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "rough,big,round"
+    "remains": "rough, round, big"
    },
    {
     "name": "point",
@@ -5867,9 +5867,9 @@
     },
     "area": 0,
     "color": "yellow",
-    "location": "far left,near top,middle-top,left star,left of mountain,below first cloud",
-    "size": "small,medium-sized,smaller star",
-    "remains": "abstract,star,circular brush strokes,nucleus,wispy,golden,gold,suns,swirl"
+    "location": "far left, near top, middle-top, left star, left of mountain, below first cloud",
+    "size": "small, medium-sized, smaller star",
+    "remains": "star, swirl, abstract, nucleus, golden, wispy, circular brush strokes, suns, gold"
    }
   ],
   "imagesize": {

@@ -530,10 +530,10 @@
      ]
     },
     "area": 75501.0,
-    "color": "dark-haired",
+    "color": "",
     "location": "",
     "size": "",
-    "remains": "woman with dark hair,naked"
+    "remains": "woman with dark hair, naked, dark-haired"
    },
    {
     "name": "person",
@@ -994,7 +994,7 @@
     "color": "brown",
     "location": "",
     "size": "",
-    "remains": "pale,creamy"
+    "remains": "pale, creamy"
    },
    {
     "name": "3",
@@ -1364,7 +1364,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "female,naked,pale,long hair,brunnette"
+    "remains": "female, naked, pale, long hair, brunnette"
    },
    {
     "name": "female",
@@ -1563,7 +1563,7 @@
     "color": "pink",
     "location": "",
     "size": "",
-    "remains": "dark,distorted"
+    "remains": "dark, distorted"
    },
    {
     "name": "person",
@@ -2319,7 +2319,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "indecent,naked,commando,shameless,liberated."
+    "remains": "indecent, naked, shameless, commando, liberated."
    },
    {
     "name": "sex",
@@ -2607,7 +2607,7 @@
     "color": "black",
     "location": "",
     "size": "",
-    "remains": "flat,surreal,cubistic"
+    "remains": "flat, cubistic, surreal"
    },
    {
     "name": "arm",
@@ -2734,7 +2734,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "hand,strong fingers,straight, long"
+    "remains": "long, straight, strong fingers, hand"
    },
    {
     "name": "cloth",
@@ -2797,7 +2797,7 @@
     "color": "white",
     "location": "",
     "size": "",
-    "remains": "pale,creased,soft"
+    "remains": "pale, creased, soft"
    },
    {
     "name": "cloth",
@@ -2864,7 +2864,7 @@
     "color": "white cloth",
     "location": "",
     "size": "",
-    "remains": "protection,decency,safety,feel comfortable,"
+    "remains": "decency, protection, safety, feel comfortable, "
    },
    {
     "name": "shoulder/arm",
@@ -2923,7 +2923,7 @@
     "color": "beige",
     "location": "",
     "size": "large",
-    "remains": "naked,female,disproportionate"
+    "remains": "female, disproportionate, naked"
    },
    {
     "name": "rock",
@@ -2962,7 +2962,7 @@
     "color": "red",
     "location": "top left",
     "size": "",
-    "remains": "shadowed,dark"
+    "remains": "dark, shadowed"
    },
    {
     "name": "arm",
@@ -3035,9 +3035,9 @@
     },
     "area": 5664.5,
     "color": "dark beige",
-    "location": "elbow upward,up side",
+    "location": "elbow upward, up side",
     "size": "",
-    "remains": "visible armpit,female arm,natural looking"
+    "remains": "visible armpit, female arm, natural looking"
    },
    {
     "name": "arm",
@@ -3082,9 +3082,9 @@
     },
     "area": 5545.0,
     "color": "beige",
-    "location": "right side,upward elbow",
+    "location": "right side, upward elbow",
     "size": "",
-    "remains": "female arm,clenched fist,obtuse lines"
+    "remains": "clenched fist, obtuse lines, female arm"
    },
    {
     "name": "mask",
@@ -3147,7 +3147,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "dark,oblong,round,african"
+    "remains": "dark, round, oblong, african"
    },
    {
     "name": "stomach",
@@ -3190,7 +3190,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "peach,smooth,thin,woman"
+    "remains": "peach, woman, smooth, thin"
    },
    {
     "name": "chest",
@@ -3261,7 +3261,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "dominant strength.,well-toned,muscular,active,fit"
+    "remains": "muscular, fit, well-toned, active, dominant strength."
    },
    {
     "name": "face",
@@ -3424,7 +3424,7 @@
     "color": "light pink",
     "location": "",
     "size": "",
-    "remains": "eyes wide open,oval"
+    "remains": "eyes wide open, oval"
    },
    {
     "name": "grapes",
@@ -3515,7 +3515,7 @@
     "color": "grey",
     "location": "",
     "size": "",
-    "remains": "fruit,circles"
+    "remains": "fruit, circles"
    },
    {
     "name": "breasts",
@@ -3574,7 +3574,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "peach,woman,cream"
+    "remains": "woman, peach, cream"
    },
    {
     "name": "hair",
@@ -3693,7 +3693,7 @@
     "color": "brown",
     "location": "",
     "size": "",
-    "remains": "taken-care of hair,tame hair,straight hair,beautiful"
+    "remains": "tame hair, beautiful, taken-care of hair, straight hair"
    },
    {
     "name": "breasts",
@@ -3760,7 +3760,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "peach,smooth,woman"
+    "remains": "peach, smooth, woman"
    },
    {
     "name": "groin",
@@ -3819,7 +3819,7 @@
     "color": "beige",
     "location": "center side",
     "size": "",
-    "remains": "naked,female,smooth texture"
+    "remains": "naked, female, smooth texture"
    },
    {
     "name": "breast",
@@ -3857,8 +3857,8 @@
     "area": 2815.0,
     "color": "",
     "location": "right side",
-    "size": "small shadow,small lit",
-    "remains": "conspicuous,nude,contrasted"
+    "size": "small shadow, small lit",
+    "remains": "contrasted, conspicuous, nude"
    },
    {
     "name": "person",
@@ -4196,7 +4196,7 @@
     "color": "black",
     "location": "",
     "size": "",
-    "remains": "dark,smooth"
+    "remains": "dark, smooth"
    },
    {
     "name": "wait",
@@ -4290,7 +4290,7 @@
     "color": "",
     "location": "",
     "size": "small",
-    "remains": "pale,messy texture,round"
+    "remains": "pale, messy texture, round"
    },
    {
     "name": "hare",
@@ -4372,7 +4372,7 @@
     "color": "",
     "location": "left center side",
     "size": "",
-    "remains": "stylized,narrow,long"
+    "remains": "stylized, long, narrow"
    },
    {
     "name": "fuchu",
@@ -4466,7 +4466,7 @@
     "color": "pale pink",
     "location": "",
     "size": "large",
-    "remains": "human ear,skin"
+    "remains": "human ear, skin"
    },
    {
     "name": "person",
@@ -4607,7 +4607,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "round,see,circular,vision"
+    "remains": "see, vision, circular, round"
    },
    {
     "name": "eye",
@@ -4663,10 +4663,10 @@
      ]
     },
     "area": 248.0,
-    "color": "black,",
+    "color": "black",
     "location": "",
     "size": "",
-    "remains": "big"
+    "remains": "big, "
    },
    {
     "name": "eye",
@@ -4772,7 +4772,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "shook,screaming,in awe,wide-mouthed,embarrased"
+    "remains": "shook, in awe, screaming, wide-mouthed, embarrased"
    },
    {
     "name": "person",
@@ -4924,7 +4924,7 @@
     "color": "",
     "location": "top left side",
     "size": "",
-    "remains": "stylized,profile"
+    "remains": "stylized, profile"
    },
    {
     "name": "nose",
@@ -4959,7 +4959,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "unique art,2-d drawing,flat nosed,art missed her nose"
+    "remains": "flat nosed, art missed her nose, unique art, 2-d drawing"
    },
    {
     "name": "person",
@@ -5037,7 +5037,7 @@
     "color": "",
     "location": "",
     "size": "enlarged",
-    "remains": "visible,clear,distorted"
+    "remains": "clear, visible, distorted"
    },
    {
     "name": "nose",
@@ -5088,7 +5088,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "nose ,pointy,long,human,sharp,skin"
+    "remains": "long, sharp, pointy, human, nose, skin"
    },
    {
     "name": "eye",
@@ -5127,7 +5127,7 @@
     "color": "",
     "location": "side-view",
     "size": "large",
-    "remains": "dark,clear"
+    "remains": "clear, dark"
    },
    {
     "name": "mouth",
@@ -5397,7 +5397,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "gritty wall,tight,dirty,shut-in,gloomy,enclosed,claustrophobic"
+    "remains": "dirty, enclosed, claustrophobic, tight, gloomy, shut-in, gritty wall"
    },
    {
     "name": "cave side",
@@ -5422,7 +5422,7 @@
     "color": "white",
     "location": "bright wall",
     "size": "",
-    "remains": "well-lit,quartz"
+    "remains": "quartz, well-lit"
    },
    {
     "name": "breast",
@@ -5447,7 +5447,7 @@
     "color": "beige",
     "location": "up side",
     "size": "",
-    "remains": "exposed,big,female breast"
+    "remains": "exposed, female breast, big"
    },
    {
     "name": "leg",

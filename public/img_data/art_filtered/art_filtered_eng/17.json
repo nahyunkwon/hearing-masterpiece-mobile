@@ -408,10 +408,10 @@
      ]
     },
     "area": 203976.0,
-    "color": "green dress,brown hair,white head wear",
+    "color": "green dress, brown hair, white head wear",
     "location": "",
     "size": "",
-    "remains": "holding stomach,appears pregnant"
+    "remains": "appears pregnant, holding stomach"
    },
    {
     "name": "human",
@@ -1006,7 +1006,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "male,blessing,happy"
+    "remains": "male, blessing, happy"
    },
    {
     "name": "man",
@@ -1306,10 +1306,10 @@
      ]
     },
     "area": 186347.5,
-    "color": "large black hat,black cape-like coat",
+    "color": "large black hat, black cape-like coat",
     "location": "",
-    "size": "large black hat",
-    "remains": "holding the woman_s hand,standing closest to the window"
+    "size": "",
+    "remains": "holding the woman_s hand, standing closest to the window"
    },
    {
     "name": "canopy",
@@ -1409,10 +1409,10 @@
      ]
     },
     "area": 61599.5,
-    "color": "red velvet",
+    "color": "",
     "location": "right background",
     "size": "",
-    "remains": "old fashioned"
+    "remains": "red velvet, old fashioned"
    },
    {
     "name": "cloth",
@@ -1455,7 +1455,7 @@
     "color": "green",
     "location": "",
     "size": "",
-    "remains": "folds,grainy,sewn,earthy"
+    "remains": "folds, earthy, grainy, sewn"
    },
    {
     "name": "clothing",
@@ -1494,7 +1494,7 @@
     "color": "blue",
     "location": "",
     "size": "",
-    "remains": "fabric,dress"
+    "remains": "fabric, dress"
    },
    {
     "name": "window",
@@ -1537,7 +1537,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "clear,light,open,window"
+    "remains": "open, window, light, clear"
    },
    {
     "name": "chandelier",
@@ -1616,7 +1616,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "gold,ornate,lighting"
+    "remains": "ornate, lighting, gold"
    },
    {
     "name": "cover",
@@ -1663,7 +1663,7 @@
     "color": "brown",
     "location": "",
     "size": "",
-    "remains": "fabric,clothing"
+    "remains": "clothing, fabric"
    },
    {
     "name": "wall hanging",
@@ -1739,9 +1739,9 @@
      ]
     },
     "area": 24707.5,
-    "color": "golden in color,at the top center,big in size",
-    "location": "golden in color,at the top center,big in size",
-    "size": "golden in color,at the top center,big in size",
+    "color": "golden in color",
+    "location": "at the top center",
+    "size": "big in size",
     "remains": ""
    },
    {
@@ -1962,10 +1962,10 @@
      ]
     },
     "area": 22842.0,
-    "color": "golden in color,at the top center,big in size",
-    "location": "golden in color,at the top center,big in size",
-    "size": "golden in color,at the top center,big in size",
-    "remains": "heavy,lighting,ornate,hanging,shiny,gold,gothic,brass"
+    "color": "golden in color",
+    "location": "at the top center",
+    "size": "big in size",
+    "remains": "ornate, lighting, gold, brass, gold, gothic, hanging, heavy, shiny"
    },
    {
     "name": "fabric",
@@ -2017,10 +2017,10 @@
      ]
     },
     "area": 22449.5,
-    "color": "",
+    "color": "burgundy",
     "location": "",
     "size": "",
-    "remains": "straight, burgundy"
+    "remains": "straight"
    },
    {
     "name": "dog",
@@ -2111,7 +2111,7 @@
     "color": "",
     "location": "in-between the couple",
     "size": "small",
-    "remains": "long hair,terrier-like"
+    "remains": "long hair, terrier-like"
    },
    {
     "name": "ruffles",
@@ -2191,10 +2191,10 @@
      ]
     },
     "area": 21848.5,
-    "color": " green",
+    "color": "green",
     "location": "",
     "size": "",
-    "remains": "dress,bunched fabric,vivid,detailed"
+    "remains": "dress, bunched fabric, detailed, vivid"
    },
    {
     "name": "dog",
@@ -2373,7 +2373,7 @@
     "color": "brown",
     "location": "",
     "size": "small",
-    "remains": "room,smooth"
+    "remains": "room, smooth"
    },
    {
     "name": "ceiling",
@@ -2412,7 +2412,7 @@
     "color": "",
     "location": "above",
     "size": "",
-    "remains": "patterned,dark,wood"
+    "remains": "wood, patterned, dark"
    },
    {
     "name": "window",
@@ -2563,10 +2563,10 @@
      ]
     },
     "area": 17917.5,
-    "color": "brown,long-haired",
+    "color": "brown",
     "location": "in-between the couple",
     "size": "small",
-    "remains": "long hair,young,smooth,terrier-like"
+    "remains": "young, long-haired, long hair, terrier-like, smooth"
    },
    {
     "name": "hat",
@@ -2881,10 +2881,10 @@
      ]
     },
     "area": 14542.0,
-    "color": "red,gathered",
+    "color": "red",
     "location": "top right",
     "size": "",
-    "remains": "fabric, bed canopy,dark"
+    "remains": "bed canopy, fabric, dark, gathered"
    },
    {
     "name": "belly",
@@ -2947,7 +2947,7 @@
     "color": "",
     "location": "hand rests upon it",
     "size": "",
-    "remains": "woman_s belly,with child,intimate,baby bump,pregnant"
+    "remains": "woman_s belly, pregnant, baby bump, intimate, with child"
    },
    {
     "name": "floor",
@@ -3053,7 +3053,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "ornate,gold,relfecting"
+    "remains": "ornate, relfecting, gold"
    },
    {
     "name": "shoes",
@@ -3096,7 +3096,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "clogs,sandles,wooden"
+    "remains": "wooden, clogs, sandles"
    },
    {
     "name": "hat",
@@ -3187,7 +3187,7 @@
     "color": "black",
     "location": "",
     "size": "",
-    "remains": "heavy,dark,floppy,on man_s head"
+    "remains": "on man_s head, floppy, heavy, dark"
    },
    {
     "name": "table",
@@ -3274,10 +3274,10 @@
      ]
     },
     "area": 12003.0,
-    "color": "black,green",
+    "color": "black, green",
     "location": "",
     "size": "",
-    "remains": "man,room,handshake,women"
+    "remains": "room, handshake, man, women"
    },
    {
     "name": "wall mirror",
@@ -3413,10 +3413,10 @@
      ]
     },
     "area": 11444.5,
-    "color": "on the middle center,brown in color,circle in shape",
-    "location": "on the middle center,brown in color,circle in shape",
+    "color": "brown in color",
+    "location": "on the middle center",
     "size": "",
-    "remains": "ornate,gold,relfecting"
+    "remains": "circle in shape, ornate, relfecting, gold"
    },
    {
     "name": "floor",
@@ -3459,7 +3459,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "wood,clean,clear"
+    "remains": "wood, clear, clean"
    },
    {
     "name": "shoes",
@@ -3514,7 +3514,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "clogs,2 shoes,sandals,wooden,feminine,sandles"
+    "remains": "2 shoes, feminine, sandals, wooden, clogs, sandles"
    },
    {
     "name": "sleeve",
@@ -3573,7 +3573,7 @@
     "color": "white",
     "location": "",
     "size": "",
-    "remains": "women_s sleeve,fur,dirty,hanging,long"
+    "remains": "women_s sleeve, fur, long, hanging, dirty"
    },
    {
     "name": "slippers",
@@ -3621,9 +3621,9 @@
      ]
     },
     "area": 9722.0,
-    "color": "they are on the left bottom ,white in colour,normal sized",
-    "location": "they are on the left bottom ,white in colour,normal sized",
-    "size": "they are on the left bottom ,white in colour,normal sized",
+    "color": "white in colour",
+    "location": "they are on the left bottom",
+    "size": "normal sized",
     "remains": ""
    },
    {
@@ -3707,7 +3707,7 @@
     "color": "white",
     "location": "on top of head",
     "size": "",
-    "remains": "elegant,expensive"
+    "remains": "elegant, expensive"
    },
    {
     "name": "head board",
@@ -3766,7 +3766,7 @@
     "color": "brown",
     "location": "",
     "size": "",
-    "remains": " bed post,wooden,tall."
+    "remains": "bed post, wooden, tall."
    },
    {
     "name": "veil",
@@ -3854,10 +3854,10 @@
      ]
     },
     "area": 8419.0,
-    "color": " white",
+    "color": "white",
     "location": "",
     "size": "",
-    "remains": "woman_s head wear,lacy,detailed"
+    "remains": "lacy, detailed, woman_s head wear"
    },
    {
     "name": "window",
@@ -3896,7 +3896,7 @@
     "color": "colorful",
     "location": "",
     "size": "",
-    "remains": "circular pattern,high,stained glass window"
+    "remains": "high, stained glass window, circular pattern"
    },
    {
     "name": "drape",
@@ -3935,7 +3935,7 @@
     "color": "red",
     "location": "",
     "size": "",
-    "remains": "heavy,sturdy"
+    "remains": "heavy, sturdy"
    },
    {
     "name": "chandeliar",
@@ -4006,7 +4006,7 @@
     "color": "",
     "location": "bright",
     "size": "",
-    "remains": "hanging,light,fancy,expensive"
+    "remains": "fancy, light, expensive, hanging"
    },
    {
     "name": "shutter",
@@ -4049,7 +4049,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "folded,dark,open,wood"
+    "remains": "open, folded, wood, dark"
    },
    {
     "name": "wood flooring",
@@ -4092,7 +4092,7 @@
     "color": "",
     "location": "",
     "size": "small",
-    "remains": "rectangle,wood"
+    "remains": "rectangle, wood"
    },
    {
     "name": "curtain",
@@ -4198,7 +4198,7 @@
     "color": "red",
     "location": "",
     "size": "",
-    "remains": "comfort, cushion,dark,seated"
+    "remains": "cushion, dark, comfort, seated"
    },
    {
     "name": "pillow",
@@ -4237,7 +4237,7 @@
     "color": "red",
     "location": "",
     "size": "",
-    "remains": "comfort,plumped,satin"
+    "remains": "satin, plumped, comfort"
    },
    {
     "name": "rug",
@@ -4278,9 +4278,9 @@
     },
     "area": 4945.5,
     "color": "",
-    "location": "far-right,corner",
+    "location": "far-right, corner",
     "size": "",
-    "remains": "patterned,hidden,rug"
+    "remains": "rug, patterned, hidden"
    },
    {
     "name": "dress",
@@ -4319,7 +4319,7 @@
     "color": "green dress",
     "location": "",
     "size": "",
-    "remains": "women,,velvet"
+    "remains": "velvet, women, "
    },
    {
     "name": "wall",
@@ -4358,7 +4358,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "matte,dark,grainy"
+    "remains": "dark, grainy, matte"
    },
    {
     "name": "arm",
@@ -4421,7 +4421,7 @@
     "color": "",
     "location": "left",
     "size": "",
-    "remains": "woman,body part"
+    "remains": "body part, woman"
    },
    {
     "name": "writing",
@@ -4460,7 +4460,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "graffiti,writing,script"
+    "remains": "graffiti, writing, script"
    },
    {
     "name": "mirror",
@@ -4499,7 +4499,7 @@
     "color": "",
     "location": "back side",
     "size": "",
-    "remains": "wall mirror,women,shadow,man"
+    "remains": "wall mirror, shadow, man, women"
    },
    {
     "name": "breast",
@@ -4542,7 +4542,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "pregnant,mother,breastfeeding"
+    "remains": "mother, breastfeeding, pregnant"
    },
    {
     "name": "thermometer",
@@ -4585,7 +4585,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "measurement,temperature,heat"
+    "remains": "heat, measurement, temperature"
    },
    {
     "name": "hand",
@@ -4634,9 +4634,9 @@
     },
     "area": 2008.0,
     "color": "white",
-    "location": "right hand,up",
+    "location": "right hand, up",
     "size": "",
-    "remains": "man_s hand,graceful"
+    "remains": "man_s hand, graceful"
    },
    {
     "name": "neck",
@@ -4683,7 +4683,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "man,body part,skin"
+    "remains": "man, body part, skin"
    },
    {
     "name": "object to clean",
@@ -4801,7 +4801,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "pale,hand,long"
+    "remains": "pale, long, hand"
    },
    {
     "name": "hand",
@@ -4857,10 +4857,10 @@
      ]
     },
     "area": 1815.0,
-    "color": "beige skin,white",
-    "location": "upward,shadowed front,left side,right hand,up",
+    "color": "beige skin, white",
+    "location": "upward, shadowed front, left side, right hand, up",
     "size": "",
-    "remains": "back with light,man_s hand,graceful"
+    "remains": "back with light, man_s hand, graceful"
    },
    {
     "name": "hand",
@@ -4907,7 +4907,7 @@
     "color": "beige",
     "location": "left side",
     "size": "",
-    "remains": "pale,female hand,resting,hand,long,flexed"
+    "remains": "female hand, flexed, resting, pale, long, hand"
    },
    {
     "name": "arm",
@@ -4946,7 +4946,7 @@
     "color": "blue",
     "location": "right side",
     "size": "",
-    "remains": "female arm,wrinkled texture,extended"
+    "remains": "extended, female arm, wrinkled texture"
    },
    {
     "name": "clogs",
@@ -5077,7 +5077,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "on the floor,wood,background"
+    "remains": "on the floor, background, wood"
    },
    {
     "name": "belt",
@@ -5121,10 +5121,10 @@
      ]
     },
     "area": 1181.0,
-    "color": " gathered,brown",
+    "color": "brown",
     "location": "support",
     "size": "",
-    "remains": "tight,holding dress"
+    "remains": "gathered, holding dress, tight"
    },
    {
     "name": "scarf",
@@ -5163,7 +5163,7 @@
     "color": "white scarf",
     "location": "",
     "size": "",
-    "remains": "head,women"
+    "remains": "women, head"
    },
    {
     "name": "forehead",
@@ -5206,7 +5206,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "head,face,woman"
+    "remains": "head, face, woman"
    },
    {
     "name": "shoes",
@@ -5249,7 +5249,7 @@
     "color": "black shoes",
     "location": "",
     "size": "",
-    "remains": "man,shoes"
+    "remains": "shoes, man"
    },
    {
     "name": "window protection bar",
@@ -5430,7 +5430,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "jewelry,neck,gold,woman"
+    "remains": "woman, jewelry, neck, gold"
    },
    {
     "name": "eye",
@@ -5630,7 +5630,7 @@
     "color": "black",
     "location": "",
     "size": "",
-    "remains": "circular,vision"
+    "remains": "vision, circular"
    },
    {
     "name": "mouth",
@@ -5763,7 +5763,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "face,woman,body part"
+    "remains": "face, body part, woman"
    },
    {
     "name": "mouth",
@@ -5802,7 +5802,7 @@
     "color": "white",
     "location": "right side",
     "size": "small",
-    "remains": "pressed lips,female lips"
+    "remains": "pressed lips, female lips"
    },
    {
     "name": "left eye",
@@ -5861,7 +5861,7 @@
     "color": "brown",
     "location": "",
     "size": "",
-    "remains": "low look,semi closed"
+    "remains": "low look, semi closed"
    },
    {
     "name": "mouth",
@@ -5900,7 +5900,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "tongue,eat,taste"
+    "remains": "taste, eat, tongue"
    },
    {
     "name": "eye",
@@ -5939,7 +5939,7 @@
     "color": "black",
     "location": "",
     "size": "",
-    "remains": "see,round"
+    "remains": "see, round"
    },
    {
     "name": "right eye",
@@ -5982,7 +5982,7 @@
     "color": "brown",
     "location": "",
     "size": "",
-    "remains": "low look,semi closed"
+    "remains": "low look, semi closed"
    },
    {
     "name": "right eye",
@@ -6021,7 +6021,7 @@
     "color": "black",
     "location": "",
     "size": "",
-    "remains": "circle,smooth"
+    "remains": "smooth, circle"
    },
    {
     "name": "nose",
@@ -6056,7 +6056,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "circle,standing,olfactory"
+    "remains": "olfactory, circle, standing"
    },
    {
     "name": "dress",

@@ -178,9 +178,9 @@
     },
     "area": 12587070.5,
     "color": "white",
-    "location": "right side,middle age,stand up",
+    "location": "right side, middle age, stand up",
     "size": "",
-    "remains": "male,severe,rural clothes"
+    "remains": "male, rural clothes, severe"
    },
    {
     "name": "male",
@@ -319,7 +319,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "religious,bald,stern,elderly man,angry,glasses"
+    "remains": "elderly man, stern, bald, angry, glasses, religious"
    },
    {
     "name": "woman",
@@ -444,9 +444,9 @@
     },
     "area": 6433314.0,
     "color": "white",
-    "location": "left side,stand up",
+    "location": "left side, stand up",
     "size": "",
-    "remains": "portrait,female,severe,rural clothes"
+    "remains": "portrait, female, severe, rural clothes"
    },
    {
     "name": "woman",
@@ -563,9 +563,9 @@
     },
     "area": 6381363.0,
     "color": "white",
-    "location": "left side,middle age,stand up",
+    "location": "left side, middle age, stand up",
     "size": "",
-    "remains": "severe,farmer"
+    "remains": "farmer, severe"
    },
    {
     "name": "woman",
@@ -692,7 +692,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": " many work done on homes"
+    "remains": "many work done on homes"
    },
    {
     "name": "sky",
@@ -963,7 +963,7 @@
     "color": "blue",
     "location": "",
     "size": "",
-    "remains": "air,clouds,foggy"
+    "remains": "foggy, clouds, air"
    },
    {
     "name": "jacket",
@@ -1010,7 +1010,7 @@
     "color": "black",
     "location": "",
     "size": "",
-    "remains": "thick,long sleeves"
+    "remains": "long sleeves, thick"
    },
    {
     "name": "pinafore",
@@ -1089,7 +1089,7 @@
     "color": "brown",
     "location": "",
     "size": "",
-    "remains": "patterned,smart,conservative,clean."
+    "remains": "patterned, smart, conservative, clean."
    },
    {
     "name": "overalls",
@@ -1140,7 +1140,7 @@
     "color": "blue",
     "location": "",
     "size": "",
-    "remains": "work outfit,dingy,old,dungarees,farmer clothes,denim,worn,overalls"
+    "remains": "dungarees, overalls, denim, overalls, old, worn, dingy, work outfit, farmer clothes"
    },
    {
     "name": "overalls",
@@ -1179,7 +1179,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "man,clothing,jeans"
+    "remains": "jeans, clothing, man"
    },
    {
     "name": "overalls",
@@ -1238,7 +1238,7 @@
     "color": "blue",
     "location": "",
     "size": "",
-    "remains": "work outfit,dingy,farmer clothes, old,worn"
+    "remains": "old, worn, dingy, work outfit, farmer clothes"
    },
    {
     "name": "arm",
@@ -1311,7 +1311,7 @@
     },
     "area": 1030792.0,
     "color": "",
-    "location": "left,upper limb",
+    "location": "left, upper limb",
     "size": "",
     "remains": "body part"
    },
@@ -1727,7 +1727,7 @@
     "color": "",
     "location": "",
     "size": "medium size",
-    "remains": "tool,steel,trident"
+    "remains": "tool, steel, trident"
    },
    {
     "name": "shirt",
@@ -1779,7 +1779,7 @@
      ]
     },
     "area": 719296.0,
-    "color": "white,blue",
+    "color": "white, blue",
     "location": "",
     "size": "",
     "remains": "buttons"
@@ -1825,7 +1825,7 @@
     "color": "blue",
     "location": "",
     "size": "",
-    "remains": "clean,background"
+    "remains": "background, clean"
    },
    {
     "name": "forehead",
@@ -1976,7 +1976,7 @@
     "color": "",
     "location": "two of the skull and one of the scalp. the top of the forehead is marked by the hairline",
     "size": "",
-    "remains": "forehead the forehead is an area of the head bounded by three features,the edge of the area where hair on the scalp grows."
+    "remains": "forehead the forehead is an area of the head bounded by three features, the edge of the area where hair on the scalp grows."
    },
    {
     "name": "roof",
@@ -2051,7 +2051,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "shingles,wood,dark,roof"
+    "remains": "shingles, roof, dark, wood"
    },
    {
     "name": "window",
@@ -2092,9 +2092,9 @@
     },
     "area": 333654.5,
     "color": "",
-    "location": "top center,front of the house",
+    "location": "top center, front of the house",
     "size": "narrow/tall size",
-    "remains": "glass/wood,ogive,attic"
+    "remains": "glass/wood, attic, ogive"
    },
    {
     "name": "window",
@@ -2141,7 +2141,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "light,panes,glass"
+    "remains": "glass, panes, light"
    },
    {
     "name": "hand",
@@ -2189,10 +2189,10 @@
      ]
     },
     "area": 315362.0,
-    "color": "righthand,four fingers,light brown,toe",
-    "location": "righthand,four fingers,light brown,toe",
+    "color": "light brown",
+    "location": "righthand",
     "size": "",
-    "remains": ""
+    "remains": "four fingers, toe"
    },
    {
     "name": "roof",
@@ -2239,7 +2239,7 @@
     "color": "light brown",
     "location": "",
     "size": "",
-    "remains": "land,,square,triangle"
+    "remains": "square, triangle, land, "
    },
    {
     "name": "window",
@@ -2294,7 +2294,7 @@
     "color": "white",
     "location": "",
     "size": "",
-    "remains": "rectangle,house"
+    "remains": "rectangle, house"
    },
    {
     "name": "window",
@@ -2337,7 +2337,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "closed window,mud colour"
+    "remains": "closed window, mud colour"
    },
    {
     "name": "roof",
@@ -2380,7 +2380,7 @@
     "color": "brown",
     "location": "left side",
     "size": "",
-    "remains": " tin roof,panels"
+    "remains": "tin roof, panels"
    },
    {
     "name": "glasses",
@@ -2491,7 +2491,7 @@
     "color": "gray",
     "location": "",
     "size": "normal size",
-    "remains": "face,metal/glass,round"
+    "remains": "face, round, metal/glass"
    },
    {
     "name": "roof",
@@ -2531,10 +2531,10 @@
      ]
     },
     "area": 137003.0,
-    "color": "brown,lines,",
+    "color": "brown",
     "location": "",
     "size": "",
-    "remains": ""
+    "remains": "lines, "
    },
    {
     "name": "border",
@@ -2601,7 +2601,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "decorative,roof,eave,border"
+    "remains": "decorative, border, roof, eave"
    },
    {
     "name": "roof",
@@ -2641,10 +2641,10 @@
      ]
     },
     "area": 125410.0,
-    "color": "brown,vertical lines",
+    "color": "brown",
     "location": "",
     "size": "",
-    "remains": ""
+    "remains": "vertical lines"
    },
    {
     "name": "collar",
@@ -2683,7 +2683,7 @@
     "color": "white",
     "location": "",
     "size": "",
-    "remains": "shirt,stiff"
+    "remains": "shirt, stiff"
    },
    {
     "name": "tree",
@@ -2730,7 +2730,7 @@
     "color": "green",
     "location": "",
     "size": "",
-    "remains": "branches,circular,background"
+    "remains": "branches, background, circular"
    },
    {
     "name": "roof",
@@ -2769,7 +2769,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "house,protection"
+    "remains": "house, protection"
    },
    {
     "name": "barn",
@@ -2832,7 +2832,7 @@
     "color": "red",
     "location": "",
     "size": "",
-    "remains": "behind,barn,wood"
+    "remains": "barn, wood, behind"
    },
    {
     "name": "collar",
@@ -2871,7 +2871,7 @@
     "color": "white",
     "location": "",
     "size": "",
-    "remains": "clean,collar,outfit,smart"
+    "remains": "clean, smart, outfit, collar"
    },
    {
     "name": "ear",
@@ -2922,7 +2922,7 @@
     "color": "",
     "location": "right",
     "size": "",
-    "remains": "face,head"
+    "remains": "face, head"
    },
    {
     "name": "window",
@@ -2961,7 +2961,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "decoration,glass"
+    "remains": "glass, decoration"
    },
    {
     "name": "ear",
@@ -3008,7 +3008,7 @@
     "color": "",
     "location": "left",
     "size": "",
-    "remains": "face,man"
+    "remains": "face, man"
    },
    {
     "name": "chin",
@@ -3063,7 +3063,7 @@
     "color": "",
     "location": "bottom of face",
     "size": "",
-    "remains": "wrinkled,old skin, man_s chin"
+    "remains": "man_s chin, old skin, wrinkled"
    },
    {
     "name": "side of barn",
@@ -3260,7 +3260,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "decoration,vase,organic"
+    "remains": "organic, vase, decoration"
    },
    {
     "name": "nose",
@@ -3335,7 +3335,7 @@
     "color": "",
     "location": "middle of face",
     "size": "",
-    "remains": "face,woman_s nose,average,shape"
+    "remains": "woman_s nose, face, shape, average"
    },
    {
     "name": "trees",
@@ -3382,7 +3382,7 @@
     "color": "green",
     "location": "",
     "size": "",
-    "remains": "good,organic"
+    "remains": "organic, good"
    },
    {
     "name": "wallpaper",
@@ -3419,9 +3419,9 @@
     },
     "area": 36411.0,
     "color": "",
-    "location": " inside",
+    "location": "inside",
     "size": "",
-    "remains": "room,pattern,dark"
+    "remains": "room, pattern, dark"
    },
    {
     "name": "overalls",
@@ -3492,7 +3492,7 @@
     "color": "blue",
     "location": "",
     "size": "",
-    "remains": "overalls,hem"
+    "remains": "hem, overalls"
    },
    {
     "name": "lips",
@@ -3547,7 +3547,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "straight,stern,male lips,elderly,closed"
+    "remains": "male lips, stern, straight, closed, elderly"
    },
    {
     "name": "lips",
@@ -3590,7 +3590,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "women ,smiley,cute"
+    "remains": "women, smiley, cute"
    },
    {
     "name": "cameo",
@@ -3641,7 +3641,7 @@
     "color": "brown/white",
     "location": "",
     "size": "",
-    "remains": "necklace,little,oval"
+    "remains": "necklace, little, oval"
    },
    {
     "name": "eye",
@@ -3747,7 +3747,7 @@
     "color": "white",
     "location": "",
     "size": "",
-    "remains": "vertical, post,porch post,column"
+    "remains": "post, column, porch post, vertical"
    },
    {
     "name": "button",
@@ -3790,7 +3790,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "decoration,usefull,essencial"
+    "remains": "decoration, usefull, essencial"
    },
    {
     "name": "hair",
@@ -3885,7 +3885,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "blond,strand,soft,loose"
+    "remains": "strand, loose, blond, soft"
    },
    {
     "name": "eye",
@@ -3920,7 +3920,7 @@
     "color": "blue",
     "location": "",
     "size": "",
-    "remains": "eyeball,sad.,female,distant"
+    "remains": "female, eyeball, distant, sad."
    },
    {
     "name": "plant",
@@ -3991,7 +3991,7 @@
     "color": "green",
     "location": "left side",
     "size": "",
-    "remains": "three stems,pointy"
+    "remains": "pointy, three stems"
    },
    {
     "name": "lip",
@@ -4270,10 +4270,10 @@
      ]
     },
     "area": 0,
-    "color": "brown,big,long,",
+    "color": "brown",
     "location": "",
     "size": "",
-    "remains": ""
+    "remains": "big, long, "
    },
    {
     "name": "house roof",
@@ -4295,10 +4295,10 @@
      }
     },
     "area": 0,
-    "color": "brown,big,strong.",
+    "color": "brown",
     "location": "",
     "size": "",
-    "remains": ""
+    "remains": "big, strong."
    },
    {
     "name": "jacket",
@@ -4320,10 +4320,10 @@
      }
     },
     "area": 0,
-    "color": "black,cloth,pocket,man",
+    "color": "black",
     "location": "",
     "size": "",
-    "remains": ""
+    "remains": "cloth, pocket, man"
    },
    {
     "name": "window",
