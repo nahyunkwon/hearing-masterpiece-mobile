@@ -189,7 +189,6 @@ function draw_polygon(mode){
     .append("svg:title")
     .text(function(d) {
         d.name = d.name.replace('.', '');
-        d.attributes = d.attributes.replace('.', '');
         return d.name + ".." + d.attributes;
      });
 }
@@ -198,15 +197,40 @@ var margin = {top: 0, right: 20, bottom: 0, left: 50},
     width = 800,
     height = 900;
 
+if(img_id == "1"){
+    var h_p = 0.8;
+    var x_s = -img_width/8;
+}
+else if(img_id == "17"){
+    var h_p = 0.9;
+    var x_s = -img_width/17;
+}
+else{
+    var h_p = 1;
+    var x_s = 0
+}
+
+d3.selection.prototype.dblTap = function(callback) {
+      var last = 0;
+      return this.each(function() {
+        d3.select(this).on("touchstart", function(e) {
+            if ((d3.event.timeStamp - last) < 500) {
+              return callback(e);
+            }
+            last = d3.event.timeStamp;
+        });
+      });
+    }
+
 var svg = d3.select(".image").append("svg")
   .attr("id", "svg")
   .attr("width", img_width)
-  .attr("height", img_height)
-  .attr("viewBox", "0 0 "+String(img_width)+" "+String(img_height))
+  .attr("height", img_height*h_p)
+  .attr("viewBox", String(x_s)+ " 0 "+String(img_width)+" "+String(img_height))
   .attr("preserveAspectRatio", "xMinYMin meet")
   .append("g")
-  .on("click", function(){
-        if(mode == "m"){
+  .dblTap(function() {
+      if(mode == "m"){
             mode = "p";
             draw_polygon(mode);
         }
@@ -214,9 +238,8 @@ var svg = d3.select(".image").append("svg")
             mode = "m";
             draw_polygon(mode);
         }
-
-
     });
+
 
  var mode = "m";
 

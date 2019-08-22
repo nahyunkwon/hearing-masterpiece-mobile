@@ -7,7 +7,7 @@ def xml_to_json():
 
     for i in ['1','2','4','5','9','11','17','18']:
 
-        with open("./art/"+i+".xml", 'r', encoding='utf8') as f:
+        with open("./art_filtered_eng/"+i+".xml", 'r', encoding='utf8') as f:
             xmlString = f.read()
 
         print("xml input (xml_to_json.xml):")

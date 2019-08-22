@@ -28,11 +28,11 @@ def txt_to_csv():
 
 def sort_by_worker_id():
 
-    reader = csv.reader(open("./art/1csv.csv"), delimiter=",")
+    reader = csv.reader(open("./art_filtered_eng/1csv.csv"), delimiter=",")
 
     sortedlist = sorted(reader, key=operator.itemgetter(3), reverse=True)
 
-    with open('./art/1.csv', 'w') as out_file:
+    with open('./art_filtered_eng/1.csv', 'w') as out_file:
         writer = csv.writer(out_file)
         writer.writerow(('img_name', 'worker_id', 'desc'))
         writer.writerows(sortedlist)
@@ -40,7 +40,7 @@ def sort_by_worker_id():
 
 def get_obj_list(img_id):
 
-    img_df = pd.read_csv("./art/" + img_id + "csv.csv")
+    img_df = pd.read_csv("./art_filtered_eng/" + img_id + "csv.csv")
 
     new_df = pd.DataFrame.from_dict(img_df)
 
@@ -74,14 +74,14 @@ def obj_list_to_csv():
 
     print(obj_lists)
 
-    with open("./art/obj_lists.csv", "w", newline="") as f:  # open("output.csv","wb") for Python 2
+    with open("./art_filtered_eng/obj_lists.csv", "w", newline="") as f:  # open("output.csv","wb") for Python 2
         writer = csv.writer(f)
         writer.writerows(obj_lists)
 
 
 def get_stat_data(img_id):
 
-    img_df = pd.read_csv("./art/" + img_id + "csv.csv")
+    img_df = pd.read_csv("./art_filtered_eng/" + img_id + "csv.csv")
 
     new_df = pd.DataFrame.from_dict(img_df)
 
@@ -117,7 +117,7 @@ def stat_data_to_csv():
 
     print(stat_list)
 
-    with open("./art/user_stat.csv", "w", newline="") as f:  # open("output.csv","wb") for Python 2
+    with open("./art_filtered_eng/user_stat.csv", "w", newline="") as f:  # open("output.csv","wb") for Python 2
         writer = csv.writer(f)
         writer.writerows(stat_list)
 
@@ -216,7 +216,7 @@ def main():
 
     print(desc_df)
 
-    desc_df.to_csv("./art/result_desc.csv")
+    desc_df.to_csv("./art_filtered_eng/result_desc.csv")
     '''
 
 
