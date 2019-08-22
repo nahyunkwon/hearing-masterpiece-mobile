@@ -1,0 +1,513 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<!-- Required meta tags -->
+ 	<meta charset="UTF-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+ 	<!-- Bootstrap CSS -->
+ 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+ 	<script src="js/d3.v4.min.js"></script>
+ 	<script src="js/d3.tip.v0.6.3.js"></script>
+ 	<script src="js/responsivevoice.js"></script>
+ 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+ 	<script src="js/d3.button.js"></script>
+
+ 	<title>Art Museum No Name</title>
+
+ </head>
+ <body>
+ 	<!-- 스타일 지정 -->
+ 	<style type="text/css">
+
+ 		img{
+ 			max-width: 100%;
+ 			height: auto;
+ 		}
+
+ 		.thumbnail-wrapper{
+ 			width:50%;
+ 		}
+
+ 		.gallery {
+ 			-webkit-column-count: 3;
+ 			-moz-column-count: 3;
+ 			column-count: 3;
+ 			-webkit-column-width: 33%;
+ 			-moz-column-width: 33%;
+ 			column-width: 33%; }
+ 			.gallery .pics {
+ 				-webkit-transition: all 350ms ease;
+ 				transition: all 350ms ease; }
+ 				.gallery .animation {
+ 					-webkit-transform: scale(1);
+ 					-ms-transform: scale(1);
+ 					transform: scale(1); }
+
+ 					@media (max-width: 450px) {
+ 						.gallery {
+ 							-webkit-column-count: 1;
+ 							-moz-column-count: 1;
+ 							column-count: 1;
+ 							-webkit-column-width: 100%;
+ 							-moz-column-width: 100%;
+ 							column-width: 100%;
+ 						}
+ 					}
+
+ 					@media (max-width: 400px) {
+ 						.btn.filter {
+ 							padding-left: 1.1rem;
+ 							padding-right: 1.1rem;
+ 						}
+ 					}
+ 				</style>
+
+ 				<!-- 네이게이션 바 -->	
+ 				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+ 					<a class="navbar-brand" href="index.html">Digital Art Museum</a>
+ 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+ 						<span class="navbar-toggler-icon"></span>
+ 					</button>
+ 					<div class="collapse navbar-collapse" id="navbarNav">
+ 						<ul class="navbar-nav">
+ 							<li class="nav-item active">
+ 								<a class="nav-link" href="index_home.html">Home <span class="sr-only">(current)</span></a>
+ 							</li>
+ 							<li class="nav-item">
+ 								<a class="nav-link" href="introduce.html">소개</a>
+ 							</li>
+ 						</ul>
+ 					</div>
+ 				</nav>
+
+ 				<!-- 검색창 -->
+ 				<nav class="navbar navbar-light bg-light">
+ 					<form class="form-inline">
+ 						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+ 						<button class="btn btn-outline-success my-2 my-sm-0" type="submit"><a href="search.html">Search</a></button>
+ 					</form>
+ 				</nav>
+
+ 				<!-- 8개의 그림 -->
+ 				<!-- https://mdbootstrap.com/plugins/jquery/gallery/ -->
+ 				<center>
+ 					<div class="col-md-12">
+ 						<div class="row">
+ 							<!-- 첫번쨰 그림 -->
+ 							<div class="card">
+ 								<div class="row no-gutters">
+ 									<div class="col-md-6">
+ 										<a id="1" a href="info.html?title=1">
+ 											<div class="thumbnail-wrapper">
+ 												<img alt="picture" src="./art_image/1_MonaLisa.jpg"
+ 												class="img-fluid"
+ 												title="모나리자">
+ 											</div>
+ 										</a>
+ 									</div>
+
+ 									<div clss="col-md-6">
+ 										<li>
+ 											<b>작가:</b>
+ 											<span>레오나르도 다 빈치</span>
+ 										</li>
+ 										<li>
+ 											<b>연도:</b>
+ 											<span>1500년</span>
+ 										</li>
+ 										<li>
+ 											<b>매체:</b>
+ 											<span >
+ 												포플러 나무 유채
+ 											</span>
+ 										</li>
+ 										<li>
+ 											<b>사조:</b>
+ 											<span >
+ 												전성기 르네상스
+ 											</span>
+ 										</li>
+ 										<li>
+ 											<b>장르:</b>
+ 											<span >
+ 												초상
+ 											</span>
+ 										</li>
+ 										<li>
+ 											<b>크기:</b>
+ 											<span>
+ 												53 x 77 cm
+ 											</span>
+ 										</li>
+ 										<li>
+ 											<b>위치:</b>
+ 											<span>Salle des États</span>
+ 											<span>루브르 박물관 (1797 - )</span>
+ 										</li>
+
+ 										<li>
+ 											<b>소장:</b>
+ 											<span>프랑스</span>
+ 											<span>프랑수아 1세 (1519 - )</span>
+ 										</li>
+ 									</div>
+
+ 								</div>
+ 							</div>
+ 							<!-- 첫번쨰 그림 -->
+
+ 							<!-- 두번쨰 그림 -->
+ 							<div class="card">
+ 								<div class="row no-gutters">
+ 									<div class="col-md-6">
+ 										<a id="1" a href="info.html?title=2">
+ 											<div class="thumbnail-wrapper">
+ 												<img alt="picture" src="./art_image/2_The_Starry_Night.jpg"
+ 												class="img-fluid"
+ 												title="별이 빛나는 밤">
+ 											</div>
+ 										</a>
+ 									</div>
+
+ 									<div clss="col-md-6">
+ 										<li>
+ 											<b>작가:</b>
+ 											<span>빈센트 반 고흐</span>
+ 										</li>
+ 										<li>
+ 											<b>연도:</b>
+ 											<span>1889</span>
+ 										</li>
+ 										<li>
+ 											<b>매체:</b>
+ 											<span >
+ 												캔버스에 유화
+ 											</span>
+ 										</li>
+ 										<li>
+ 											<b>사조:</b>
+ 											<span >
+ 												후기 인상주의
+ 											</span>
+ 										</li>
+ 										<li>
+ 											<b>크기:</b>
+ 											<span>
+ 												73.9cm x 92.1cm
+ 											</span>
+ 										</li>
+ 										<li>
+ 											<b>소장:</b>
+ 											<span>뉴욕 현대미술관</span>
+ 										</li>
+ 									</div>
+
+ 								</div>
+ 							</div>
+ 							<!-- 두번쨰 그림 -->
+
+ 							<!-- 4번쨰 그림 -->
+ 							<div class="card">
+ 								<div class="row no-gutters">
+ 									<div class="col-md-6">
+ 										<a id="1" a href="info.html?title=4">
+ 											<div class="thumbnail-wrapper">
+ 												<img alt="picture" src="./art_image/4_Girl_with_a_Pearl_Earring.jpg"
+ 												class="img-fluid"
+ 												title="진주 귀고리를 한 소녀">
+ 											</div>
+ 										</a>
+ 									</div>
+
+ 									<div clss="col-md-6">
+ 										<li>
+ 											<b>작가:</b>
+ 											<span>요하네스 페르메이르</span>
+ 										</li>
+ 										<li>
+ 											<b>연도:</b>
+ 											<span>1665년 경</span>
+ 										</li>
+ 										<li>
+ 											<b>매체:</b>
+ 											<span >
+ 												캔버스에 유화
+ 											</span>
+ 										</li>
+ 										<li>
+ 											<b>크기:</b>
+ 											<span>
+ 												39cm x 44.5cm
+ 											</span>
+ 										</li>
+ 										<li>
+ 											<b>소장:</b>
+ 											<span>헤이그 마우리츠호이스</span>
+ 										</li>
+ 									</div>
+
+ 								</div>
+ 							</div>
+ 							<!-- 4번쨰 그림 -->
+
+ 							<!-- 5번쨰 그림 -->
+ 							<div class="card">
+ 								<div class="row no-gutters">
+ 									<div class="col-md-6">
+ 										<a id="1" a href="info.html?title=1">
+ 											<div class="thumbnail-wrapper">
+ 												<img alt="picture" src="./art_image/5_Guernica.jpg"
+ 												class="img-fluid"
+ 												title="게르니카">
+ 											</div>
+ 										</a>
+ 									</div>
+
+ 									<div clss="col-md-6">
+ 										<li>
+ 											<b>작가:</b>
+ 											<span>파블로 피카소</span>
+ 										</li>
+ 										<li>
+ 											<b>연도:</b>
+ 											<span>1937년</span>
+ 										</li>
+ 										<li>
+ 											<b>매체:</b>
+ 											<span >
+ 												유화
+ 											</span>
+ 										</li>
+ 										<li>
+ 											<b>크기:</b>
+ 											<span>
+ 												349 x 776 cm , 305.5 x 137.4 in
+ 											</span>
+ 										</li>
+
+ 										<li>
+ 											<b>소장:</b>
+ 											<span>스페인 마드리드 국립 소피아 왕비 예술센터</span>
+ 										</li>
+ 									</div>
+
+ 								</div>
+ 							</div>
+ 							<!-- 5번쨰 그림 -->
+ 							<!-- 9번쨰 그림 -->
+ 							<div class="card">
+ 								<div class="row no-gutters">
+ 									<div class="col-md-6">
+ 										<a id="1" a href="info.html?title=1">
+ 											<div class="thumbnail-wrapper">
+ 												<img alt="picture" src="./art_image/9_American_Gothic.jpg"
+ 												class="img-fluid"
+ 												title="모나리자">
+ 											</div>
+ 										</a>
+ 									</div>
+
+ 									<div clss="col-md-6">
+ 										<li>
+ 											<b>작가:</b>
+ 											<span>그랜트 우드</span>
+ 										</li>
+ 										<li>
+ 											<b>연도:</b>
+ 											<span>1930</span>
+ 										</li>
+ 										<li>
+ 											<b>매체:</b>
+ 											<span >
+ 												유화 비버보드
+ 											</span>
+ 										</li>
+ 										<li>
+ 											<b>사조:</b>
+ 											<span >
+ 												모더니즘
+ 											</span>
+ 										</li>
+
+ 										<li>
+ 											<b>크기:</b>
+ 											<span>
+ 												78 cm x 65.3 cm
+ 											</span>
+ 										</li>
+ 										<li>
+ 											<b>위치:</b>
+ 											<span>영국왕립미술원 (2017 - 2017)</span>
+ 											<span>시카고 미술관 (1930년 - )</span>
+ 										</li>
+ 									</div>
+
+ 								</div>
+ 							</div>
+ 							<!-- 9번쨰 그림 -->
+
+ 							<!-- 11번쨰 그림 -->
+ 							<div class="card">
+ 								<div class="row no-gutters">
+ 									<div class="col-md-6">
+ 										<a id="1" a href="info.html?title=1">
+ 											<div class="thumbnail-wrapper">
+ 												<img alt="picture" src="./art_image/11_Cafe_Terrace_at_Night.jpg"
+ 												class="img-fluid"
+ 												title="별이 빛나는 밤">
+ 											</div>
+ 										</a>
+ 									</div>
+
+ 									<div clss="col-md-6">
+ 										<li>
+ 											<b>작가:</b>
+ 											<span>빈센트 반 고흐</span>
+ 										</li>
+ 										<li>
+ 											<b>연도:</b>
+ 											<span>1889</span>
+ 										</li>
+ 										<li>
+ 											<b>매체:</b>
+ 											<span >
+ 												캔버스에 유화
+ 											</span>
+ 										</li>
+ 										<li>
+ 											<b>사조:</b>
+ 											<span >
+ 												후기 인상주의
+ 											</span>
+ 										</li>
+
+ 										<li>
+ 											<b>크기:</b>
+ 											<span>
+ 												73.9 x 92.1 cm
+ 											</span>
+ 										</li>
+ 										
+ 										<li>
+ 											<b>소장:</b>
+ 											<span>뉴욕 현대미술관</span>
+ 										</li>
+ 									</div>
+
+ 								</div>
+ 							</div>
+ 							<!-- 11번쨰 그림 -->
+
+
+ 							<!-- 17번쨰 그림 -->
+ 							<div class="card">
+ 								<div class="row no-gutters">
+ 									<div class="col-md-6">
+ 										<a id="1" a href="info.html?title=1">
+ 											<div class="thumbnail-wrapper">
+ 												<img alt="picture" src="./art_image/17_Arnolfini_Wedding.jpg"
+ 												class="img-fluid"
+ 												title="아르놀피니 부부의 초상">
+ 											</div>
+ 										</a>
+ 									</div>
+
+ 									<div clss="col-md-6">
+ 										<li>
+ 											<b>작가:</b>
+ 											<span>얀 판 에이크</span>
+ 										</li>
+ 										<li>
+ 											<b>연도:</b>
+ 											<span>1889</span>
+ 										</li>
+ 										<li>
+ 											<b>매체:</b>
+ 											<span >
+ 												참나무속에 유화
+ 											</span>
+ 										</li>
+ 										<li>
+ 											<b>사조:</b>
+ 											<span >
+ 												북부 르네상스, 초기 르네상스
+ 											</span>
+ 										</li>
+
+ 										<li>
+ 											<b>크기:</b>
+ 											<span>
+ 												82 x 60 cm
+ 											</span>
+ 										</li>
+ 										
+ 										<li>
+ 											<b>위치:</b>
+ 											<span>내셔널 갤러리</span>
+ 										</li>
+ 									</div>
+
+ 								</div>
+ 							</div>
+ 							<!-- 17번쨰 그림 -->
+ 							<!-- 18번쨰 그림 -->
+ 							<div class="card">
+ 								<div class="row no-gutters">
+ 									<div class="col-md-6">
+ 										<a id="1" a href="info.html?title=18">
+ 											<div class="thumbnail-wrapper">
+ 												<img alt="picture" src="./art_image/18_Les_Demoiselles_d_Avignon.jpg"
+ 												class="img-fluid"
+ 												title="아비뇽의 처녀들">
+ 											</div>
+ 										</a>
+ 									</div>
+
+ 									<div clss="col-md-6">
+ 										<li>
+ 											<b>작가:</b>
+ 											<span>파블로 피카소</span>
+ 										</li>
+ 										<li>
+ 											<b>연도:</b>
+ 											<span>1907년</span>
+ 										</li>
+ 										<li>
+ 											<b>크기:</b>
+ 											<span>
+ 												233.7 x 243.9 cm
+ 											</span>
+ 										</li>
+ 										
+ 										<li>
+ 											<b>소장:</b>
+ 											<span>뉴욕 근대 미술관</span>
+ 										</li>
+ 									</div>
+
+ 								</div>
+ 							</div>
+ 							<!-- 17번쨰 그림 -->
+
+ 							
+ 							<script>
+ 								document.getElementById("0").title = full_desc(0);
+ 								document.getElementById("1").title = full_desc(1);
+ 								document.getElementById("2").title = full_desc(2);
+ 								document.getElementById("3").title = full_desc(3);
+ 							</script>
+
+
+ 						</div>
+ 					</div>
+ 				</center>
+
+ 				<!-- Optional JavaScript -->
+ 				<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+ 				<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ 				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+ 				<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+ 			</body>
+ 			</html>
