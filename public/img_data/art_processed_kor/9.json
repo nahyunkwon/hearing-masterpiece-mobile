@@ -8,11 +8,11 @@
   },
   "object": [
    {
-    "name": "이봐.",
+    "name": "남성.",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
-    "attributes": "오른쪽, 흰색, 중년, 남자, 시골 옷, 심술궂게, 일어선다.",
+    "attributes": "오른쪽, 흰색, 중년, 남자, 시골 옷, 엄격한, 일어서있는.",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -183,7 +183,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "나이든 사람, 엄한 사람, 대머리, 화난 사람, 안경, 종교적인 사람",
+    "attributes": "나이든 사람, 엄한, 대머리, 화난, 안경, 종교적인",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -318,7 +318,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "왼쪽, 초상화, 여자, 흰색, 엄한, 시골 옷, 일어선다.",
+    "attributes": "왼쪽, 초상화, 여자, 흰색, 엄한, 시골 옷, 일어서있는.",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -441,7 +441,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "왼쪽, 중간, 흰색, 농부, 심각, 일어선다.",
+    "attributes": "왼쪽, 중년, 백인, 농부, 엄격한, 일어서있는.",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -985,7 +985,7 @@
     "area": 3515557.5
    },
    {
-    "name": "미리",
+    "name": "소매없는 간이복",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -1060,11 +1060,11 @@
     "area": 3188723.0
    },
    {
-    "name": "전반적",
+    "name": "작업 바지",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "똥배레, 전체, 데님, 전체, 낡은, 낡은, 낡은, 파란색, 딩기, 작업복, 농부 옷",
+    "attributes": "바지, 청바지, 낡은, 입은, 파란색, 거무스름한, 작업복, 농부 옷",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -1201,7 +1201,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "왼쪽, 윗다리, 신체 부위",
+    "attributes": "왼쪽, 팔, 신체 부위",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -1427,7 +1427,7 @@
     "area": 906171.0
    },
    {
-    "name": "포크",
+    "name": "갈퀴",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -1915,7 +1915,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": " sh, 지붕, 어둠, 나무",
+    "attributes": " 대상포진, 지붕, 어둠, 나무",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -1986,7 +1986,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "상단 중앙, 유리/나무, 좁은/높이 크기, 집 앞, 다락방, 오와트",
+    "attributes": "상단 중앙, 유리/나무, 좁은/높이 크기, 집 앞, 다락방, 둥근 천장의 맞보",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2068,7 +2068,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "8번째, 4개의 손가락, 연한 갈색, 토",
+    "attributes": "오른손, 4개의 손가락, 연한 갈색, 손가락",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2531,7 +2531,7 @@
     "area": 125410.0
    },
    {
-    "name": "칼라",
+    "name": "옷깃 칼라",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2644,11 +2644,11 @@
     "area": 94996.0
    },
    {
-    "name": "곳간",
+    "name": "헛간",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "빨갛고, 헛간, 나무, 뒤에",
+    "attributes": "빨갛고, 나무, 뒤에",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2703,7 +2703,7 @@
     "area": 92167.5
    },
    {
-    "name": "칼라",
+    "name": "옷 깃 칼라",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2867,7 +2867,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "남자_s 턱, 늙은 피부, 주름진 얼굴 아래",
+    "attributes": "남자의 턱, 늙은 피부, 주름진, 얼굴 아래",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2914,7 +2914,7 @@
     "area": 68073.0
    },
    {
-    "name": "외양간",
+    "name": "헛산의 측면",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -3103,7 +3103,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "여자_s의 코, 얼굴, 모양, 얼굴 중간, 평균",
+    "attributes": "여자의 코, 얼굴, 모양, 얼굴 중간, 표준",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3213,7 +3213,7 @@
     "area": 37199.0
    },
    {
-    "name": "배경화면",
+    "name": "벽지",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -3319,7 +3319,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "남자 입술, 엄한 입술, 곧은 입술, 닫힌 입술, 나이 많은 입술",
+    "attributes": "남자 입술, 엄한, 곧은, 닫힌, 나이 많은",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3503,7 +3503,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "기둥, 기둥, 흰색, 현관 기둥, 수직",
+    "attributes": "기둥, 흰색, 현관 기둥, 수직",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3782,7 +3782,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "윗입술, 천연색",
+    "attributes": "윗입술, 자연스러운 색상",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3845,7 +3845,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "아랫입술, 천연색",
+    "attributes": "아랫입술, 자연스러운 색상",
     "parts": {
      "hasparts": null,
      "ispartof": null

@@ -12,7 +12,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "어둡고 삼각형이고 매끄러운 도시, 큰 도시",
+    "attributes": "어둡고 삼각형이고 매끄러운, 도시, 크다",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -415,7 +415,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "가로, 줄무늬, 흰색",
+    "attributes": "수평선의, 줄무늬, 흰색",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -669,7 +669,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "바람, 바람",
+    "attributes": "바람이부는듯한, 돌풍",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -1201,7 +1201,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "음침하고, 파랗고, 파랗고, 파랗고, 꼭대기에, 높은 곳에",
+    "attributes": "음침하고, 파랗고, 푸른 색조, 꼭대기에, 높은 곳에, 밤하늘",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -1316,7 +1316,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "언덕, 산, 산",
+    "attributes": "언덕, 둑",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -1716,7 +1716,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "빛, 더위, 밤, 별",
+    "attributes": "빛, 더위, 밤",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -1775,7 +1775,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "뾰족하고, 밝고, 희고, 중간이고, 키가 크다.",
+    "attributes": "뾰족하고, 밝고, 희고, 중앙위치, 길다.",
     "parts": {
      "hasparts": null,
      "ispartof": null

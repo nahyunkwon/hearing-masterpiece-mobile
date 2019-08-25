@@ -12,7 +12,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "여자 남자 개",
+    "attributes": "여자, 남자, 개",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -997,7 +997,7 @@
     "area": 187084.0
    },
    {
-    "name": "이봐.",
+    "name": "남성.",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -1300,7 +1300,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "빨간 벨벳, 바른 배경, 낡은 패션",
+    "attributes": "빨간 벨벳, 배경,오른쪽  낡은 패션",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -1399,7 +1399,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "접이식, 녹색, 흙색, 알곡식, 바느질",
+    "attributes": "접이식, 녹색, 흙색, 거친, 바느질",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -1583,7 +1583,7 @@
     "area": 27563.0
    },
    {
-    "name": "덮다",
+    "name": "천",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -1705,7 +1705,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "오렌지, 조명, 금, 황동, 금, 고딕, 교수형, 무겁고 빛나는, 황금색, 상단 중앙, 큰 사이즈",
+    "attributes": "오렌지, 조명, 금, 황동, 금, 고딕, 메달린, 무겁고 빛나는, 황금색, 상단 중앙, 큰 사이즈",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -1924,7 +1924,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "버건디, 스트레이트",
+    "attributes": "버건디, 곧은",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -1975,7 +1975,7 @@
     "deleted": "1",
     "verified": "0",
     "occluded": null,
-    "attributes": "작고 긴 머리, 테리어 같은, 부부 사이",
+    "attributes": "작고 긴 머리, 테리어 같은, 부부의 사이에 위치",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2058,7 +2058,7 @@
     "area": 21881.5
    },
    {
-    "name": "격노하다",
+    "name": "주름장식",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2316,7 +2316,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "위, 나무, 무늬, 어두운",
+    "attributes": "위, 나무, 무늬있는, 어두운",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2394,7 +2394,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "작고, 갈색, 젊고, 긴 머리, 긴 머리, 테리어 같은 머리, 부부 사이는 매끈매끈하다.",
+    "attributes": "작고, 갈색, 어리고, 털이 긴, 테리어 같은, 부부 사이에 있는, 부드러운",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2497,7 +2497,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "검정색, 맨_s 머리, 보통 사이즈",
+    "attributes": "검정색, 남성의 머리에 있는, 보통 사이즈",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2736,7 +2736,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "침대 캐노피, 천, 빨강, 다크, 집적, 오른쪽 상단",
+    "attributes": "침대 덮개, 천, 빨강, 다크, 주름 잡힌, 오른쪽 상단",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2807,7 +2807,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "여자_배, 임신, 임신, 임신, 임신, 친밀한, 손이 거기에 얹혀 있고, 아이가 있다.",
+    "attributes": "여자의 배, 임신, 봉긋한 배, 임신, 친밀한, 손이 거기에 얹혀 있고, 아이가 있다.",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3003,7 +3003,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "검정, 맨_s 머리, 플로피, 무겁고 어두운",
+    "attributes": "검정, 남자의 머리, 헐렁한, 무겁고 어두운",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3137,7 +3137,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "방, 검정, 녹색, 악수, 남자, 여자",
+    "attributes": "방, 검정, 녹색, 남자, 여자",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3172,7 +3172,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "중앙에는 갈색, 모양은 원, 오렌지, 재감염, 금색",
+    "attributes": "중앙에는 갈색, 모양은 원, 오렌지, 화려하게 장식된, 금색",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3346,7 +3346,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "신발 2개, 여성스러움, 샌들, 우든, 나막신, 샌들",
+    "attributes": "신발 2개, 여성스러움, 샌들, 나무, 나막신",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3397,7 +3397,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "여자_s 슬리브, 털, 흰색, 긴, 매달린, 더러운",
+    "attributes": "여자의 소매, 털, 흰색, 긴, 매달린, 더러운",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3574,7 +3574,7 @@
     "area": 9562.5
    },
    {
-    "name": "헤드 보드",
+    "name": "침대 머리 맡 나무판",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -3633,7 +3633,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "화이트, 레이시, 디테일, woman_s 헤드 웨어",
+    "attributes": "화이트, 레이스달린, 디테일, 여성의 머리 장식",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3720,7 +3720,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "하이, 스테인드 글라스 창, 원형 패턴, 컬러풀한",
+    "attributes": "높은, 스테인드 글라스 창, 원형 패턴, 컬러풀한",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3751,7 +3751,7 @@
     "area": 8337.0
    },
    {
-    "name": "걸치다",
+    "name": "옷을 걸치다",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4142,7 +4142,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "검고 알맹이 많은",
+    "attributes": "검고 거친, 무광의",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4232,11 +4232,11 @@
     "area": 3905.5
    },
    {
-    "name": "쓰기",
+    "name": "서명",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "낙서, 글쓰기, 대본",
+    "attributes": "낙서, 글쓰기, 글씨",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4470,7 +4470,7 @@
     "area": 1895.5
    },
    {
-    "name": "청소에 반대하다",
+    "name": "청소에 쓰일 물건",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4584,7 +4584,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "위, 베이지색 피부, 등, 그늘진 앞, 왼쪽, 맨_손, 오른손, 흰색, 우아, 위로",
+    "attributes": "위, 베이지색 피부, 빛이있는 뒷부분, 그늘진 앞, 왼쪽, 남성의 손, 오른손, 흰색, 우아한, 위에",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4639,7 +4639,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "왼쪽, 여자 손, 베이지, 구부러짐, 휴식, 창백함, 긴 손",
+    "attributes": "왼쪽, 여자 손, 베이지, 구부러짐, 휴식, 창백한, 긴, 손",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4844,7 +4844,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "드레스, 갈색, 지지대, 타이트하게",
+    "attributes": "드레스, 갈색, 지지대, 꽉조이는",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -5474,7 +5474,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "눌린 입술, 하얀 입술, 작은 쪽, 오른쪽, 여자 입술",
+    "attributes": "눌린 입술, 하얀, 작은, 오른쪽, 여자 입술",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -5564,7 +5564,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "맛보기, 먹기, 혀",
+    "attributes": "맛, 먹기, 혀",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -5708,7 +5708,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "후각, 원, 스탠딩",
+    "attributes": "후각, 원, 서 있는",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -5739,7 +5739,7 @@
     "deleted": "1",
     "verified": "0",
     "occluded": null,
-    "attributes": "블랙입니다.",
+    "attributes": "검은색",
     "parts": {
      "hasparts": null,
      "ispartof": null

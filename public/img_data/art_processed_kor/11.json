@@ -131,7 +131,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "자갈길, 울퉁불퉁하고, 매끄럽고, 거친 걸음걸이, 땅",
+    "attributes": "자갈길, 울퉁불퉁하고, 안 매끄럽고, 거친 걸음걸이, 땅",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -343,11 +343,11 @@
     "area": 639850.5
    },
    {
-    "name": "차양",
+    "name": "천막",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "황색, 왼쪽 가운데에 있는 파티오 좌석 위",
+    "attributes": "노란색, 파티오 좌석 위, 왼쪽 가운데",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -806,7 +806,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "왼쪽, 비교해서 작은 건물, 주로 바닥이 어두운 녹색 측면",
+    "attributes": "왼쪽, 비교적 작은 건물, 주로 바닥이 어두운 녹색 측면",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -853,7 +853,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "멀리, 건물, 어둠, 푸른색, 집",
+    "attributes": "멀리있는, 건물, 어둠, 푸른색, 집",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -1098,7 +1098,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "배경, 어둠, 멀리, 멀리",
+    "attributes": "배경, 어둠, 떨어져있는, 멀리있는",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -1311,7 +1311,7 @@
     "area": 78604.0
    },
    {
-    "name": "앞쪽에 보관하다",
+    "name": "가게 앞",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -1802,7 +1802,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "흰색, 레스타원, 식사 테이블",
+    "attributes": "흰색, 식당, 식사 테이블",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -1944,7 +1944,7 @@
     "area": 43167.0
    },
    {
-    "name": "맹인인",
+    "name": "창문 블라인드",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -1983,7 +1983,7 @@
     "area": 39204.0
    },
    {
-    "name": "이봐.",
+    "name": "남자",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2310,7 +2310,7 @@
     "area": 32599.0
    },
    {
-    "name": "맹인인",
+    "name": "창문 블라인드",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2424,7 +2424,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "여자, 40살, 사레,",
+    "attributes": "여자, 40살, 인도여성이 두르는 사리,",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2511,7 +2511,7 @@
     "area": 27906.5
    },
    {
-    "name": "맹인인",
+    "name": "창문 블라인드",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2546,7 +2546,7 @@
     "area": 24079.5
    },
    {
-    "name": "이봐.",
+    "name": "남성.",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2700,7 +2700,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "황갈색, 늙음, 쇠약함",
+    "attributes": "황갈색, 낡은, 쇠약함",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2735,7 +2735,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "서서, 왼편, 문근처",
+    "attributes": "서있는, 왼편, 문근처",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2861,11 +2861,11 @@
     "area": 21726.5
    },
    {
-    "name": "이봐.",
+    "name": "남성.",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "걷고, 건너고, 오른쪽",
+    "attributes": "걷고있는, 건너는, 오른쪽",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2936,7 +2936,7 @@
     "area": 20604.0
    },
    {
-    "name": "맹인인",
+    "name": "창문 블라인드",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2971,7 +2971,7 @@
     "area": 19880.5
    },
    {
-    "name": "이봐.",
+    "name": "남성.",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -3010,7 +3010,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "어두컴컴한, 다가오는, 그림자, 높은 위",
+    "attributes": "어두컴컴한, 어렴풋한, 그림자, 높은 위",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3061,7 +3061,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "사람, 사람, 앉음, 상세하지 않음, 추상적",
+    "attributes": "사람들 모임, 사람, 앉음, 상세하지 않음, 추상적",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3140,7 +3140,7 @@
     "area": 15856.0
    },
    {
-    "name": "사람인",
+    "name": "사람",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -3294,7 +3294,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "왼쪽 시프, 갈색, 식탁 의자",
+    "attributes": "왼쪽, 갈색, 식탁 의자",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3376,7 +3376,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "오른쪽 파티오, 둥근 윗부분, 흰색 윗부분, 검은색 다리",
+    "attributes": "오른쪽 안마당, 둥근 윗부분, 흰색 윗부분, 검은색 다리",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3623,7 +3623,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "왼쪽 파티오, 흰색 윗부분, 둥글게",
+    "attributes": "왼쪽 안마당, 흰색 윗부분, 둥글게",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3678,7 +3678,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "옥외, 나무, 카페",
+    "attributes": "집 밖의, 나무, 카페",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3772,7 +3772,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "왼쪽 파티오, 흰색 상의, 둥근 모양",
+    "attributes": "왼쪽 안마당, 흰색 상단, 둥근 모양",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3862,7 +3862,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "별들, 밝고, 밤하늘, 빛나며, 높은 위",
+    "attributes": "별들, 밝고, 밤하늘, 빛나는, 높은 위",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3897,7 +3897,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "도시 상공에서 불이 켜지다.",
+    "attributes": "빛, 도시 상공, 불이 켜지다.",
     "parts": {
      "hasparts": null,
      "ispartof": null

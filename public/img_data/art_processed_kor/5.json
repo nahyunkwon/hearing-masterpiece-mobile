@@ -12,7 +12,7 @@
     "deleted": "1",
     "verified": "0",
     "occluded": null,
-    "attributes": "뿔, 화, 화",
+    "attributes": "뿔, 미친, 화가난",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -55,7 +55,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "혼란스럽고, 보기 흉하고, 놀라고, 걷는다.",
+    "attributes": "혼란스럽고, 보고있는, 놀라운, 걷고있는.",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -834,7 +834,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "보기, 어른, 호기심, 크고, 혼란스러움, 회색",
+    "attributes": "보고있는, 어른, 호기심, 크고, 혼란스러움, 회색",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2151,7 +2151,7 @@
     "area": 26078.0
    },
    {
-    "name": "이봐.",
+    "name": "남성.",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2534,7 +2534,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "화나고, 비열하고, 강하고, 무서웠다.",
+    "attributes": "화나고, 비열하고, 강하고, 무서움.",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2828,7 +2828,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "입을 벌리고, 무서워하고,",
+    "attributes": "입을 벌리고, 무서움,",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2971,7 +2971,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "불길이 타오르다 팔짱을 끼고",
+    "attributes": "불길이 타오르고 팔 앞으로 든 손을 내밀고있다",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3284,7 +3284,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "걱정, 겁, 눈물방울 모양",
+    "attributes": "걱정, 겁에 질린, 눈물방울 모양",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3701,11 +3701,11 @@
     "area": 10050.5
    },
    {
-    "name": "부러진 단도로 무장하다.",
+    "name": "부러진 단도를 가진 팔.",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "부서지고, 부서지고, 부서지고, 단검이 부서지고, 회색이고, 창백하고,",
+    "attributes": "부서진, 망가진, 산산조각난, 부서진 단검, 회색이고, 창백한,",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4086,7 +4086,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "머리털, 물렁물렁한, 우중충한",
+    "attributes": "머리털, 흐르는, 솔 같은",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4145,7 +4145,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "회색, 각색, 단색",
+    "attributes": "회색, 각진, 단색",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4498,7 +4498,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "회색, 음영, 확장형",
+    "attributes": "회색, 음영진, 확장형",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4723,7 +4723,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "회색, 코너, 추상",
+    "attributes": "회색, 모서리, 추상",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -5128,7 +5128,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "백색, 소형의, 사방형의",
+    "attributes": "백색, 작은, 사방형의",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -5214,7 +5214,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "벌려진, 이가 시린, 비명을 지르다.",
+    "attributes": "벌려진, 이가 있는, 비명을 지르다.",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -5656,7 +5656,7 @@
     "area": 1192.0
    },
    {
-    "name": "콧방귀를 뀌다",
+    "name": "주둥이",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -5695,7 +5695,7 @@
     "area": 1113.5
    },
    {
-    "name": "의 손",
+    "name": "사람의 손",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -6014,11 +6014,11 @@
     "area": 808.0
    },
    {
-    "name": "플라워",
+    "name": "꽃",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "마루, 작은, 아름다운",
+    "attributes": "바닥, 작은, 아름다운",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -6203,7 +6203,7 @@
     "area": 453.0
    },
    {
-    "name": "토",
+    "name": "발가락",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -6250,7 +6250,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "회색, 스파이크, 포인트, 오른쪽 가운데",
+    "attributes": "회색, 불꽃, 포인트, 오른쪽 가운데",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -6277,7 +6277,7 @@
     "area": 356.5
    },
    {
-    "name": "트라이앵글",
+    "name": "삼각형",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -6472,7 +6472,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "무력해 보이는 고글, 위쪽을 보고, 희고, 작고.",
+    "attributes": "무력해 보이는, 눈을 부르뜬, 위쪽을 보고, 희고, 작고.",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -6511,7 +6511,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "안구, 기초, 2d, 몸매, 잘못 배치",
+    "attributes": "안구, 기초, 2d, 모양, 잘못 배치",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -6542,7 +6542,7 @@
     "area": 141.0
    },
    {
-    "name": "트라이앵글",
+    "name": "삼각형",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -6577,7 +6577,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "오픈, 스타일",
+    "attributes": "열려있는, 스타일, 상단 왼쪽",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -6643,7 +6643,7 @@
     "area": 65.0
    },
    {
-    "name": "남의 입",
+    "name": "사람의 입",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -6682,7 +6682,7 @@
     "deleted": "1",
     "verified": "0",
     "occluded": null,
-    "attributes": "수중에 있는 줄의 수, 8번, 매우 거칠다.",
+    "attributes": "수중에 있는 줄의 수, 오른손, 매우 거칠다.",
     "parts": {
      "hasparts": null,
      "ispartof": null

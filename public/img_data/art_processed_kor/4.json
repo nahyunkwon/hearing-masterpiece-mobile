@@ -251,7 +251,7 @@
     "area": 58545888.5
    },
    {
-    "name": "사람인",
+    "name": "사람",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -1198,7 +1198,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "상완 측면, 뷰어를 마주 보는 측면, 드레스로 가려진 측면",
+    "attributes": "팔 윗부분의 측면, 감상자를 마주 보는, 드레스로 가려진",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2132,7 +2132,7 @@
     "area": 1116078.5
    },
    {
-    "name": "칼라",
+    "name": "옷 깃 칼라",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2369,7 +2369,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "턱, 입 아래",
+    "attributes": "입 아래",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2452,7 +2452,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "여자, 백인, 소인, 턴",
+    "attributes": "여자, 하얀, 작은, 돌려진",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2846,7 +2846,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "여자, 백인, 미소, 여자",
+    "attributes": "여자, 백인, 미소, 코튼",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2901,7 +2901,7 @@
     "deleted": "1",
     "verified": "0",
     "occluded": null,
-    "attributes": "여자, 빨강, 하양",
+    "attributes": "여자, 빨강, 웃고있는",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3207,7 +3207,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "밑단, 분홍색, 배부른, 매끄러운, 부드러운",
+    "attributes": "밑단, 분홍색, 완전한, 매끄러운, 부드러운",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3297,7 +3297,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "눈 색깔, 어두운, 응시하는 것",
+    "attributes": "눈 색깔, 어두운, 응시",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3360,7 +3360,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "눈 색깔, 어두운, 응시하는 것",
+    "attributes": "눈 색깔, 어두운, 응시",
     "parts": {
      "hasparts": null,
      "ispartof": null

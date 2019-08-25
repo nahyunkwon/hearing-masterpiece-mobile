@@ -520,7 +520,7 @@
     "area": 75501.0
    },
    {
-    "name": "사람인",
+    "name": "사람",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -1044,11 +1044,11 @@
     "area": 62275.5
    },
    {
-    "name": "인간의",
+    "name": "사람",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "여자, 나체, 패일, 긴 머리, 갈색 머리",
+    "attributes": "여자, 나체, 창백한, 긴 머리, 갈색 머리",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -1526,7 +1526,7 @@
     "area": 52344.0
    },
    {
-    "name": "사람인",
+    "name": "사람",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -1936,7 +1936,7 @@
     "area": 42690.5
    },
    {
-    "name": "사람인",
+    "name": "사람",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2127,11 +2127,11 @@
     "area": 34949.0
    },
    {
-    "name": "뒤로/뒤로",
+    "name": "사람의 뒤쪽, 등",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "외설적이고, 나체로, 뻔뻔스럽고, 특공대, 해방되었다.",
+    "attributes": "외설적이고, 나체, 뻔뻔스럽고, 속옷을 입지 않은, 해방된 느낌.",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2301,7 +2301,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "매끈매끈한 잿빛 하드",
+    "attributes": "매끈매끈하고 잿빛, 단단한",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2724,7 +2724,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "품위, 흰 천, 보호, 안전, 편안함,",
+    "attributes": "품위 있는, 흰 천, 보호하는, 안전한, 편안함이 느껴지는,",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2787,7 +2787,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "베이지색, 큰색, 여자색, 불균형, 헐벗음",
+    "attributes": "베이지색, 커다란, 여자, 불균형, 헐벗음",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2877,7 +2877,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "팔꿈치로 위로, 눈에 보이는 겨드랑이, 짙은 베이지, 여성 팔, 위쪽으로, 자연스러운 모습",
+    "attributes": "팔꿈치의 위쪽, 겨드랑이가 보임, 짙은 베이지, 여성의 팔, 위쪽에 위치함, 자연스러운 모습",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2948,7 +2948,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "베이지색, 오른쪽, 위쪽 팔꿈치, 주먹을 꽉 쥐고, 둔한 선, 여자 팔",
+    "attributes": "베이지색, 오른쪽, 주먹을 꽉 쥐고 팔꿈치를 위로 들고 있음, 둔한 선, 여성의 팔",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3050,7 +3050,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "복숭아, 여자, 매끈매끈하고 여위다",
+    "attributes": "복숭아색, 여자, 매끈매끈하고 날씬하다",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3089,7 +3089,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "근육질, 몸매, 톤이 좋고 활동적이고 지배적인 힘",
+    "attributes": "근육질, 몸매가 좋은, 품위 있고 활동적이고 지배적인 힘이 느껴짐",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3156,7 +3156,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "눈이 휘둥그레지고, 타원형이며, 연한 분홍색",
+    "attributes": "눈이 휘둥그레하고, 타원형이며, 연한 분홍색",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3315,7 +3315,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "회색, 과일, 원",
+    "attributes": "회색, 과일, 동그란 모양들",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3398,11 +3398,11 @@
     "area": 3303.5
    },
    {
-    "name": "젖가슴",
+    "name": "가슴",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "여자, 복숭아, 크림",
+    "attributes": "여자, 복숭아색, 크림색",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3457,7 +3457,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "갈색, 길들여진 머리, 아름답고, 머리 손질하기, 곧은",
+    "attributes": "갈색, 잘 빗긴 머리, 아름답고, 곧은 모양",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3568,11 +3568,11 @@
     "area": 3108.5
    },
    {
-    "name": "젖가슴",
+    "name": "가슴",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "복숭아색 매끈매끈",
+    "attributes": "복숭아색, 매끈매끈한",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3631,11 +3631,11 @@
     "area": 2969.0
    },
    {
-    "name": "사타구니를 치다",
+    "name": "사타구니",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "베이지색, 중앙면, 발가벗고, 여성스럽고 부드러운 텍스처",
+    "attributes": "베이지색, 중앙에 위치한, 발가벗고, 여성스럽고 부드러운 질감",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3686,11 +3686,11 @@
     "area": 2949.5
    },
    {
-    "name": "유방.",
+    "name": "가슴",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "오른쪽, 대조되고 작은 그림자, 작은 조명, 눈에 띄는, 누드",
+    "attributes": "오른쪽, 다른 것과 대조되고, 작은 그림자가 있음, 옅게 빛이 비춰진, 눈에 띄는, 누드",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3721,11 +3721,11 @@
     "area": 2815.0
    },
    {
-    "name": "사람인",
+    "name": "사람",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "손가락.",
+    "attributes": "손가락",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3867,7 +3867,7 @@
     "deleted": "1",
     "verified": "0",
     "occluded": null,
-    "attributes": "회색고체벽",
+    "attributes": "회색, 단단한 벽",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3976,7 +3976,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "검고 검고 매끄러운",
+    "attributes": "어둡고 검고 매끄러운",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4160,7 +4160,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "왼쪽 중앙, 스타일, 길고 좁은",
+    "attributes": "왼쪽 중앙, 길고 좁은",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4281,11 +4281,11 @@
     "area": 354.5
    },
    {
-    "name": "사람인",
+    "name": "사람",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "얼굴(코)",
+    "attributes": "얼굴, 코",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4340,7 +4340,7 @@
     "area": 296.0
    },
    {
-    "name": "사람인",
+    "name": "사람",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4379,7 +4379,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "보고, 보고, 보고, 돌고, 둥글다",
+    "attributes": "둥근 모양",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4532,7 +4532,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "경외감에 떨며 비명을 지르고 입을 크게 벌리며 대담해졌다.",
+    "attributes": "경외감에 떨며 비명을 지르고 입을 크게 벌리고 있다. 대담하다.",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4563,11 +4563,11 @@
     "area": 198.0
    },
    {
-    "name": "사람인",
+    "name": "사람",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "코.",
+    "attributes": "코",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4633,7 +4633,7 @@
     "area": 184.0
    },
    {
-    "name": "사람인",
+    "name": "사람",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4672,7 +4672,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "스타일링, 프로파일, 상단 좌측",
+    "attributes": "왼쪽 위",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4703,7 +4703,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "납작한 코, 예술은 그녀의 코를 놓쳤다. 독특한 예술, 2-d 그림",
+    "attributes": "납작한 코, 독특한 예술, 2-d 그림",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4730,7 +4730,7 @@
     "area": 145.0
    },
    {
-    "name": "사람인",
+    "name": "사람",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4851,7 +4851,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "크고, 맑고, 사이드뷰, 어두운",
+    "attributes": "크고, 맑고, 옆을 보고 있는, 어두운",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4886,7 +4886,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "작고 약간 눌린 검은 등고선",
+    "attributes": "작고 약간 열려 있는, 검은색",
     "parts": {
      "hasparts": null,
      "ispartof": null
