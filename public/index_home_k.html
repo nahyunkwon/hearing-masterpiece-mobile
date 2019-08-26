@@ -14,10 +14,34 @@
  	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
  	<script src="js/d3.button.js"></script>
 
- 	<title>Art Museum No Name</title>
+ 	<title>AccessART: Digital Art Museum</title>
 
  </head>
  <body>
+ <script>
+	 function get_option(option){
+	 	if (option == "color"){
+	 		if(document.getElementById('color').innerHTML == "Color: ON")
+	 			return 1;
+	 		else
+	 			return 0;
+
+	 	}
+	 	else if(option == "loc"){
+	 		if(document.getElementById('location').innerHTML == "Location: ON")
+	 			return 1;
+	 		else
+	 			return 0;
+	 	}
+	 	else if(option == "exp"){
+	 		if(document.getElementById('expression').innerHTML == "Expression: ON")
+	 			return 1;
+	 		else
+	 			return 0;
+	 	}
+
+	 }
+ </script>
  	<!-- 스타일 지정 -->
  	<style type="text/css">
 
@@ -65,7 +89,7 @@
  					}
  				</style>
 
- 				<!-- 네이게이션 바 -->	
+ 				<!-- 네이게이션 바 -->
  				<nav class="navbar navbar-expand-lg navbar-light bg-light">
  					<a class="navbar-brand" href="index.html">Digital Art Museum</a>
  					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -74,19 +98,20 @@
  					<div class="collapse navbar-collapse" id="navbarNav">
  						<ul class="navbar-nav">
  							<li class="nav-item active">
- 								<a class="nav-link" href="index_home.html">Home<span class="sr-only">(current)</span></a>
+ 								<a class="nav-link" href="index_home_k.html">Home<span class="sr-only">(current)</span></a>
  							</li>
  							<li class="nav-item">
- 								<a class="nav-link" href="index_home_k.html">Korean</a>
+ 								<a class="nav-link" href="index_home.html">English</a>
  							</li>
 							<li class="nav-edit">
  								<a class="nav-link" href="index_edit.html">Edit Annotations</a>
  							</li>
+
  						</ul>
  					</div>
  				</nav>
 
- 				<!-- 검색창 
+ 				<!-- 검색창
  				<nav class="navbar navbar-light bg-light">
  					<form class="form-inline">
  						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -99,38 +124,72 @@
  				<center>
  					<div class="col-md-8">
  						<div class="row">
+							<div id="select">
+								Select descriptions
+								<div id="color" onclick="toggle(this)"><a href="#" >Color: ON</a></div>
+								<div id="location" onclick="toggle(this)"><a href="#" >Location: ON</a></div>
+								<div id="expression" onclick="toggle(this)"><a href="#" >Expression: ON</a></div>
+
+
+								<script type="text/javascript">
+								function toggle (t) {
+									if (t.childNodes[0].innerHTML == "Color: ON") {
+
+										t.childNodes[0].innerHTML = "Color: OFF";
+									} else if(t.childNodes[0].innerHTML == "Color: OFF"){
+
+										t.childNodes[0].innerHTML = "Color: ON";
+									}
+									if (t.childNodes[0].innerHTML == "Location: ON") {
+
+										t.childNodes[0].innerHTML = "Location: OFF";
+									} else if(t.childNodes[0].innerHTML == "Location: OFF"){
+										t.childNodes[0].innerHTML = "Location: ON";
+									}
+									if (t.childNodes[0].innerHTML == "Expression: ON") {
+
+										t.childNodes[0].innerHTML = "Expression: OFF";
+									} else if(t.childNodes[0].innerHTML == "Expression: OFF"){
+
+										t.childNodes[0].innerHTML = "Expression: ON";
+									}
+
+								}
+								</script>
+
+							</div>
+							<br>
 
  							<!-- 첫번쨰 그림 -->
  							<div class="card">
  								<div class="row no-gutters">
  									<div class="col-md-4">
 
- 										<a target ="_blank" href="https://m-hearing-masterpiece.web.app/?img_id=1&lan=e">
+ 										<a href="https://m-hearing-masterpiece.web.app/?img_id=1&lan=e">
  											<div class="thumbnail-wrapper">
  												<img alt="picture" src="./thumbnail_image/1_MonaLisa.jpg"
- 												
- 												title="모나리자">
+
+ 												title="모나리자, 세로 화면 감상">
  											</div>
  										</a>
 
  									</div>
 
- 									<div clss="col-md-6">
- 										Artist: Leonardo da Vinci
+ 									<div clss="col-md-6" id="1">
+										작가: 레오나르도 다 빈치
 										<br>
-										Year: c. 1503–1506, perhaps continuing until c. 1517, High Renaissance
+										연도: 1500년
 										<br>
-										Medium: Oil on poplar panel
+										매체: 포플러,나무,유채
 										<br>
-										Genre: Portrait
+										사조: 전성기 르네상스
 										<br>
-										Dimension: 77 x 53 cm
+										장르: 초상화
 										<br>
-										Location: The Louvre Museum, Paris
+										크기: 53 x 77 cm, 가로로 긴 그림, 세로 화면 감상
 										<br>
-										<a target="_blank" href="http://ec2-18-217-59-91.us-east-2.compute.amazonaws.com/LabelMeAnnotationTool/tool.html?collection=art&mode=i&folder=art&image=1.jpg">
-											[Edit]
-										</a>
+										위치: 루브르 박물관 (1797 - )
+
  									</div>
 
  								</div>
@@ -141,49 +200,29 @@
  							<div class="card">
  								<div class="row no-gutters">
  									<div class="col-md-6">
- 										<a target ="_blank" href="https://m-hearing-masterpiece.web.app/?img_id=2&lan=e">
+ 										<a href="https://m-hearing-masterpiece.web.app/?img_id=2&lan=e">
  											<div class="thumbnail-wrapper">
  												<img alt="picture" src="./thumbnail_image/2_The_Starry_Night.jpg"
- 												
- 												title="별이 빛나는 밤">
+
+ 												title="별이 빛나는 밤, 세로 화면 감상">
  											</div>
  										</a>
  									</div>
 
  									<div clss="col-md-6">
- 										<li>
- 											<b>작가:</b>
- 											<span>빈센트 반 고흐</span>
- 										</li>
- 										<li>
- 											<b>연도:</b>
- 											<span>1889</span>
- 										</li>
- 										<li>
- 											<b>매체:</b>
- 											<span >
- 												캔버스에 유화
- 											</span>
- 										</li>
- 										<li>
- 											<b>사조:</b>
- 											<span >
- 												후기 인상주의
- 											</span>
- 										</li>
- 										<li>
- 											<b>크기:</b>
- 											<span>
- 												73.9cm x 92.1cm
- 											</span>
- 										</li>
- 										<li>
- 											<b>소장:</b>
- 											<span>뉴욕 현대미술관</span>
- 										</li>
-										<a target="_blank" href="http://ec2-18-217-59-91.us-east-2.compute.amazonaws.com/LabelMeAnnotationTool/tool.html?collection=art&mode=i&folder=art&image=2.jpg">
-											[Edit]
-										</a>
+										작가: 빈센트 반 고흐
+										<br>
+										연도: 1889년
+										<br>
+										매체: 캔버스에 유화
+										<br>
+										사조: 후기 인상주의
+										<br>
+										장르: 풍경화
+										<br>
+										크기: 73.9cm x 92.1cm, 가로로 긴 그림, 세로 화면 감상
+										<br>
+										위치: 뉴욕 현대미술관
  									</div>
 
  								</div>
@@ -197,40 +236,26 @@
  										<a target ="_blank" href="https://m-hearing-masterpiece.web.app/?img_id=4&lan=e">
  											<div class="thumbnail-wrapper">
  												<img alt="picture" src="./thumbnail_image/4_Girl_with_a_Pearl_Earring.jpg"
- 												
- 												title="진주 귀고리를 한 소녀">
+
+ 												title="진주 귀고리를 한 소녀, 세로 화면 감상">
  											</div>
  										</a>
  									</div>
 
  									<div clss="col-md-6">
- 										<li>
- 											<b>작가:</b>
- 											<span>요하네스 페르메이르</span>
- 										</li>
- 										<li>
- 											<b>연도:</b>
- 											<span>1665년 경</span>
- 										</li>
- 										<li>
- 											<b>매체:</b>
- 											<span >
- 												캔버스에 유화
- 											</span>
- 										</li>
- 										<li>
- 											<b>크기:</b>
- 											<span>
- 												39cm x 44.5cm
- 											</span>
- 										</li>
- 										<li>
- 											<b>소장:</b>
- 											<span>헤이그 마우리츠호이스</span>
- 										</li>
-										<a target="_blank" href="http://ec2-18-217-59-91.us-east-2.compute.amazonaws.com/LabelMeAnnotationTool/tool.html?collection=art&mode=i&folder=art&image=4.jpg">
-											[Edit]
-										</a>
+										작가: 요하네스 페르메이르
+										<br>
+										연도: 1665년 경
+										<br>
+										매체: 캔버스에 유화
+										<br>
+										장르: 초상화
+										<br>
+										크기: 39cm x 44.5cm, 세로로 긴 그림, 세로 화면 감상
+										<br>
+										소장: 헤이그 마우리츠호이스
+										<br>
+
  									</div>
 
  								</div>
@@ -244,41 +269,26 @@
  										<a target ="_blank" href="https://m-hearing-masterpiece.web.app/?img_id=5&lan=e">
  											<div class="thumbnail-wrapper">
  												<img alt="picture" src="./thumbnail_image/5_Guernica.jpg"
- 												
- 												title="게르니카">
+
+ 												title="게르니카, 가로 화면 감상">
  											</div>
  										</a>
  									</div>
 
  									<div clss="col-md-6">
- 										<li>
- 											<b>작가:</b>
- 											<span>파블로 피카소</span>
- 										</li>
- 										<li>
- 											<b>연도:</b>
- 											<span>1937년</span>
- 										</li>
- 										<li>
- 											<b>매체:</b>
- 											<span >
- 												유화
- 											</span>
- 										</li>
- 										<li>
- 											<b>크기:</b>
- 											<span>
- 												349 x 776 cm 
- 											</span>
- 										</li>
+										작가: 파블로 피카소
+										<br>
+										연도: 1937년
+										<br>
+										매체: 유화
+										<br>
+										장르: 추상화
+										<br>
+										크기: 349 x 776 cm, 가로로 긴 그림, 가로 화면 감상
+										<br>
+										소장: 스페인 마드리드 국립 소피아 왕비 예술센터
+										<br>
 
- 										<li>
- 											<b>소장:</b>
- 											<span>스페인 마드리드 국립 소피아 왕비 예술센터</span>
- 										</li>
-										<a target="_blank" href="http://ec2-18-217-59-91.us-east-2.compute.amazonaws.com/LabelMeAnnotationTool/tool.html?collection=art&mode=i&folder=art&image=5.jpg">
-											[Edit]
-										</a>
  									</div>
 
  								</div>
@@ -291,48 +301,28 @@
  										<a target ="_blank" href="https://m-hearing-masterpiece.web.app/?img_id=9&lan=e">
  											<div class="thumbnail-wrapper">
  												<img alt="picture" src="./thumbnail_image/9_American_Gothic.jpg"
- 												
- 												title="모나리자">
+
+ 												title="아메리칸 고딕, 세로 화면 감상">
  											</div>
  										</a>
  									</div>
 
  									<div clss="col-md-6">
- 										<li>
- 											<b>작가:</b>
- 											<span>그랜트 우드</span>
- 										</li>
- 										<li>
- 											<b>연도:</b>
- 											<span>1930</span>
- 										</li>
- 										<li>
- 											<b>매체:</b>
- 											<span >
- 												유화 비버보드
- 											</span>
- 										</li>
- 										<li>
- 											<b>사조:</b>
- 											<span >
- 												모더니즘
- 											</span>
- 										</li>
+										작가: 그랜트 우드
+										<br>
+										연도: 1930년
+										<br>
+										매체: 유화 비버보드
+										<br>
+										사조: 모더니즘
+										<br>
+										장르: 초상화
+										<br>
+										크기: 78 x 65.3 cm, 세로로 긴 그림, 세로 화면 감상
+										<br>
+										소장: 영국왕립미술원 (2017), 시카고 미술관 (1930년 - )
+										<br>
 
- 										<li>
- 											<b>크기:</b>
- 											<span>
- 												78 cm x 65.3 cm
- 											</span>
- 										</li>
- 										<li>
- 											<b>위치:</b>
- 											<span>영국왕립미술원 (2017) </span>
- 											<span>시카고 미술관 (1930년 - )</span>
- 										</li>
-										<a target="_blank" href="http://ec2-18-217-59-91.us-east-2.compute.amazonaws.com/LabelMeAnnotationTool/tool.html?collection=art&mode=i&folder=art&image=9.jpg">
-											[Edit]
-										</a>
  									</div>
 
  								</div>
@@ -346,48 +336,27 @@
  										<a target ="_blank" href="https://m-hearing-masterpiece.web.app/?img_id=11&lan=e">
  											<div class="thumbnail-wrapper">
  												<img alt="picture" src="./thumbnail_image/11_Cafe_Terrace_at_Night.jpg"
- 												
- 												title="별이 빛나는 밤">
+
+ 												title="밤의 카페 테라스, 세로 화면 감상">
  											</div>
  										</a>
  									</div>
 
  									<div clss="col-md-6">
- 										<li>
- 											<b>작가:</b>
- 											<span>빈센트 반 고흐</span>
- 										</li>
- 										<li>
- 											<b>연도:</b>
- 											<span>1889</span>
- 										</li>
- 										<li>
- 											<b>매체:</b>
- 											<span >
- 												캔버스에 유화
- 											</span>
- 										</li>
- 										<li>
- 											<b>사조:</b>
- 											<span >
- 												후기 인상주의
- 											</span>
- 										</li>
+										작가: 빈센트 반 고흐
+										<br>
+										연도: 1889년
+										<br>
+										매체: 캔버스에 유화
+										<br>
+										사조: 후기 인상주의
+										<br>
+										장르: 풍경화
+										<br>
+										크기: 73.9 x 92.1 cm, 세로로 긴 그림, 세로 화면 감상
+										<br>
+										소장: 뉴욕 현대미술관
 
- 										<li>
- 											<b>크기:</b>
- 											<span>
- 												73.9 x 92.1 cm
- 											</span>
- 										</li>
-
- 										<li>
- 											<b>소장:</b>
- 											<span>뉴욕 현대미술관</span>
- 										</li>
-										<a target="_blank" href="http://ec2-18-217-59-91.us-east-2.compute.amazonaws.com/LabelMeAnnotationTool/tool.html?collection=art&mode=i&folder=art&image=11.jpg">
-											[Edit]
-										</a>
  									</div>
 
  								</div>
@@ -402,48 +371,27 @@
  										<a target ="_blank" href="https://m-hearing-masterpiece.web.app/?img_id=17&lan=e">
  											<div class="thumbnail-wrapper">
  												<img alt="picture" src="./thumbnail_image/17_Arnolfini_Wedding.jpg"
- 												
- 												title="아르놀피니 부부의 초상">
+
+ 												title="아르놀피니 부부의 초상, 세로 화면 감상">
  											</div>
  										</a>
  									</div>
 
  									<div clss="col-md-6">
- 										<li>
- 											<b>작가:</b>
- 											<span>얀 판 에이크</span>
- 										</li>
- 										<li>
- 											<b>연도:</b>
- 											<span>1889</span>
- 										</li>
- 										<li>
- 											<b>매체:</b>
- 											<span >
- 												참나무속에 유화
- 											</span>
- 										</li>
- 										<li>
- 											<b>사조:</b>
- 											<span >
- 												북부 르네상스, 초기 르네상스
- 											</span>
- 										</li>
+										작가: 얀 판 에이크
+										<br>
+										연도: 1889년
+										<br>
+										매체: 참나무속에 유화
+										<br>
+										사조: 북부 르네상스, 초기 르네상스
+										<br>
+										장르: 초상화
+										<br>
+										크기: 82 x 60 cm, 세로로 긴 그림, 세로 화면 감상
+										<br>
+										소장: 내셔널 갤러리
 
- 										<li>
- 											<b>크기:</b>
- 											<span>
- 												82 x 60 cm
- 											</span>
- 										</li>
-
- 										<li>
- 											<b>위치:</b>
- 											<span>내셔널 갤러리</span>
- 										</li>
-										<a target="_blank" href="http://ec2-18-217-59-91.us-east-2.compute.amazonaws.com/LabelMeAnnotationTool/tool.html?collection=art&mode=i&folder=art&image=17.jpg">
-											[Edit]
-										</a>
  									</div>
 
  								</div>
@@ -456,50 +404,33 @@
  										<a target ="_blank" href="https://m-hearing-masterpiece.web.app/?img_id=18&lan=e">
  											<div class="thumbnail-wrapper">
  												<img alt="picture" src="./thumbnail_image/18_Les_Demoiselles_d_Avignon.jpg"
- 												
- 												title="아비뇽의 처녀들">
+
+ 												title="아비뇽의 처녀들, 세로 화면 감상">
  											</div>
  										</a>
  									</div>
 
  									<div clss="col-md-6">
  										<div class="card-body">
- 											<li>
- 												<b>작가:</b>
- 												<span>파블로 피카소</span>
- 											</li>
- 											<li>
- 												<b>연도:</b>
- 												<span>1907년</span>
- 											</li>
- 											<li>
- 												<b>크기:</b>
- 												<span>
- 													233.7 x 243.9 cm
- 												</span>
- 											</li>
+											작가: 파블로 피카소
+											<br>
+											연도: 1907년
+											<br>
+											매체: 참나무속에 유화
+											<br>
+											사조: 입체주의
+											<br>
+											장르: 추상
+											<br>
+											크기: 233.7 x 243.9 cm, 세로로 긴 그림, 세로 화면 감상
+											<br>
 
- 											<li>
- 												<b>소장:</b>
- 												<span>뉴욕 근대 미술관</span>
- 											</li>
-											<a target="_blank" href="http://ec2-18-217-59-91.us-east-2.compute.amazonaws.com/LabelMeAnnotationTool/tool.html?collection=art&mode=i&folder=art&image=18.jpg">
-											[Edit]
-										</a>
  										</div>
  									</div>
 
  								</div>
  							</div>
  							<!-- 17번쨰 그림 -->
-
-
- 							<script>
- 								document.getElementById("0").title = full_desc(0);
- 								document.getElementById("1").title = full_desc(1);
- 								document.getElementById("2").title = full_desc(2);
- 								document.getElementById("3").title = full_desc(3);
- 							</script>
 
 
  						</div>

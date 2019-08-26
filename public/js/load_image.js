@@ -98,3 +98,43 @@ for(var i=0;i<img_id_list.length;i++){
         img_height = img_size_list[i][1];
     }
 }
+/*
+var art_metadata_kor = null;
+var art_metadata_eng = null;
+
+$.ajax({
+    'async': false,
+    'global': false,
+    'url': "./img_data/art_metadata/art_metadata_kor.json",
+    'dataType': "json",
+    'success': function (data) {
+        art_metadata_kor = data;
+    }
+});
+
+function metadata(id, lan) {
+
+    if (lan == "k")
+        var data = art_metadata_kor['idx'];
+    else
+        var data = art_metadata_eng['idx'];
+
+    for(var i=0;i<data.length;i++){
+        if(id == data['idx']){
+            var metadata = data[i];
+            break;
+            }
+    }
+
+    document.getElementById(String(id)).innerHTML =
+                        ""
+                        +"<br>작가: "+metadata['작가']
+                        +"<br>연도: "+metadata['연도']
+                        +"<br>매체: "+metadata['매체']
+                        +"<br>사조: "+metadata['사조']
+                        +"<br>장르: "+metadata['장르']
+                        +""
+                        ;
+
+}
+*/
