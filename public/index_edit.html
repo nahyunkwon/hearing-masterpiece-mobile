@@ -46,47 +46,34 @@
  	<style type="text/css">
 
  		img{
- 			max-width: 100%;
+ 			max-width: 80%;
  			height: auto;
  		}
 
- 		.thumbnail-wrapper{
- 			width:50%;
+		.thumbnail-wrapper{
+			width: 350px;
+		}
+		.card-body{
+			display: inline-block;
+			margin-left:0px;
 
- 		}
+		}
+		.card{
+			width: 150%;
+		}
+		.col-md-8{
+			width: 150%;
+		}
+		.row no-gutters{
+		text-align: center;
+		}
+		.list{
+			width:100%
+		}
+		#select{
+			margin-left:30px
+		}
 
- 		.gallery {
- 			-webkit-column-count: 3;
- 			-moz-column-count: 3;
- 			column-count: 3;
- 			-webkit-column-width: 33%;
- 			-moz-column-width: 33%;
- 			column-width: 33%; }
- 			.gallery .pics {
- 				-webkit-transition: all 350ms ease;
- 				transition: all 350ms ease; }
- 				.gallery .animation {
- 					-webkit-transform: scale(1);
- 					-ms-transform: scale(1);
- 					transform: scale(1); }
-
- 					@media (max-width: 450px) {
- 						.gallery {
- 							-webkit-column-count: 1;
- 							-moz-column-count: 1;
- 							column-count: 1;
- 							-webkit-column-width: 100%;
- 							-moz-column-width: 100%;
- 							column-width: 100%;
- 						}
- 					}
-
- 					@media (max-width: 400px) {
- 						.btn.filter {
- 							padding-left: 1.1rem;
- 							padding-right: 1.1rem;
- 						}
- 					}
  				</style>
 
  				<!-- 네이게이션 바 -->
@@ -106,6 +93,7 @@
 							<li class="nav-edit">
  								<a class="nav-link" href="index_edit.html">Edit Annotations</a>
  							</li>
+
  						</ul>
  					</div>
  				</nav>
@@ -120,10 +108,11 @@
 
  				<!-- 8개의 그림 -->
  				<!-- https://mdbootstrap.com/plugins/jquery/gallery/ -->
- 				<center>
- 					<div class="col-md-8">
- 						<div class="row">
-							<div id="select">
+ 					<div id="select">
+								Select descriptions
+								<div id="color" onclick="toggle(this)"><a href="#" >Color: ON</a></div>
+								<div id="location" onclick="toggle(this)"><a href="#" >Location: ON</a></div>
+								<div id="expression" onclick="toggle(this)"><a href="#" >Expression: ON</a></div>
 
 
 								<script type="text/javascript">
@@ -150,33 +139,33 @@
 									}
 
 								}
-
-								function get_option(){
-									if(document.getElementById('color').innerHTML.split('>')[1].split('<')[0] == "Color: ON"){
-										return 0;
-									}
-								}
 								</script>
 
 							</div>
-							<br>
+ 					<center>
+
+ 					<div class="list">
+ 						<div class="row">
+
+
 
  							<!-- 첫번쨰 그림 -->
- 							<div class="card">
+ 							<div class="card" style="width=100%">
  								<div class="row no-gutters">
- 									<div class="col-md-4">
+ 									<div class="col-md-6">
 
- 										<a onclick = "var col = get_option();" href="https://m-hearing-masterpiece.web.app/?img_id=1&lan=e&col="+String(col)>
+ 										<a href="https://m-hearing-masterpiece.web.app/?img_id=1&lan=e">
  											<div class="thumbnail-wrapper">
  												<img alt="picture" src="./thumbnail_image/1_MonaLisa.jpg"
 
- 												title="Mona Lisa, Vertical">
- 											</div>
+													title="Mona Lisa, Vertical">
+											</div>
  										</a>
 
  									</div>
 
- 									<div clss="col-md-6" id="1">
+ 									<div class="card-body" id="1" onload="metadata(1, 0);">
+
 										Title: Mona Lisa
 										<br>
 										Artist: Leonardo da Vinci
@@ -192,11 +181,10 @@
 										Location: Louvre, Paris, France
 										<br>
 										Dimensions: 77 x 53 cm, Vertical
-										<br>
-										<a target="_blank" href="http://ec2-18-217-59-91.us-east-2.compute.amazonaws.com/LabelMeAnnotationTool/tool.html?collection=art&mode=i&folder=art&image=1.jpg">
-											[Edit]
-										</a>
-
+									<br>
+									<a target="_blank" href="http://ec2-18-217-59-91.us-east-2.compute.amazonaws.com/LabelMeAnnotationTool/tool.html?collection=art&mode=i&folder=art&image=1.jpg">
+										[Edit]
+									</a>
  									</div>
 
  								</div>
@@ -211,13 +199,13 @@
  											<div class="thumbnail-wrapper">
  												<img alt="picture" src="./thumbnail_image/2_The_Starry_Night.jpg"
 
- 												title="The Starry Night, Vertical">
+												title="The Starry Night, Vertical">
  											</div>
  										</a>
  									</div>
 
- 									<div clss="col-md-6">
- 										Title: The Starry Night
+ 									<div class="card-body">
+										Title: The Starry Night
 										<br>
 										Artist: Vincent van Gogh
 										<br>
@@ -229,15 +217,14 @@
 										<br>
 										Media: oil, canvas
 										<br>
-										Location: Museum of Modern Art (MoMA), New York City, NY, US
+										Location: Museum of Modern Art (MoMA), NY
 										<br>
 										Dimensions: 92 x 73 c, Vertical
-										<br>
-										<a target="_blank" href="http://ec2-18-217-59-91.us-east-2.compute.amazonaws.com/LabelMeAnnotationTool/tool.html?collection=art&mode=i&folder=art&image=2.jpg">
-											[Edit]
-										</a>
+																			<br>
+									<a target="_blank" href="http://ec2-18-217-59-91.us-east-2.compute.amazonaws.com/LabelMeAnnotationTool/tool.html?collection=art&mode=i&folder=art&image=2.jpg">
+										[Edit]
+									</a>
  									</div>
-
 
  								</div>
  							</div>
@@ -247,17 +234,16 @@
  							<div class="card">
  								<div class="row no-gutters">
  									<div class="col-md-6">
- 										<a target ="_blank" href="https://m-hearing-masterpiece.web.app/?img_id=4&lan=e">
+ 										<a href="https://m-hearing-masterpiece.web.app/?img_id=4&lan=e">
  											<div class="thumbnail-wrapper">
  												<img alt="picture" src="./thumbnail_image/4_Girl_with_a_Pearl_Earring.jpg"
 
- 												title="Girl with a Pearl Earring, Vertical">
- 											</div>
+ 												title="Girl with a Pearl Earring, Vertical"> 											</div>
  										</a>
  									</div>
 
- 									<div clss="col-md-6">
- 										Title: Girl with a Pearl Earring
+ 									<div class="card-body">
+										Title: Girl with a Pearl Earring
 										<br>
 										Artist: Johannes Vermeer<br>
 										Date: c.1665<br>
@@ -266,10 +252,10 @@
 										Media: oil, canvas<br>
 										Location: Mauritshuis, Hague, Netherlands<br>
 										Dimensions: 44.5 x 39 cm, Vertical<br>
-
 										<a target="_blank" href="http://ec2-18-217-59-91.us-east-2.compute.amazonaws.com/LabelMeAnnotationTool/tool.html?collection=art&mode=i&folder=art&image=4.jpg">
-											[Edit]
-										</a>
+										[Edit]
+									</a>
+
  									</div>
 
  								</div>
@@ -280,28 +266,28 @@
  							<div class="card">
  								<div class="row no-gutters">
  									<div class="col-md-6">
- 										<a target ="_blank" href="https://m-hearing-masterpiece.web.app/?img_id=5&lan=e">
+ 										<a href="https://m-hearing-masterpiece.web.app/?img_id=5&lan=e">
  											<div class="thumbnail-wrapper">
  												<img alt="picture" src="./thumbnail_image/5_Guernica.jpg"
 
- 												title="Guernica, Horizontal">
- 											</div>
+												title="Guernica, Horizontal"> 											</div>
  										</a>
  									</div>
 
- 									<div clss="col-md-6">
- 										Title: Guernica<br>
+ 									<div class="card-body">
+										Title: Guernica<br>
 										Artist: Pablo Picasso<br>
 										Date: 1937<br>
 										Style: Cubism, Surrealism<br>
 										Genre: allegorical painting<br>
 										Media: oil, canvas<br>
-										Location: Museo Nacional Centro de Arte Reina Sofía (MNCARS), Madrid, Spain<br>
+										Location: Museo Reina Sofía (MNCARS), <br>Madrid, Spain<br>
 										Dimensions: 349 x 776 cm, Horizontal
 										<br>
-										<a target="_blank" href="http://ec2-18-217-59-91.us-east-2.compute.amazonaws.com/LabelMeAnnotationTool/tool.html?collection=art&mode=i&folder=art&image=5.jpg">
-											[Edit]
-										</a>
+									<a target="_blank" href="http://ec2-18-217-59-91.us-east-2.compute.amazonaws.com/LabelMeAnnotationTool/tool.html?collection=art&mode=i&folder=art&image=5.jpg">
+										[Edit]
+									</a>
+
  									</div>
 
  								</div>
@@ -311,17 +297,16 @@
  							<div class="card">
  								<div class="row no-gutters">
  									<div class="col-md-6">
- 										<a target ="_blank" href="https://m-hearing-masterpiece.web.app/?img_id=9&lan=e">
+ 										<a href="https://m-hearing-masterpiece.web.app/?img_id=9&lan=e">
  											<div class="thumbnail-wrapper">
  												<img alt="picture" src="./thumbnail_image/9_American_Gothic.jpg"
 
- 												title="American Gothic, Vertical">
- 											</div>
+ 												title="American Gothic, Vertical"> 											</div>
  										</a>
  									</div>
 
- 									<div clss="col-md-6">
- 										Title: American Gothic<br>
+ 									<div class="card-body">
+										Title: American Gothic<br>
 										Artist: Grant Wood<br>
 										Date: 1930<br>
 										Style: Regionalism<br>
@@ -330,9 +315,10 @@
 										Location: Art Institute of Chicago, Chicago, IL, US<br>
 										Dimensions: 62.4 x 74.3 cm, Vertical
 										<br>
-										<a target="_blank" href="http://ec2-18-217-59-91.us-east-2.compute.amazonaws.com/LabelMeAnnotationTool/tool.html?collection=art&mode=i&folder=art&image=9.jpg">
-											[Edit]
-										</a>
+									<a target="_blank" href="http://ec2-18-217-59-91.us-east-2.compute.amazonaws.com/LabelMeAnnotationTool/tool.html?collection=art&mode=i&folder=art&image=9.jpg">
+										[Edit]
+									</a>
+
  									</div>
 
  								</div>
@@ -343,28 +329,30 @@
  							<div class="card">
  								<div class="row no-gutters">
  									<div class="col-md-6">
- 										<a target ="_blank" href="https://m-hearing-masterpiece.web.app/?img_id=11&lan=e">
+ 										<a href="https://m-hearing-masterpiece.web.app/?img_id=11&lan=e" >
  											<div class="thumbnail-wrapper">
  												<img alt="picture" src="./thumbnail_image/11_Cafe_Terrace_at_Night.jpg"
 
- 												title="Cafe Terrace at Night">
- 											</div>
+ 												title="Cafe Terrace at Night"> 											</div>
  										</a>
  									</div>
 
- 									<div clss="col-md-6">
- 										Title: Cafe Terrace at Night<br>
+ 									<div class="card-body">
+										Title: Cafe Terrace at Night<br>
 										Artist: Vincent van Gogh<br>
 										Date: 1888; Arles, Bouches-du-Rhône, France<br>
 										Style: Post-Impressionism<br>
 										Genre: cityscape<br>
 										Media: oil, canvas<br>
-										Location: Kröller-Müller Museum, Otterlo, Netherlands<br>
+										Location: Kröller-Müller Museum,
+										<br>Otterlo, Netherlands<br>
 										Dimensions: 81 x 65.5 cm
 										<br>
-										<a target="_blank" href="http://ec2-18-217-59-91.us-east-2.compute.amazonaws.com/LabelMeAnnotationTool/tool.html?collection=art&mode=i&folder=art&image=11.jpg">
-											[Edit]
-										</a>
+									<a target="_blank" href="http://ec2-18-217-59-91.us-east-2.compute.amazonaws.com/LabelMeAnnotationTool/tool.html?collection=art&mode=i&folder=art&image=11.jpg">
+										[Edit]
+									</a>
+
+
  									</div>
 
  								</div>
@@ -376,17 +364,16 @@
  							<div class="card">
  								<div class="row no-gutters">
  									<div class="col-md-6">
- 										<a target ="_blank" href="https://m-hearing-masterpiece.web.app/?img_id=17&lan=e">
+ 										<a href="https://m-hearing-masterpiece.web.app/?img_id=17&lan=e">
  											<div class="thumbnail-wrapper">
  												<img alt="picture" src="./thumbnail_image/17_Arnolfini_Wedding.jpg"
 
- 												title="Arnolfini Wedding, Vertical">
- 											</div>
+ 												title="Arnolfini Wedding, Vertical"> 											</div>
  										</a>
  									</div>
 
- 									<div clss="col-md-6">
- 										Title: Arnolfini Wedding<br>
+ 									<div class="card-body">
+										Title: Arnolfini Wedding<br>
 										Artist: Jan van Eyck<br>
 										Date: 1434<br>
 										Style: Northern Renaissance<br>
@@ -395,9 +382,9 @@
 										Location: National Gallery, London, UK<br>
 										Dimensions: 83.7 x 57 cm, Vertical
 										<br>
-										<a target="_blank" href="http://ec2-18-217-59-91.us-east-2.compute.amazonaws.com/LabelMeAnnotationTool/tool.html?collection=art&mode=i&folder=art&image=17.jpg">
-											[Edit]
-										</a>
+									<a target="_blank" href="http://ec2-18-217-59-91.us-east-2.compute.amazonaws.com/LabelMeAnnotationTool/tool.html?collection=art&mode=i&folder=art&image=17.jpg">
+										[Edit]
+									</a>
  									</div>
 
  								</div>
@@ -407,29 +394,29 @@
  							<div class="card">
  								<div class="row no-gutters">
  									<div class="col-md-6">
- 										<a target ="_blank" href="https://m-hearing-masterpiece.web.app/?img_id=18&lan=e">
+ 										<a href="https://m-hearing-masterpiece.web.app/?img_id=18&lan=e">
  											<div class="thumbnail-wrapper">
  												<img alt="picture" src="./thumbnail_image/18_Les_Demoiselles_d_Avignon.jpg"
 
- 												title="Les Demoiselles d'Avignon, Vertical">
- 											</div>
+ 												title="Les Demoiselles d'Avignon, Vertical"> 											</div>
  										</a>
  									</div>
 
- 									<div clss="col-md-6">
+ 									<div class="col-md-6">
  										<div class="card-body">
- 											Title: Les Demoiselles d'Avignon<br>
+											Title: Les Demoiselles d'Avignon<br>
 											Artist: Pablo Picasso<br>
 											Date: 1907<br>
 											Style: Cubism<br>
 											Genre: nude painting (nu)<br>
 											Media: oil, canvas<br>
-											Location: Museum of Modern Art (MoMA), New York City, NY, US<br>
+											Location: Museum of Modern Art (MoMA), New York City<br>
 											Dimensions: 243.9 x 233.7 cm, Vertical
 											<br>
-										<a target="_blank" href="http://ec2-18-217-59-91.us-east-2.compute.amazonaws.com/LabelMeAnnotationTool/tool.html?collection=art&mode=i&folder=art&image=18.jpg">
-											[Edit]
-										</a>
+									<a target="_blank" href="http://ec2-18-217-59-91.us-east-2.compute.amazonaws.com/LabelMeAnnotationTool/tool.html?collection=art&mode=i&folder=art&image=18.jpg">
+										[Edit]
+									</a>
+
  										</div>
  									</div>
 
@@ -440,7 +427,8 @@
 
  						</div>
  					</div>
- 				</center>
+						</center>
+
 
  				<!-- Optional JavaScript -->
  				<!-- jQuery first, then Popper.js, then Bootstrap JS -->
