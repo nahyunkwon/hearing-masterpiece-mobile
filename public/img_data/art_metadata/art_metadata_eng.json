@@ -1,0 +1,90 @@
+[
+  {
+    "idx": 1,
+    "Title": "Mona Lisa",
+    "Artist": "Leonardo da Vinci",
+    "Date": "c.1503 - c.1519; Florence, Italy",
+    "Style": "High Renaissance",
+    "Genre": "portrait",
+    "Media": "oil, panel, wood, poplar",
+    "Location": "Louvre, Paris, France",
+    "Dimensions": "77 x 53 cm"
+  },
+  {
+    "idx": 2,
+    "Title": "The Starry Night",
+    "Artist": "Vincent van Gogh",
+    "Date": "1889; Saint-rémy-de-provence, France",
+    "Style": "Post-Impressionism",
+    "Genre": "cloudscape",
+    "Media": "oil, canvas",
+    "Location": "Museum of Modern Art (MoMA), New York City, NY, US",
+    "Dimensions": "92 x 73 cm"
+  },
+  {
+    "idx": 4,
+    "Title": "Girl with a Pearl Earring",
+    "Artist": "Johannes Vermeer",
+    "Date": "c.1665",
+    "Style": "Baroque",
+    "Genre": "portrait, tronie",
+    "Media": "oil, canvas",
+    "Location": "Mauritshuis, Hague, Netherlands",
+    "Dimensions": "44.5 x 39 cm"
+  },
+  {
+    "idx": 5,
+    "Title": "Guernica",
+    "Artist": "Pablo Picasso",
+    "Date": 1937,
+    "Style": "Cubism, Surrealism",
+    "Genre": "allegorical painting",
+    "Media": "oil, canvas",
+    "Location": "Museo Nacional Centro de Arte Reina Sofía (MNCARS), Madrid, Spain",
+    "Dimensions": "349 x 776 cm"
+  },
+  {
+    "idx": 9,
+    "Title": "American Gothic",
+    "Artist": "Grant Wood",
+    "Date": 1930,
+    "Style": "Regionalism",
+    "Genre": "portrait",
+    "Media": "oil, board",
+    "Location": "Art Institute of Chicago, Chicago, IL, US",
+    "Dimensions": "62.4 x 74.3 cm"
+  },
+  {
+    "idx": 11,
+    "Title": "Cafe Terrace at Night",
+    "Artist": "Vincent van Gogh",
+    "Date": "1888; Arles, Bouches-du-Rhône, France",
+    "Style": "Post-Impressionism",
+    "Genre": "cityscape",
+    "Media": "oil, canvas",
+    "Location": "Kröller-Müller Museum, Otterlo, Netherlands",
+    "Dimensions": "81 x 65.5 cm"
+  },
+  {
+    "idx": 17,
+    "Title": "Arnolfini Wedding",
+    "Artist": "Jan van Eyck",
+    "Date": 1434,
+    "Style": "Northern Renaissance",
+    "Genre": "portrait",
+    "Media": "oil, panel",
+    "Location": "National Gallery, London, UK",
+    "Dimensions": "83.7 x 57 cm"
+  },
+  {
+    "idx": 18,
+    "Title": "Les Demoiselles d'Avignon",
+    "Artist": "Pablo Picasso",
+    "Date": 1907,
+    "Style": "Cubism",
+    "Genre": "nude painting (nu)",
+    "Media": "oil, canvas",
+    "Location": "Museum of Modern Art (MoMA), New York City, NY, US",
+    "Dimensions": "243.9 x 233.7 cm"
+  }
+]
