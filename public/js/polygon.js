@@ -141,7 +141,7 @@ function draw_polygon(mode){
 
                 return d.polygon.pt.map(function(d) {
                         //console.log(d);
-                        return [x(d['x']),y(d['y'])].join(","); }).join(" "); }})
+                        return [x(String(parseInt(d['x'])*opt)),y(String(parseInt(d['y'])*opt))].join(","); }).join(" "); }})
         ;
     }
 
@@ -156,7 +156,7 @@ function draw_polygon(mode){
 
                 return d.polygon.pt.map(function(d) {
                         //console.log(d);
-                        return [x(d['x']),y(d['y'])].join(","); }).join(" "); }})
+                        return [x(String(parseInt(d['x'])*opt)),y(String(parseInt(d['y'])*opt))].join(","); }).join(" "); }})
         ;
     }
 
@@ -171,7 +171,7 @@ function draw_polygon(mode){
 
                 return d.polygon.pt.map(function(d) {
                         //console.log(d);
-                        return [x(d['x']),y(d['y'])].join(","); }).join(" "); }})
+                        return [x(String(parseInt(d['x'])*opt)),y(String(parseInt(d['y'])*opt))].join(","); }).join(" "); }})
         ;
     }
 
@@ -189,26 +189,44 @@ function draw_polygon(mode){
     .append("svg:title")
     .text(function(d) {
         d.name = d.name.replace('.', '');
-        return d.name + ".." + d.attributes;
+        if(mode == "p"){
+            return d.name + ".." + d.attributes;
+        }
+        else if(mode == "m" && lan == "e"){
+            var cat = d.name + "..";
+            if(d.remains != ""){
+                cat = cat + d.remains;
+            }
+            if(d.color != ""){
+                cat = cat + ", the color is "+d.color;
+            }
+            if(d.location !=""){
+                cat = cat + ", and the location is " + d.location;
+            }
+            return cat;
+        }
+        else if(mode == "m" && lan == "k"){
+        /*
+            var cat = d.name + "..";
+            if(d.remains != ""){
+                cat = cat + d.remains;
+            }
+            if(d.color != ""){
+                cat = cat + ", 색깔은 "+d.color;
+            }
+            if(d.location !=""){
+                cat = cat + ", 위치는 " + d.location;
+            }
+            return cat;
+            */
+            return d.name + ".." + d.attributes;
+        }
      });
 }
 
 var margin = {top: 0, right: 20, bottom: 0, left: 50},
     width = 800,
     height = 900;
-
-if(img_id == "1"){
-    var h_p = 0.8;
-    var x_s = -img_width/8;
-}
-else if(img_id == "17"){
-    var h_p = 0.9;
-    var x_s = -img_width/17;
-}
-else{
-    var h_p = 1;
-    var x_s = 0
-}
 
 d3.selection.prototype.dblTap = function(callback) {
       var last = 0;
@@ -224,9 +242,8 @@ d3.selection.prototype.dblTap = function(callback) {
 
 var svg = d3.select(".image").append("svg")
   .attr("id", "svg")
-  .attr("width", img_width)
-  .attr("height", img_height*h_p)
-  .attr("viewBox", String(x_s)+ " 0 "+String(img_width)+" "+String(img_height))
+  .attr("width", img_width*opt)
+  .attr("height", img_height*opt)
   .attr("preserveAspectRatio", "xMinYMin meet")
   .append("g")
   .dblTap(function() {
@@ -277,7 +294,7 @@ function zoomed() {
 
  if(img_id == "9"){
     var portion = 1.163;
-    var y_start = -410;
+    var y_start = -100;
   }
   else{
     var portion = 1;
@@ -288,15 +305,15 @@ function zoomed() {
     .attr('xlink:href', "https://raw.githubusercontent.com/KwonNH/hearing-masterpiece-mobile/master/public/sample_image/"+img_file_name)
     .attr("x", 1)
     .attr("y", y_start)
-    .attr('width', img_width)
-    .attr('height', img_height)
+    .attr('width', img_width*opt)
+    .attr('height', img_height*opt)
     ;
 
-  var x = d3.scaleLinear().range([0, img_width]);
-  var y = d3.scaleLinear().range([0, img_height]);
+  var x = d3.scaleLinear().range([0, img_width*opt]);
+  var y = d3.scaleLinear().range([0, img_height*opt]);
 
-  x.domain([0, img_width*portion]);
-  y.domain([0, img_height*portion]);
+  x.domain([0, img_width*portion*opt]);
+  y.domain([0, img_height*portion*opt]);
 
   draw_polygon(mode);
 
