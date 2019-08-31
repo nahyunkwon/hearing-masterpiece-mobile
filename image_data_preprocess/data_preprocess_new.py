@@ -9,6 +9,7 @@ import pprint
 import json
 import requests
 
+
 def xml_to_json(img_id):
     with open("./image_data/"+str(img_id)+".xml", 'r', encoding='utf-8') as f:
         xml_string = f.read()
@@ -51,6 +52,7 @@ def art_data_preprocess(img_id, src, dest):
     # print(ann)
 '''
     for obj in ann:
+        '''
         # print(obj['polygon']['pt'])
         points = obj['polygon']['pt']
 
@@ -97,11 +99,29 @@ def art_data_preprocess(img_id, src, dest):
         '''
         obj['name'] = eng_to_kor(obj['name'])
 
+        '''
+
         try:
             obj['attributes'] = eng_to_kor(obj['attributes'])
         except KeyError:
             pass
             '''
+        try:
+            obj['remains'] = eng_to_kor(obj['remains'])
+        except KeyError:
+            pass
+        try:
+            obj['color'] = eng_to_kor(obj['color'])
+        except KeyError:
+            pass
+        try:
+            obj['location'] = eng_to_kor(obj['location'])
+        except KeyError:
+            pass
+        try:
+            obj['size'] = eng_to_kor(obj['size'])
+        except KeyError:
+            pass
 
     sorted_ann = sorted(ann, key=lambda k: k['area'], reverse=True)
 
@@ -133,12 +153,13 @@ def whole_preprocess(img_id_list, src, dest):
 
 
 def eng_to_kor(text):
-    url = "https://openapi.naver.com/v1/papago/n2mt?source=en&target=ko&text="
+    url = "https://openapi.naver.com/v1/language/translate?source=en&target=ko&text="
 
-    client = "JWbwyw6JUK6PwcK1KsDx"
-    secret = "7C0tkQQbPp"
+    client = "5KkRHJJtuSqmpyxhCLBB"
+    secret = "iTYSwRMMGA"
 
-    request_url = "https://openapi.naver.com/v1/papago/n2mt"
+    #request_url = "https://openapi.naver.com/v1/papago/n2mt"
+    request_url = "https://openapi.naver.com/v1/language/translate"
     headers = {"X-Naver-Client-Id": client, "X-Naver-Client-Secret": secret}
     params = {"source": "en", "target": "ko", "text": text}
     response = requests.post(request_url, headers=headers, data=params)
@@ -150,18 +171,18 @@ def eng_to_kor(text):
 
 def main():
 
-    src = "./test/"
-    dest = "../public/img_data/art_processed_kor/"
+    src = "../public/img_data/art_filtered/art_filtered_eng/"
+    dest = "../public/img_data/art_filtered/art_filtered_kor/"
 
-    img_id_list = ['1','2','4','5','9','11','17','18']
-
-    img_id_test = ["grande_hd", "grande_hd_p"]
+    img_id_list = ["1", "2"]
 
     '''
     for i in img_id:
         art_data_preprocess(i, src, dest)
     '''
-    whole_preprocess(img_id_test, src, dest)
+    #whole_preprocess(img_id_list, src, dest)
+    for i in img_id_list:
+        art_data_preprocess(i, src, dest)
 
 
 if __name__ == '__main__':

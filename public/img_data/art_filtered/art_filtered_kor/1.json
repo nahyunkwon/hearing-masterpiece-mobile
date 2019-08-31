@@ -8,7 +8,7 @@
   },
   "object": [
    {
-    "name": "mona lisa",
+    "name": "의해 그려지",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -164,10 +164,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "clear, realistic, dark, female, outline"
+    "remains": "예를 들어, 현실적인, 어두운, 여성, 개요입니다."
    },
    {
-    "name": "human",
+    "name": "인간의",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -322,7 +322,7 @@
     "remains": ""
    },
    {
-    "name": "background",
+    "name": "배경",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -415,13 +415,13 @@
      ]
     },
     "area": 346354.0,
-    "color": "green",
+    "color": "초록의",
     "location": "",
     "size": "",
-    "remains": "blurred, dark, grassy background"
+    "remains": "희미해져, 어두운, 풀이 우거진 배경"
    },
    {
-    "name": "sky",
+    "name": "하늘",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -486,13 +486,13 @@
      ]
     },
     "area": 166998.5,
-    "color": "gray",
-    "location": "up, above woman",
+    "color": "회색",
+    "location": "를, 여자 위에",
     "size": "",
-    "remains": "cold"
+    "remains": "추워요"
    },
    {
-    "name": "hair",
+    "name": "머리",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -597,13 +597,13 @@
      ]
     },
     "area": 69102.0,
-    "color": "brown, black",
+    "color": ", 검은 색 갈색",
     "location": "",
     "size": "",
-    "remains": "dark, long, straight, smooth, shiny, attractive, female"
+    "remains": "다크, 길고 곧고 부드러운, 빛나는, 매력적인, 여성."
    },
    {
-    "name": "face",
+    "name": "얼굴",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -662,7 +662,7 @@
     "remains": ""
    },
    {
-    "name": "forest",
+    "name": "숲",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -767,13 +767,13 @@
      ]
     },
     "area": 47780.5,
-    "color": "green",
+    "color": "초록의",
     "location": "",
     "size": "",
-    "remains": "trees, animals, branches"
+    "remains": "나무들, 동물들, 가지"
    },
    {
-    "name": "forest",
+    "name": "숲",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -874,13 +874,13 @@
      ]
     },
     "area": 47543.0,
-    "color": "green",
+    "color": "초록의",
     "location": "",
     "size": "",
-    "remains": "trees, animals, branches"
+    "remains": "나무들, 동물들, 가지"
    },
    {
-    "name": "human face",
+    "name": "사람의 얼굴",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -945,13 +945,13 @@
      ]
     },
     "area": 41880.5,
-    "color": "black",
+    "color": "블랙입니다.",
     "location": "",
     "size": "",
-    "remains": "beauty"
+    "remains": "아름다움"
    },
    {
-    "name": "land mass",
+    "name": "땅 덩어리",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -1068,13 +1068,13 @@
      ]
     },
     "area": 39844.5,
-    "color": "dark brown mass of land",
-    "location": "left, bottom corner",
+    "color": "땅의 어두운 갈색 질량이다.",
+    "location": "왼쪽 모서리 쪽",
     "size": "",
     "remains": ""
    },
    {
-    "name": "neck",
+    "name": "목",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -1163,13 +1163,13 @@
      ]
     },
     "area": 36002.0,
-    "color": "beige",
+    "color": "베이지 색의",
     "location": "",
     "size": "",
-    "remains": "empty, clean, no jewels, skin"
+    "remains": "빈, 깨끗한, 보석, 피부."
    },
    {
-    "name": "neck",
+    "name": "목",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -1228,7 +1228,7 @@
     "remains": ""
    },
    {
-    "name": "clothing",
+    "name": "옷",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -1305,13 +1305,13 @@
      ]
     },
     "area": 34499.0,
-    "color": "black",
+    "color": "블랙입니다.",
     "location": "",
     "size": "",
-    "remains": "dark, classic, garment, covering the body, silk"
+    "remains": "다크, 의복, 그 몸을 덮고 있는, 비단 고전."
    },
    {
-    "name": "breast",
+    "name": "유방.",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -1403,10 +1403,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "maternal, woman, body part"
+    "remains": "임신, 여자, 신체 부위"
    },
    {
-    "name": "right hand",
+    "name": "오른손",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -1799,13 +1799,13 @@
      ]
     },
     "area": 26569.0,
-    "color": "white",
-    "location": "bottom front",
+    "color": "하얀색",
+    "location": "전면 아래",
     "size": "",
-    "remains": "resting, clean"
+    "remains": ", 깨끗한 휴식"
    },
    {
-    "name": "hill",
+    "name": "언덕",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -1882,13 +1882,13 @@
      ]
     },
     "area": 25858.0,
-    "color": "dark brown land mass",
-    "location": "right side",
+    "color": "어두운 갈색 땅.",
+    "location": "오른쪽",
     "size": "",
-    "remains": "resembles a hill or mountain"
+    "remains": "언덕이나 산 몰 것으로 추정됩니다"
    },
    {
-    "name": "dress",
+    "name": "드레스.",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -1997,13 +1997,13 @@
      ]
     },
     "area": 25425.5,
-    "color": "brown",
+    "color": "갈색",
     "location": "",
     "size": "",
-    "remains": "embroidered, fabric"
+    "remains": ", 자수천"
    },
    {
-    "name": "sleeve",
+    "name": "소매",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2059,10 +2059,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "arm, clothing"
+    "remains": "팔, 옷"
    },
    {
-    "name": "armrest",
+    "name": "팔걸이",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2123,13 +2123,13 @@
      ]
     },
     "area": 18821.0,
-    "color": "brown",
-    "location": "bottom center",
+    "color": "갈색",
+    "location": "하심",
     "size": "",
-    "remains": "wood"
+    "remains": "나무"
    },
    {
-    "name": "test",
+    "name": "시험",
     "deleted": "1",
     "verified": "0",
     "occluded": "no",
@@ -2162,13 +2162,13 @@
      ]
     },
     "area": 17865.0,
-    "color": "brown",
-    "location": "bottom center",
+    "color": "갈색",
+    "location": "하심",
     "size": "",
-    "remains": "wood"
+    "remains": "나무"
    },
    {
-    "name": "sleeve",
+    "name": "소매",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -2228,10 +2228,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "arm, clothing"
+    "remains": "팔, 옷"
    },
    {
-    "name": "shoulder",
+    "name": "어깨",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2307,10 +2307,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "feminine, body part, woman"
+    "remains": "여성스러운, 신체 부위, 여자"
    },
    {
-    "name": "sleeve",
+    "name": "소매",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2375,10 +2375,10 @@
      ]
     },
     "area": 13946.5,
-    "color": "black",
+    "color": "블랙입니다.",
     "location": "",
     "size": "",
-    "remains": "hand, clothing"
+    "remains": "손, 옷"
    },
    {
     "name": "tet",
@@ -2414,13 +2414,13 @@
      ]
     },
     "area": 13437.5,
-    "color": "black",
+    "color": "블랙입니다.",
     "location": "",
     "size": "",
-    "remains": "hand, clothing"
+    "remains": "손, 옷"
    },
    {
-    "name": "forest",
+    "name": "숲",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2481,13 +2481,13 @@
      ]
     },
     "area": 12890.0,
-    "color": "green",
+    "color": "초록의",
     "location": "",
     "size": "",
-    "remains": "background, trees"
+    "remains": "배경, 나무"
    },
    {
-    "name": "lake",
+    "name": "호수",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2579,10 +2579,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "fresh, tasty, background, water"
+    "remains": ", 맛있는, 배경, 물 신선한"
    },
    {
-    "name": "sky",
+    "name": "하늘",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -2619,13 +2619,13 @@
      ]
     },
     "area": 10528.0,
-    "color": "gray",
-    "location": "above woman",
+    "color": "회색",
+    "location": "여자 위에",
     "size": "",
-    "remains": "cold"
+    "remains": "추워요"
    },
    {
-    "name": "tree",
+    "name": "나무",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2662,13 +2662,13 @@
      ]
     },
     "area": 10416.0,
-    "color": "green",
+    "color": "초록의",
     "location": "",
     "size": "",
-    "remains": "leaves, branch, roots, nature"
+    "remains": "잎, 가지, 뿌리, 자연"
    },
    {
-    "name": "ground",
+    "name": "땅",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2701,13 +2701,13 @@
      ]
     },
     "area": 10381.0,
-    "color": "dark brown",
-    "location": "left bottom corner",
+    "color": "암갈색",
+    "location": "모서리 쪽을 떠났다",
     "size": "",
     "remains": ""
    },
    {
-    "name": "vegetation",
+    "name": "초목",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2800,13 +2800,13 @@
      ]
     },
     "area": 10118.0,
-    "color": "dark brown",
+    "color": "암갈색",
     "location": "",
     "size": "",
-    "remains": "background, bushes"
+    "remains": "배경, bushes"
    },
    {
-    "name": "forehead",
+    "name": "이마",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2852,12 +2852,12 @@
     },
     "area": 9882.5,
     "color": "",
-    "location": "front",
+    "location": "전선.",
     "size": "",
-    "remains": "wrinkles, face"
+    "remains": "주름, 얼굴"
    },
    {
-    "name": "hand",
+    "name": "손",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2949,10 +2949,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "fingers, arm, body, anatomy"
+    "remains": "손가락, 팔, 몸, 해부학"
    },
    {
-    "name": "hair",
+    "name": "머리",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -3033,13 +3033,13 @@
      ]
     },
     "area": 9392.0,
-    "color": "black",
+    "color": "블랙입니다.",
     "location": "",
     "size": "",
-    "remains": "shiny, attractive"
+    "remains": "매력적인 빛나는"
    },
    {
-    "name": "skin",
+    "name": "피부.",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -3076,13 +3076,13 @@
      ]
     },
     "area": 9110.0,
-    "color": "beige",
+    "color": "베이지 색의",
     "location": "",
     "size": "",
-    "remains": "chest, uncovered"
+    "remains": "가슴을 파헤쳐 냈다"
    },
    {
-    "name": "hand",
+    "name": "손",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -3150,10 +3150,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "soft, clean, female, outline"
+    "remains": "깨끗하고 여성, 부드러운"
    },
    {
-    "name": "test",
+    "name": "시험",
     "deleted": "1",
     "verified": "0",
     "occluded": "no",
@@ -3189,10 +3189,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "soft, clean, female, outline"
+    "remains": "깨끗하고 여성, 부드러운"
    },
    {
-    "name": "clothes",
+    "name": "옷이요.",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -3228,10 +3228,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "dark, silk, classic"
+    "remains": "어두운, 실크, 클래식"
    },
    {
-    "name": "elbow",
+    "name": "팔꿈치",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -3291,10 +3291,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "body part, woman, mona lisa"
+    "remains": "바디 부분, 여자, 리사 mona."
    },
    {
-    "name": "river",
+    "name": "강",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -3399,13 +3399,13 @@
      ]
     },
     "area": 5817.0,
-    "color": "mud colored",
+    "color": "진흙 색",
     "location": "",
     "size": "",
-    "remains": "murky, bodied of water between land mass"
+    "remains": "Murky, 물의 대륙 사이에 감칠 맛이 있는"
    },
    {
-    "name": "decoration",
+    "name": "장식품",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -3478,13 +3478,13 @@
      ]
     },
     "area": 5604.0,
-    "color": "light brown",
+    "color": "연한 갈색",
     "location": "",
     "size": "",
-    "remains": "lace, clothes decoration, neckline"
+    "remains": "레이스, 옷 장식, 네크 라인"
    },
    {
-    "name": "road",
+    "name": "도로",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -3866,12 +3866,12 @@
     },
     "area": 5357.0,
     "color": "",
-    "location": "left side",
+    "location": "왼쪽",
     "size": "",
-    "remains": "background, dirt"
+    "remains": "배경, 흙"
    },
    {
-    "name": "arm",
+    "name": "팔",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -3907,10 +3907,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "fragile, crossed, body part"
+    "remains": ", 교차, 신체 일부가 깨지기 쉬운"
    },
    {
-    "name": "trees",
+    "name": "나무들",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -3947,13 +3947,13 @@
      ]
     },
     "area": 4240.5,
-    "color": "green",
+    "color": "초록의",
     "location": "",
     "size": "",
-    "remains": "nature, scenario"
+    "remains": "자연, 시나리오"
    },
    {
-    "name": "right eye",
+    "name": "오른쪽 눈",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -4000,7 +4000,7 @@
     "remains": ""
    },
    {
-    "name": "trees",
+    "name": "나무들",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4121,13 +4121,13 @@
      ]
     },
     "area": 2846.0,
-    "color": "dark green",
+    "color": "암녹색",
     "location": "",
     "size": "",
-    "remains": "a colletive of background scenery of trees or a forest"
+    "remains": "나무 또는 숲의 배경의 colletive."
    },
    {
-    "name": "middler finger",
+    "name": "손가락 중간 학년 학생.",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4181,12 +4181,12 @@
     },
     "area": 2766.0,
     "color": "",
-    "location": "right hand",
+    "location": "오른손",
     "size": "",
-    "remains": "third finger"
+    "remains": "3번째 손가락"
    },
    {
-    "name": "index finger",
+    "name": "집게 손가락",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4248,12 +4248,12 @@
     },
     "area": 2623.0,
     "color": "",
-    "location": "right hand",
+    "location": "오른손",
     "size": "",
-    "remains": "second finger"
+    "remains": "손가락 두번째"
    },
    {
-    "name": "left eye",
+    "name": "눈을 떠났다",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4308,7 +4308,7 @@
     "remains": ""
    },
    {
-    "name": "nose",
+    "name": "코.",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4347,7 +4347,7 @@
     "remains": ""
    },
    {
-    "name": "ring finger",
+    "name": "약지",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4401,12 +4401,12 @@
     },
     "area": 2074.5,
     "color": "",
-    "location": "right hand",
+    "location": "오른손",
     "size": "",
-    "remains": "fourth finger"
+    "remains": "손가락 네번째"
    },
    {
-    "name": "hair",
+    "name": "머리",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -4439,13 +4439,13 @@
      ]
     },
     "area": 1938.0,
-    "color": "brown",
+    "color": "갈색",
     "location": "",
     "size": "",
-    "remains": "smooth, long"
+    "remains": "오래 전부터 부드러운"
    },
    {
-    "name": "index finger",
+    "name": "집게 손가락",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4491,12 +4491,12 @@
     },
     "area": 1585.5,
     "color": "",
-    "location": "left hand",
+    "location": "왼손",
     "size": "",
-    "remains": "second finger"
+    "remains": "손가락 두번째"
    },
    {
-    "name": "middle finger",
+    "name": "가운데 손가락",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4542,12 +4542,12 @@
     },
     "area": 1481.5,
     "color": "",
-    "location": "left hand",
+    "location": "왼손",
     "size": "",
-    "remains": "third finger"
+    "remains": "3번째 손가락"
    },
    {
-    "name": "eye",
+    "name": "눈",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4584,13 +4584,13 @@
      ]
     },
     "area": 1184.5,
-    "color": "brown",
+    "color": "갈색",
     "location": "",
     "size": "",
-    "remains": "clear, realistic, female"
+    "remains": ", 현실적인 여성의 맑은"
    },
    {
-    "name": "pinky",
+    "name": "연분홍색의",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4640,12 +4640,12 @@
     },
     "area": 1180.5,
     "color": "",
-    "location": "right hand",
-    "size": "smallest finger",
+    "location": "오른손",
+    "size": "손가락 작은",
     "remains": ""
    },
    {
-    "name": "pinky finger",
+    "name": "손가락에서 새끼",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4699,12 +4699,12 @@
     },
     "area": 1016.5,
     "color": "",
-    "location": "left hand",
-    "size": "smallest finger",
+    "location": "왼손",
+    "size": "손가락 작은",
     "remains": ""
    },
    {
-    "name": "bridge",
+    "name": "다리",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4834,12 +4834,12 @@
     },
     "area": 981.5,
     "color": "",
-    "location": "right side",
+    "location": "오른쪽",
     "size": "",
-    "remains": "background, arches"
+    "remains": "배경, 활처럼 구부리"
    },
    {
-    "name": "mouth",
+    "name": "입",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4915,10 +4915,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "smile, enigmatic, lips, close"
+    "remains": "미소, 수수께끼 같은, 입술, 가까운"
    },
    {
-    "name": "ring finger",
+    "name": "약지",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4964,12 +4964,12 @@
     },
     "area": 586.0,
     "color": "",
-    "location": "left hand",
+    "location": "왼손",
     "size": "",
-    "remains": "fourth finger"
+    "remains": "손가락 네번째"
    },
    {
-    "name": "thumb",
+    "name": "엄지손가락",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -5019,12 +5019,12 @@
     },
     "area": 376.5,
     "color": "",
-    "location": "right hand",
+    "location": "오른손",
     "size": "",
-    "remains": "finger"
+    "remains": "손가락."
    },
    {
-    "name": "eyelid",
+    "name": "눈꺼풀",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -5082,12 +5082,12 @@
     },
     "area": 292.0,
     "color": "",
-    "location": "left eye",
+    "location": "눈을 떠났다",
     "size": "",
-    "remains": "moon shaped"
+    "remains": "달 모양의"
    },
    {
-    "name": "eyelid",
+    "name": "눈꺼풀",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -5137,12 +5137,12 @@
     },
     "area": 248.5,
     "color": "",
-    "location": "right side",
+    "location": "오른쪽",
     "size": "",
-    "remains": "moon shaped"
+    "remains": "달 모양의"
    },
    {
-    "name": "iris",
+    "name": "홍채",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -5187,13 +5187,13 @@
      ]
     },
     "area": 166.5,
-    "color": "brown",
-    "location": "left eye",
+    "color": "갈색",
+    "location": "눈을 떠났다",
     "size": "",
-    "remains": "round"
+    "remains": "둥근"
    },
    {
-    "name": "right iris",
+    "name": "올바른 홍채",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -5238,13 +5238,13 @@
      ]
     },
     "area": 165.5,
-    "color": "brown",
-    "location": "right eye",
+    "color": "갈색",
+    "location": "오른쪽 눈",
     "size": "",
-    "remains": "round"
+    "remains": "둥근"
    },
    {
-    "name": "iris",
+    "name": "홍채",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -5285,13 +5285,13 @@
      ]
     },
     "area": 121.5,
-    "color": "brown",
-    "location": "right eye",
+    "color": "갈색",
+    "location": "오른쪽 눈",
     "size": "",
-    "remains": "round"
+    "remains": "둥근"
    },
    {
-    "name": "iris",
+    "name": "홍채",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -5336,13 +5336,13 @@
      ]
     },
     "area": 117.0,
-    "color": "brown",
-    "location": "left eye",
+    "color": "갈색",
+    "location": "눈을 떠났다",
     "size": "",
-    "remains": "round"
+    "remains": "둥근"
    },
    {
-    "name": "point",
+    "name": "요점",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -5364,10 +5364,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "female"
+    "remains": "여자"
    },
    {
-    "name": "mountain",
+    "name": "산",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -5389,10 +5389,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "dark"
+    "remains": "어두운"
    },
    {
-    "name": "hand",
+    "name": "손",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -5424,10 +5424,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "pale"
+    "remains": "창백한"
    },
    {
-    "name": "hand",
+    "name": "손",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -5463,10 +5463,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "pale"
+    "remains": "창백한"
    },
    {
-    "name": "sky",
+    "name": "하늘",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -5488,10 +5488,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "night"
+    "remains": "나이트."
    },
    {
-    "name": "hill",
+    "name": "언덕",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -5513,10 +5513,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "beautiful"
+    "remains": "아름다워"
    },
    {
-    "name": "river",
+    "name": "강",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -5538,10 +5538,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "great"
+    "remains": "엄청나"
    },
    {
-    "name": "skin",
+    "name": "피부.",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -5563,10 +5563,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "neck"
+    "remains": "목"
    },
    {
-    "name": "hair",
+    "name": "머리",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -5585,13 +5585,13 @@
      }
     },
     "area": 0,
-    "color": "black",
+    "color": "블랙입니다.",
     "location": "",
     "size": "",
     "remains": ""
    },
    {
-    "name": "skin",
+    "name": "피부.",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -5613,10 +5613,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "hand"
+    "remains": "손"
    },
    {
-    "name": "skin",
+    "name": "피부.",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -5638,10 +5638,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "hand"
+    "remains": "손"
    },
    {
-    "name": "cloth",
+    "name": "헝겊 조각",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -5663,10 +5663,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "shirt"
+    "remains": "셔츠"
    },
    {
-    "name": "skin",
+    "name": "피부.",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -5688,10 +5688,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "face"
+    "remains": "얼굴"
    },
    {
-    "name": "shoulder",
+    "name": "어깨",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -5711,12 +5711,12 @@
     },
     "area": 0,
     "color": "",
-    "location": "right shoulder",
+    "location": "오른쪽 어깨",
     "size": "",
-    "remains": "kind of balckish"
+    "remains": "balckish의 종류"
    },
    {
-    "name": "hand",
+    "name": "손",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -5735,13 +5735,13 @@
      }
     },
     "area": 0,
-    "color": "brown",
+    "color": "갈색",
     "location": "",
     "size": "",
     "remains": ""
    },
    {
-    "name": "nose",
+    "name": "코.",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -5760,13 +5760,13 @@
      }
     },
     "area": 0,
-    "color": "brown",
+    "color": "갈색",
     "location": "",
     "size": "",
     "remains": ""
    },
    {
-    "name": "dress",
+    "name": "드레스.",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -5785,13 +5785,13 @@
      }
     },
     "area": 0,
-    "color": "black",
+    "color": "블랙입니다.",
     "location": "",
     "size": "",
     "remains": ""
    },
    {
-    "name": "head",
+    "name": "머리",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -5810,13 +5810,13 @@
      }
     },
     "area": 0,
-    "color": "brown",
+    "color": "갈색",
     "location": "",
     "size": "",
     "remains": ""
    },
    {
-    "name": "mountain",
+    "name": "산",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -5835,13 +5835,13 @@
      }
     },
     "area": 0,
-    "color": "green",
+    "color": "초록의",
     "location": "",
     "size": "",
     "remains": ""
    },
    {
-    "name": "background",
+    "name": "배경",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -5863,10 +5863,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "back"
+    "remains": "뒤로"
    },
    {
-    "name": "hehe",
+    "name": "헤헤",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -5891,7 +5891,7 @@
     "remains": ""
    },
    {
-    "name": "hehe",
+    "name": "헤헤",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -5916,7 +5916,7 @@
     "remains": "hehee"
    },
    {
-    "name": "hehe",
+    "name": "헤헤",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -5941,7 +5941,7 @@
     "remains": ""
    },
    {
-    "name": "hehe",
+    "name": "헤헤",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
