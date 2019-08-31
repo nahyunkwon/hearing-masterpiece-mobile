@@ -52,7 +52,7 @@ def filtering(src, dest, id):
         try:
             attr_list = obj['attributes'].split(',')
         except AttributeError:
-            break
+            pass
 
         color = []
         location = []
@@ -116,7 +116,7 @@ def filtering(src, dest, id):
 
 
 def main():
-    img_id_list = ['1', '2', '4', '5', '9', '11', '17', '18']
+    img_id_list = ["1", "2", "4", "5", "9", "11", "17", "18"]
 
     src = "../public/img_data/art_processed/"
     dest = "../public/img_data/art_filtered/art_filtered_eng/"

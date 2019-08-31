@@ -192,16 +192,27 @@ function draw_polygon(mode){
         if(mode == "p"){
             return d.name + ".." + d.attributes;
         }
-        else if(mode == "m" && lan == "e"){
+        else if(mode == "m"){
             var cat = d.name + "..";
-            if(d.remains != ""){
+            if(d.remains != "" && typeof d.remains != "undefined"){
                 cat = cat + d.remains;
             }
-            if(d.color != ""){
-                cat = cat + ", the color is "+d.color;
+            if(d.color != "" && typeof d.color != "undefined"){
+                if(lan == "e"){
+                    cat = cat + ", the color is "+d.color;
+                }
+                else if(lan == "k"){
+                     cat = cat + ", 색깔은 "+d.color;
+                }
+
             }
-            if(d.location !=""){
-                cat = cat + ", and the location is " + d.location;
+            if(d.location !="" && typeof d.location != "undefined"){
+                if(lan == "e"){
+                    cat = cat + ", and the location is " + d.location;
+                }
+                else if(lan == "k"){
+                    cat = cat + ", 위치는 " + d.location;
+                }
             }
             return cat;
         }

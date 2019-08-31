@@ -20,7 +20,7 @@ else if(mode == "p"){
 
 var art_src_m = "art_filtered/art_filtered_eng/";
 var art_src_p = "art_prof_processed/";
-var art_src_k = "art_processed_kor/";
+var art_src_k = "art_filtered/art_filtered_kor/";
 
 var image_data_m = null;
 var image_data_p = null;
