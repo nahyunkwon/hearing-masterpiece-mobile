@@ -39,6 +39,12 @@
 	 		else
 	 			return 0;
 	 	}
+	 	else if(option == "size"){
+ 				if(document.getElementById('size').innerHTML.split('>')[1].split('<')[0] == "Size: ON")
+ 					return 1;
+ 				else
+ 					return 0;
+ 			}
 
 	 }
  </script>
@@ -110,9 +116,11 @@
  				<!-- https://mdbootstrap.com/plugins/jquery/gallery/ -->
  					<div id="select">
 								Select descriptions
+								<div id="expression" onclick="toggle(this)"><a href="#" >Expression: ON</a></div>
 								<div id="color" onclick="toggle(this)"><a href="#" >Color: ON</a></div>
 								<div id="location" onclick="toggle(this)"><a href="#" >Location: ON</a></div>
-								<div id="expression" onclick="toggle(this)"><a href="#" >Expression: ON</a></div>
+								<div id="size" onclick="toggle(this)"><a href="#" >Size: ON</a></div>
+
 
 
 								<script type="text/javascript">
@@ -136,6 +144,13 @@
 									} else if(t.childNodes[0].innerHTML == "Expression: OFF"){
 
 										t.childNodes[0].innerHTML = "Expression: ON";
+									}
+									if (t.childNodes[0].innerHTML == "Size: ON") {
+
+										t.childNodes[0].innerHTML = "Size: OFF";
+									} else if(t.childNodes[0].innerHTML == "Size: OFF"){
+
+										t.childNodes[0].innerHTML = "Size: ON";
 									}
 
 								}

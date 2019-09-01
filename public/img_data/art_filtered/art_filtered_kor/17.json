@@ -4237,7 +4237,7 @@
     "color": "빨간색",
     "location": "",
     "size": "",
-    "remains": "새틴,plumped, 위안"
+    "remains": "새틴, 부풀어 있는, 편안한"
    },
    {
     "name": "깔개",
@@ -4278,9 +4278,9 @@
     },
     "area": 4945.5,
     "color": "",
-    "location": ", 코너 극우",
+    "location": "오른쪽 코너",
     "size": "",
-    "remains": "양탄자예요,, 숨겨진"
+    "remains": "양탄자, 패턴이 있는, 숨겨진"
    },
    {
     "name": "드레스.",
@@ -4319,7 +4319,7 @@
     "color": "녹색 드레스",
     "location": "",
     "size": "",
-    "remains": "벨벳, 여성,"
+    "remains": "벨벳, 여성"
    },
    {
     "name": "벽",
@@ -4358,7 +4358,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "어둡고 선명하지 않매트"
+    "remains": "어둡고 거친, 매트한"
    },
    {
     "name": "팔",
@@ -4421,7 +4421,7 @@
     "color": "",
     "location": "왼쪽",
     "size": "",
-    "remains": "신체 부위, 여자"
+    "remains": "신체 부위, 남자"
    },
    {
     "name": "글자",
@@ -4460,7 +4460,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "그래피티, 쓰기, 스크립트"
+    "remains": "그래피티, 스크립트"
    },
    {
     "name": "거울",
@@ -4497,9 +4497,9 @@
     },
     "area": 2862.5,
     "color": "",
-    "location": "백업 측",
+    "location": "뒤쪽",
     "size": "",
-    "remains": "벽 거울, 그림자, 남자, 여자들이다."
+    "remains": "벽에 걸린 거울, 그림자, 남자와 여자가 비친"
    },
    {
     "name": "가슴",
@@ -4542,7 +4542,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "어머니, 모유를 먹이, 임신한"
+    "remains": "어머니, 임신한"
    },
    {
     "name": "온도계",
@@ -4634,9 +4634,9 @@
     },
     "area": 2008.0,
     "color": "하얀색",
-    "location": "오른손,",
+    "location": "위쪽",
     "size": "",
-    "remains": " 남자의 손, 우아한"
+    "remains": "오른손, 남자의 손, 우아한"
    },
    {
     "name": "목",
@@ -4801,7 +4801,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "창백한 길고 손"
+    "remains": "창백한, 길다란, 손"
    },
    {
     "name": "손",
@@ -4857,10 +4857,10 @@
      ]
     },
     "area": 1815.0,
-    "color": "베이지 색 피부, 하얀",
-    "location": "위쪽으로, 미행, 전방 왼쪽, 오른손이 올랐어요.",
+    "color": "베이지 색, 흰색",
+    "location": "위쪽으로, 미행, 전방 왼쪽",
     "size": "",
-    "remains": "지난 빛, 남자의 손, 우아한."
+    "remains": "오른손, 빛나는, 남자의 손, 우아한."
    },
    {
     "name": "손",
@@ -4904,10 +4904,10 @@
      ]
     },
     "area": 1719.0,
-    "color": "베이지 색의",
+    "color": "베이지 색",
     "location": "왼쪽",
     "size": "",
-    "remains": "암컷 손과 휴면을 과시했다, 창백한 길고 손."
+    "remains": "여자의 손, 유연한, 편히 쉬고 있는, 창백한, 길다란"
    },
    {
     "name": "팔",
@@ -4946,7 +4946,7 @@
     "color": "파랑색",
     "location": "오른쪽",
     "size": "",
-    "remains": "확장, 여성의 팔과 주름진 질감."
+    "remains": "길게 늘어진, 여성의 팔, 주름진 질감."
    },
    {
     "name": "나막신",
@@ -5075,9 +5075,9 @@
     },
     "area": 1325.5,
     "color": "",
-    "location": "",
+    "location": "마룻바닥 위",
     "size": "",
-    "remains": "마룻바닥 위에, 배경, 나무."
+    "remains": "배경, 나무."
    },
    {
     "name": "허리띠",
@@ -5122,9 +5122,9 @@
     },
     "area": 1181.0,
     "color": "갈색",
-    "location": "지지하다",
+    "location": "",
     "size": "",
-    "remains": ", 드레스 잡고 꽉 모였다"
+    "remains": "모인, 드레스를 잡고 있는, 타이트한"
    },
    {
     "name": "스카프",
@@ -5160,10 +5160,10 @@
      ]
     },
     "area": 908.5,
-    "color": "하얀 스카프를",
+    "color": "하얀 스카프",
     "location": "",
     "size": "",
-    "remains": "여성들, head"
+    "remains": "여성, 머리"
    },
    {
     "name": "이마",
@@ -5209,7 +5209,7 @@
     "remains": "머리, 얼굴, 여자"
    },
    {
-    "name": "신발.",
+    "name": "구두",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -5246,7 +5246,7 @@
      ]
     },
     "area": 660.0,
-    "color": "구두를 닦다",
+    "color": "검은색",
     "location": "",
     "size": "",
     "remains": "신발, 남자"
@@ -5630,7 +5630,7 @@
     "color": "검은색",
     "location": "",
     "size": "",
-    "remains": "비전, 원형"
+    "remains": "원형"
    },
    {
     "name": "입",
@@ -5724,7 +5724,7 @@
     "color": "빨간색",
     "location": "",
     "size": "매우 작은",
-    "remains": "구"
+    "remains": "원형"
    },
    {
     "name": "코.",
@@ -5802,7 +5802,7 @@
     "color": "하얀색",
     "location": "오른쪽",
     "size": "작은.",
-    "remains": "쫓기고 입술, 여성 입술"
+    "remains": "꾹 다문 입술, 여성의 입술"
    },
    {
     "name": "왼쪽 눈",
@@ -5861,7 +5861,7 @@
     "color": "갈색",
     "location": "",
     "size": "",
-    "remains": "낮은 표정, 반 마감했다"
+    "remains": "아래를 바라보는, 반쯤 감긴"
    },
    {
     "name": "입",
@@ -5900,7 +5900,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "맛, 식사, tongue"
+    "remains": ""
    },
    {
     "name": "눈",
@@ -5982,7 +5982,7 @@
     "color": "갈색",
     "location": "",
     "size": "",
-    "remains": "낮은 표정, 반 마감했다"
+    "remains": "아래를 바라보는, 반쯤 감긴"
    },
    {
     "name": "오른쪽 눈",
@@ -6021,7 +6021,7 @@
     "color": "검은색",
     "location": "",
     "size": "",
-    "remains": "동그라미 하세요 부드러운"
+    "remains": "부드러운, 원형"
    },
    {
     "name": "코.",
@@ -6056,7 +6056,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "후각, 원, 서 있"
+    "remains": "원형, 냄새를 맡는, 곧은"
    },
    {
     "name": "드레스.",
