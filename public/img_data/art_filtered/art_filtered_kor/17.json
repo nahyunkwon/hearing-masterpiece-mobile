@@ -272,7 +272,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "여자가 남자 개"
+    "remains": ""
    },
    {
     "name": "여자",
@@ -408,13 +408,13 @@
      ]
     },
     "area": 203976.0,
-    "color": "녹색 드레스, 갈색 머리, 흰색 머리 옷",
+    "color": "녹색 드레스, 갈색 머리, 흰색 머리 장식",
     "location": "",
     "size": "",
-    "remains": ", 기능을 들고 임신한 것으로 보인다"
+    "remains": "임신한 것으로 보임, 배를 감싸안고 있음"
    },
    {
-    "name": "인간의",
+    "name": "인간",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -1006,14 +1006,14 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "남성, 축복, 행복한"
+    "remains": "남성, 축복을 비는, 행복한"
    },
    {
-    "name": "이봐.",
+    "name": "남자",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "large black hat, black cape-like coat, holding the woman_s hand, standing closest to the window",
+    "attributes": "large black hat, black cape-like coat, holding the wo 남자의 hand, standing closest to the window",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -1306,13 +1306,13 @@
      ]
     },
     "area": 186347.5,
-    "color": "큰 검은 모자, 검은 색cape-like 코트.",
+    "color": "큰 검은 모자, 검은 색 망토 같은 코트.",
     "location": "",
     "size": "",
-    "remains": ", 창문에 가장 가까운 서 있는woman_s 손을 잡는 모습."
+    "remains": "창문에 가깝게 서 있는, 여자의 손을 잡고 있는 모습."
    },
    {
-    "name": "덮개",
+    "name": "덮개, 캐노피",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -1410,12 +1410,12 @@
     },
     "area": 61599.5,
     "color": "",
-    "location": "알맞은 배경",
+    "location": "오른쪽 배경",
     "size": "",
-    "remains": "빨간 벨벳, 구식"
+    "remains": "빨간색벨벳, 구식의"
    },
    {
-    "name": "헝겊 조각",
+    "name": "옷",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -1452,10 +1452,10 @@
      ]
     },
     "area": 42128.5,
-    "color": "초록의",
+    "color": "초록색",
     "location": "",
     "size": "",
-    "remains": "주름, 저속한, 선명하지 않sewn"
+    "remains": "접혀 있는, 낟알 모양처럼 수놓아진, 거칠어 보이는"
    },
    {
     "name": "옷",
@@ -1537,7 +1537,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": ", 창, 빛, 맑은 열려"
+    "remains": "열려 있는, 창문, 밝은, 깨끗하고 선명한"
    },
    {
     "name": "샹들리에",
@@ -1613,13 +1613,13 @@
      ]
     },
     "area": 27563.0,
-    "color": "",
+    "color": "금색",
     "location": "",
     "size": "",
-    "remains": ", 조명, 금 화려한"
+    "remains": "빛이 비추는, 화려한"
    },
    {
-    "name": "덮다",
+    "name": "겉옷",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -1739,13 +1739,13 @@
      ]
     },
     "area": 24707.5,
-    "color": "황금에 색",
-    "location": "상단 중심에",
-    "size": "크기에 큰",
+    "color": "금색",
+    "location": "상단 가운데",
+    "size": "커다란",
     "remains": ""
    },
    {
-    "name": "chandeiler",
+    "name": "샹들리에",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -1962,10 +1962,10 @@
      ]
     },
     "area": 22842.0,
-    "color": "황금에 색",
-    "location": "상단 중심에",
-    "size": "크기에 큰",
-    "remains": "오네이트, 조명, 금, 놋쇠, 금, 고딕, 교수형, 무거운, 빛나"
+    "color": "금색",
+    "location": "상단 가운데",
+    "size": "커다란",
+    "remains": "장식, 조명, 금, 놋쇠, 금, 고딕 양식의, 매달린, 무거운, 빛나는"
    },
    {
     "name": "천",
@@ -2020,7 +2020,7 @@
     "color": "버건디",
     "location": "",
     "size": "",
-    "remains": "똑바로"
+    "remains": "똑바로 선 모양"
    },
    {
     "name": "개.",
@@ -2109,12 +2109,12 @@
     },
     "area": 21881.5,
     "color": "",
-    "location": "이 커플 회색",
+    "location": "부부의 사이",
     "size": "작은.",
-    "remains": "긴 머리,terrier-like"
+    "remains": "긴 털, 테리어 종으로 보이는"
    },
    {
-    "name": "주름",
+    "name": "프릴",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2191,10 +2191,10 @@
      ]
     },
     "area": 21848.5,
-    "color": "초록의",
+    "color": "초록색",
     "location": "",
     "size": "",
-    "remains": "좌로 다발로 묶은 직물, 구체적이고 생생한."
+    "remains": "드레스, 많은 천, 구체적이고 생생한."
    },
    {
     "name": "개.",
@@ -2373,7 +2373,7 @@
     "color": "갈색",
     "location": "",
     "size": "작은.",
-    "remains": "방, 원활한"
+    "remains": "방, 부드러운"
    },
    {
     "name": "천장.",
@@ -2412,7 +2412,7 @@
     "color": "",
     "location": "위에",
     "size": "",
-    "remains": "나무,, 어둠 속"
+    "remains": "나무, 패턴이 있는, 어두운"
    },
    {
     "name": "창문",
@@ -2457,7 +2457,7 @@
     },
     "area": 19360.5,
     "color": "",
-    "location": "제일 가장 왼쪽 코너.",
+    "location": "가장 왼쪽 모서리.",
     "size": "",
     "remains": ""
    },
@@ -2564,16 +2564,16 @@
     },
     "area": 17917.5,
     "color": "갈색",
-    "location": "이 커플 회색",
+    "location": "부부의 사이",
     "size": "작은.",
-    "remains": "영, 장발에, 긴 머리,terrier-like, 매끄럽습니다."
+    "remains": "어린, 긴 털을 가진, 테리어 종으로 보이는, 부드러운"
    },
    {
     "name": "모자",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "black color, on the man_s head, normal sized",
+    "attributes": "black color, on the  남자의 head, normal sized",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2808,8 +2808,8 @@
     "area": 16810.0,
     "color": "검은 색",
     "location": "",
-    "size": "크기로 지정된 정상적인",
-    "remains": "그man_s 머리에"
+    "size": "보통 크기의",
+    "remains": "남자의 머리에 씌여진"
    },
    {
     "name": "덮개",
@@ -2881,17 +2881,17 @@
      ]
     },
     "area": 14542.0,
-    "color": "빨간.",
-    "location": "꼭대기 바로",
+    "color": "빨간색",
+    "location": "오른쪽 상단",
     "size": "",
-    "remains": "침대 덮개, 직물, 어둡고 모였다."
+    "remains": "침대 덮개, 직물, 어두운, 모여 있는"
    },
    {
     "name": "배",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "woman_s belly, pregnant, baby bump, intimate, hand rests upon it, with child",
+    "attributes": "wo 남자의 belly, pregnant, baby bump, intimate, hand rests upon it, with child",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -2945,9 +2945,9 @@
     },
     "area": 14189.0,
     "color": "",
-    "location": "그것에 달려 있",
+    "location": "",
     "size": "",
-    "remains": "Woman_s 배, 임신 중이거나 아기 혹, 친밀하고 아동."
+    "remains": "여성의 배, 임신한, 불러 있는, 손을 위에 올린"
    },
    {
     "name": "바닥.",
@@ -2988,9 +2988,9 @@
     },
     "area": 13921.0,
     "color": "갈색",
-    "location": "중세",
+    "location": "",
     "size": "",
-    "remains": "나무"
+    "remains": "중세풍의, 나무"
    },
    {
     "name": "거울",
@@ -3050,10 +3050,10 @@
      ]
     },
     "area": 13488.0,
-    "color": "",
+    "color": "금색",
     "location": "",
     "size": "",
-    "remains": ", relfecting, 금 화려한"
+    "remains": "장식된, 반사하는"
    },
    {
     "name": "신발.",
@@ -3096,14 +3096,14 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "나무, 나막신, sandles"
+    "remains": "나무, 나막신, 샌들"
    },
    {
     "name": "모자",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "black, on man_s head, floppy, heavy, dark",
+    "attributes": "black, on  남자의 head, floppy, heavy, dark",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3184,10 +3184,10 @@
      ]
     },
     "area": 12670.5,
-    "color": "블랙입니다.",
+    "color": "검은색",
     "location": "",
     "size": "",
-    "remains": "man_s 머리에, 플로피, 무거운, 어두운."
+    "remains": "남자의 머리에 얹힌, 펄럭이는, 무거운, 어두운."
    },
    {
     "name": "테이블",
@@ -3236,9 +3236,9 @@
     },
     "area": 12274.5,
     "color": "갈색",
-    "location": "bedroom에 창문 아래",
+    "location": "침실의 창문 아래",
     "size": "",
-    "remains": "나무 모습"
+    "remains": "나무 느낌의"
    },
    {
     "name": "악수",
@@ -3274,13 +3274,13 @@
      ]
     },
     "area": 12003.0,
-    "color": ", 녹색의 색으로",
+    "color": "검은색, 초록색",
     "location": "",
     "size": "",
-    "remains": "방, 악수, 남자, 여성들"
+    "remains": "방, 악수, 남자, 여자"
    },
    {
-    "name": "벽 거울",
+    "name": "벽에 걸린 거울",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -3413,10 +3413,10 @@
      ]
     },
     "area": 11444.5,
-    "color": "색에 갈색",
-    "location": "가운데 중심에",
+    "color": "갈색, 금색",
+    "location": "가운데 중심",
     "size": "",
-    "remains": "원 모양의 화려한, relfecting, 금."
+    "remains": "원 모양의, 화려한, 반사하는"
    },
    {
     "name": "바닥.",
@@ -3514,7 +3514,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "2신발, 여성스러운, 샌들, 나무, 나막신, sandles."
+    "remains": "한 쌍의 신발, 여성스러운, 샌들, 나무, 나막신"
    },
    {
     "name": "소매",
@@ -3573,7 +3573,7 @@
     "color": "하얀색",
     "location": "",
     "size": "",
-    "remains": "Women_s 소매, 털, 길고 의기소침한."
+    "remains": "여자의 소매, 털, 기다란, 매달린"
    },
    {
     "name": "슬리퍼",
@@ -3621,9 +3621,9 @@
      ]
     },
     "area": 9722.0,
-    "color": "색깔에 흰",
-    "location": "그들은 왼쪽 아래에 있다.",
-    "size": "크기로 지정된 정상적인",
+    "color": "흰색",
+    "location": "왼쪽 아래",
+    "size": "보통 크기",
     "remains": ""
    },
    {
@@ -3705,9 +3705,9 @@
     },
     "area": 9562.5,
     "color": "하얀색",
-    "location": "머리 꼭대기에",
+    "location": "머리 꼭대기",
     "size": "",
-    "remains": ", 값 비싼 우아한"
+    "remains": "값비싼, 우아한"
    },
    {
     "name": "머리판",
@@ -3765,15 +3765,15 @@
     "area": 8740.0,
     "color": "갈색",
     "location": "",
-    "size": "",
-    "remains": "베드 포스트, 나무, 크다."
+    "size": "커다란",
+    "remains": "침대 머리, 나무"
    },
    {
     "name": "면사포",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": " white, lacy, detailed, woman_s head wear",
+    "attributes": " white, lacy, detailed, wo 남자의 head wear",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -3857,7 +3857,7 @@
     "color": "하얀색",
     "location": "",
     "size": "",
-    "remains": "레이시, 상세하고woman_s 머리 옷"
+    "remains": "레이스가 달린, 섬세한, 여자의 머리 장식"
    },
    {
     "name": "창문",
@@ -3896,10 +3896,10 @@
     "color": "다채로운",
     "location": "",
     "size": "",
-    "remains": "고등, 스테인드 글라스 창문, 원형 모양."
+    "remains": "높은, 스테인드 글라스 창문, 원형 패턴"
    },
    {
-    "name": "걸치다",
+    "name": "덮는 천",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -3932,10 +3932,10 @@
      ]
     },
     "area": 7904.0,
-    "color": "빨간.",
+    "color": "빨간색",
     "location": "",
     "size": "",
-    "remains": ", 견고한 무거운"
+    "remains": "견고한, 무거운"
    },
    {
     "name": "chandeliar",
@@ -4004,9 +4004,9 @@
     },
     "area": 7452.5,
     "color": "",
-    "location": "밝은",
+    "location": "",
     "size": "",
-    "remains": "호화스럽고 가볍고, 교수형이 비싼"
+    "remains": "밝은, 호화스럽고, 가볍고, 비싼, 매달린"
    },
    {
     "name": "덧문",
@@ -4049,7 +4049,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": ", 접히면, 나무, 어두운 개방"
+    "remains": "열려 있는, 접힌, 나무, 어두운"
    },
    {
     "name": "나무 바닥재",
@@ -4092,7 +4092,7 @@
     "color": "",
     "location": "",
     "size": "작은.",
-    "remains": "사각형 나무"
+    "remains": "사각형, 나무"
    },
    {
     "name": "커튼.",
@@ -4140,7 +4140,7 @@
      ]
     },
     "area": 6555.5,
-    "color": "빨간.",
+    "color": "빨간색",
     "location": "왼쪽",
     "size": "",
     "remains": "천"
@@ -4195,7 +4195,7 @@
      ]
     },
     "area": 6386.5,
-    "color": "빨간.",
+    "color": "빨간색",
     "location": "",
     "size": "",
     "remains": "쿠션, 어두운, 편안함, 앉은"
@@ -4234,7 +4234,7 @@
      ]
     },
     "area": 5628.0,
-    "color": "빨간.",
+    "color": "빨간색",
     "location": "",
     "size": "",
     "remains": "새틴,plumped, 위안"
@@ -4424,7 +4424,7 @@
     "remains": "신체 부위, 여자"
    },
    {
-    "name": "쓰기",
+    "name": "글자",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4502,7 +4502,7 @@
     "remains": "벽 거울, 그림자, 남자, 여자들이다."
    },
    {
-    "name": "유방.",
+    "name": "가슴",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4592,7 +4592,7 @@
     "deleted": "1",
     "verified": "0",
     "occluded": null,
-    "attributes": "man_s hand, right hand, white, graceful, up",
+    "attributes": " 남자의 hand, right hand, white, graceful, up",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4636,7 +4636,7 @@
     "color": "하얀색",
     "location": "오른손,",
     "size": "",
-    "remains": "man_s 손, 우아한"
+    "remains": " 남자의 손, 우아한"
    },
    {
     "name": "목",
@@ -4686,7 +4686,7 @@
     "remains": "남자, 신체 부위, 피부"
    },
    {
-    "name": "개체를 청소하기",
+    "name": "청소용 솔",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4808,7 +4808,7 @@
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "upward, beige skin, back with light, shadowed front, left side, man_s hand, right hand, white, graceful, up",
+    "attributes": "upward, beige skin, back with light, shadowed front, left side,  남자의 hand, right hand, white, graceful, up",
     "parts": {
      "hasparts": null,
      "ispartof": null
@@ -4860,7 +4860,7 @@
     "color": "베이지 색 피부, 하얀",
     "location": "위쪽으로, 미행, 전방 왼쪽, 오른손이 올랐어요.",
     "size": "",
-    "remains": "지난 빛,man_s 손, 우아한."
+    "remains": "지난 빛, 남자의 손, 우아한."
    },
    {
     "name": "손",
@@ -5252,7 +5252,7 @@
     "remains": "신발, 남자"
    },
    {
-    "name": "창문 보호 막대",
+    "name": "창문 보호용 막대",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -5394,7 +5394,7 @@
     "remains": "남자의 코"
    },
    {
-    "name": "보석류",
+    "name": "보석",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -5585,12 +5585,12 @@
     },
     "area": 241.5,
     "color": "",
-    "location": "눈을 떠났다",
+    "location": "왼쪽 눈",
     "size": "",
     "remains": ""
    },
    {
-    "name": "눈을 떠났다",
+    "name": "왼쪽 눈",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -5627,7 +5627,7 @@
      ]
     },
     "area": 184.5,
-    "color": "블랙입니다.",
+    "color": "검은색",
     "location": "",
     "size": "",
     "remains": "비전, 원형"
@@ -5670,7 +5670,7 @@
      ]
     },
     "area": 182.0,
-    "color": "빨간.",
+    "color": "빨간색",
     "location": "",
     "size": "작은.",
     "remains": "온순한"
@@ -5721,7 +5721,7 @@
      ]
     },
     "area": 140.0,
-    "color": "빨간.",
+    "color": "빨간색",
     "location": "",
     "size": "매우 작은",
     "remains": "구"
@@ -5805,7 +5805,7 @@
     "remains": "쫓기고 입술, 여성 입술"
    },
    {
-    "name": "눈을 떠났다",
+    "name": "왼쪽 눈",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -5936,7 +5936,7 @@
      ]
     },
     "area": 99.0,
-    "color": "블랙입니다.",
+    "color": "검은색",
     "location": "",
     "size": "",
     "remains": ", 동그란 보"
@@ -6018,7 +6018,7 @@
      ]
     },
     "area": 93.0,
-    "color": "블랙입니다.",
+    "color": "검은색",
     "location": "",
     "size": "",
     "remains": "동그라미 하세요 부드러운"
@@ -6078,7 +6078,7 @@
      }
     },
     "area": 0,
-    "color": "블랙입니다.",
+    "color": "검은색",
     "location": "",
     "size": "",
     "remains": ""
@@ -6128,7 +6128,7 @@
      }
     },
     "area": 0,
-    "color": "블랙입니다.",
+    "color": "검은색",
     "location": "",
     "size": "",
     "remains": ""
@@ -6178,7 +6178,7 @@
      }
     },
     "area": 0,
-    "color": "블랙입니다.",
+    "color": "검은색",
     "location": "",
     "size": "",
     "remains": ""

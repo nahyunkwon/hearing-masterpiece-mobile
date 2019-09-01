@@ -194,10 +194,10 @@ function draw_polygon(mode){
         }
         else if(mode == "m"){
             var cat = d.name + "..";
-            if(d.remains != "" && typeof d.remains != "undefined"){
+            if(d.remains != "" && typeof d.remains != "undefined" && attr_exp == "1"){
                 cat = cat + d.remains;
             }
-            if(d.color != "" && typeof d.color != "undefined"){
+            if(d.color != "" && typeof d.color != "undefined" && attr_color == "1"){
                 if(lan == "e"){
                     cat = cat + ", the color is "+d.color;
                 }
@@ -206,7 +206,7 @@ function draw_polygon(mode){
                 }
 
             }
-            if(d.location !="" && typeof d.location != "undefined"){
+            if(d.location !="" && typeof d.location != "undefined" && attr_loc == "1"){
                 if(lan == "e"){
                     cat = cat + ", and the location is " + d.location;
                 }
