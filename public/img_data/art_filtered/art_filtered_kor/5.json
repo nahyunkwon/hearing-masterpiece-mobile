@@ -52,7 +52,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "뿔, 화날 때 분노를"
+    "remains": "뿔, 화난"
    },
    {
     "name": "말.",
@@ -835,7 +835,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "를 혼동하다. 찾으면, 놀라움, 걷는"
+    "remains": "혼란스러운, 놀라운, 걷고 있는"
    },
    {
     "name": "여성들.",
@@ -1531,13 +1531,13 @@
      ]
     },
     "area": 50364.5,
-    "color": "회색의",
+    "color": "회색",
     "location": "",
     "size": "",
-    "remains": "보면, 성인, 호기심을 큰 혼란."
+    "remains": "바라보는, 성인, 호기심을 보이는, 크기가 큰, 혼란스러운"
    },
    {
-    "name": "어머니는 죽은 아이를 잡고.",
+    "name": "죽은 아이를 안고 있는 어머니",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -1873,10 +1873,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "Anguish, 슬픔, 절망, 죽음, 마음을 아프, turmoil,."
+    "remains": "화난, 슬픔, 절망, 죽음, 마음이 아픈, 혼란스러운"
    },
    {
-    "name": "소를 몸",
+    "name": "소",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2171,7 +2171,7 @@
     "remains": ""
    },
    {
-    "name": "이봐.",
+    "name": "남자",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2548,9 +2548,9 @@
      ]
     },
     "area": 18693.5,
-    "color": "회색의",
+    "color": "회색",
     "location": "",
-    "size": "작은.",
+    "size": "작은",
     "remains": "놀라움, 큰 눈"
    },
    {
@@ -2856,7 +2856,7 @@
     "remains": "직사각형"
    },
    {
-    "name": "말 얼굴'",
+    "name": "말의 얼굴'",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -3003,7 +3003,7 @@
     "remains": "입, 겁이 나"
    },
    {
-    "name": "손 촛불 시위",
+    "name": "촛불을 들고 있는 손",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -3761,7 +3761,7 @@
     "remains": "눈을 가지고 있는 뾰족한 가장자리"
    },
    {
-    "name": "깨진 비수로 팔",
+    "name": "깨진 단검을 쥐고 있는 팔",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4107,11 +4107,11 @@
     "area": 9373.5,
     "color": "",
     "location": "왼쪽",
-    "size": "작은.",
+    "size": "작은",
     "remains": "광장"
    },
    {
-    "name": "벽돌 벽",
+    "name": "벽돌로 이루어진 벽",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4217,7 +4217,7 @@
     "remains": "머리 흐름, 두꺼운, 숱이 많은"
    },
    {
-    "name": "건물의 정상입니다.",
+    "name": "건물의 꼭대기",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4576,13 +4576,13 @@
      ]
     },
     "area": 5372.5,
-    "color": "회색의",
+    "color": "회색",
     "location": "",
     "size": "",
-    "remains": "발, 발가락"
+    "remains": "발, 발가락들"
    },
    {
-    "name": "한horse_s 다리",
+    "name": "말의 다리",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4670,7 +4670,7 @@
     "color": "회색",
     "location": "",
     "size": "",
-    "remains": "확장된 것을 가렸다"
+    "remains": "그림자 진, 길다란"
    },
    {
     "name": "꼬리",
@@ -4777,7 +4777,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "대살지, 말 꼬리,"
+    "remains": "철사 같은 선이 쭉쭉 그어진, 꼬리"
    },
    {
     "name": "팔",
@@ -4814,9 +4814,9 @@
     },
     "area": 3762.5,
     "color": "회색과 흰색",
-    "location": "밑.",
+    "location": "아래쪽",
     "size": "",
-    "remains": "선의, 이상한 형상을, 바닥에 가득한"
+    "remains": "여러 개의 선으로 가득한, 이상한 모양, 바닥에 길게 늘어진"
    },
    {
     "name": "연기",
@@ -4956,7 +4956,7 @@
      ]
     },
     "area": 3556.5,
-    "color": "회색의",
+    "color": "회색",
     "location": "모서리",
     "size": "",
     "remains": "추상적인"
@@ -5172,9 +5172,9 @@
     },
     "area": 3017.0,
     "color": "",
-    "location": "깨져left_",
+    "location": "왼쪽",
     "size": "",
-    "remains": "큰."
+    "remains": "커다란, 부러진"
    },
    {
     "name": "머리",
@@ -5233,7 +5233,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "전복하면서 아이들은 죽은"
+    "remains": "죽은, 전복된, 아이들"
    },
    {
     "name": "팔",
@@ -5279,7 +5279,7 @@
     "area": 2424.0,
     "color": "하얀색",
     "location": "",
-    "size": "작은.",
+    "size": "작은",
     "remains": "네모꼴의"
    },
    {
@@ -5326,11 +5326,11 @@
     "area": 2389.5,
     "color": "갈색",
     "location": "",
-    "size": "작은.",
+    "size": "작은",
     "remains": "직사각형"
    },
    {
-    "name": "한horse_s 입",
+    "name": "말의 입",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -5398,7 +5398,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": ", 이를 다 드러낸 비명을 지르며 열려"
+    "remains": "벌어져 있는, 이빨을 다 드러낸, 비명을 지르는"
    },
    {
     "name": "출입구",
@@ -5435,9 +5435,9 @@
     },
     "area": 1915.0,
     "color": "하얀색",
-    "location": "밝은",
-    "size": "작은.",
-    "remains": "직사각형"
+    "location": "",
+    "size": "작은",
+    "remains": "밝은, 직사각형"
    },
    {
     "name": "혀",
@@ -5544,7 +5544,7 @@
     "color": "회색",
     "location": "",
     "size": "",
-    "remains": ", 일그러진 고통스러운"
+    "remains": "일그러진, 고통스러운"
    },
    {
     "name": "삼각형",
@@ -5608,10 +5608,10 @@
      ]
     },
     "area": 1527.0,
-    "color": ", 회색 흰색",
-    "location": "꼭대기 바로",
+    "color": "회색, 흰색",
+    "location": "오른쪽 위",
     "size": "",
-    "remains": "이빨 끝이 뾰족한, spike"
+    "remains": "이빨, 뾰족뾰족한"
    },
    {
     "name": "발굽",
@@ -5757,7 +5757,7 @@
     "remains": "말, 발, 금속"
    },
    {
-    "name": "한horse_s 발굽",
+    "name": "말의 발굽",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -5795,9 +5795,9 @@
     },
     "area": 1192.0,
     "color": "회색",
-    "location": "이미지의 바닥",
+    "location": "아래쪽",
     "size": "",
-    "remains": "기울어져"
+    "remains": "기울어져 있는"
    },
    {
     "name": "주둥이",
@@ -5840,10 +5840,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "코, 황소, 제2, nostrils"
+    "remains": "코, 황소, 평면의, 콧구멍"
    },
    {
-    "name": "남의 손",
+    "name": "사람의 손",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -5933,9 +5933,9 @@
     },
     "area": 987.0,
     "color": "회색",
-    "location": "캔버스의 왼쪽",
-    "size": "작은.",
-    "remains": "half-star을 형성하였다."
+    "location": "왼쪽",
+    "size": "작은",
+    "remains": "절반으로 잘린 별 모양"
    },
    {
     "name": "고환",
@@ -6015,13 +6015,13 @@
      ]
     },
     "area": 964.0,
-    "color": "left_ brown_ 큰",
-    "location": "",
+    "color": "갈색",
+    "location": "왼쪽",
     "size": "",
-    "remains": ""
+    "remains": "커다란"
    },
    {
-    "name": "왼쪽 방향 화살표 포인팅",
+    "name": "왼쪽을 가리키는 화살표",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -6069,7 +6069,7 @@
     "color": "",
     "location": "왼쪽",
     "size": "매우 작은",
-    "remains": "화살"
+    "remains": "화살표 모양"
    },
    {
     "name": "전구",
@@ -6120,10 +6120,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "Lightbulb, 제2, 모호한데, 기본적인, 간단한."
+    "remains": "전구, 평면적인, 모호한, 기본적인, 단순한"
    },
    {
-    "name": "불길",
+    "name": "화염",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -6178,11 +6178,11 @@
     "area": 808.0,
     "color": "검은색과 흰색.",
     "location": "",
-    "size": "작은.",
+    "size": "작은",
     "remains": "눈물 방울 모양의"
    },
    {
-    "name": "플라워",
+    "name": "꽃",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -6280,9 +6280,9 @@
     },
     "area": 744.5,
     "color": "",
-    "location": "",
-    "size": "작은.",
-    "remains": "바닥, 아름다움"
+    "location": "바닥",
+    "size": "작은",
+    "remains": "아름다움"
    },
    {
     "name": "뿔",
@@ -6331,9 +6331,9 @@
     },
     "area": 673.5,
     "color": "",
-    "location": "남은 최고",
+    "location": "왼쪽 상단",
     "size": "",
-    "remains": ", 뼈를 가리켰다."
+    "remains": "뾰족한, 뼈"
    },
    {
     "name": "귀",
@@ -6380,10 +6380,10 @@
     "color": "옅은 회색.",
     "location": "",
     "size": "매우 작은",
-    "remains": "대략 끝부분"
+    "remains": "거칠고 타원형의"
    },
    {
-    "name": "토",
+    "name": "발가락",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -6424,7 +6424,7 @@
      ]
     },
     "area": 450.5,
-    "color": "회색의",
+    "color": "회색",
     "location": "",
     "size": "",
     "remains": "발, 다리, 동그란"
@@ -6462,10 +6462,10 @@
     "color": "회색",
     "location": "오른쪽 중간",
     "size": "",
-    "remains": "수치 지점"
+    "remains": "뾰족한"
    },
    {
-    "name": "트라이앵글",
+    "name": "삼각형",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -6501,7 +6501,7 @@
     "color": "어두운 회색",
     "location": "",
     "size": "",
-    "remains": "기하학, 수학"
+    "remains": "기하학적인, 수학적인"
    },
    {
     "name": "입",
@@ -6550,9 +6550,9 @@
     },
     "area": 295.5,
     "color": "하얀색",
-    "location": "괜찮은 면",
-    "size": "작은.",
-    "remains": "비명 소리, 이상한"
+    "location": "위쪽",
+    "size": "작은",
+    "remains": "비명을 지르는, 이상한"
    },
    {
     "name": "눈",
@@ -6589,12 +6589,12 @@
     },
     "area": 270.0,
     "color": "흰 홍채",
-    "location": "옆구리 아래쪽으로",
+    "location": "아래",
     "size": "",
-    "remains": "Vitreous, 치명적인 수직 위치 본다."
+    "remains": "유리 같은, 죽은 듯한, 수직으로 서 있는"
    },
    {
-    "name": "눈을 떠났다",
+    "name": "왼쪽 눈",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -6634,10 +6634,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": ", 양식화된,의 눈에 띄지 않는 개방"
+    "remains": "크게 뜨여진, 뚫어져라 바라보는"
    },
    {
-    "name": "다른 눈",
+    "name": "반대 눈",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -6671,9 +6671,9 @@
     },
     "area": 196.0,
     "color": "하얀색",
-    "location": "위로, 어두운 학생 찾고 있",
+    "location": "",
     "size": "",
-    "remains": ", 툭 튀어 나온 무서워"
+    "remains": "위를 바라보는, 어두운 동공, 겁에 질린, 부풀어 있는"
    },
    {
     "name": "눈",
@@ -6714,9 +6714,9 @@
     },
     "area": 182.5,
     "color": "하얀색",
-    "location": "위로 찾고 있",
-    "size": "작은.",
-    "remains": "눈방울을 굴리다, 무력한 찾고 있"
+    "location": "",
+    "size": "작은",
+    "remains": "위를 바라보는, 부릅뜬, 의지할 곳이 없어 보이는"
    },
    {
     "name": "눈",
@@ -6755,10 +6755,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "Eyeball, 기본적인, 2D그림, 잘못된."
+    "remains": "눈알, 단순한, 이상한 곳에 위치한"
    },
    {
-    "name": "트라이앵글",
+    "name": "삼각형",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -6789,8 +6789,8 @@
     "area": 112.5,
     "color": "",
     "location": "",
-    "size": "작은.",
-    "remains": ", 애매하고 불분명한 추상적인"
+    "size": "작은",
+    "remains": "애매한, 불분명한, 추상적인"
    },
    {
     "name": "오른쪽 눈",
@@ -6827,12 +6827,12 @@
     },
     "area": 111.5,
     "color": "",
-    "location": "남은 최고",
+    "location": "왼쪽 상단",
     "size": "",
-    "remains": ", 양식화된 개방"
+    "remains": "열려 있는"
    },
    {
-    "name": "말들 눈독",
+    "name": "말의 눈",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -6906,8 +6906,8 @@
     "area": 41.0,
     "color": "",
     "location": "",
-    "size": "작은.",
-    "remains": ", 얇은 문을 닫"
+    "size": "작은",
+    "remains": "닫혀 있는, 얇은"
    },
    {
     "name": "손",
@@ -6930,9 +6930,9 @@
     },
     "area": 0,
     "color": "",
-    "location": "righthand",
+    "location": "",
     "size": "",
-    "remains": "손에 라인의 수는 매우 거칠다."
+    "remains": "오른손"
    },
    {
     "name": "빛",
@@ -6960,7 +6960,7 @@
     "remains": "같은 눈, 측정용 벌브"
    },
    {
-    "name": "촛불로 손",
+    "name": "촛불을 든 손",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -7010,7 +7010,7 @@
     "remains": "눈, 귀, 입, nose"
    },
    {
-    "name": "말 얼굴'",
+    "name": "말의 얼굴",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -7081,7 +7081,7 @@
     "area": 0,
     "color": "",
     "location": "왼쪽",
-    "size": "작은.",
+    "size": "작은",
     "remains": "둥근"
    },
    {

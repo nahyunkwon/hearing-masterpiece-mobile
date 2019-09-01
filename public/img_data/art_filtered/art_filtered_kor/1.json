@@ -8,7 +8,7 @@
   },
   "object": [
    {
-    "name": "의해 그려지",
+    "name": "모나리자",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -164,10 +164,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "예를 들어, 현실적인, 어두운, 여성, 개요입니다."
+    "remains": "깨끗한, 실감나고 현실적인, 어두운, 여성."
    },
    {
-    "name": "인간의",
+    "name": "인간",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -415,10 +415,10 @@
      ]
     },
     "area": 346354.0,
-    "color": "초록의",
+    "color": "초록색",
     "location": "",
     "size": "",
-    "remains": "희미해져, 어두운, 풀이 우거진 배경"
+    "remains": "흐릿한, 어두운, 풀이 우거진 배경"
    },
    {
     "name": "하늘",
@@ -487,9 +487,9 @@
     },
     "area": 166998.5,
     "color": "회색",
-    "location": "를, 여자 위에",
+    "location": "여자의 위쪽",
     "size": "",
-    "remains": "추워요"
+    "remains": "차가운"
    },
    {
     "name": "머리",
@@ -597,10 +597,10 @@
      ]
     },
     "area": 69102.0,
-    "color": ", 검은 색 갈색",
+    "color": "검은색, 갈색",
     "location": "",
     "size": "",
-    "remains": "다크, 길고 곧고 부드러운, 빛나는, 매력적인, 여성."
+    "remains": "어두운, 길고 곧고 부드러운, 빛나는, 매력적인, 여성."
    },
    {
     "name": "얼굴",
@@ -767,10 +767,10 @@
      ]
     },
     "area": 47780.5,
-    "color": "초록의",
+    "color": "초록",
     "location": "",
     "size": "",
-    "remains": "나무들, 동물들, 가지"
+    "remains": "나무들, 동물들, 나뭇가지들"
    },
    {
     "name": "숲",
@@ -874,10 +874,10 @@
      ]
     },
     "area": 47543.0,
-    "color": "초록의",
+    "color": "초록",
     "location": "",
     "size": "",
-    "remains": "나무들, 동물들, 가지"
+    "remains": "나무들, 동물들, 나뭇가지들"
    },
    {
     "name": "사람의 얼굴",
@@ -945,7 +945,7 @@
      ]
     },
     "area": 41880.5,
-    "color": "블랙입니다.",
+    "color": "검은색",
     "location": "",
     "size": "",
     "remains": "아름다움"
@@ -1068,7 +1068,7 @@
      ]
     },
     "area": 39844.5,
-    "color": "땅의 어두운 갈색 질량이다.",
+    "color": "검은색, 갈색",
     "location": "왼쪽 모서리 쪽",
     "size": "",
     "remains": ""
@@ -1163,10 +1163,10 @@
      ]
     },
     "area": 36002.0,
-    "color": "베이지 색의",
+    "color": "베이지 색",
     "location": "",
     "size": "",
-    "remains": "빈, 깨끗한, 보석, 피부."
+    "remains": "텅 빈, 깨끗한, 장신구는 없음, 피부."
    },
    {
     "name": "목",
@@ -1305,13 +1305,13 @@
      ]
     },
     "area": 34499.0,
-    "color": "블랙입니다.",
+    "color": "검은색",
     "location": "",
     "size": "",
-    "remains": "다크, 의복, 그 몸을 덮고 있는, 비단 고전."
+    "remains": "어두운, 의복, 몸을 감싸고 있는, 비단"
    },
    {
-    "name": "유방.",
+    "name": "가슴",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -1403,7 +1403,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "임신, 여자, 신체 부위"
+    "remains": "성숙한, 여자, 신체 부위"
    },
    {
     "name": "오른손",
@@ -1802,7 +1802,7 @@
     "color": "하얀색",
     "location": "전면 아래",
     "size": "",
-    "remains": ", 깨끗한 휴식"
+    "remains": "편안하게 내려놓은, 깨끗한"
    },
    {
     "name": "언덕",
@@ -1882,10 +1882,10 @@
      ]
     },
     "area": 25858.0,
-    "color": "어두운 갈색 땅.",
+    "color": "어두운 갈색 땅",
     "location": "오른쪽",
     "size": "",
-    "remains": "언덕이나 산 몰 것으로 추정됩니다"
+    "remains": "언덕이나 산을 닮음"
    },
    {
     "name": "드레스.",
@@ -2000,7 +2000,7 @@
     "color": "갈색",
     "location": "",
     "size": "",
-    "remains": ", 자수천"
+    "remains": "자수가 놓인 천"
    },
    {
     "name": "소매",
@@ -2124,7 +2124,7 @@
     },
     "area": 18821.0,
     "color": "갈색",
-    "location": "하심",
+    "location": "아래쪽 가운데",
     "size": "",
     "remains": "나무"
    },
@@ -2163,7 +2163,7 @@
     },
     "area": 17865.0,
     "color": "갈색",
-    "location": "하심",
+    "location": "아래쪽 가운데",
     "size": "",
     "remains": "나무"
    },
@@ -2375,7 +2375,7 @@
      ]
     },
     "area": 13946.5,
-    "color": "블랙입니다.",
+    "color": "검은색",
     "location": "",
     "size": "",
     "remains": "손, 옷"
@@ -2414,7 +2414,7 @@
      ]
     },
     "area": 13437.5,
-    "color": "블랙입니다.",
+    "color": "검은색",
     "location": "",
     "size": "",
     "remains": "손, 옷"
@@ -2481,7 +2481,7 @@
      ]
     },
     "area": 12890.0,
-    "color": "초록의",
+    "color": "초록색",
     "location": "",
     "size": "",
     "remains": "배경, 나무"
@@ -2579,7 +2579,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": ", 맛있는, 배경, 물 신선한"
+    "remains": "신선한, 배경, 물"
    },
    {
     "name": "하늘",
@@ -2620,9 +2620,9 @@
     },
     "area": 10528.0,
     "color": "회색",
-    "location": "여자 위에",
+    "location": "여성의 위쪽",
     "size": "",
-    "remains": "추워요"
+    "remains": "차가운"
    },
    {
     "name": "나무",
@@ -2662,10 +2662,10 @@
      ]
     },
     "area": 10416.0,
-    "color": "초록의",
+    "color": "초록색",
     "location": "",
     "size": "",
-    "remains": "잎, 가지, 뿌리, 자연"
+    "remains": "잎, 나뭇가지, 뿌리, 자연"
    },
    {
     "name": "땅",
@@ -2702,7 +2702,7 @@
     },
     "area": 10381.0,
     "color": "암갈색",
-    "location": "모서리 쪽을 떠났다",
+    "location": "왼쪽 모서리",
     "size": "",
     "remains": ""
    },
@@ -2803,7 +2803,7 @@
     "color": "암갈색",
     "location": "",
     "size": "",
-    "remains": "배경, bushes"
+    "remains": "배경, 덤불"
    },
    {
     "name": "이마",
@@ -2852,9 +2852,9 @@
     },
     "area": 9882.5,
     "color": "",
-    "location": "전선.",
+    "location": "앞쪽",
     "size": "",
-    "remains": "주름, 얼굴"
+    "remains": "주름이 없는, 얼굴"
    },
    {
     "name": "손",
@@ -2949,7 +2949,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "손가락, 팔, 몸, 해부학"
+    "remains": "손가락, 팔, 몸"
    },
    {
     "name": "머리",
@@ -3033,10 +3033,10 @@
      ]
     },
     "area": 9392.0,
-    "color": "블랙입니다.",
+    "color": "검은색",
     "location": "",
     "size": "",
-    "remains": "매력적인 빛나는"
+    "remains": "매력적인, 빛나는"
    },
    {
     "name": "피부.",
@@ -3076,10 +3076,10 @@
      ]
     },
     "area": 9110.0,
-    "color": "베이지 색의",
+    "color": "베이지 색",
     "location": "",
     "size": "",
-    "remains": "가슴을 파헤쳐 냈다"
+    "remains": "가슴, 가려지지 않고 드러나 있는"
    },
    {
     "name": "손",
@@ -3150,7 +3150,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "깨끗하고 여성, 부드러운"
+    "remains": "여성, 깨끗하고, 부드러운"
    },
    {
     "name": "시험",
@@ -3189,10 +3189,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "깨끗하고 여성, 부드러운"
+    "remains": "여성, 깨끗하고, 부드러운"
    },
    {
-    "name": "옷이요.",
+    "name": "옷",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -3228,7 +3228,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "어두운, 실크, 클래식"
+    "remains": "어두운, 실크, 고전적인"
    },
    {
     "name": "팔꿈치",
@@ -3291,7 +3291,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "바디 부분, 여자, 리사 mona."
+    "remains": "신체 부위, 모나리자"
    },
    {
     "name": "강",
@@ -3402,7 +3402,7 @@
     "color": "진흙 색",
     "location": "",
     "size": "",
-    "remains": "Murky, 물의 대륙 사이에 감칠 맛이 있는"
+    "remains": "뿌연, 육지 사이의 물"
    },
    {
     "name": "장식품",
@@ -3907,7 +3907,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": ", 교차, 신체 일부가 깨지기 쉬운"
+    "remains": "연약해 보이는, 교차된 두 팔, 신체 부위"
    },
    {
     "name": "나무들",
@@ -3947,10 +3947,10 @@
      ]
     },
     "area": 4240.5,
-    "color": "초록의",
+    "color": "초록색",
     "location": "",
     "size": "",
-    "remains": "자연, 시나리오"
+    "remains": "자연"
    },
    {
     "name": "오른쪽 눈",
@@ -4121,13 +4121,13 @@
      ]
     },
     "area": 2846.0,
-    "color": "암녹색",
+    "color": "진한 초록색",
     "location": "",
     "size": "",
-    "remains": "나무 또는 숲의 배경의 colletive."
+    "remains": "나무 또는 숲으로 이루어진 풍경의 배경"
    },
    {
-    "name": "손가락 중간 학년 학생.",
+    "name": "세번째 손가락",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4183,7 +4183,7 @@
     "color": "",
     "location": "오른손",
     "size": "",
-    "remains": "3번째 손가락"
+    "remains": "세번째 손가락"
    },
    {
     "name": "집게 손가락",
@@ -4250,10 +4250,10 @@
     "color": "",
     "location": "오른손",
     "size": "",
-    "remains": "손가락 두번째"
+    "remains": "두번째 손가락"
    },
    {
-    "name": "눈을 떠났다",
+    "name": "왼쪽 눈",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4403,7 +4403,7 @@
     "color": "",
     "location": "오른손",
     "size": "",
-    "remains": "손가락 네번째"
+    "remains": "네번째 손가락"
    },
    {
     "name": "머리",
@@ -4442,7 +4442,7 @@
     "color": "갈색",
     "location": "",
     "size": "",
-    "remains": "오래 전부터 부드러운"
+    "remains": "부드러운, 길다란"
    },
    {
     "name": "집게 손가락",
@@ -4493,7 +4493,7 @@
     "color": "",
     "location": "왼손",
     "size": "",
-    "remains": "손가락 두번째"
+    "remains": "두번째 손가락"
    },
    {
     "name": "가운데 손가락",
@@ -4544,7 +4544,7 @@
     "color": "",
     "location": "왼손",
     "size": "",
-    "remains": "3번째 손가락"
+    "remains": "세번째 손가락"
    },
    {
     "name": "눈",
@@ -4587,10 +4587,10 @@
     "color": "갈색",
     "location": "",
     "size": "",
-    "remains": ", 현실적인 여성의 맑은"
+    "remains": "뚜렷하고 깨끗한, 실감나고 현실적인, 여성"
    },
    {
-    "name": "연분홍색의",
+    "name": "새끼 손가락",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4641,11 +4641,11 @@
     "area": 1180.5,
     "color": "",
     "location": "오른손",
-    "size": "손가락 작은",
+    "size": "새끼 손가락",
     "remains": ""
    },
    {
-    "name": "손가락에서 새끼",
+    "name": "새끼 손가락",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4700,7 +4700,7 @@
     "area": 1016.5,
     "color": "",
     "location": "왼손",
-    "size": "손가락 작은",
+    "size": "새끼 손가락",
     "remains": ""
    },
    {
@@ -4836,7 +4836,7 @@
     "color": "",
     "location": "오른쪽",
     "size": "",
-    "remains": "배경, 활처럼 구부리"
+    "remains": "배경, 아치형의"
    },
    {
     "name": "입",
@@ -4915,7 +4915,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "미소, 수수께끼 같은, 입술, 가까운"
+    "remains": "미소, 수수께끼 같은, 입술, 닫혀 있는"
    },
    {
     "name": "약지",
@@ -4966,7 +4966,7 @@
     "color": "",
     "location": "왼손",
     "size": "",
-    "remains": "손가락 네번째"
+    "remains": " 네번째 손가락"
    },
    {
     "name": "엄지손가락",
@@ -5082,7 +5082,7 @@
     },
     "area": 292.0,
     "color": "",
-    "location": "눈을 떠났다",
+    "location": "왼쪽 눈",
     "size": "",
     "remains": "달 모양의"
    },
@@ -5188,12 +5188,12 @@
     },
     "area": 166.5,
     "color": "갈색",
-    "location": "눈을 떠났다",
+    "location": "왼쪽 눈",
     "size": "",
     "remains": "둥근"
    },
    {
-    "name": "올바른 홍채",
+    "name": "오른쪽 홍채",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -5337,7 +5337,7 @@
     },
     "area": 117.0,
     "color": "갈색",
-    "location": "눈을 떠났다",
+    "location": "왼쪽 눈",
     "size": "",
     "remains": "둥근"
    },
@@ -5488,7 +5488,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "나이트."
+    "remains": "밤"
    },
    {
     "name": "언덕",
@@ -5513,7 +5513,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "아름다워"
+    "remains": "아름다운"
    },
    {
     "name": "강",
@@ -5538,7 +5538,7 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "엄청나"
+    "remains": "커다란"
    },
    {
     "name": "피부.",
@@ -5585,7 +5585,7 @@
      }
     },
     "area": 0,
-    "color": "블랙입니다.",
+    "color": "검은색",
     "location": "",
     "size": "",
     "remains": ""
@@ -5641,7 +5641,7 @@
     "remains": "손"
    },
    {
-    "name": "헝겊 조각",
+    "name": "옷",
     "deleted": "1",
     "verified": "0",
     "occluded": null,
@@ -5713,7 +5713,7 @@
     "color": "",
     "location": "오른쪽 어깨",
     "size": "",
-    "remains": "balckish의 종류"
+    "remains": "거무스름한"
    },
    {
     "name": "손",
@@ -5785,7 +5785,7 @@
      }
     },
     "area": 0,
-    "color": "블랙입니다.",
+    "color": "검은색",
     "location": "",
     "size": "",
     "remains": ""
@@ -5835,7 +5835,7 @@
      }
     },
     "area": 0,
-    "color": "초록의",
+    "color": "초록색",
     "location": "",
     "size": "",
     "remains": ""
@@ -5861,9 +5861,9 @@
     },
     "area": 0,
     "color": "",
-    "location": "",
+    "location": "뒤쪽",
     "size": "",
-    "remains": "뒤로"
+    "remains": ""
    },
    {
     "name": "헤헤",
