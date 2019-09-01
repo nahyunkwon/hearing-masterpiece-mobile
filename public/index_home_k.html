@@ -21,20 +21,26 @@
  	<script>
  		function get_option(option){
  			if (option == 'color'){
- 				if(document.getElementById('color').innerHTML.split('>')[1].split('<')[0] == "Color: ON")
+ 				if(document.getElementById('color').innerHTML.split('>')[1].split('<')[0] == "색깔: 켬")
  					return 1;
  				else
  					return 0;
 
  			}
  			else if(option == "loc"){
- 				if(document.getElementById('location').innerHTML.split('>')[1].split('<')[0] == "Location: ON")
+ 				if(document.getElementById('location').innerHTML.split('>')[1].split('<')[0] == "위치: 켬")
  					return 1;
  				else
  					return 0;
  			}
  			else if(option == "exp"){
- 				if(document.getElementById('expression').innerHTML.split('>')[1].split('<')[0] == "Expression: ON")
+ 				if(document.getElementById('expression').innerHTML.split('>')[1].split('<')[0] == "표현: 켬")
+ 					return 1;
+ 				else
+ 					return 0;
+ 			}
+ 			else if(option == "size"){
+ 				if(document.getElementById('size').innerHTML.split('>')[1].split('<')[0] == "크기: 켬")
  					return 1;
  				else
  					return 0;
@@ -108,33 +114,40 @@
  				<!-- 8개의 그림 -->
  				<!-- https://mdbootstrap.com/plugins/jquery/gallery/ -->
  				<div id="select">
- 					Select descriptions
- 					<div id="color" onclick="toggle(this)"><a href="#" >Color: ON</a></div>
- 					<div id="location" onclick="toggle(this)"><a href="#" >Location: ON</a></div>
- 					<div id="expression" onclick="toggle(this)"><a href="#" >Expression: ON</a></div>
-
+ 					속성 선택
+					<div id="expression" onclick="toggle(this)"><a href="#" >표현: 켬</a></div>
+ 					<div id="color" onclick="toggle(this)"><a href="#" >색깔: 켬</a></div>
+ 					<div id="location" onclick="toggle(this)"><a href="#" >위치: 켬</a></div>
+					<div id="size" onclick="toggle(this)"><a href="#" >크기: 켬</a></div>
 
  					<script type="text/javascript">
  						function toggle (t) {
- 							if (t.childNodes[0].innerHTML == "Color: ON") {
+ 							if (t.childNodes[0].innerHTML == "색깔: 켬") {
 
- 								t.childNodes[0].innerHTML = "Color: OFF";
- 							} else if(t.childNodes[0].innerHTML == "Color: OFF"){
+ 								t.childNodes[0].innerHTML = "색깔: 끔";
+ 							} else if(t.childNodes[0].innerHTML == "색깔: 끔"){
 
- 								t.childNodes[0].innerHTML = "Color: ON";
+ 								t.childNodes[0].innerHTML = "색깔: 켬";
  							}
- 							if (t.childNodes[0].innerHTML == "Location: ON") {
+ 							if (t.childNodes[0].innerHTML == "위치: 켬") {
 
- 								t.childNodes[0].innerHTML = "Location: OFF";
- 							} else if(t.childNodes[0].innerHTML == "Location: OFF"){
- 								t.childNodes[0].innerHTML = "Location: ON";
+ 								t.childNodes[0].innerHTML = "위치: 끔";
+ 							} else if(t.childNodes[0].innerHTML == "위치: 끔"){
+ 								t.childNodes[0].innerHTML = "위치: 켬";
  							}
- 							if (t.childNodes[0].innerHTML == "Expression: ON") {
+ 							if (t.childNodes[0].innerHTML == "표현: 켬") {
 
- 								t.childNodes[0].innerHTML = "Expression: OFF";
- 							} else if(t.childNodes[0].innerHTML == "Expression: OFF"){
+ 								t.childNodes[0].innerHTML = "표현: 끔";
+ 							} else if(t.childNodes[0].innerHTML == "표현: 끔"){
 
- 								t.childNodes[0].innerHTML = "Expression: ON";
+ 								t.childNodes[0].innerHTML = "표현: 켬";
+ 							}
+ 							if (t.childNodes[0].innerHTML == "크기: 켬") {
+
+ 								t.childNodes[0].innerHTML = "크기: 끔";
+ 							} else if(t.childNodes[0].innerHTML == "크기: 끔"){
+
+ 								t.childNodes[0].innerHTML = "크기: 켬";
  							}
 
  						}
@@ -153,7 +166,7 @@
  								<div class="row no-gutters">
  									<div class="col-md-6">
 
- 										<a onclick = "location.href = 'https://m-hearing-masterpiece.web.app?img_id=1&lan=e&color='+get_option('color')+'&loc='+get_option('loc')+'&exp='+get_option('exp')">
+ 										<a onclick = "location.href = 'https://m-hearing-masterpiece.web.app?img_id=1&lan=e&color='+get_option('color')+'&loc='+get_option('loc')+'&exp='+get_option('exp')+'&size='+get_option('size')">
 
 											<div class="thumbnail-wrapper">
 												<h1>
@@ -202,7 +215,7 @@
  								<div class="card">
  									<div class="row no-gutters">
  										<div class="col-md-6">
- 											<a onclick = "location.href = 'https://m-hearing-masterpiece.web.app?img_id=2&lan=e&color='+get_option('color')+'&loc='+get_option('loc')+'&exp='+get_option('exp')">
+ 											<a onclick = "location.href = 'https://m-hearing-masterpiece.web.app?img_id=2&lan=e&color='+get_option('color')+'&loc='+get_option('loc')+'&exp='+get_option('exp')+'&size='+get_option('size')">
 
  												<div class="thumbnail-wrapper">
 													<h1>
@@ -235,7 +248,7 @@
  								<div class="card">
  									<div class="row no-gutters">
  										<div class="col-md-6">
- 											<a onclick = "location.href = 'https://m-hearing-masterpiece.web.app?img_id=4&lan=e&color='+get_option('color')+'&loc='+get_option('loc')+'&exp='+get_option('exp')">
+ 											<a onclick = "location.href = 'https://m-hearing-masterpiece.web.app?img_id=4&lan=e&color='+get_option('color')+'&loc='+get_option('loc')+'&exp='+get_option('exp')+'&size='+get_option('size')">
 
  												<div class="thumbnail-wrapper">
 													<h1>
@@ -269,7 +282,7 @@
  								<div class="card">
  									<div class="row no-gutters">
  										<div class="col-md-6">
- 											<a onclick = "location.href = 'https://m-hearing-masterpiece.web.app?img_id=5&lan=e&color='+get_option('color')+'&loc='+get_option('loc')+'&exp='+get_option('exp')">
+ 											<a onclick = "location.href = 'https://m-hearing-masterpiece.web.app?img_id=5&lan=e&color='+get_option('color')+'&loc='+get_option('loc')+'&exp='+get_option('exp')+'&size='+get_option('size')">
 
  												<div class="thumbnail-wrapper">
 													<h1>
@@ -308,7 +321,7 @@
  								<div class="card">
  									<div class="row no-gutters">
  										<div class="col-md-6">
- 											<a onclick = "location.href = 'https://m-hearing-masterpiece.web.app?img_id=1&lan=e&color='+get_option('color')+'&loc='+get_option('loc')+'&exp='+get_option('exp')">
+ 											<a onclick = "location.href = 'https://m-hearing-masterpiece.web.app?img_id=9&lan=e&color='+get_option('color')+'&loc='+get_option('loc')+'&exp='+get_option('exp')+'&size='+get_option('size')">
 
  												<div class="thumbnail-wrapper">
 													<h1>
@@ -342,7 +355,7 @@
  								<div class="card">
  									<div class="row no-gutters">
  										<div class="col-md-6">
- 											<a onclick = "location.href = 'https://m-hearing-masterpiece.web.app?img_id=11&lan=e&color='+get_option('color')+'&loc='+get_option('loc')+'&exp='+get_option('exp')">
+ 											<a onclick = "location.href = 'https://m-hearing-masterpiece.web.app?img_id=11&lan=e&color='+get_option('color')+'&loc='+get_option('loc')+'&exp='+get_option('exp')+'&size='+get_option('size')">
 
  												<div class="thumbnail-wrapper">
 													<h1>
@@ -377,7 +390,7 @@
  								<div class="card">
  									<div class="row no-gutters">
  										<div class="col-md-6">
- 											<a onclick = "location.href = 'https://m-hearing-masterpiece.web.app?img_id=17&lan=e&color='+get_option('color')+'&loc='+get_option('loc')+'&exp='+get_option('exp')">
+ 											<a onclick = "location.href = 'https://m-hearing-masterpiece.web.app?img_id=17&lan=e&color='+get_option('color')+'&loc='+get_option('loc')+'&exp='+get_option('exp')+'&size='+get_option('size')">
 
  												<div class="thumbnail-wrapper">
 													<h1>
@@ -416,7 +429,7 @@
  								<div class="card">
  									<div class="row no-gutters">
  										<div class="col-md-6">
- 											<a onclick = "location.href = 'https://m-hearing-masterpiece.web.app?img_id=18&lan=e&color='+get_option('color')+'&loc='+get_option('loc')+'&exp='+get_option('exp')">
+ 											<a onclick = "location.href = 'https://m-hearing-masterpiece.web.app?img_id=18&lan=e&color='+get_option('color')+'&loc='+get_option('loc')+'&exp='+get_option('exp')+'&size='+get_option('size')">
 
  												<div class="thumbnail-wrapper">
 													<h1>

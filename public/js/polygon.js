@@ -208,10 +208,18 @@ function draw_polygon(mode){
             }
             if(d.location !="" && typeof d.location != "undefined" && attr_loc == "1"){
                 if(lan == "e"){
-                    cat = cat + ", and the location is " + d.location;
+                    cat = cat + ", the location is " + d.location;
                 }
                 else if(lan == "k"){
                     cat = cat + ", 위치는 " + d.location;
+                }
+            }
+            if(d.size !="" && typeof d.size != "undefined" && attr_size == "1"){
+                if(lan == "e"){
+                    cat = cat + ", the size is " + d.size;
+                }
+                else if(lan == "k"){
+                    cat = cat + ", 크기는 " + d.size;
                 }
             }
             return cat;
