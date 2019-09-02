@@ -182,6 +182,21 @@ function draw_polygon(mode){
   .style("fill",function() {
     return "hsl(" + Math.random() * 360 + ",100%,50%)";
   })
+  .on("click", function(d){
+    if(mode == "p"){
+
+        if(audio_flag == 0){
+            audio_flag = 1;
+            audio = new Audio('../public/sound/'+img_id+'_'+d.id+'.mp3');
+            audio.play();
+        }
+        else{
+            audio_flag = 0;
+            audio.pause();
+            audio.currentTime = 0.0;
+        }
+    }
+  })
 
   .attr("category", function(d){
     d.name = d.name.replace('.', '');
@@ -278,6 +293,8 @@ var svg = d3.select(".image").append("svg")
 
 
  var mode = "m";
+ var audio_flag = 0;
+ var audio = null;
 
  if(lan == "e")
     var img_file = image_data_m;
