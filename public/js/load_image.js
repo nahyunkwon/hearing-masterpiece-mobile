@@ -7,6 +7,7 @@ var attr_exp = url.searchParams.get("exp");
 var attr_color = url.searchParams.get("color");
 var attr_loc = url.searchParams.get("loc");
 var attr_size = url.searchParams.get("size");
+var attr_sound = url.searchParams.get("sound");
 
 /*
 var mode = url.searchParams.get("mode");

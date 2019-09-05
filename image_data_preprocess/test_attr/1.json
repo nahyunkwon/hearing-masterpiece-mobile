@@ -8,7 +8,7 @@
   },
   "object": [
    {
-    "name": "mona lisa",
+    "name": "모나리자",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -164,165 +164,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "clear, realistic, dark, female, outline"
+    "remains": "깨끗한, 실감나고 현실적인, 어두운, 여성."
    },
    {
-    "name": "human",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 09:12:40",
-    "id": "9",
-    "polygon": {
-     "username": "WorkerID",
-     "pt": [
-      {
-       "x": "11",
-       "y": "900"
-      },
-      {
-       "x": "47",
-       "y": "815"
-      },
-      {
-       "x": "87",
-       "y": "777"
-      },
-      {
-       "x": "148",
-       "y": "678"
-      },
-      {
-       "x": "159",
-       "y": "627"
-      },
-      {
-       "x": "231",
-       "y": "564"
-      },
-      {
-       "x": "257",
-       "y": "475"
-      },
-      {
-       "x": "248",
-       "y": "407"
-      },
-      {
-       "x": "235",
-       "y": "331"
-      },
-      {
-       "x": "240",
-       "y": "302"
-      },
-      {
-       "x": "251",
-       "y": "246"
-      },
-      {
-       "x": "262",
-       "y": "199"
-      },
-      {
-       "x": "293",
-       "y": "148"
-      },
-      {
-       "x": "331",
-       "y": "121"
-      },
-      {
-       "x": "381",
-       "y": "105"
-      },
-      {
-       "x": "423",
-       "y": "105"
-      },
-      {
-       "x": "470",
-       "y": "130"
-      },
-      {
-       "x": "508",
-       "y": "170"
-      },
-      {
-       "x": "537",
-       "y": "240"
-      },
-      {
-       "x": "555",
-       "y": "356"
-      },
-      {
-       "x": "573",
-       "y": "477"
-      },
-      {
-       "x": "616",
-       "y": "522"
-      },
-      {
-       "x": "678",
-       "y": "587"
-      },
-      {
-       "x": "723",
-       "y": "665"
-      },
-      {
-       "x": "752",
-       "y": "757"
-      },
-      {
-       "x": "757",
-       "y": "844"
-      },
-      {
-       "x": "757",
-       "y": "951"
-      },
-      {
-       "x": "757",
-       "y": "1059"
-      },
-      {
-       "x": "750",
-       "y": "1092"
-      },
-      {
-       "x": "609",
-       "y": "1092"
-      },
-      {
-       "x": "358",
-       "y": "1092"
-      },
-      {
-       "x": "76",
-       "y": "1092"
-      },
-      {
-       "x": "0",
-       "y": "1090"
-      }
-     ]
-    },
-    "area": 487354.5,
-    "color": "",
-    "location": "",
-    "size": "",
-    "remains": ""
-   },
-   {
-    "name": "background",
+    "name": "배경",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -415,13 +260,13 @@
      ]
     },
     "area": 346354.0,
-    "color": "green",
+    "color": "초록색",
     "location": "",
     "size": "",
-    "remains": "blurred, dark, grassy background"
+    "remains": "흐릿한, 어두운, 풀이 우거진 배경"
    },
    {
-    "name": "sky",
+    "name": "하늘",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -486,13 +331,13 @@
      ]
     },
     "area": 166998.5,
-    "color": "gray",
-    "location": "up, above woman",
+    "color": "회색",
+    "location": "여자의 위쪽",
     "size": "",
-    "remains": "cold"
+    "remains": "차가운"
    },
    {
-    "name": "hair",
+    "name": "머리",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -597,72 +442,13 @@
      ]
     },
     "area": 69102.0,
-    "color": "brown, black",
+    "color": "검은색, 갈색",
     "location": "",
     "size": "",
-    "remains": "dark, long, straight, smooth, shiny, attractive, female"
+    "remains": "어두운, 길고 곧고 부드러운, 빛나는, 매력적인, 여성."
    },
    {
-    "name": "face",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 09:10:39",
-    "id": "7",
-    "polygon": {
-     "username": "WorkerID",
-     "pt": [
-      {
-       "x": "304",
-       "y": "157"
-      },
-      {
-       "x": "405",
-       "y": "152"
-      },
-      {
-       "x": "477",
-       "y": "251"
-      },
-      {
-       "x": "486",
-       "y": "401"
-      },
-      {
-       "x": "416",
-       "y": "430"
-      },
-      {
-       "x": "354",
-       "y": "443"
-      },
-      {
-       "x": "293",
-       "y": "383"
-      },
-      {
-       "x": "278",
-       "y": "318"
-      },
-      {
-       "x": "273",
-       "y": "237"
-      }
-     ]
-    },
-    "area": 48832.5,
-    "color": "",
-    "location": "",
-    "size": "",
-    "remains": ""
-   },
-   {
-    "name": "forest",
+    "name": "숲",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -767,120 +553,13 @@
      ]
     },
     "area": 47780.5,
-    "color": "green",
+    "color": "초록",
     "location": "",
     "size": "",
-    "remains": "trees, animals, branches"
+    "remains": "나무들, 동물들, 나뭇가지들"
    },
    {
-    "name": "forest",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "green, trees, animals, branches",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 10:09:16",
-    "id": "31",
-    "polygon": {
-     "username": "A2HC04434S9TP0",
-     "pt": [
-      {
-       "x": "2",
-       "y": "473"
-      },
-      {
-       "x": "42",
-       "y": "461"
-      },
-      {
-       "x": "73",
-       "y": "458"
-      },
-      {
-       "x": "138",
-       "y": "444"
-      },
-      {
-       "x": "181",
-       "y": "433"
-      },
-      {
-       "x": "229",
-       "y": "421"
-      },
-      {
-       "x": "252",
-       "y": "419"
-      },
-      {
-       "x": "225",
-       "y": "331"
-      },
-      {
-       "x": "252",
-       "y": "294"
-      },
-      {
-       "x": "250",
-       "y": "285"
-      },
-      {
-       "x": "196",
-       "y": "290"
-      },
-      {
-       "x": "194",
-       "y": "279"
-      },
-      {
-       "x": "190",
-       "y": "258"
-      },
-      {
-       "x": "146",
-       "y": "244"
-      },
-      {
-       "x": "131",
-       "y": "223"
-      },
-      {
-       "x": "96",
-       "y": "235"
-      },
-      {
-       "x": "88",
-       "y": "200"
-      },
-      {
-       "x": "58",
-       "y": "219"
-      },
-      {
-       "x": "35",
-       "y": "238"
-      },
-      {
-       "x": "19",
-       "y": "256"
-      },
-      {
-       "x": "2",
-       "y": "271"
-      }
-     ]
-    },
-    "area": 47543.0,
-    "color": "green",
-    "location": "",
-    "size": "",
-    "remains": "trees, animals, branches"
-   },
-   {
-    "name": "human face",
+    "name": "사람의 얼굴",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -945,13 +624,13 @@
      ]
     },
     "area": 41880.5,
-    "color": "black",
+    "color": "",
     "location": "",
     "size": "",
-    "remains": "beauty"
+    "remains": "아름다움"
    },
    {
-    "name": "land mass",
+    "name": "땅 덩어리",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -1068,13 +747,13 @@
      ]
     },
     "area": 39844.5,
-    "color": "dark brown mass of land",
-    "location": "left, bottom corner",
+    "color": "어두운 갈색",
+    "location": "왼쪽 모서리 쪽",
     "size": "",
     "remains": ""
    },
    {
-    "name": "neck",
+    "name": "목",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -1163,72 +842,13 @@
      ]
     },
     "area": 36002.0,
-    "color": "beige",
+    "color": "베이지 색",
     "location": "",
     "size": "",
-    "remains": "empty, clean, no jewels, skin"
+    "remains": "비어 있는, 깨끗한, 장신구는 없음, 피부."
    },
    {
-    "name": "neck",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 09:11:01",
-    "id": "8",
-    "polygon": {
-     "username": "WorkerID",
-     "pt": [
-      {
-       "x": "351",
-       "y": "457"
-      },
-      {
-       "x": "493",
-       "y": "421"
-      },
-      {
-       "x": "506",
-       "y": "490"
-      },
-      {
-       "x": "470",
-       "y": "593"
-      },
-      {
-       "x": "412",
-       "y": "647"
-      },
-      {
-       "x": "329",
-       "y": "629"
-      },
-      {
-       "x": "266",
-       "y": "602"
-      },
-      {
-       "x": "273",
-       "y": "569"
-      },
-      {
-       "x": "329",
-       "y": "472"
-      }
-     ]
-    },
-    "area": 35459.5,
-    "color": "",
-    "location": "",
-    "size": "",
-    "remains": ""
-   },
-   {
-    "name": "clothing",
+    "name": "옷",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -1305,13 +925,13 @@
      ]
     },
     "area": 34499.0,
-    "color": "black",
+    "color": "검은색",
     "location": "",
     "size": "",
-    "remains": "dark, classic, garment, covering the body, silk"
+    "remains": "어두운, 의복, 몸을 감싸고 있는, 비단"
    },
    {
-    "name": "breast",
+    "name": "가슴",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -1403,10 +1023,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "maternal, woman, body part"
+    "remains": "성숙한, 여자, 신체 부위"
    },
    {
-    "name": "right hand",
+    "name": "오른손",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -1799,13 +1419,13 @@
      ]
     },
     "area": 26569.0,
-    "color": "white",
-    "location": "bottom front",
+    "color": "하얀색",
+    "location": "전면 아래",
     "size": "",
-    "remains": "resting, clean"
+    "remains": "편안하게 내려놓은, 깨끗한"
    },
    {
-    "name": "hill",
+    "name": "언덕",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -1882,13 +1502,13 @@
      ]
     },
     "area": 25858.0,
-    "color": "dark brown land mass",
-    "location": "right side",
+    "color": "어두운 갈색 땅",
+    "location": "오른쪽",
     "size": "",
-    "remains": "resembles a hill or mountain"
+    "remains": "언덕 또는 산으로 보임"
    },
    {
-    "name": "dress",
+    "name": "드레스.",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -1997,13 +1617,13 @@
      ]
     },
     "area": 25425.5,
-    "color": "brown",
+    "color": "갈색",
     "location": "",
     "size": "",
-    "remains": "embroidered, fabric"
+    "remains": "자수가 놓인 천"
    },
    {
-    "name": "sleeve",
+    "name": "소매",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2059,10 +1679,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "arm, clothing"
+    "remains": "팔, 옷"
    },
    {
-    "name": "armrest",
+    "name": "팔걸이",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2123,115 +1743,13 @@
      ]
     },
     "area": 18821.0,
-    "color": "brown",
-    "location": "bottom center",
+    "color": "갈색",
+    "location": "아래쪽 가운데",
     "size": "",
-    "remains": "wood"
+    "remains": "나무"
    },
    {
-    "name": "test",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": "no",
-    "attributes": null,
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "30-Jun-2019 18:13:15",
-    "id": "0",
-    "polygon": {
-     "username": "test",
-     "pt": [
-      {
-       "x": "459",
-       "y": "426"
-      },
-      {
-       "x": "461",
-       "y": "586"
-      },
-      {
-       "x": "573",
-       "y": "573"
-      },
-      {
-       "x": "573",
-       "y": "417"
-      }
-     ]
-    },
-    "area": 17865.0,
-    "color": "brown",
-    "location": "bottom center",
-    "size": "",
-    "remains": "wood"
-   },
-   {
-    "name": "sleeve",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": " arm, clothing",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 09:58:24",
-    "id": "22",
-    "polygon": {
-     "username": "A1CJ8CLM7987EQ",
-     "pt": [
-      {
-       "x": "226",
-       "y": "873"
-      },
-      {
-       "x": "148",
-       "y": "836"
-      },
-      {
-       "x": "111",
-       "y": "841"
-      },
-      {
-       "x": "87",
-       "y": "882"
-      },
-      {
-       "x": "80",
-       "y": "918"
-      },
-      {
-       "x": "98",
-       "y": "951"
-      },
-      {
-       "x": "120",
-       "y": "964"
-      },
-      {
-       "x": "156",
-       "y": "971"
-      },
-      {
-       "x": "194",
-       "y": "966"
-      },
-      {
-       "x": "215",
-       "y": "956"
-      }
-     ]
-    },
-    "area": 15108.0,
-    "color": "",
-    "location": "",
-    "size": "",
-    "remains": "arm, clothing"
-   },
-   {
-    "name": "shoulder",
+    "name": "어깨",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2307,10 +1825,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "feminine, body part, woman"
+    "remains": "여성스러운, 신체 부위, 여자"
    },
    {
-    "name": "sleeve",
+    "name": "소매",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2375,52 +1893,13 @@
      ]
     },
     "area": 13946.5,
-    "color": "black",
+    "color": "검은색",
     "location": "",
     "size": "",
-    "remains": "hand, clothing"
+    "remains": "손, 옷"
    },
    {
-    "name": "tet",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": "no",
-    "attributes": null,
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "30-Jun-2019 18:14:07",
-    "id": "1",
-    "polygon": {
-     "username": "test",
-     "pt": [
-      {
-       "x": "338",
-       "y": "86"
-      },
-      {
-       "x": "338",
-       "y": "233"
-      },
-      {
-       "x": "463",
-       "y": "208"
-      },
-      {
-       "x": "463",
-       "y": "140"
-      }
-     ]
-    },
-    "area": 13437.5,
-    "color": "black",
-    "location": "",
-    "size": "",
-    "remains": "hand, clothing"
-   },
-   {
-    "name": "forest",
+    "name": "숲",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2481,13 +1960,13 @@
      ]
     },
     "area": 12890.0,
-    "color": "green",
+    "color": "초록색",
     "location": "",
     "size": "",
-    "remains": "background, trees"
+    "remains": "배경, 나무"
    },
    {
-    "name": "lake",
+    "name": "호수",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2579,53 +2058,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "fresh, tasty, background, water"
+    "remains": "신선한, 배경, 물"
    },
    {
-    "name": "sky",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "above woman, gray,cold",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 19:47:12",
-    "id": "84",
-    "polygon": {
-     "username": "A2NV315LQL2QZ7",
-     "pt": [
-      {
-       "x": "37",
-       "y": "65"
-      },
-      {
-       "x": "40",
-       "y": "91"
-      },
-      {
-       "x": "56",
-       "y": "196"
-      },
-      {
-       "x": "182",
-       "y": "200"
-      },
-      {
-       "x": "63",
-       "y": "58"
-      }
-     ]
-    },
-    "area": 10528.0,
-    "color": "gray",
-    "location": "above woman",
-    "size": "",
-    "remains": "cold"
-   },
-   {
-    "name": "tree",
+    "name": "나무",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2662,13 +2098,13 @@
      ]
     },
     "area": 10416.0,
-    "color": "green",
+    "color": "초록색",
     "location": "",
     "size": "",
-    "remains": "leaves, branch, roots, nature"
+    "remains": "잎, 나뭇가지, 뿌리, 자연"
    },
    {
-    "name": "ground",
+    "name": "땅",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2701,13 +2137,13 @@
      ]
     },
     "area": 10381.0,
-    "color": "dark brown",
-    "location": "left bottom corner",
+    "color": "암갈색",
+    "location": "왼쪽 모서리",
     "size": "",
     "remains": ""
    },
    {
-    "name": "vegetation",
+    "name": "초목",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2800,13 +2236,13 @@
      ]
     },
     "area": 10118.0,
-    "color": "dark brown",
+    "color": "암갈색",
     "location": "",
     "size": "",
-    "remains": "background, bushes"
+    "remains": "풀과 나무, 배경, 덤불"
    },
    {
-    "name": "forehead",
+    "name": "이마",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2852,12 +2288,12 @@
     },
     "area": 9882.5,
     "color": "",
-    "location": "front",
+    "location": "앞쪽",
     "size": "",
-    "remains": "wrinkles, face"
+    "remains": "주름이 없는, 얼굴"
    },
    {
-    "name": "hand",
+    "name": "손",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -2949,140 +2385,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "fingers, arm, body, anatomy"
+    "remains": "손가락, 팔, 몸"
    },
    {
-    "name": "hair",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "shiny, black, attractive",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 18:26:40",
-    "id": "78",
-    "polygon": {
-     "username": "A1SCA9REYZD5W2",
-     "pt": [
-      {
-       "x": "507",
-       "y": "259"
-      },
-      {
-       "x": "505",
-       "y": "322"
-      },
-      {
-       "x": "503",
-       "y": "387"
-      },
-      {
-       "x": "512",
-       "y": "436"
-      },
-      {
-       "x": "525",
-       "y": "484"
-      },
-      {
-       "x": "525",
-       "y": "538"
-      },
-      {
-       "x": "525",
-       "y": "568"
-      },
-      {
-       "x": "559",
-       "y": "564"
-      },
-      {
-       "x": "572",
-       "y": "557"
-      },
-      {
-       "x": "579",
-       "y": "544"
-      },
-      {
-       "x": "570",
-       "y": "512"
-      },
-      {
-       "x": "555",
-       "y": "473"
-      },
-      {
-       "x": "540",
-       "y": "428"
-      },
-      {
-       "x": "529",
-       "y": "369"
-      },
-      {
-       "x": "529",
-       "y": "326"
-      },
-      {
-       "x": "529",
-       "y": "296"
-      }
-     ]
-    },
-    "area": 9392.0,
-    "color": "black",
-    "location": "",
-    "size": "",
-    "remains": "shiny, attractive"
-   },
-   {
-    "name": "skin",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "chest,uncovered,beige",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 19:52:01",
-    "id": "86",
-    "polygon": {
-     "username": "A2NV315LQL2QZ7",
-     "pt": [
-      {
-       "x": "347",
-       "y": "515"
-      },
-      {
-       "x": "445",
-       "y": "556"
-      },
-      {
-       "x": "391",
-       "y": "624"
-      },
-      {
-       "x": "293",
-       "y": "587"
-      },
-      {
-       "x": "331",
-       "y": "531"
-      }
-     ]
-    },
-    "area": 9110.0,
-    "color": "beige",
-    "location": "",
-    "size": "",
-    "remains": "chest, uncovered"
-   },
-   {
-    "name": "hand",
+    "name": "손",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -3150,88 +2456,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "soft, clean, female, outline"
+    "remains": "여성, 깨끗하고, 부드러운"
    },
    {
-    "name": "test",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": "no",
-    "attributes": null,
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "30-Jun-2019 18:15:38",
-    "id": "2",
-    "polygon": {
-     "username": "test",
-     "pt": [
-      {
-       "x": "228",
-       "y": "331"
-      },
-      {
-       "x": "228",
-       "y": "427"
-      },
-      {
-       "x": "329",
-       "y": "404"
-      },
-      {
-       "x": "329",
-       "y": "334"
-      }
-     ]
-    },
-    "area": 8383.0,
-    "color": "",
-    "location": "",
-    "size": "",
-    "remains": "soft, clean, female, outline"
-   },
-   {
-    "name": "clothes",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "dark,silk,classic",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 19:53:27",
-    "id": "87",
-    "polygon": {
-     "username": "A2NV315LQL2QZ7",
-     "pt": [
-      {
-       "x": "470",
-       "y": "703"
-      },
-      {
-       "x": "375",
-       "y": "852"
-      },
-      {
-       "x": "477",
-       "y": "854"
-      },
-      {
-       "x": "480",
-       "y": "736"
-      }
-     ]
-    },
-    "area": 8333.5,
-    "color": "",
-    "location": "",
-    "size": "",
-    "remains": "dark, silk, classic"
-   },
-   {
-    "name": "elbow",
+    "name": "팔꿈치",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -3291,10 +2519,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "body part, woman, mona lisa"
+    "remains": "신체 부위, 모나리자"
    },
    {
-    "name": "river",
+    "name": "강",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -3399,13 +2627,13 @@
      ]
     },
     "area": 5817.0,
-    "color": "mud colored",
+    "color": "진흙 색",
     "location": "",
     "size": "",
-    "remains": "murky, bodied of water between land mass"
+    "remains": "뿌연, 육지 사이의 물"
    },
    {
-    "name": "decoration",
+    "name": "장식",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -3478,13 +2706,13 @@
      ]
     },
     "area": 5604.0,
-    "color": "light brown",
+    "color": "밝은 갈색",
     "location": "",
     "size": "",
-    "remains": "lace, clothes decoration, neckline"
+    "remains": "레이스, 목 라인을 따라 있는 옷 장식"
    },
    {
-    "name": "road",
+    "name": "도로",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -3866,12 +3094,12 @@
     },
     "area": 5357.0,
     "color": "",
-    "location": "left side",
+    "location": "왼쪽",
     "size": "",
-    "remains": "background, dirt"
+    "remains": "배경, 흙"
    },
    {
-    "name": "arm",
+    "name": "팔",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -3907,100 +3135,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "fragile, crossed, body part"
+    "remains": "연약해 보이는, 교차된 두 팔, 신체 부위"
    },
    {
-    "name": "trees",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "green, nature, scenario",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 19:49:55",
-    "id": "85",
-    "polygon": {
-     "username": "A2NV315LQL2QZ7",
-     "pt": [
-      {
-       "x": "93",
-       "y": "349"
-      },
-      {
-       "x": "207",
-       "y": "324"
-      },
-      {
-       "x": "151",
-       "y": "398"
-      },
-      {
-       "x": "102",
-       "y": "384"
-      },
-      {
-       "x": "102",
-       "y": "368"
-      }
-     ]
-    },
-    "area": 4240.5,
-    "color": "green",
-    "location": "",
-    "size": "",
-    "remains": "nature, scenario"
-   },
-   {
-    "name": "right eye",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 09:09:55",
-    "id": "5",
-    "polygon": {
-     "username": "WorkerID",
-     "pt": [
-      {
-       "x": "358",
-       "y": "251"
-      },
-      {
-       "x": "421",
-       "y": "244"
-      },
-      {
-       "x": "446",
-       "y": "266"
-      },
-      {
-       "x": "428",
-       "y": "291"
-      },
-      {
-       "x": "374",
-       "y": "291"
-      },
-      {
-       "x": "360",
-       "y": "278"
-      }
-     ]
-    },
-    "area": 3271.5,
-    "color": "",
-    "location": "",
-    "size": "",
-    "remains": ""
-   },
-   {
-    "name": "trees",
+    "name": "나무들",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4121,13 +3259,13 @@
      ]
     },
     "area": 2846.0,
-    "color": "dark green",
+    "color": "진한 초록색",
     "location": "",
     "size": "",
-    "remains": "a colletive of background scenery of trees or a forest"
+    "remains": "나무 또는 숲으로 이루어진 풍경, 배경"
    },
    {
-    "name": "middler finger",
+    "name": "세번째 손가락",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4181,12 +3319,12 @@
     },
     "area": 2766.0,
     "color": "",
-    "location": "right hand",
+    "location": "오른손",
     "size": "",
-    "remains": "third finger"
+    "remains": "세번째 손가락"
    },
    {
-    "name": "index finger",
+    "name": "집게 손가락",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4248,12 +3386,12 @@
     },
     "area": 2623.0,
     "color": "",
-    "location": "right hand",
+    "location": "오른손",
     "size": "",
-    "remains": "second finger"
+    "remains": "두번째 손가락"
    },
    {
-    "name": "left eye",
+    "name": "왼쪽 눈",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4308,7 +3446,7 @@
     "remains": ""
    },
    {
-    "name": "nose",
+    "name": "코.",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4347,7 +3485,7 @@
     "remains": ""
    },
    {
-    "name": "ring finger",
+    "name": "약지",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4401,51 +3539,12 @@
     },
     "area": 2074.5,
     "color": "",
-    "location": "right hand",
+    "location": "오른손",
     "size": "",
-    "remains": "fourth finger"
+    "remains": "네번째 손가락"
    },
    {
-    "name": "hair",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "brown, smooth, long",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 19:55:51",
-    "id": "89",
-    "polygon": {
-     "username": "A2NV315LQL2QZ7",
-     "pt": [
-      {
-       "x": "433",
-       "y": "137"
-      },
-      {
-       "x": "482",
-       "y": "230"
-      },
-      {
-       "x": "501",
-       "y": "205"
-      },
-      {
-       "x": "456",
-       "y": "147"
-      }
-     ]
-    },
-    "area": 1938.0,
-    "color": "brown",
-    "location": "",
-    "size": "",
-    "remains": "smooth, long"
-   },
-   {
-    "name": "index finger",
+    "name": "집게 손가락",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4491,12 +3590,12 @@
     },
     "area": 1585.5,
     "color": "",
-    "location": "left hand",
+    "location": "왼손",
     "size": "",
-    "remains": "second finger"
+    "remains": "두번째 손가락"
    },
    {
-    "name": "middle finger",
+    "name": "가운데 손가락",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4542,12 +3641,12 @@
     },
     "area": 1481.5,
     "color": "",
-    "location": "left hand",
+    "location": "왼손",
     "size": "",
-    "remains": "third finger"
+    "remains": "세번째 손가락"
    },
    {
-    "name": "eye",
+    "name": "눈",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4584,13 +3683,13 @@
      ]
     },
     "area": 1184.5,
-    "color": "brown",
+    "color": "갈색",
     "location": "",
     "size": "",
-    "remains": "clear, realistic, female"
+    "remains": "뚜렷하고 깨끗한, 실감나고 현실적인, 여성"
    },
    {
-    "name": "pinky",
+    "name": "새끼 손가락",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4640,12 +3739,12 @@
     },
     "area": 1180.5,
     "color": "",
-    "location": "right hand",
-    "size": "smallest finger",
+    "location": "오른손",
+    "size": "새끼 손가락",
     "remains": ""
    },
    {
-    "name": "pinky finger",
+    "name": "새끼 손가락",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4699,12 +3798,12 @@
     },
     "area": 1016.5,
     "color": "",
-    "location": "left hand",
-    "size": "smallest finger",
+    "location": "왼손",
+    "size": "새끼 손가락",
     "remains": ""
    },
    {
-    "name": "bridge",
+    "name": "다리",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4834,12 +3933,12 @@
     },
     "area": 981.5,
     "color": "",
-    "location": "right side",
+    "location": "오른쪽",
     "size": "",
-    "remains": "background, arches"
+    "remains": "배경, 아치형의"
    },
    {
-    "name": "mouth",
+    "name": "입",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4915,10 +4014,10 @@
     "color": "",
     "location": "",
     "size": "",
-    "remains": "smile, enigmatic, lips, close"
+    "remains": "미소, 수수께끼 같은, 입술, 닫혀 있는"
    },
    {
-    "name": "ring finger",
+    "name": "약지",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -4964,12 +4063,12 @@
     },
     "area": 586.0,
     "color": "",
-    "location": "left hand",
+    "location": "왼손",
     "size": "",
-    "remains": "fourth finger"
+    "remains": " 네번째 손가락"
    },
    {
-    "name": "thumb",
+    "name": "엄지손가락",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -5019,12 +4118,12 @@
     },
     "area": 376.5,
     "color": "",
-    "location": "right hand",
+    "location": "오른손",
     "size": "",
-    "remains": "finger"
+    "remains": "손가락."
    },
    {
-    "name": "eyelid",
+    "name": "눈꺼풀",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -5082,12 +4181,12 @@
     },
     "area": 292.0,
     "color": "",
-    "location": "left eye",
+    "location": "왼쪽 눈",
     "size": "",
-    "remains": "moon shaped"
+    "remains": "달 모양의"
    },
    {
-    "name": "eyelid",
+    "name": "눈꺼풀",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -5137,12 +4236,12 @@
     },
     "area": 248.5,
     "color": "",
-    "location": "right side",
+    "location": "오른쪽",
     "size": "",
-    "remains": "moon shaped"
+    "remains": "달 모양의"
    },
    {
-    "name": "iris",
+    "name": "홍채",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -5187,64 +4286,13 @@
      ]
     },
     "area": 166.5,
-    "color": "brown",
-    "location": "left eye",
+    "color": "갈색",
+    "location": "왼쪽 눈",
     "size": "",
-    "remains": "round"
+    "remains": "둥근"
    },
    {
-    "name": "right iris",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "right eye, round, brown",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 18:03:18",
-    "id": "59",
-    "polygon": {
-     "username": "A2M3QMJC99DERS",
-     "pt": [
-      {
-       "x": "397",
-       "y": "270"
-      },
-      {
-       "x": "397",
-       "y": "279"
-      },
-      {
-       "x": "402",
-       "y": "283"
-      },
-      {
-       "x": "409",
-       "y": "281"
-      },
-      {
-       "x": "413",
-       "y": "277"
-      },
-      {
-       "x": "412",
-       "y": "273"
-      },
-      {
-       "x": "409",
-       "y": "270"
-      }
-     ]
-    },
-    "area": 165.5,
-    "color": "brown",
-    "location": "right eye",
-    "size": "",
-    "remains": "round"
-   },
-   {
-    "name": "iris",
+    "name": "홍채",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -5285,685 +4333,10 @@
      ]
     },
     "area": 121.5,
-    "color": "brown",
-    "location": "right eye",
+    "color": "갈색",
+    "location": "오른쪽 눈",
     "size": "",
-    "remains": "round"
-   },
-   {
-    "name": "iris",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "left eye, brown, round",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 18:02:27",
-    "id": "58",
-    "polygon": {
-     "username": "A2M3QMJC99DERS",
-     "pt": [
-      {
-       "x": "318",
-       "y": "273"
-      },
-      {
-       "x": "319",
-       "y": "281"
-      },
-      {
-       "x": "324",
-       "y": "282"
-      },
-      {
-       "x": "330",
-       "y": "281"
-      },
-      {
-       "x": "332",
-       "y": "277"
-      },
-      {
-       "x": "331",
-       "y": "274"
-      },
-      {
-       "x": "325",
-       "y": "271"
-      }
-     ]
-    },
-    "area": 117.0,
-    "color": "brown",
-    "location": "left eye",
-    "size": "",
-    "remains": "round"
-   },
-   {
-    "name": "point",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "female",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 09:07:07",
-    "id": "3",
-    "polygon": {
-     "username": "WorkerID",
-     "pt": {
-      "x": "355",
-      "y": "268"
-     }
-    },
-    "area": 0,
-    "color": "",
-    "location": "",
-    "size": "",
-    "remains": "female"
-   },
-   {
-    "name": "mountain",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "dark",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 09:20:57",
-    "id": "10",
-    "polygon": {
-     "username": "A2E9KS4RK6T8CW",
-     "pt": {
-      "x": "105",
-      "y": "327"
-     }
-    },
-    "area": 0,
-    "color": "",
-    "location": "",
-    "size": "",
-    "remains": "dark"
-   },
-   {
-    "name": "hand",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "pale",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 09:21:10",
-    "id": "11",
-    "polygon": {
-     "username": "A2E9KS4RK6T8CW",
-     "pt": [
-      {
-       "x": "309",
-       "y": "972"
-      },
-      {
-       "x": "334",
-       "y": "975"
-      },
-      {
-       "x": "334",
-       "y": "975"
-      }
-     ]
-    },
-    "area": 0.0,
-    "color": "",
-    "location": "",
-    "size": "",
-    "remains": "pale"
-   },
-   {
-    "name": "hand",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "pale",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 09:21:29",
-    "id": "12",
-    "polygon": {
-     "username": "A2E9KS4RK6T8CW",
-     "pt": [
-      {
-       "x": "294",
-       "y": "995"
-      },
-      {
-       "x": "539",
-       "y": "886"
-      },
-      {
-       "x": "539",
-       "y": "886"
-      },
-      {
-       "x": "539",
-       "y": "886"
-      }
-     ]
-    },
-    "area": 0.0,
-    "color": "",
-    "location": "",
-    "size": "",
-    "remains": "pale"
-   },
-   {
-    "name": "sky",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "night",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 09:22:25",
-    "id": "13",
-    "polygon": {
-     "username": "A2E9KS4RK6T8CW",
-     "pt": {
-      "x": "697",
-      "y": "171"
-     }
-    },
-    "area": 0,
-    "color": "",
-    "location": "",
-    "size": "",
-    "remains": "night"
-   },
-   {
-    "name": "hill",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "beautiful",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 09:22:48",
-    "id": "14",
-    "polygon": {
-     "username": "A2E9KS4RK6T8CW",
-     "pt": {
-      "x": "61",
-      "y": "590"
-     }
-    },
-    "area": 0,
-    "color": "",
-    "location": "",
-    "size": "",
-    "remains": "beautiful"
-   },
-   {
-    "name": "river",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "great",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 09:23:06",
-    "id": "15",
-    "polygon": {
-     "username": "A2E9KS4RK6T8CW",
-     "pt": {
-      "x": "748",
-      "y": "419"
-     }
-    },
-    "area": 0,
-    "color": "",
-    "location": "",
-    "size": "",
-    "remains": "great"
-   },
-   {
-    "name": "skin",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "neck",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 11:33:35",
-    "id": "38",
-    "polygon": {
-     "username": "A1191P6AYGGL3O",
-     "pt": {
-      "x": "400",
-      "y": "525"
-     }
-    },
-    "area": 0,
-    "color": "",
-    "location": "",
-    "size": "",
-    "remains": "neck"
-   },
-   {
-    "name": "hair",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "black",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 11:34:10",
-    "id": "39",
-    "polygon": {
-     "username": "A1191P6AYGGL3O",
-     "pt": {
-      "x": "355",
-      "y": "135"
-     }
-    },
-    "area": 0,
-    "color": "black",
-    "location": "",
-    "size": "",
-    "remains": ""
-   },
-   {
-    "name": "skin",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "hand",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 11:34:38",
-    "id": "40",
-    "polygon": {
-     "username": "A1191P6AYGGL3O",
-     "pt": {
-      "x": "298",
-      "y": "943"
-     }
-    },
-    "area": 0,
-    "color": "",
-    "location": "",
-    "size": "",
-    "remains": "hand"
-   },
-   {
-    "name": "skin",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "hand",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 11:34:54",
-    "id": "41",
-    "polygon": {
-     "username": "A1191P6AYGGL3O",
-     "pt": {
-      "x": "232",
-      "y": "1024"
-     }
-    },
-    "area": 0,
-    "color": "",
-    "location": "",
-    "size": "",
-    "remains": "hand"
-   },
-   {
-    "name": "cloth",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "shirt",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 11:35:17",
-    "id": "42",
-    "polygon": {
-     "username": "A1191P6AYGGL3O",
-     "pt": {
-      "x": "603",
-      "y": "815"
-     }
-    },
-    "area": 0,
-    "color": "",
-    "location": "",
-    "size": "",
-    "remains": "shirt"
-   },
-   {
-    "name": "skin",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "face",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 11:35:33",
-    "id": "43",
-    "polygon": {
-     "username": "A1191P6AYGGL3O",
-     "pt": {
-      "x": "437",
-      "y": "351"
-     }
-    },
-    "area": 0,
-    "color": "",
-    "location": "",
-    "size": "",
-    "remains": "face"
-   },
-   {
-    "name": "shoulder",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "right shoulder, kind of balckish",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 12:42:29",
-    "id": "44",
-    "polygon": {
-     "username": "A3VNSR1CQC8W5X",
-     "pt": {
-      "x": "475",
-      "y": "626"
-     }
-    },
-    "area": 0,
-    "color": "",
-    "location": "right shoulder",
-    "size": "",
-    "remains": "kind of balckish"
-   },
-   {
-    "name": "hand",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "brown",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 12:57:22",
-    "id": "45",
-    "polygon": {
-     "username": "A2NVNFIOKLEEGY",
-     "pt": {
-      "x": "249",
-      "y": "899"
-     }
-    },
-    "area": 0,
-    "color": "brown",
-    "location": "",
-    "size": "",
-    "remains": ""
-   },
-   {
-    "name": "nose",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "brown",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 12:57:45",
-    "id": "46",
-    "polygon": {
-     "username": "A2NVNFIOKLEEGY",
-     "pt": {
-      "x": "354",
-      "y": "324"
-     }
-    },
-    "area": 0,
-    "color": "brown",
-    "location": "",
-    "size": "",
-    "remains": ""
-   },
-   {
-    "name": "dress",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "black",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 12:58:30",
-    "id": "47",
-    "polygon": {
-     "username": "A2NVNFIOKLEEGY",
-     "pt": {
-      "x": "631",
-      "y": "882"
-     }
-    },
-    "area": 0,
-    "color": "black",
-    "location": "",
-    "size": "",
-    "remains": ""
-   },
-   {
-    "name": "head",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "brown",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 12:58:48",
-    "id": "48",
-    "polygon": {
-     "username": "A2NVNFIOKLEEGY",
-     "pt": {
-      "x": "352",
-      "y": "197"
-     }
-    },
-    "area": 0,
-    "color": "brown",
-    "location": "",
-    "size": "",
-    "remains": ""
-   },
-   {
-    "name": "mountain",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "green",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 12:59:10",
-    "id": "49",
-    "polygon": {
-     "username": "A2NVNFIOKLEEGY",
-     "pt": {
-      "x": "648",
-      "y": "368"
-     }
-    },
-    "area": 0,
-    "color": "green",
-    "location": "",
-    "size": "",
-    "remains": ""
-   },
-   {
-    "name": "background",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "back",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 18:48:31",
-    "id": "79",
-    "polygon": {
-     "username": "A2YCAVLQK6YRH9",
-     "pt": {
-      "x": "150",
-      "y": "119"
-     }
-    },
-    "area": 0,
-    "color": "",
-    "location": "",
-    "size": "",
-    "remains": "back"
-   },
-   {
-    "name": "hehe",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 18:48:41",
-    "id": "80",
-    "polygon": {
-     "username": "A2YCAVLQK6YRH9",
-     "pt": {
-      "x": "600",
-      "y": "150"
-     }
-    },
-    "area": 0,
-    "color": "",
-    "location": "",
-    "size": "",
-    "remains": ""
-   },
-   {
-    "name": "hehe",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "hehee",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 18:48:48",
-    "id": "81",
-    "polygon": {
-     "username": "A2YCAVLQK6YRH9",
-     "pt": {
-      "x": "528",
-      "y": "59"
-     }
-    },
-    "area": 0,
-    "color": "",
-    "location": "",
-    "size": "",
-    "remains": "hehee"
-   },
-   {
-    "name": "hehe",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 18:48:54",
-    "id": "82",
-    "polygon": {
-     "username": "A2YCAVLQK6YRH9",
-     "pt": {
-      "x": "724",
-      "y": "33"
-     }
-    },
-    "area": 0,
-    "color": "",
-    "location": "",
-    "size": "",
-    "remains": ""
-   },
-   {
-    "name": "hehe",
-    "deleted": "1",
-    "verified": "0",
-    "occluded": null,
-    "attributes": "",
-    "parts": {
-     "hasparts": null,
-     "ispartof": null
-    },
-    "date": "25-Jul-2019 18:49:00",
-    "id": "83",
-    "polygon": {
-     "username": "A2YCAVLQK6YRH9",
-     "pt": {
-      "x": "229",
-      "y": "221"
-     }
-    },
-    "area": 0,
-    "color": "",
-    "location": "",
-    "size": "",
-    "remains": ""
+    "remains": "둥근"
    }
   ],
   "imagesize": {
