@@ -52,7 +52,7 @@ def art_data_preprocess(img_id, src, dest):
     # print(ann)
 '''
     for obj in ann:
-        '''
+
         # print(obj['polygon']['pt'])
         points = obj['polygon']['pt']
 
@@ -96,7 +96,7 @@ def art_data_preprocess(img_id, src, dest):
                 obj['area'] = polygon.area
             except ValueError:
                 obj['area'] = 0
-        '''
+
         obj['name'] = eng_to_kor(obj['name'])
 
         '''
