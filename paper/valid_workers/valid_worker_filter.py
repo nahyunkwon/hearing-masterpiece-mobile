@@ -3,6 +3,8 @@ import json
 import numpy as np
 from matplotlib.patches import Polygon
 from shapely.geometry import Polygon
+import pandas as pd
+import re
 
 from numpy import *
 import xmltodict
@@ -117,12 +119,76 @@ def filtering(src, dest, id):
 
 def main():
     img_id_list = ["1", "2", "4", "5", "9", "11", "17", "18"]
-
+    '''
     src = "../public/img_data/art_processed/"
     dest = "../public/img_data/art_filtered/art_filtered_eng/"
 
     for i in img_id_list:
         filtering(src, dest, i)
+        '''
+    color_terms = ["black", "white", "red", "green", "yellow", "blue", "brown",
+                   "orange", "pink", "purple", "gray", "beige", "grey", "gold", "silver", "burgundy"]
+    location_terms = ["right", "left", "center", "up", "above", "under", "down",
+                      "corner", "bottom", "front", "rear", "side", "middle", "top", "below", "core", "behind", "distant"]
+    size_terms = ["large", "small", "medium", "big", "narrow", "tall", "smallest", "normal", "size", "long"]
+
+    valid = pd.read_csv('./ann_from_valid_worker.csv')
+
+    #print(valid.loc[valid['img_id'] == 1])
+    for i in img_id_list:
+        valid_per = valid.loc[valid['img_id'] == int(i)]
+
+        for j in range(len(valid_per)):
+            attr_list = valid_per.iloc[j]['attributes'].split(',')
+            color = []
+            loc = []
+            size = []
+            remains = []
+            for w in attr_list:
+                words = w.split(' ')
+                print(words)
+                for s in words:
+                    if s !='':
+                        if s.strip() in color_terms:
+                            color.append(s.strip())
+                            break
+                        if s.strip() in location_terms:
+                            loc.append(s.strip())
+                            break
+                        if s.strip() in size_terms:
+                            size.append(s.strip())
+                            break
+                        else:
+                            remains.append(s.strip())
+
+
+                #print(remains)
+
+                exp = []
+
+                no_exp = ['not', 'is', 'very', 'on']
+
+                for r in remains:
+                    #tmp = wn.synsets(r)[0].pos()
+                    if r not in no_exp:
+                        try:
+                            tmp = wn.synsets(r)[0].pos()
+                            if tmp != "n":
+                                exp.append(r)
+                        except IndexError:
+                            pass
+
+            valid_per.at[j, 'exp'] = str(', '.join(exp))
+            valid_per.at[j, 'color'] = str(', '.join(color))
+            valid_per.at[j, 'location'] = str(', '.join(loc))
+            valid_per.at[j, 'size'] = str(', '.join(size))
+
+            valid_per.at[j, 'exp_count'] = str(len(exp))
+            valid_per.at[j, 'color_count'] = str(len(color))
+            valid_per.at[j, 'location_count'] = str(len(loc))
+            valid_per.at[j, 'size_count'] = str(len(size))
+
+        pd.DataFrame.to_csv(valid_per, './test'+str(i)+'.csv')
 
 
 def test():
@@ -146,7 +212,7 @@ def test():
                    "orange", "pink", "purple", "gray", "beige", "color", "grey", "gold", "silver"]
     location_terms = ["right", "left", "center", "up", "above", "under", "down",
                       "corner", "bottom", "front", "rear", "side", "middle", "top", "below", "core", "behind", "distant"]
-    size_terms = ["large", "small", "medium", "size"]
+    size_terms = ["large", "small", "medium", "size", "smallest"]
 
     obj = ann[-1]
 

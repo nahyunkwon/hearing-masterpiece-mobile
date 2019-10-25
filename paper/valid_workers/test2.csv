@@ -1,0 +1,135 @@
+,img_id,name,deleted,verified,attributes,date,id,polygon/username,img_id.1,"valid (if valid, then 1. invalid 0)","less than 3 coordinates (if yes, 1)","not an object (if yes, 1)",name is incorrect,attributes are incorrect,name/attribues modified,merged to,exp,color,location,size,exp_count,color_count,location_count,size_count
+79,2.0,tree,0.0,0.0,"city, dark, large, triangular, smooth",25/07/2019 9:08,0.0,A2HC04434S9TP0,2.0,0.0,,,,,,,,,,,,,,
+80,2.0,sun,0.0,0.0,"sky, orange, yellow, medium, circle, no texture",25/07/2019 9:10,1.0,A2HC04434S9TP0,2.0,1.0,,1.0,1.0,,,,,,,,,,,
+81,2.0,church,0.0,0.0,"city, grey, small, triangle, smooth",25/07/2019 9:11,2.0,A2HC04434S9TP0,2.0,0.0,,,,,,,,,,,,,,
+82,2.0,house,0.0,0.0,"city, grey, small, triangles, two visible windows, smooth",25/07/2019 9:12,3.0,A2HC04434S9TP0,2.0,0.0,,,,,,,,,,,,,,
+83,2.0,mountain,0.0,0.0,"city, dark green, small, round shape",25/07/2019 9:14,4.0,A2HC04434S9TP0,2.0,0.0,,,,,,,,,,,,,,
+84,2.0,trees,0.0,0.0,"city, green, medium-large, circular shape, smooth",25/07/2019 9:15,5.0,A2HC04434S9TP0,2.0,0.0,,,,,,,,,,,,,,
+85,2.0,star,0.0,0.0,"light, heat, sun, space, night",25/07/2019 9:56,6.0,A1CJ8CLM7987EQ,2.0,0.0,,,,,,53.0,,,,,,,,
+86,2.0,star,0.0,0.0,"light, sun, star, heat, night",25/07/2019 9:56,7.0,A1CJ8CLM7987EQ,2.0,0.0,,,,,,,,,,,,,,
+87,2.0,wind,0.0,0.0,"breeze, wind, gust",25/07/2019 9:56,8.0,A1CJ8CLM7987EQ,2.0,0.0,,,,,,,,,,,,,,
+88,2.0,house,0.0,0.0,"dwelling, home, house, sleep",25/07/2019 9:57,9.0,A1CJ8CLM7987EQ,2.0,0.0,,,,,,,,,,,,,,
+89,2.0,mountain,0.0,0.0,"hill, mountain, mound",25/07/2019 9:57,10.0,A1CJ8CLM7987EQ,2.0,0.0,,,,,,,,,,,,,,
+90,2.0,star,0.0,0.0,"sky, top, center, background, round",25/07/2019 10:03,11.0,AIN29LNXRARXY,2.0,0.0,,,,,,,,,,,,,,
+91,2.0,star,0.0,0.0,"sky, top, left, background, round",25/07/2019 10:03,12.0,AIN29LNXRARXY,2.0,0.0,,,,,,,,,,,,,,
+92,2.0,star,0.0,0.0,"sky, top, left, background, round",25/07/2019 10:03,13.0,AIN29LNXRARXY,2.0,0.0,,,,,,,,,,,,,,
+93,2.0,house,0.0,0.0,"bottom, center, dark, rural, village",25/07/2019 10:04,14.0,AIN29LNXRARXY,2.0,0.0,,,,,,,,,,,,,,
+94,2.0,house,0.0,0.0,"background, bottom, center, dark, rural, village",25/07/2019 10:05,15.0,AIN29LNXRARXY,2.0,0.0,,,,,,,,,,,,,,
+95,2.0,star,0.0,0.0,"yellow, left, round",25/07/2019 11:36,16.0,A2MOY7J4GG5CW8,2.0,0.0,,,,,,,,,,,,,,
+96,2.0,star,0.0,0.0,"round, left, white, yellow",25/07/2019 11:39,17.0,A2MOY7J4GG5CW8,2.0,0.0,,,,,,,,,,,,,,
+97,2.0,house,0.0,0.0,"bottom, dark, small",25/07/2019 11:41,18.0,A2MOY7J4GG5CW8,2.0,0.0,,,,,,,,,,,,,,
+98,2.0,house,0.0,0.0,"red, bottom, left",25/07/2019 11:41,19.0,A2MOY7J4GG5CW8,2.0,0.0,,,,,,,,,,,,,,
+99,2.0,star,0.0,0.0,"round, top, yellow, blue",25/07/2019 11:43,20.0,A2MOY7J4GG5CW8,2.0,0.0,,,,,,,,,,,,,,
+100,2.0,cloud,0.0,0.0,"swirly, dashed, blue",25/07/2019 11:56,21.0,AC9P9SHL0IXBL,2.0,0.0,,,,,,,,,,,,,,
+101,2.0,house,0.0,0.0,"small, lit, unclear",25/07/2019 11:57,22.0,AC9P9SHL0IXBL,2.0,0.0,,,,,,,,,,,,,,
+102,2.0,bush,0.0,0.0,"greenish, curly, small",25/07/2019 11:57,23.0,AC9P9SHL0IXBL,2.0,0.0,,,,,,,,,,,,,,
+103,2.0,horizon,0.0,0.0,"obstructed, dark, uneven",25/07/2019 11:59,24.0,AC9P9SHL0IXBL,2.0,0.0,,,,,,,,,,,,,,
+104,2.0,cloud layer,0.0,0.0,"white, horizontal, striped",25/07/2019 12:00,25.0,AC9P9SHL0IXBL,2.0,0.0,,,,,,,,,,,,,,
+105,2.0,moon,0.0,0.0,yellow,25/07/2019 13:01,26.0,A2NVNFIOKLEEGY,2.0,1.0,1.0,,,,,,,,,,,,,
+106,2.0,house,0.0,0.0,brown,25/07/2019 13:02,27.0,A2NVNFIOKLEEGY,2.0,1.0,1.0,,,,,,,,,,,,,
+107,2.0,sky,0.0,0.0,blue,25/07/2019 13:02,28.0,A2NVNFIOKLEEGY,2.0,1.0,1.0,,,,,,,,,,,,,
+108,2.0,wind,0.0,0.0,blue,25/07/2019 13:02,29.0,A2NVNFIOKLEEGY,2.0,1.0,1.0,,,,,,,,,,,,,
+109,2.0,mountain,0.0,0.0,blue,25/07/2019 13:02,30.0,A2NVNFIOKLEEGY,2.0,1.0,1.0,,,,,,,,,,,,,
+110,2.0,moon,0.0,0.0,"moon, night sky, yellow, high above, shining, bright",25/07/2019 13:50,31.0,A2OMYDY8G8PNJE,2.0,0.0,,,,,,,,,,,,,,
+111,2.0,light,0.0,0.0,"glow, moon glow, shining, pale, yellow, glow of the moon, brush strokes",25/07/2019 13:51,32.0,A2OMYDY8G8PNJE,2.0,0.0,,,,,,,,,,,,,,
+112,2.0,sky,0.0,0.0,"night sky, blue, top, high up, shades of blue, nighttime, moody",25/07/2019 13:52,33.0,A2OMYDY8G8PNJE,2.0,0.0,,,,,,,,,,,,,,
+113,2.0,star,0.0,0.0,"glowing, shining, star, yellow, pale, magical",25/07/2019 13:53,34.0,A2OMYDY8G8PNJE,2.0,0.0,,,,,,,,,,,,,,
+114,2.0,house,0.0,0.0,"house, blue roof, small, bottom, to the left of a tree, simple",25/07/2019 13:54,35.0,A2OMYDY8G8PNJE,2.0,0.0,,,,,,,,,,,,,,
+115,2.0,tree,0.0,0.0,"small tree, dark, bottom right, brush strokes, simple",25/07/2019 13:56,36.0,A2OMYDY8G8PNJE,2.0,0.0,,,,,,,,,,,,,,
+116,2.0,church,0.0,0.0,"church, white, steeple, bright, middle, tall",25/07/2019 13:57,37.0,A2OMYDY8G8PNJE,2.0,0.0,,,,,,,,,,,,,,
+117,2.0,wind,0.0,0.0,"blue, dark, bright, discontinuous, water like, center side",25/07/2019 16:47,41.0,A396GA8SHS2L41,2.0,0.0,,,,,,,,,,,,,,
+118,2.0,door,0.0,0.0,"dark, small, wooden made, black, rectangular",25/07/2019 16:51,42.0,A396GA8SHS2L41,2.0,0.0,,,,,,,,,,,,,,
+119,2.0,window,0.0,0.0,"dark, small, distant, wooden like, down side",25/07/2019 16:52,43.0,A396GA8SHS2L41,2.0,0.0,,,,,,,,,,,,,,
+120,2.0,window,0.0,0.0,"small, wooden made, glass, dark, brownish",25/07/2019 16:53,44.0,A396GA8SHS2L41,2.0,0.0,,,,,,,,,,,,,,
+121,2.0,window,0.0,0.0,"small, lit, down side, distant, wooden like",25/07/2019 16:53,45.0,A396GA8SHS2L41,2.0,0.0,,,,,,,,,,,,,,
+122,2.0,trees,0.0,0.0,"distant, bright, white, bluish, center positioned",25/07/2019 16:55,46.0,A396GA8SHS2L41,2.0,0.0,,,,,,,,,,,,,,
+123,2.0,circle,0.0,0.0,"star,painting,green",25/07/2019 17:41,47.0,AOV97Z3YMKLAQ,2.0,0.0,,,1.0,,1.0,,,,,,,,,
+124,2.0,ball,0.0,0.0,"little, sky, star",25/07/2019 17:44,48.0,AOV97Z3YMKLAQ,2.0,0.0,,,1.0,,1.0,,,,,,,,,
+125,2.0,moon,0.0,0.0,"round, green, small",25/07/2019 17:46,49.0,AOV97Z3YMKLAQ,2.0,0.0,,,1.0,,1.0,,,,,,,,,
+126,2.0,nightfall,0.0,0.0,"big, bright, star",25/07/2019 17:47,50.0,AOV97Z3YMKLAQ,2.0,0.0,,,,,,13.0,,,,,,,,
+127,2.0,landscape,0.0,0.0,"green, oil paint, art",25/07/2019 17:49,51.0,AOV97Z3YMKLAQ,2.0,0.0,,,1.0,1.0,1.0,,,,,,,,,
+128,2.0,light,0.0,0.0,"middle bottom of the image, a light outside an house",25/07/2019 18:23,52.0,A2CO8IM74HLYTL,2.0,0.0,,,,,,,,,,,,,,
+129,2.0,center light of a star,0.0,0.0,"the center of a star, more bright than the aura",25/07/2019 18:24,53.0,A2CO8IM74HLYTL,2.0,0.0,,,,,,,,,,,,,,
+130,2.0,center of a star,0.0,0.0,"the center of a star, more bright than the aura",25/07/2019 18:24,54.0,A2CO8IM74HLYTL,2.0,0.0,,,,,,,,,,,,,,
+131,2.0,center of the light,0.0,0.0,the core a star,25/07/2019 18:24,55.0,A2CO8IM74HLYTL,2.0,1.0,1.0,,,,,,,,,,,,,
+132,2.0,the core of a star,0.0,0.0,"a brighter part of a star, his core, middle up on the left position",25/07/2019 18:25,56.0,A2CO8IM74HLYTL,2.0,0.0,,,,,,,,,,,,,,
+133,2.0,house,0.0,0.0,"home, confort, blue, gray",25/07/2019 18:48,63.0,A1X9BD3KDIA2QB,2.0,0.0,,,,,,,,,,,,,,
+134,2.0,house,0.0,0.0,"home, gray,confort",25/07/2019 18:48,64.0,A1X9BD3KDIA2QB,2.0,0.0,,,,,,,,,,,,,,
+135,2.0,house,0.0,0.0,"confort, home, sweet",25/07/2019 18:48,65.0,A1X9BD3KDIA2QB,2.0,0.0,,,,,,,,,,,,,,
+136,2.0,house,0.0,0.0,"home, confort",25/07/2019 18:49,66.0,A1X9BD3KDIA2QB,2.0,0.0,,,,,,,,,,,,,,
+137,2.0,grass,0.0,0.0,"green, blue, black, leaf",25/07/2019 18:50,67.0,A1X9BD3KDIA2QB,2.0,0.0,,,,,,,,,,,,,,
+138,2.0,building,0.0,0.0,"right, bottom, corner, behinfirst object in right bottom corner, white",26/07/2019 0:16,69.0,A2RMR0ZSQ575XZ,2.0,0.0,,,,,,,,,,,,,,
+139,2.0,star,0.0,0.0,"top, right, yellow, corner, circle",26/07/2019 0:19,70.0,A2RMR0ZSQ575XZ,2.0,0.0,,,,,,34.0,,,,,,,,
+140,2.0,star,0.0,0.0,"right, grey blue, yellow center,",26/07/2019 0:21,71.0,A2RMR0ZSQ575XZ,2.0,0.0,,,,,,53.0,,,,,,,,
+141,2.0,house,0.0,0.0,"white, bottom, right, windows, pointed roof",26/07/2019 0:23,72.0,A2RMR0ZSQ575XZ,2.0,0.0,,,,,,,,,,,,,,
+142,2.0,tree,0.0,0.0,"middle-right, next to church, black, green",26/07/2019 0:26,73.0,A2RMR0ZSQ575XZ,2.0,0.0,,,,,,,,,,,,,,
+143,2.0,house,0.0,0.0,"partial, center, near tree, red striped roof",26/07/2019 0:29,74.0,A2RMR0ZSQ575XZ,2.0,0.0,,,,,,,,,,,,,,
+144,2.0,star,0.0,0.0,"top, left, light blue, orange center",26/07/2019 0:30,75.0,A2RMR0ZSQ575XZ,2.0,0.0,,,,,,,,,,,,,,
+145,2.0,house,0.0,0.0,"small, right, obscured partially",26/07/2019 0:34,77.0,A2RMR0ZSQ575XZ,2.0,0.0,,,,,,,,,,,,,,
+0,,,,,,,,,,,,,,,,,triangular,,,large,1,0,0,1
+1,,,,,,,,,,,,,,,,,,"orange, yellow",,medium,0,2,0,1
+2,,,,,,,,,,,,,,,,,,grey,,small,0,1,0,1
+3,,,,,,,,,,,,,,,,,visible,grey,,small,1,1,0,1
+4,,,,,,,,,,,,,,,,,,green,,small,0,1,0,1
+5,,,,,,,,,,,,,,,,,medium-large,green,,,1,1,0,0
+6,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+7,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+8,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+9,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+10,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+11,,,,,,,,,,,,,,,,,,,"top, center",,0,0,2,0
+12,,,,,,,,,,,,,,,,,,,"top, left",,0,0,2,0
+13,,,,,,,,,,,,,,,,,,,"top, left",,0,0,2,0
+14,,,,,,,,,,,,,,,,,rural,,"bottom, center",,1,0,2,0
+15,,,,,,,,,,,,,,,,,rural,,"bottom, center",,1,0,2,0
+16,,,,,,,,,,,,,,,,,,yellow,left,,0,1,1,0
+17,,,,,,,,,,,,,,,,,,"white, yellow",left,,0,2,1,0
+18,,,,,,,,,,,,,,,,,,,bottom,small,0,0,1,1
+19,,,,,,,,,,,,,,,,,,red,"bottom, left",,0,1,2,0
+20,,,,,,,,,,,,,,,,,,"yellow, blue",top,,0,2,1,0
+21,,,,,,,,,,,,,,,,,dashed,blue,,,1,1,0,0
+22,,,,,,,,,,,,,,,,,unclear,,,small,1,0,0,1
+23,,,,,,,,,,,,,,,,,"greenish, curly",,,small,2,0,0,1
+24,,,,,,,,,,,,,,,,,"obstructed, uneven",,,,2,0,0,0
+25,,,,,,,,,,,,,,,,,striped,white,,,1,1,0,0
+26,,,,,,,,,,,,,,,,,,yellow,,,0,1,0,0
+27,,,,,,,,,,,,,,,,,,brown,,,0,1,0,0
+28,,,,,,,,,,,,,,,,,,blue,,,0,1,0,0
+29,,,,,,,,,,,,,,,,,,blue,,,0,1,0,0
+30,,,,,,,,,,,,,,,,,,blue,,,0,1,0,0
+31,,,,,,,,,,,,,,,,,bright,yellow,above,,1,1,1,0
+32,,,,,,,,,,,,,,,,,,yellow,,,0,1,0,0
+33,,,,,,,,,,,,,,,,,,"blue, blue","top, up",,0,2,2,0
+34,,,,,,,,,,,,,,,,,magical,yellow,,,1,1,0,0
+35,,,,,,,,,,,,,,,,,,blue,"bottom, left",small,0,1,2,1
+36,,,,,,,,,,,,,,,,,,,bottom,small,0,0,1,1
+37,,,,,,,,,,,,,,,,,bright,white,middle,tall,1,1,1,1
+38,,,,,,,,,,,,,,,,,"bright, discontinuous",blue,center,,2,1,1,0
+39,,,,,,,,,,,,,,,,,"wooden, made, rectangular",black,,small,3,1,0,1
+40,,,,,,,,,,,,,,,,,wooden,,"distant, down",small,1,0,2,1
+41,,,,,,,,,,,,,,,,,"wooden, made, brownish",,,small,3,0,0,1
+42,,,,,,,,,,,,,,,,,wooden,,"down, distant",small,1,0,2,1
+43,,,,,,,,,,,,,,,,,"bright, bluish",white,"distant, center",,2,1,2,0
+44,,,,,,,,,,,,,,,,,,green,,,0,1,0,0
+45,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+46,,,,,,,,,,,,,,,,,,green,,small,0,1,0,1
+47,,,,,,,,,,,,,,,,,bright,,,big,1,0,0,1
+48,,,,,,,,,,,,,,,,,,green,,,0,1,0,0
+49,,,,,,,,,,,,,,,,,,,middle,,0,0,1,0
+50,,,,,,,,,,,,,,,,,bright,,center,,1,0,1,0
+51,,,,,,,,,,,,,,,,,bright,,center,,1,0,1,0
+52,,,,,,,,,,,,,,,,,,,core,,0,0,1,0
+53,,,,,,,,,,,,,,,,,brighter,,"core, middle",,1,0,2,0
+54,,,,,,,,,,,,,,,,,,"blue, gray",,,0,2,0,0
+55,,,,,,,,,,,,,,,,,,gray,,,0,1,0,0
+56,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+57,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+58,,,,,,,,,,,,,,,,,,"green, blue, black",,,0,3,0,0
+59,,,,,,,,,,,,,,,,,,white,"right, bottom, corner, right",,0,1,4,0
+60,,,,,,,,,,,,,,,,,,yellow,"top, right, corner",,0,1,3,0
+61,,,,,,,,,,,,,,,,,,"grey, yellow",right,,0,2,1,0
+62,,,,,,,,,,,,,,,,,pointed,white,"bottom, right",,1,1,2,0
+63,,,,,,,,,,,,,,,,,next,"black, green",,,1,2,0,0
+64,,,,,,,,,,,,,,,,,near,red,center,,1,1,1,0
+65,,,,,,,,,,,,,,,,,,"blue, orange","top, left",,0,2,2,0
+66,,,,,,,,,,,,,,,,,"obscured, partially",,right,small,2,0,1,1

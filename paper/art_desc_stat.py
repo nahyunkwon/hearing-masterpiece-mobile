@@ -32,23 +32,28 @@ def main():
 
     desc.to_csv("./desc/art_desc_final_2.csv")
     '''
-    desc = pd.read_csv("./desc/art_desc_final_2.csv")
+    desc = pd.read_csv("./desc/desc_from_valid.csv")
     #print(desc)
 
     words = []
 
-    selected = desc.loc[desc["img_name"] == "18.jpg"]
+    selected = desc.loc[desc["img_name"] == "17.jpg"]
     selected = selected.reset_index()
+
+    counts = []
 
     for i in range(len(selected)):
         wds = str(selected['img_desc'][i]).split(',')
+        count = len(wds)
+        counts.append(count)
         for j in wds:
             if j.strip() != '':
                 words.append(j.strip().lower())
             
-
-
-    print(words)
+    print('sum')
+    print(sum(counts))
+    print('mean')
+    print(mean(counts))
     result = dict((i, words.count(i)) for i in words)
     print(result)
 

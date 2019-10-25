@@ -1,0 +1,117 @@
+,img_id,name,deleted,verified,attributes,date,id,polygon/username,img_id.1,"valid (if valid, then 1. invalid 0)","less than 3 coordinates (if yes, 1)","not an object (if yes, 1)",name is incorrect,attributes are incorrect,name/attribues modified,merged to,exp,color,location,size,exp_count,color_count,location_count,size_count
+202,5.0,bull,0.0,0.0,"angry, mean, strong , scared",25/07/2019 9:08,0.0,A3ISOGMY4IZJQ8,5.0,0.0,,,,,,,,,,,,,,
+203,5.0,face,0.0,0.0,"worried, scared, tear drop shaped",25/07/2019 9:09,1.0,A3ISOGMY4IZJQ8,5.0,0.0,,,,,,,,,,,,,,
+204,5.0,light,0.0,0.0,"eye shaped, spiky edges",25/07/2019 9:11,2.0,A3ISOGMY4IZJQ8,5.0,0.0,,,,,,,,,,,,,,
+205,5.0,horse face,0.0,0.0,"mouth open, scared,",25/07/2019 9:12,3.0,A3ISOGMY4IZJQ8,5.0,0.0,,,,,,,,,,,,,,
+206,5.0,hand holding candle,0.0,0.0,flame is burning. holding out in front of arm,25/07/2019 9:13,4.0,A3ISOGMY4IZJQ8,5.0,0.0,,,,,,,,,,,,,,
+207,5.0,hand,0.0,0.0,"arm, body, anatomy",25/07/2019 10:00,10.0,A2HC04434S9TP0,5.0,0.0,,,,,,,,,,,,,,
+208,5.0,leg,0.0,0.0,"foot, grey, toes",25/07/2019 10:00,11.0,A2HC04434S9TP0,5.0,0.0,,,,,,,,,,,,,,
+209,5.0,window,0.0,0.0,"brown, rectangle, small",25/07/2019 10:01,12.0,A2HC04434S9TP0,5.0,0.0,,,,,,,,,,,,,,
+210,5.0,triangle,0.0,0.0,"geometry, math, dark grey",25/07/2019 10:02,13.0,A2HC04434S9TP0,5.0,0.0,,,,,,,,,,,,,,
+211,5.0,toe,0.0,0.0,"grey, foot, leg, round",25/07/2019 10:02,14.0,A2HC04434S9TP0,5.0,0.0,,,,,,,,,,,,,,
+212,5.0,man,0.0,0.0,"grey,small,surprise,big eye",25/07/2019 10:27,15.0,A1X9BD3KDIA2QB,5.0,0.0,,,,,,,,,,,,,,
+213,5.0,women,0.0,0.0,"looking, adult, curious, big, confuse, grey",25/07/2019 10:29,16.0,A1X9BD3KDIA2QB,5.0,0.0,,,,,,,,,,,,,,
+214,5.0,horse,0.0,0.0,"confuse,looking,surprise, walking",25/07/2019 10:31,17.0,A1X9BD3KDIA2QB,5.0,0.0,,,,,,,,,,,,,,
+215,5.0,smoke,0.0,0.0,"grey,corner, abstract",25/07/2019 10:31,18.0,A1X9BD3KDIA2QB,5.0,0.0,,,,,,,,,,,,,,
+216,5.0,flower,0.0,0.0,"floor,small,beauty",25/07/2019 10:32,19.0,A1X9BD3KDIA2QB,5.0,0.0,,,,,,,,,,,,,,
+217,5.0,triangle,0.0,0.0,"small, triangle, abstract, vague, unclear",25/07/2019 10:57,22.0,ZCgDVlkp5,5.0,0.0,,,,,,,,,,,,,,
+218,5.0,bulb,0.0,0.0,"lightbulb, 2d, vague, basic, simple.",25/07/2019 10:59,23.0,ZCgDVlkp5,5.0,0.0,,,,,,,,,,,,,,
+219,5.0,eye,0.0,0.0,"eyeball, basic, 2d, figure, misplaced",25/07/2019 11:00,24.0,ZCgDVlkp5,5.0,0.0,,,,,,,,,,,,,,
+220,5.0,snout,0.0,0.0,"nose, snout, bull, 2d, nostrils",25/07/2019 11:02,25.0,ZCgDVlkp5,5.0,0.0,,,,,,,,,,,,,,
+221,5.0,tail,0.0,0.0,"tail, hair, flowing, thick, bushy",25/07/2019 11:03,26.0,ZCgDVlkp5,5.0,0.0,,,,,,,,,,,,,,
+222,5.0,hand,0.0,0.0,"number of lines on hand,righthand,its very rough",25/07/2019 11:45,27.0,:%20COPIEDA3UMDMF589FDPZ,5.0,1.0,1.0,,,,,,,,,,,,,
+223,5.0,light,0.0,0.0,"the shape is like octopus,like a eye, bulb",25/07/2019 11:47,28.0,:%20COPIEDA3UMDMF589FDPZ,5.0,1.0,1.0,,,,,,,,,,,,,
+224,5.0,hand with candle,0.0,0.0,"long hand,candle,flamefingers",25/07/2019 11:48,29.0,:%20COPIEDA3UMDMF589FDPZ,5.0,1.0,1.0,,,,,,,,,,,,,
+225,5.0,face,0.0,0.0,"eyes,ears,mouth,nose",25/07/2019 11:50,30.0,:%20COPIEDA3UMDMF589FDPZ,5.0,1.0,1.0,,,,,,,,,,,,,
+226,5.0,horse face,0.0,0.0,"teeth,nose,opened mouth,eyes",25/07/2019 11:54,31.0,:%20COPIEDA3UMDMF589FDPZ,5.0,1.0,1.0,,,,,,,,,,,,,
+227,5.0,human face,0.0,0.0,"clear, horrified expression, right-side, looking forward, bald, curious",25/07/2019 12:03,32.0,A396GA8SHS2L41,5.0,1.0,1.0,,,,,,,,,,,,,
+228,5.0,mouth,0.0,0.0,"white, scream, up side, small, strange",25/07/2019 12:06,33.0,A396GA8SHS2L41,5.0,0.0,,,,,,,,,,,,,,
+229,5.0,eye,0.0,0.0,"goggle, looking helpless, looking upward, white, small",25/07/2019 12:08,34.0,A396GA8SHS2L41,5.0,0.0,,,,,,,,,,,,,,
+230,5.0,another eye,0.0,0.0,"looking upward, scared, bulging, white, dark pupil",25/07/2019 12:09,35.0,A396GA8SHS2L41,5.0,0.0,,,,,,,,,,,,,,
+231,5.0,arm,0.0,0.0,"full of lines, strange shape, white and gray, extended in the floor, down.",25/07/2019 12:11,36.0,A396GA8SHS2L41,5.0,0.0,,,,,,,,,,,,,,
+232,5.0,eye,0.0,0.0,"vitreous, deadly look, down side, white iris, vertical position",25/07/2019 12:15,37.0,A396GA8SHS2L41,5.0,0.0,,,,,,,,,,,,,,
+233,5.0,hoof,0.0,0.0,"horse, foot, metal, bottom left",25/07/2019 12:47,38.0,AIN29LNXRARXY,5.0,0.0,,,,,,,,,,,,,,
+234,5.0,horn,0.0,0.0,"top left, pointed, bone",25/07/2019 12:51,39.0,AIN29LNXRARXY,5.0,0.0,,,,,,,,,,,,,,
+235,5.0,right eye,0.0,0.0,"open, stylized, top left",25/07/2019 12:52,40.0,AIN29LNXRARXY,5.0,0.0,,,,,,,,,,,,,,
+236,5.0,left eye,0.0,0.0,"open, stylized, gaze",25/07/2019 12:53,41.0,AIN29LNXRARXY,5.0,0.0,,,,,,,,,,,,,,
+237,5.0,head,0.0,0.0,"dead, overturned, children",25/07/2019 12:55,42.0,AIN29LNXRARXY,5.0,0.0,,,,,,,,,,,,,,
+238,5.0,the top of a building,0.0,0.0,"gray, angular, monochrome",25/07/2019 14:01,43.0,WorkerIDA13JDB1LY9ZTQY,5.0,0.0,,,,,,,,,,,,,,
+239,5.0,part of a ruined building,0.0,0.0,"gray, monochrome, tilted",25/07/2019 14:02,44.0,WorkerIDA13JDB1LY9ZTQY,5.0,0.0,,,,,,,,,,,,,,
+240,5.0,a horse_s hoof,0.0,0.0,"gray, tilted, bottom of image",25/07/2019 14:03,45.0,WorkerIDA13JDB1LY9ZTQY,5.0,0.0,,,,,,,,,,,,,,
+241,5.0,a horse_s leg,0.0,0.0,"gray, shaded, extended",25/07/2019 14:04,46.0,WorkerIDA13JDB1LY9ZTQY,5.0,0.0,,,,,,,,,,,,,,
+242,5.0,a horse_s mouth,0.0,0.0,"open, toothy, screaming",25/07/2019 14:05,47.0,WorkerIDA13JDB1LY9ZTQY,5.0,0.0,,,,,,,,,,,,,,
+243,5.0,the lips of a person,0.0,0.0,"closed, small, thin",25/07/2019 14:06,48.0,WorkerIDA13JDB1LY9ZTQY,5.0,0.0,,,,,,,,,,,,,,
+244,5.0,testicles,0.0,0.0,left_ brown_ big,25/07/2019 15:14,49.0,A25OEEJDN7EGJE,5.0,0.0,,,,,,,,,,,,,,
+245,5.0,ear,0.0,0.0,"small, left, round",25/07/2019 15:18,50.0,A25OEEJDN7EGJE,5.0,1.0,1.0,,,,,,,,,,,,,
+246,5.0,tongue,0.0,0.0,"painful, twisted, gray",25/07/2019 15:23,51.0,A25OEEJDN7EGJE,5.0,0.0,,,,,,,,,,,,,,
+247,5.0,hand,0.0,0.0,"left_ broken, big",25/07/2019 15:25,52.0,A25OEEJDN7EGJE,5.0,0.0,,,,,,,,,,,,,,
+248,5.0,eye,0.0,0.0,"closed, dying, left",25/07/2019 15:27,53.0,A25OEEJDN7EGJE,5.0,1.0,1.0,,,,,,,,,,,,,
+249,5.0,brick wall,0.0,0.0,"centrally positioned, medium size, bricks",25/07/2019 15:33,54.0,A1GUNTMI2Y61IW,5.0,0.0,,,,,,,,,,,,,,
+250,5.0,body of a bull,0.0,0.0,"left, dark grey, medium size",25/07/2019 15:42,56.0,A1GUNTMI2Y61IW,5.0,0.0,,,,,,,,,,,,,,
+251,5.0,door,0.0,0.0,"right, medium size, rectangular",25/07/2019 15:43,57.0,A1GUNTMI2Y61IW,5.0,0.0,,,,,,,,,,,,,,
+252,5.0,window,0.0,0.0,"square, left, small",25/07/2019 15:46,58.0,A1GUNTMI2Y61IW,5.0,0.0,,,,,,,,,,,,,,
+253,5.0,arrow pointing left,0.0,0.0,"arrow, left, very small",25/07/2019 15:48,59.0,A1GUNTMI2Y61IW,5.0,0.0,,,,,,,,,,,,,,
+254,5.0,flame,0.0,0.0,"black and white, small, teardrop shaped",25/07/2019 19:40,61.0,ARZ9KWKL0P8ND,5.0,0.0,,,,,,,,,,,,,,
+255,5.0,horses eye,0.0,0.0,"black and white, very small, circular",25/07/2019 19:41,62.0,ARZ9KWKL0P8ND,5.0,0.0,,,,,,,,,,,,,,
+256,5.0,hand of a person,0.0,0.0,"left side of canvas, gray, small, half-star shaped.",25/07/2019 19:43,63.0,ARZ9KWKL0P8ND,5.0,0.0,,,,,,,,,,,,,,
+257,5.0,doorway,0.0,0.0,"white, small, rectangular, bright",25/07/2019 19:44,64.0,ARZ9KWKL0P8ND,5.0,0.0,,,,,,,,,,,,,,
+258,5.0,ear,0.0,0.0,"light grey, very small, roughly oval",25/07/2019 19:46,65.0,ARZ9KWKL0P8ND,5.0,0.0,,,,,,,,,,,,,,
+259,5.0,arm,0.0,0.0,"white, small, quadrilateral",25/07/2019 19:50,66.0,ARZ9KWKL0P8ND,5.0,0.0,,,,,,,,,,,,,,
+0,,,,,,,,,,,,,,,,,"angry, strong, scared",,,,3,0,0,0
+1,,,,,,,,,,,,,,,,,"worried, scared, shaped",,,,3,0,0,0
+2,,,,,,,,,,,,,,,,,"shaped, spiky",,,,2,0,0,0
+3,,,,,,,,,,,,,,,,,scared,,,,1,0,0,0
+4,,,,,,,,,,,,,,,,,,,front,,0,0,1,0
+5,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+6,,,,,,,,,,,,,,,,,,grey,,,0,1,0,0
+7,,,,,,,,,,,,,,,,,,brown,,small,0,1,0,1
+8,,,,,,,,,,,,,,,,,,grey,,,0,1,0,0
+9,,,,,,,,,,,,,,,,,,grey,,,0,1,0,0
+10,,,,,,,,,,,,,,,,,,grey,,"small, big",0,1,0,2
+11,,,,,,,,,,,,,,,,,"curious, confuse",grey,,big,2,1,0,1
+12,,,,,,,,,,,,,,,,,confuse,,,,1,0,0,0
+13,,,,,,,,,,,,,,,,,,grey,corner,,0,1,1,0
+14,,,,,,,,,,,,,,,,,,,,small,0,0,0,1
+15,,,,,,,,,,,,,,,,,"vague, unclear",,,small,2,0,0,1
+16,,,,,,,,,,,,,,,,,"2d, vague",,,,2,0,0,0
+17,,,,,,,,,,,,,,,,,"2d, misplaced",,,,2,0,0,0
+18,,,,,,,,,,,,,,,,,2d,,,,1,0,0,0
+19,,,,,,,,,,,,,,,,,bushy,,,,1,0,0,0
+20,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+21,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+22,,,,,,,,,,,,,,,,,,,,long,0,0,0,1
+23,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+24,,,,,,,,,,,,,,,,,opened,,,,1,0,0,0
+25,,,,,,,,,,,,,,,,,"horrified, bald, curious",,,,3,0,0,0
+26,,,,,,,,,,,,,,,,,strange,white,up,small,1,1,1,1
+27,,,,,,,,,,,,,,,,,"goggle, helpless, upward",white,,small,3,1,0,1
+28,,,,,,,,,,,,,,,,,"upward, scared, bulging",white,,,3,1,0,0
+29,,,,,,,,,,,,,,,,,"strange, extended",white,,,2,1,0,0
+30,,,,,,,,,,,,,,,,,"vitreous, deadly",white,down,,2,1,1,0
+31,,,,,,,,,,,,,,,,,,,bottom,,0,0,1,0
+32,,,,,,,,,,,,,,,,,pointed,,top,,1,0,1,0
+33,,,,,,,,,,,,,,,,,stylized,,top,,1,0,1,0
+34,,,,,,,,,,,,,,,,,stylized,,,,1,0,0,0
+35,,,,,,,,,,,,,,,,,overturned,,,,1,0,0,0
+36,,,,,,,,,,,,,,,,,angular,gray,,,1,1,0,0
+37,,,,,,,,,,,,,,,,,tilted,gray,,,1,1,0,0
+38,,,,,,,,,,,,,,,,,tilted,gray,bottom,,1,1,1,0
+39,,,,,,,,,,,,,,,,,"shaded, extended",gray,,,2,1,0,0
+40,,,,,,,,,,,,,,,,,toothy,,,,1,0,0,0
+41,,,,,,,,,,,,,,,,,"closed, thin",,,small,2,0,0,1
+42,,,,,,,,,,,,,,,,,,,,big,0,0,0,1
+43,,,,,,,,,,,,,,,,,,,left,small,0,0,1,1
+44,,,,,,,,,,,,,,,,,"painful, twisted",gray,,,2,1,0,0
+45,,,,,,,,,,,,,,,,,broken,,,big,1,0,0,1
+46,,,,,,,,,,,,,,,,,closed,,left,,1,0,1,0
+47,,,,,,,,,,,,,,,,,"centrally, positioned",,,medium,2,0,0,1
+48,,,,,,,,,,,,,,,,,,grey,left,medium,0,1,1,1
+49,,,,,,,,,,,,,,,,,rectangular,,right,medium,1,0,1,1
+50,,,,,,,,,,,,,,,,,,,left,small,0,0,1,1
+51,,,,,,,,,,,,,,,,,,,left,small,0,0,1,1
+52,,,,,,,,,,,,,,,,,shaped,black,,small,1,1,0,1
+53,,,,,,,,,,,,,,,,,,black,,small,0,1,0,1
+54,,,,,,,,,,,,,,,,,,gray,left,small,0,1,1,1
+55,,,,,,,,,,,,,,,,,"rectangular, bright",white,,small,2,1,0,1
+56,,,,,,,,,,,,,,,,,roughly,grey,,small,1,1,0,1
+57,,,,,,,,,,,,,,,,,,white,,small,0,1,0,1

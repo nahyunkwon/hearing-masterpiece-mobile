@@ -171,10 +171,13 @@ def main():
     location = []
 
     color_terms = ["black", "white", "red", "green", "yellow", "blue", "brown",
-                   "orange", "pink", "purple", "gray", "beige", "grey", "gold", "silver"]
+                   "orange", "pink", "purple", "gray", "beige", "grey", "gold", "silver", "burgundy"]
     location_terms = ["right", "left", "center", "up", "above", "under", "down",
-                      "corner", "bottom", "front", "rear", "side", "middle", "top", "below", "core", "behind"]
-    size_terms = ["large", "small", "medium", "big", "narrow", "tall", "smallest", "normal", "size"]
+                      "corner", "bottom", "front", "rear", "side", "middle", "top", "below", "core", "behind", "distant"]
+    size_terms = ["large", "small", "medium", "big", "narrow", "tall", "smallest", "normal", "size", "long"]
+
+    # final_text = final_text + " smallest smallest normal normal normal narrow tall size size size size size size size size size size size long long long long long long long long long long"
+    #final_text = final_text + " distant distant distant distant distant distant distant distant distant"
     '''
 
     id = 17

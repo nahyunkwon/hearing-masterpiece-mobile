@@ -178,11 +178,11 @@ function draw_polygon(mode){
     //polygon opacity, fill color(random)
   svg.selectAll("polygon")
   //.style("fill-opacity", .000001)
-  .style("stroke-width", 5)
+  //.style("stroke-width", 5)
   .style("fill-opacity", .0)
-  .style("stroke",function() {
-    return "hsl(" + Math.random() * 360 + ",100%,50%)";
-  })
+  //.style("stroke",function() {
+  //  return "hsl(" + Math.random() * 360 + ",100%,50%)";
+  //})
   //.style("fill",function() {
   //  return "hsl(" + Math.random() * 360 + ",100%,50%)";
   //})

@@ -1,0 +1,135 @@
+,img_id,name,deleted,verified,attributes,date,id,polygon/username,img_id.1,"valid (if valid, then 1. invalid 0)","less than 3 coordinates (if yes, 1)","not an object (if yes, 1)",name is incorrect,attributes are incorrect,name/attribues modified,merged to,exp,color,location,size,exp_count,color_count,location_count,size_count
+461,18.0,pic,0.0,,texture,25/07/2019 9:17,1.0,AFRSASN33QBC3,18.0,0.0,,,1.0,1.0,1.0,14.0,,,,,,,,
+462,18.0,1,0.0,,facial,25/07/2019 9:18,2.0,AFRSASN33QBC3,18.0,0.0,,,,,,20.0,,,,,,,,
+463,18.0,2,0.0,,age,25/07/2019 9:18,3.0,AFRSASN33QBC3,18.0,0.0,,,,,,25.0,,,,,,,,
+464,18.0,4,0.0,,shape,25/07/2019 9:18,4.0,AFRSASN33QBC3,18.0,1.0,,1.0,,,,,,,,,,,,
+465,18.0,5,0.0,,color,25/07/2019 9:18,5.0,AFRSASN33QBC3,18.0,0.0,,,,,,13.0,,,,,,,,
+466,18.0,person,0.0,,eye,25/07/2019 9:32,6.0,A685WMI1QRZHE,18.0,0.0,,,,,,,,,,,,,,
+467,18.0,person,0.0,,nose,25/07/2019 9:33,7.0,A685WMI1QRZHE,18.0,0.0,,,,,,,,,,,,,,
+468,18.0,person,0.0,,eye,25/07/2019 9:34,8.0,A685WMI1QRZHE,18.0,0.0,,,,,,,,,,,,,,
+469,18.0,person,0.0,,eye,25/07/2019 9:34,9.0,A685WMI1QRZHE,18.0,0.0,,,,,,,,,,,,,,
+470,18.0,person,0.0,,body,25/07/2019 9:37,10.0,A685WMI1QRZHE,18.0,0.0,,,,,,,,,,,,,,
+471,18.0,person,0.0,,body,25/07/2019 9:39,11.0,A685WMI1QRZHE,18.0,0.0,,,,,,,,,,,,,,
+472,18.0,person,0.0,,body,25/07/2019 9:43,12.0,A685WMI1QRZHE,18.0,0.0,,,,,,,,,,,,,,
+473,18.0,person,0.0,,face(nose),25/07/2019 9:44,13.0,A685WMI1QRZHE,18.0,0.0,,,,,,,,,,,,,,
+474,18.0,person,0.0,,finger,25/07/2019 9:48,14.0,A685WMI1QRZHE,18.0,0.0,,,,,,,,,,,,,,
+475,18.0,human,0.0,,"female,naked,pale, long hair, brunnette",25/07/2019 9:58,18.0,AD4JF27PRR61,18.0,0.0,,,,,,,,,,,,,,
+476,18.0,arm,0.0,,"arm, long, straight, strong fingers, hand",25/07/2019 9:59,19.0,AD4JF27PRR61,18.0,0.0,,,,,,,,,,,,,,
+477,18.0,eye,0.0,,"right eye, dark,",25/07/2019 9:59,20.0,AD4JF27PRR61,18.0,0.0,,,,,,,,,,,,,,
+478,18.0,nose,0.0,,"long, sharp, pointy, human, nose , skin",25/07/2019 10:02,21.0,AD4JF27PRR61,18.0,0.0,,,,,,,,,,,,,,
+479,18.0,ear,0.0,,"human ear, skin, large, pale pink",25/07/2019 10:02,22.0,AD4JF27PRR61,18.0,0.0,,,,,,,,,,,,,,
+480,18.0,woman,0.0,,"woman with dark hair, naked, dark-haired",25/07/2019 10:39,23.0,A3TAM79PCXOLXI,18.0,0.0,,,,,,,,,,,,,,
+481,18.0,eye,0.0,,"large, clear, side-view, dark",25/07/2019 10:41,24.0,A3TAM79PCXOLXI,18.0,0.0,,,,,,,,,,,,,,
+482,18.0,leg,0.0,,"pink, bent, large",25/07/2019 10:42,25.0,A3TAM79PCXOLXI,18.0,0.0,,,,,,,,,,,,,,
+483,18.0,eye,0.0,,"clear, visible, distorted, enlarged",25/07/2019 10:44,26.0,A3TAM79PCXOLXI,18.0,0.0,,,,,,,,,,,,,,
+484,18.0,female,0.0,,"female figure, dark, pink, distorted",25/07/2019 10:47,27.0,A3TAM79PCXOLXI,18.0,0.0,,,,,,,,,,,,,,
+485,18.0,eye,0.0,,"big, black, right eye",25/07/2019 11:56,32.0,A2MOY7J4GG5CW8,18.0,0.0,,,,,,,,,,,,,,
+486,18.0,mouth,0.0,,"small, black, closed",25/07/2019 11:57,33.0,A2MOY7J4GG5CW8,18.0,0.0,,,,,,,,,,,,,,
+487,18.0,mouth,0.0,,"small, black, closed",25/07/2019 11:58,34.0,A2MOY7J4GG5CW8,18.0,0.0,,,,,,,,,,,,,,
+488,18.0,mouth,0.0,,"small, slightly oppened, black contour",25/07/2019 11:59,35.0,A2MOY7J4GG5CW8,18.0,0.0,,,,,,,,,,,,,,
+489,18.0,face,0.0,,"eyes wide open, oval, light pink",25/07/2019 12:00,36.0,A2MOY7J4GG5CW8,18.0,0.0,,,,,,,,,,,,,,
+490,18.0,mouth,0.0,,"shook, in awe, screaming, wide-mouthed, embarrased",25/07/2019 12:13,39.0,A3KO36PYNA5IHQ,18.0,0.0,,,,,,,,,,,,,,
+491,18.0,brown wall,0.0,,"dirty, enclosed, claustrophobic, tight, gloomy, shut-in, gritty wall",25/07/2019 12:15,40.0,A3KO36PYNA5IHQ,18.0,1.0,1.0,,,,,,,,,,,,,
+492,18.0,cloth,0.0,,"decency, white cloth, protection, safety, feel comfortable,",25/07/2019 12:16,41.0,A3KO36PYNA5IHQ,18.0,0.0,,,,,,,,,,,,,,
+493,18.0,nose,0.0,,"flat nosed, art missed her nose, unique art, 2-d drawing",25/07/2019 12:17,42.0,A3KO36PYNA5IHQ,18.0,0.0,,,,,,,,,,,,,,
+494,18.0,chest,0.0,,"muscular, fit, well-toned, active, dominant strength.",25/07/2019 12:19,43.0,A3KO36PYNA5IHQ,18.0,0.0,,,,,,,,,,,,,,
+495,18.0,hair,0.0,,"brown, tame hair, beautiful, taken-care of hair, straight hair",25/07/2019 12:19,44.0,A3KO36PYNA5IHQ,18.0,0.0,,,,,,,,,,,,,,
+496,18.0,rear/back,0.0,,"indecent,naked, shameless, commando, liberated.",25/07/2019 12:20,45.0,A3KO36PYNA5IHQ,18.0,0.0,,,,,,,,,,,,,,
+497,18.0,cave side,0.0,,"quartz, white, well-lit, bright wall",25/07/2019 12:21,46.0,A3KO36PYNA5IHQ,18.0,1.0,1.0,,,,,,,,,,,,,
+498,18.0,breast,0.0,,"right side, contrasted, small shadow, small lit, conspicuous, nude",25/07/2019 12:35,47.0,A396GA8SHS2L41,18.0,0.0,,,,,,,,,,,,,,
+499,18.0,arm,0.0,,"beige, right side, upward elbow, clenched fist, obtuse lines, female arm",25/07/2019 12:36,48.0,A396GA8SHS2L41,18.0,0.0,,,,,,,,,,,,,,
+500,18.0,arm,0.0,,"elbow upward, visible armpit, dark beige, female arm, up side, natural looking",25/07/2019 12:38,49.0,A396GA8SHS2L41,18.0,0.0,,,,,,,,,,,,,,
+501,18.0,groin,0.0,,"beige, center side, naked, female, smooth texture",25/07/2019 12:40,50.0,A396GA8SHS2L41,18.0,0.0,,,,,,,,,,,,,,
+502,18.0,shoulder/arm,0.0,,"beige, large, female, disproportionate, naked",25/07/2019 12:43,51.0,A396GA8SHS2L41,18.0,0.0,,,,,,,,,,,,,,
+503,18.0,breast,0.0,,"exposed, up side, beige, female breast, big",25/07/2019 12:45,52.0,A396GA8SHS2L41,18.0,1.0,1.0,,,,,,,,,,,,,
+504,18.0,background,0.0,,"flat, black, cubistic, surreal",25/07/2019 12:50,53.0,A34CLFMP19G4NU,18.0,0.0,,,,,,,,,,,,,,
+505,18.0,background,0.0,,"brown, pale, creamy",25/07/2019 12:50,54.0,A34CLFMP19G4NU,18.0,0.0,,,,,,,,,,,,,,
+506,18.0,fruit,0.0,,"pale, messy texture, round, small",25/07/2019 12:51,55.0,A34CLFMP19G4NU,18.0,0.0,,,,,,,,,,,,,,
+507,18.0,cloth,0.0,,"pale, white, creased, soft",25/07/2019 12:52,56.0,A34CLFMP19G4NU,18.0,0.0,,,,,,,,,,,,,,
+508,18.0,mask,0.0,,"dark, round, oblong, african",25/07/2019 12:53,57.0,A34CLFMP19G4NU,18.0,0.0,,,,,,,,,,,,,,
+509,18.0,leg,0.0,,rose,25/07/2019 13:14,58.0,A2NVNFIOKLEEGY,18.0,1.0,1.0,,,,,,,,,,,,,
+510,18.0,hand,0.0,,rose,25/07/2019 13:14,59.0,A2NVNFIOKLEEGY,18.0,1.0,1.0,,,,,,,,,,,,,
+511,18.0,hair,0.0,,balck,25/07/2019 13:15,60.0,A2NVNFIOKLEEGY,18.0,1.0,1.0,,,,,,,,,,,,,
+512,18.0,face,0.0,,rose,25/07/2019 13:15,61.0,A2NVNFIOKLEEGY,18.0,1.0,1.0,,,,,,,,,,,,,
+513,18.0,rock,0.0,,grey,25/07/2019 13:15,62.0,A2NVNFIOKLEEGY,18.0,1.0,1.0,,,,,,,,,,,,,
+514,18.0,breasts,0.0,,"peach, smooth, woman",25/07/2019 14:45,63.0,A1J6BOZEB8EADQ,18.0,0.0,,,,,,,,,,,,,,
+515,18.0,stomach,0.0,,"peach, woman, smooth, thin",25/07/2019 14:46,64.0,A1J6BOZEB8EADQ,18.0,0.0,,,,,,,,,,,,,,
+516,18.0,rock,0.0,,"red, dark, shadowed, top left",25/07/2019 14:47,65.0,A1J6BOZEB8EADQ,18.0,0.0,,,,,,,,,,,,,,
+517,18.0,breasts,0.0,,"woman, peach, cream",25/07/2019 14:47,66.0,A1J6BOZEB8EADQ,18.0,0.0,,,,,,,,,,,,,,
+518,18.0,shadow,0.0,,"top right, dark, grey",25/07/2019 14:48,67.0,A1J6BOZEB8EADQ,18.0,0.0,,,,,,,,,,,,,,
+519,18.0,brust,0.0,,naic,25/07/2019 17:51,70.0,A10EHIYN2UO2BC,18.0,1.0,,1.0,,,,,,,,,,,,
+520,18.0,sex,0.0,,yes,25/07/2019 17:51,71.0,A10EHIYN2UO2BC,18.0,1.0,,1.0,,,,,,,,,,,,
+521,18.0,hare,0.0,,no,25/07/2019 17:52,72.0,A10EHIYN2UO2BC,18.0,1.0,,1.0,,,,,,,,,,,,
+522,18.0,wand,0.0,,ja,25/07/2019 17:53,73.0,A10EHIYN2UO2BC,18.0,1.0,,1.0,,,,,,,,,,,,
+523,18.0,wand,0.0,,zwei,25/07/2019 17:53,74.0,A10EHIYN2UO2BC,18.0,1.0,,1.0,,,,,,,,,,,,
+524,18.0,wait,0.0,,schwarz,25/07/2019 17:53,75.0,A10EHIYN2UO2BC,18.0,1.0,,1.0,,,,,,,,,,,,
+525,18.0,kutu,0.0,,yle,25/07/2019 17:54,76.0,A10EHIYN2UO2BC,18.0,2.0,1.0,1.0,,,,,,,,,,,,
+526,18.0,fuchu,0.0,,muteli,25/07/2019 17:54,77.0,A10EHIYN2UO2BC,18.0,1.0,,1.0,,,,,,,,,,,,
+527,18.0,brust,0.0,,khugou,25/07/2019 17:54,78.0,A10EHIYN2UO2BC,18.0,2.0,1.0,1.0,,,,,,,,,,,,
+0,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+1,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+2,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+3,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+4,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+5,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+6,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+7,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+8,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+9,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+10,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+11,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+12,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+13,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+14,,,,,,,,,,,,,,,,,naked,,,long,1,0,0,1
+15,,,,,,,,,,,,,,,,,strong,,,long,1,0,0,1
+16,,,,,,,,,,,,,,,,,,,right,,0,0,1,0
+17,,,,,,,,,,,,,,,,,,,,long,0,0,0,1
+18,,,,,,,,,,,,,,,,,,pink,,large,0,1,0,1
+19,,,,,,,,,,,,,,,,,"naked, dark-haired",,,,2,0,0,0
+20,,,,,,,,,,,,,,,,,,,,large,0,0,0,1
+21,,,,,,,,,,,,,,,,,,pink,,large,0,1,0,1
+22,,,,,,,,,,,,,,,,,"visible, distorted, enlarged",,,,3,0,0,0
+23,,,,,,,,,,,,,,,,,distorted,pink,,,1,1,0,0
+24,,,,,,,,,,,,,,,,,,black,right,big,0,1,1,1
+25,,,,,,,,,,,,,,,,,closed,black,,small,1,1,0,1
+26,,,,,,,,,,,,,,,,,closed,black,,small,1,1,0,1
+27,,,,,,,,,,,,,,,,,slightly,black,,small,1,1,0,1
+28,,,,,,,,,,,,,,,,,wide,pink,,,1,1,0,0
+29,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+30,,,,,,,,,,,,,,,,,"dirty, enclosed, claustrophobic, tight, gloomy, gritty",,,,6,0,0,0
+31,,,,,,,,,,,,,,,,,comfortable,white,,,1,1,0,0
+32,,,,,,,,,,,,,,,,,"nosed, missed, unique",,,,3,0,0,0
+33,,,,,,,,,,,,,,,,,muscular,,,,1,0,0,0
+34,,,,,,,,,,,,,,,,,"tame, beautiful",brown,,,2,1,0,0
+35,,,,,,,,,,,,,,,,,"indecent, naked, shameless",,,,3,0,0,0
+36,,,,,,,,,,,,,,,,,bright,white,,,1,1,0,0
+37,,,,,,,,,,,,,,,,,"contrasted, conspicuous",,right,"small, small",2,0,1,2
+38,,,,,,,,,,,,,,,,,"upward, clenched, obtuse",beige,right,,3,1,1,0
+39,,,,,,,,,,,,,,,,,"upward, visible",beige,up,,2,1,1,0
+40,,,,,,,,,,,,,,,,,naked,beige,center,,1,1,1,0
+41,,,,,,,,,,,,,,,,,"disproportionate, naked",beige,,large,2,1,0,1
+42,,,,,,,,,,,,,,,,,exposed,beige,up,big,1,1,1,1
+43,,,,,,,,,,,,,,,,,"cubistic, surreal",black,,,2,1,0,0
+44,,,,,,,,,,,,,,,,,creamy,brown,,,1,1,0,0
+45,,,,,,,,,,,,,,,,,messy,,,small,1,0,0,1
+46,,,,,,,,,,,,,,,,,"creased, soft",white,,,2,1,0,0
+47,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+48,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+49,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+50,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+51,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+52,,,,,,,,,,,,,,,,,,grey,,,0,1,0,0
+53,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+54,,,,,,,,,,,,,,,,,thin,,,,1,0,0,0
+55,,,,,,,,,,,,,,,,,shadowed,red,top,,1,1,1,0
+56,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+57,,,,,,,,,,,,,,,,,,grey,top,,0,1,1,0
+58,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+59,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+60,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+61,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+62,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+63,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+64,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+65,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+66,,,,,,,,,,,,,,,,,,,,,0,0,0,0

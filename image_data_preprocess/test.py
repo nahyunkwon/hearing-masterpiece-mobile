@@ -5,28 +5,19 @@ from shapely.geometry import Polygon
 
 from numpy import *
 import xmltodict
+
+import pandas as pd
 import pprint
 import json
 
-img_id = [1, 5, 17]
+raw_data = {'name': ['Willard Morris', 'Al Jennings', 'Omar Mullins', 'Spencer McDaniel'],
+'age': [20, 19, 22, 21],
+'favorite_color': ['blue', 'red', 'yellow', "green"],
+'grade': [88, 92, 95, 70]}
+df = pd.DataFrame(raw_data)
 
-for i in img_id:
-    image_data = json.load(
-        open('../public/img_data/art_filtered/art_filtered_kor/' + str(i) + ".json", 'r', encoding='utf-8'))
 
-    img = image_data['annotation']
+#print(df.iloc[0]['name'])
 
-    ann = img['object']
-
-    result = []
-
-    # print(ann)
-
-    for i in range(len(ann)):
-        if ann[i]['deleted'] == "0":
-            result.append(ann[i])
-
-    img['object'] = result
-
-    with open('./test_attr/' + str(i) + '.json', 'w') as fp:
-        json.dump(image_data, fp, sort_keys=False, indent=1, separators=(',', ': '), ensure_ascii=False)
+df.at[0, 'name'] = "new"
+print(df)
