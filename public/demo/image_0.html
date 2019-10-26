@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+  <title>Image Segmentation Viewer Interface</title>
+  <meta charset="utf-8">
+  <script src="js/d3.v4.min.js"></script>
+  <script src="js/d3.tip.v0.6.3.js"></script>
+    <script src="js/responsivevoice.js"></script>
+    <script src="js/d3.button.js"></script>
+  <style>
+  html, body {
+    height: 100%;
+    padding-bottom:150px;
+  }
+.main{
+      padding: 10px;
+      height: 1000px;
+      overflow: scroll
+  }
+.image{
+      padding: 1px;
+      width:100%;
+      height:1000px;
+      overflow: scroll;
+    }
+#metadata{
+      padding: 0px;
+      padding-left: 22%;
+      width:40%;
+      height:5%;
+      float:left;
+      overflow: scroll
+    }
+#buttons{
+      padding: 10px;
+      padding-left: 5%;
+      width:20%;
+      float:left;
+      height:5%;
+      overflow: scroll
+    }
+#buttons2{
+  float: left;
+  padding-left: 22%
+}
+  </style>
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="main">
+    <script>
+      var img_id = 0;
+  </script>
+
+<div id="metadata">
+
+  <script src="js/image_data_eng.js" ></script>
+  <script src="js/load_metadata.js" ></script>
+
+</div>
+
+  <div id="buttons">
+    <button onclick="seg_mode = seg_mode_button(seg_mode);">Segmentation Mode</button>
+    <br>
+
+  </div>
+<br>
+
+
+<center>
+<div class="image" title="그림을 벗어났습니다.">
+  <div id="buttons2">
+    <button id="list" onclick="draw_polygon(seg_mode);">all objects</button>
+  </div>
+  <br>
+
+  <script src="js/polygon.js"></script>
+
+  <script>
+        document.getElementById('list').setAttribute('title', objects_list_to_string(objects_list));
+  </script>
+
+</div>
+</center>
+
+</div>
+
+
+
+</body>
