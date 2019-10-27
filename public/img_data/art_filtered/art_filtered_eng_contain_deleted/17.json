@@ -414,6 +414,601 @@
     "remains": "appears pregnant, holding stomach"
    },
    {
+    "name": "human",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "male, blessing, happy",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 09:14:16",
+    "id": "0",
+    "polygon": {
+     "username": "A3KB2DY7SADI3Z",
+     "pt": [
+      {
+       "x": "210",
+       "y": "990"
+      },
+      {
+       "x": "193",
+       "y": "968"
+      },
+      {
+       "x": "188",
+       "y": "949"
+      },
+      {
+       "x": "185",
+       "y": "937"
+      },
+      {
+       "x": "191",
+       "y": "928"
+      },
+      {
+       "x": "198",
+       "y": "923"
+      },
+      {
+       "x": "200",
+       "y": "907"
+      },
+      {
+       "x": "200",
+       "y": "887"
+      },
+      {
+       "x": "197",
+       "y": "871"
+      },
+      {
+       "x": "188",
+       "y": "852"
+      },
+      {
+       "x": "178",
+       "y": "852"
+      },
+      {
+       "x": "159",
+       "y": "845"
+      },
+      {
+       "x": "150",
+       "y": "844"
+      },
+      {
+       "x": "143",
+       "y": "845"
+      },
+      {
+       "x": "129",
+       "y": "849"
+      },
+      {
+       "x": "119",
+       "y": "854"
+      },
+      {
+       "x": "102",
+       "y": "844"
+      },
+      {
+       "x": "97",
+       "y": "835"
+      },
+      {
+       "x": "88",
+       "y": "835"
+      },
+      {
+       "x": "72",
+       "y": "835"
+      },
+      {
+       "x": "62",
+       "y": "828"
+      },
+      {
+       "x": "59",
+       "y": "816"
+      },
+      {
+       "x": "64",
+       "y": "799"
+      },
+      {
+       "x": "69",
+       "y": "750"
+      },
+      {
+       "x": "85",
+       "y": "568"
+      },
+      {
+       "x": "97",
+       "y": "530"
+      },
+      {
+       "x": "103",
+       "y": "448"
+      },
+      {
+       "x": "107",
+       "y": "424"
+      },
+      {
+       "x": "119",
+       "y": "386"
+      },
+      {
+       "x": "124",
+       "y": "347"
+      },
+      {
+       "x": "128",
+       "y": "328"
+      },
+      {
+       "x": "135",
+       "y": "319"
+      },
+      {
+       "x": "171",
+       "y": "276"
+      },
+      {
+       "x": "190",
+       "y": "266"
+      },
+      {
+       "x": "200",
+       "y": "259"
+      },
+      {
+       "x": "200",
+       "y": "243"
+      },
+      {
+       "x": "193",
+       "y": "231"
+      },
+      {
+       "x": "178",
+       "y": "240"
+      },
+      {
+       "x": "167",
+       "y": "250"
+      },
+      {
+       "x": "152",
+       "y": "247"
+      },
+      {
+       "x": "136",
+       "y": "243"
+      },
+      {
+       "x": "136",
+       "y": "214"
+      },
+      {
+       "x": "138",
+       "y": "200"
+      },
+      {
+       "x": "155",
+       "y": "188"
+      },
+      {
+       "x": "162",
+       "y": "174"
+      },
+      {
+       "x": "164",
+       "y": "157"
+      },
+      {
+       "x": "174",
+       "y": "141"
+      },
+      {
+       "x": "190",
+       "y": "131"
+      },
+      {
+       "x": "228",
+       "y": "128"
+      },
+      {
+       "x": "252",
+       "y": "121"
+      },
+      {
+       "x": "273",
+       "y": "131"
+      },
+      {
+       "x": "285",
+       "y": "145"
+      },
+      {
+       "x": "286",
+       "y": "159"
+      },
+      {
+       "x": "281",
+       "y": "169"
+      },
+      {
+       "x": "273",
+       "y": "169"
+      },
+      {
+       "x": "138",
+       "y": "202"
+      },
+      {
+       "x": "269",
+       "y": "171"
+      },
+      {
+       "x": "290",
+       "y": "178"
+      },
+      {
+       "x": "313",
+       "y": "183"
+      },
+      {
+       "x": "324",
+       "y": "185"
+      },
+      {
+       "x": "324",
+       "y": "201"
+      },
+      {
+       "x": "319",
+       "y": "217"
+      },
+      {
+       "x": "315",
+       "y": "235"
+      },
+      {
+       "x": "303",
+       "y": "251"
+      },
+      {
+       "x": "287",
+       "y": "251"
+      },
+      {
+       "x": "271",
+       "y": "260"
+      },
+      {
+       "x": "256",
+       "y": "260"
+      },
+      {
+       "x": "264",
+       "y": "267"
+      },
+      {
+       "x": "264",
+       "y": "274"
+      },
+      {
+       "x": "262",
+       "y": "274"
+      },
+      {
+       "x": "269",
+       "y": "281"
+      },
+      {
+       "x": "278",
+       "y": "290"
+      },
+      {
+       "x": "290",
+       "y": "300"
+      },
+      {
+       "x": "293",
+       "y": "314"
+      },
+      {
+       "x": "302",
+       "y": "314"
+      },
+      {
+       "x": "309",
+       "y": "321"
+      },
+      {
+       "x": "314",
+       "y": "336"
+      },
+      {
+       "x": "324",
+       "y": "348"
+      },
+      {
+       "x": "333",
+       "y": "367"
+      },
+      {
+       "x": "352",
+       "y": "379"
+      },
+      {
+       "x": "362",
+       "y": "393"
+      },
+      {
+       "x": "369",
+       "y": "402"
+      },
+      {
+       "x": "381",
+       "y": "423"
+      },
+      {
+       "x": "393",
+       "y": "433"
+      },
+      {
+       "x": "405",
+       "y": "440"
+      },
+      {
+       "x": "416",
+       "y": "447"
+      },
+      {
+       "x": "423",
+       "y": "452"
+      },
+      {
+       "x": "436",
+       "y": "445"
+      },
+      {
+       "x": "445",
+       "y": "436"
+      },
+      {
+       "x": "457",
+       "y": "430"
+      },
+      {
+       "x": "466",
+       "y": "430"
+      },
+      {
+       "x": "467",
+       "y": "435"
+      },
+      {
+       "x": "457",
+       "y": "442"
+      },
+      {
+       "x": "471",
+       "y": "455"
+      },
+      {
+       "x": "474",
+       "y": "466"
+      },
+      {
+       "x": "461",
+       "y": "474"
+      },
+      {
+       "x": "457",
+       "y": "483"
+      },
+      {
+       "x": "421",
+       "y": "471"
+      },
+      {
+       "x": "404",
+       "y": "471"
+      },
+      {
+       "x": "393",
+       "y": "476"
+      },
+      {
+       "x": "366",
+       "y": "490"
+      },
+      {
+       "x": "366",
+       "y": "485"
+      },
+      {
+       "x": "367",
+       "y": "493"
+      },
+      {
+       "x": "371",
+       "y": "557"
+      },
+      {
+       "x": "379",
+       "y": "607"
+      },
+      {
+       "x": "381",
+       "y": "645"
+      },
+      {
+       "x": "390",
+       "y": "678"
+      },
+      {
+       "x": "390",
+       "y": "718"
+      },
+      {
+       "x": "392",
+       "y": "747"
+      },
+      {
+       "x": "404",
+       "y": "745"
+      },
+      {
+       "x": "409",
+       "y": "759"
+      },
+      {
+       "x": "409",
+       "y": "769"
+      },
+      {
+       "x": "392",
+       "y": "787"
+      },
+      {
+       "x": "376",
+       "y": "795"
+      },
+      {
+       "x": "366",
+       "y": "818"
+      },
+      {
+       "x": "342",
+       "y": "826"
+      },
+      {
+       "x": "326",
+       "y": "833"
+      },
+      {
+       "x": "305",
+       "y": "847"
+      },
+      {
+       "x": "286",
+       "y": "847"
+      },
+      {
+       "x": "279",
+       "y": "850"
+      },
+      {
+       "x": "279",
+       "y": "873"
+      },
+      {
+       "x": "279",
+       "y": "890"
+      },
+      {
+       "x": "300",
+       "y": "899"
+      },
+      {
+       "x": "317",
+       "y": "900"
+      },
+      {
+       "x": "328",
+       "y": "918"
+      },
+      {
+       "x": "297",
+       "y": "925"
+      },
+      {
+       "x": "281",
+       "y": "925"
+      },
+      {
+       "x": "262",
+       "y": "925"
+      },
+      {
+       "x": "245",
+       "y": "928"
+      },
+      {
+       "x": "228",
+       "y": "921"
+      },
+      {
+       "x": "236",
+       "y": "897"
+      },
+      {
+       "x": "243",
+       "y": "881"
+      },
+      {
+       "x": "243",
+       "y": "864"
+      },
+      {
+       "x": "243",
+       "y": "850"
+      },
+      {
+       "x": "221",
+       "y": "856"
+      },
+      {
+       "x": "221",
+       "y": "871"
+      },
+      {
+       "x": "224",
+       "y": "890"
+      },
+      {
+       "x": "228",
+       "y": "916"
+      },
+      {
+       "x": "231",
+       "y": "925"
+      },
+      {
+       "x": "240",
+       "y": "945"
+      },
+      {
+       "x": "245",
+       "y": "973"
+      },
+      {
+       "x": "241",
+       "y": "988"
+      },
+      {
+       "x": "229",
+       "y": "997"
+      }
+     ]
+    },
+    "area": 187084.0,
+    "color": "",
+    "location": "",
+    "size": "",
+    "remains": "male, blessing, happy"
+   },
+   {
     "name": "man",
     "deleted": "0",
     "verified": "0",
@@ -945,6 +1540,85 @@
     "remains": "open, window, light, clear"
    },
    {
+    "name": "chandelier",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "ornate, lighting, gold",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 09:51:37",
+    "id": "12",
+    "polygon": {
+     "username": "A1CJ8CLM7987EQ",
+     "pt": [
+      {
+       "x": "535",
+       "y": "143"
+      },
+      {
+       "x": "464",
+       "y": "193"
+      },
+      {
+       "x": "413",
+       "y": "208"
+      },
+      {
+       "x": "371",
+       "y": "195"
+      },
+      {
+       "x": "312",
+       "y": "169"
+      },
+      {
+       "x": "301",
+       "y": "125"
+      },
+      {
+       "x": "312",
+       "y": "80"
+      },
+      {
+       "x": "343",
+       "y": "52"
+      },
+      {
+       "x": "392",
+       "y": "84"
+      },
+      {
+       "x": "385",
+       "y": "1"
+      },
+      {
+       "x": "438",
+       "y": "4"
+      },
+      {
+       "x": "442",
+       "y": "68"
+      },
+      {
+       "x": "477",
+       "y": "78"
+      },
+      {
+       "x": "505",
+       "y": "108"
+      }
+     ]
+    },
+    "area": 27563.0,
+    "color": "",
+    "location": "",
+    "size": "",
+    "remains": "ornate, lighting, gold"
+   },
+   {
     "name": "cover",
     "deleted": "0",
     "verified": "0",
@@ -990,6 +1664,85 @@
     "location": "",
     "size": "",
     "remains": "clothing, fabric"
+   },
+   {
+    "name": "wall hanging",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "golden in color,at the top center,big in size",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 10:18:23",
+    "id": "23",
+    "polygon": {
+     "username": "parulsharmab91@gmail.com",
+     "pt": [
+      {
+       "x": "342",
+       "y": "58"
+      },
+      {
+       "x": "317",
+       "y": "81"
+      },
+      {
+       "x": "305",
+       "y": "124"
+      },
+      {
+       "x": "316",
+       "y": "164"
+      },
+      {
+       "x": "411",
+       "y": "205"
+      },
+      {
+       "x": "463",
+       "y": "191"
+      },
+      {
+       "x": "530",
+       "y": "144"
+      },
+      {
+       "x": "477",
+       "y": "85"
+      },
+      {
+       "x": "442",
+       "y": "73"
+      },
+      {
+       "x": "435",
+       "y": "6"
+      },
+      {
+       "x": "389",
+       "y": "5"
+      },
+      {
+       "x": "394",
+       "y": "84"
+      },
+      {
+       "x": "392",
+       "y": "87"
+      },
+      {
+       "x": "389",
+       "y": "86"
+      }
+     ]
+    },
+    "area": 24707.5,
+    "color": "golden in color",
+    "location": "at the top center",
+    "size": "big in size",
+    "remains": ""
    },
    {
     "name": "chandeiler",
@@ -1270,6 +2023,97 @@
     "remains": "straight"
    },
    {
+    "name": "dog",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "small, long hair, terrier-like, in-between the couple",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 11:36:57",
+    "id": "32",
+    "polygon": {
+     "username": "A115BHSWY8R1KU",
+     "pt": [
+      {
+       "x": "295",
+       "y": "931"
+      },
+      {
+       "x": "292",
+       "y": "1054"
+      },
+      {
+       "x": "326",
+       "y": "1057"
+      },
+      {
+       "x": "345",
+       "y": "1034"
+      },
+      {
+       "x": "398",
+       "y": "1086"
+      },
+      {
+       "x": "416",
+       "y": "1079"
+      },
+      {
+       "x": "417",
+       "y": "1056"
+      },
+      {
+       "x": "467",
+       "y": "1073"
+      },
+      {
+       "x": "460",
+       "y": "979"
+      },
+      {
+       "x": "451",
+       "y": "963"
+      },
+      {
+       "x": "441",
+       "y": "935"
+      },
+      {
+       "x": "414",
+       "y": "922"
+      },
+      {
+       "x": "385",
+       "y": "922"
+      },
+      {
+       "x": "377",
+       "y": "942"
+      },
+      {
+       "x": "339",
+       "y": "938"
+      },
+      {
+       "x": "333",
+       "y": "920"
+      },
+      {
+       "x": "298",
+       "y": "915"
+      }
+     ]
+    },
+    "area": 21881.5,
+    "color": "",
+    "location": "in-between the couple",
+    "size": "small",
+    "remains": "long hair, terrier-like"
+   },
+   {
     "name": "ruffles",
     "deleted": "0",
     "verified": "0",
@@ -1353,6 +2197,185 @@
     "remains": "dress, bunched fabric, detailed, vivid"
    },
    {
+    "name": "dog",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "room, brown, small, smooth",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 09:20:30",
+    "id": "5",
+    "polygon": {
+     "username": "A2HC04434S9TP0",
+     "pt": [
+      {
+       "x": "449",
+       "y": "974"
+      },
+      {
+       "x": "449",
+       "y": "956"
+      },
+      {
+       "x": "445",
+       "y": "942"
+      },
+      {
+       "x": "428",
+       "y": "927"
+      },
+      {
+       "x": "408",
+       "y": "918"
+      },
+      {
+       "x": "379",
+       "y": "933"
+      },
+      {
+       "x": "381",
+       "y": "944"
+      },
+      {
+       "x": "371",
+       "y": "945"
+      },
+      {
+       "x": "343",
+       "y": "933"
+      },
+      {
+       "x": "335",
+       "y": "927"
+      },
+      {
+       "x": "321",
+       "y": "918"
+      },
+      {
+       "x": "308",
+       "y": "908"
+      },
+      {
+       "x": "301",
+       "y": "910"
+      },
+      {
+       "x": "301",
+       "y": "928"
+      },
+      {
+       "x": "298",
+       "y": "947"
+      },
+      {
+       "x": "301",
+       "y": "959"
+      },
+      {
+       "x": "298",
+       "y": "979"
+      },
+      {
+       "x": "294",
+       "y": "1001"
+      },
+      {
+       "x": "292",
+       "y": "1034"
+      },
+      {
+       "x": "299",
+       "y": "1046"
+      },
+      {
+       "x": "311",
+       "y": "1058"
+      },
+      {
+       "x": "326",
+       "y": "1056"
+      },
+      {
+       "x": "328",
+       "y": "1049"
+      },
+      {
+       "x": "335",
+       "y": "1037"
+      },
+      {
+       "x": "354",
+       "y": "1037"
+      },
+      {
+       "x": "366",
+       "y": "1041"
+      },
+      {
+       "x": "381",
+       "y": "1066"
+      },
+      {
+       "x": "396",
+       "y": "1081"
+      },
+      {
+       "x": "408",
+       "y": "1081"
+      },
+      {
+       "x": "415",
+       "y": "1063"
+      },
+      {
+       "x": "415",
+       "y": "1059"
+      },
+      {
+       "x": "432",
+       "y": "1064"
+      },
+      {
+       "x": "454",
+       "y": "1064"
+      },
+      {
+       "x": "466",
+       "y": "1061"
+      },
+      {
+       "x": "462",
+       "y": "1047"
+      },
+      {
+       "x": "462",
+       "y": "1034"
+      },
+      {
+       "x": "457",
+       "y": "1018"
+      },
+      {
+       "x": "457",
+       "y": "1000"
+      },
+      {
+       "x": "456",
+       "y": "986"
+      }
+     ]
+    },
+    "area": 20447.0,
+    "color": "brown",
+    "location": "",
+    "size": "small",
+    "remains": "room, smooth"
+   },
+   {
     "name": "ceiling",
     "deleted": "0",
     "verified": "0",
@@ -1390,6 +2413,53 @@
     "location": "above",
     "size": "",
     "remains": "wood, patterned, dark"
+   },
+   {
+    "name": "window",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "at top most left corner",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 10:11:56",
+    "id": "22",
+    "polygon": {
+     "username": "parulsharmab91@gmail.com",
+     "pt": [
+      {
+       "x": "60",
+       "y": "34"
+      },
+      {
+       "x": "45",
+       "y": "485"
+      },
+      {
+       "x": "90",
+       "y": "479"
+      },
+      {
+       "x": "105",
+       "y": "32"
+      },
+      {
+       "x": "83",
+       "y": "30"
+      },
+      {
+       "x": "66",
+       "y": "107"
+      }
+     ]
+    },
+    "area": 19360.5,
+    "color": "",
+    "location": "at top most left corner",
+    "size": "",
+    "remains": ""
    },
    {
     "name": "dog",
@@ -1880,6 +2950,155 @@
     "remains": "woman_s belly, pregnant, baby bump, intimate, with child"
    },
    {
+    "name": "floor",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "wood, brown, middle ages",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 18:09:14",
+    "id": "77",
+    "polygon": {
+     "username": "AOV97Z3YMKLAQ",
+     "pt": [
+      {
+       "x": "97",
+       "y": "1087"
+      },
+      {
+       "x": "277",
+       "y": "1093"
+      },
+      {
+       "x": "282",
+       "y": "1021"
+      },
+      {
+       "x": "144",
+       "y": "993"
+      },
+      {
+       "x": "133",
+       "y": "1003"
+      }
+     ]
+    },
+    "area": 13921.0,
+    "color": "brown",
+    "location": "middle ages",
+    "size": "",
+    "remains": "wood"
+   },
+   {
+    "name": "mirror",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "ornate, relfecting, gold",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 09:51:50",
+    "id": "13",
+    "polygon": {
+     "username": "A1CJ8CLM7987EQ",
+     "pt": [
+      {
+       "x": "457",
+       "y": "281"
+      },
+      {
+       "x": "475",
+       "y": "346"
+      },
+      {
+       "x": "451",
+       "y": "382"
+      },
+      {
+       "x": "393",
+       "y": "391"
+      },
+      {
+       "x": "358",
+       "y": "376"
+      },
+      {
+       "x": "343",
+       "y": "335"
+      },
+      {
+       "x": "351",
+       "y": "298"
+      },
+      {
+       "x": "371",
+       "y": "273"
+      },
+      {
+       "x": "413",
+       "y": "259"
+      },
+      {
+       "x": "460",
+       "y": "259"
+      }
+     ]
+    },
+    "area": 13488.0,
+    "color": "",
+    "location": "",
+    "size": "",
+    "remains": "ornate, relfecting, gold"
+   },
+   {
+    "name": "shoes",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "wooden, clogs, sandles",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 09:52:03",
+    "id": "14",
+    "polygon": {
+     "username": "A1CJ8CLM7987EQ",
+     "pt": [
+      {
+       "x": "133",
+       "y": "973"
+      },
+      {
+       "x": "91",
+       "y": "1061"
+      },
+      {
+       "x": "15",
+       "y": "1082"
+      },
+      {
+       "x": "3",
+       "y": "942"
+      },
+      {
+       "x": "97",
+       "y": "951"
+      }
+     ]
+    },
+    "area": 12689.0,
+    "color": "",
+    "location": "",
+    "size": "",
+    "remains": "wooden, clogs, sandles"
+   },
+   {
     "name": "hat",
     "deleted": "0",
     "verified": "0",
@@ -2357,6 +3576,57 @@
     "remains": "women_s sleeve, fur, long, hanging, dirty"
    },
    {
+    "name": "slippers",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "they are on the left bottom ,white in colour,normal sized",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 10:02:04",
+    "id": "20",
+    "polygon": {
+     "username": "parulsharmab91@gmail.com",
+     "pt": [
+      {
+       "x": "127",
+       "y": "974"
+      },
+      {
+       "x": "88",
+       "y": "1056"
+      },
+      {
+       "x": "21",
+       "y": "1074"
+      },
+      {
+       "x": "9",
+       "y": "955"
+      },
+      {
+       "x": "91",
+       "y": "959"
+      },
+      {
+       "x": "119",
+       "y": "975"
+      },
+      {
+       "x": "75",
+       "y": "992"
+      }
+     ]
+    },
+    "area": 9722.0,
+    "color": "white in colour",
+    "location": "they are on the left bottom",
+    "size": "normal sized",
+    "remains": ""
+   },
+   {
     "name": "veil",
     "deleted": "0",
     "verified": "0",
@@ -2668,6 +3938,77 @@
     "remains": "heavy, sturdy"
    },
    {
+    "name": "chandeliar",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "fancy, light, expensive, hanging, bright",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 11:22:32",
+    "id": "27",
+    "polygon": {
+     "username": "A3TAM79PCXOLXI",
+     "pt": [
+      {
+       "x": "400",
+       "y": "25"
+      },
+      {
+       "x": "402",
+       "y": "123"
+      },
+      {
+       "x": "389",
+       "y": "150"
+      },
+      {
+       "x": "370",
+       "y": "120"
+      },
+      {
+       "x": "339",
+       "y": "106"
+      },
+      {
+       "x": "339",
+       "y": "62"
+      },
+      {
+       "x": "329",
+       "y": "108"
+      },
+      {
+       "x": "329",
+       "y": "141"
+      },
+      {
+       "x": "315",
+       "y": "122"
+      },
+      {
+       "x": "310",
+       "y": "142"
+      },
+      {
+       "x": "386",
+       "y": "203"
+      },
+      {
+       "x": "429",
+       "y": "198"
+      }
+     ]
+    },
+    "area": 7452.5,
+    "color": "",
+    "location": "bright",
+    "size": "",
+    "remains": "fancy, light, expensive, hanging"
+   },
+   {
     "name": "shutter",
     "deleted": "0",
     "verified": "0",
@@ -2942,6 +4283,45 @@
     "remains": "rug, patterned, hidden"
    },
    {
+    "name": "dress",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "green dress, velvet, women,",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 14:01:54",
+    "id": "51",
+    "polygon": {
+     "username": "A16HYGH5YO5EAF",
+     "pt": [
+      {
+       "x": "524",
+       "y": "598"
+      },
+      {
+       "x": "571",
+       "y": "606"
+      },
+      {
+       "x": "568",
+       "y": "693"
+      },
+      {
+       "x": "517",
+       "y": "683"
+      }
+     ]
+    },
+    "area": 4259.0,
+    "color": "green dress",
+    "location": "",
+    "size": "",
+    "remains": "velvet, women, "
+   },
+   {
     "name": "wall",
     "deleted": "0",
     "verified": "0",
@@ -3208,6 +4588,57 @@
     "remains": "heat, measurement, temperature"
    },
    {
+    "name": "hand",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "man_s hand, right hand, white, graceful, up",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 16:57:54",
+    "id": "62",
+    "polygon": {
+     "username": "A3NTSR7Z32TDOE",
+     "pt": [
+      {
+       "x": "180",
+       "y": "397"
+      },
+      {
+       "x": "193",
+       "y": "343"
+      },
+      {
+       "x": "211",
+       "y": "320"
+      },
+      {
+       "x": "216",
+       "y": "319"
+      },
+      {
+       "x": "215",
+       "y": "337"
+      },
+      {
+       "x": "223",
+       "y": "349"
+      },
+      {
+       "x": "200",
+       "y": "410"
+      }
+     ]
+    },
+    "area": 2008.0,
+    "color": "white",
+    "location": "right hand, up",
+    "size": "",
+    "remains": "man_s hand, graceful"
+   },
+   {
     "name": "neck",
     "deleted": "0",
     "verified": "0",
@@ -3332,6 +4763,45 @@
     "location": "center of the screen",
     "size": "small",
     "remains": ""
+   },
+   {
+    "name": "hand",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "pale, long, hand",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 12:29:13",
+    "id": "39",
+    "polygon": {
+     "username": "A2J2LFWPZV9ICB",
+     "pt": [
+      {
+       "x": "603",
+       "y": "410"
+      },
+      {
+       "x": "557",
+       "y": "388"
+      },
+      {
+       "x": "539",
+       "y": "433"
+      },
+      {
+       "x": "591",
+       "y": "433"
+      }
+     ]
+    },
+    "area": 1831.0,
+    "color": "",
+    "location": "",
+    "size": "",
+    "remains": "pale, long, hand"
    },
    {
     "name": "hand",
@@ -3655,6 +5125,45 @@
     "location": "support",
     "size": "",
     "remains": "gathered, holding dress, tight"
+   },
+   {
+    "name": "scarf",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "white scarf, women, head",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 14:04:16",
+    "id": "53",
+    "polygon": {
+     "username": "A16HYGH5YO5EAF",
+     "pt": [
+      {
+       "x": "646",
+       "y": "279"
+      },
+      {
+       "x": "680",
+       "y": "280"
+      },
+      {
+       "x": "680",
+       "y": "308"
+      },
+      {
+       "x": "649",
+       "y": "307"
+      }
+     ]
+    },
+    "area": 908.5,
+    "color": "white scarf",
+    "location": "",
+    "size": "",
+    "remains": "women, head"
    },
    {
     "name": "forehead",
@@ -4394,6 +5903,45 @@
     "remains": "taste, eat, tongue"
    },
    {
+    "name": "eye",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "black, see, round",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 09:22:39",
+    "id": "6",
+    "polygon": {
+     "username": "A2HC04434S9TP0",
+     "pt": [
+      {
+       "x": "421",
+       "y": "954"
+      },
+      {
+       "x": "408",
+       "y": "954"
+      },
+      {
+       "x": "413",
+       "y": "963"
+      },
+      {
+       "x": "422",
+       "y": "963"
+      }
+     ]
+    },
+    "area": 99.0,
+    "color": "black",
+    "location": "",
+    "size": "",
+    "remains": "see, round"
+   },
+   {
     "name": "right eye",
     "deleted": "0",
     "verified": "0",
@@ -4509,6 +6057,131 @@
     "location": "",
     "size": "",
     "remains": "olfactory, circle, standing"
+   },
+   {
+    "name": "dress",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "black",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 13:09:44",
+    "id": "43",
+    "polygon": {
+     "username": "A2NVNFIOKLEEGY",
+     "pt": {
+      "x": "233",
+      "y": "485"
+     }
+    },
+    "area": 0,
+    "color": "black",
+    "location": "",
+    "size": "",
+    "remains": ""
+   },
+   {
+    "name": "room",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "brown",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 13:10:06",
+    "id": "44",
+    "polygon": {
+     "username": "A2NVNFIOKLEEGY",
+     "pt": {
+      "x": "681",
+      "y": "144"
+     }
+    },
+    "area": 0,
+    "color": "brown",
+    "location": "",
+    "size": "",
+    "remains": ""
+   },
+   {
+    "name": "cap",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "black",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 13:10:43",
+    "id": "45",
+    "polygon": {
+     "username": "A2NVNFIOKLEEGY",
+     "pt": {
+      "x": "231",
+      "y": "157"
+     }
+    },
+    "area": 0,
+    "color": "black",
+    "location": "",
+    "size": "",
+    "remains": ""
+   },
+   {
+    "name": "window",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "white",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 13:11:04",
+    "id": "46",
+    "polygon": {
+     "username": "A2NVNFIOKLEEGY",
+     "pt": {
+      "x": "82",
+      "y": "239"
+     }
+    },
+    "area": 0,
+    "color": "white",
+    "location": "",
+    "size": "",
+    "remains": ""
+   },
+   {
+    "name": "dog",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "black",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 13:11:24",
+    "id": "47",
+    "polygon": {
+     "username": "A2NVNFIOKLEEGY",
+     "pt": {
+      "x": "349",
+      "y": "979"
+     }
+    },
+    "area": 0,
+    "color": "black",
+    "location": "",
+    "size": "",
+    "remains": ""
    }
   ],
   "imagesize": {

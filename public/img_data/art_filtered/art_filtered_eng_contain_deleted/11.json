@@ -8,6 +8,129 @@
   },
   "object": [
    {
+    "name": "tree",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "polygon",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 13:10:04",
+    "id": "54",
+    "polygon": {
+     "username": "lpriyamvada@gmail.com",
+     "pt": [
+      {
+       "x": "420",
+       "y": "496"
+      },
+      {
+       "x": "2638",
+       "y": "1183"
+      },
+      {
+       "x": "1013",
+       "y": "1849"
+      },
+      {
+       "x": "636",
+       "y": "1548"
+      },
+      {
+       "x": "683",
+       "y": "594"
+      },
+      {
+       "x": "123",
+       "y": "2231"
+      },
+      {
+       "x": "1009",
+       "y": "1857"
+      },
+      {
+       "x": "2184",
+       "y": "2765"
+      },
+      {
+       "x": "178",
+       "y": "2264"
+      },
+      {
+       "x": "305",
+       "y": "3214"
+      },
+      {
+       "x": "161",
+       "y": "3130"
+      },
+      {
+       "x": "449",
+       "y": "3070"
+      },
+      {
+       "x": "437",
+       "y": "2158"
+      },
+      {
+       "x": "110",
+       "y": "2239"
+      },
+      {
+       "x": "161",
+       "y": "3113"
+      },
+      {
+       "x": "653",
+       "y": "1565"
+      },
+      {
+       "x": "2192",
+       "y": "2811"
+      },
+      {
+       "x": "331",
+       "y": "3214"
+      },
+      {
+       "x": "2650",
+       "y": "1204"
+      },
+      {
+       "x": "2218",
+       "y": "2744"
+      },
+      {
+       "x": "1022",
+       "y": "903"
+      },
+      {
+       "x": "683",
+       "y": "1009"
+      },
+      {
+       "x": "670",
+       "y": "1569"
+      },
+      {
+       "x": "1505",
+       "y": "1628"
+      },
+      {
+       "x": "2074",
+       "y": "1001"
+      }
+     ]
+    },
+    "area": 825388.5,
+    "color": "",
+    "location": "",
+    "size": "",
+    "remains": "polygon"
+   },
+   {
     "name": "street",
     "deleted": "0",
     "verified": "0",
@@ -126,6 +249,120 @@
     "remains": "silver, arch"
    },
    {
+    "name": "window",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "yellow",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 12:31:05",
+    "id": "43",
+    "polygon": {
+     "username": "A2NVNFIOKLEEGY",
+     "pt": [
+      {
+       "x": "697",
+       "y": "571"
+      },
+      {
+       "x": "2642",
+       "y": "1184"
+      },
+      {
+       "x": "85",
+       "y": "2226"
+      },
+      {
+       "x": "2212",
+       "y": "2797"
+      },
+      {
+       "x": "641",
+       "y": "1557"
+      }
+     ]
+    },
+    "area": 671470.0,
+    "color": "yellow",
+    "location": "",
+    "size": "",
+    "remains": ""
+   },
+   {
+    "name": "road",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "walk way in between two buildings and have the people",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 14:07:52",
+    "id": "65",
+    "polygon": {
+     "username": "A3O9QZA6B3CY7U",
+     "pt": [
+      {
+       "x": "2851",
+       "y": "3105"
+      },
+      {
+       "x": "2517",
+       "y": "2874"
+      },
+      {
+       "x": "2318",
+       "y": "2693"
+      },
+      {
+       "x": "2160",
+       "y": "2467"
+      },
+      {
+       "x": "1902",
+       "y": "2278"
+      },
+      {
+       "x": "1627",
+       "y": "2137"
+      },
+      {
+       "x": "1618",
+       "y": "2038"
+      },
+      {
+       "x": "2011",
+       "y": "1857"
+      },
+      {
+       "x": "2259",
+       "y": "1948"
+      },
+      {
+       "x": "2598",
+       "y": "2287"
+      },
+      {
+       "x": "2770",
+       "y": "2422"
+      },
+      {
+       "x": "2856",
+       "y": "2513"
+      }
+     ]
+    },
+    "area": 639850.5,
+    "color": "",
+    "location": "",
+    "size": "",
+    "remains": "walk way in between two buildings and have the people"
+   },
+   {
     "name": "awning",
     "deleted": "0",
     "verified": "0",
@@ -174,6 +411,189 @@
     "color": "yellow",
     "location": "above patio seating, left side middle",
     "size": "",
+    "remains": ""
+   },
+   {
+    "name": "tree",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "right side, large, green",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 09:24:24",
+    "id": "1",
+    "polygon": {
+     "username": "A1Q995BGGPBDMB",
+     "pt": [
+      {
+       "x": "2877",
+       "y": "244"
+      },
+      {
+       "x": "2775",
+       "y": "347"
+      },
+      {
+       "x": "2720",
+       "y": "339"
+      },
+      {
+       "x": "2665",
+       "y": "402"
+      },
+      {
+       "x": "2601",
+       "y": "497"
+      },
+      {
+       "x": "2554",
+       "y": "583"
+      },
+      {
+       "x": "2428",
+       "y": "646"
+      },
+      {
+       "x": "2365",
+       "y": "717"
+      },
+      {
+       "x": "2397",
+       "y": "765"
+      },
+      {
+       "x": "2436",
+       "y": "820"
+      },
+      {
+       "x": "2357",
+       "y": "875"
+      },
+      {
+       "x": "2349",
+       "y": "914"
+      },
+      {
+       "x": "2215",
+       "y": "1025"
+      },
+      {
+       "x": "2215",
+       "y": "1025"
+      },
+      {
+       "x": "2270",
+       "y": "1033"
+      },
+      {
+       "x": "2207",
+       "y": "1096"
+      },
+      {
+       "x": "2144",
+       "y": "1119"
+      },
+      {
+       "x": "2239",
+       "y": "1119"
+      },
+      {
+       "x": "2128",
+       "y": "1175"
+      },
+      {
+       "x": "2294",
+       "y": "1159"
+      },
+      {
+       "x": "2239",
+       "y": "1230"
+      },
+      {
+       "x": "2318",
+       "y": "1198"
+      },
+      {
+       "x": "2302",
+       "y": "1261"
+      },
+      {
+       "x": "2404",
+       "y": "1253"
+      },
+      {
+       "x": "2357",
+       "y": "1309"
+      },
+      {
+       "x": "2452",
+       "y": "1238"
+      },
+      {
+       "x": "2436",
+       "y": "1332"
+      },
+      {
+       "x": "2554",
+       "y": "1293"
+      },
+      {
+       "x": "2381",
+       "y": "1356"
+      },
+      {
+       "x": "2467",
+       "y": "1435"
+      },
+      {
+       "x": "2601",
+       "y": "1332"
+      },
+      {
+       "x": "2633",
+       "y": "1419"
+      },
+      {
+       "x": "2665",
+       "y": "1340"
+      },
+      {
+       "x": "2735",
+       "y": "1458"
+      },
+      {
+       "x": "2822",
+       "y": "1364"
+      },
+      {
+       "x": "2862",
+       "y": "1435"
+      },
+      {
+       "x": "2822",
+       "y": "2239"
+      },
+      {
+       "x": "2791",
+       "y": "2326"
+      },
+      {
+       "x": "2822",
+       "y": "2349"
+      },
+      {
+       "x": "2877",
+       "y": "2373"
+      }
+     ]
+    },
+    "area": 532185.5,
+    "color": "green",
+    "location": "right side",
+    "size": "large",
     "remains": ""
    },
    {
@@ -353,6 +773,73 @@
     "location": "",
     "size": "",
     "remains": "cobblestone, round, bumpy, old"
+   },
+   {
+    "name": "window",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "2windows",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 13:10:54",
+    "id": "55",
+    "polygon": {
+     "username": "lpriyamvada@gmail.com",
+     "pt": [
+      {
+       "x": "539",
+       "y": "157"
+      },
+      {
+       "x": "140",
+       "y": "157"
+      },
+      {
+       "x": "170",
+       "y": "543"
+      },
+      {
+       "x": "645",
+       "y": "577"
+      },
+      {
+       "x": "568",
+       "y": "237"
+      },
+      {
+       "x": "556",
+       "y": "195"
+      },
+      {
+       "x": "505",
+       "y": "823"
+      },
+      {
+       "x": "182",
+       "y": "823"
+      },
+      {
+       "x": "174",
+       "y": "577"
+      },
+      {
+       "x": "2116",
+       "y": "157"
+      },
+      {
+       "x": "2082",
+       "y": "984"
+      }
+     ]
+    },
+    "area": 304426.5,
+    "color": "",
+    "location": "",
+    "size": "",
+    "remains": "2windows"
    },
    {
     "name": "small building",
@@ -931,6 +1418,69 @@
     "remains": "shop window, distant, dark"
    },
    {
+    "name": "table",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "round, middle, white",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 09:25:42",
+    "id": "3",
+    "polygon": {
+     "username": "A1Q995BGGPBDMB",
+     "pt": [
+      {
+       "x": "1175",
+       "y": "2633"
+      },
+      {
+       "x": "1261",
+       "y": "2822"
+      },
+      {
+       "x": "1206",
+       "y": "2917"
+      },
+      {
+       "x": "1419",
+       "y": "2925"
+      },
+      {
+       "x": "1443",
+       "y": "2885"
+      },
+      {
+       "x": "1340",
+       "y": "2806"
+      },
+      {
+       "x": "1419",
+       "y": "2688"
+      },
+      {
+       "x": "1458",
+       "y": "2617"
+      },
+      {
+       "x": "1458",
+       "y": "2601"
+      },
+      {
+       "x": "1301",
+       "y": "2562"
+      }
+     ]
+    },
+    "area": 63429.0,
+    "color": "white",
+    "location": "middle",
+    "size": "",
+    "remains": "round"
+   },
+   {
     "name": "chair",
     "deleted": "0",
     "verified": "0",
@@ -1055,6 +1605,100 @@
     "location": "",
     "size": "",
     "remains": "dining chair, near table"
+   },
+   {
+    "name": "character",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "man walk for the left side",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 14:08:55",
+    "id": "66",
+    "polygon": {
+     "username": "A3O9QZA6B3CY7U",
+     "pt": [
+      {
+       "x": "2210",
+       "y": "2350"
+      },
+      {
+       "x": "2119",
+       "y": "2174"
+      },
+      {
+       "x": "2110",
+       "y": "2002"
+      },
+      {
+       "x": "2092",
+       "y": "1921"
+      },
+      {
+       "x": "2119",
+       "y": "1921"
+      },
+      {
+       "x": "2192",
+       "y": "1948"
+      },
+      {
+       "x": "2282",
+       "y": "2065"
+      },
+      {
+       "x": "2296",
+       "y": "2205"
+      }
+     ]
+    },
+    "area": 52245.5,
+    "color": "",
+    "location": "man walk for the left side",
+    "size": "",
+    "remains": ""
+   },
+   {
+    "name": "door wood",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "door wood of restaurant its very hard and black color",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 15:35:14",
+    "id": "78",
+    "polygon": {
+     "username": "A2LD0G04R6MNX7",
+     "pt": [
+      {
+       "x": "363",
+       "y": "2635"
+      },
+      {
+       "x": "433",
+       "y": "3083"
+      },
+      {
+       "x": "280",
+       "y": "3132"
+      },
+      {
+       "x": "287",
+       "y": "2712"
+      }
+     ]
+    },
+    "area": 51677.5,
+    "color": "door wood of restaurant its very hard and black color",
+    "location": "",
+    "size": "",
+    "remains": ""
    },
    {
     "name": "door",
@@ -1203,6 +1847,61 @@
     "remains": "4x4, door"
    },
    {
+    "name": "people",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "man walk to the right side",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 14:09:59",
+    "id": "68",
+    "polygon": {
+     "username": "A3O9QZA6B3CY7U",
+     "pt": [
+      {
+       "x": "1744",
+       "y": "2137"
+      },
+      {
+       "x": "1744",
+       "y": "2259"
+      },
+      {
+       "x": "1762",
+       "y": "2318"
+      },
+      {
+       "x": "1826",
+       "y": "2381"
+      },
+      {
+       "x": "1966",
+       "y": "2318"
+      },
+      {
+       "x": "1921",
+       "y": "2174"
+      },
+      {
+       "x": "1853",
+       "y": "2024"
+      },
+      {
+       "x": "1758",
+       "y": "2106"
+      }
+     ]
+    },
+    "area": 50813.0,
+    "color": "",
+    "location": "man walk to the right side",
+    "size": "",
+    "remains": ""
+   },
+   {
     "name": "table",
     "deleted": "0",
     "verified": "0",
@@ -1308,6 +2007,53 @@
     "location": "",
     "size": "",
     "remains": "restaurant, dining table"
+   },
+   {
+    "name": "lady",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "follow to the man",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 14:09:18",
+    "id": "67",
+    "polygon": {
+     "username": "A3O9QZA6B3CY7U",
+     "pt": [
+      {
+       "x": "2115",
+       "y": "2327"
+      },
+      {
+       "x": "1997",
+       "y": "2205"
+      },
+      {
+       "x": "1993",
+       "y": "1997"
+      },
+      {
+       "x": "1993",
+       "y": "1839"
+      },
+      {
+       "x": "2052",
+       "y": "1839"
+      },
+      {
+       "x": "2101",
+       "y": "1993"
+      }
+     ]
+    },
+    "area": 43167.0,
+    "color": "",
+    "location": "",
+    "size": "",
+    "remains": "follow to the man"
    },
    {
     "name": "blind",
@@ -2984,6 +3730,45 @@
     "remains": "four-legs"
    },
    {
+    "name": "star",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "sky, yellow, bright, high",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 10:28:38",
+    "id": "22",
+    "polygon": {
+     "username": "A3TAM79PCXOLXI",
+     "pt": [
+      {
+       "x": "2048",
+       "y": "83"
+      },
+      {
+       "x": "1996",
+       "y": "134"
+      },
+      {
+       "x": "2100",
+       "y": "228"
+      },
+      {
+       "x": "2136",
+       "y": "181"
+      }
+     ]
+    },
+    "area": 8928.0,
+    "color": "yellow",
+    "location": "bright",
+    "size": "",
+    "remains": "sky, high"
+   },
+   {
     "name": "window",
     "deleted": "0",
     "verified": "0",
@@ -3436,6 +4221,406 @@
     "location": "",
     "size": "",
     "remains": "distant, faint, night"
+   },
+   {
+    "name": "point",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "house,blue,rectangle,door",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 10:03:13",
+    "id": "15",
+    "polygon": {
+     "username": "WorkerIDAXPUKBI6UNZY",
+     "pt": {
+      "x": "137",
+      "y": "3057"
+     }
+    },
+    "area": 0,
+    "color": "blue",
+    "location": "",
+    "size": "",
+    "remains": "house, rectangle, door"
+   },
+   {
+    "name": "window",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "house,squre,yellow",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 10:14:30",
+    "id": "18",
+    "polygon": {
+     "username": "WorkerIDAXPUKBI6UNZY",
+     "pt": {
+      "x": "1082",
+      "y": "626"
+     }
+    },
+    "area": 0,
+    "color": "yellow",
+    "location": "",
+    "size": "",
+    "remains": "house, squre"
+   },
+   {
+    "name": "point",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "street",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 12:31:42",
+    "id": "44",
+    "polygon": {
+     "username": "A2NVNFIOKLEEGY",
+     "pt": {
+      "x": "70",
+      "y": "2254"
+     }
+    },
+    "area": 0,
+    "color": "",
+    "location": "",
+    "size": "",
+    "remains": "street"
+   },
+   {
+    "name": "tree",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "green",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 12:32:43",
+    "id": "45",
+    "polygon": {
+     "username": "A2NVNFIOKLEEGY",
+     "pt": {
+      "x": "2466",
+      "y": "986"
+     }
+    },
+    "area": 0,
+    "color": "green",
+    "location": "",
+    "size": "",
+    "remains": ""
+   },
+   {
+    "name": "door",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "brown",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 12:33:14",
+    "id": "46",
+    "polygon": {
+     "username": "A2NVNFIOKLEEGY",
+     "pt": {
+      "x": "2677",
+      "y": "1959"
+     }
+    },
+    "area": 0,
+    "color": "brown",
+    "location": "",
+    "size": "",
+    "remains": ""
+   },
+   {
+    "name": "road",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "black",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 12:33:33",
+    "id": "47",
+    "polygon": {
+     "username": "A2NVNFIOKLEEGY",
+     "pt": {
+      "x": "2205",
+      "y": "2839"
+     }
+    },
+    "area": 0,
+    "color": "black",
+    "location": "",
+    "size": "",
+    "remains": ""
+   },
+   {
+    "name": "tabel",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "yellow",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 12:33:57",
+    "id": "48",
+    "polygon": {
+     "username": "A2NVNFIOKLEEGY",
+     "pt": {
+      "x": "1310",
+      "y": "2635"
+     }
+    },
+    "area": 0,
+    "color": "yellow",
+    "location": "",
+    "size": "",
+    "remains": ""
+   },
+   {
+    "name": "tree",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "long and green",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 12:53:46",
+    "id": "49",
+    "polygon": {
+     "username": "A267H808C339ZQ",
+     "pt": {
+      "x": "2620",
+      "y": "688"
+     }
+    },
+    "area": 0,
+    "color": "long and green",
+    "location": "",
+    "size": "",
+    "remains": ""
+   },
+   {
+    "name": "table",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "rectangle",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 12:54:31",
+    "id": "50",
+    "polygon": {
+     "username": "A267H808C339ZQ",
+     "pt": {
+      "x": "1051",
+      "y": "2520"
+     }
+    },
+    "area": 0,
+    "color": "",
+    "location": "",
+    "size": "",
+    "remains": "rectangle"
+   },
+   {
+    "name": "wall",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "located in house",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 12:54:47",
+    "id": "51",
+    "polygon": {
+     "username": "A267H808C339ZQ",
+     "pt": {
+      "x": "1136",
+      "y": "1407"
+     }
+    },
+    "area": 0,
+    "color": "",
+    "location": "",
+    "size": "",
+    "remains": "located in house"
+   },
+   {
+    "name": "window",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "placed in wall",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 12:55:20",
+    "id": "52",
+    "polygon": {
+     "username": "A267H808C339ZQ",
+     "pt": {
+      "x": "2373",
+      "y": "1577"
+     }
+    },
+    "area": 0,
+    "color": "",
+    "location": "",
+    "size": "",
+    "remains": "placed in wall"
+   },
+   {
+    "name": "door",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "entrance in house",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 12:56:00",
+    "id": "53",
+    "polygon": {
+     "username": "A267H808C339ZQ",
+     "pt": {
+      "x": "193",
+      "y": "1747"
+     }
+    },
+    "area": 0,
+    "color": "",
+    "location": "",
+    "size": "",
+    "remains": "entrance in house"
+   },
+   {
+    "name": "door",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "closeddoor",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 13:11:19",
+    "id": "56",
+    "polygon": {
+     "username": "lpriyamvada@gmail.com",
+     "pt": {
+      "x": "153",
+      "y": "1293"
+     }
+    },
+    "area": 0,
+    "color": "",
+    "location": "",
+    "size": "",
+    "remains": "closeddoor"
+   },
+   {
+    "name": "ground",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 13:11:54",
+    "id": "57",
+    "polygon": {
+     "username": "lpriyamvada@gmail.com",
+     "pt": {
+      "x": "1896",
+      "y": "3185"
+     }
+    },
+    "area": 0,
+    "color": "",
+    "location": "",
+    "size": "",
+    "remains": ""
+   },
+   {
+    "name": "desk",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "chest",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 13:12:18",
+    "id": "58",
+    "polygon": {
+     "username": "lpriyamvada@gmail.com",
+     "pt": {
+      "x": "2493",
+      "y": "2031"
+     }
+    },
+    "area": 0,
+    "color": "",
+    "location": "",
+    "size": "",
+    "remains": "chest"
+   },
+   {
+    "name": "tree",
+    "deleted": "1",
+    "verified": "0",
+    "occluded": null,
+    "attributes": "sr right side mid tree has green colur leaves and brown stream",
+    "parts": {
+     "hasparts": null,
+     "ispartof": null
+    },
+    "date": "25-Jul-2019 14:04:39",
+    "id": "64",
+    "polygon": {
+     "username": "A3O9QZA6B3CY7U",
+     "pt": {
+      "x": "2639",
+      "y": "1170"
+     }
+    },
+    "area": 0,
+    "color": "sr right side mid tree has green colur leaves and brown stream",
+    "location": "",
+    "size": "",
+    "remains": ""
    }
   ],
   "imagesize": {

@@ -162,18 +162,18 @@ function draw_polygon(seg_mode){
     .append("svg:title")
     .text(function(d) {
 
-        if(d.category == "배경"){
+        if(d.category == "background"){
             if(d.objects_color == undefined && d.object_position == undefined)
-                return d.category + ".." + "그림의 배경입니다";
+                return d.category + ".." + "";
             else
-                return d.category + ".." + d.object_description +" . 색깔은 "+ d.object_color +"이며, 그림의  "+ d.object_position +"에 위치해 있습니다.";
+                return d.category + ".." + d.object_description +" . painted "+ d.object_color +", located at "+ d.object_position +" side of the painting";
             }
 
         else{
             if(d.duplicates_num != 1)
-                return d.category + String(d.duplicates_num) + ".." + d.object_description +" . 색깔은 "+ d.object_color +"이며, 그림의  "+ d.object_position +"에 위치해 있습니다.";
+                return d.category + ".." + d.object_description +" . painted "+ d.object_color +", located at "+ d.object_position +" side of the painting";
             else
-                return d.category + ".." + d.object_description +" . 색깔은 "+ d.object_color +"이며, 그림의  "+ d.object_position +"에 위치해 있습니다.";
+                return d.category + ".." + d.object_description +" . painted "+ d.object_color +", located at "+ d.object_position +" side of the painting";
             }
      });
 }
@@ -217,18 +217,18 @@ function draw_polygon_by_button(seg_mode, cat){
     .append("svg:title")
     .text(function(d) {
 
-        if(d.category == "배경"){
+        if(d.category == "background"){
             if(d.objects_color == undefined && d.object_position == undefined)
-                return d.category + ".." + "그림의 배경입니다";
+                return d.category + "..";
             else
-                return d.category + ".." + d.object_description +" . 색깔은 "+ d.object_color +"이며, 그림의  "+ d.object_position +"에 위치해 있습니다.";
+                return d.category + ".." + d.object_description +" . painted "+ d.object_color +", located at "+ d.object_position +" side of the painting";
             }
 
         else{
             if(d.duplicates_num != 1)
-                return d.category + String(d.duplicates_num) + ".." + d.object_description +" . 색깔은 "+ d.object_color +"이며, 그림의  "+ d.object_position +"에 위치해 있습니다.";
+                return d.category  + ".." + d.object_description +" . painted "+ d.object_color +", located at "+ d.object_position +" side of the painting";
             else
-                return d.category + ".." + d.object_description +" . 색깔은 "+ d.object_color +"이며, 그림의  "+ d.object_position +"에 위치해 있습니다.";
+                return d.category + ".." + d.object_description +" .  painted "+ d.object_color +", located at "+ d.object_position +" side of the painting";
             }
             });
 }
