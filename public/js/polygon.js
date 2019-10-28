@@ -297,6 +297,17 @@ var svg = d3.select(".image").append("svg")
         }
     }});
 
+ function change_mode(){
+    if(mode == "m"){
+            mode = "p";
+            draw_polygon(mode);
+        }
+        else{
+            mode = "m";
+            draw_polygon(mode);
+        }
+ }
+
 
  if(attr_sound == "po"){
     var mode = "p";
