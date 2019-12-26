@@ -7,6 +7,7 @@ var attr_exp = url.searchParams.get("exp");
 var attr_color = url.searchParams.get("color");
 var attr_loc = url.searchParams.get("loc");
 var attr_size = url.searchParams.get("size");
+var attr_sound = url.searchParams.get("sound");
 
 /*
 var mode = url.searchParams.get("mode");
@@ -68,25 +69,25 @@ if(img_id == "1"){
     var opt = 1;
 }
 else if(img_id == "2"){
-    var opt = 0.09;
+    var opt = 0.085;
 }
 else if(img_id == "4"){
-    var opt = 0.1;
+    var opt = 0.098;
 }
 else if(img_id == "5"){
-    var opt = 0.8;
+    var opt = 0.75;
 }
 else if(img_id == "9"){
     var opt = 0.22;
 }
 else if(img_id == "11"){
-    var opt = 0.35;
+    var opt = 0.33;
 }
 else if(img_id == "17"){
-    var opt = 1.1;
+    var opt = 1.09;
 }
 else if(img_id == "18"){
-    var opt = 1.3;
+    var opt = 1.28;
 }
 else if(img_id == "grande"){
     var opt = 0.07;

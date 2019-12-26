@@ -1,7 +1,12 @@
-from nltk.corpus import wordnet as wn
+import json
+import numpy as np
+from matplotlib.patches import Polygon
+from shapely.geometry import Polygon
 
-words = ['nucleus']
+from numpy import *
+import xmltodict
 
-for w in words:
-    tmp = wn.synsets(w)[0].pos()
-    print(w, ":", tmp)
+import pandas as pd
+import pprint
+import json
+

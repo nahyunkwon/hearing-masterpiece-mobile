@@ -14,40 +14,40 @@
  	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
  	<script src="js/d3.button.js"></script>
 
- 	<title>AccessART: Digital Art Museum</title>
+ 	<title>AccessArt: Digital Art Museum</title>
 
  </head>
  <body>
- <script>
-	 function get_option(option){
-	 	if (option == "color"){
-	 		if(document.getElementById('color').innerHTML == "Color: ON")
-	 			return 1;
-	 		else
-	 			return 0;
+ 	<script>
+ 		function get_option(option){
+ 			if (option == 'color'){
+ 				if(document.getElementById('color').innerHTML.split('>')[1].split('<')[0] == "Color: ON")
+ 					return 1;
+ 				else
+ 					return 0;
 
-	 	}
-	 	else if(option == "loc"){
-	 		if(document.getElementById('location').innerHTML == "Location: ON")
-	 			return 1;
-	 		else
-	 			return 0;
-	 	}
-	 	else if(option == "exp"){
-	 		if(document.getElementById('expression').innerHTML == "Expression: ON")
-	 			return 1;
-	 		else
-	 			return 0;
-	 	}
-	 	else if(option == "size"){
+ 			}
+ 			else if(option == "loc"){
+ 				if(document.getElementById('location').innerHTML.split('>')[1].split('<')[0] == "Location: ON")
+ 					return 1;
+ 				else
+ 					return 0;
+ 			}
+ 			else if(option == "exp"){
+ 				if(document.getElementById('expression').innerHTML.split('>')[1].split('<')[0] == "Expression: ON")
+ 					return 1;
+ 				else
+ 					return 0;
+ 			}
+ 			else if(option == "size"){
  				if(document.getElementById('size').innerHTML.split('>')[1].split('<')[0] == "Size: ON")
  					return 1;
  				else
  					return 0;
  			}
 
-	 }
- </script>
+ 		}
+ 	</script>
  	<!-- 스타일 지정 -->
  	<style type="text/css">
 
@@ -56,53 +56,55 @@
  			height: auto;
  		}
 
-		.thumbnail-wrapper{
-			width: 350px;
-		}
-		.card-body{
-			display: inline-block;
-			margin-left:0px;
+ 		.thumbnail-wrapper{
+ 			width: 350px;
+ 		}
+ 		.card-body{
+ 			display: inline-block;
+ 			margin-left:0px
+ 		}
+ 		.card{
+ 			width: 150%;
+ 		}
+ 		.col-md-8{
+ 			width: 150%;
+ 		}
+ 		.row no-gutters{
+ 			text-align: center;
+ 		}
+ 		.list{
+ 			width:100%
+ 		}
+ 		#select{
+ 			margin-left:30px
+ 		}
 
-		}
-		.card{
-			width: 150%;
-		}
-		.col-md-8{
-			width: 150%;
-		}
-		.row no-gutters{
-		text-align: center;
-		}
-		.list{
-			width:100%
-		}
-		#select{
-			margin-left:30px
-		}
+ 	</style>
 
- 				</style>
+ 	<!-- 네이게이션 바 -->
+ 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+ 		<a class="navbar-brand" href="index_home.html">AccessArt: Digital Art Museum</a>
+ 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+ 			<span class="navbar-toggler-icon"></span>
+ 		</button>
+ 		<div class="collapse navbar-collapse" id="navbarNav">
+ 			<ul class="navbar-nav">
+ 				<li class="nav-item active">
+ 					<a class="nav-link" href="index_home.html">Home<span class="sr-only">(current)</span></a>
+ 				</li>
+ 				<li class="nav-edit">
+ 					<a class="nav-link" href="index_edit.html">Edit Annotations</a>
+ 				</li>
+				<li class="nav-about">
+ 					<a class="nav-link" href="about.html">About</a>
+ 				</li>
+				<li class="nav-how">
+ 					<a class="nav-link" href="howtouse.html">How to Use</a>
+ 				</li>
 
- 				<!-- 네이게이션 바 -->
- 				<nav class="navbar navbar-expand-lg navbar-light bg-light">
- 					<a class="navbar-brand" href="index.html">Digital Art Museum</a>
- 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
- 						<span class="navbar-toggler-icon"></span>
- 					</button>
- 					<div class="collapse navbar-collapse" id="navbarNav">
- 						<ul class="navbar-nav">
- 							<li class="nav-item active">
- 								<a class="nav-link" href="index_home.html">Home<span class="sr-only">(current)</span></a>
- 							</li>
- 							<li class="nav-item">
- 								<a class="nav-link" href="index_home_k.html">Korean</a>
- 							</li>
-							<li class="nav-edit">
- 								<a class="nav-link" href="index_edit.html">Edit Annotations</a>
- 							</li>
-
- 						</ul>
- 					</div>
- 				</nav>
+ 			</ul>
+ 		</div>
+ 	</nav>
 
  				<!-- 검색창
  				<nav class="navbar navbar-light bg-light">
@@ -114,50 +116,50 @@
 
  				<!-- 8개의 그림 -->
  				<!-- https://mdbootstrap.com/plugins/jquery/gallery/ -->
- 					<div id="select">
-								Select descriptions
-								<div id="expression" onclick="toggle(this)"><a href="#" >Expression: ON</a></div>
-								<div id="color" onclick="toggle(this)"><a href="#" >Color: ON</a></div>
-								<div id="location" onclick="toggle(this)"><a href="#" >Location: ON</a></div>
-								<div id="size" onclick="toggle(this)"><a href="#" >Size: ON</a></div>
+ 				<div id="select">
+							Select descriptions
+							<div id="expression" onclick="toggle(this)"><a href="#" >Expression: ON</a></div>
+							<div id="color" onclick="toggle(this)"><a href="#" >Color: ON</a></div>
+							<div id="location" onclick="toggle(this)"><a href="#" >Location: ON</a></div>
+							<div id="size" onclick="toggle(this)"><a href="#" >Size: ON</a></div>
 
+ 					<script type="text/javascript">
+ 						function toggle (t) {
+								if (t.childNodes[0].innerHTML == "Color: ON") {
 
+									t.childNodes[0].innerHTML = "Color: OFF";
+								} else if(t.childNodes[0].innerHTML == "Color: OFF"){
 
-								<script type="text/javascript">
-								function toggle (t) {
-									if (t.childNodes[0].innerHTML == "Color: ON") {
-
-										t.childNodes[0].innerHTML = "Color: OFF";
-									} else if(t.childNodes[0].innerHTML == "Color: OFF"){
-
-										t.childNodes[0].innerHTML = "Color: ON";
-									}
-									if (t.childNodes[0].innerHTML == "Location: ON") {
-
-										t.childNodes[0].innerHTML = "Location: OFF";
-									} else if(t.childNodes[0].innerHTML == "Location: OFF"){
-										t.childNodes[0].innerHTML = "Location: ON";
-									}
-									if (t.childNodes[0].innerHTML == "Expression: ON") {
-
-										t.childNodes[0].innerHTML = "Expression: OFF";
-									} else if(t.childNodes[0].innerHTML == "Expression: OFF"){
-
-										t.childNodes[0].innerHTML = "Expression: ON";
-									}
-									if (t.childNodes[0].innerHTML == "Size: ON") {
-
-										t.childNodes[0].innerHTML = "Size: OFF";
-									} else if(t.childNodes[0].innerHTML == "Size: OFF"){
-
-										t.childNodes[0].innerHTML = "Size: ON";
-									}
-
+									t.childNodes[0].innerHTML = "Color: ON";
 								}
-								</script>
+								if (t.childNodes[0].innerHTML == "Location: ON") {
 
-							</div>
- 					<center>
+									t.childNodes[0].innerHTML = "Location: OFF";
+								} else if(t.childNodes[0].innerHTML == "Location: OFF"){
+									t.childNodes[0].innerHTML = "Location: ON";
+								}
+								if (t.childNodes[0].innerHTML == "Expression: ON") {
+
+									t.childNodes[0].innerHTML = "Expression: OFF";
+								} else if(t.childNodes[0].innerHTML == "Expression: OFF"){
+
+									t.childNodes[0].innerHTML = "Expression: ON";
+								}
+								if (t.childNodes[0].innerHTML == "Size: ON") {
+
+									t.childNodes[0].innerHTML = "Size: OFF";
+								} else if(t.childNodes[0].innerHTML == "Size: OFF"){
+
+									t.childNodes[0].innerHTML = "Size: ON";
+								}
+
+							}
+ 					</script>
+
+ 				</div>
+ 				<center>
+
+					Please activate VoiceOver!:)
 
  					<div class="list">
  						<div class="row">
@@ -169,254 +171,150 @@
  								<div class="row no-gutters">
  									<div class="col-md-6">
 
- 										<a href="https://m-hearing-masterpiece.web.app/?img_id=1&lan=e">
- 											<div class="thumbnail-wrapper">
- 												<img alt="picture" src="./thumbnail_image/1_MonaLisa.jpg"
+ 										<a onclick = "location.href = 'https://m-hearing-masterpiece.web.app/index.html?img_id=1&lan=e&color='+get_option('color')+'&loc='+get_option('loc')+'&exp='+get_option('exp')+'&size='+get_option('size')">
 
-													title="Mona Lisa, Vertical">
-											</div>
+ 											<div class="thumbnail-wrapper">
+ 												<h1>
+ 													<img alt="picture" src="./thumbnail_image/1_MonaLisa.jpg"
+
+ 													title="Mona Lisa, Portrait Mode, One of the most iconic and recognizable paintings in the world is the Mona Lisa painted by Leonardo da Vinci. The unique appeal of the portrait lies in its enigmatic nature, Mona Lisa’s smile radiates mystery, sensuality and contentment. This was achieved through sfumato, Leonardo’s painting technique that softened the transition between colors. This depth and complexity of expression is the reason the Mona Lisa is regarded as the pinnacle of portraiture.">
+ 												</h1>
+ 											</div>
+
  										</a>
 
  									</div>
+ 									<h8>
+ 										<div class="card-body" id="1">
 
- 									<div class="card-body" id="1" onload="metadata(1, 0);">
+ 											Title: Mona Lisa
+									<br>
+									Artist: Leonardo da Vinci
+									<br>
+									Date: 1503 - 1519
+									<br>
+									Style: High Renaissance
+									<br>
+									Genre: portrait
+									<br>
+									Medium: oil, panel, wood, poplar
+									<br>
+									Location: Louvre, Paris, France
+									<br>
+									Dimensions: 77 x 53 cm, portrait mode
 
-										Title: Mona Lisa
-										<br>
-										Artist: Leonardo da Vinci
-										<br>
-										Date: c.1503 - c.1519; Florence, Italy
-										<br>
-										Style: High Renaissance
-										<br>
-										Genre: portrait
-										<br>
-										Media: oil, panel, wood, poplar
-										<br>
-										Location: Louvre, Paris, France
-										<br>
-										Dimensions: 77 x 53 cm, Vertical
 
+ 										<!--<audio id="player" src="./sound/polly_monalisa.mp3"></audio>
+ 										<div>
+ 											<button onclick="document.getElementById('player').play()">Play</button>
+ 											<button onclick="document.getElementById('player').pause()">Pause</button>
+ 											<button onclick="document.getElementById('player').load()">Load</button>
+ 										</div>-->
+
+
+
+ 										</div>
+								</h8>
  									</div>
 
- 								</div>
  							</div>
  							<!-- 첫번쨰 그림 -->
 
- 							<!-- 두번쨰 그림 -->
+
+
+ 							<!-- 5번쨰 그림 -->
  							<div class="card">
  								<div class="row no-gutters">
  									<div class="col-md-6">
- 										<a href="https://m-hearing-masterpiece.web.app/?img_id=2&lan=e">
- 											<div class="thumbnail-wrapper">
- 												<img alt="picture" src="./thumbnail_image/2_The_Starry_Night.jpg"
+ 										<a onclick = "location.href = 'https://m-hearing-masterpiece.web.app/index.html?img_id=5&lan=e&color='+get_option('color')+'&loc='+get_option('loc')+'&exp='+get_option('exp')+'&size='+get_option('size')">
 
-												title="The Starry Night, Vertical">
+ 											<div class="thumbnail-wrapper">
+ 												<h1>
+ 													<img alt="picture" src="./thumbnail_image/5_Guernica.jpg"
+
+ 													title="Guernica, Landscape Mode, Guernica was Picasso's response to the bombing of the Basque town of the same name on April 26, 1937 during the Spanish Civil War. Picasso was commissioned by the republican government of Spain to produce a mural painting for the Spanish Pavilion at the World Fair in Paris. Painted in one month - from May to June 1937 - Guernica became the centerpiece of the Spanish pavilion and a sensation at the Fair, but it was consequently banned from exhibition in Spain until military dictator Franco fell from power in 1975.">
+ 												</h1>
  											</div>
  										</a>
  									</div>
+ 									<h8>
 
- 									<div class="card-body">
-										Title: The Starry Night
-										<br>
-										Artist: Vincent van Gogh
-										<br>
-										Date: 1889; Saint-rémy-de-provence, France
-										<br>
-										Style: Post-Impressionism
-										<br>
-										Genre: cloudscape
-										<br>
-										Media: oil, canvas
-										<br>
-										Location: Museum of Modern Art (MoMA), NY
-										<br>
-										Dimensions: 92 x 73 c, Vertical
- 									</div>
-
- 								</div>
- 							</div>
- 							<!-- 두번쨰 그림 -->
-
- 							<!-- 4번쨰 그림 -->
- 							<div class="card">
- 								<div class="row no-gutters">
- 									<div class="col-md-6">
- 										<a href="https://m-hearing-masterpiece.web.app/?img_id=4&lan=e">
- 											<div class="thumbnail-wrapper">
- 												<img alt="picture" src="./thumbnail_image/4_Girl_with_a_Pearl_Earring.jpg"
-
- 												title="Girl with a Pearl Earring, Vertical"> 											</div>
- 										</a>
- 									</div>
-
- 									<div class="card-body">
-										Title: Girl with a Pearl Earring
-										<br>
-										Artist: Johannes Vermeer<br>
-										Date: c.1665<br>
-										Style: Baroque<br>
-										Genre: portrait, tronie<br>
-										Media: oil, canvas<br>
-										Location: Mauritshuis, Hague, Netherlands<br>
-										Dimensions: 44.5 x 39 cm, Vertical<br>
- 									</div>
-
- 								</div>
- 							</div>
- 							<!-- 4번쨰 그림 -->
-
- 							<!-- 5번쨰 그림 -->
- 							<div class="card">
- 								<div class="row no-gutters">
- 									<div class="col-md-6">
- 										<a href="https://m-hearing-masterpiece.web.app/?img_id=5&lan=e">
- 											<div class="thumbnail-wrapper">
- 												<img alt="picture" src="./thumbnail_image/5_Guernica.jpg"
-
-												title="Guernica, Horizontal"> 											</div>
- 										</a>
- 									</div>
-
- 									<div class="card-body">
-										Title: Guernica<br>
-										Artist: Pablo Picasso<br>
-										Date: 1937<br>
-										Style: Cubism, Surrealism<br>
-										Genre: allegorical painting<br>
-										Media: oil, canvas<br>
-										Location: Museo Reina Sofía (MNCARS), <br>Madrid, Spain<br>
-										Dimensions: 349 x 776 cm, Horizontal
-
- 									</div>
-
- 								</div>
- 							</div>
- 							<!-- 5번쨰 그림 -->
- 							<!-- 9번쨰 그림 -->
- 							<div class="card">
- 								<div class="row no-gutters">
- 									<div class="col-md-6">
- 										<a href="https://m-hearing-masterpiece.web.app/?img_id=9&lan=e">
- 											<div class="thumbnail-wrapper">
- 												<img alt="picture" src="./thumbnail_image/9_American_Gothic.jpg"
-
- 												title="American Gothic, Vertical"> 											</div>
- 										</a>
- 									</div>
-
- 									<div class="card-body">
-										Title: American Gothic<br>
-										Artist: Grant Wood<br>
-										Date: 1930<br>
-										Style: Regionalism<br>
-										Genre: portrait<br>
-										Media: oil, board<br>
-										Location: Art Institute of Chicago, Chicago, IL, US<br>
-										Dimensions: 62.4 x 74.3 cm, Vertical
-
- 									</div>
-
- 								</div>
- 							</div>
- 							<!-- 9번쨰 그림 -->
-
- 							<!-- 11번쨰 그림 -->
- 							<div class="card">
- 								<div class="row no-gutters">
- 									<div class="col-md-6">
- 										<a href="https://m-hearing-masterpiece.web.app/?img_id=11&lan=e" >
- 											<div class="thumbnail-wrapper">
- 												<img alt="picture" src="./thumbnail_image/11_Cafe_Terrace_at_Night.jpg"
-
- 												title="Cafe Terrace at Night"> 											</div>
- 										</a>
- 									</div>
-
- 									<div class="card-body">
-										Title: Cafe Terrace at Night<br>
-										Artist: Vincent van Gogh<br>
-										Date: 1888; Arles, Bouches-du-Rhône, France<br>
-										Style: Post-Impressionism<br>
-										Genre: cityscape<br>
-										Media: oil, canvas<br>
-										Location: Kröller-Müller Museum,
-										<br>Otterlo, Netherlands<br>
-										Dimensions: 81 x 65.5 cm
-
- 									</div>
-
- 								</div>
- 							</div>
- 							<!-- 11번쨰 그림 -->
-
-
- 							<!-- 17번쨰 그림 -->
- 							<div class="card">
- 								<div class="row no-gutters">
- 									<div class="col-md-6">
- 										<a href="https://m-hearing-masterpiece.web.app/?img_id=17&lan=e">
- 											<div class="thumbnail-wrapper">
- 												<img alt="picture" src="./thumbnail_image/17_Arnolfini_Wedding.jpg"
-
- 												title="Arnolfini Wedding, Vertical"> 											</div>
- 										</a>
- 									</div>
-
- 									<div class="card-body">
-										Title: Arnolfini Wedding<br>
-										Artist: Jan van Eyck<br>
-										Date: 1434<br>
-										Style: Northern Renaissance<br>
-										Genre: portrait<br>
-										Media: oil, panel<br>
-										Location: National Gallery, London, UK<br>
-										Dimensions: 83.7 x 57 cm, Vertical
- 									</div>
-
- 								</div>
- 							</div>
- 							<!-- 17번쨰 그림 -->
- 							<!-- 18번쨰 그림 -->
- 							<div class="card">
- 								<div class="row no-gutters">
- 									<div class="col-md-6">
- 										<a href="https://m-hearing-masterpiece.web.app/?img_id=18&lan=e">
- 											<div class="thumbnail-wrapper">
- 												<img alt="picture" src="./thumbnail_image/18_Les_Demoiselles_d_Avignon.jpg"
-
- 												title="Les Demoiselles d'Avignon, Vertical"> 											</div>
- 										</a>
- 									</div>
-
- 									<div class="col-md-6">
  										<div class="card-body">
-											Title: Les Demoiselles d'Avignon<br>
-											Artist: Pablo Picasso<br>
-											Date: 1907<br>
-											Style: Cubism<br>
-											Genre: nude painting (nu)<br>
-											Media: oil, canvas<br>
-											Location: Museum of Modern Art (MoMA), New York City<br>
-											Dimensions: 243.9 x 233.7 cm, Vertical
+									Title: Guernica<br>
+									Artist: Pablo Picasso<br>
+									Date: 1937<br>
+									Style: Cubism, Surrealism<br>
+									Genre: allegorical painting<br>
+									Medium: oil, canvas<br>
+									Location: Museo Reina Sofía (MNCARS), <br>Madrid, Spain<br>
+									Dimensions: 349 x 776 cm, landscape mode
+
+
+ 											<!--<audio id="player_Guernica" src="./sound/polly_Guernica.mp3"></audio>
+ 											<div>
+ 												<button onclick="document.getElementById('player_Guernica').play()">Play</button>
+ 												<button onclick="document.getElementById('player_Guernica').pause()">Pause</button>
+ 												<button onclick="document.getElementById('player_Guernica').load()">Load</button>
+ 											</div>-->
+
+
+ 											</div>
+ 										</h8>
+
+ 									</div>
+ 								</div>
+ 								<!-- 5번쨰 그림 -->
+
+ 								<!-- 17번쨰 그림 -->
+ 								<div class="card">
+ 									<div class="row no-gutters">
+ 										<div class="col-md-6">
+ 											<a onclick = "location.href = 'https://m-hearing-masterpiece.web.app/index.html?img_id=17&lan=e&color='+get_option('color')+'&loc='+get_option('loc')+'&exp='+get_option('exp')+'&size='+get_option('size')">
+
+ 												<div class="thumbnail-wrapper">
+ 													<h1>
+ 														<img alt="picture" src="./thumbnail_image/17_Arnolfini_Wedding.jpg"
+
+ 														title="The Arnolfini Portrait, Portrait Mode, The Arnolfini Portrait (or The Arnolfini Wedding, The Arnolfini Marriage, the Portrait of Giovanni Arnolfini and his Wife, or other titles) is a 1434 oil painting on oak panel by the Early Netherlandish painter Jan van Eyck. It forms a full-length double portrait, believed to depict the Italian merchant Giovanni di Nicolao Arnolfini and his wife, presumably in their home in the Flemish city of Bruges.">
+ 													</h1>
+ 												</div>
+ 											</a>
+ 										</div>
+ 										<h8>
+
+ 											<div class="card-body">
+									Title: The Arnolfini Portrait<br>
+									Artist: Jan van Eyck<br>
+									Date: 1434<br>
+									Style: Northern Renaissance<br>
+									Genre: portrait<br>
+									Medium: oil, panel<br>
+									Location: National Gallery, London, UK<br>
+									Dimensions: 83.7 x 57 cm, portrait mode
+ 												<!--<audio id="player_ArnolfiniWedding" src="./sound/polly_ArnolfiniWedding.mp3"></audio>
+ 												<div>
+ 													<button onclick="document.getElementById('player_ArnolfiniWedding').play()">Play</button>
+ 													<button onclick="document.getElementById('player_ArnolfiniWedding').pause()">Pause</button>
+ 													<button onclick="document.getElementById('player_ArnolfiniWedding').load()">Load</button>
+ 												</div>-->
+
+
+ 												</div>
+ 											</h8>
 
  										</div>
  									</div>
+ 									<!-- 17번쨰 그림 -->
 
- 								</div>
+						</div>
  							</div>
- 							<!-- 17번쨰 그림 -->
+ 						</center>
 
 
- 						</div>
- 					</div>
-						</center>
-
-
- 				<!-- Optional JavaScript -->
- 				<!-- jQuery first, then Popper.js, then Bootstrap JS -->
- 				<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
- 				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
- 				<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
- 			</body>
- 			</html>
+ 						<!-- Optional JavaScript -->
+ 						<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+ 						<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ 						<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+ 						<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+ 					</body>
+ 					</html>

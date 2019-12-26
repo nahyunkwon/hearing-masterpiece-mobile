@@ -145,7 +145,7 @@ def test():
     color_terms = ["black", "white", "red", "green", "yellow", "blue", "brown",
                    "orange", "pink", "purple", "gray", "beige", "color", "grey", "gold", "silver"]
     location_terms = ["right", "left", "center", "up", "above", "under", "down",
-                      "corner", "bottom", "front", "rear", "side", "middle", "top", "below", "core", "behind"]
+                      "corner", "bottom", "front", "rear", "side", "middle", "top", "below", "core", "behind", "distant"]
     size_terms = ["large", "small", "medium", "size"]
 
     obj = ann[-1]

@@ -1,0 +1,157 @@
+,img_id,name,deleted,verified,attributes,date,id,polygon/username,img_id.1,"valid (if valid, then 1. invalid 0)","less than 3 coordinates (if yes, 1)","not an object (if yes, 1)",name is incorrect,attributes are incorrect,name/attribues modified,merged to,exp,color,location,size,exp_count,color_count,location_count,size_count
+314,11.0,chair,0.0,0.0,"middle, chair, beige",25/07/2019 9:22,0.0,A1Q995BGGPBDMB,11.0,0.0,,,,,,,,,,,,,,
+315,11.0,tree,0.0,0.0,"right side, large, green",25/07/2019 9:24,1.0,A1Q995BGGPBDMB,11.0,0.0,,,,,,25.0,,,,,,,,
+316,11.0,star,0.0,0.0,"small, top right corner, yellow, white",25/07/2019 9:24,2.0,A1Q995BGGPBDMB,11.0,0.0,,,,,,,,,,,,,,
+317,11.0,table,0.0,0.0,"round, middle, white",25/07/2019 9:26,4.0,A1Q995BGGPBDMB,11.0,0.0,,,,,,,,,,,,,,
+318,11.0,arch,0.0,0.0,"left, large, silver, arch",25/07/2019 9:27,5.0,A1Q995BGGPBDMB,11.0,0.0,,,,,,,,,,,,,,
+319,11.0,table,0.0,0.0,"left side,small, white",25/07/2019 9:42,6.0,A35Q0ZG3C7ZFP,11.0,0.0,,,,,,,,,,,,,,
+320,11.0,chair,0.0,0.0,"dining chair,brown,near table",25/07/2019 9:43,7.0,A35Q0ZG3C7ZFP,11.0,0.0,,,,,,,,,,,,,,
+321,11.0,man,0.0,0.0,"center,yellow,near table",25/07/2019 9:45,8.0,A35Q0ZG3C7ZFP,11.0,0.0,,,,,,,,,,,,,,
+322,11.0,chair,0.0,0.0,"right,brown,near table",25/07/2019 9:46,9.0,A35Q0ZG3C7ZFP,11.0,0.0,,,,,,,,,,,,,,
+323,11.0,man,0.0,0.0,"walking,cross,right side",25/07/2019 9:52,10.0,A35Q0ZG3C7ZFP,11.0,0.0,,,,,,,,,,,,,,
+324,11.0,lady,0.0,0.0,"walk,yellow,right side",25/07/2019 9:53,11.0,A35Q0ZG3C7ZFP,11.0,0.0,,,,,,,,,,,,,,
+325,11.0,men,0.0,0.0,"standing,left side,near door",25/07/2019 9:55,12.0,A35Q0ZG3C7ZFP,11.0,0.0,,,,,,,,,,,,,,
+326,11.0,table,0.0,0.0,"white,restaurant,dining table",25/07/2019 9:58,13.0,A35Q0ZG3C7ZFP,11.0,0.0,,,,,,,,,,,,,,
+327,11.0,chair,0.0,0.0,"left sife,brown,table chair",25/07/2019 9:59,14.0,A35Q0ZG3C7ZFP,11.0,0.0,,,,,,,,,,,,,,
+328,11.0,point,0.0,0.0,"house,blue,rectangle,door",25/07/2019 10:03,15.0,WorkerIDAXPUKBI6UNZY,11.0,1.0,1.0,,,,,,,,,,,,,
+329,11.0,man,0.0,0.0,"male,30,whiteshirt,at work",25/07/2019 10:07,16.0,WorkerIDAXPUKBI6UNZY,11.0,0.0,,,,,,,,,,,,,,
+330,11.0,door,0.0,0.0,"house,yellow,rectangle,",25/07/2019 10:09,17.0,WorkerIDAXPUKBI6UNZY,11.0,0.0,,,,,,,,,,,,,,
+331,11.0,window,0.0,0.0,"house,squre,yellow",25/07/2019 10:14,18.0,WorkerIDAXPUKBI6UNZY,11.0,1.0,1.0,,,,,,,,,,,,,
+332,11.0,window,0.0,0.0,"door,green,rectangle,",25/07/2019 10:16,19.0,WorkerIDAXPUKBI6UNZY,11.0,0.0,,,,,,,,,,,,,,
+333,11.0,women,0.0,0.0,"female,40,saree,",25/07/2019 10:18,20.0,WorkerIDAXPUKBI6UNZY,11.0,0.0,,,,,,,,,,,,,,
+334,11.0,window,0.0,0.0,"black,4x4,door",25/07/2019 10:20,21.0,WorkerIDAXPUKBI6UNZY,11.0,0.0,,,,,,,,,,,,,,
+335,11.0,star,0.0,0.0,"sky, yellow, bright, high",25/07/2019 10:28,22.0,A3TAM79PCXOLXI,11.0,0.0,,,,,,4.0,,,,,,,,
+336,11.0,tree,0.0,0.0,"tall, right hand side, green, large",25/07/2019 10:30,23.0,A3TAM79PCXOLXI,11.0,0.0,,,,,,,,,,,,,,
+337,11.0,building,0.0,0.0,"background, dark, far away, distant",25/07/2019 10:31,24.0,A3TAM79PCXOLXI,11.0,0.0,,,,,,,,,,,,,,
+338,11.0,window,0.0,0.0,"distant, yellow, panes, small",25/07/2019 10:31,25.0,A3TAM79PCXOLXI,11.0,0.0,,,,,,,,,,,,,,
+339,11.0,store front,0.0,0.0,"shop window, distant, dark",25/07/2019 10:32,26.0,A3TAM79PCXOLXI,11.0,0.0,,,,,,,,,,,,,,
+340,11.0,door,0.0,0.0,"right side, black bottom, yellow window, rectangle",25/07/2019 10:45,27.0,adam.kerr27@yahoo.com,11.0,0.0,,,,,,,,,,,,,,
+341,11.0,awning,0.0,0.0,"above patio seating, yellow, left side middle",25/07/2019 10:46,28.0,adam.kerr27@yahoo.com,11.0,0.0,,,,,,,,,,,,,,
+342,11.0,small building,0.0,0.0,"left side, small building in comparison, mainly green sides with darker bottom",25/07/2019 10:49,29.0,adam.kerr27@yahoo.com,11.0,0.0,,,,,,,,,,,,,,
+343,11.0,table,0.0,0.0,"left patio, white top, round in shape",25/07/2019 10:50,30.0,adam.kerr27@yahoo.com,11.0,0.0,,,,,,,,,,,,,,
+344,11.0,table,0.0,0.0,"left patio, white top, round",25/07/2019 10:51,31.0,adam.kerr27@yahoo.com,11.0,0.0,,,,,,,,,,,,,,
+345,11.0,table,0.0,0.0,"right patio, round top, white top, black legs",25/07/2019 10:51,32.0,adam.kerr27@yahoo.com,11.0,0.0,,,,,,,,,,,,,,
+346,11.0,chair,0.0,0.0,"orange, middle, normal-sized",25/07/2019 11:19,33.0,A2MOY7J4GG5CW8,11.0,0.0,,,,,,,,,,,,,,
+347,11.0,chair,0.0,0.0,"green, normal-size, four-legs",25/07/2019 11:21,34.0,A2MOY7J4GG5CW8,11.0,0.0,,,,,,,,,,,,,,
+348,11.0,chair,0.0,0.0,"green, left, four-legs",25/07/2019 11:24,35.0,A2MOY7J4GG5CW8,11.0,0.0,,,,,,,,,,,,,,
+349,11.0,chair,0.0,0.0,"green, dark, four-legs, center",25/07/2019 11:24,36.0,A2MOY7J4GG5CW8,11.0,0.0,,,,,,,,,,,,,,
+350,11.0,person,0.0,0.0,"sitting, red clothes, green clothes, hat",25/07/2019 11:26,37.0,A2MOY7J4GG5CW8,11.0,0.0,,,,,,,,,,,,,,
+351,11.0,blind,0.0,0.0,"wood, open, window",25/07/2019 12:04,38.0,AIN29LNXRARXY,11.0,0.0,,,,,,,,,,,,,,
+352,11.0,blind,0.0,0.0,"wood, open, window",25/07/2019 12:04,39.0,AIN29LNXRARXY,11.0,0.0,,,,,,,,,,,,,,
+353,11.0,blind,0.0,0.0,"wood, open, window",25/07/2019 12:05,40.0,AIN29LNXRARXY,11.0,0.0,,,,,,,,,,,,,,
+354,11.0,blind,0.0,0.0,"wood, open, window",25/07/2019 12:05,41.0,AIN29LNXRARXY,11.0,0.0,,,,,,,,,,,,,,
+355,11.0,table,0.0,0.0,"outdoor, wood, cafè",25/07/2019 12:06,42.0,AIN29LNXRARXY,11.0,0.0,,,,,,,,,,,,,,
+356,11.0,window,0.0,0.0,yellow,25/07/2019 12:31,43.0,A2NVNFIOKLEEGY,11.0,1.0,,1.0,,,,,,,,,,,,
+357,11.0,point,0.0,0.0,street,25/07/2019 12:31,44.0,A2NVNFIOKLEEGY,11.0,1.0,1.0,,,,,,,,,,,,,
+358,11.0,tree,0.0,0.0,green,25/07/2019 12:32,45.0,A2NVNFIOKLEEGY,11.0,1.0,1.0,,,,,,,,,,,,,
+359,11.0,door,0.0,0.0,brown,25/07/2019 12:33,46.0,A2NVNFIOKLEEGY,11.0,1.0,1.0,,,,,,,,,,,,,
+360,11.0,road,0.0,0.0,black,25/07/2019 12:33,47.0,A2NVNFIOKLEEGY,11.0,1.0,1.0,,,,,,,,,,,,,
+361,11.0,tabel,0.0,0.0,yellow,25/07/2019 12:33,48.0,A2NVNFIOKLEEGY,11.0,1.0,1.0,,,,,,,,,,,,,
+362,11.0,tree,0.0,0.0,long and green,25/07/2019 12:53,49.0,A267H808C339ZQ,11.0,1.0,1.0,,,,,,,,,,,,,
+363,11.0,table,0.0,0.0,rectangle,25/07/2019 12:54,50.0,A267H808C339ZQ,11.0,1.0,1.0,,,,,,,,,,,,,
+364,11.0,wall,0.0,0.0,located in house,25/07/2019 12:54,51.0,A267H808C339ZQ,11.0,1.0,1.0,,,,,,,,,,,,,
+365,11.0,window,0.0,0.0,placed in wall,25/07/2019 12:55,52.0,A267H808C339ZQ,11.0,1.0,1.0,,,,,,,,,,,,,
+366,11.0,door,0.0,0.0,entrance in house,25/07/2019 12:56,53.0,A267H808C339ZQ,11.0,1.0,1.0,,,,,,,,,,,,,
+367,11.0,tree,0.0,0.0,polygon,25/07/2019 13:10,54.0,lpriyamvada@gmail.com,11.0,2.0,1.0,1.0,,,,,,,,,,,,
+368,11.0,window,0.0,0.0,2windows,25/07/2019 13:10,55.0,lpriyamvada@gmail.com,11.0,2.0,1.0,1.0,,,,,,,,,,,,
+369,11.0,door,0.0,0.0,closeddoor,25/07/2019 13:11,56.0,lpriyamvada@gmail.com,11.0,1.0,1.0,,,,,,,,,,,,,
+370,11.0,ground,0.0,0.0,ground,25/07/2019 13:11,57.0,lpriyamvada@gmail.com,11.0,1.0,1.0,,,,,,,,,,,,,
+371,11.0,desk,0.0,0.0,chest,25/07/2019 13:12,58.0,lpriyamvada@gmail.com,11.0,1.0,1.0,,,,,,,,,,,,,
+372,11.0,street,0.0,0.0,"cobblestone street, bumpy, not smooth, rough walk, ground",25/07/2019 13:25,59.0,A2OMYDY8G8PNJE,11.0,0.0,,,,,,,,,,,,,,
+373,11.0,star,0.0,0.0,"stars, bright, night sky, shining, high above",25/07/2019 13:26,60.0,A2OMYDY8G8PNJE,11.0,0.0,,,,,,,,,,,,,,
+374,11.0,window,0.0,0.0,"window, light, over the city, light on",25/07/2019 13:27,61.0,A2OMYDY8G8PNJE,11.0,0.0,,,,,,,,,,,,,,
+375,11.0,building,0.0,0.0,"building, dark, looming, shadow, high above",25/07/2019 13:28,62.0,A2OMYDY8G8PNJE,11.0,0.0,,,,,,,,,,,,,,
+376,11.0,people,0.0,0.0,"group of people, person, seated, not detailed, abstract",25/07/2019 13:31,63.0,A2OMYDY8G8PNJE,11.0,0.0,,,,,,,,,,,,,,
+377,11.0,tree,0.0,0.0,sr right side mid tree has green colur leaves and brown stream,25/07/2019 14:04,64.0,A3O9QZA6B3CY7U,11.0,1.0,1.0,,,,,,,,,,,,,
+378,11.0,road,0.0,0.0,walk way in between two buildings and have the people,25/07/2019 14:07,65.0,A3O9QZA6B3CY7U,11.0,1.0,,1.0,,,,,,,,,,,,
+379,11.0,character,0.0,0.0,man walk for the left side,25/07/2019 14:08,66.0,A3O9QZA6B3CY7U,11.0,0.0,,,,,,12.0,,,,,,,,
+380,11.0,lady,0.0,0.0,follow to the man,25/07/2019 14:09,67.0,A3O9QZA6B3CY7U,11.0,0.0,,,,,,13.0,,,,,,,,
+381,11.0,people,0.0,0.0,man walk to the right side,25/07/2019 14:09,68.0,A3O9QZA6B3CY7U,11.0,0.0,,,,,,10.0,,,,,,,,
+382,11.0,building,0.0,0.0,"distant, building, dark, blue, home",25/07/2019 14:51,71.0,A3EQKTEL74N09A,11.0,0.0,,,,,,,,,,,,,,
+383,11.0,street,0.0,0.0,"cobblestone, round, grey, bumpy, old",25/07/2019 14:52,72.0,A3EQKTEL74N09A,11.0,0.0,,,,,,,,,,,,,,
+384,11.0,chair,0.0,0.0,"tan, old, off",25/07/2019 14:53,73.0,A3EQKTEL74N09A,11.0,0.0,,,,,,,,,,,,,,
+385,11.0,star,0.0,0.0,"yellow, distant, faint, night",25/07/2019 14:54,74.0,A3EQKTEL74N09A,11.0,0.0,,,,,,,,,,,,,,
+386,11.0,window,0.0,0.0,"yellow, lit, night",25/07/2019 14:54,75.0,A3EQKTEL74N09A,11.0,0.0,,,,,,,,,,,,,,
+387,11.0,man,0.0,0.0,man standing in the restaurant little tall,25/07/2019 15:33,76.0,A2LD0G04R6MNX7,11.0,0.0,,,,,,,,,,,,,,
+388,11.0,floor,0.0,0.0,this is restaurant floor and peoples walk its concrete,25/07/2019 15:34,77.0,A2LD0G04R6MNX7,11.0,0.0,,,,,,,,,,,,,,
+389,11.0,door wood,0.0,0.0,door wood of restaurant its very hard and black color,25/07/2019 15:35,78.0,A2LD0G04R6MNX7,11.0,1.0,,1.0,,,,,,,,,,,,
+390,11.0,star,0.0,0.0,star in the top it is very nice twinking in night,25/07/2019 15:36,79.0,A2LD0G04R6MNX7,11.0,0.0,,,,,,,,,,,,,,
+391,11.0,snow blow,0.0,0.0,snow is blowing in the winter season very cold,25/07/2019 15:37,80.0,A2LD0G04R6MNX7,11.0,0.0,,,,,,,,,,,,,,
+0,,,,,,,,,,,,,,,,,,beige,middle,,0,1,1,0
+1,,,,,,,,,,,,,,,,,,green,right,large,0,1,1,1
+2,,,,,,,,,,,,,,,,,,"yellow, white",top,small,0,2,1,1
+3,,,,,,,,,,,,,,,,,,white,middle,,0,1,1,0
+4,,,,,,,,,,,,,,,,,,silver,left,large,0,1,1,1
+5,,,,,,,,,,,,,,,,,,white,left,small,0,1,1,1
+6,,,,,,,,,,,,,,,,,near,brown,,,1,1,0,0
+7,,,,,,,,,,,,,,,,,near,yellow,center,,1,1,1,0
+8,,,,,,,,,,,,,,,,,near,brown,right,,1,1,1,0
+9,,,,,,,,,,,,,,,,,,,right,,0,0,1,0
+10,,,,,,,,,,,,,,,,,,yellow,right,,0,1,1,0
+11,,,,,,,,,,,,,,,,,near,,left,,1,0,1,0
+12,,,,,,,,,,,,,,,,,,white,,,0,1,0,0
+13,,,,,,,,,,,,,,,,,,brown,left,,0,1,1,0
+14,,,,,,,,,,,,,,,,,,blue,,,0,1,0,0
+15,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+16,,,,,,,,,,,,,,,,,,yellow,,,0,1,0,0
+17,,,,,,,,,,,,,,,,,,yellow,,,0,1,0,0
+18,,,,,,,,,,,,,,,,,,green,,,0,1,0,0
+19,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+20,,,,,,,,,,,,,,,,,,black,,,0,1,0,0
+21,,,,,,,,,,,,,,,,,bright,yellow,,,1,1,0,0
+22,,,,,,,,,,,,,,,,,,green,right,"tall, large",0,1,1,2
+23,,,,,,,,,,,,,,,,,away,,distant,,1,0,1,0
+24,,,,,,,,,,,,,,,,,,yellow,distant,small,0,1,1,1
+25,,,,,,,,,,,,,,,,,,,distant,,0,0,1,0
+26,,,,,,,,,,,,,,,,,,"black, yellow",right,,0,2,1,0
+27,,,,,,,,,,,,,,,,,,yellow,"above, left",,0,1,2,0
+28,,,,,,,,,,,,,,,,,mainly,green,left,small,1,1,1,1
+29,,,,,,,,,,,,,,,,,,white,left,,0,1,1,0
+30,,,,,,,,,,,,,,,,,,white,left,,0,1,1,0
+31,,,,,,,,,,,,,,,,,,"white, black","right, top",,0,2,2,0
+32,,,,,,,,,,,,,,,,,,orange,middle,,0,1,1,0
+33,,,,,,,,,,,,,,,,,,green,,,0,1,0,0
+34,,,,,,,,,,,,,,,,,,green,left,,0,1,1,0
+35,,,,,,,,,,,,,,,,,,green,center,,0,1,1,0
+36,,,,,,,,,,,,,,,,,,"red, green",,,0,2,0,0
+37,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+38,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+39,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+40,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+41,,,,,,,,,,,,,,,,,outdoor,,,,1,0,0,0
+42,,,,,,,,,,,,,,,,,,yellow,,,0,1,0,0
+43,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+44,,,,,,,,,,,,,,,,,,green,,,0,1,0,0
+45,,,,,,,,,,,,,,,,,,brown,,,0,1,0,0
+46,,,,,,,,,,,,,,,,,,black,,,0,1,0,0
+47,,,,,,,,,,,,,,,,,,yellow,,,0,1,0,0
+48,,,,,,,,,,,,,,,,,,,,long,0,0,0,1
+49,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+50,,,,,,,,,,,,,,,,,located,,,,1,0,0,0
+51,,,,,,,,,,,,,,,,,placed,,,,1,0,0,0
+52,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+53,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+54,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+55,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+56,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+57,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+58,,,,,,,,,,,,,,,,,bumpy,,,,1,0,0,0
+59,,,,,,,,,,,,,,,,,bright,,above,,1,0,1,0
+60,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+61,,,,,,,,,,,,,,,,,looming,,above,,1,0,1,0
+62,,,,,,,,,,,,,,,,,"seated, detailed",,,,2,0,0,0
+63,,,,,,,,,,,,,,,,,,,right,,0,0,1,0
+64,,,,,,,,,,,,,,,,,between,,,,1,0,0,0
+65,,,,,,,,,,,,,,,,,,,left,,0,0,1,0
+66,,,,,,,,,,,,,,,,,follow,,,,1,0,0,0
+67,,,,,,,,,,,,,,,,,,,right,,0,0,1,0
+68,,,,,,,,,,,,,,,,,,blue,distant,,0,1,1,0
+69,,,,,,,,,,,,,,,,,bumpy,grey,,,1,1,0,0
+70,,,,,,,,,,,,,,,,,off,,,,1,0,0,0
+71,,,,,,,,,,,,,,,,,,yellow,distant,,0,1,1,0
+72,,,,,,,,,,,,,,,,,,yellow,,,0,1,0,0
+73,,,,,,,,,,,,,,,,,,,,tall,0,0,0,1
+74,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+75,,,,,,,,,,,,,,,,,hard,black,,,1,1,0,0
+76,,,,,,,,,,,,,,,,,,,top,,0,0,1,0
+77,,,,,,,,,,,,,,,,,,,,,0,0,0,0

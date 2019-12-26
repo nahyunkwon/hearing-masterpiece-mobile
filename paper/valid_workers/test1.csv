@@ -1,0 +1,80 @@
+,img_id,name,deleted,verified,attributes,date,id,polygon/username,img_id.1,"valid (if valid, then 1. invalid 0)","less than 3 coordinates (if yes, 1)","not an object (if yes, 1)",name is incorrect,attributes are incorrect,name/attribues modified,merged to,exp,color,location,size,exp_count,color_count,location_count,size_count
+0,1.0,point,0.0,0.0,nose,25/07/2019 9:09,4.0,WorkerID,1.0,0.0,,,1.0,,1.0,,,,,,0,0,0,0
+1,1.0,point,0.0,0.0,right eyes,25/07/2019 9:09,5.0,WorkerID,1.0,0.0,,,1.0,1.0,1.0,33.0,,,right,,0,0,1,0
+2,1.0,point,0.0,0.0,left eyes,25/07/2019 9:10,6.0,WorkerID,1.0,0.0,,,1.0,1.0,1.0,,,,left,,0,0,1,0
+3,1.0,point,0.0,0.0,face,25/07/2019 9:10,7.0,WorkerID,1.0,0.0,,,1.0,,1.0,73.0,,,,,0,0,0,0
+4,1.0,point,0.0,0.0,neck,25/07/2019 9:11,8.0,WorkerID,1.0,0.0,,,1.0,,1.0,75.0,,,,,0,0,0,0
+5,1.0,point,0.0,0.0,human,25/07/2019 9:12,9.0,WorkerID,1.0,0.0,,,1.0,,1.0,32.0,,,,,0,0,0,0
+6,1.0,mountain,0.0,0.0,dark,25/07/2019 9:20,10.0,A2E9KS4RK6T8CW,1.0,1.0,1.0,,,,,,,,,,0,0,0,0
+7,1.0,hand,0.0,0.0,pale,25/07/2019 9:21,11.0,A2E9KS4RK6T8CW,1.0,1.0,,1.0,,,,,,,,,0,0,0,0
+8,1.0,hand,0.0,0.0,pale,25/07/2019 9:21,12.0,A2E9KS4RK6T8CW,1.0,1.0,,1.0,,,,,,,,,0,0,0,0
+9,1.0,sky,0.0,0.0,night,25/07/2019 9:22,13.0,A2E9KS4RK6T8CW,1.0,1.0,1.0,,,,,,,,,,0,0,0,0
+10,1.0,hill,0.0,0.0,beautiful,25/07/2019 9:22,14.0,A2E9KS4RK6T8CW,1.0,1.0,1.0,,,,,,beautiful,,,,1,0,0,0
+11,1.0,river,0.0,0.0,great,25/07/2019 9:23,15.0,A2E9KS4RK6T8CW,1.0,1.0,1.0,,,,,,,,,,0,0,0,0
+12,1.0,mouth,0.0,0.0,"smile, enigmatic, lips, close",25/07/2019 9:31,16.0,AIN29LNXRARXY,1.0,0.0,,,,,,,enigmatic,,,,1,0,0,0
+13,1.0,bridge,0.0,0.0,"right side, background, arches",25/07/2019 9:32,17.0,AIN29LNXRARXY,1.0,0.0,,,,,,,,,right,,0,0,1,0
+14,1.0,armrest,0.0,0.0,"wood, brown, bottom center",25/07/2019 9:33,18.0,AIN29LNXRARXY,1.0,0.0,,,,,,,,brown,bottom,,0,1,1,0
+15,1.0,road,0.0,0.0,"left side, background, dirt",25/07/2019 9:47,19.0,AIN29LNXRARXY,1.0,0.0,,,,,,,,,left,,0,0,1,0
+16,1.0,dress,0.0,0.0,"brown, embroidered, fabric",25/07/2019 9:49,20.0,AIN29LNXRARXY,1.0,0.0,,,,,,,embroidered,brown,,,1,1,0,0
+17,1.0,right hand,0.0,0.0,"bottom front, resting, white, clean",25/07/2019 9:51,21.0,AIN29LNXRARXY,1.0,0.0,,,,,,,resting,white,bottom,,1,1,1,0
+18,1.0,sleeve,0.0,0.0,"sleeve, arm, clothing",25/07/2019 9:58,22.0,A1CJ8CLM7987EQ,1.0,0.0,,,,,,74.0,,,,,0,0,0,0
+19,1.0,sleeve,0.0,0.0,"sleeve, arm, clothing",25/07/2019 9:58,23.0,A1CJ8CLM7987EQ,1.0,0.0,,,,,,74.0,,,,,0,0,0,0
+20,1.0,sky,0.0,0.0,"sky, up, sun, blue",25/07/2019 9:59,24.0,A1CJ8CLM7987EQ,1.0,0.0,,,,,,,,blue,up,,0,1,1,0
+21,1.0,forehead,0.0,0.0,"front, face, wrinkles",25/07/2019 9:59,25.0,A1CJ8CLM7987EQ,1.0,0.0,,,,,,,,,front,,0,0,1,0
+22,1.0,tree,0.0,0.0,"leaves, branch, roots",25/07/2019 9:59,26.0,A1CJ8CLM7987EQ,1.0,0.0,,,,,,,,,,,0,0,0,0
+23,1.0,hand,0.0,0.0,"fingers, arm, body, anatomy",25/07/2019 10:05,27.0,A2HC04434S9TP0,1.0,0.0,,,,,,,,,,,0,0,0,0
+24,1.0,forest,0.0,0.0,"green, trees, background",25/07/2019 10:06,28.0,A2HC04434S9TP0,1.0,0.0,,,,,,,,green,,,0,1,0,0
+25,1.0,lake,0.0,0.0,"water, fresh, tasty, background",25/07/2019 10:07,29.0,A2HC04434S9TP0,1.0,0.0,,,,,,,"fresh, tasty",,,,2,0,0,0
+26,1.0,vegetation,0.0,0.0,"dark brown, background, bushes",25/07/2019 10:08,30.0,A2HC04434S9TP0,1.0,0.0,,,,,,,,brown,,,0,1,0,0
+27,1.0,forest,0.0,0.0,"green, trees, animals, branches",25/07/2019 10:10,32.0,A2HC04434S9TP0,1.0,0.0,,,,,,,,green,,,0,1,0,0
+28,1.0,mona lisa,0.0,0.0,"female, outline, clear, realistic, dark",25/07/2019 11:08,33.0,ZCgDVlkp5,1.0,0.0,,,,,,,realistic,,,,1,0,0,0
+29,1.0,eye,0.0,0.0,"female, eye, brown, clear, realistic",25/07/2019 11:09,34.0,ZCgDVlkp5,1.0,0.0,,,,,,,realistic,brown,,,1,1,0,0
+30,1.0,hair,0.0,0.0,"dark, hair, female, long, straight",25/07/2019 11:10,35.0,ZCgDVlkp5,1.0,0.0,,,,,,,,,,long,0,0,0,1
+31,1.0,hand,0.0,0.0,"hand, female, outline, soft, clean",25/07/2019 11:11,36.0,ZCgDVlkp5,1.0,0.0,,,,,,,soft,,,,1,0,0,0
+32,1.0,background,0.0,0.0,"green, background, blurred, dark, grassy",25/07/2019 11:12,37.0,ZCgDVlkp5,1.0,0.0,,,,,,,"blurred, grassy",green,,,2,1,0,0
+33,1.0,skin,0.0,0.0,neck,25/07/2019 11:33,38.0,A1191P6AYGGL3O,1.0,1.0,1.0,,,,,,,,,,0,0,0,0
+34,1.0,hair,0.0,0.0,black,25/07/2019 11:34,39.0,A1191P6AYGGL3O,1.0,1.0,1.0,,,,,,,black,,,0,1,0,0
+35,1.0,skin,0.0,0.0,hand,25/07/2019 11:34,40.0,A1191P6AYGGL3O,1.0,1.0,1.0,,,,,,,,,,0,0,0,0
+36,1.0,skin,0.0,0.0,hand,25/07/2019 11:34,41.0,A1191P6AYGGL3O,1.0,1.0,1.0,,,,,,,,,,0,0,0,0
+37,1.0,cloth,0.0,0.0,shirt,25/07/2019 11:35,42.0,A1191P6AYGGL3O,1.0,1.0,1.0,,,,,,,,,,0,0,0,0
+38,1.0,skin,0.0,0.0,face,25/07/2019 11:35,43.0,A1191P6AYGGL3O,1.0,1.0,1.0,,,,,,,,,,0,0,0,0
+39,1.0,hand,0.0,0.0,brown,25/07/2019 12:57,45.0,A2NVNFIOKLEEGY,1.0,1.0,1.0,,,,,,,brown,,,0,1,0,0
+40,1.0,nose,0.0,0.0,brown,25/07/2019 12:57,46.0,A2NVNFIOKLEEGY,1.0,1.0,1.0,,,,,,,brown,,,0,1,0,0
+41,1.0,dress,0.0,0.0,black,25/07/2019 12:58,47.0,A2NVNFIOKLEEGY,1.0,1.0,1.0,,,,,,,black,,,0,1,0,0
+42,1.0,head,0.0,0.0,brown,25/07/2019 12:58,48.0,A2NVNFIOKLEEGY,1.0,1.0,1.0,,,,,,,brown,,,0,1,0,0
+43,1.0,mountain,0.0,0.0,green,25/07/2019 12:59,49.0,A2NVNFIOKLEEGY,1.0,1.0,1.0,,,,,,,green,,,0,1,0,0
+44,1.0,land mass,0.0,0.0,"dark brown mass of land, left, bottom corner",25/07/2019 13:54,50.0,A3RERXGQS1129K,1.0,0.0,,,,,,,,brown,"left, bottom",,0,1,2,0
+45,1.0,trees,0.0,0.0,"a colletive of background scenory of trees or a forest, dark green",25/07/2019 13:56,51.0,A3RERXGQS1129K,1.0,0.0,,,,,,,,green,,,0,1,0,0
+46,1.0,river,0.0,0.0,"murky, mud colored, bodied of water between land mass",25/07/2019 14:02,52.0,A3RERXGQS1129K,1.0,0.0,,,,,,,"murky, bodied, between",,,,3,0,0,0
+47,1.0,hill,0.0,0.0,"dark brown land mass, right side, resembles a hill or mountain",25/07/2019 14:04,53.0,A3RERXGQS1129K,1.0,0.0,,,,,,,resembles,brown,right,,1,1,1,0
+48,1.0,ground,0.0,0.0,"dark brown, left bottom corner",25/07/2019 14:13,54.0,A3RERXGQS1129K,1.0,0.0,,,,,,,,brown,left,,0,1,1,0
+49,1.0,decoration,0.0,0.0,"lace, clothes decoration, light brown, neckline",25/07/2019 18:04,60.0,A2M3QMJC99DERS,1.0,0.0,,,,,,,,brown,,,0,1,0,0
+50,1.0,thumb,0.0,0.0,"right hand, finger",25/07/2019 18:06,61.0,A2M3QMJC99DERS,1.0,0.0,,,,,,,,,right,,0,0,1,0
+51,1.0,pinky,0.0,0.0,"smallest finger, right hand",25/07/2019 18:07,62.0,A2M3QMJC99DERS,1.0,0.0,,,,,,,,,right,smallest,0,0,1,1
+52,1.0,ring finger,0.0,0.0,"right hand, fourth finger",25/07/2019 18:07,63.0,A2M3QMJC99DERS,1.0,0.0,,,,,,,,,right,,0,0,1,0
+53,1.0,middler finger,0.0,0.0,"right hand, third finger",25/07/2019 18:08,64.0,A2M3QMJC99DERS,1.0,0.0,,,,,,,,,right,,0,0,1,0
+54,1.0,index,0.0,0.0,"right hand, second finger",25/07/2019 18:08,65.0,A2M3QMJC99DERS,1.0,0.0,,,,,,,,,right,,0,0,1,0
+55,1.0,pinky,0.0,0.0,"left hand, smallest finger",25/07/2019 18:08,66.0,A2M3QMJC99DERS,1.0,0.0,,,,,,,,,left,smallest,0,0,1,1
+56,1.0,index,0.0,0.0,"left hand, second finger",25/07/2019 18:09,67.0,A2M3QMJC99DERS,1.0,0.0,,,,,,,,,left,,0,0,1,0
+57,1.0,middle finger,0.0,0.0,"left hand, third finger",25/07/2019 18:09,68.0,A2M3QMJC99DERS,1.0,0.0,,,,,,,,,left,,0,0,1,0
+58,1.0,ring finger,0.0,0.0,"left hand, fourth finger",25/07/2019 18:10,69.0,A2M3QMJC99DERS,1.0,0.0,,,,,,,,,left,,0,0,1,0
+59,1.0,eyelid,0.0,0.0,"right side, moon shaped",25/07/2019 18:11,70.0,A2M3QMJC99DERS,1.0,0.0,,,,,,,shaped,,right,,1,0,1,0
+60,1.0,iris,0.0,0.0,"right eye, brown, round",25/07/2019 18:12,71.0,A2M3QMJC99DERS,1.0,0.0,,,,,,,,brown,right,,0,1,1,0
+61,1.0,iris,0.0,0.0,"left eye, round, brown",25/07/2019 18:12,72.0,A2M3QMJC99DERS,1.0,0.0,,,,,,,,brown,left,,0,1,1,0
+62,1.0,eyelid,0.0,0.0,"left eye, moon shaped",25/07/2019 18:12,73.0,A2M3QMJC99DERS,1.0,0.0,,,,,,,shaped,,left,,1,0,1,0
+63,1.0,human face,0.0,0.0,"monolissa,black, beauty",25/07/2019 18:21,74.0,A1SCA9REYZD5W2,1.0,0.0,,,,,,,,black,,,0,1,0,0
+64,1.0,sleeve,0.0,0.0,hand _ black _ clothing,25/07/2019 18:24,75.0,A1SCA9REYZD5W2,1.0,0.0,,,,1.0,1.0,,,black,,,0,1,0,0
+65,1.0,neck,0.0,0.0,"empty, clean, no jewels",25/07/2019 18:24,76.0,A1SCA9REYZD5W2,1.0,0.0,,,,,,,,,,,0,0,0,0
+66,1.0,clothing,0.0,0.0,black_ garment _ covering the body,25/07/2019 18:25,77.0,A1SCA9REYZD5W2,1.0,0.0,,,,1.0,1.0,,,,,,0,0,0,0
+67,1.0,hair,0.0,0.0,shiny _ black _ attractive,25/07/2019 18:26,78.0,A1SCA9REYZD5W2,1.0,1.0,,1.0,,1.0,1.0,,shiny,black,,,1,1,0,0
+68,1.0,background,0.0,0.0,back,25/07/2019 18:48,79.0,A2YCAVLQK6YRH9,1.0,1.0,1.0,,,,,,,,,,0,0,0,0
+69,1.0,hehe,0.0,0.0,hehe,25/07/2019 18:48,80.0,A2YCAVLQK6YRH9,1.0,1.0,1.0,,1.0,1.0,,,,,,,0,0,0,0
+70,1.0,hehe,0.0,0.0,hehee,25/07/2019 18:48,81.0,A2YCAVLQK6YRH9,1.0,1.0,1.0,,1.0,1.0,,,,,,,0,0,0,0
+71,1.0,hehe,0.0,0.0,hehe,25/07/2019 18:48,82.0,A2YCAVLQK6YRH9,1.0,1.0,1.0,,1.0,1.0,,,,,,,0,0,0,0
+72,1.0,hehe,0.0,0.0,hehe,25/07/2019 18:49,83.0,A2YCAVLQK6YRH9,1.0,1.0,1.0,,1.0,1.0,,,,,,,0,0,0,0
+73,1.0,sky,0.0,0.0,"above woman, gray,cold",25/07/2019 19:47,84.0,A2NV315LQL2QZ7,1.0,1.0,,1.0,,,,,,gray,above,,0,1,1,0
+74,1.0,trees,0.0,0.0,"green, nature, scenario",25/07/2019 19:49,85.0,A2NV315LQL2QZ7,1.0,1.0,,1.0,,,,,,green,,,0,1,0,0
+75,1.0,skin,0.0,0.0,"chest,uncovered,beige",25/07/2019 19:52,86.0,A2NV315LQL2QZ7,1.0,0.0,,,,,,75.0,uncovered,beige,,,1,1,0,0
+76,1.0,clothes,0.0,0.0,"dark,silk,classic",25/07/2019 19:53,87.0,A2NV315LQL2QZ7,1.0,1.0,,1.0,,,,,,,,,0,0,0,0
+77,1.0,arm,0.0,0.0,"body part, fragile,crossed",25/07/2019 19:54,88.0,A2NV315LQL2QZ7,1.0,0.0,,,,,,,"fragile, crossed",,,,2,0,0,0
+78,1.0,hair,0.0,0.0,"brown, smooth, long",25/07/2019 19:55,89.0,A2NV315LQL2QZ7,1.0,1.0,,1.0,,,,,,brown,,long,0,1,0,1

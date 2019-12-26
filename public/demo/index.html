@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<head>
+  <title>Image Segmentation Viewer Interface</title>
+  <meta charset="utf-8">
+  <script src="js/d3.v4.min.js"></script>
+  <script src="js/d3.tip.v0.6.3.js"></script>
+    <script src="js/responsivevoice.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/d3.button.js"></script>
+  <style>
+  html, body {
+    height: 100%;
+    padding-bottom:150px;
+    width:device-width;
+    height:device-width;
+    initial-scale:1;
+    draggable:false
+  }
+.main{
+      padding: 10px;
+      height: 1000px;
+      overflow: scroll
+  }
+.image{
+      padding: 10px;
+      width:100%;
+      height:1000px;
+      overflow: scroll
+    }
+#metadata{
+      padding: 10px;
+      padding-left: 22%;
+      width:40%;
+      float:left;
+      height:150px;
+      overflow: scroll
+    }
+.buttons{
+      padding: 10px;
+      padding-left: 5%;
+      width:20%;
+      float:left;
+      height:150px;
+      overflow: scroll
+    }
+  </style>
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<center>
+    <script src="js/image_data_kor.js" ></script>
+    <script src="js/load_metadata.js" ></script>
+    <script src="js/jquery.js" ></script>
+
+    <h2>
+        순서 선택
+    </h2>
+
+    <div class="body">
+
+        <h3>
+
+        <a href="select_1.html">1 2 4 3</a>
+        <br>
+        <a href="select_2.html">2 3 1 4</a>
+        <br>
+        <a href="select_3.html">3 4 2 1</a>
+        <br>
+        <a href="select_4.html">4 1 3 2</a>
+        <br>
+
+        </h3>
+
+    </div>
+
+</center>
+</body>
+</html>

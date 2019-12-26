@@ -1,0 +1,109 @@
+,img_id,name,deleted,verified,attributes,date,id,polygon/username,img_id.1,"valid (if valid, then 1. invalid 0)","less than 3 coordinates (if yes, 1)","not an object (if yes, 1)",name is incorrect,attributes are incorrect,name/attribues modified,merged to,exp,color,location,size,exp_count,color_count,location_count,size_count
+260,9.0,cameo,0.0,0.0,"necklace, brown/white, little, oval",25/07/2019 9:08,0.0,AIN29LNXRARXY,9.0,0.0,,,,,,,,,,,,,,
+261,9.0,glasses,0.0,0.0,"face, gray, normal size, round, metal/glass",25/07/2019 9:09,1.0,AIN29LNXRARXY,9.0,0.0,,,,,,,,,,,,,,
+262,9.0,woman,0.0,0.0,"left side, middle age, white, farmer, severe, stand up",25/07/2019 9:10,2.0,AIN29LNXRARXY,9.0,0.0,,,,,,,,,,,,,,
+263,9.0,window,0.0,0.0,"top center, glass/wood, narrow/tall size, front of the house, attic, ogive",25/07/2019 9:20,4.0,AIN29LNXRARXY,9.0,0.0,,,,,,,,,,,,,,
+264,9.0,woman,0.0,0.0,"left side, portrait, female, white, severe, rural clothes, stand up",25/07/2019 9:23,5.0,AIN29LNXRARXY,9.0,0.0,,,,,,,,,,,,,,
+265,9.0,overalls,0.0,0.0,"dungarees, overalls, denim",25/07/2019 10:01,6.0,A1CJ8CLM7987EQ,9.0,0.0,,,,,,,,,,,,,,
+266,9.0,shirt,0.0,0.0,"white, blue, buttons",25/07/2019 10:01,7.0,A1CJ8CLM7987EQ,9.0,0.0,,,,,,,,,,,,,,
+267,9.0,jacket,0.0,0.0,"black, long sleeves, thick",25/07/2019 10:01,8.0,A1CJ8CLM7987EQ,9.0,0.0,,,,,,,,,,,,,,
+268,9.0,collar,0.0,0.0,"white, shirt, stiff",25/07/2019 10:01,9.0,A1CJ8CLM7987EQ,9.0,0.0,,,,,,,,,,,,,,
+269,9.0,window,0.0,0.0,"glass, panes, light",25/07/2019 10:02,10.0,A1CJ8CLM7987EQ,9.0,0.0,,,,,,,,,,,,,,
+270,9.0,window,0.0,0.0,"rectangle, white, house",25/07/2019 10:12,11.0,A2HC04434S9TP0,9.0,0.0,,,,,,,,,,,,,,
+271,9.0,tree,0.0,0.0,"green, branches, background, circular",25/07/2019 10:13,12.0,A2HC04434S9TP0,9.0,0.0,,,,,,,,,,,,,,
+272,9.0,fork,0.0,0.0,"tool, steel, trident, medium size",25/07/2019 10:14,13.0,A2HC04434S9TP0,9.0,0.0,,,,,,,,,,,,,,
+273,9.0,roof,0.0,0.0,"light brown, square, triangle, land,",25/07/2019 10:16,14.0,A2HC04434S9TP0,9.0,0.0,,,,,,,,,,,,,,
+274,9.0,sky,0.0,0.0,"blue, foggy, clouds, air",25/07/2019 10:17,15.0,A2HC04434S9TP0,9.0,0.0,,,,,,,,,,,,,,
+275,9.0,male,0.0,0.0,"elderly man, stern, bald, angry, glasses, religious",25/07/2019 10:51,16.0,ZCgDVlkp5,9.0,0.0,,,,,,,,,,,,,,
+276,9.0,lips,0.0,0.0,"male lips, stern, straight, closed, elderly",25/07/2019 10:52,17.0,ZCgDVlkp5,9.0,0.0,,,,,,,,,,,,,,
+277,9.0,pinafore,0.0,0.0,"patterned, brown, smart, conservative, clean.",25/07/2019 10:53,18.0,ZCgDVlkp5,9.0,0.0,,,,,,,,,,,,,,
+278,9.0,eye,0.0,0.0,"female, eyeball, blue, distant, sad.",25/07/2019 10:54,19.0,ZCgDVlkp5,9.0,0.0,,,,,,,,,,,,,,
+279,9.0,collar,0.0,0.0,"white, clean, smart, outfit, collar",25/07/2019 10:54,20.0,ZCgDVlkp5,9.0,0.0,,,,,,,,,,,,,,
+280,9.0,plant,0.0,0.0,"organic, vase, decoration",25/07/2019 11:55,23.0,A1X9BD3KDIA2QB,9.0,0.0,,,,,,,,,,,,,,
+281,9.0,trees,0.0,0.0,"green, organic, good",25/07/2019 11:55,24.0,A1X9BD3KDIA2QB,9.0,0.0,,,,,,,,,,,,,,
+282,9.0,button,0.0,0.0,"decoration, usefull, essencial",25/07/2019 11:56,25.0,A1X9BD3KDIA2QB,9.0,0.0,,,,,,,,,,,,,,
+283,9.0,roof,0.0,0.0,"house, protection",25/07/2019 11:57,26.0,A1X9BD3KDIA2QB,9.0,0.0,,,,,,,,,,,,,,
+284,9.0,window,0.0,0.0,"glass, decoration",25/07/2019 11:57,27.0,A1X9BD3KDIA2QB,9.0,0.0,,,,,,,,,,,,,,
+285,9.0,window,0.0,0.0,brown,25/07/2019 12:47,39.0,A2NVNFIOKLEEGY,9.0,1.0,1.0,,,,,,,,,,,,,
+286,9.0,eyes,0.0,0.0,white,25/07/2019 12:47,40.0,A2NVNFIOKLEEGY,9.0,1.0,1.0,,,,,,,,,,,,,
+287,9.0,nose,0.0,0.0,brown,25/07/2019 12:48,41.0,A2NVNFIOKLEEGY,9.0,1.0,1.0,,,,,,,,,,,,,
+288,9.0,window,0.0,0.0,black,25/07/2019 12:48,42.0,A2NVNFIOKLEEGY,9.0,1.0,1.0,,,,,,,,,,,,,
+289,9.0,hand,0.0,0.0,brown,25/07/2019 12:48,43.0,A2NVNFIOKLEEGY,9.0,1.0,1.0,,,,,,,,,,,,,
+290,9.0,house,0.0,0.0,brown,25/07/2019 12:49,44.0,A2NVNFIOKLEEGY,9.0,1.0,1.0,,,,,,,,,,,,,
+291,9.0,roof,0.0,0.0,"roof, tin roof, brown, left side, panels",25/07/2019 14:00,45.0,A2OMYDY8G8PNJE,9.0,0.0,,,,,,,,,,,,,,
+292,9.0,wallpaper,0.0,0.0,"wallpaper, inside, room, pattern, dark",25/07/2019 14:01,46.0,A2OMYDY8G8PNJE,9.0,0.0,,,,,,,,,,,,,,
+293,9.0,nose,0.0,0.0,"woman_s nose, face, shape, middle of face, average",25/07/2019 14:02,47.0,A2OMYDY8G8PNJE,9.0,0.0,,,,,,,,,,,,,,
+294,9.0,chin,0.0,0.0,"chin, man_s chin, old skin, wrinkled, bottom of face",25/07/2019 14:03,48.0,A2OMYDY8G8PNJE,9.0,0.0,,,,,,,,,,,,,,
+295,9.0,pillar,0.0,0.0,"pillar, post, column, white, porch post, vertical",25/07/2019 14:04,49.0,A2OMYDY8G8PNJE,9.0,0.0,,,,,,,,,,,,,,
+296,9.0,overalls,0.0,0.0,"overalls, old, worn, blue, dingy, work outfit, farmer clothes",25/07/2019 14:05,50.0,A2OMYDY8G8PNJE,9.0,0.0,,,,,,8.0,,,,,,,,
+297,9.0,border,0.0,0.0,"decorative, border, roof, eave",25/07/2019 14:46,51.0,A3168WVUAPEYY,9.0,0.0,,,,,,,,,,,,,,
+298,9.0,roof,0.0,0.0,"shingles, roof, dark, wood",25/07/2019 14:47,52.0,A3168WVUAPEYY,9.0,0.0,,,,,,,,,,,,,,
+299,9.0,barn,0.0,0.0,"red, barn, wood, behind",25/07/2019 14:48,53.0,A3168WVUAPEYY,9.0,0.0,,,,,,,,,,,,,,
+300,9.0,side of barn,0.0,0.0,"red, side, barn",25/07/2019 14:49,54.0,A3168WVUAPEYY,9.0,0.0,,,,,,,,,,,,,,
+301,9.0,overalls,0.0,0.0,"hem, overalls, blue",25/07/2019 14:49,55.0,A3168WVUAPEYY,9.0,0.0,,,,,,8.0,,,,,,,,
+302,9.0,pot,0.0,0.0,"left side, brown, plant pot",25/07/2019 18:19,56.0,A2M3QMJC99DERS,9.0,0.0,,,,,,,,,,,,,,
+303,9.0,plant,0.0,0.0,"left side, pointy, green, three stems",25/07/2019 18:20,57.0,A2M3QMJC99DERS,9.0,0.0,,,,,,,,,,,,,,
+304,9.0,iris,0.0,0.0,"left iris, grey, round",25/07/2019 18:21,58.0,A2M3QMJC99DERS,9.0,0.0,,,,,,,,,,,,,,
+305,9.0,iris,0.0,0.0,"right iris, grey, round",25/07/2019 18:21,59.0,A2M3QMJC99DERS,9.0,0.0,,,,,,,,,,,,,,
+306,9.0,lip,0.0,0.0,"upper lip, natural color",25/07/2019 18:22,60.0,A2M3QMJC99DERS,9.0,0.0,,,,,,,,,,,,,,
+307,9.0,lip,0.0,0.0,"bottom lip, natural color",25/07/2019 18:22,61.0,A2M3QMJC99DERS,9.0,0.0,,,,,,,,,,,,,,
+308,9.0,hair,0.0,0.0,"strand, loose, blond, soft",25/07/2019 18:23,62.0,A2M3QMJC99DERS,9.0,0.0,,,,,,,,,,,,,,
+309,9.0,sky,0.0,0.0,"blue, background, clean",25/07/2019 18:35,63.0,AOV97Z3YMKLAQ,9.0,1.0,,1.0,,,,,,,,,,,,
+310,9.0,ear,0.0,0.0,"left, face, man",25/07/2019 18:35,64.0,AOV97Z3YMKLAQ,9.0,0.0,,,,,,,,,,,,,,
+311,9.0,arm,0.0,0.0,"left, upper limb, body part",25/07/2019 18:36,65.0,AOV97Z3YMKLAQ,9.0,0.0,,,,,,,,,,,,,,
+312,9.0,overalls,0.0,0.0,"jeans, clothing, man",25/07/2019 18:37,66.0,AOV97Z3YMKLAQ,9.0,0.0,,,,,,8.0,,,,,,,,
+313,9.0,ear,0.0,0.0,"right, face, head",25/07/2019 18:38,67.0,AOV97Z3YMKLAQ,9.0,0.0,,,,,,,,,,,,,,
+0,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+1,,,,,,,,,,,,,,,,,,gray,,normal,0,1,0,1
+2,,,,,,,,,,,,,,,,,severe,white,"left, middle, up",,1,1,3,0
+3,,,,,,,,,,,,,,,,,,,"top, front",size,0,0,2,1
+4,,,,,,,,,,,,,,,,,"severe, rural",white,"left, up",,2,1,2,0
+5,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+6,,,,,,,,,,,,,,,,,,"white, blue",,,0,2,0,0
+7,,,,,,,,,,,,,,,,,,black,,long,0,1,0,1
+8,,,,,,,,,,,,,,,,,,white,,,0,1,0,0
+9,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+10,,,,,,,,,,,,,,,,,,white,,,0,1,0,0
+11,,,,,,,,,,,,,,,,,,green,,,0,1,0,0
+12,,,,,,,,,,,,,,,,,,,,medium,0,0,0,1
+13,,,,,,,,,,,,,,,,,,brown,,,0,1,0,0
+14,,,,,,,,,,,,,,,,,foggy,blue,,,1,1,0,0
+15,,,,,,,,,,,,,,,,,"bald, angry",,,,2,0,0,0
+16,,,,,,,,,,,,,,,,,closed,,,,1,0,0,0
+17,,,,,,,,,,,,,,,,,patterned,brown,,,1,1,0,0
+18,,,,,,,,,,,,,,,,,,blue,distant,,0,1,1,0
+19,,,,,,,,,,,,,,,,,,white,,,0,1,0,0
+20,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+21,,,,,,,,,,,,,,,,,,green,,,0,1,0,0
+22,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+23,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+24,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+25,,,,,,,,,,,,,,,,,,brown,,,0,1,0,0
+26,,,,,,,,,,,,,,,,,,white,,,0,1,0,0
+27,,,,,,,,,,,,,,,,,,brown,,,0,1,0,0
+28,,,,,,,,,,,,,,,,,,black,,,0,1,0,0
+29,,,,,,,,,,,,,,,,,,brown,,,0,1,0,0
+30,,,,,,,,,,,,,,,,,,brown,,,0,1,0,0
+31,,,,,,,,,,,,,,,,,,brown,left,,0,1,1,0
+32,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+33,,,,,,,,,,,,,,,,,,,middle,,0,0,1,0
+34,,,,,,,,,,,,,,,,,wrinkled,,bottom,,1,0,1,0
+35,,,,,,,,,,,,,,,,,,white,,,0,1,0,0
+36,,,,,,,,,,,,,,,,,"worn, dingy",blue,,,2,1,0,0
+37,,,,,,,,,,,,,,,,,decorative,,,,1,0,0,0
+38,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+39,,,,,,,,,,,,,,,,,,red,behind,,0,1,1,0
+40,,,,,,,,,,,,,,,,,,red,side,,0,1,1,0
+41,,,,,,,,,,,,,,,,,,blue,,,0,1,0,0
+42,,,,,,,,,,,,,,,,,,brown,left,,0,1,1,0
+43,,,,,,,,,,,,,,,,,,green,left,,0,1,1,0
+44,,,,,,,,,,,,,,,,,,grey,left,,0,1,1,0
+45,,,,,,,,,,,,,,,,,,grey,right,,0,1,1,0
+46,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+47,,,,,,,,,,,,,,,,,,,bottom,,0,0,1,0
+48,,,,,,,,,,,,,,,,,"loose, soft",,,,2,0,0,0
+49,,,,,,,,,,,,,,,,,,blue,,,0,1,0,0
+50,,,,,,,,,,,,,,,,,,,left,,0,0,1,0
+51,,,,,,,,,,,,,,,,,,,left,,0,0,1,0
+52,,,,,,,,,,,,,,,,,,,,,0,0,0,0
+53,,,,,,,,,,,,,,,,,,,right,,0,0,1,0

@@ -137,7 +137,7 @@ function draw_polygon(mode){
         .data(img_file.annotation.object)
         .enter().append("polygon")
         .attr("points", function(d) {
-            if(d['deleted'] != "1"){
+            if(d['deleted'] == "0"){
 
                 return d.polygon.pt.map(function(d) {
                         //console.log(d);
@@ -152,7 +152,7 @@ function draw_polygon(mode){
         .data(img_file.annotation.object)
         .enter().append("polygon")
         .attr("points", function(d) {
-            if(d['deleted'] != "1"){
+            if(d['deleted'] == "0"){
 
                 return d.polygon.pt.map(function(d) {
                         //console.log(d);
@@ -178,10 +178,14 @@ function draw_polygon(mode){
     //polygon opacity, fill color(random)
   svg.selectAll("polygon")
   //.style("fill-opacity", .000001)
-  .style("fill-opacity", .5)
-  .style("fill",function() {
-    return "hsl(" + Math.random() * 360 + ",100%,50%)";
-  })
+  //.style("stroke-width", 5)
+  .style("fill-opacity", .0)
+  //.style("stroke",function() {
+  //  return "hsl(" + Math.random() * 360 + ",100%,50%)";
+  //})
+  //.style("fill",function() {
+  //  return "hsl(" + Math.random() * 360 + ",100%,50%)";
+  //})
 
   .attr("category", function(d){
     d.name = d.name.replace('.', '');
@@ -224,7 +228,7 @@ function draw_polygon(mode){
             }
             return cat;
         }
-        else if(mode == "m" && lan == "k"){
+        else if(mode == "m" && lan == "k" && typeof attr_sound == "undefined"){
         /*
             var cat = d.name + "..";
             if(d.remains != ""){
@@ -239,6 +243,22 @@ function draw_polygon(mode){
             return cat;
             */
             return d.name + ".." + d.attributes;
+        }
+        else if(mode == "m" && lan == "k" && attr_sound == "po"){
+        /*
+            var cat = d.name + "..";
+            if(d.remains != ""){
+                cat = cat + d.remains;
+            }
+            if(d.color != ""){
+                cat = cat + ", 색깔은 "+d.color;
+            }
+            if(d.location !=""){
+                cat = cat + ", 위치는 " + d.location;
+            }
+            return cat;
+            */
+            return d.name;
         }
      });
 }
@@ -266,6 +286,7 @@ var svg = d3.select(".image").append("svg")
   .attr("preserveAspectRatio", "xMinYMin meet")
   .append("g")
   .dblTap(function() {
+  if(attr_sound != "po"){
       if(mode == "m"){
             mode = "p";
             draw_polygon(mode);
@@ -274,10 +295,28 @@ var svg = d3.select(".image").append("svg")
             mode = "m";
             draw_polygon(mode);
         }
-    });
+    }});
+
+ function change_mode(){
+    if(mode == "m"){
+            mode = "p";
+            draw_polygon(mode);
+        }
+        else{
+            mode = "m";
+            draw_polygon(mode);
+        }
+ }
 
 
- var mode = "m";
+ if(attr_sound == "po"){
+    var mode = "p";
+ }
+ else{
+    var mode = "m";
+ }
+ var audio_flag = 0;
+ var audio = null;
 
  if(lan == "e")
     var img_file = image_data_m;
