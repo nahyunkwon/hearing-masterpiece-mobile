@@ -80,7 +80,7 @@
     "area": 77978.0
    },
    {
-    "name": "구불구불한 오솔길",
+    "name": "winding trail",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -116,7 +116,7 @@
     "area": 36058.0
    },
    {
-    "name": "머리",
+    "name": "head",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -152,7 +152,7 @@
     "area": 32032.0
    },
    {
-    "name": "소매",
+    "name": "Sleeve",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -188,7 +188,7 @@
     "area": 23895.0
    },
    {
-    "name": "소프트 포커스",
+    "name": "Soft Focus",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -224,7 +224,7 @@
     "area": 18193.0
    },
    {
-    "name": "눈 맞춤",
+    "name": "eye contact",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -260,7 +260,7 @@
     "area": 8639.0
    },
    {
-    "name": "원근법으로 그린 다리",
+    "name": "a bridge",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
@@ -296,11 +296,11 @@
     "area": 6174.0
    },
    {
-    "name": "불가사의한 미소",
+    "name": "A mysterious smile",
     "deleted": "0",
     "verified": "0",
     "occluded": null,
-    "attributes": "다빈치는 색과 색, 형체와 형체 사이의 경계선을 명확하게 구분 짓지 않고 부드럽게 변해 가도록 처리하는 회화 기법인 스푸마토를 도입했다. 이 그림에 적용되어 극적인 결과를 창출한 스푸마토 덕분에 모나지라의 미소는 신비롭고 부드럽다. 여인의 입가는 살짝 치켜 올라갔지만 표정을 읽어 내기란 거의 불가능하다. 자세에서 풍겨 나오는 면모에 못지않게 이 미소 역시 모나리자에 초연한 듯 평온한 분위기를 불어넣는다.",
+    "attributes": "The smile of Mona Lisa is mysterious and soft, thanks to the Sfumato that has been applied to the painting and produced dramatic impacts. The woman's mouth is slightly raised, but it is almost impossible to read her facial expression. This smile also gives a tranquil atmosphere to the Mona Lisa.",
     "parts": {
      "hasparts": null,
      "ispartof": null
