@@ -46,7 +46,7 @@ def chisq_and_posthoc_corrected(df):
 
 
 def main():
-    df = pd.read_csv('./keywords.csv', index_col='image')
+    df = pd.read_csv('./annotation_classification.csv', index_col='image')
     #df = pd.read_excel('./keywords.xlsx', index_col='image')
     chisq_and_posthoc_corrected(df)
 
