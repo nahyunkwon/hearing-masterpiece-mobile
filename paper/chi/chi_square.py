@@ -2,6 +2,8 @@ import pandas as pd
 from scipy.stats import chi2_contingency
 from itertools import combinations
 from statsmodels.sandbox.stats.multicomp import multipletests
+import researchpy as rp
+from scipy import stats
 
 
 def get_asterisks_for_pval(p_val):
@@ -45,10 +47,17 @@ def chisq_and_posthoc_corrected(df):
             f"{comb}: p_value: {p_val:5f}; corrected: {corr_p_val:5f} ({get_asterisks_for_pval(corr_p_val)}) reject: {reject}")
 
 
+def cramer(df):
+    table, results = rp.crosstab(df['image'], df['type'], prop='col', test='chi-square')
+
+
 def main():
-    df = pd.read_csv('./annotation_classification.csv', index_col='image')
+    df = pd.read_csv('./annotation_classification_cramer.csv')
     #df = pd.read_excel('./keywords.xlsx', index_col='image')
-    chisq_and_posthoc_corrected(df)
+    #chisq_and_posthoc_corrected(df)
+    #print(df)
+    cramer(df)
+
 
 
 if __name__ == "__main__":

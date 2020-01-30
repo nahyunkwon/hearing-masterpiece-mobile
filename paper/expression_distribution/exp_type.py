@@ -16,12 +16,13 @@ def exp(id):
 
     for obj in ann:
         try:
-            attr_list = obj['remains'].split(',')
+            #attr_list = obj['remains'].split(',')
+            color_list = obj['color'].split(',')
+            loc_list = obj['color'].split(',')
+            size_list = obj['color'].split(',')
             for i in range(len(attr_list)):
-                if attr_list[i].strip() != "":
-                    if attr_list[i].strip() == obj['name']:
-                        print(attr_list[i].strip())
-                        result.append(attr_list[i].strip())
+                if attr_list[i].strip() != "" and attr_list[i].strip() != obj['name']:
+
 
         except AttributeError:
             print('error')
@@ -30,7 +31,15 @@ def exp(id):
     return result
 
 
+def wordcloud():
+    df = pd.read_csv('./expression_type.csv')
+    print(df)
+
+
+
+
 def main():
+
     id = [1, 2, 4, 5, 9, 11, 17, 18]
     final_ids = []
     final = []
@@ -38,14 +47,14 @@ def main():
     for i in id:
         final.append(exp(i))
 
-
-
     print(final)
     #print(len(final_ids))
 
     #final_result = pd.DataFrame(final, index=final_ids)
 
     #final_result.to_csv('./exp.csv')
+
+    wordcloud()
 
 
 if __name__ == "__main__":
