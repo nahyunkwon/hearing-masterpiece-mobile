@@ -160,7 +160,22 @@ function draw_polygon(mode){
         ;
     }
 
-    else if(mode == "p"){ //rough(bbox mode)
+    else if(mode == "p" && lan == "e"){ //rough(bbox mode)
+        img_file = image_data_p_e;
+        d3.selectAll("polygon").remove();
+        svg.selectAll("polygon")
+        .data(img_file.annotation.object)
+        .enter().append("polygon")
+        .attr("points", function(d) {
+            if(d['deleted'] != "1"){
+
+                return d.polygon.pt.map(function(d) {
+                        //console.log(d);
+                        return [x(String(parseInt(d['x'])*opt)),y(String(parseInt(d['y'])*opt))].join(","); }).join(" "); }})
+        ;
+    }
+
+    else if(mode == "p" && lan == "k"){ //rough(bbox mode)
         img_file = image_data_p;
         d3.selectAll("polygon").remove();
         svg.selectAll("polygon")

@@ -37,7 +37,7 @@ def main():
 
     words = []
 
-    selected = desc.loc[desc["img_name"] == "17.jpg"]
+    selected = desc.loc[desc["img_name"] == "1.jpg"]
     selected = selected.reset_index()
 
     counts = []

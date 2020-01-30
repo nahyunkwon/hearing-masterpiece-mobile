@@ -1,0 +1,963 @@
+artwork id,expression,type
+1,clear,0
+1,realistic,0
+1,dark,6
+1,female,5
+1,outline,0
+1,blurred,1
+1,dark,6
+1,grassy background,1
+1,cold,0
+1,dark,0
+1,long,2
+1,straight,2
+1,smooth,1
+1,shiny,6
+1,attractive,0
+1,female,5
+1,trees,5
+1,animals,5
+1,branches,5
+1,beauty,5
+1,empty,3
+1,clean,3
+1,no jewels,3
+1,skin,5
+1,dark,6
+1,classic,0
+1,garment,5
+1,covering the body,3
+1,silk,5
+1,maternal,0
+1,woman,5
+1,body part,5
+1,resting,4
+1,clean,0
+1,resembles a hill or mountain,5
+1,embroidered,3
+1,fabric,5
+1,arm,5
+1,clothing,5
+1,wood,5
+1,feminine,0
+1,body part,5
+1,woman,5
+1,hand,5
+1,clothing,5
+1,background,5
+1,trees,5
+1,fresh,0
+1,tasty,0
+1,background,5
+1,water,5
+1,leaves,5
+1,branch,5
+1,roots,5
+1,nature,5
+1,background,5
+1,bushes,5
+1,wrinkles,5
+1,face,5
+1,fingers,5
+1,arm,5
+1,body,5
+1,anatomy,5
+1,soft,1
+1,clean,0
+1,female,5
+1,outline,5
+1,body part,5
+1,woman,5
+1,mona lisa,5
+1,murky,1
+1,bodied of water between land mass,5
+1,lace,5
+1,clothes decoration,5
+1,neckline,5
+1,background,5
+1,dirt,5
+1,fragile,3
+1,crossed,3
+1,body part,5
+1,a colletive of background scenery of trees or a forest,5
+1,third finger,5
+1,second finger,5
+1,fourth finger,5
+1,second finger,5
+1,third finger,5
+1,clear,0
+1,realistic,0
+1,female,5
+1,background,5
+1,arches,5
+1,smile,4
+1,enigmatic,0
+1,lips,5
+1,close,3
+1,fourth finger,5
+1,finger,5
+1,moon shaped,2
+1,moon shaped,2
+1,round,2
+1,round,2
+2,dark,6
+2,triangular,3
+2,smooth,1
+2,city,5
+2,horizontal,2
+2,striped,2
+2,swirly,2
+2,dashed,2
+2,breeze,5
+2,gust,5
+2,circular shape,2
+2,smooth,1
+2,city,5
+2,shining,6
+2,brush strokes,1
+2,pale,3
+2,glow of the moon,6
+2,moody,1
+2,night sky,5
+2,hill,5
+2,mountain,5
+2,mound,5
+2,obstructed,3
+2,dark,6
+2,uneven,3
+2,dark,6
+2,discontinuous,3
+2,water like,1
+2,curly,2
+2,light,6
+2,heat,0
+2,night,5
+2,star,5
+2,steeple,5
+2,tall,2
+2,simple,0
+2,brush strokes,1
+2,dark,6
+2,round,2
+2,bushy,1
+2,round,2
+2,background,5
+2,sky,5
+2,shining,6
+2,night sky,5
+2,oil paint,1
+2,light,6
+2,heat,0
+2,space,5
+2,dark,6
+2,rural,0
+2,background,5
+2,village,5
+2,leaf,5
+2,windows,5
+2,pointed roof,2
+2,dark,6
+2,rural,0
+2,village,5
+2,i am not sure but looks good,0
+2,round,2
+2,painting,5
+2,smooth,1
+2,triangles,2
+2,two visible windows,5
+2,city,5
+2,round,2
+2,background,5
+2,sky,5
+2,round,2
+2,dark,6
+2,dark,6
+2,dwelling,5
+2,sleep,0
+2,round shape,2
+2,city,5
+2,round,2
+2,background,5
+2,sky,5
+2,triangular,2
+2,glowing,6
+2,shining,6
+2,pale,3
+2,magical,0
+2,round,2
+2,simple,0
+2,sky,5
+2,little,2
+2,lit,6
+2,unclear,0
+2,distant,0
+2,bluish,0
+2,next to church,0
+2,comfort,0
+2,home,5
+2,round,2
+2,round,2
+2,comfort,0
+2,home,5
+2,triangle,2
+2,smooth,1
+2,city,5
+2,triangular,2
+2,obscured partially,3
+2,comfort,0
+2,sweet,0
+2,home,5
+2,partial,3
+2,near tree,0
+2,red striped roof,5
+2,dark,6
+2,wooden made,1
+2,glass,5
+2,comfort,0
+2,home,5
+2,dark,6
+2,wooden made,1
+2,rectangular,2
+2,dark,6
+2,distant,0
+2,wooden like,1
+2,lit,6
+2,distant,0
+2,wooden like,1
+2,deep gold,8
+4,shadows,0
+4,female dress,5
+4,headwear,5
+4,keeps hair in place,0
+4,cloth,5
+4,head wrap,5
+4,silk dress or gown,5
+4,facing viewer,4
+4,covered by dress,3
+4,smile,4
+4,pointed nose,2
+4,famous person,5
+4,portrait,0
+4,focus of the painting,0
+4,relaxed,4
+4,hat,5
+4,body part,5
+4,girl,5
+4,darker,6
+4,binding,3
+4,cloth,5
+4,soft,1
+4,cloth,5
+4,face,5
+4,girl,5
+4,head,5
+4,skin,5
+4,girl,5
+4,body part,5
+4,jaw,5
+4,female,5
+4,turned,4
+4,slim,2
+4,turned,3
+4,cheekbone,5
+4,smooth,1
+4,female,5
+4,smile,4
+4,cotten,1
+4,female,5
+4,lips,5
+4,semi opened,4
+4,smile,4
+4,open,3
+4,jewel,5
+4,silver,8
+4,round,2
+4,shines,6
+4,attractive,0
+4,full,3
+4,smooth,1
+4,soft,1
+4,soft,1
+4,dark,6
+4,staring,4
+4,dark,6
+4,staring,4
+4,thin,2
+4,thin,2
+4,round,2
+4,smile,4
+5,confuse,3
+5,looking,4
+5,surprise,3
+5,walking,4
+5,looking,4
+5,adult,5
+5,curious,3
+5,big,2
+5,confuse,3
+5,anguish,3
+5,sadness,3
+5,despair,3
+5,death,0
+5,heart break,4
+5,turmoil,0
+5,surprise,4
+5,big eye,5
+5,angry,3
+5,mean,4
+5,strong,0
+5,scared,3
+5,mouth open,4
+5,scared,3
+5,rectangular,2
+5,monochrome,0
+5,tilted,3
+5,worried,3
+5,scared,3
+5,tear drop shaped,2
+5,anguish,3
+5,death,0
+5,darkness,6
+5,disturbing,4
+5,beheaded,3
+5,severed,3
+5,eye shaped,2
+5,spiky edges,2
+5,broken,3
+5,damaged,3
+5,shattered,3
+5,broken dagger,3
+5,pale,3
+5,square,2
+5,centrally positioned,2
+5,bricks,5
+5,hair,5
+5,flowing,4
+5,thick,2
+5,bushy,1
+5,angular,2
+5,monochrome,0
+5,arm,5
+5,body,5
+5,anatomy,5
+5,foot,5
+5,toes,5
+5,shaded,6
+5,extended,2
+5,wiry,2
+5,horse tail,5
+5,full of lines,2
+5,strange shape,2
+5,extended in the floor,2
+5,abstract,3
+5,big,2
+5,dead,0
+5,overturned,3
+5,children,5
+5,quadrilateral,2
+5,rectangle,2
+5,open,3
+5,toothy,0
+5,screaming,4
+5,rectangular,2
+5,painful,3
+5,twisted,3
+5,teeth,5
+5,pointy,2
+5,spike,5
+5,horse,5
+5,foot,5
+5,metal,5
+5,tilted,3
+5,nose,5
+5,bull,5
+5,2d,0
+5,nostrils,5
+5,half-star shaped.,2
+5,arrow,5
+5,lightbulb,5
+5,2d,0
+5,vague,0
+5,basic,0
+5,simple.,0
+5,teardrop shaped,2
+5,floor,5
+5,beauty,0
+5,pointed,2
+5,bone,5
+5,roughly oval,2
+5,foot,5
+5,leg,5
+5,round,2
+5,spike,5
+5,point,0
+5,geometry,0
+5,math,0
+5,scream,4
+5,strange,0
+5,vitreous,0
+5,deadly look,3
+5,vertical position,2
+5,open,3
+5,stylized,0
+5,gaze,4
+5,scared,3
+5,bulging,3
+5,goggle,4
+5,looking helpless,3
+5,eyeball,5
+5,basic,0
+5,2d,0
+5,figure,5
+5,misplaced,3
+5,abstract,3
+5,vague,0
+5,unclear,0
+5,open,3
+5,stylized,0
+5,circular,2
+5,closed,3
+5,thin,2
+9,elderly man,5
+9,stern,4
+9,bald,3
+9,angry,3
+9,glasses,5
+9,religious,0
+9,portrait,0
+9,female,5
+9,severe,3
+9,rural clothes,5
+9,farmer,5
+9,severe,3
+9,foggy,1
+9,clouds,5
+9,air,5
+9,long sleeves,2
+9,thick,2
+9,patterned,0
+9,smart,0
+9,conservative,0
+9,clean.,0
+9,dungarees,5
+9,overalls,5
+9,denim,5
+9,overalls,5
+9,old,3
+9,worn,3
+9,dingy,3
+9,work outfit,5
+9,farmer clothes,5
+9,body part,5
+9,face is a important to human life,0
+9,tool,5
+9,steel,5
+9,trident,5
+9,buttons,5
+9,forehead the forehead is an area of the head bounded by three features,0
+9,the edge of the area where hair on the scalp grows.,0
+9,shingles,0
+9,roof,5
+9,dark,6
+9,wood,5
+9,glass/wood,5
+9,attic,5
+9,ogive,5
+9,glass,5
+9,panes,5
+9,light,6
+9,four fingers,5
+9,toe,5
+9,square,2
+9,triangle,2
+9,land,5
+9,rectangle,2
+9,house,5
+9,closed window,3
+9,mud colour,0
+9,tin roof,5
+9,panels,5
+9,face,5
+9,round,2
+9,metal/glass,5
+9,decorative,3
+9,border,0
+9,roof,5
+9,eave,5
+9,shirt,5
+9,stiff,5
+9,branches,5
+9,background,5
+9,circular,2
+9,house,5
+9,protection,0
+9,barn,5
+9,wood,5
+9,behind,3
+9,clean,0
+9,smart,0
+9,outfit,5
+9,collar,5
+9,face,5
+9,head,5
+9,glass,5
+9,decoration,5
+9,face,5
+9,man,5
+9,man_s chin,5
+9,old skin,5
+9,wrinkled,3
+9,barn,5
+9,nose is a very important for life,0
+9,organic,0
+9,vase,5
+9,decoration,5
+9,woman_s nose,5
+9,face,5
+9,shape,2
+9,average,0
+9,organic,0
+9,good,0
+9,room,5
+9,pattern,5
+9,dark,6
+9,male lips,5
+9,stern,4
+9,straight,2
+9,closed,3
+9,elderly,5
+9,necklace,5
+9,little,2
+9,oval,2
+9,eyes are see all things to and help more,0
+9,post,5
+9,column,5
+9,porch post,5
+9,vertical,2
+9,decoration,5
+9,usefull,0
+9,essencial,0
+9,strand,5
+9,loose,3
+9,blond,5
+9,soft,1
+9,female,5
+9,eyeball,5
+9,distant,3
+9,sad.,3
+9,pointy,2
+9,three stems,5
+9,plant pot,5
+9,round,2
+9,round,2
+11,cobblestone street,5
+11,bumpy,1
+11,not smooth,1
+11,rough walk,1
+11,ground,5
+11,silver,8
+11,arch,5
+11,tall,2
+11,cobblestone,5
+11,round,2
+11,bumpy,1
+11,old,3
+11,distant,3
+11,building,5
+11,dark,6
+11,home,5
+11,house,5
+11,rectangle,2
+11,this is restaurant floor and peoples walk its concrete,0
+11,background,5
+11,dark,6
+11,far away,3
+11,distant,3
+11,door,5
+11,rectangle,2
+11,round,2
+11,shop window,5
+11,distant,3
+11,dark,6
+11,chair,5
+11,dining chair,5
+11,near table,0
+11,rectangle,2
+11,4x4,0
+11,door,5
+11,restaurant,5
+11,dining table,5
+11,wood,5
+11,open,3
+11,window,5
+11,male,5
+11,30,0
+11,at work,3
+11,distant,3
+11,panes,5
+11,near table,0
+11,shaded,6
+11,glass,5
+11,wood,5
+11,open,3
+11,window,5
+11,walk,4
+11,female,5
+11,40,0
+11,saree,5
+11,wood,5
+11,open,3
+11,window,5
+11,near table,0
+11,dark,6
+11,four-legs,5
+11,tan,3
+11,old,3
+11,off,0
+11,standing,4
+11,near door,0
+11,four-legs,5
+11,walking,4
+11,cross,3
+11,wood,5
+11,open,3
+11,window,5
+11,man standing in the restaurant little tall,4
+11,dark,6
+11,looming,6
+11,shadow,6
+11,person,5
+11,seated,4
+11,not detailed,3
+11,abstract,3
+11,sitting,4
+11,red clothes,5
+11,hat,5
+11,table chair,5
+11,four-legs,5
+11,lit,6
+11,night,5
+11,sky,5
+11,high,3
+11,round,2
+11,outdoor,5
+11,wood,5
+11,cafè,5
+11,snow is blowing in the winter season very cold,3
+11,round in shape,2
+11,round,2
+11,stars,5
+11,night sky,5
+11,shining,6
+11,light,6
+11,over the city,3
+11,light on,6
+11,distant,3
+11,faint,3
+11,night,5
+17,woman man dog,5
+17,appears pregnant,3
+17,holding stomach,4
+17,holding the woman_s hand,4
+17,standing closest to the window,4
+17,red velvet,5
+17,old fashioned,3
+17,folds,3
+17,earthy,1
+17,grainy,1
+17,sewn,3
+17,fabric,5
+17,dress,5
+17,open,3
+17,window,5
+17,light,6
+17,clear,0
+17,clothing,5
+17,fabric,5
+17,ornate,3
+17,lighting,6
+17,gold,8
+17,brass,5
+17,gold,8
+17,gothic,0
+17,hanging,3
+17,heavy,0
+17,shiny,6
+17,straight,2
+17,dress,5
+17,bunched fabric,3
+17,detailed,3
+17,vivid,0
+17,wood,5
+17,patterned,3
+17,dark,6
+17,young,3
+17,long-haired,3
+17,long hair,3
+17,terrier-like,2
+17,smooth,1
+17,on the man_s head,3
+17,bed canopy,5
+17,fabric,5
+17,dark,6
+17,gathered,3
+17,woman_s belly,5
+17,pregnant,3
+17,baby bump,5
+17,intimate,4
+17,with child,3
+17,on man_s head,3
+17,floppy,3
+17,heavy,0
+17,dark,6
+17,wooden appearance,1
+17,room,5
+17,handshake,4
+17,man,5
+17,women,5
+17,circle in shape,2
+17,ornate,3
+17,relfecting,3
+17,gold,7
+17,wood,5
+17,clear,0
+17,clean,3
+17,2 shoes,5
+17,feminine,0
+17,sandals,5
+17,wooden,1
+17,clogs,5
+17,sandles,5
+17,women_s sleeve,5
+17,fur,1
+17,long,2
+17,hanging,3
+17,dirty,3
+17,elegant,0
+17,expensive,0
+17,bed post,5
+17,wooden,1
+17,tall.,2
+17,lacy,1
+17,detailed,3
+17,woman_s head wear,5
+17,high,3
+17,stained glass window,5
+17,circular pattern,2
+17,heavy,0
+17,sturdy,0
+17,open,3
+17,folded,3
+17,wood,5
+17,dark,6
+17,rectangle,2
+17,wood,5
+17,fabric,5
+17,cushion,5
+17,dark,6
+17,comfort,0
+17,seated,4
+17,satin,5
+17,plumped,3
+17,comfort,5
+17,rug,5
+17,patterned,0
+17,hidden,3
+17,dark,6
+17,grainy,1
+17,matte,1
+17,body part,5
+17,woman,5
+17,graffiti,5
+17,writing,5
+17,script,5
+17,wall mirror,5
+17,shadow,6
+17,man,5
+17,women,5
+17,mother,5
+17,breastfeeding,4
+17,pregnant,3
+17,heat,0
+17,measurement,0
+17,temperature,0
+17,man,5
+17,body part,5
+17,skin,5
+17,back with light,5
+17,man_s hand,5
+17,graceful,0
+17,female hand,5
+17,flexed,2
+17,resting,4
+17,pale,3
+17,long,2
+17,hand,5
+17,extended,2
+17,female arm,5
+17,wrinkled texture,3
+17,on the floor,0
+17,background,5
+17,wood,5
+17,gathered,3
+17,holding dress,4
+17,tight,2
+17,head,5
+17,face,5
+17,woman,5
+17,shoes,5
+17,man,5
+17,nose of man,5
+17,woman,5
+17,jewelry,5
+17,neck,5
+17,gold,7
+17,lips,5
+17,vision,5
+17,circular,2
+17,meek,3
+17,sphere,5
+17,face,5
+17,body part,5
+17,woman,5
+17,pressed lips,4
+17,female lips,5
+17,low look,4
+17,semi closed,4
+17,taste,0
+17,eat,0
+17,tongue,5
+17,low look,4
+17,semi closed,4
+17,smooth,1
+17,circle,2
+17,olfactory,0
+17,circle,2
+17,standing,4
+18,woman with dark hair,5
+18,naked,3
+18,dark-haired,5
+18,body,5
+18,pale,3
+18,creamy,1
+18,female,5
+18,naked,3
+18,pale,3
+18,long hair,5
+18,brunnette,5
+18,dark,6
+18,distorted,2
+18,body,5
+18,body,5
+18,indecent,0
+18,naked,3
+18,shameless,0
+18,commando,0
+18,liberated.,3
+18,bent,2
+18,flat,2
+18,cubistic,0
+18,surreal,0
+18,long,2
+18,straight,2
+18,strong fingers,0
+18,hand,5
+18,pale,3
+18,creased,3
+18,soft,1
+18,decency,0
+18,protection,0
+18,safety,0
+18,feel comfortable,0
+18,female,5
+18,disproportionate,2
+18,naked,3
+18,dark,6
+18,shadowed,6
+18,visible armpit,0
+18,female arm,5
+18,natural looking,0
+18,clenched fist,4
+18,obtuse lines,1
+18,female arm,5
+18,dark,6
+18,round,2
+18,oblong,2
+18,african,5
+18,peach,8
+18,woman,5
+18,smooth,1
+18,thin,2
+18,muscular,0
+18,fit,0
+18,well-toned,0
+18,active,3
+18,dominant strength.,0
+18,eyes wide open,3
+18,oval,2
+18,fruit,5
+18,circles,2
+18,woman,5
+18,peach,8
+18,cream,8
+18,tame hair,0
+18,beautiful,0
+18,taken-care of hair,0
+18,straight hair,2
+18,peach,8
+18,smooth,1
+18,woman,5
+18,naked,3
+18,female,5
+18,smooth texture,1
+18,contrasted,3
+18,conspicuous,3
+18,nude,3
+18,finger,5
+18,dark,6
+18,dark,6
+18,smooth,1
+18,pale,3
+18,messy texture,1
+18,round,2
+18,stylized,0
+18,long,2
+18,narrow,2
+18,human ear,5
+18,skin,5
+18,face(nose),5
+18,eye,5
+18,see,4
+18,vision,0
+18,circular,2
+18,round,2
+18,big,2
+18,shook,3
+18,in awe,3
+18,screaming,3
+18,wide-mouthed,3
+18,embarrased,3
+18,nose,5
+18,dark,6
+18,eye,3
+18,stylized,0
+18,profile,0
+18,flat nosed,2
+18,art missed her nose,0
+18,unique art,0
+18,2-d drawing,0
+18,eye,5
+18,clear,0
+18,visible,0
+18,distorted,3
+18,long,2
+18,sharp,2
+18,pointy,2
+18,human,5
+18,nose,5
+18,skin,5
+18,clear,0
+18,dark,6
+18,slightly oppened,3
+18,closed,3
+18,closed,3

@@ -22,10 +22,12 @@ else if(mode == "p"){
 
 var art_src_m = "art_filtered/art_filtered_eng/";
 var art_src_p = "art_prof_processed/";
+var art_src_p_e = "art_prof_eng/";
 var art_src_k = "art_filtered/art_filtered_kor/";
 
 var image_data_m = null;
 var image_data_p = null;
+var image_data_p_e = null;
 var image_data_k = null;
 
 $.ajax({
@@ -45,6 +47,16 @@ $.ajax({
     'dataType': "json",
     'success': function (data) {
         image_data_p = data;
+    }
+});
+
+$.ajax({
+    'async': false,
+    'global': false,
+    'url': "./img_data/"+art_src_p_e+String(img_id)+".json",
+    'dataType': "json",
+    'success': function (data) {
+        image_data_p_e = data;
     }
 });
 
