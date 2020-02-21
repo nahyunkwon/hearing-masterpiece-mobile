@@ -12,11 +12,17 @@ $.ajax({
 
 var row = document.getElementById('row');
 
-function add_image(div, src_folder, image_id){
+function add_image(div, src_folder, image_id, edit_url){
+
+    var link = document.createElement('a');
+    link.href = edit_url;
 
     var img = document.createElement('img');
     img.src = src_folder + image_id.toString() + ".jpg";
-    div.appendChild(img);
+
+    link.appendChild(img);
+    div.appendChild(link);
+
 }
 
 function capitalize_first_letter(str){
@@ -48,12 +54,12 @@ function generate_index(image_json){
 
         var thumbnail_wrapper = document.createElement('div');
         thumbnail_wrapper.className = 'thumbnail-wrapper';
-        add_image(thumbnail_wrapper, "thumbnail_image/", i+1);
+
+        var edit_url = "http://ec2-3-19-255-25.us-east-2.compute.amazonaws.com///LabelMeAnnotationTool/tool.html?mode=i&collection=art_2.0&folder=art_2.0&image=" + Object.values(image_json[i])[1] + ".jpg&N=5&viewobj=e&username=" +username;
+        var translate_url = "http://ec2-3-19-255-25.us-east-2.compute.amazonaws.com///LabelMeAnnotationTool/tool.html?mode=t&collection=art_2.0&folder=art_2.0&image=" + Object.values(image_json[i])[1] + ".jpg&N=5&viewobj=e&username=" +username;
+
+        add_image(thumbnail_wrapper, "thumbnail_image/", i+1, edit_url);
         inner_card.appendChild(thumbnail_wrapper);
-
-        var edit_url = "http://ec2-3-19-255-25.us-east-2.compute.amazonaws.com///LabelMeAnnotationTool/tool.html?collection=art_2.0&mode=a&folder=art_2.0&image=" + card.id + ".jpg&N=5&viewobj=e&username=" +username;
-
-        thumbnail_wrapper.href = edit_url;
 
         var image_info = document.createElement('div');
         image_info.className = 'image-info';
@@ -70,6 +76,8 @@ function generate_index(image_json){
             }
 
         }
+
+        image_info_text += "[<a href=\"" + edit_url + "\">Edit</a>]";
 
         image_info.innerHTML = image_info_text;
 
