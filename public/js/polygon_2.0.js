@@ -20,94 +20,6 @@ function change_desc_mode(){
     }
 }
 
-function convertArrayOfObjectsToCSV(args) {
-        var result, ctr, keys, columnDelimiter, lineDelimiter, data;
-
-        data = args.data || null;
-        if (data == null || !data.length) {
-            return null;
-        }
-
-        columnDelimiter = args.columnDelimiter || ',';
-        lineDelimiter = args.lineDelimiter || '\n';
-
-        keys = Object.keys(data[0]);
-
-        result = '';
-        result += keys.join(columnDelimiter);
-        result += lineDelimiter;
-
-        data.forEach(function(item) {
-            ctr = 0;
-            keys.forEach(function(key) {
-                if (ctr > 0) result += columnDelimiter;
-
-                result += item[key];
-                ctr++;
-            });
-            result += lineDelimiter;
-        });
-
-        return result;
-    }
-
-function download_csv(args) {
-        var data, filename, link;
-        var csv = convertArrayOfObjectsToCSV({
-            data: log_array
-        });
-        if (csv == null) return;
-
-        filename = args || username+"_log.csv";
-
-        if (!csv.match(/^data:text\/csv/i)) {
-            csv = 'data:text/csv;charset=utf-8,' + csv;
-        }
-        data = encodeURI(csv);
-
-        link = document.createElement('a');
-        link.setAttribute('href', data);
-        link.setAttribute('download', filename);
-        link.click();
-    }
-
-
-function collect_log(username, point_x, point_y){
-    current_log = {};
-    current_log['username'] = username;
-    current_log['point_x'] = event.pageX;
-    current_log['point_y'] = event.pageY;
-
-    log_array.push(current_log);
-    /*
-    if(log_array.length %10 == 0 && log_array.length >= 10){
-
-        localStorage.setItem('myStorage', JSON.stringify(log_array));
-
-        JSON.parse(localStorage.getItem('myStorage'));
-
-    }
-    */
-}
-
-function get_log_file(){
-    var result = convertArrayOfObjectsToCSV(log_array);
-    download_csv(result);
-}
-
-function find_by_file_id(image_data, img_id){
-    for(var i=0;i<image_data.images.length;i++){
-        if(image_data.images[i].id == img_id){
-            return image_data.images[i];
-        }
-    }
-    return -1;
-  }
-
-function hasNumber(myString) {
-  return /\d/.test(myString);
-}
-
 function get_objects_list(annotations){
     result_list = []
     objects_list = [];
@@ -146,10 +58,10 @@ function draw_polygon(mode){
         d3.selectAll("polygon").remove();
         svg.selectAll("polygon")
         .data(img_file.annotation.object)
+        .enter().append("polygon")
         .attr("id", function(d){
             return d['id'];
         })
-        .enter().append("polygon")
         .attr("points", function(d) {
             if(d['deleted'] == "0"){
 
@@ -286,15 +198,26 @@ function draw_parts(parts_list){
     svg.selectAll("polygon").remove();
     img_file = image_data_m;
 
+    parts_object = []
+
+    for(var i=0;i<image_data_m.annotation.object.length;i++){
+        if(list_contains(parts_list.split(','), image_data_m.annotation.object[i]['id'].toString())){
+
+            parts_object.push(image_data_m.annotation.object[i]);
+        }
+
+    }
+
+
     d3.selectAll("polygon").remove();
     svg.selectAll("polygon")
-    .data(img_file.annotation.object)
+    .data(parts_object)
     .enter().append("polygon")
     .attr("id", function(d){
         return d['id'];
     })
     .attr("points", function(d) {
-        if(d['deleted'] == "0" && list_contains(parts_list.split(','), d['id'])){
+        if(d['deleted'] == "0"){
 
             return d.polygon.pt.map(function(d) {
                     //console.log(d);
@@ -362,38 +285,6 @@ function draw_parts(parts_list){
                 }
             }
             return cat;
-        }
-        else if(mode == "m" && lan == "k" && typeof attr_sound == "undefined"){
-        /*
-            var cat = d.name + "..";
-            if(d.remains != ""){
-                cat = cat + d.remains;
-            }
-            if(d.color != ""){
-                cat = cat + ", 색깔은 "+d.color;
-            }
-            if(d.location !=""){
-                cat = cat + ", 위치는 " + d.location;
-            }
-            return cat;
-            */
-            return d.name + ".." + d.attributes;
-        }
-        else if(mode == "m" && lan == "k" && attr_sound == "po"){
-        /*
-            var cat = d.name + "..";
-            if(d.remains != ""){
-                cat = cat + d.remains;
-            }
-            if(d.color != ""){
-                cat = cat + ", 색깔은 "+d.color;
-            }
-            if(d.location !=""){
-                cat = cat + ", 위치는 " + d.location;
-            }
-            return cat;
-            */
-            return d.name;
         }
         else if(mode == "label" || mode == "parts"){
             return d.name;
@@ -514,126 +405,3 @@ function zoomed() {
 
   draw_polygon(mode);
 
-  //svg.call(zoomListener);
-
-/*
-var objects =  svg2.append("text")
-   .attr("y", 93)//magic number here
-   .attr("x", 5)
-   .attr("class", "object_list")//easy to style with CSS
-   .data([objects_list])
-   .text(function(d){
-    return(d);
-   })
-   .on("click", function(d){console.log(d);});
-*/
-var data = //[{label: "상세설명모드", x: parseInt(img_file.width)+70, y: 30 },
-            [{label: "Segmentation Mode", x: 70, y:  parseInt(img_file.height)+70}];
-            //{label: "Reset", x: 230, y: 60  }];
-/*
-var button = d3.button()
-    .on('press', function(d, i) {
-        if(d.label == "Voice"){
-            voice_flag = voice(voice_flag);
-        }
-        else if(d.label == "Segmentation Mode"){
-            seg_mode = change_seg_mode(seg_mode);
-            draw_polygon(seg_mode);
-        }
-        else if(d.label == "Reset"){
-            reset();
-            this.release();
-        }
-        else if(d.label == "상세설명모드"){
-
-            svg.selectAll("svg:title").remove();
-
-            desc_mode = change_desc_mode();
-            draw_polygon();
-        }
-    })
-    .on('release', function(d, i) {
-        if(d.label == "Voice"){
-            voice_flag = voice(voice_flag);
-        }
-        else if(d.label == "Segmentation Mode"){
-            seg_mode = change_seg_mode(seg_mode);
-            draw_polygon(seg_mode);
-        }
-        else if(d.label == "상세설명모드"){
-
-            desc_mode = change_desc_mode();
-            draw_polygon();
-
-        }
-    });
-
-var buttons = svg.selectAll('.button')
-    .data(data)
-  .enter()
-    .append('g')
-    .attr('class', 'button')
-    .call(button);
-    */
-/*
-function reset() {
-    var t = d3.zoomIdentity.translate(0, 0).scale(1)
-    svg.call(zoomListener.transform, t)
-}
-
-function doc_keyUp(e) {
-    if (e.ctrlKey && e.keyCode == 86) { //enable voice (ctrl+v)
-        voice_flag = voice(voice_flag);
-    }
-    else if(e.ctrlKey && e.keyCode == 83){ //change seg mode (ctrl+s)
-        seg_mode = change_seg_mode(seg_mode);
-        draw_polygon(seg_mode);
-    }
-    else if(e.ctrlKey && e.keyCode == 68){ //download log file (ctrl+d)
-        get_log_file();
-    }
-    else if(e.keyCode == 39){
-        if(sorted_count < sorted_by_point.length-1){
-            sorted_count++;
-            responsiveVoice.speak(sorted_by_point[sorted_count], language);
-        }
-        else{
-            responsiveVoice.speak(sorted_by_point[sorted_by_point.length-1], language);
-        }
-    }
-    else if(e.keyCode == 37){
-        if(sorted_count > 0){
-            sorted_count--;
-            responsiveVoice.speak(sorted_by_point[sorted_count], language);
-        }
-        else{
-            responsiveVoice.speak(sorted_by_point[0], language);
-        }
-    }
-}
-// register the handler
-document.addEventListener('keyup', doc_keyUp, false);
-*/
-
-function seg_mode_button(seg_mode){
-     seg_mode = change_seg_mode(seg_mode);
-     draw_polygon(seg_mode);
-
-     return seg_mode;
-}
-
-
-var arrayToModify = [];
-
-var lastTouchEnd = 0;
-document.documentElement.addEventListener('touchend', function (event) {
-    var now = (new Date()).getTime();
-    if (now - lastTouchEnd <= 300) {
-      event.preventDefault();
-    }
-    lastTouchEnd = now;
-}, false);
-
-function objects_list_to_string(objects_list){
-    return String(objects_list);
-}
