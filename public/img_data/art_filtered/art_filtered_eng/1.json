@@ -565,7 +565,7 @@
     "occluded": null,
     "attributes": "beauty, black",
     "parts": {
-     "hasparts": null,
+     "hasparts": "4,6,16,34",
      "ispartof": null
     },
     "date": "25-Jul-2019 18:21:14",

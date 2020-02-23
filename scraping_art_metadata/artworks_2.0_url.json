@@ -1,0 +1,226 @@
+[
+  {
+    "index": 0,
+    "ID": 1,
+    "title": "Lamentation",
+    "artist": "Giotto Di Bondone",
+    "url": "https://www.wikiart.org/en/giotto/lamentation-the-mourning-of-christ-1306-1"
+  },
+  {
+    "index": 1,
+    "ID": 2,
+    "title": "Annunciation",
+    "artist": "Fra Angelico",
+    "url": "https://www.wikiart.org/en/fra-angelico/annunciation-1443"
+  },
+  {
+    "index": 2,
+    "ID": 3,
+    "title": "The Arnolfini Portrait",
+    "artist": "Jan Van Eyck",
+    "url": "https://www.wikiart.org/en/jan-van-eyck/the-arnolfini-wedding-the-portrait-of-giovanni-arnolfini-and-his-wife-giovanna-cenami-the-1434"
+  },
+  {
+    "index": 3,
+    "ID": 4,
+    "title": "The Baptism of Christ",
+    "artist": "Piero Della Francesca",
+    "url": "https://www.wikiart.org/en/piero-della-francesca/baptism-of-christ-1450"
+  },
+  {
+    "index": 4,
+    "ID": 5,
+    "title": "The Birth of Venus",
+    "artist": "Sandro Botticelli",
+    "url": "https://www.wikiart.org/en/sandro-botticelli/the-birth-of-venus-1485"
+  },
+  {
+    "index": 5,
+    "ID": 6,
+    "title": "The Garden of Earthly Delights",
+    "artist": "Hieronymus Bosch",
+    "url": "https://www.wikiart.org/en/hieronymus-bosch/the-garden-of-earthly-delights-1515-5"
+  },
+  {
+    "index": 6,
+    "ID": 7,
+    "title": "Mona Lisa",
+    "artist": "Leonardo Da Vinch",
+    "url": "https://www.wikiart.org/en/leonardo-da-vinci/mona-lisa"
+  },
+  {
+    "index": 7,
+    "ID": 8,
+    "title": "The School of Athens",
+    "artist": "Raffaello",
+    "url": "https://www.wikiart.org/en/raphael/school-of-athens-detail-from-right-hand-side-showing-diogenes-on-the-steps-and-euclid-1511"
+  },
+  {
+    "index": 8,
+    "ID": 9,
+    "title": "Sistine Chapel Ceiling",
+    "artist": "Michelangelo",
+    "url": "https://www.wikiart.org/en/michelangelo/sistine-chapel-ceiling-1512"
+  },
+  {
+    "index": 9,
+    "ID": 10,
+    "title": "Bacchus and Ariadne",
+    "artist": "Tiziano",
+    "url": "https://www.wikiart.org/en/titian/bacchus-and-ariadne-1523"
+  },
+  {
+    "index": 10,
+    "ID": 11,
+    "title": "The Ambassadors",
+    "artist": "Hans Holbein The Younger",
+    "url": "https://www.wikiart.org/en/hans-holbein-the-younger/the-ambassadors-1533"
+  },
+  {
+    "index": 11,
+    "ID": 12,
+    "title": "Netherlandish Proverbs",
+    "artist": "Pieter Bruegel The Elder",
+    "url": "https://www.wikiart.org/en/pieter-bruegel-the-elder/netherlandish-proverbs-1559"
+  },
+  {
+    "index": 12,
+    "ID": 13,
+    "title": "The Burial of the Count of Orgaz",
+    "artist": "El Greco",
+    "url": "https://www.wikiart.org/en/el-greco/the-burial-of-the-count-of-orgaz-1587"
+  },
+  {
+    "index": 13,
+    "ID": 14,
+    "title": "Charles 1 on Horseback",
+    "artist": "Anthony Van Dyck",
+    "url": "https://www.wikiart.org/en/anthony-van-dyck/charles-i-on-horseback"
+  },
+  {
+    "index": 14,
+    "ID": 15,
+    "title": "Las Meninas",
+    "artist": "Diego Velazquez",
+    "url": "https://www.wikiart.org/en/diego-velazquez/las-meninas-detail-of-the-lower-half-depicting-the-family-of-philip-iv-of-spain-1656"
+  },
+  {
+    "index": 15,
+    "ID": 16,
+    "title": "The Art of Painting",
+    "artist": "Johannes Vermeer",
+    "url": "https://www.wikiart.org/en/johannes-vermeer/the-art-of-painting"
+  },
+  {
+    "index": 16,
+    "ID": 17,
+    "title": "The Marriage Contract",
+    "artist": "William Hogarth",
+    "url": "https://www.wikiart.org/en/william-hogarth/the-marriage-contract"
+  },
+  {
+    "index": 17,
+    "ID": 18,
+    "title": "Mr and Mrs Andrews",
+    "artist": "Thomas Gainsborough",
+    "url": "https://www.wikiart.org/en/thomas-gainsborough/mr-and-mrs-andrews-1749"
+  },
+  {
+    "index": 18,
+    "ID": 19,
+    "title": "An Experiment on a Bird in the Air Pump",
+    "artist": "Joseph Wright",
+    "url": "https://www.wikiart.org/en/joseph-wright/an-experiment-on-a-bird-in-the-air-pump-1768"
+  },
+  {
+    "index": 19,
+    "ID": 20,
+    "title": "The Death of Marat",
+    "artist": "Jacques-Louise David",
+    "url": "https://www.wikiart.org/en/jacques-louis-david/the-death-of-marat-1793"
+  },
+  {
+    "index": 20,
+    "ID": 21,
+    "title": "The Valpincon Bather",
+    "artist": "Jean-Auguste-Dominique Ingres",
+    "url": "https://www.wikiart.org/en/jean-auguste-dominique-ingres/the-bather-of-valpin%C3%A7on"
+  },
+  {
+    "index": 21,
+    "ID": 22,
+    "title": "The Third of May 1808",
+    "artist": "Francisco De Goya",
+    "url": "https://www.wikiart.org/en/francisco-goya/the-third-of-may-1808-execution-of-the-defenders-of-madrid-1814-1"
+  },
+  {
+    "index": 22,
+    "ID": 23,
+    "title": "Wanderer above the Sea of Fog",
+    "artist": "Caspar David Friedrich",
+    "url": "https://www.wikiart.org/en/caspar-david-friedrich/the-wanderer-above-the-sea-of-fog"
+  },
+  {
+    "index": 23,
+    "ID": 24,
+    "title": "The Raft of the Medusa",
+    "artist": "Theodore Gericault",
+    "url": "https://www.wikiart.org/en/theodore-gericault/the-raft-of-the-medusa-1819"
+  },
+  {
+    "index": 24,
+    "ID": 25,
+    "title": "The Hay Wain",
+    "artist": "John Constable",
+    "url": "https://www.wikiart.org/en/john-constable/the-hay-wain-1821"
+  },
+  {
+    "index": 25,
+    "ID": 26,
+    "title": "The Dance Class",
+    "artist": "Edgar Degas",
+    "url": "https://www.wikiart.org/en/edgar-degas/the-dance-class-1874"
+  },
+  {
+    "index": 26,
+    "ID": 27,
+    "title": "A Sunday on La Grande Jatte",
+    "artist": "Georges-Pierre Seurat",
+    "url": "https://www.wikiart.org/en/georges-seurat/sketch-with-many-figures-for-sunday-afternoon-on-grande-jatte-1884"
+  },
+  {
+    "index": 27,
+    "ID": 28,
+    "title": "The Artist's Studio",
+    "artist": "Gustave Courbet",
+    "url": "https://www.wikiart.org/en/gustave-courbet/the-artist-s-studio-1855"
+  },
+  {
+    "index": 28,
+    "ID": 29,
+    "title": "The Water-Lily Pond",
+    "artist": "Claude Monet",
+    "url": "https://www.wikiart.org/en/claude-monet/the-japanese-bridge-the-water-lily-pond-1899"
+  },
+  {
+    "index": 29,
+    "ID": 30,
+    "title": "The Large Bathers",
+    "artist": "Paul Cezanne",
+    "url": "https://www.wikiart.org/en/paul-cezanne/large-bathers-1906"
+  },
+  {
+    "index": 30,
+    "ID": 31,
+    "title": "Guernica",
+    "artist": "Pablo Picasso",
+    "url": "https://www.wikiart.org/en/pablo-picasso/guernica-1937"
+  },
+  {
+    "index": 31,
+    "ID": 32,
+    "title": "The Kiss",
+    "artist": "Gustave Klimt",
+    "url": "https://www.wikiart.org/en/gustav-klimt/the-kiss-1908"
+  }
+]
