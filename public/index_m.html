@@ -1,0 +1,168 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<!-- Required meta tags -->
+ 	<meta charset="UTF-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+ 	<!-- Bootstrap CSS -->
+ 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+ 	<script src="js/d3.v4.min.js"></script>
+ 	<script src="js/d3.tip.v0.6.3.js"></script>
+ 	<script src="js/responsivevoice.js"></script>
+ 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+ 	<script src="js/d3.button.js"></script>
+
+ 	<title>AccessArt: Digital Art Museum</title>
+
+ </head>
+ <body>
+ 	<script>
+ 		function get_option(option){
+ 			if (option == 'color'){
+ 				if(document.getElementById('color').innerHTML.split('>')[1].split('<')[0] == "Color: ON")
+ 					return 1;
+ 				else
+ 					return 0;
+
+ 			}
+ 			else if(option == "loc"){
+ 				if(document.getElementById('location').innerHTML.split('>')[1].split('<')[0] == "Location: ON")
+ 					return 1;
+ 				else
+ 					return 0;
+ 			}
+ 			else if(option == "exp"){
+ 				if(document.getElementById('expression').innerHTML.split('>')[1].split('<')[0] == "Expression: ON")
+ 					return 1;
+ 				else
+ 					return 0;
+ 			}
+ 			else if(option == "size"){
+ 				if(document.getElementById('size').innerHTML.split('>')[1].split('<')[0] == "Size: ON")
+ 					return 1;
+ 				else
+ 					return 0;
+ 			}
+
+ 		}
+ 	</script>
+ 	<!-- 스타일 지정 -->
+ 	<style type="text/css">
+
+ 		img{
+ 			max-width: 80%;
+ 			height: auto;
+ 		}
+
+ 		.thumbnail-wrapper{
+ 			width: 350px;
+ 		}
+ 		.card-body{
+ 			display: inline-block;
+ 			margin-left:0px
+ 		}
+ 		.card{
+ 			width: 150%;
+ 		}
+ 		.col-md-8{
+ 			width: 150%;
+ 		}
+ 		.row no-gutters{
+ 			text-align: center;
+ 		}
+ 		.list{
+ 			width:100%
+ 		}
+ 		#select{
+ 			margin-left:30px
+ 		}
+
+ 	</style>
+
+ 	<!-- 네이게이션 바 -->
+ 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+ 		<a class="navbar-brand" href="index_home.html">AccessArt: Digital Art Museum</a>
+ 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+ 			<span class="navbar-toggler-icon"></span>
+ 		</button>
+ 		<div class="collapse navbar-collapse" id="navbarNav">
+ 			<ul class="navbar-nav">
+ 			
+
+ 			</ul>
+ 		</div>
+ 	</nav>
+
+ 				<!-- 검색창
+ 				<nav class="navbar navbar-light bg-light">
+ 					<form class="form-inline">
+ 						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+ 						<button class="btn btn-outline-success my-2 my-sm-0" type="submit"><a href="search.html">Search</a></button>
+ 					</form>
+ 				</nav> -->
+
+ 				<!-- 8개의 그림 -->
+ 				<!-- https://mdbootstrap.com/plugins/jquery/gallery/ -->
+ 				
+ 				<center>
+
+					Please activate VoiceOver!:)
+
+ 					<div class="list">
+ 						<div class="row">
+
+
+
+ 							<!-- 첫번쨰 그림 -->
+ 							<div class="card" style="width=100%">
+ 								
+ 								
+
+ 										<a onclick = "location.href = 'https://m-hearing-masterpiece.web.app/index.html?img_id=2_milano'">
+
+ 											<div class="thumbnail-wrapper">
+ 												<h1>
+ 													<img alt="picture" src="./thumbnail_image/2_milano.jpg"
+
+ 													title="Christ and the Woman of Samaria (Cristo e la Samaritana)">
+ 												</h1>
+ 											</div>
+
+ 										</a>
+
+ 									
+ 									<h8>
+ 										<div class="card-body" id="1" style="width:40%">
+											
+											<b>Title: Christ and the Woman of Samaria (Cristo e la Samaritana)</b></b><br><br>
+
+ 							The painting refers to an episode from the Gospel of John, which tells of the dialogue between Jesus and a woman from Samaria. Jesus explains to the woman the difference between the water of the well, which can quench the thirst for a little while, and the faith, a spring that takes away thirst forever.
+<br> 
+<br>It is a realistic and moderately challenging painting to describe. It has a rectangular shape, with the longer side horizontally: the dimensions are 225 cm wide and 170 high.
+<br> 
+<br>The subject depicts, outside and during the day, Jesus and the Samaritan woman, near a well, while the apostles are returning from a village where they have made provisions and are intrigued by the dialogue between the two.
+<br> 
+<br>The point of view adopted by the painter is frontal to the scene and the characters are portrayed in full-length.
+<br> 
+<br>To better describe the work, let us now try to imagine it divided into 9 sectors of equal size, obtained by crossing three columns with three rows. To each sector, by convention, we give the numbering used in telephone keyboards. From left to right: 1, 2, 3 at the top; 4, 5, 6 in the middle; 7, 8, 9 below.
+
+ 										</div>
+								</h8>
+ 									
+
+ 							</div>
+ 							<!-- 첫번쨰 그림 -->
+                            
+ 							</div>
+ 						</center>
+
+
+ 						<!-- Optional JavaScript -->
+ 						<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+ 						<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ 						<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+ 						<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+ 					</body>
+ 					</html>

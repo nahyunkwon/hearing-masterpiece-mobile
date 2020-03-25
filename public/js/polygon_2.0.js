@@ -55,9 +55,20 @@ function draw_polygon(mode){
 
     if(mode == "m" || mode == "label"){ //fine(polygon mode)
         img_file = image_data_m;
+
+        not_parts_object = []
+
+        for(var i=0;i<image_data_m.annotation.object.length;i++){
+            if(image_data_m.annotation.object[i]['parts']['ispartof'] == null){
+
+                not_parts_object.push(image_data_m.annotation.object[i]);
+            }
+
+        }
+
         d3.selectAll("polygon").remove();
         svg.selectAll("polygon")
-        .data(img_file.annotation.object)
+        .data(not_parts_object)
         .enter().append("polygon")
         .attr("id", function(d){
             return d['id'];
