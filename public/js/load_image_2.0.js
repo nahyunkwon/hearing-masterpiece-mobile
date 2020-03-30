@@ -40,41 +40,11 @@ $.ajax({
     }
 });
 
-$.ajax({
-    'async': false,
-    'global': false,
-    'url': "./img_data/"+art_src_p+String(img_id)+".json",
-    'dataType': "json",
-    'success': function (data) {
-        image_data_p = data;
-    }
-});
-
-$.ajax({
-    'async': false,
-    'global': false,
-    'url': "./img_data/"+art_src_p_e+String(img_id)+".json",
-    'dataType': "json",
-    'success': function (data) {
-        image_data_p_e = data;
-    }
-});
-
-$.ajax({
-    'async': false,
-    'global': false,
-    'url': "./img_data/"+art_src_k+String(img_id)+".json",
-    'dataType': "json",
-    'success': function (data) {
-        image_data_k = data;
-    }
-});
-
 var img_width;
 var img_height;
 
-var img_id_list = ["1", "2", "4", "5", "9", "11", "17", "18", "grande"];
-var img_size_list = [[800, 1192], [11141, 8822], [9665, 11367], [1250, 556], [4272,6000], [2880, 3579], [800, 1095], [750, 773], [15596, 10382]];
+var img_id_list = ["1", "2", "4", "5", "9", "11", "17", "18", "grande", "2_milano"];
+var img_size_list = [[800, 1192], [11141, 8822], [9665, 11367], [1250, 556], [4272,6000], [2880, 3579], [800, 1095], [750, 773], [15596, 10382], [1200, 941]];
 
 
 if(img_id == "1"){
@@ -104,6 +74,10 @@ else if(img_id == "18"){
 else if(img_id == "grande"){
     var opt = 0.07;
 }
+else if(img_id = "2_milano"){
+    var opt = 1;
+}
+
 
 for(var i=0;i<img_id_list.length;i++){
     if(img_id_list[i] == img_id){
