@@ -359,10 +359,10 @@ var svg = d3.select(".image").append("svg")
  var audio_flag = 0;
  var audio = null;
 
- if(lan == "e")
-    var img_file = image_data_m;
- else if(lan == "k")
+ if(lan == "k")
     var img_file = image_data_k;
+ else
+    var image_file = image_data_m
 
   var img_file_name = img_file['annotation']['filename'];
 
@@ -401,7 +401,7 @@ function zoomed() {
   }
 
   var image = svg.append('image')
-    .attr('xlink:href', "https://raw.githubusercontent.com/KwonNH/hearing-masterpiece-mobile/master/public/sample_image/"+img_file_name)
+    .attr('xlink:href', "https://raw.githubusercontent.com/KwonNH/hearing-masterpiece-mobile/master/public/milano_image/"+img_file_name)
     .attr("x", 1)
     .attr("y", y_start)
     .attr('width', img_width*opt)
