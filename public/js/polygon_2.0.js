@@ -10,6 +10,7 @@ var log_array = [];
 var log_count = 0;
 
 var desc_mode = 0;
+var current = 0;
 
 function change_desc_mode(){
     if(desc_mode == 0){ //default
@@ -135,7 +136,6 @@ function draw_polygon(mode){
   .style("stroke",function() {
     return "hsl(" + Math.random() * 360 + ",100%,50%)";
   })
-
   .attr("category", function(d){
     d.name = d.name.replace('.', '');
     return d.name;})
@@ -144,13 +144,22 @@ function draw_polygon(mode){
     })
     .dblTap(function(d) {
         if(mode == "label" && d.parts.hasparts != null){
+
             mode = "parts";
             draw_parts(d.parts.hasparts);
+            responsiveVoice.cancel();
+            setTimeout(function(){responsiveVoice.cancel();}, 2000);
         }
     })
     .on("click", function(d){
-        responsiveVoice.cancel();
-        setTimeout(function(){responsiveVoice.speak(d.attributes, language);}, 2000);
+        if(responsiveVoice.isPlaying() && current == d.id){
+            responsiveVoice.cancel();
+        }
+        else{
+            responsiveVoice.cancel();
+            current = d.id;
+            setTimeout(function(){responsiveVoice.speak(d.attributes, language);}, 2000);
+        }
     })
     .append("svg:title")
     .text(function(d) {
@@ -253,11 +262,19 @@ function draw_parts(parts_list){
     .dblTap(function(d) {
 
         draw_polygon("label");
+        responsiveVoice.cancel();
+        setTimeout(function(){responsiveVoice.cancel();}, 2000);
 
     })
     .on("click", function(d){
-        responsiveVoice.cancel();
-        setTimeout(function(){responsiveVoice.speak(d.attributes, language);}, 2000);
+        if(responsiveVoice.isPlaying() && current == d.id){
+            responsiveVoice.cancel();
+        }
+        else{
+            responsiveVoice.cancel();
+            current = d.id;
+            setTimeout(function(){responsiveVoice.speak(d.attributes, language);}, 2000);
+        }
     })
     .append("svg:title")
     .text(function(d) {
@@ -331,7 +348,7 @@ var svg = d3.select(".image").append("svg")
   .attr("preserveAspectRatio", "xMinYMin meet")
   .append("g")
   .dblTap(function() {
-  if(mode == "parts"){
+    if(mode == "parts"){
             mode = "label";
             draw_polygon(mode);
         }
