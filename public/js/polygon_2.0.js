@@ -12,6 +12,18 @@ var log_count = 0;
 var desc_mode = 0;
 var current = 0;
 
+function toggleFullscreen() {
+			let elem = document.getElementById("image"); //this should be the painting area
+
+			if (!document.fullscreenElement) {
+			elem.requestFullscreen().catch(err => {
+			console.log(`Error attempting to enable full-screen mode: ${err.message} (${err.name})`);
+			});
+			} else {
+			document.exitFullscreen();
+			}
+}
+
 function change_desc_mode(){
     if(desc_mode == 0){ //default
         return 1;
@@ -130,35 +142,26 @@ function draw_polygon(mode){
 
     //polygon opacity, fill color(random)
   svg.selectAll("polygon")
-  .style("fill-opacity", .000001)
-  .style("stroke-width", 5)
+  //.style("fill-opacity", .000001)
+  //.style("stroke-width", 5)
   .style("fill-opacity", .0)
-  .style("stroke",function() {
-    return "hsl(" + Math.random() * 360 + ",100%,50%)";
-  })
+  //.style("stroke",function() {
+  //  return "hsl(" + Math.random() * 360 + ",100%,50%)";
+  //})
   .attr("category", function(d){
     d.name = d.name.replace('.', '');
     return d.name;})
     .on("touchstart", function(){
         responsiveVoice.cancel();
     })
-    .dblTap(function(d) {
+
+    .on("click", function(d){
         if(mode == "label" && d.parts.hasparts != null){
 
             mode = "parts";
             draw_parts(d.parts.hasparts);
             responsiveVoice.cancel();
             setTimeout(function(){responsiveVoice.cancel();}, 2000);
-        }
-    })
-    .on("click", function(d){
-        if(responsiveVoice.isPlaying() && current == d.id){
-            responsiveVoice.cancel();
-        }
-        else{
-            responsiveVoice.cancel();
-            current = d.id;
-            setTimeout(function(){responsiveVoice.speak(d.attributes, language);}, 2000);
         }
     })
     .append("svg:title")
@@ -200,7 +203,7 @@ function draw_polygon(mode){
             return cat;
         }
         else if(mode == "label"){ //only label of the polygon
-            return d.name;
+            return d.name + ".. .. .." + d.attributes;
         }
         else if(mode == "attr"){ //only attributes of the polygon
             return d.attributes;
@@ -246,12 +249,12 @@ function draw_parts(parts_list){
 
     //polygon opacity, fill color(random)
   svg.selectAll("polygon")
-  .style("fill-opacity", .000001)
-  .style("stroke-width", 5)
+  //.style("fill-opacity", .000001)
+  //.style("stroke-width", 5)
   .style("fill-opacity", .0)
-  .style("stroke",function() {
-    return "hsl(" + Math.random() * 360 + ",100%,50%)";
-  })
+  //.style("stroke",function() {
+  //  return "hsl(" + Math.random() * 360 + ",100%,50%)";
+  //})
 
   .attr("category", function(d){
     d.name = d.name.replace('.', '');
@@ -259,22 +262,8 @@ function draw_parts(parts_list){
     .on("touchstart", function(){
         responsiveVoice.cancel();
     })
-    .dblTap(function(d) {
-
-        draw_polygon("label");
-        responsiveVoice.cancel();
-        setTimeout(function(){responsiveVoice.cancel();}, 2000);
-
-    })
     .on("click", function(d){
-        if(responsiveVoice.isPlaying() && current == d.id){
-            responsiveVoice.cancel();
-        }
-        else{
-            responsiveVoice.cancel();
-            current = d.id;
-            setTimeout(function(){responsiveVoice.speak(d.attributes, language);}, 2000);
-        }
+        draw_polygon("label");
     })
     .append("svg:title")
     .text(function(d) {
@@ -315,7 +304,7 @@ function draw_parts(parts_list){
             return cat;
         }
         else if(mode == "label" || mode == "parts"){
-            return d.name;
+            return d.name +" .. .. .. "+ d.attributes;
         }
         else if(mode == "attr"){
             return d.attributes;
