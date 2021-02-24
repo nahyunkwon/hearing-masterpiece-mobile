@@ -9,8 +9,8 @@ import pprint
 import json
 import requests
 
-def to_json():
-    with open("./2.xml", 'r', encoding='utf8') as f:
+def to_json(id):
+    with open("./"+str(id)+".xml", 'r', encoding='utf8') as f:
         xmlString = f.read()
 
     print("xml input (xml_to_json.xml):")
@@ -21,7 +21,7 @@ def to_json():
     print("\nJSON output(output.json):")
     print(jsonString)
 
-    with open("./2.json", 'w', encoding='utf8') as f:
+    with open("./"+str(id)+".json", 'w', encoding='utf8') as f:
         f.write(jsonString)
 
 
@@ -86,6 +86,7 @@ def preprocess(src, dest, img_id):
     with open(dest + str(img_id) + '_2.json', 'w') as fp:
         json.dump(image_data, fp, sort_keys=False, indent=1, separators=(',', ': '), ensure_ascii=False)
 
+
 def filterTheDict(dictObj, callback):
     newDict = dict()
     # Iterate over all the items in dictionary
@@ -97,7 +98,11 @@ def filterTheDict(dictObj, callback):
 
 
 def main():
-    preprocess("./", "./", 2)
+    img_id_list = ["2_at", "2_hi"]
+    for i in img_id_list:
+        to_json(i)
+        preprocess("./", "./", i)
+
 
 
 
