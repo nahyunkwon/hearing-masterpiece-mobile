@@ -8,11 +8,13 @@
 
 
 ## Related Publication
-[c.3] Supporting Object-level Exploration of Artworks by Touch for People with Visual Impairments (ASSETS 2019)
+[c.1] Supporting Object-level Exploration of Artworks by Touch for People with Visual Impairments (ASSETS 2019)
 
 [c.2] Supporting a Crowd-powered Accessible Online Art Gallery for People with Visual Impairments: A Feasibility Study (UAIS 2021) 
 
-[c.1] Touch Screen Exploration of Visual Artwork for Blind People (Web Conference 2021)
+[c.3] Touch Screen Exploration of Visual Artwork for Blind People (Web Conference 2021)
+
+Check the papers at https://nahyunkwon.github.io
 
 ## Compatibility
 
