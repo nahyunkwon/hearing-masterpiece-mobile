@@ -37,7 +37,9 @@ Keep the html files and resources in the 'public' directory and follow the instr
 `
 
 `[main url]/index_home_2.0.html (AccessArt v.2 [c.3]: hierarchical exploration)
-![img.png](img.png)`
+`
+
+![img.png](img.png)
 
 Example for AccessArt v.1: [AccessArt v.1 Website](https://m-hearing-masterpiece.web.app/index_home.html) (Activate VoiceOver for appreciation)
 
