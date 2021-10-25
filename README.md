@@ -30,7 +30,7 @@ pip install -r requirements.txt
 This project can be easily deployed using firebase. 
 Keep the html files and resources in the 'public' directory and follow the instruction in [Firebase](https://firebase.google.com/?gclid=CjwKCAjw5c6LBhBdEiwAP9ejG0Pg0Xe9mUSbWq5i8ofCSetqNvMXN4_UJZjVbtpeoPGZFgrn3yocIRoCQM8QAvD_BwE&gclsrc=aw.ds) to deploy.
 
-###Main Page for Image Selection
+### Main Page for Image Selection
 `[main url]/index_home.html (AccessArt v.1 [c.2]: object & part mode exploration)
 `
 
@@ -40,7 +40,7 @@ Keep the html files and resources in the 'public' directory and follow the instr
 Example for AccessArt v.1: [AccessArt v.1 Website](https://m-hearing-masterpiece.web.app/index_home.html) (Activate VoiceOver for appreciation)
 
 
-###Url Parameters for Image Exploration
+### Url Parameters for Image Exploration
 
 Example
 `[main url]/index.html?img_id=1&lan=e&color=1&loc=1&exp=1&size=1
