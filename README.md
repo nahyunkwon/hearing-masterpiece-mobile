@@ -2,7 +2,11 @@
 
 ## Demo
 
-[AccessArt v.1 Website](https://m-hearing-masterpiece.web.app/index_home.html) (Activate VoiceOver for appreciation)
+Activate VoiceOver for appreciation
+
+[AccessArt v.1 Website](https://m-hearing-masterpiece.web.app/index_home.html) 
+
+[AccessArt v.1 Website (Italian Ver.)](http://localhost:63342/image_segmentation_mobile/public/index_home_2.0_it.html)
 
 [Video](https://www.youtube.com/watch?v=JpwQvlvhqLs)
 
